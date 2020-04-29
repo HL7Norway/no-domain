@@ -3,4 +3,5 @@ National domain profiles for the Norwegian realm (Nasjonale områdeprofiler) - F
 
 ## Plan
 
+Utvikle VitalSigns områdeprofiler basert på [hnfresk/hnvitalsigns profiler](https://github.com/hn-fresk/hnvitalsigns/tree/master)
 Utvikle prinsipper og metode for uvikling og forvaltning av nasjonale områdeprofiler.
