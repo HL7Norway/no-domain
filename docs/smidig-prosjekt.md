@@ -1,6 +1,6 @@
 # Smidig utvikling og prosjektstyring av områdeprofiler
 
-I forbindelse med smidig utvikling er det vanlig å bryte oppgavene ned i Epics, Features, PBI eller story for å sortere oppgaver til behov og krav og organisere disse i tid i forhold til leveranser og sprinter. Vi går i denne teksten gjennom hvordan en slik metode kan benyttes i forbindelse med smidig utvikling av nasjonale områdeprofiler for HL7 FHIR.
+I forbindelse med smidig utvikling er det vanlig å bryte oppgavene ned i Epics, Features og Story(PBI) for å sortere oppgaver til behov og krav og organisere disse i tid i forhold til leveranser og sprinter. Vi går i denne teksten gjennom hvordan en slik metode kan benyttes i forbindelse med smidig utvikling av nasjonale områdeprofiler for HL7 FHIR.
 
 ## Overordnet struktur Epics og Features
 
