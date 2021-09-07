@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<lastUpdated value="2021-03-17" />
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="oo" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+		<valueCode value="draft" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+		<valueInteger value="1" />
+	</extension>
+	<url value="http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-sleepstatusvalueset" />
+	<version value="4.0.0" />
+	<name value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2021-03-17"/>
+	<publisher value=""/>
+	<description value="Codes representing Sleep Status"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			
+			<concept>
+				<code value="248218005"/>
+				<display value="Våken"/>
+			</concept>
+			<concept>
+				<code value="248220008"/>
+				<display value="Sovende"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>
