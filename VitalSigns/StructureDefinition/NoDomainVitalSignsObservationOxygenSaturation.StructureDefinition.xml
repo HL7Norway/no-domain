@@ -3,7 +3,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturation" />
   <version value="0.9.0000" />
   <name value="NoDomainVitalSignsObservationOxygenSaturation" />
-  <title value="no-domain-vitalsignsobservation-oxygensaturation" />
+  <title value="NoDomainVitalSignsObservationOxygenSaturation" />
   <status value="draft" />
   <date value="2021-05-01" />
   <description value="Basisprofile for Norwegian  VitalSigns Observation Oxygen Saturation information.  &#xD;&#xA;Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry." />
@@ -449,11 +449,11 @@
         <map value="N/A" />
       </mapping>
     </element>
-    <element id="Observation.extension:inspiredOxygen">
+    <element id="Observation.extension:PrePostduktal">
       <path value="Observation.extension" />
-      <sliceName value="inspiredOxygen" />
-      <short value="Details of the amount of oxygen available to the subject at the time of observation." />
-      <definition value="Details of the amount of oxygen available to the subject at the time of observation." />
+      <sliceName value="PrePostduktal" />
+      <short value="Optional Extensions Element" />
+      <definition value="Optional Extension Element - found in all resources." />
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -466,7 +466,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -485,10 +485,6 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
         <source value="Extension" />
       </constraint>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
-      </binding>
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -498,9 +494,9 @@
         <map value="N/A" />
       </mapping>
     </element>
-    <element id="Observation.extension:PrePostduktal">
+    <element id="Observation.extension:inspiredOxygen">
       <path value="Observation.extension" />
-      <sliceName value="PrePostduktal" />
+      <sliceName value="inspiredOxygen" />
       <short value="Optional Extensions Element" />
       <definition value="Optional Extension Element - found in all resources." />
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -515,7 +511,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -721,7 +717,7 @@
       <path value="Observation.partOf" />
       <short value="Part of referenced event" />
       <definition value="A larger event of which this particular Observation is a component or step.  For example,  an observation as part of a procedure." />
-      <comment value="To link an Observation to an Encounter use `encounter`.  See the  [Notes](observation.html#obsgrouping) below for guidance on referencing another Observation." />
+      <comment value="To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation." />
       <alias value="Container" />
       <min value="0" />
       <max value="*" />
@@ -2062,12 +2058,12 @@
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
-      <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
+      <short value="Who and/or what the observation is about" />
+      <definition value="The patient, or group of patients, location, or device this observation is about and into whose record the observation is placed. If the actual focus of the observation is different from the subject (or a sample of, part, or region of the subject), the `focus` element or the `code` itself specifies the actual focus of the observation." />
+      <comment value="One would expect this element to be a cardinality of 1..1. The only circumstance in which the subject can be missing is when the observation is made by a device that does not know the patient. In this case, the observation SHALL be matched to a patient through some context/channel matching technique, and at this point, the observation should be updated." />
       <requirements value="Observations have no value if you don't know who or what they're about." />
-      <min value="0" />
-      <max value="*" />
+      <min value="1" />
+      <max value="1" />
       <base>
         <path value="Observation.subject" />
         <min value="0" />
@@ -2075,7 +2071,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-subjectreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient" />
       </type>
       <condition value="ele-1" />
@@ -2130,7 +2126,7 @@
       <path value="Observation.focus" />
       <short value="What the observation is about, when it is not about the subject of record" />
       <definition value="The actual focus of an observation when it is not the patient of record representing something or someone associated with the patient such as a spouse, parent, fetus, or donor. For example, fetus observations in a mother's record.  The focus of an observation could also be an existing condition,  an intervention, the subject's diet,  another observation of the subject,  or a body structure such as tumor or implanted device.   An example use case would be using the Observation resource to capture whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus." />
-      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension [focusCode](extension-observation-focuscode.html)." />
+      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required." />
       <min value="0" />
       <max value="0" />
       <base>
@@ -2250,7 +2246,7 @@
       <path value="Observation.effective[x]" />
       <short value="Often just a dateTime for Vital Signs" />
       <definition value="Often just a dateTime for Vital Signs." />
-      <comment value="At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the [Timing](datatypes.html#timing) datatype which allow the measurement to be tied to regular life events." />
+      <comment value="At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the Timing datatype which allow the measurement to be tied to regular life events." />
       <requirements value="Knowing when an observation was deemed true is important to its relevance as well as determining trends." />
       <alias value="Occurrence" />
       <min value="1" />
@@ -2311,7 +2307,7 @@
       <path value="Observation.issued" />
       <short value="Date/Time this version was made available" />
       <definition value="The date and time this version of the observation was made available to providers, typically after the results have been reviewed and verified." />
-      <comment value="For Observations that don’t require review and verification, it may be the same as the [`lastUpdated` ](resource-definitions.html#Meta.lastUpdated) time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again." />
+      <comment value="For Observations that don’t require review and verification, it may be the same as the `lastUpdated`  time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -2367,8 +2363,6 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observation-performerauthorreference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observationperformer-OrganizationReference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
@@ -2422,8 +2416,8 @@
     <element id="Observation.performer:Author">
       <path value="Observation.performer" />
       <sliceName value="Author" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
+      <short value="Who is responsible for the observation" />
+      <definition value="Who was responsible for asserting the observed value as &quot;true&quot;." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
       <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed." />
       <min value="0" />
@@ -2435,13 +2429,14 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-performerauthorreference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2489,8 +2484,8 @@
     <element id="Observation.performer:Organization">
       <path value="Observation.performer" />
       <sliceName value="Organization" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
+      <short value="Who is responsible for the observation" />
+      <definition value="Who was responsible for asserting the observed value as &quot;true&quot;." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
       <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed." />
       <min value="0" />
@@ -2502,13 +2497,13 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-organizationreference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2556,11 +2551,14 @@
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
       </slicing>
       <short value="Vital Signs value are recorded using the Quantity data type. For supporting observations such as Cuff size could use other datatypes such as CodeableConcept." />
       <definition value="Vital Signs value are recorded using the Quantity data type. For supporting observations such as Cuff size could use other datatypes such as CodeableConcept." />
-      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](observation.html#notes) below." />
+      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the Notes section below." />
       <requirements value="9. SHALL contain exactly one [1..1] value with @xsi:type=&quot;PQ&quot; (CONF:7305)." />
       <min value="0" />
       <max value="1" />
@@ -3395,7 +3393,7 @@
       <path value="Observation.bodySite" />
       <short value="Observed body part" />
       <definition value="Indicates the site on the subject's body where the observation was made (i.e. the target site)." />
-      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](extension-bodysite.html)." />
+      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -4320,7 +4318,7 @@
       <path value="Observation.hasMember" />
       <short value="Used when reporting vital signs panel components" />
       <definition value="Used when reporting vital signs panel components." />
-      <comment value="When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](observation.html#obsgrouping) below.  Note that a system may calculate results from [QuestionnaireResponse](questionnaireresponse.html)  into a final score and represent the score as an Observation." />
+      <comment value="When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -4373,7 +4371,7 @@
       <path value="Observation.derivedFrom" />
       <short value="Related measurements the observation is made from" />
       <definition value="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image." />
-      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes](observation.html#obsgrouping) below." />
+      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -4429,7 +4427,7 @@
       <path value="Observation.component" />
       <short value="Used when reporting systolic and diastolic blood pressure." />
       <definition value="Used when reporting systolic and diastolic blood pressure." />
-      <comment value="For a discussion on the ways Observations can be assembled in groups together see [Notes](observation.html#notes) below." />
+      <comment value="For a discussion on the ways Observations can be assembled in groups together see Notes below." />
       <requirements value="Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation." />
       <min value="0" />
       <max value="*" />
@@ -4939,21 +4937,6 @@
         <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
       </binding>
     </element>
-    <element id="Observation.extension:inspiredOxygen">
-      <path value="Observation.extension" />
-      <sliceName value="inspiredOxygen" />
-      <short value="Details of the amount of oxygen available to the subject at the time of observation." />
-      <definition value="Details of the amount of oxygen available to the subject at the time of observation." />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
-      </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
-      </binding>
-    </element>
     <element id="Observation.extension:PrePostduktal">
       <path value="Observation.extension" />
       <sliceName value="PrePostduktal" />
@@ -4962,17 +4945,38 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension" />
       </type>
     </element>
+    <element id="Observation.extension:inspiredOxygen">
+      <path value="Observation.extension" />
+      <sliceName value="inspiredOxygen" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
+      </type>
+    </element>
+    <element id="Observation.partOf">
+      <path value="Observation.partOf" />
+      <comment value="To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation." />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-subjectreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient" />
       </type>
     </element>
     <element id="Observation.focus">
       <path value="Observation.focus" />
+      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required." />
       <max value="0" />
+    </element>
+    <element id="Observation.effective[x]">
+      <path value="Observation.effective[x]" />
+      <comment value="At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the Timing datatype which allow the measurement to be tied to regular life events." />
+    </element>
+    <element id="Observation.issued">
+      <path value="Observation.issued" />
+      <comment value="For Observations that don’t require review and verification, it may be the same as the `lastUpdated`  time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again." />
     </element>
     <element id="Observation.performer">
       <path value="Observation.performer" />
@@ -4980,18 +4984,20 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observation-performerauthorreference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observationperformer-OrganizationReference" />
-      </type>
     </element>
     <element id="Observation.performer:Author">
       <path value="Observation.performer" />
       <sliceName value="Author" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-performerauthorreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole" />
       </type>
     </element>
     <element id="Observation.performer:Organization">
@@ -4999,14 +5005,18 @@
       <sliceName value="Organization" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-organizationreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization" />
       </type>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
+      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the Notes section below." />
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
@@ -5028,6 +5038,7 @@
     </element>
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
+      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component." />
       <binding>
         <strength value="required" />
         <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset" />
@@ -5039,6 +5050,18 @@
         <strength value="required" />
         <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset" />
       </binding>
+    </element>
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
+      <comment value="When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation." />
+    </element>
+    <element id="Observation.derivedFrom">
+      <path value="Observation.derivedFrom" />
+      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below." />
+    </element>
+    <element id="Observation.component">
+      <path value="Observation.component" />
+      <comment value="For a discussion on the ways Observations can be assembled in groups together see Notes below." />
     </element>
   </differential>
 </StructureDefinition>

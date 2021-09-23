@@ -3,7 +3,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate" />
   <version value="0.9.0000" />
   <name value="NoDomainVitalSignsObservationRespirationRate" />
-  <title value="no-domain-vitalsignsobservation-respirationrate" />
+  <title value="NoDomainVitalSignsObservationRespirationRate" />
   <status value="draft" />
   <date value="2021-05-01" />
   <description value="Basisprofile for Norwegian  VitalSigns Observation Respiration Rate information.  &#xD;&#xA;Use to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm." />
@@ -215,6 +215,302 @@
         <map value="N/A" />
       </mapping>
     </element>
+    <element id="Observation.meta.id">
+      <path value="Observation.meta.id" />
+      <representation value="xmlAttr" />
+      <short value="Unique id for inter-element referencing" />
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Element.id" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code>
+          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-json-type">
+            <valueString value="string" />
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type">
+            <valueString value="xsd:string" />
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-rdf-type">
+            <valueString value="xsd:string" />
+          </extension>
+        </code>
+      </type>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.extension">
+      <path value="Observation.meta.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url" />
+        <rules value="open" />
+      </slicing>
+      <short value="Additional content defined by implementations" />
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." />
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
+      <alias value="extensions" />
+      <alias value="user content" />
+      <min value="0" />
+      <max value="*" />
+      <base>
+        <path value="Element.extension" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Extension" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <constraint>
+        <key value="ext-1" />
+        <severity value="error" />
+        <human value="Must have either extensions or value[x], not both" />
+        <expression value="extension.exists() != value.exists()" />
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
+        <source value="Extension" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="N/A" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.versionId">
+      <path value="Observation.meta.versionId" />
+      <short value="Version specific identifier" />
+      <definition value="The version specific identifier, as it appears in the version portion of the URL. This value changes when the resource is created, updated, or deleted." />
+      <comment value="The server assigns this value, and ignores what the client specifies, except in the case that the server is imposing version integrity on updates/deletes." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Meta.versionId" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="id" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.lastUpdated">
+      <path value="Observation.meta.lastUpdated" />
+      <short value="When the resource version last changed" />
+      <definition value="When the resource last changed - e.g. when the version changed." />
+      <comment value="This value is always populated except when the resource is first being created. The server / resource manager sets this value; what a client provides is irrelevant. This is equivalent to the HTTP Last-Modified and SHOULD have the same value on a read interaction." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Meta.lastUpdated" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="instant" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.source">
+      <path value="Observation.meta.source" />
+      <short value="Identifies where the resource comes from" />
+      <definition value="A uri that identifies the source system of the resource. This provides a minimal amount of Provenance information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc." />
+      <comment value="In the provenance resource, this corresponds to Provenance.entity.what[x]. The exact use of the source (and the implied Provenance.entity.role) is left to implementer discretion. Only one nominated source is allowed; for additional provenance details, a full Provenance resource should be used. &#xA;&#xA;This element can be used to indicate where the current master source of a resource that has a canonical URL if the resource is no longer hosted at the canonical URL." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Meta.source" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="uri" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.profile">
+      <path value="Observation.meta.profile" />
+      <short value="Profiles this resource claims to conform to" />
+      <definition value="A list of profiles (references to [StructureDefinition](structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](structuredefinition-definitions.html#StructureDefinition.url)." />
+      <comment value="It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set." />
+      <min value="0" />
+      <max value="*" />
+      <base>
+        <path value="Meta.profile" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="canonical" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/StructureDefinition" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.security">
+      <path value="Observation.meta.security" />
+      <short value="Security Labels applied to this resource" />
+      <definition value="Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructure." />
+      <comment value="The security labels can be updated without changing the stated version of the resource. The list of security labels is a set. Uniqueness is based the system/code, and version and display are ignored." />
+      <min value="0" />
+      <max value="*" />
+      <base>
+        <path value="Meta.security" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Coding" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <binding>
+        <strength value="extensible" />
+        <description value="Security Labels from the Healthcare Privacy and Security Classification System." />
+        <valueSet value="http://hl7.org/fhir/ValueSet/security-labels" />
+      </binding>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="v2" />
+        <map value="CE/CNE/CWE subset one of the sets of component 1-3 or 4-6" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="CV" />
+      </mapping>
+      <mapping>
+        <identity value="orim" />
+        <map value="fhir:Coding rdfs:subClassOf dt:CDCoding" />
+      </mapping>
+    </element>
+    <element id="Observation.meta.tag">
+      <path value="Observation.meta.tag" />
+      <short value="Tags applied to this resource" />
+      <definition value="Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource." />
+      <comment value="The tags can be updated without changing the stated version of the resource. The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored." />
+      <min value="0" />
+      <max value="*" />
+      <base>
+        <path value="Meta.tag" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Coding" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <isSummary value="true" />
+      <binding>
+        <strength value="example" />
+        <description value="Codes that represent various types of tags, commonly workflow-related; e.g. &quot;Needs review by Dr. Jones&quot;." />
+        <valueSet value="http://hl7.org/fhir/ValueSet/common-tags" />
+      </binding>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="v2" />
+        <map value="CE/CNE/CWE subset one of the sets of component 1-3 or 4-6" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="CV" />
+      </mapping>
+      <mapping>
+        <identity value="orim" />
+        <map value="fhir:Coding rdfs:subClassOf dt:CDCoding" />
+      </mapping>
+    </element>
     <element id="Observation.implicitRules">
       <path value="Observation.implicitRules" />
       <short value="A set of rules under which this content was created" />
@@ -409,7 +705,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -458,7 +754,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -507,7 +803,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -537,55 +833,6 @@
       <binding>
         <strength value="required" />
         <valueSet value="http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-respirationregularityvalueset" />
-      </binding>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="N/A" />
-      </mapping>
-    </element>
-    <element id="Observation.extension:inspiredOxygen">
-      <path value="Observation.extension" />
-      <sliceName value="inspiredOxygen" />
-      <short value="Details of the amount of oxygen being delivered to the individual at the time of observation." />
-      <definition value="Details of the amount of oxygen being delivered to the individual at the time of observation." />
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
-      <alias value="extensions" />
-      <alias value="user content" />
-      <min value="0" />
-      <max value="*" />
-      <base>
-        <path value="DomainResource.extension" />
-        <min value="0" />
-        <max value="*" />
-      </base>
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
-      </type>
-      <condition value="ele-1" />
-      <constraint>
-        <key value="ele-1" />
-        <severity value="error" />
-        <human value="All FHIR elements must have a @value or children" />
-        <expression value="hasValue() or (children().count() &gt; id.count())" />
-        <xpath value="@value|f:*|h:div" />
-        <source value="Element" />
-      </constraint>
-      <constraint>
-        <key value="ext-1" />
-        <severity value="error" />
-        <human value="Must have either extensions or value[x], not both" />
-        <expression value="extension.exists() != value.exists()" />
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
-        <source value="Extension" />
-      </constraint>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -654,7 +901,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -699,7 +946,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -708,6 +955,51 @@
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationdepthextension" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+        <source value="Element" />
+      </constraint>
+      <constraint>
+        <key value="ext-1" />
+        <severity value="error" />
+        <human value="Must have either extensions or value[x], not both" />
+        <expression value="extension.exists() != value.exists()" />
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
+        <source value="Extension" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="N/A" />
+      </mapping>
+    </element>
+    <element id="Observation.extension:inspiredOxygen">
+      <path value="Observation.extension" />
+      <sliceName value="inspiredOxygen" />
+      <short value="Optional Extensions Element" />
+      <definition value="Optional Extension Element - found in all resources." />
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
+      <alias value="extensions" />
+      <alias value="user content" />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="DomainResource.extension" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -913,7 +1205,7 @@
       <path value="Observation.partOf" />
       <short value="Part of referenced event" />
       <definition value="A larger event of which this particular Observation is a component or step.  For example,  an observation as part of a procedure." />
-      <comment value="To link an Observation to an Encounter use `encounter`.  See the  [Notes](observation.html#obsgrouping) below for guidance on referencing another Observation." />
+      <comment value="To link an Observation to an Encounter use `encounter`." />
       <alias value="Container" />
       <min value="0" />
       <max value="*" />
@@ -2254,12 +2546,12 @@
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
-      <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
+      <short value="Who and/or what the observation is about" />
+      <definition value="The patient, or group of patients, location, or device this observation is about and into whose record the observation is placed. If the actual focus of the observation is different from the subject (or a sample of, part, or region of the subject), the `focus` element or the `code` itself specifies the actual focus of the observation." />
+      <comment value="One would expect this element to be a cardinality of 1..1. The only circumstance in which the subject can be missing is when the observation is made by a device that does not know the patient. In this case, the observation SHALL be matched to a patient through some context/channel matching technique, and at this point, the observation should be updated." />
       <requirements value="Observations have no value if you don't know who or what they're about." />
-      <min value="0" />
-      <max value="*" />
+      <min value="1" />
+      <max value="1" />
       <base>
         <path value="Observation.subject" />
         <min value="0" />
@@ -2267,7 +2559,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-subjectreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient" />
       </type>
       <condition value="ele-1" />
@@ -2322,7 +2614,7 @@
       <path value="Observation.focus" />
       <short value="What the observation is about, when it is not about the subject of record" />
       <definition value="The actual focus of an observation when it is not the patient of record representing something or someone associated with the patient such as a spouse, parent, fetus, or donor. For example, fetus observations in a mother's record.  The focus of an observation could also be an existing condition,  an intervention, the subject's diet,  another observation of the subject,  or a body structure such as tumor or implanted device.   An example use case would be using the Observation resource to capture whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus." />
-      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension [focusCode](extension-observation-focuscode.html)." />
+      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension focusCode." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -2563,8 +2855,6 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observation-performerauthorreference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observationperformer-OrganizationReference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
@@ -2618,8 +2908,8 @@
     <element id="Observation.performer:Author">
       <path value="Observation.performer" />
       <sliceName value="Author" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
+      <short value="Who is responsible for the observation" />
+      <definition value="Who was responsible for asserting the observed value as &quot;true&quot;." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
       <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed." />
       <min value="0" />
@@ -2631,13 +2921,14 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-performerauthorreference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2685,8 +2976,8 @@
     <element id="Observation.performer:Organization">
       <path value="Observation.performer" />
       <sliceName value="Organization" />
-      <short value="A reference from one resource to another" />
-      <definition value="A reference from one resource to another." />
+      <short value="Who is responsible for the observation" />
+      <definition value="Who was responsible for asserting the observed value as &quot;true&quot;." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
       <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed." />
       <min value="0" />
@@ -2698,13 +2989,13 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-organizationreference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2853,7 +3144,7 @@
       <sliceName value="valueQuantity" />
       <short value="The frequency of spontaneous breathing." />
       <definition value="The frequency of spontaneous breathing." />
-      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](observation.html#notes) below." />
+      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value." />
       <requirements value="9. SHALL contain exactly one [1..1] value with @xsi:type=&quot;PQ&quot; (CONF:7305)." />
       <min value="0" />
       <max value="1" />
@@ -3591,7 +3882,7 @@
       <path value="Observation.bodySite" />
       <short value="Observed body part" />
       <definition value="Indicates the site on the subject's body where the observation was made (i.e. the target site)." />
-      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](extension-bodysite.html)." />
+      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension bodySite." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -4386,7 +4677,7 @@
       <path value="Observation.derivedFrom" />
       <short value="Related measurements the observation is made from" />
       <definition value="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image." />
-      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes](observation.html#obsgrouping) below." />
+      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -4684,7 +4975,7 @@
       <path value="Observation.component.value[x]" />
       <short value="Vital Sign Value recorded with UCUM" />
       <definition value="Vital Sign Value recorded with UCUM." />
-      <comment value="Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](observation.html#notes) below." />
+      <comment value="Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value." />
       <requirements value="9. SHALL contain exactly one [1..1] value with @xsi:type=&quot;PQ&quot; (CONF:7305)." />
       <min value="0" />
       <max value="1" />
@@ -4927,6 +5218,14 @@
     </element>
   </snapshot>
   <differential>
+    <element id="Observation.meta.lastUpdated">
+      <path value="Observation.meta.lastUpdated" />
+      <comment value="This value is always populated except when the resource is first being created. The server / resource manager sets this value; what a client provides is irrelevant. This is equivalent to the HTTP Last-Modified and SHOULD have the same value on a read interaction." />
+    </element>
+    <element id="Observation.meta.source">
+      <path value="Observation.meta.source" />
+      <definition value="A uri that identifies the source system of the resource. This provides a minimal amount of Provenance information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc." />
+    </element>
     <element id="Observation.extension">
       <path value="Observation.extension" />
       <slicing>
@@ -4942,6 +5241,7 @@
       <sliceName value="levelOfExertion" />
       <short value="Details about physical exertion being undertaken during the examination." />
       <definition value="Details about physical exertion being undertaken during the examination." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension" />
@@ -4956,6 +5256,7 @@
       <sliceName value="bodyPosition" />
       <short value="The body position of the individual during the observation." />
       <definition value="The body position of the individual during the observation." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate-bodypositionextension" />
@@ -4970,6 +5271,7 @@
       <sliceName value="respirationRegularity" />
       <short value="The regularity of spontaneous breathing." />
       <definition value="The regularity of spontaneous breathing." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationregularityextension" />
@@ -4977,20 +5279,6 @@
       <binding>
         <strength value="required" />
         <valueSet value="http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-respirationregularityvalueset" />
-      </binding>
-    </element>
-    <element id="Observation.extension:inspiredOxygen">
-      <path value="Observation.extension" />
-      <sliceName value="inspiredOxygen" />
-      <short value="Details of the amount of oxygen being delivered to the individual at the time of observation." />
-      <definition value="Details of the amount of oxygen being delivered to the individual at the time of observation." />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
-      </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
       </binding>
     </element>
     <element id="Observation.extension:spontaneousBreathing">
@@ -5009,6 +5297,7 @@
     <element id="Observation.extension:clinicalDescription">
       <path value="Observation.extension" />
       <sliceName value="clinicalDescription" />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension" />
@@ -5017,18 +5306,36 @@
     <element id="Observation.extension:respirationDepth">
       <path value="Observation.extension" />
       <sliceName value="respirationDepth" />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationdepthextension" />
       </type>
     </element>
+    <element id="Observation.extension:inspiredOxygen">
+      <path value="Observation.extension" />
+      <sliceName value="inspiredOxygen" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" />
+      </type>
+    </element>
+    <element id="Observation.partOf">
+      <path value="Observation.partOf" />
+      <comment value="To link an Observation to an Encounter use `encounter`." />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-subjectreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
         <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Patient" />
       </type>
+    </element>
+    <element id="Observation.focus">
+      <path value="Observation.focus" />
+      <comment value="Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension focusCode." />
     </element>
     <element id="Observation.performer">
       <path value="Observation.performer" />
@@ -5040,18 +5347,20 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observation-performerauthorreference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-observationperformer-OrganizationReference" />
-      </type>
     </element>
     <element id="Observation.performer:Author">
       <path value="Observation.performer" />
       <sliceName value="Author" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-performerauthorreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole" />
       </type>
     </element>
     <element id="Observation.performer:Organization">
@@ -5059,7 +5368,13 @@
       <sliceName value="Organization" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-organizationreference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+        <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization" />
       </type>
     </element>
     <element id="Observation.value[x]">
@@ -5073,6 +5388,7 @@
       <sliceName value="valueQuantity" />
       <short value="The frequency of spontaneous breathing." />
       <definition value="The frequency of spontaneous breathing." />
+      <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value." />
     </element>
     <element id="Observation.note.id">
       <path value="Observation.note.id" />
@@ -5085,6 +5401,18 @@
     <element id="Observation.note.time">
       <path value="Observation.note.time" />
       <max value="0" />
+    </element>
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension bodySite." />
+    </element>
+    <element id="Observation.derivedFrom">
+      <path value="Observation.derivedFrom" />
+      <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation." />
+    </element>
+    <element id="Observation.component.value[x]">
+      <path value="Observation.component.value[x]" />
+      <comment value="Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value." />
     </element>
   </differential>
 </StructureDefinition>

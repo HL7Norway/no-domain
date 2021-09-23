@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2021-03-17" />
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+  </meta>  
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo" />
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft" />
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1" />
+  </extension>
+  <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodysitevalueset" />
+  <version value="4.0.0" />
+  <name value="NoDomainVitalSignsObservationHeartRateBodySiteValueSet" />
+  <title value="no-domain-vitalsignsobservation-heartrate-bodysitevalueset" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-03-17" />
+  <publisher value="" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+   <compose>
+    <include>
+      <system value="http://snomed.info/sct" />
+      <concept>
+        <code value="368504007" />
+        <display value="Radialisarterien, venstre" />
+      </concept>
+      <concept>
+        <code value="368503001" />
+        <display value="Radialisarterien, høyre" />
+      </concept>
+      <concept>
+        <code value="721028001" />
+        <display value="Carotisarterien, venstre" />
+      </concept>
+	  <concept>
+        <code value="721033002" />
+        <display value="Carotisarterien, høyre" />
+      </concept>
+	   <concept>
+        <code value="113270003" />
+        <display value="Femoralisarterien, venstre" />
+      </concept>
+      <concept>
+        <code value="69833005" />
+        <display value="Femoralisarterien, høyre" />
+      </concept>
+      <concept>
+        <code value="723962009" />
+        <display value="Brachialisarterien, høyre" />
+      </concept>
+	  <concept>
+        <code value="723961002" />
+        <display value="Brachialisarterien, venstre" />
+      </concept>
+	   <concept>
+        <code value="7569003" />
+        <display value="Finger" />
+      </concept>
+      <concept>
+        <code value="29707007" />
+        <display value="Tå" />
+      </concept>
+      <concept>
+        <code value="48800003" />
+        <display value="Øreflipp" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

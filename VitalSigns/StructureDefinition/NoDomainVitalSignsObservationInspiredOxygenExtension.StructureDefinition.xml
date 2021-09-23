@@ -1104,16 +1104,6 @@
         <map value="N/A" />
       </mapping>
     </element>
-    <element id="Extension.coding">
-      <path value="Extension.coding" />
-      <base>
-        <path value="Extension.value[x].coding" />
-      </base>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
-      </binding>
-    </element>
   </snapshot>
   <differential>
     <element id="Extension.extension">
@@ -1197,13 +1187,6 @@
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <max value="0" />
-    </element>
-    <element id="Extension.value[x].coding">
-      <path value="Extension.value[x].coding" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset" />
-      </binding>
     </element>
   </differential>
 </StructureDefinition>

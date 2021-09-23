@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<lastUpdated value="2021-03-17" />
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="oo" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+		<valueCode value="draft" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+		<valueInteger value="1" />
+	</extension>
+	<url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-cuffsizevalueset" />
+	<version value="4.0.0" />
+	<name value="NoDomainVitalSignsObservationCuffsizeValueSet" />
+	<title value="SNOMED CT CuffSize Structures" />
+	<status value="draft" />
+	<experimental value="false" />
+	<date value="2021-03-17"/>
+	<publisher value=""/>
+	<description value="Codes representing cuff size"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="720740000"/>
+				<display value="Lår voksne"/>
+			</concept>
+			<concept>
+				<code value="720738005"/>
+				<display value="Store voksne"/>
+			</concept>
+			<concept>
+				<code value="757991000202117"/>
+				<display value="Voksne"/>
+			</concept>
+			<concept>
+				<code value="720739002"/>
+				<display value="Små voksne"/>
+			</concept>
+			<concept>
+				<code value="720736009"/>
+				<display value="Barn"/>
+			</concept>
+			<concept>
+				<code value="4281000202107"/>
+				<display value="Spedbarn"/>
+			</concept>
+			<concept>
+				<code value="4231000202108"/>
+				<display value="Neonatal"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>
