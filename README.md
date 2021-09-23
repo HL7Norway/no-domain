@@ -11,7 +11,7 @@ National domain profiles for the Norwegian realm (Nasjonale områdeprofiler) - F
 
 ### Utvikle områdeprofiler, ingen dato
 
-- Utvikle VitalSigns områdeprofiler basert på [hnfresk/hnvitalsigns profiler](https://github.com/hn-fresk/hnvitalsigns/tree/master)
+- Utvikle [VitalSigns områdeprofiler](https://github.com/HL7Norway/no-domain/tree/master/VitalSigns) basert på [hnfresk/hnvitalsigns profiler](https://github.com/hn-fresk/hnvitalsigns/tree/master)
 - Legemidler, "enkel" -- eksempelvis for PLL, eResept, Kjernejournal/IPS etc. 
 - Legemidler, "avansert" -- eksempelvis for avansert dosering, EPJ/kurvesystem-integrasjon
 
