@@ -180,184 +180,6 @@
         <max value="1" />
       </base>
       <type>
-        <code value="CodeableConcept" />
-      </type>
-      <condition value="ele-1" />
-      <constraint>
-        <key value="ele-1" />
-        <severity value="error" />
-        <human value="All FHIR elements must have a @value or children" />
-        <expression value="hasValue() or (children().count() &gt; id.count())" />
-        <xpath value="@value|f:*|h:div" />
-        <source value="Element" />
-      </constraint>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="N/A" />
-      </mapping>
-    </element>
-    <element id="Extension.value[x].id">
-      <path value="Extension.value[x].id" />
-      <representation value="xmlAttr" />
-      <short value="Unique id for inter-element referencing" />
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." />
-      <min value="0" />
-      <max value="1" />
-      <base>
-        <path value="Element.id" />
-        <min value="0" />
-        <max value="1" />
-      </base>
-      <type>
-        <code>
-          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-json-type">
-            <valueString value="string" />
-          </extension>
-          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type">
-            <valueString value="xsd:string" />
-          </extension>
-          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-rdf-type">
-            <valueString value="xsd:string" />
-          </extension>
-        </code>
-      </type>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-    </element>
-    <element id="Extension.value[x].extension">
-      <path value="Extension.value[x].extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <description value="Extensions are always sliced by (at least) url" />
-        <rules value="open" />
-      </slicing>
-      <short value="Additional content defined by implementations" />
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." />
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
-      <alias value="extensions" />
-      <alias value="user content" />
-      <min value="0" />
-      <max value="*" />
-      <base>
-        <path value="Element.extension" />
-        <min value="0" />
-        <max value="*" />
-      </base>
-      <type>
-        <code value="Extension" />
-      </type>
-      <condition value="ele-1" />
-      <constraint>
-        <key value="ele-1" />
-        <severity value="error" />
-        <human value="All FHIR elements must have a @value or children" />
-        <expression value="hasValue() or (children().count() &gt; id.count())" />
-        <xpath value="@value|f:*|h:div" />
-        <source value="Element" />
-      </constraint>
-      <constraint>
-        <key value="ext-1" />
-        <severity value="error" />
-        <human value="Must have either extensions or value[x], not both" />
-        <expression value="extension.exists() != value.exists()" />
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
-        <source value="Extension" />
-      </constraint>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="N/A" />
-      </mapping>
-    </element>
-    <element id="Extension.value[x].coding">
-      <path value="Extension.value[x].coding" />
-      <short value="Code defined by a terminology system" />
-      <definition value="No coding defined yet" />
-      <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true." />
-      <requirements value="Allows for alternative encodings within a code system, and translations to other code systems." />
-      <min value="0" />
-      <max value="1" />
-      <base>
-        <path value="CodeableConcept.coding" />
-        <min value="0" />
-        <max value="*" />
-      </base>
-      <type>
-        <code value="Coding" />
-      </type>
-      <condition value="ele-1" />
-      <constraint>
-        <key value="ele-1" />
-        <severity value="error" />
-        <human value="All FHIR elements must have a @value or children" />
-        <expression value="hasValue() or (children().count() &gt; id.count())" />
-        <xpath value="@value|f:*|h:div" />
-        <source value="Element" />
-      </constraint>
-      <isSummary value="true" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-      <mapping>
-        <identity value="v2" />
-        <map value="CE/CNE/CWE subset one of the sets of component 1-3 or 4-6" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="CV" />
-      </mapping>
-      <mapping>
-        <identity value="orim" />
-        <map value="fhir:Coding rdfs:subClassOf dt:CDCoding" />
-      </mapping>
-      <mapping>
-        <identity value="v2" />
-        <map value="C*E.1-8, C*E.10-22" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="union(., ./translation)" />
-      </mapping>
-      <mapping>
-        <identity value="orim" />
-        <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" />
-      </mapping>
-    </element>
-    <element id="Extension.value[x].text">
-      <path value="Extension.value[x].text" />
-      <short value="Plain text representation of the concept" />
-      <definition value="A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user." />
-      <comment value="Very often the text is the same as a displayName of one of the codings." />
-      <requirements value="The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source." />
-      <min value="0" />
-      <max value="1" />
-      <base>
-        <path value="CodeableConcept.text" />
-        <min value="0" />
-        <max value="1" />
-      </base>
-      <type>
         <code value="string" />
       </type>
       <condition value="ele-1" />
@@ -369,22 +191,17 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
-      <isSummary value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
+      </binding>
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
       </mapping>
       <mapping>
-        <identity value="v2" />
-        <map value="C*E.9. But note many systems use C*E.2 for this" />
-      </mapping>
-      <mapping>
         <identity value="rim" />
-        <map value="./originalText[mediaType/code=&quot;text/plain&quot;]/data" />
-      </mapping>
-      <mapping>
-        <identity value="orim" />
-        <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText" />
+        <map value="N/A" />
       </mapping>
     </element>
   </snapshot>
@@ -396,21 +213,8 @@
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <type>
-        <code value="CodeableConcept" />
+        <code value="string" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
-    </element>
-    <element id="Extension.value[x].coding">
-      <path value="Extension.value[x].coding" />
-      <definition value="No coding defined yet" />
-      <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
     </element>
   </differential>
 </StructureDefinition>

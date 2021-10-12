@@ -436,10 +436,6 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
         <source value="Extension" />
       </constraint>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -5216,10 +5212,6 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
     </element>
     <element id="Observation.extension:heartRythm">
       <path value="Observation.extension" />

@@ -579,10 +579,6 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
         <source value="Extension" />
       </constraint>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -2841,7 +2837,10 @@
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
       </slicing>
       <short value="Vital Signs value are recorded using the Quantity data type. For supporting observations such as Cuff size could use other datatypes such as CodeableConcept." />
       <definition value="Vital Signs value are recorded using the Quantity data type. For supporting observations such as Cuff size could use other datatypes such as CodeableConcept." />
@@ -6491,7 +6490,10 @@
     <element id="Observation.component:SystolicBP.value[x]">
       <path value="Observation.component.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
       </slicing>
       <short value="Vital Sign Value recorded with UCUM" />
       <definition value="Vital Sign Value recorded with UCUM." />
@@ -7888,7 +7890,10 @@
     <element id="Observation.component:DiastolicBP.value[x]">
       <path value="Observation.component.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
       </slicing>
       <short value="Vital Sign Value recorded with UCUM" />
       <definition value="Vital Sign Value recorded with UCUM." />
@@ -11284,10 +11289,6 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset" />
-      </binding>
     </element>
     <element id="Observation.extension:bodyPosition">
       <path value="Observation.extension" />
@@ -11414,12 +11415,6 @@
         <targetProfile value="http://hl7.no/fhir/StructureDefinition/no-basis-Organization" />
       </type>
     </element>
-    <element id="Observation.value[x]">
-      <path value="Observation.value[x]" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.note.id">
       <path value="Observation.note.id" />
       <max value="0" />
@@ -11494,22 +11489,10 @@
       <sliceName value="SystolicBP" />
       <short value="Peak  systemic arterial blood pressure - measured in systolic or contraction phase of the heart cycle." />
     </element>
-    <element id="Observation.component:SystolicBP.value[x]">
-      <path value="Observation.component.value[x]" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.component:DiastolicBP">
       <path value="Observation.component" />
       <sliceName value="DiastolicBP" />
       <short value="Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle." />
-    </element>
-    <element id="Observation.component:DiastolicBP.value[x]">
-      <path value="Observation.component.value[x]" />
-      <slicing>
-        <rules value="open" />
-      </slicing>
     </element>
     <element id="Observation.component:MeanArterialPressure">
       <path value="Observation.component" />
