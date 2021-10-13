@@ -1,1 +1,2 @@
 Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareablevalueset
+Alias: $no-domain-vitalsignsobservation-heartrate-bodypositionvalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodypositionvalueset

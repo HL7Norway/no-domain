@@ -14,3 +14,5 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * date = "2021-03-17"
+* publisher = "DIPS ASA"
+* description = "ValueSet for Ox Sat BodySite"

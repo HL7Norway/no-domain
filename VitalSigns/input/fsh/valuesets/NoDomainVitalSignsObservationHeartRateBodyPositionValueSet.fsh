@@ -1,5 +1,5 @@
 ValueSet: NoDomainVitalSignsObservationHeartRateBodyPositionValueSet
-Id: NoDomainVitalSignsObservationHeartRateBodyPositionValueSet
+Id: no-domain-vitalsignsobservation-heartrate-bodypositionvalueset
 Title: "no-domain-vitalsignsobservation-heartrate-bodypositionvalueset"
 * ^meta.lastUpdated = "2021-03-17T13:28:17.239+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
