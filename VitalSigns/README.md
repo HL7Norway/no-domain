@@ -21,8 +21,9 @@ docker run --rm -v e:\GitRepo\no-domain\VitalSigns:/data thomiz/fhir-build sushi
 
 ### Mange feil i SUSHI genereringen
 
-167 feil og det var etter feilretting
+Fyll ut aliaser i aliases.fsh, mange urler til ValueSets mangler der?!?
 
+156 feil etter mer feilretting
 ========================= SUSHI RESULTS ===========================
 |  -------------------------------------------------------------  |
 | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |
@@ -36,5 +37,5 @@ docker run --rm -v e:\GitRepo\no-domain\VitalSigns:/data thomiz/fhir-build sushi
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| Unfor-tuna-tely, there are errors.    167 Errors     7 Warnings |
+| Don't be koi about asking for help    156 Errors     7 Warnings |
 ===================================================================
