@@ -12,4 +12,4 @@ Description: "Regularity of the pulse or heart beat."
 * value[x] from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
 * value[x].coding ..1
 * value[x].coding from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
-* value[x].coding.system from $no-heartrhythm-valueset (required)
+* value[x].coding.system from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
