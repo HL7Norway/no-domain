@@ -1,5 +1,6 @@
 Extension: NoDomainVitalSignsObservationRespirationPatternExtension
 Id: NoDomainVitalSignsObservationRespirationPatternExtension
+Description: "The depth of respiration patterns"
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationpatternextension"
 * ^version = "0.9.0000"
 * ^status = #draft

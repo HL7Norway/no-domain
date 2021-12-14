@@ -1,5 +1,5 @@
 Extension: NoDomainVitalSignsObservationBodyMassIndexFormulaExtension
-Id: NoDomainVitalSignsObservationBodyMassIndexFormula
+Id: NoDomainVitalSignsObservationBodyMassIndexFormulaExtension
 Description: "Formula used to derive the body mass index."
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension"
 * ^version = "0.9.0000"

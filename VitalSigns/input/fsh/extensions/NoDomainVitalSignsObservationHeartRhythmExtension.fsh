@@ -9,7 +9,7 @@ Description: "Regularity of the pulse or heart beat."
 * ^context.expression = "Observation"
 * url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
+* value[x] from NoDomainVitalSignsObservationHeartRhythmValueSet (required)
 * value[x].coding ..1
-* value[x].coding from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
-* value[x].coding.system from $no-domain-vitalsignsobservation-heartrhythmvalueset (required)
+* value[x].coding from NoDomainVitalSignsObservationHeartRhythmValueSet (required)
+* value[x].coding.system from $no-heartrhythm-valueset (required)

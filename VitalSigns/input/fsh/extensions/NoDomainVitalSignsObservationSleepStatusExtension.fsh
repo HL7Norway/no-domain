@@ -9,13 +9,13 @@ Description: "Sleep status - supports interpretation of 24 hour ambulatory blood
 * ^context.expression = "Observation"
 * url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-sleepstatusextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-sleepstatusvalueset (required)
+* value[x] from NoDomainVitalSignsObservationSleepStatusValueSet (required)
 * value[x].coding ..1
-* value[x].coding from $no-domain-vitalsignsobservation-sleepstatusvalueset (required)
+* value[x].coding from NoDomainVitalSignsObservationSleepStatusValueSet (required)
 * value[x].coding.system 1..
-* value[x].coding.system from $HNSleepStatusValueset (required)
+* value[x].coding.system from $DipsSleepStatusValueset (required)
 * value[x].coding.version ..0
 * value[x].coding.code 1..
-* value[x].coding.code from $HNSleepStatusValueset (required)
+* value[x].coding.code from $DipsSleepStatusValueset (required)
 * value[x].coding.userSelected ..0
 * value[x].text ..0

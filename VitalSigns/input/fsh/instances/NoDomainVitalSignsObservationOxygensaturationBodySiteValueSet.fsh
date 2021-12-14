@@ -1,7 +1,9 @@
 Instance: NoDomainVitalSignsObservationOxygensaturationBodySiteValueSet
 InstanceOf: $shareablevalueset
 Usage: #definition
-* meta.lastUpdated = "2021-03-17T13:28:17.239+02:00"
+* description = ""
+* publisher = "HL7 Norway"
+* meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * extension[=].valueCode = #fhir
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
@@ -13,6 +15,4 @@ Usage: #definition
 * name = "NoDomainVitalSignsObservationOxygensaturationBodySiteValueSet"
 * status = #draft
 * experimental = false
-* date = "2021-03-17"
-* publisher = "DIPS ASA"
-* description = "ValueSet for Ox Sat BodySite"
+* date = "2021-03-17T00:00:00+00:00"

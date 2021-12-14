@@ -1,5 +1,6 @@
 Extension: NoDomainVitalSignsObservationPrePostduktalExtension
 Id: NoDomainVitalSignsObservationPrePostduktalExtension
+Description: "Description of the pre/post/intermediate level of ductal"
 * ^url = "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension"
 * ^status = #draft
 * ^context.type = #element
@@ -7,4 +8,4 @@ Id: NoDomainVitalSignsObservationPrePostduktalExtension
 * . ..1
 * url = "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension" (exactly)
 * value[x] only Coding
-* value[x] from $no-domain-vitalsignsobservation-prepostduktalvalueset (required)
+* value[x] from NoDomainVitalSignsObservationPrePostduktalValueSet (required)

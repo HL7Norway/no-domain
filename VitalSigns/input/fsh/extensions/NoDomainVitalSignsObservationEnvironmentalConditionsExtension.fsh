@@ -1,5 +1,6 @@
 Extension: NoDomainVitalSignsObservationEnvironmentalConditionsExtension
 Id: NoDomainVitalSignsObservationEnvironmentalConditionsExtension
+Description: "Description of the environmental conditions."
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-environmentalconditionsextension"
 * ^version = "0.9.0000"
 * ^status = #draft

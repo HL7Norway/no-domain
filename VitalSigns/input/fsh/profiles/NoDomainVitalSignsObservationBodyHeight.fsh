@@ -1,8 +1,8 @@
 Profile: NoDomainVitalSignsObservationBodyHeight
 Parent: $bodyheight
 Id: NoDomainVitalSignsObservationBodyHeight
-Title: "no-domain-vitalsignsobservation-bodyheight"
-Description: """Basisprofile for Norwegian  VitalSigns Observation Body Height information.  
+Title: "NO Domain VitalSigns Observation - Body Height"
+Description: """Base profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyheight"
 * ^version = "0.9.0000"
@@ -13,7 +13,7 @@ To be used for recording the measured height or body length of an individual at 
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains NoDomainVitalSignsObservationBodyHeightBodyPositionExtension named bodyPosition 0..1
-* extension[bodyPosition] from $no-domain-vitalsignsobservation-bodyheight-bodypositionvalueset (required)
+//* extension[bodyPosition] from NoDomainVitalSignsObservationBodyHeightBodyPositionValueSet (required)
 * extension[bodyPosition] ^short = "Position of individual when measured."
 * extension[bodyPosition] ^definition = "Position of individual when measured."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
@@ -39,7 +39,8 @@ To be used for recording the measured height or body length of an individual at 
     Author 0..* and
     Organization 0..*
 * performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+* performer[Organization] only Reference(Organization or $no-basis-Organization)
 * valueQuantity ^short = "The length of the body from crown of head to sole of foot."
 * valueQuantity.id ..0
 * valueQuantity.comparator ..0

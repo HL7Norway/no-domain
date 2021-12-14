@@ -9,5 +9,5 @@ Description: "A narrative description about the spontaneous breathing of the ind
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-spontaneousbreathingextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-spontaneousbreathingvalueset (required)
-* value[x].coding from $no-domain-vitalsignsobservation-spontaneousbreathingvalueset (required)
+* value[x] from NoDomainVitalSignsObservationSpontaneousBreathingValueSet (required)
+* value[x].coding from NoDomainVitalSignsObservationSpontaneousBreathingValueSet (required)

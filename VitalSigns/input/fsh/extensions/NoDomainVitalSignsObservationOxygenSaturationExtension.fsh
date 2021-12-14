@@ -1,5 +1,6 @@
 Extension: NoDomainVitalSignsObservationOxygenSaturationExtension
 Id: NoDomainVitalSignsObservationOxygenSaturationExtension
+Description: "Description of the oxygen saturation levels"
 * ^url = "https://www.hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturationextension"
 * ^version = "0.9.0000"
 * ^status = #draft

@@ -1,8 +1,8 @@
 Profile: NoDomainVitalSignsObservationBodyWeight
 Parent: $bodyweight
 Id: NoDomainVitalSignsObservationBodyWeight
-Title: "no-domain-vitalsignsobservation-bodyweight"
-Description: "Basisprofile for Norwegian  VitalSigns Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
+Title: "NO Domain VitalSigns Observation - Body Weight"
+Description: "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyweight"
 * ^version = "0.9.0000"
 * ^status = #draft
@@ -14,7 +14,7 @@ Description: "Basisprofile for Norwegian  VitalSigns Observation Body Weight inf
 * extension contains
     NoDomainVitalSignsObservationClothingStateExtension named clothingState 0..1 and
     NoDomainVitalSignsObservationConfoundingFactorExtension named confoundingFactor 0..1
-* extension[clothingState] from $no-domain-vitalsignsobservation-clothingstatevalueset (required)
+//* extension[clothingState] from NoDomainVitalSignsObservationClothingStateValueSet (required)
 * extension[clothingState] ^short = "Description of the state of dress of the person at the time of weighing."
 * extension[clothingState] ^definition = "Description of the state of dress of the person at the time of weighing."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
@@ -35,7 +35,8 @@ Description: "Basisprofile for Norwegian  VitalSigns Observation Body Weight inf
     Author 0..* and
     Organization 0..*
 * performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+* performer[Organization] only Reference(Organization or $no-basis-Organization)
 * value[x] ^slicing.rules = #open
 * valueQuantity ^short = "The weight of the individual."
 * valueQuantity ^definition = "The weight of the individual."

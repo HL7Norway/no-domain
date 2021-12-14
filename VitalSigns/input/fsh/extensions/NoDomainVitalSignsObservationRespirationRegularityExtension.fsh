@@ -9,6 +9,6 @@ Description: "The regularity of spontaneous breathing."
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationregularityextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-respirationregularityvalueset (required)
+* value[x] from NoDomainVitalSignsObservationRespirationRegularityValueSet (required)
 * value[x].coding ..1
-* value[x].coding from $no-domain-vitalsignsobservation-respirationregularityvalueset (required)
+* value[x].coding from NoDomainVitalSignsObservationRespirationRegularityValueSet (required)

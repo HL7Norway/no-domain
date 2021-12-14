@@ -9,6 +9,6 @@ Description: "The depth of spontaneous breathing."
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationdepthextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-respirationrate-depthvalueset (required)
+* value[x] from NoDomainVitalSignsObservationRespirationRateDepthValueSet (required)
 * value[x].coding ..1
-* value[x].coding from $no-domain-vitalsignsobservation-respirationrate-depthvalueset (required)
+* value[x].coding from NoDomainVitalSignsObservationRespirationRateDepthValueSet (required)

@@ -2,7 +2,7 @@ ValueSet: NoDomainVitalSignsObservationClothingStateValueSet
 Id: NoDomainVitalSignsObservationClothingStateValueSet
 Title: "Codes representing level of clothing"
 Description: "Codes representing level of clothing"
-* ^meta.lastUpdated = "2021-03-17T13:28:17.239+02:00"
+* ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension[=].valueCode = #oo
@@ -14,7 +14,7 @@ Description: "Codes representing level of clothing"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
-* ^date = "2021-03-17"
+* ^date = "2021-03-17T00:00:00+00:00"
 * SNOMED_CT#1081761000202106 "Naken"
 * SNOMED_CT#1081781000202100 "Lette klær / undertøy"
 * SNOMED_CT#1081791000202103 "Fullt påkledd uten sko"

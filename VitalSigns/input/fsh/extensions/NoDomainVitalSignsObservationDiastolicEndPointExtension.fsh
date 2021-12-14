@@ -9,6 +9,6 @@ Description: "Record which Korotkoff sound is used for determining diastolic pre
 * ^context.expression = "Observation"
 * url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-diastolicendpointextension" (exactly)
 * value[x] only CodeableConcept
-* value[x] from $no-domain-vitalsignsobservation-diastolicendpointvalueset (required)
+* value[x] from NoDomainVitalSignsObservationDiastolicEndpointValueSet (required)
 * value[x].coding ..1
-* value[x].coding from $no-domain-vitalsignsobservation-diastolicendpointvalueset (required)
+* value[x].coding from NoDomainVitalSignsObservationDiastolicEndpointValueSet (required)

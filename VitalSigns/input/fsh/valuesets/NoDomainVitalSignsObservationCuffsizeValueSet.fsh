@@ -2,7 +2,7 @@ ValueSet: NoDomainVitalSignsObservationCuffsizeValueSet
 Id: NoDomainVitalSignsObservationCuffsizeValueSet
 Title: "SNOMED CT CuffSize Structures"
 Description: "Codes representing cuff size"
-* ^meta.lastUpdated = "2021-03-17T13:28:17.239+02:00"
+* ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension[=].valueCode = #oo
@@ -14,7 +14,7 @@ Description: "Codes representing cuff size"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
-* ^date = "2021-03-17"
+* ^date = "2021-03-17T00:00:00+00:00"
 * SNOMED_CT#720740000 "Lår voksne"
 * SNOMED_CT#720738005 "Store voksne"
 * SNOMED_CT#757991000202117 "Voksne"

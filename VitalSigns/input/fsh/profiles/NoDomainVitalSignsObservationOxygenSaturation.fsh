@@ -1,8 +1,8 @@
 Profile: NoDomainVitalSignsObservationOxygenSaturation
-Parent: $oxygensat
+Parent: Observation
 Id: NoDomainVitalSignsObservationOxygenSaturation
-Title: "NoDomainVitalSignsObservationOxygenSaturation"
-Description: """Basisprofile for Norwegian  VitalSigns Observation Oxygen Saturation information.  
+Title: "NO Domain VitalSigns Observation - Oxygen Saturation"
+Description: """Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
 Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturation"
 * ^version = "0.9.0000"
@@ -30,9 +30,14 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
     Author 0..* and
     Organization 0..*
 * performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
+* performer[Organization] only Reference(Organization or $no-basis-Organization)
+* value[x] 1..
+* value[x] only Ratio or Quantity
 * value[x] ^slicing.rules = #open
 * value[x] ^comment = "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the Notes section below."
+//* valueRatio 1..1
+//* valueRatio ^short = "test" 
 * valueQuantity ^short = "The saturation of oxygen in the peripheral blood, measured via pulse oximetry."
 * valueQuantity ^definition = "The saturation of oxygen in the peripheral blood, measured via pulse oximetry."
 * note.id ..0
