@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<lastUpdated value="2021-11-03" />
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="oo" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+		<valueCode value="draft" />
+	</extension>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+		<valueInteger value="1" />
+	</extension>
+	<url value="http://hl7.no/fhir/ValueSet/hn-domain-vitalsignsobservation-consciousnessvalueset" />
+	<version value="4.0.0" />
+	<name value="HnDomainVitalSignsObservationConsciousnessValueSet" />
+	<title value="SNOMED CT Consciousness Structures" />
+	<status value="draft" />
+	<experimental value="false" />
+	<date value="2021-11-03"/>
+	<publisher value=""/>
+	<description value="Codes representing consciousness"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="x"/>
+				<display value="Våken"/>
+			</concept>
+			<concept>
+				<code value="xx"/>
+				<display value="Tiltale"/>
+			</concept>
+			<concept>
+				<code value="xxx"/>
+				<display value="Smerte"/>
+			</concept>
+			<concept>
+				<code value="xxx"/>
+				<display value="Reagerer ikke"/>
+			</concept>			
+		</include>
+	</compose>
+</ValueSet>
