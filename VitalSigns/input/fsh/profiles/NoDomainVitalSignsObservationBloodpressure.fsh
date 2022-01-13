@@ -94,6 +94,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].value[x] only Quantity
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.type = #type
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.path = "$this"
+* component[MeanArterialPressure].value[x] ^slicing.rules = #open
 * component[MeanArterialPressure].valueQuantity only Quantity
 * component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
 * component[MeanArterialPressure].valueQuantity.value 1..
@@ -119,6 +120,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].value[x] only Quantity
 * component[PulsePressure].value[x] ^slicing.discriminator.type = #type
 * component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
+* component[PulsePressure].value[x] ^slicing.rules = #open
 * component[PulsePressure].valueQuantity only Quantity
 * component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
 * component[PulsePressure].valueQuantity.value 1..

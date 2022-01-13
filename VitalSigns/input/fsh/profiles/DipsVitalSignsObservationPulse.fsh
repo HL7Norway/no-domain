@@ -66,6 +66,7 @@ Description: "DIPS profile for Pulse including some extensions"
 * performer[Author] ^type.profile = "http://dips.no/fhir/StructureDefinition/dips-vitalsignsobservation-performerauthorreference"
 // * performer[Author].identifier 1..
 * value[x] 1..
+* value[x] ^slicing.rules = #open
 * dataAbsentReason ..0
 * interpretation ..0
 * note ..1

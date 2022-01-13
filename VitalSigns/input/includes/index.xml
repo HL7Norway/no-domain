@@ -1,0 +1,107 @@
+<div xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+
+    <!-- <p>
+        <h2>DIPS Implementation Guide for FHIR R4 Vital Signs</h2>
+    </p> -->
+    <p>
+        <h3>Introduction</h3>
+    </p>
+    <p>
+    Vital signs are physical observations that are an indication of the body’s life-sustaining functions. They are taken to assess general physical health, give clues to possible disease states, or to show progress toward recovery. There is a need for a single structure and standard vocabulary bindings for each vital sign to allow for ubiquitous access and re-use of vital signs observations. Particularly with the use of wearables by patients where they want to or need to share information from those devices. To meet this need there must be a consistent vocabulary and a common syntax to achieve semantic interoperability. The purpose of the FHIR Vital Signs profiles in this implementation guide(IG) is to provide a mechanism to record, search, and retrieve the vital signs associated with a patient that include the primary vital signs (heart rate, respiratory rate, body temperature, and blood pressure), and additional measurements such as body height/length, weight, head circumference, oxygen saturation, and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff size and location, device type, etc. When a FHIR implementation supports any of the vital signs listed in the table below, the implementation shall conform to the profiles in this IG for vital signs observations.
+    </br></br>
+
+    <p>The following FHIR interactions are supported:</p>
+    <table width="50%" style="border: 1px solid #b9b8b8;">
+        <thead style="background-color: #F7F7F7; padding:2px; border-bottom: 2px solid #12aab5;">
+            <th>Vital Sign Profile</th>
+            <th>Create</th>
+            <th>Read</th>
+            <th>Search</th>
+            <th>Update</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blood Pressure</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="background-color: #F7F7F7">
+                <td>Body Height</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Body Mass Index</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="background-color: #F7F7F7">
+                <td>Body Temperature</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="background-color: #F7F7F7">
+                <td>Body Weight</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Level of Consciousness</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="background-color: #F7F7F7">
+                <td>Body Mass Index</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Heart Rate</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr style="background-color: #F7F7F7">
+                <td>Oxygen Saturation</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Respiratory Rate</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </br></br>
+    The profiles in this implementation guide are derived from and extend the vital signs profiles from the FHIR Specification which are used by Norwegian national profiles.
+    </br></br>
+    Here is an overview diagram showing how each of these profiles and extensions relate with each other.
+    </p>
+
+    <iframe src="dips-vs-tree.html" width="100%" height="800px"></iframe>  
+
+    <!-- <img src="assets/images/DIPS R4 Vital Signs.png" alt="DIPS R4 Vital Signs Structure" style="width: 1080px;" />     -->
+
+</div>

@@ -58,6 +58,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Pulse informati
 * performer[Organization] only Reference(Organization or $no-basis-Organization)
 * value[x] ^slicing.discriminator.type = #type
 * value[x] ^slicing.discriminator.path = "$this"
+* value[x] ^slicing.rules = #open
 * valueQuantity only Quantity
 * valueQuantity ^sliceName = "valueQuantity"
 * valueQuantity.value 1..
