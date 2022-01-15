@@ -1,64 +1,23 @@
 {
   "resourceType" : "Bundle",
-  "id" : "9005cc80-e6ed-4dbb-8c2f-a1beb02f58ce",
+  "id" : "e15bc87c-dfa8-438a-befc-c1347276b366",
   "meta" : {
-    "lastUpdated" : "2022-01-15T08:16:09.970+00:00"
+    "lastUpdated" : "2022-01-15T22:52:46.588+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodypositionvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationBloodPressureBodyPositionValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414585002\"> </a><a href=\"http://snomed.info/id/414585002\">414585002</a></td><td>Liggende lent mot venstre</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414585002\"> </a><a href=\"http://snomed.info/id/414585002\">414585002</a></td><td>Liggende lent mot venstre</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodypositionvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodyPositionValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body position for blood pressure",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:426c0c25-5093-4191-af3c-10f939d215f7",
-        "timestamp" : "2022-01-15T08:17:30+00:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:445f08d6-3bf7-41f4-b85e-068dd7fae4e1",
+        "timestamp" : "2022-01-15T08:17:30.925Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -90,59 +49,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368209003\"> </a><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Overarm, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368208006\"> </a><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Overarm, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-11207009\"> </a><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>Lår, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61396006\"> </a><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>Lår, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-9736006\"> </a><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Håndledd, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-5951000\"> </a><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Håndledd, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6685009\"> </a><a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>Ankel, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51636004\"> </a><a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>Ankel, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2402003\"> </a><a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>Fotrygg</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51114001\"> </a><a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>Intra-arterielt</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368209003\"> </a><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Overarm, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368208006\"> </a><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Overarm, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-11207009\"> </a><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>Lår, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61396006\"> </a><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>Lår, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-9736006\"> </a><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Håndledd, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-5951000\"> </a><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Håndledd, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6685009\"> </a><a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>Ankel, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51636004\"> </a><a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>Ankel, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2402003\"> </a><a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>Fotrygg</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51114001\"> </a><a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>Intra-arterielt</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body site for blood pressure",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:17eab715-3a29-4413-a533-f84cc38634f0",
-        "timestamp" : "2022-01-15T08:17:31+00:00",
-        "total" : 12,
+        "identifier" : "urn:uuid:8f601eb5-5bd1-4c39-b665-34371383285d",
+        "timestamp" : "2022-01-15T08:17:31.144Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -214,52 +132,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodyexposurevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationBodyExposureValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b> - English (English, en)</td></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "fhir"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodyexposurevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationBodyExposureValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing body exposure",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:cc13c0da-897e-48d7-ae25-9c28748ec2e2",
-        "timestamp" : "2022-01-15T08:17:31+00:00",
+        "identifier" : "urn:uuid:a36cd581-4678-4463-8c0a-f9f0fec2c36a",
+        "timestamp" : "2022-01-15T08:17:31.535Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         }]
@@ -267,59 +151,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodyheight-bodypositionvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationBodyHeightBodyPositionValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodyheight-bodypositionvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationBodyHeightBodyPositionValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body position for body height",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:abc2b9e2-7628-424f-9f4a-1936a896e5ed",
-        "timestamp" : "2022-01-15T08:17:31+00:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:00445846-3b36-41ed-a825-f6c27cee7b82",
+        "timestamp" : "2022-01-15T08:17:31.738Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -336,59 +179,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodytemp-bodysitevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationBodyTempBodySiteValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34402009\"> </a><a href=\"http://snomed.info/id/34402009\">34402009</a></td><td>Endetarm</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91470000\"> </a><a href=\"http://snomed.info/id/91470000\">91470000</a></td><td>Armhule</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-42859004\"> </a><a href=\"http://snomed.info/id/42859004\">42859004</a></td><td>Øre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-52795006\"> </a><a href=\"http://snomed.info/id/52795006\">52795006</a></td><td>Panne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122861001\"> </a><a href=\"http://snomed.info/id/122861001\">122861001</a></td><td>Munn</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-71836000\"> </a><a href=\"http://snomed.info/id/71836000\">71836000</a></td><td>Nesesvelg</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-89837001\"> </a><a href=\"http://snomed.info/id/89837001\">89837001</a></td><td>Urinblære</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-59820001\"> </a><a href=\"http://snomed.info/id/59820001\">59820001</a></td><td>Intravaskulært</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-39937001\"> </a><a href=\"http://snomed.info/id/39937001\">39937001</a></td><td>Hud</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-76784001\"> </a><a href=\"http://snomed.info/id/76784001\">76784001</a></td><td>Skjede</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-32849002\"> </a><a href=\"http://snomed.info/id/32849002\">32849002</a></td><td>Spiserør</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26893007\"> </a><a href=\"http://snomed.info/id/26893007\">26893007</a></td><td>Lyske</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-450718002\"> </a><a href=\"http://snomed.info/id/450718002\">450718002</a></td><td>Tinning</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 13 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34402009\"> </a><a href=\"http://snomed.info/id/34402009\">34402009</a></td><td>Endetarm</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91470000\"> </a><a href=\"http://snomed.info/id/91470000\">91470000</a></td><td>Armhule</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-42859004\"> </a><a href=\"http://snomed.info/id/42859004\">42859004</a></td><td>Øre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-52795006\"> </a><a href=\"http://snomed.info/id/52795006\">52795006</a></td><td>Panne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122861001\"> </a><a href=\"http://snomed.info/id/122861001\">122861001</a></td><td>Munn</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-71836000\"> </a><a href=\"http://snomed.info/id/71836000\">71836000</a></td><td>Nesesvelg</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-89837001\"> </a><a href=\"http://snomed.info/id/89837001\">89837001</a></td><td>Urinblære</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-59820001\"> </a><a href=\"http://snomed.info/id/59820001\">59820001</a></td><td>Intravaskulært</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-39937001\"> </a><a href=\"http://snomed.info/id/39937001\">39937001</a></td><td>Hud</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-76784001\"> </a><a href=\"http://snomed.info/id/76784001\">76784001</a></td><td>Skjede</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-32849002\"> </a><a href=\"http://snomed.info/id/32849002\">32849002</a></td><td>Spiserør</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26893007\"> </a><a href=\"http://snomed.info/id/26893007\">26893007</a></td><td>Lyske</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-450718002\"> </a><a href=\"http://snomed.info/id/450718002\">450718002</a></td><td>Tinning</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodytemp-bodysitevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationBodyTempBodySiteValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body site for body temperature",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:a8d2cc43-d618-4760-badb-80eba05c9b7c",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
-        "total" : 13,
+        "identifier" : "urn:uuid:fcd688eb-06a7-435a-a691-68989aaa78f0",
+        "timestamp" : "2022-01-15T08:17:32.175Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -465,53 +267,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-clothingstatevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationClothingStateValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b> - English (English, en)</td></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-clothingstatevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationClothingStateValueSet",
-      "title" : "Codes representing level of clothing",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing level of clothing",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:e3dbab46-ce03-4ff2-ac0b-cea743542b3f",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
+        "identifier" : "urn:uuid:b466823f-0f8b-4a2c-95b8-7d616f29698b",
+        "timestamp" : "2022-01-15T08:17:32.332Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         }]
@@ -519,54 +286,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-cuffsizevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationCuffsizeValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720740000\"> </a><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720738005\"> </a><a href=\"http://snomed.info/id/720738005\">720738005</a></td><td>Store voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720739002\"> </a><a href=\"http://snomed.info/id/720739002\">720739002</a></td><td>Små voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720736009\"> </a><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720740000\"> </a><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720738005\"> </a><a href=\"http://snomed.info/id/720738005\">720738005</a></td><td>Store voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720739002\"> </a><a href=\"http://snomed.info/id/720739002\">720739002</a></td><td>Små voksne</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720736009\"> </a><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-cuffsizevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationCuffsizeValueSet",
-      "title" : "SNOMED CT CuffSize Structures",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing cuff size",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:37097bea-6eaa-491d-a0c0-494d10b5ae02",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:6072da40-815b-4e1b-be97-0ca5b1f3c709",
+        "timestamp" : "2022-01-15T08:17:32.488Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -598,53 +329,18 @@
     }
   },
   {
-    "fullUrl" : "http://dips.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicEndpointValueSet",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationDiastolicEndpointValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b> - English (English, en)</td></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://dips.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicEndpointValueSet",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationDiastolicEndpointValueSet",
-      "title" : "Codes representing Diastolic end point",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing Diastolic end point",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:35ede886-7dac-4da5-b06e-a68d9d3cce6d",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
+        "identifier" : "urn:uuid:a9b4b35f-4e1b-4af7-b14a-e1acee1ef60b",
+        "timestamp" : "2022-01-15T08:17:32.644Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         }]
@@ -652,63 +348,22 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-exertionvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationExertionValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px\">This value set cannot be expanded because of the way it is defined - it has an infinite number of members</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p style=\"border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px\">This value set cannot be expanded because of the way it is defined - it has an infinite number of members</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b> - English (English, en)</td></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-exertionvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationExertionValueSet",
-      "title" : "SNOMED CT Exertion Valueset",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing exertion",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:fba8fb52-46c2-405c-bb6e-d3296bbb7088",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
+        "identifier" : "urn:uuid:946d0a27-8a9a-456d-b481-7e93e4e2664f",
+        "timestamp" : "2022-01-15T08:17:32.800Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         }]
@@ -716,60 +371,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodypositionvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationHeartRateBodyPositionValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodypositionvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationHeartRateBodyPositionValueSet",
-      "title" : "no-domain-vitalsignsobservation-heartrate-bodypositionvalueset",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body position for heart rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:921a2846-cd2f-465d-ae3c-e8c47cea36cf",
-        "timestamp" : "2022-01-15T08:17:32+00:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:7a9bd06c-d582-46bd-b377-c152271f013d",
+        "timestamp" : "2022-01-15T08:17:32.972Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -796,60 +409,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodysitevalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationHeartRateBodySiteValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368504007\"> </a><a href=\"http://snomed.info/id/368504007\">368504007</a></td><td>Radialisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368503001\"> </a><a href=\"http://snomed.info/id/368503001\">368503001</a></td><td>Radialisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-721028001\"> </a><a href=\"http://snomed.info/id/721028001\">721028001</a></td><td>Carotisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-721033002\"> </a><a href=\"http://snomed.info/id/721033002\">721033002</a></td><td>Carotisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113270003\"> </a><a href=\"http://snomed.info/id/113270003\">113270003</a></td><td>Femoralisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-69833005\"> </a><a href=\"http://snomed.info/id/69833005\">69833005</a></td><td>Femoralisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723962009\"> </a><a href=\"http://snomed.info/id/723962009\">723962009</a></td><td>Brachialisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723961002\"> </a><a href=\"http://snomed.info/id/723961002\">723961002</a></td><td>Brachialisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48800003\"> </a><a href=\"http://snomed.info/id/48800003\">48800003</a></td><td>Øreflipp</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368504007\"> </a><a href=\"http://snomed.info/id/368504007\">368504007</a></td><td>Radialisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368503001\"> </a><a href=\"http://snomed.info/id/368503001\">368503001</a></td><td>Radialisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-721028001\"> </a><a href=\"http://snomed.info/id/721028001\">721028001</a></td><td>Carotisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-721033002\"> </a><a href=\"http://snomed.info/id/721033002\">721033002</a></td><td>Carotisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113270003\"> </a><a href=\"http://snomed.info/id/113270003\">113270003</a></td><td>Femoralisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-69833005\"> </a><a href=\"http://snomed.info/id/69833005\">69833005</a></td><td>Femoralisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723962009\"> </a><a href=\"http://snomed.info/id/723962009\">723962009</a></td><td>Brachialisarterien, høyre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723961002\"> </a><a href=\"http://snomed.info/id/723961002\">723961002</a></td><td>Brachialisarterien, venstre</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48800003\"> </a><a href=\"http://snomed.info/id/48800003\">48800003</a></td><td>Øreflipp</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodysitevalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationHeartRateBodySiteValueSet",
-      "title" : "no-domain-vitalsignsobservation-heartrate-bodysitevalueset",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing body site for heart rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:aa4fc9e7-5dc3-4757-8c9b-1105b70fab94",
-        "timestamp" : "2022-01-15T08:17:33+00:00",
-        "total" : 11,
+        "identifier" : "urn:uuid:ec385db5-47ea-491d-95d2-81451945b067",
+        "timestamp" : "2022-01-15T08:17:33.113Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -916,61 +487,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmIrregularityvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationHeartRhythmIrregularityValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271638000\"> </a><a href=\"http://snomed.info/id/271638000\">271638000</a></td><td>Regelmessig uregelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271637005\"> </a><a href=\"http://snomed.info/id/271637005\">271637005</a></td><td>Uregelmessig uregelmessig</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271638000\"> </a><a href=\"http://snomed.info/id/271638000\">271638000</a></td><td>Regelmessig uregelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271637005\"> </a><a href=\"http://snomed.info/id/271637005\">271637005</a></td><td>Uregelmessig uregelmessig</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmIrregularityvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularityValueSet",
-      "title" : "no-domain-vitalsignsobservation-heartrhythmIrregularityvalueset",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "publisher" : "FHIR Project team",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing heart rhythm irregularity for heart rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:3e068957-8183-484f-b271-d6a5d0c88282",
-        "timestamp" : "2022-01-15T08:17:33+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:c0d34ac3-aa10-4c56-ad90-b5e72031a843",
+        "timestamp" : "2022-01-15T08:17:33.425Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -992,60 +520,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationHeartRhythmValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271636001\"> </a><a href=\"http://snomed.info/id/271636001\">271636001</a></td><td>Regelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61086009\"> </a><a href=\"http://snomed.info/id/61086009\">61086009</a></td><td>Uregelmessig</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271636001\"> </a><a href=\"http://snomed.info/id/271636001\">271636001</a></td><td>Regelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61086009\"> </a><a href=\"http://snomed.info/id/61086009\">61086009</a></td><td>Uregelmessig</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationHeartRhythmValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "publisher" : "FHIR Project team",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        }]
-      }],
-      "description" : "Codes representing heart rhythm for heart rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:e81915f5-2c4c-41ea-929a-faa478f6023d",
-        "timestamp" : "2022-01-15T08:17:33+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:ea6c1667-9ebd-4bac-9b0f-98d411247b86",
+        "timestamp" : "2022-01-15T08:17:33.613Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1067,53 +553,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-bodypositionvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationRespirationRateBodyPositionValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående/Oppreist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40199007\"> </a><a href=\"http://snomed.info/id/40199007\">40199007</a></td><td>Ryggleie</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1240000\"> </a><a href=\"http://snomed.info/id/1240000\">1240000</a></td><td>Mageleie</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående/Oppreist</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-272580008\"> </a><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40199007\"> </a><a href=\"http://snomed.info/id/40199007\">40199007</a></td><td>Ryggleie</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1240000\"> </a><a href=\"http://snomed.info/id/1240000\">1240000</a></td><td>Mageleie</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "fhir"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-bodypositionvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationRespirationRateBodyPositionValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing body position for respiration rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:cef11eb6-fcb2-4a8a-abca-786363e79a5d",
-        "timestamp" : "2022-01-15T08:17:34+00:00",
-        "total" : 5,
+        "identifier" : "urn:uuid:8fe50d2c-4130-4865-ba83-620d74f18f56",
+        "timestamp" : "2022-01-15T08:17:34.660Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1150,53 +601,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-depthvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationRespirationRateDepthValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-301284009\"> </a><a href=\"http://snomed.info/id/301284009\">301284009</a></td><td>Normal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386616007\"> </a><a href=\"http://snomed.info/id/386616007\">386616007</a></td><td>Overfladisk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-289123006\"> </a><a href=\"http://snomed.info/id/289123006\">289123006</a></td><td>Dyp</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248587009\"> </a><a href=\"http://snomed.info/id/248587009\">248587009</a></td><td>Varierende</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-301284009\"> </a><a href=\"http://snomed.info/id/301284009\">301284009</a></td><td>Normal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-386616007\"> </a><a href=\"http://snomed.info/id/386616007\">386616007</a></td><td>Overfladisk</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-289123006\"> </a><a href=\"http://snomed.info/id/289123006\">289123006</a></td><td>Dyp</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248587009\"> </a><a href=\"http://snomed.info/id/248587009\">248587009</a></td><td>Varierende</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "fhir"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-depthvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationRespirationRateDepthValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing depth for respiration rate",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:d54dacf1-6d21-4b68-8807-785baeff2619",
-        "timestamp" : "2022-01-15T08:17:34+00:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:e75ae0e2-70ba-4d89-9271-f79f3907127d",
+        "timestamp" : "2022-01-15T08:17:34.800Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1228,52 +644,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-patternvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationRespirationRatePatternValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T11:28:17.239+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241700002\"> </a><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241700002\"> </a><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "fhir"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-patternvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationRespirationRatePatternValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:473fa7bf-4f82-46da-947f-4cfaf1b99cfa",
-        "timestamp" : "2022-01-15T08:17:34+00:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:bf61bc12-3c03-4e0e-ad44-09ad8eaf93ec",
+        "timestamp" : "2022-01-15T08:17:34.957Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1290,53 +672,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-respirationregularityvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationRespirationRegularityValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-276888009\"> </a><a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>Regelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248585001\"> </a><a href=\"http://snomed.info/id/248585001\">248585001</a></td><td>Uregelmessig</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-276888009\"> </a><a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>Regelmessig</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248585001\"> </a><a href=\"http://snomed.info/id/248585001\">248585001</a></td><td>Uregelmessig</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-respirationregularityvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationRespirationRegularityValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing Respiration Regularity",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:1fbe027d-bf81-490b-8249-6021acefad3e",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:78f2f4ed-e861-42db-b926-954068c78009",
+        "timestamp" : "2022-01-15T08:17:35.113Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1358,53 +705,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-sleepstatusvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationSleepStatusValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248218005\"> </a><a href=\"http://snomed.info/id/248218005\">248218005</a></td><td>Våken</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248220008\"> </a><a href=\"http://snomed.info/id/248220008\">248220008</a></td><td>Sovende</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248218005\"> </a><a href=\"http://snomed.info/id/248218005\">248218005</a></td><td>Våken</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248220008\"> </a><a href=\"http://snomed.info/id/248220008\">248220008</a></td><td>Sovende</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-sleepstatusvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationSleepStatusValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing Sleep Status",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:9bb9e304-a918-4258-bc88-d7f7567ae8ef",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:e10b6e4f-8c36-4e84-a7f1-8ead7c0e51aa",
+        "timestamp" : "2022-01-15T08:17:35.269Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1426,53 +738,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-spontaneousbreathingvalueset",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "NoDomainVitalSignsObservationSpontaneousBreathingValueSet",
-      "meta" : {
-        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241700002\"> </a><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241700002\"> </a><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-        "valueCode" : "oo"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-spontaneousbreathingvalueset",
-      "version" : "0.0.1-alpha",
-      "name" : "NoDomainVitalSignsObservationSpontaneousBreathingValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "description" : "Codes representing Respiration Spontaneous breathing",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
+      "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:dd2dcd3c-ad4f-40db-a99c-643e10602c36",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
-        "total" : 1,
+        "identifier" : "urn:uuid:5eb90946-c186-4e24-8950-064e371742f8",
+        "timestamp" : "2022-01-15T08:17:35.410Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -1517,8 +794,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1d63039-54bb-4204-8cc3-bf4d2d7ecaec",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
+        "identifier" : "urn:uuid:8f20daab-b7ec-4b64-920d-b3af1c740b78",
+        "timestamp" : "2022-01-15T22:53:44+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1555,8 +832,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1d63039-54bb-4204-8cc3-bf4d2d7ecaec",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
+        "identifier" : "urn:uuid:8f20daab-b7ec-4b64-920d-b3af1c740b78",
+        "timestamp" : "2022-01-15T22:53:44+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1593,8 +870,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1d63039-54bb-4204-8cc3-bf4d2d7ecaec",
-        "timestamp" : "2022-01-15T08:17:35+00:00",
+        "identifier" : "urn:uuid:8f20daab-b7ec-4b64-920d-b3af1c740b78",
+        "timestamp" : "2022-01-15T22:53:44+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
