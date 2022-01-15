@@ -1,0 +1,154 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://dips.no/CapabilityStatement/DIPSVitalSignsObservation> a fhir:CapabilityStatement;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "DIPSVitalSignsObservation"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2/><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><p>This describes the capabilities of the vital signs supported by DIPS.</p>\n</div></td></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td>y</td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Observation</td><td><a href=\"DIPSVitalSignsObservation\">DIPSVitalSignsObservation</a><br/>Additional supported profiles:<br/>  <a href=\"DipsVitalSignsObservationBloodpressure\">DipsVitalSignsObservationBloodpressure</a><br/>  <a href=\"DipsVitalSignsObservationBodyHeight\">DipsVitalSignsObservationBodyHeight</a><br/>  <a href=\"DipsBodyTemp\">DipsBodyTemp</a><br/>  <a href=\"DipsBodyWeight\">DipsBodyWeight</a><br/>  <a href=\"DipsVitalSignsObservationHeartRate\">DipsVitalSignsObservationHeartRate</a><br/>  <a href=\"DipsVitalSignsObservationOxygenSaturation\">DipsVitalSignsObservationOxygenSaturation</a><br/>  <a href=\"DipsResprate\">DipsResprate</a><br/>  <a href=\"NoObservationBodyHeight\">NoObservationBodyHeight</a><br/>  <a href=\"NoObservationBodyTemp\">NoObservationBodyTemp</a><br/>  <a href=\"NoObservationBodyWeight\">NoObservationBodyWeight</a><br/>  <a href=\"NoObservationbp\">NoObservationbp</a><br/>  <a href=\"NoObservationHeartRate\">NoObservationHeartRate</a><br/>  <a href=\"NoObservationOxygenSat\">NoObservationOxygenSat</a><br/>  <a href=\"NoObservationResprate\">NoObservationResprate</a></td><td>y</td><td>y</td><td></td><td>y</td></tr></table></div>"
+  ];
+  fhir:CapabilityStatement.url [ fhir:value "http://dips.no/CapabilityStatement/DIPSVitalSignsObservation"];
+  fhir:CapabilityStatement.version [ fhir:value "0.0.1-alpha"];
+  fhir:CapabilityStatement.status [ fhir:value "active"];
+  fhir:CapabilityStatement.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CapabilityStatement.date [ fhir:value "2019-09-26"^^xsd:date];
+  fhir:CapabilityStatement.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CapabilityStatement.kind [ fhir:value "instance"];
+  fhir:CapabilityStatement.fhirVersion [ fhir:value "4.0.0"];
+  fhir:CapabilityStatement.format [
+     fhir:value "xml";
+     fhir:index 0
+  ], [
+     fhir:value "json";
+     fhir:index 1
+  ];
+  fhir:CapabilityStatement.rest [
+     fhir:index 0;
+     fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
+     fhir:CapabilityStatement.rest.documentation [ fhir:value "This describes the capabilities of the vital signs supported by DIPS." ];
+     fhir:CapabilityStatement.rest.resource [
+       fhir:index 0;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Observation" ];
+       fhir:CapabilityStatement.rest.resource.profile [ fhir:value "DIPSVitalSignsObservation" ];
+       fhir:CapabilityStatement.rest.resource.supportedProfile [
+         fhir:value "DipsVitalSignsObservationBloodpressure";
+         fhir:index 0
+       ], [
+         fhir:value "DipsVitalSignsObservationBodyHeight";
+         fhir:index 1
+       ], [
+         fhir:value "DipsBodyTemp";
+         fhir:index 2
+       ], [
+         fhir:value "DipsBodyWeight";
+         fhir:index 3
+       ], [
+         fhir:value "DipsVitalSignsObservationHeartRate";
+         fhir:index 4
+       ], [
+         fhir:value "DipsVitalSignsObservationOxygenSaturation";
+         fhir:index 5
+       ], [
+         fhir:value "DipsResprate";
+         fhir:index 6
+       ], [
+         fhir:value "NoObservationBodyHeight";
+         fhir:index 7
+       ], [
+         fhir:value "NoObservationBodyTemp";
+         fhir:index 8
+       ], [
+         fhir:value "NoObservationBodyWeight";
+         fhir:index 9
+       ], [
+         fhir:value "NoObservationbp";
+         fhir:index 10
+       ], [
+         fhir:value "NoObservationHeartRate";
+         fhir:index 11
+       ], [
+         fhir:value "NoObservationOxygenSat";
+         fhir:index 12
+       ], [
+         fhir:value "NoObservationResprate";
+         fhir:index 13
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Register an observation on a specific patient in DIPS.\r\n                       It is not  possible to register cancer and person injury\r\n                       diagnoses via this interface." ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Read an observation by fhir id returned by the service" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Fetch observations by patient, fhirid, code, externalfhirid and effectivedatetime" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "fhirid" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Dips fhir id" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "externalfhirid" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "external fhir id" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Loinc code for type of observation eg: For blood presure 'code=85354-9'" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Supports patient logical Id or SSN." ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient.Identifier" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Dips patient id or national id.Supported systems are urn:oid:2.16.578.1.12.4.1.4.1,urn:oid:2.16.578.1.12.4.1.4.2 or urn:oid:2.16.578.1.12.4.1.4.3 " ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "effectivedatetime" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Effective date time. Supports single date or date range" ]
+       ]
+     ];
+     fhir:CapabilityStatement.rest.interaction [
+       fhir:index 0;
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "transaction" ]
+     ], [
+       fhir:index 1;
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "history-system" ]
+     ];
+     fhir:CapabilityStatement.rest.compartment [
+       fhir:value "http://hl7.org/fhir/CompartmentDefinition/patient";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/CompartmentDefinition/patient>
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://dips.no/CapabilityStatement/DIPSVitalSignsObservation.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

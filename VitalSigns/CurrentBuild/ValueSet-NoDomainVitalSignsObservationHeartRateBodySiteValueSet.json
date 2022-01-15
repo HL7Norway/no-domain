@@ -1,0 +1,110 @@
+{
+  "resourceType": "ValueSet",
+  "id": "NoDomainVitalSignsObservationHeartRateBodySiteValueSet",
+  "meta": {
+    "lastUpdated": "2021-03-17T00:00:00.000+00:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/368504007\">368504007</a></td><td>Radialisarterien, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/368503001\">368503001</a></td><td>Radialisarterien, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/721028001\">721028001</a></td><td>Carotisarterien, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/721033002\">721033002</a></td><td>Carotisarterien, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/113270003\">113270003</a></td><td>Femoralisarterien, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/69833005\">69833005</a></td><td>Femoralisarterien, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/723962009\">723962009</a></td><td>Brachialisarterien, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/723961002\">723961002</a></td><td>Brachialisarterien, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td></tr><tr><td><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td></tr><tr><td><a href=\"http://snomed.info/id/48800003\">48800003</a></td><td>Øreflipp</td></tr></table></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "oo"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-heartrate-bodysitevalueset",
+  "version": "0.0.1-alpha",
+  "name": "NoDomainVitalSignsObservationHeartRateBodySiteValueSet",
+  "title": "no-domain-vitalsignsobservation-heartrate-bodysitevalueset",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-03-17T00:00:00+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "description": "Codes representing body site for heart rate",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "368504007",
+            "display": "Radialisarterien, venstre"
+          },
+          {
+            "code": "368503001",
+            "display": "Radialisarterien, høyre"
+          },
+          {
+            "code": "721028001",
+            "display": "Carotisarterien, venstre"
+          },
+          {
+            "code": "721033002",
+            "display": "Carotisarterien, høyre"
+          },
+          {
+            "code": "113270003",
+            "display": "Femoralisarterien, venstre"
+          },
+          {
+            "code": "69833005",
+            "display": "Femoralisarterien, høyre"
+          },
+          {
+            "code": "723962009",
+            "display": "Brachialisarterien, høyre"
+          },
+          {
+            "code": "723961002",
+            "display": "Brachialisarterien, venstre"
+          },
+          {
+            "code": "7569003",
+            "display": "Finger"
+          },
+          {
+            "code": "29707007",
+            "display": "Tå"
+          },
+          {
+            "code": "48800003",
+            "display": "Øreflipp"
+          }
+        ]
+      }
+    ]
+  }
+}

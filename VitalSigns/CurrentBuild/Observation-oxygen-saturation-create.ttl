@@ -1,0 +1,153 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://dips.no/Observation/oxygen-saturation-create> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "oxygen-saturation-create"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "0" ];
+     fhir:Meta.lastUpdated [ fhir:value "2014-01-30T22:35:23+11:00"^^xsd:dateTime ];
+     fhir:Meta.source [ fhir:value "META_VISION" ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"oxygen-saturation-create\" Version \"0\" Updated \"2014-01-30T11:35:23Z\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b>NoDomainVitalSignsObservationLevelOfExertionExtension</b>: Hvile (Details: SNOMED CT code 154h = '154h', stated as 'Hvile')</p><p><b>NoDomainVitalSignsObservationPrePostduktalExtension</b>: Post-ductal (Details: SNOMED CT code 154d = '154d', stated as 'Post-ductal')</p><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygenExtension</b></p><p><b>value</b>: Oxygen administration method</p><p><b>value</b>: 6100 ml/min</p><p><b>value</b>: 21/100</p><p><b>value</b>: 21/100</p></blockquote><p><b>identifier</b>: id: External Id: testOxySatexternalId5</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs \"vital-signs\")</span></p><p><b>code</b>: Pulse oximeter (physical object) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#2708-6)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//patient/cdp1000239\">patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span></span></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>value</b>: 24/25</p><p><b>note</b>: Demo pulse oxymetri</p><p><b>bodySite</b>: Demo pulse oxymetri bodysite <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension" ];
+     fhir:Extension.valueCoding [
+       a sct:154h;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "154h" ];
+       fhir:Coding.display [ fhir:value "Hvile" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension" ];
+     fhir:Extension.valueCoding [
+       a sct:154d;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "154d" ];
+       fhir:Coding.display [ fhir:value "Post-ductal" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://dips.no/fhir/StructureDefinition/OxygenAdministrationMethodExtension" ];
+       fhir:Extension.valueString [ fhir:value "Oxygen administration method" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://dips.no/fhir/StructureDefinition/FlowExtension" ];
+       fhir:Extension.valueQuantity [
+         fhir:Quantity.value [ fhir:value "6100"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "ml/min" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "http://dips.no/fhir/StructureDefinition/FiO2Extension" ];
+       fhir:Extension.valueRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "21"^^xsd:decimal ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "100"^^xsd:decimal ]
+         ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "http://dips.no/fhir/StructureDefinition/ProsentO2Extension" ];
+       fhir:Extension.valueRatio [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "21"^^xsd:decimal ]
+         ];
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "100"^^xsd:decimal ]
+         ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" ]
+  ];
+  fhir:Observation.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
+     fhir:Identifier.value [ fhir:value "External Id: testOxySatexternalId5" ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "vital-signs" ];
+       fhir:Coding.display [ fhir:value "vital-signs" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Vital Signs" ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:2708-6;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "2708-6" ];
+       fhir:Coding.display [ fhir:value "Pulse oximeter (physical object)" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://dips.no/patient/cdp1000239>;
+     fhir:Reference.reference [ fhir:value "patient/cdp1000239" ];
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
+       fhir:Identifier.value [ fhir:value "1000239" ]
+     ]
+  ];
+  fhir:Observation.encounter [
+     fhir:link <http://dips.no/Encounter/agy1000245>;
+     fhir:Reference.reference [ fhir:value "Encounter/agy1000245" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.2" ];
+       fhir:Identifier.value [ fhir:value "889911" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://dips.no/Organization/afa22>;
+     fhir:Reference.reference [ fhir:value "Organization/afa22" ];
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
+       fhir:Identifier.value [ fhir:value "22" ]
+     ]
+  ];
+  fhir:Observation.valueRatio [
+     fhir:Ratio.numerator [
+       fhir:Quantity.value [ fhir:value "24"^^xsd:decimal ]
+     ];
+     fhir:Ratio.denominator [
+       fhir:Quantity.value [ fhir:value "25"^^xsd:decimal ]
+     ]
+  ];
+  fhir:Observation.note [
+     fhir:index 0;
+     fhir:Annotation.text [ fhir:value "Demo pulse oxymetri" ]
+  ];
+  fhir:Observation.bodySite [
+     fhir:CodeableConcept.text [ fhir:value "Demo pulse oxymetri bodysite" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://dips.no/Observation/oxygen-saturation-create.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

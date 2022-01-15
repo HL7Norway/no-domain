@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "NoDomainVitalSignsObservationRespirationRatePatternValueSet",
+  "meta": {
+    "lastUpdated": "2021-03-17T11:28:17.239+00:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td></tr><tr><td><a href=\"http://snomed.info/id/1081891000202108\">1081891000202108</a></td><td>Fraværende</td></tr></table></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "fhir"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-patternvalueset",
+  "version": "0.0.1-alpha",
+  "name": "NoDomainVitalSignsObservationRespirationRatePatternValueSet",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-03-17",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "241700002",
+            "display": "Tilstede"
+          },
+          {
+            "code": "1081891000202108",
+            "display": "Fraværende"
+          }
+        ]
+      }
+    ]
+  }
+}
