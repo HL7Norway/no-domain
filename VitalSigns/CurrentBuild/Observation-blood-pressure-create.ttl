@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://dips.no/Observation/blood-pressure-create> a fhir:Observation;
+<http://hl7.no/fhir/Observation/blood-pressure-create> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "blood-pressure-create"];
   fhir:Resource.meta [
@@ -109,7 +109,7 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://dips.no/Patient/cdp1000807>;
+     fhir:link <http://hl7.no/fhir/Patient/cdp1000807>;
      fhir:Reference.reference [ fhir:value "Patient/cdp1000807" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
@@ -117,7 +117,7 @@
      ]
   ];
   fhir:Observation.encounter [
-     fhir:link <http://dips.no/Encounter/agy1002679>;
+     fhir:link <http://hl7.no/fhir/Encounter/agy1002679>;
      fhir:Reference.reference [ fhir:value "Encounter/agy1002679" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid" ];
@@ -127,7 +127,7 @@
   fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://dips.no/PractitionerRole/agb103>;
+     fhir:link <http://hl7.no/fhir/PractitionerRole/agb103>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/agb103" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.51.1" ];
@@ -135,7 +135,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:link <http://dips.no/Organization/afa22>;
+     fhir:link <http://hl7.no/fhir/Organization/afa22>;
      fhir:Reference.reference [ fhir:value "Organization/afa22" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
@@ -241,7 +241,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://dips.no/Observation/blood-pressure-create.ttl> a owl:Ontology;
+<http://hl7.no/fhir/Observation/blood-pressure-create.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

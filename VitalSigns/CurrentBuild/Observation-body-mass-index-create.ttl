@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://dips.no/Observation/body-mass-index-create> a fhir:Observation;
+<http://hl7.no/fhir/Observation/body-mass-index-create> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "body-mass-index-create"];
   fhir:Resource.meta [
@@ -52,7 +52,7 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://dips.no/patient/cdp1000239>;
+     fhir:link <http://hl7.no/fhir/patient/cdp1000239>;
      fhir:Reference.reference [ fhir:value "patient/cdp1000239" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
@@ -60,7 +60,7 @@
      ]
   ];
   fhir:Observation.encounter [
-     fhir:link <http://dips.no/Encounter/agy1000245>;
+     fhir:link <http://hl7.no/fhir/Encounter/agy1000245>;
      fhir:Reference.reference [ fhir:value "Encounter/agy1000245" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2021-05-31"^^xsd:date];
@@ -103,7 +103,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://dips.no/Observation/body-mass-index-create.ttl> a owl:Ontology;
+<http://hl7.no/fhir/Observation/body-mass-index-create.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

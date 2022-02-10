@@ -1,93 +1,30 @@
 [
   {
-    "id": "DIPSVitalSignsObservation",
-    "type": "CapabilityStatement",
-    "url": "http://dips.no/CapabilityStatement/DIPSVitalSignsObservation",
-    "version": "0.0.1-alpha"
-  },
-  {
-    "id": "dips.fhir.r4.observations.ig",
-    "type": "ImplementationGuide",
-    "url": "http://dips.no/ImplementationGuide/dips.fhir.r4.observations.ig",
-    "version": "0.0.1-alpha",
-    "name": "DIPSVitalSigns"
-  },
-  {
-    "id": "DipsJournalIdExtension",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DIPSJournalIdExtension",
-    "version": "0.0.1-alpha",
-    "name": "DipsJournalIdExtension"
-  },
-  {
-    "id": "DipsVitalSignsObservationBloodpressure",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBloodpressure",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationBloodpressure"
-  },
-  {
-    "id": "DipsVitalSignsObservationBodyHeight",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyHeight",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationBodyHeight"
-  },
-  {
-    "id": "DipsVitalSignsObservationBodyMassIndex",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyMassIndex",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationBodyMassIndex"
-  },
-  {
-    "id": "DipsVitalSignsObservationBodyTemp",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyTemp",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationBodyTemp"
-  },
-  {
-    "id": "DipsVitalSignsObservationBodyWeight",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyWeight",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationBodyWeight"
-  },
-  {
-    "id": "DipsVitalSignsObservationHeartRate",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationHeartRate",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationHeartRate"
-  },
-  {
-    "id": "DipsVitalSignsObservationOxygenSaturation",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationOxygenSaturation",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationOxygenSaturation"
-  },
-  {
-    "id": "DipsVitalSignsObservationPulse",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationPulse",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationPulse"
-  },
-  {
-    "id": "DipsVitalSignsObservationRespirationRate",
-    "type": "StructureDefinition",
-    "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationRespirationRate",
-    "version": "0.0.1-alpha",
-    "name": "DipsVitalSignsObservationRespirationRate"
-  },
-  {
     "id": "NoDomainVitalSignsObservationDiastolicEndpointValueSet",
     "type": "ValueSet",
     "url": "http://dips.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicEndpointValueSet",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationDiastolicEndpointValueSet"
+  },
+  {
+    "id": "DIPSVitalSignsObservation",
+    "type": "CapabilityStatement",
+    "url": "http://hl7.no/fhir/CapabilityStatement/DIPSVitalSignsObservation",
+    "version": "0.0.1-alpha"
+  },
+  {
+    "id": "vkp-subject-identifier-systems.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems",
+    "version": "0.0.1-alpha",
+    "name": "VkpSubjectIdentifierSystemsCodeSystem"
+  },
+  {
+    "id": "hl7.fhir.no.domain.vitalsigns",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSigns"
   },
   {
     "id": "NoDomainVSObservationBloodPressureMeanArterialFormulaExtension",
@@ -314,6 +251,13 @@
     "name": "NoDomainVitalSignsObservationSpontaneousBreathingExtension"
   },
   {
+    "id": "VkpVitalSignsObservationBloodpressure",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure",
+    "version": "0.0.1-alpha",
+    "name": "VkpVitalSignsObservationBloodpressure"
+  },
+  {
     "id": "NoDomainVitalSignsObservationBloodPressureBodyPositionValueSet",
     "type": "ValueSet",
     "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodypositionvalueset",
@@ -466,6 +410,13 @@
     "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-patternvalueset",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationRespirationRatePatternValueSet"
+  },
+  {
+    "id": "vkp-subject-identifier-systems",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/vkp-subject-identifier-systems",
+    "version": "0.0.1-alpha",
+    "name": "VkpSubjectIdentifierSystemsValueSet"
   },
   {
     "id": "NoDomainVitalSignsObservationPrePostduktalExtension",

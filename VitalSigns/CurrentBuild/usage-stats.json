@@ -1,30 +1,9 @@
 {
-  "package": "dips.fhir.r4.observations.ig",
+  "package": "hl7.fhir.no.domain.vitalsigns",
   "version": "0.0.1-alpha",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
-    {
-      "url": "http://dips.no/fhir/StructureDefinition/DIPSJournalIdExtension",
-      "title": "DipsJournalIdExtension",
-      "types": [
-        "Reference",
-        "string",
-        "Extension",
-        "string",
-        "uri",
-        "Identifier",
-        "string",
-        "Extension",
-        "code",
-        "CodeableConcept",
-        "uri",
-        "string",
-        "Period",
-        "Reference",
-        "string"
-      ]
-    },
     {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVSObservationBloodPressureMeanArterialFormulaExtension",
       "title": "NoDomainVSObservationBloodPressureMeanArterialFormulaExtension",
@@ -455,42 +434,6 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBloodpressure",
-        "title": "DIPS Vital Signs Observation - Blood Pressure"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyHeight",
-        "title": "DIPS Vital Signs Observation - Body Height"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyMassIndex",
-        "title": "DIPS Vital Signs Observation - Body Mass Index(BMI)"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyTemp",
-        "title": "DIPS Vital Signs Observation - Body Temperature"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationBodyWeight",
-        "title": "DIPS Vital Signs Observation - Body Weight"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationHeartRate",
-        "title": "DIPS Vital Signs Observation - Heart Rate"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationOxygenSaturation",
-        "title": "DIPS Vital Signs Observation - Oxygen Saturation"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationPulse",
-        "title": "DIPS Vital Signs Observation - Pulse"
-      },
-      {
-        "url": "http://dips.no/fhir/StructureDefinition/DipsVitalSignsObservationRespirationRate",
-        "title": "DIPS Vital Signs Observation - Respiration Rate"
-      },
-      {
         "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure",
         "title": "NO Domain VitalSigns Observation - Blood pressure"
       },
@@ -525,13 +468,14 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate",
         "title": "NO Domain VitalSigns Observation - Respiration Rate"
+      },
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure",
+        "title": "Vkp VitalSigns Observation - Blood pressure"
       }
     ]
   },
   "usage": {
-    "http://dips.no/fhir/StructureDefinition/DIPSJournalIdExtension": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVSObservationBloodPressureMeanArterialFormulaExtension": [
       "Observation"
     ],
