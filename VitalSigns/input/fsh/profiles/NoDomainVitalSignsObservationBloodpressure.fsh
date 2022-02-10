@@ -6,7 +6,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure"
 * ^version = "0.9.0000"
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2022-02-10"
 * ^purpose = "To record the systemic arterial blood pressure of an individual."
 * . ^short = "FHIR Blood Pressure Profile Norway"
 * extension ^slicing.discriminator.type = #value
@@ -59,7 +59,6 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
     Organization 0..*
 //* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 * performer[Author] only Reference(Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
 * performer[Organization] only Reference(Organization or $no-basis-Organization)
 * note.id ..0
 * note.author[x] ..0
@@ -79,8 +78,8 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[SystolicBP] ^short = "Peak  systemic arterial blood pressure - measured in systolic or contraction phase of the heart cycle."
 * component[DiastolicBP] ^short = "Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle."
 * component contains
-    MeanArterialPressure 1..1 and
-    PulsePressure 1..1
+    MeanArterialPressure 0..1 and
+    PulsePressure 0..1
 * component[MeanArterialPressure] ^short = "The average arterial pressure that occurs over the entire course of the heart contraction and relaxation cycle."
 * component[MeanArterialPressure] ^comment = "For a discussion on the ways Observations can be assembled in groups together see Notes below."
 * component[MeanArterialPressure].code.coding ^slicing.discriminator.type = #value
