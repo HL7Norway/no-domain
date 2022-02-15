@@ -7,6 +7,6 @@ Description: "Dette kodeverket inneholder koder med lovlige koder for subject id
 * ^date = "2022-02-10"
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
-* #1 "FNR" "Fødselsnummer"
-* #2 "DNR" "D-nummer"
-* #3 "FHN" "Felles hjelpenummer"
+* #urn:oid:2.16.578.1.12.4.1.4.1 "FNR" "Fødselsnummer"
+* #urn:oid:2.16.578.1.12.4.1.4.2 "DNR" "D-nummer"
+* #urn:oid:2.16.578.1.12.4.1.4.3 "FHN" "Felles hjelpenummer"
