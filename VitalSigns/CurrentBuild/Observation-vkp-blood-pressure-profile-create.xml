@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="vkp-blood-pressure-profile-create"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2021-02-15T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "vkp-blood-pressure-profile-create" Version "1" Updated "2021-02-15 11:35:23+0000" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-VkpVitalSignsObservationBloodpressure.html">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>identifier</b>: id: External Id: testprofileBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <span></span></p><p><b>encounter</b>: <span></span></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: <span></span></p><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6; clinical-codes#bp-s "Systolic Blood pressure")</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: The difference between the systolic and diastolic pressure. <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
+  </text>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="External Id: testprofileBPexternalId1"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85354-9"/>
+      <display value="Blood pressure (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000807"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"/>
+      <value value="1002679"/>
+    </identifier>
+  </encounter>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <note>
+    <text value="Demo Blood Pressure"/>
+  </note>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7569003"/>
+      <display value="Finger structure (body structure)"/>
+    </coding>
+  </bodySite>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="129436005"/>
+      <display value="Auscultation - action (qualifier value)"/>
+    </coding>
+  </method>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8480-6"/>
+        <display value="Systolic blood pressure"/>
+      </coding>
+      <coding>
+        <system value="http://acme.org/devices/clinical-codes"/>
+        <code value="bp-s"/>
+        <display value="Systolic Blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="123"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8462-4"/>
+        <display value="Diastolic blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="78"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8478-0"/>
+        <display value="Mean arterial pressure (observable entity)"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="93"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="4461000202102"/>
+        <display value="The difference between the systolic and diastolic pressure."/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="45"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+</Observation>

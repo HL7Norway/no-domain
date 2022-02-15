@@ -9,7 +9,7 @@
   "version": "0.0.1-alpha",
   "name": "NoDomainVitalSigns",
   "status": "draft",
-  "date": "2022-02-15T11:53:49+00:00",
+  "date": "2022-02-15T12:05:03+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -1444,6 +1444,19 @@
         },
         "name": "vkp-blood-pressure-create",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-blood-pressure-profile-create"
+        },
+        "name": "vkp-blood-pressure-profile-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"
       }
     ],
     "page": {

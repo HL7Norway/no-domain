@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoDomainVitalSigns"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-15T11:53:49+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-15T12:05:03+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -1432,6 +1432,22 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 84;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/Observation/vkp-blood-pressure-profile-create>;
+         fhir:Reference.reference [ fhir:value "Observation/vkp-blood-pressure-profile-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-profile-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure";
+         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure>
+       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
