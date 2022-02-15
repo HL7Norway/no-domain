@@ -7,7 +7,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifiers.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifiers.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="draft"/>
@@ -15,7 +15,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers"/>
+  <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
   <version value="0.0.1-alpha"/>
   <name value="VkpSubjectIdentifierSystemsValueSet"/>
   <title value="VKP Subject Identifier systems ValueSet"/>
@@ -38,7 +38,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers"/>
+      <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
     </include>
   </compose>
 </ValueSet>
