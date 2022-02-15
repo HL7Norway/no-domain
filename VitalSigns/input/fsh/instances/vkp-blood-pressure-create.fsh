@@ -1,7 +1,7 @@
 Instance: vkp-blood-pressure-create
 InstanceOf: Observation
 Usage: #example
-* meta.lastUpdated = "2022-02-15T22:35:23+11:00"
+* meta.lastUpdated = "2021-02-15T22:35:23+11:00"
 * meta.versionId = "1"
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
