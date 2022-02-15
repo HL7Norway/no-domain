@@ -8,7 +8,7 @@ Description: "Identifier Systems allowed for subject identifications"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers"
+* ^url = "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"
 * ^version = "4.0.1"
 * ^status = #draft
 * ^experimental = false
