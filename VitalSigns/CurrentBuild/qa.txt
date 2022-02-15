@@ -1,10 +1,10 @@
 ﻿NoDomainVitalSigns : Validation Results
 =========================================
 
-err = 289, warn = 117, info = 11
+err = 290, warn = 121, info = 12
 IG Publisher Version: 1.1.102
-Generated Tue Feb 15 09:23:19 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.0.1-alpha (canonical = http://hl7.no/fhir)
- Build Errors : 2647 / 16 / 0
+Generated Tue Feb 15 11:57:20 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.0.1-alpha (canonical = http://hl7.no/fhir)
+ Build Errors : 2672 / 17 / 0
  /github/workspace/VitalSigns/fsh-generated/resources/CapabilityStatement-DIPSVitalSignsObservation : 19 / 1 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VitalSigns/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns : 0 / 0 / 1
@@ -18,6 +18,7 @@ Generated Tue Feb 15 09:23:19 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.domai
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-news2-create : 13 / 8 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-oxygen-saturation-create : 11 / 4 / 5
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-respiratory-rate-create : 37 / 7 / 5
+ /github/workspace/VitalSigns/fsh-generated/resources/Observation-vkp-blood-pressure-create : 1 / 3 / 2
  /github/workspace/VitalSigns/fsh-generated/resources/StructureDefinition-NoDomainVSObservationBloodPressureDiastolicFormulaExtension : 1 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/StructureDefinition-NoDomainVSObservationBloodPressureMeanArterialFormulaExtension : 0 / 1 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/StructureDefinition-NoDomainVSObservationBloodPressureSystolicFormulaExtension : 1 / 0 / 1
@@ -108,6 +109,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/news2-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/oxygen-saturation-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/respiratory-rate-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/VitalSigns/output/90b078c8-fe41-11eb-a980-0cc47a792c0a_id_90b078c8-fe41-11eb-a980-0cc47a792c0a.html: unexpected non-end of element null::meta  at line 2 column 51
 ERROR: /github/workspace/VitalSigns/output/CapabilityStatement-DIPSVitalSignsObservation.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/CapabilityStatement-DIPSVitalSignsObservation.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
@@ -424,6 +426,31 @@ ERROR: /github/workspace/VitalSigns/output/Observation-respiratory-rate-create.x
 ERROR: /github/workspace/VitalSigns/output/Observation-respiratory-rate-create.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 81, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/Observation-respiratory-rate-create.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/Observation-respiratory-rate-create.xml.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 83, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 84, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/nav/div/div/ul/li/a at Line 73, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 78, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 79, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 80, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/div/p/a at Line 191, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 80, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 81, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 80, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 81, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/div/p/a at Line 342, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 80, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 81, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/div/p/a at Line 327, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVSObservationBloodPressureDiastolicFormulaExtension-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVSObservationBloodPressureDiastolicFormulaExtension-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 82, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVSObservationBloodPressureDiastolicFormulaExtension-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 83, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
@@ -2743,7 +2770,7 @@ ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/nav
 ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 78, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 79, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 80, column 12: The link 'admin_documentation.html' for "Admin Documentation" cannot be resolved
-ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/div/p/a at Line 965, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VitalSigns/output/artifacts.html#/html/body/div/div/div/p/a at Line 971, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 73, column 8: The link 'profiles.html' for "Profiles" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 78, column 12: The link 'api_documentation.html' for "API Documentation" cannot be resolved
 ERROR: /github/workspace/VitalSigns/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 79, column 12: The link 'install_documentation.html' for "Install Documentation" cannot be resolved
@@ -3002,6 +3029,12 @@ ERROR: Observation/respiratory-rate-create: Observation.encounter: Unable to res
 ERROR: Observation/respiratory-rate-create: Observation.performer[0]: Unable to resolve resource 'Practitioner/agb27'
 ERROR: Observation/respiratory-rate-create: Observation.performer[1]: Unable to resolve resource 'Organization/afa22'
 WARNING: Observation/respiratory-rate-create: Observation.interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation)
+== fsh-generated/resources/Observation-vkp-blood-pressure-create.json ==
+WARNING: Observation/vkp-blood-pressure-create: Observation.category[0]: Display Name for http://terminology.hl7.org/CodeSystem/observation-category#vital-signs should be one of 'Vital Signs' instead of 'vital-signs'
+WARNING: Observation/vkp-blood-pressure-create: Observation.code.coding[0]: The display "Blood pressure (observable entity)" is not a valid display for the code {http://loinc.org}85354-9 - should be one of ['Blood pressure panel with all children optional', 'BP pnl w all optional', '医嘱套餐 医嘱套餐类 医嘱套餐组 医嘱组 医嘱组.生命体征' (zh-CN), '组套（组合、医嘱组、套餐、套餐医嘱、医嘱套餐、组合申请、组合项目）.体征' (zh-CN), '生命体征医嘱组 医嘱组合 医嘱组合类 医嘱组套 医嘱组套类 医嘱组类 压强 可用数量表示的' (zh-CN), '定量性' (zh-CN), '数值型' (zh-CN), '数量型' (zh-CN), '连续数值型标尺 套餐 套餐医嘱 套餐医嘱组 套餐医嘱组类 实验室医嘱套餐 实验室医嘱套餐类 实验室医嘱组 实验室医嘱组合类 实验室医嘱组套 实验室医嘱组套类 实验室套餐医嘱组 实验室套餐医嘱组类 实验室检验项目医嘱组合类 实验室检验项目组合类 所有（全部）儿童均可选的血压组套（组合、医嘱组、套餐、套餐医嘱、医嘱套餐、组合申请、组合项目） 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 检验医嘱组合类 检验项目医嘱组合类 检验项目组合类 组 组合 组合医嘱 组合类 组套 血' (zh-CN), '全血 血压组套（组合、医嘱组、套餐、套餐医嘱、医嘱套餐、组合申请、组合项目）' (zh-CN), '血压组套' (zh-CN), '血压组合' (zh-CN), 'Panel pressione sanguigna Punto nel tempo (episodio) Set di prescrizione parametri vitali' (it-IT)] (from http://tx.fhir.org/r4) for 'http://loinc.org#85354-9'
+INFORMATION: Observation/vkp-blood-pressure-create: Observation.component[0].code.coding[1]: Code System URI 'http://acme.org/devices/clinical-codes' is unknown so the code cannot be validated
+WARNING: Observation/vkp-blood-pressure-create: Observation.component[2].code.coding[0]: The display "Mean arterial pressure (observable entity)" is not a valid display for the code {http://loinc.org}8478-0 - should be one of ['Mean blood pressure', 'BP mean', '一般血压' (zh-CN), '血压.原子型' (zh-CN), '血压指标.原子型 压力' (zh-CN), '压强 可用数量表示的' (zh-CN), '定量性' (zh-CN), '数值型' (zh-CN), '数量型' (zh-CN), '连续数值型标尺 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 血管内均值 血管内的' (zh-CN), '' (zh-CN), 'Pressure' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Art sys' (pt-BR), 'Quantitative' (pt-BR), 'QNT' (pt-BR), 'Quant' (pt-BR), 'Quan' (pt-BR), 'Average' (pt-BR), 'Avg' (pt-BR), 'IV' (pt-BR), 'Intravenous' (pt-BR), 'BLOOD PRESSURE MEASUREMENTS.ATOM' (pt-BR), 'Blood pressure mean' (pt-BR), 'MBP' (pt-BR), 'Pressione Pressione arteriosa - atomica Punto nel tempo (episodio)' (it-IT), 'Внутрисосудистый средний Давление Количественный Точка во времени' (ru-RU), 'Момент' (ru-RU), 'Mittlerer Blutdruck' (de-AT)] (from http://tx.fhir.org/r4) for 'http://loinc.org#8478-0'
+ERROR: Observation/vkp-blood-pressure-create: Observation.component[3].code.coding[0]: Unable to find code 4461000202102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code "4461000202102" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#4461000202102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#4461000202102'
 == fsh-generated/resources/StructureDefinition-NoDomainVSObservationBloodPressureDiastolicFormulaExtension.json ==
 ERROR: StructureDefinition.url: Resource id/url mismatch: NoDomainVSObservationBloodPressureDiastolicFormulaExtension/http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-diastolicformulaextension
 == fsh-generated/resources/StructureDefinition-NoDomainVSObservationBloodPressureMeanArterialFormulaExtension.json ==

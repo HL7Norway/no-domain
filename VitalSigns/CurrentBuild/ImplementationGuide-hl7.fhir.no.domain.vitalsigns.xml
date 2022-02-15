@@ -9,7 +9,7 @@
   <version value="0.0.1-alpha"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2022-02-15T09:19:51+00:00"/>
+  <date value="2022-02-15T11:53:49+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -1074,6 +1074,16 @@
         <reference value="Observation/respiratory-rate-create"/>
       </reference>
       <name value="respiratory-rate-create"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-blood-pressure-create"/>
+      </reference>
+      <name value="vkp-blood-pressure-create"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>
