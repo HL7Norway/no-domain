@@ -14,7 +14,7 @@ Usage: #example
 * encounter.identifier.system = "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"
 * encounter.identifier.value = "1002679"
 * effectiveDateTime = "2021-05-10"
-* performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
+* performer[+].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
 * performer[=].identifier.value = "103"
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
 * performer[=].identifier.value = "22"
