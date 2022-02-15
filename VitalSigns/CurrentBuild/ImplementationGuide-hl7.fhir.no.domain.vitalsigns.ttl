@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoDomainVitalSigns"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-15T06:03:27+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-15T07:38:20+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -1214,10 +1214,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/vkp-subject-identifier-systems>;
-         fhir:Reference.reference [ fhir:value "ValueSet/vkp-subject-identifier-systems" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vkp-subject-identifiers.valueset" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VKP Subject Identifier systems" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VKP Subject Identifier systems ValueSet" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifier Systems allowed for subject identifications" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1228,8 +1228,8 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/vkp-subject-identifier-systems.codesystem" ]
+         fhir:link <http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/vkp-subject-identifiers.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp Subject Identifier Systems CodeSystem" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP" ];
@@ -1419,6 +1419,22 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "respiratory-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 83;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/Observation/vkp-blood-pressure-create>;
+         fhir:Reference.reference [ fhir:value "Observation/vkp-blood-pressure-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure";
+         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure>
+       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

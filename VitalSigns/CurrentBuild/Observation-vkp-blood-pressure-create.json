@@ -1,0 +1,232 @@
+{
+  "resourceType": "Observation",
+  "id": "vkp-blood-pressure-create",
+  "meta": {
+    "versionId": "0",
+    "lastUpdated": "2020-02-15T22:35:23+11:00",
+    "source": "META_VISION",
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"vkp-blood-pressure-create\" Version \"0\" Updated \"2020-02-15 11:35:23+0000\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-VkpVitalSignsObservationBloodpressure.html\">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>NoDomainVitalSignsObservationBloodPressureBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>NoDomainVitalSignsObservationCuffSizeExtension</b>: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')</p><p><b>NoDomainVitalSignsObservationDiastolicEndPointExtension</b>: Phase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Phase IV')</p><p><b>NoDomainVitalSignsObservationSleepStatusExtension</b>: awake (Details: SNOMED CT code 248218005 = 'Awake', stated as 'awake')</p><p><b>NoDomainVitalSignsObservationHeadTiltExtension</b>: 14 deg</p><p><b>NoDomainVitalSignsObservationLevelOfExertionExtension</b>: Hvile (Details: SNOMED CT code 154h = '154h', stated as 'Hvile')</p><p><b>NoDomainVSObservationBloodPressureSystolicFormulaExtension</b>: sample formula 1</p><p><b>NoDomainVSObservationBloodPressureDiastolicFormulaExtension</b>: sample formula 2</p><p><b>identifier</b>: id: External Id: testBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <span></span></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1002679\">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103\">PractitionerRole/agb103</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8480-6; clinical-codes#bp-s \"Systolic Blood pressure\")</span></p><p><b>value</b>: 123 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: The difference between the systolic and diastolic pressure. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-bodypositionextension",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "33586001",
+        "display": "Sitting position"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-cuffsizeextension",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "720740000",
+        "display": "Lår voksne"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-diastolicendpointextension",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "1081871000202109",
+        "display": "Phase IV"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-sleepstatusextension",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "248218005",
+        "display": "awake"
+      }
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-headtiltextension",
+      "valueQuantity": {
+        "value": 14,
+        "unit": "deg"
+      }
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "154h",
+        "display": "Hvile"
+      }
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-systolicformulaextension",
+      "valueString": "sample formula 1"
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-diastolicformulaextension",
+      "valueString": "sample formula 2"
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-meanarterialformulaextension",
+      "valueString": "sample formula 3"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://dips.no/fhir/namingsystem/externalId",
+      "value": "External Id: testBPexternalId1"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "85354-9",
+        "display": "Blood pressure (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "identifier": {
+      "system": "http://dips.no/fhir/namingsystem/dips-patientid",
+      "value": "1000807"
+    }
+  },
+  "encounter": {
+    "reference": "Encounter/agy1002679",
+    "identifier": {
+      "system": "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid",
+      "value": "1002679"
+    }
+  },
+  "effectiveDateTime": "2021-05-10",
+  "performer": [
+    {
+      "reference": "PractitionerRole/agb103",
+      "identifier": {
+        "system": "urn:oid:1.3.6.1.4.1.9038.51.1",
+        "value": "103"
+      }
+    },
+    {
+      "reference": "Organization/afa22",
+      "identifier": {
+        "system": "urn:oid:1.3.6.1.4.1.9038.70.3",
+        "value": "22"
+      }
+    }
+  ],
+  "note": [
+    {
+      "text": "Demo Blood Pressure"
+    }
+  ],
+  "bodySite": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7569003",
+        "display": "Finger structure (body structure)"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "129436005",
+        "display": "Auscultation - action (qualifier value)"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          },
+          {
+            "system": "http://acme.org/devices/clinical-codes",
+            "code": "bp-s",
+            "display": "Systolic Blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 123,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 78,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8478-0",
+            "display": "Mean arterial pressure (observable entity)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 93,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "4461000202102",
+            "display": "The difference between the systolic and diastolic pressure."
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 45,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="vkp-subject-identifier-systems"/>
+  <id value="vkp-subject-identifiers.valueset"/>
   <meta>
     <lastUpdated value="2022-02-10T00:00:00.000+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifier-systems.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifiers.codesystem.html"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="draft"/>
@@ -15,10 +15,10 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifier-systems"/>
+  <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers"/>
   <version value="0.0.1-alpha"/>
   <name value="VkpSubjectIdentifierSystemsValueSet"/>
-  <title value="VKP Subject Identifier systems"/>
+  <title value="VKP Subject Identifier systems ValueSet"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2021-03-17T00:00:00+00:00"/>
@@ -38,7 +38,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems"/>
+      <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers"/>
     </include>
   </compose>
 </ValueSet>

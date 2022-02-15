@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\Vkp Subject Identifier Systems CodeSystem - JSON Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\vkp-blood-pressure-create - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.73"}
-    h3,h4,h5,h6{--heading-prefix:"2.73"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.84"}
+    h3,h4,h5,h6{--heading-prefix:"2.84"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -93,7 +93,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Vkp Subject Identifier Systems CodeSystem</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>vkp-blood-pressure-create</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -105,9 +105,10 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
 
+  
 
 
 
@@ -116,28 +117,28 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="CodeSystem-vkp-subject-identifier-systems.codesystem.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CodeSystem-vkp-subject-identifier-systems.codesystem.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">JSON</a>
+      <a href="Observation-vkp-blood-pressure-create.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-vkp-subject-identifier-systems.codesystem.ttl.html">TTL</a>
+      <a href="Observation-vkp-blood-pressure-create.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Observation-vkp-blood-pressure-create.ttl.html">TTL</a>
     </li>
   
 
@@ -146,66 +147,19 @@
 </ul>
 
 
-<a name="root"> </a>
+  <a name="root"> </a>
 
 
-<h2 id="root">: Vkp Subject Identifier Systems CodeSystem - JSON Representation</h2>
+  <h2 id="root">Example Observation: vkp-blood-pressure-create</h2>
 
-<p><a href="CodeSystem-vkp-subject-identifier-systems.codesystem.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-vkp-subject-identifier-systems.codesystem.json">Download</a></p>
+
 
     <!-- insert intro if present -->
   
 
 
 
-  <pre class="json"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "vkp-subject-identifier-systems.codesystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This code system http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;urn:oid:2.16.578.1.12.4.1.4.1&lt;a name=\"vkp-subject-identifier-systems.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FNR&lt;/td&gt;&lt;td&gt;Fødselsnummer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;urn:oid:2.16.578.1.12.4.1.4.2&lt;a name=\"vkp-subject-identifier-systems.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DNR&lt;/td&gt;&lt;td&gt;D-nummer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;urn:oid:2.16.578.1.12.4.1.4.3&lt;a name=\"vkp-subject-identifier-systems.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FHN&lt;/td&gt;&lt;td&gt;Felles hjelpenummer&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-  },
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifier-systems",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.0.1-alpha",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "VkpSubjectIdentifierSystemsCodeSystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Vkp Subject Identifier Systems CodeSystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2022-02-10",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Direktoratet for e-helse",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "NO",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Norway"
-        }
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 3,
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FNR",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Fødselsnummer"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "urn:oid:2.16.578.1.12.4.1.4.2",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "DNR",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "D-nummer"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "urn:oid:2.16.578.1.12.4.1.4.3",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "FHN",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Felles hjelpenummer"
-    }
-  ]
-}</code></pre>
-
+  <div><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "vkp-blood-pressure-create" Version "0" Updated "2020-02-15 11:35:23+0000" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-VkpVitalSignsObservationBloodpressure.html">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>NoDomainVitalSignsObservationBloodPressureBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>NoDomainVitalSignsObservationCuffSizeExtension</b>: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')</p><p><b>NoDomainVitalSignsObservationDiastolicEndPointExtension</b>: Phase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Phase IV')</p><p><b>NoDomainVitalSignsObservationSleepStatusExtension</b>: awake (Details: SNOMED CT code 248218005 = 'Awake', stated as 'awake')</p><p><b>NoDomainVitalSignsObservationHeadTiltExtension</b>: 14 deg</p><p><b>NoDomainVitalSignsObservationLevelOfExertionExtension</b>: Hvile (Details: SNOMED CT code 154h = '154h', stated as 'Hvile')</p><p><b>NoDomainVSObservationBloodPressureSystolicFormulaExtension</b>: sample formula 1</p><p><b>NoDomainVSObservationBloodPressureDiastolicFormulaExtension</b>: sample formula 2</p><p><b>identifier</b>: id: External Id: testBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <span></span></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1002679">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103">PractitionerRole/agb103</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22">Organization/afa22</a></li></ul><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6; clinical-codes#bp-s "Systolic Blood pressure")</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: The difference between the systolic and diastolic pressure. <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
 
     <!-- insert notes if present -->
   
@@ -233,8 +187,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l413">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.domain.vitalsigns#0.0.1-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 15, 2022 06:03+0000">2022-02-15</span>
+        <p><a name="l506">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.domain.vitalsigns#0.0.1-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 15, 2022 07:38+0000">2022-02-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

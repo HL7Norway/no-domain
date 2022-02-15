@@ -9,7 +9,7 @@
   "version": "0.0.1-alpha",
   "name": "NoDomainVitalSigns",
   "status": "draft",
-  "date": "2022-02-15T06:03:27+00:00",
+  "date": "2022-02-15T07:38:20+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -1227,9 +1227,9 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/vkp-subject-identifier-systems"
+          "reference": "ValueSet/vkp-subject-identifiers.valueset"
         },
-        "name": "VKP Subject Identifier systems",
+        "name": "VKP Subject Identifier systems ValueSet",
         "description": "Identifier Systems allowed for subject identifications",
         "exampleBoolean": false
       },
@@ -1241,7 +1241,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/vkp-subject-identifier-systems.codesystem"
+          "reference": "CodeSystem/vkp-subject-identifiers.codesystem"
         },
         "name": "Vkp Subject Identifier Systems CodeSystem",
         "description": "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
@@ -1431,6 +1431,19 @@
         },
         "name": "respiratory-rate-create",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-blood-pressure-create"
+        },
+        "name": "vkp-blood-pressure-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"
       }
     ],
     "page": {
