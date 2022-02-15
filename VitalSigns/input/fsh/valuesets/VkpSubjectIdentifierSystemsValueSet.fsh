@@ -1,6 +1,6 @@
 ValueSet: VkpSubjectIdentifierSystemsValueSet
-Id: vkp-subject-identifier-systems
-Title: "VKP Subject Identifier systems"
+Id: vkp-subject-identifiers.valueset
+Title: "VKP Subject Identifier systems ValueSet"
 Description: "Identifier Systems allowed for subject identifications"
 * ^meta.lastUpdated = "2022-02-10T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -8,11 +8,11 @@ Description: "Identifier Systems allowed for subject identifications"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/vkp-subject-identifier-systems"
+* ^url = "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers"
 * ^version = "4.0.1"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.no/fhir"
-* include codes from system VkpSubjectIdentifierSystemsCodeSystem
+* include codes from system VkpSubjectIdentifiersCodeSystem

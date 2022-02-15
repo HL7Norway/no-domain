@@ -3,7 +3,7 @@ InstanceOf: Observation
 Usage: #example
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension"
 * extension[=].valueString = "sample formula"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-confundingfactorextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension"
 * extension[=].valueString = "sample confounding factor"
 * meta.lastUpdated = "2021-05-31T22:35:00+00:00"
 * meta.versionId = "0"
