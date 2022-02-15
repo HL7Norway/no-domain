@@ -1,7 +1,7 @@
-Instance: blood-pressure-create
-InstanceOf: Observation
+Instance: vkp-blood-pressure-create
+InstanceOf: VkpVitalSignsObservationBloodpressure
 Usage: #example
-* meta.lastUpdated = "2014-01-30T22:35:23+11:00"
+* meta.lastUpdated = "2020-02-15T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
@@ -28,7 +28,6 @@ Usage: #example
 * status = #final
 * code = $loinc#85354-9 "Blood pressure (observable entity)"
 * category = $observation-category#vital-signs "vital-signs"
-* subject = Reference(Patient/cdp1000807)
 * subject.identifier.system = "http://dips.no/fhir/namingsystem/dips-patientid"
 * subject.identifier.value = "1000807"
 * encounter = Reference(Encounter/agy1002679)
