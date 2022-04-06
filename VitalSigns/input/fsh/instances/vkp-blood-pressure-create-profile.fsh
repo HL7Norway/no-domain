@@ -1,5 +1,5 @@
 Instance: vkp-blood-pressure-profile-create
-InstanceOf: VkpVitalSignsObservationBloodpressure
+InstanceOf: vkp-Observation-Bloodpressure
 Usage: #example
 * meta.lastUpdated = "2021-02-15T22:35:23+11:00"
 * meta.versionId = "1"
@@ -26,7 +26,7 @@ Usage: #example
 * component[=].valueQuantity = 123 'mm[Hg]' "mm[Hg]"
 * component[+].code = $loinc#8462-4 "Diastolic blood pressure"
 * component[=].valueQuantity = 78 'mm[Hg]' "mm[Hg]"
-* component[+].code = $loinc#8478-0 "Mean arterial pressure (observable entity)"
+* component[+].code = $loinc#8478-0 "Mean blood pressure"
 * component[=].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
 * component[+].code = $sct#4461000202102 "The difference between the systolic and diastolic pressure."
 * component[=].valueQuantity = 45 'mm[Hg]' "mm[Hg]"
