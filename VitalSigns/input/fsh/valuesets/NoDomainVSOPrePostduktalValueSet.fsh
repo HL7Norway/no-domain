@@ -1,6 +1,6 @@
-ValueSet: NoDomainVitalSignsObservationPrePostduktalValueSet
-Id: NoDomainVitalSignsObservationPrePostduktalValueSet
-Title: "no-domain-vitalsignsobservation-prepostduktalvalueset"
+ValueSet: NoDomainVSOPrePostduktalValueSet
+Id: NoDomainVSOPrePostduktalValueSet
+Title: "no-domain-vso-prepostduktalvalueset"
 Description: "Codes representing pre/post ductal"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -10,7 +10,7 @@ Description: "Codes representing pre/post ductal"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-prepostduktalvalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-prepostduktalvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

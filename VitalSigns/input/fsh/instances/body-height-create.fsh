@@ -5,7 +5,7 @@ Usage: #example
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
 * identifier.value = "External Id: testBHexternalId2"
-* extension.url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyheight-bodypositionextension"
+* extension.url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-bodyheight-bodypositionextension"
 * extension.valueCoding = $sct#4801000202104 "Lying flat without tilt (finding)"
 * status = #final
 * category = $observation-category#vital-signs "vital-signs"

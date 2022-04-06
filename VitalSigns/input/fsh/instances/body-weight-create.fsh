@@ -8,7 +8,7 @@ Usage: #example
 * identifier.value = "External Id: testBWexternalId3"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clothingstateextension"
 * extension[=].valueCoding = $sct#1081791000202103 "Fullt påkledd uten sko"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-confoundingfactorextension"
 * extension[=].valueString = "sample confounding factor"
 * status = #final
 * category = $observation-category#vital-signs "vital-signs"

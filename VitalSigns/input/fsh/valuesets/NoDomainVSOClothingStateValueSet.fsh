@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationClothingStateValueSet
-Id: NoDomainVitalSignsObservationClothingStateValueSet
+ValueSet: NoDomainVSOClothingStateValueSet
+Id: NoDomainVSOClothingStateValueSet
 Title: "Codes representing level of clothing"
 Description: "Codes representing level of clothing"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
@@ -10,7 +10,7 @@ Description: "Codes representing level of clothing"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-clothingstatevalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-clothingstatevalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

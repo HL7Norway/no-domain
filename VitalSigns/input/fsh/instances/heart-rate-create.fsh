@@ -1,17 +1,17 @@
 Instance: heart-rate-create
 InstanceOf: Observation
 Usage: #example
-* extension[0].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension"
+* extension[0].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrhythmextension"
 * extension[=].valueCoding = $sct#271636001 "Pulse regular (finding)"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmIrregularityextension"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrhythmIrregularityextension"
 * extension[=].valueCoding = $sct#271638000 "Heart regularly irregular (finding)"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-characterofheartrateextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-characterofheartrateextension"
 * extension[=].valueAnnotation.text = "character sample"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-clinicaldescriptionextension"
 * extension[=].valueAnnotation.text = "Clinical description sample"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrate-bodypositionextension"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrate-bodypositionextension"
 * extension[=].valueCoding = $sct#33586001 "Sitting position"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-levelofexertionextension"
 * extension[=].valueCoding = $sct#251894003 "Level of Exertion (attribute)"
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"

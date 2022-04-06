@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationHeartRhythmValueSet
-Id: NoDomainVitalSignsObservationHeartRhythmValueSet
+ValueSet: NoDomainVSOHeartRhythmValueSet
+Id: NoDomainVSOHeartRhythmValueSet
 Description: "Codes representing heart rhythm for heart rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,7 +9,7 @@ Description: "Codes representing heart rhythm for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmvalueset"
+* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

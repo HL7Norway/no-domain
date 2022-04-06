@@ -1,10 +1,10 @@
-Profile: NoDomainVitalSignsObservationOxygenSaturation
+Profile: NoDomainVSOOxygenSaturation
 Parent: Observation
-Id: NoDomainVitalSignsObservationOxygenSaturation
+Id: NoDomainVSOOxygenSaturation
 Title: "NO Domain VitalSigns Observation - Oxygen Saturation"
 Description: """Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
 Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturation"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-oxygensaturation"
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
@@ -13,9 +13,9 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationLevelOfExertionExtension named levelOfExertion 0..1 and
-    NoDomainVitalSignsObservationPrePostduktalExtension named PrePostduktal 0..1 and
-    NoDomainVitalSignsObservationInspiredOxygenExtension named inspiredOxygen 0..*
+    NoDomainVSOLevelOfExertionExtension named levelOfExertion 0..1 and
+    NoDomainVSOPrepostduktalextension named PrePostduktal 0..1 and
+    NoDomainVSOInspiredOxygenExtension named inspiredOxygen 0..*
 * extension[levelOfExertion] ^short = "Details about physical activity undertaken at the time of measurement."
 * extension[levelOfExertion] ^definition = "Details about physical activity undertaken at the time of measurement."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
@@ -24,7 +24,6 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
 * focus ^comment = "Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., \"Blood Glucose\") and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required."
 * effective[x] ^comment = "At least a date should be present unless this observation is a historical report.  For recording imprecise or \"fuzzy\" times (For example, a blood glucose measurement taken \"after breakfast\") use the Timing datatype which allow the measurement to be tied to regular life events."
 * issued ^comment = "For Observations that don’t require review and verification, it may be the same as the `lastUpdated`  time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again."
-* performer 1..
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and

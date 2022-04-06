@@ -1,7 +1,7 @@
-Extension: NoDomainVitalSignsObservationInspiredOxygenExtension
-Id: NoDomainVitalSignsObservationInspiredOxygenExtension
+Extension: NoDomainVSOInspiredOxygenExtension
+Id: NoDomainVSOInspiredOxygenExtension
 Description: "Details of the amount of oxygen available to the subject at the time of observation."
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-inspiredoxygenextension"
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
@@ -26,4 +26,4 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 * extension[ProsentO2].value[x] only Ratio
 * extension[onAir] ^short = "http://dips.no/fhir/StructureDefinition/OnAir"
 * extension[onAir].value[x] only boolean
-* url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-inspiredoxygenextension" (exactly)

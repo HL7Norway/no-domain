@@ -6,11 +6,11 @@ Usage: #example
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
 * identifier.value = "External Id: testtempexternalId4"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyexposureextension"
+* extension[0].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-bodyexposureextension"
 * extension[=].valueCoding = $sct#5611000202100 "Passende påkledning/tildekking"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-activeheating-extension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-activeheating-extension"
 * extension[=].valueAnnotation.text = "active heating sample"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-dayssincemenstruationstartextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-dayssincemenstruationstartextension"
 * extension[=].valueQuantity.value = 12
 * status = #final
 * category = $observation-category#vital-signs

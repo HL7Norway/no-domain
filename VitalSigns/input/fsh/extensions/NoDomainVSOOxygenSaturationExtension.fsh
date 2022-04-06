@@ -1,7 +1,7 @@
-Extension: NoDomainVitalSignsObservationOxygenSaturationExtension
-Id: NoDomainVitalSignsObservationOxygenSaturationExtension
+Extension: NoDomainVSOOxygenSaturationExtension
+Id: NoDomainVSOOxygenSaturationExtension
 Description: "Description of the oxygen saturation levels"
-* ^url = "https://www.hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturationextension"
+* ^url = "https://www.hl7.no/fhir/StructureDefinition/no-domain-vso-oxygensaturationextension"
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^context.type = #element
@@ -18,4 +18,4 @@ Description: "Description of the oxygen saturation levels"
 * extension[FiO2].value[x] only Ratio
 * extension[O2percentage].value[x] only Ratio
 * extension[oxygenadministrationmethod].value[x] only string
-* url = "https://www.hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-oxygensaturationextension" (exactly)
+* url = "https://www.hl7.no/fhir/StructureDefinition/no-domain-vso-oxygensaturationextension" (exactly)

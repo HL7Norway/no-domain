@@ -1,6 +1,6 @@
-ValueSet: NoDomainVitalSignsObservationHeartRhythmIrregularityValueSet
-Id: NoDomainVitalSignsObservationHeartRhythmIrregularityValueSet
-Title: "no-domain-vitalsignsobservation-heartrhythmIrregularityvalueset"
+ValueSet: NoDomainVSOHeartRhythmIrregularityValueSet
+Id: NoDomainVSOHeartRhythmIrregularityValueSet
+Title: "no-domain-vso-heartrhythmIrregularityvalueset"
 Description: "Codes representing heart rhythm irregularity for heart rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -10,7 +10,7 @@ Description: "Codes representing heart rhythm irregularity for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-heartrhythmIrregularityvalueset"
+* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmIrregularityvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

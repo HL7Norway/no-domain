@@ -1,9 +1,9 @@
-Profile: NoDomainVitalSignsObservationPulse
+Profile: NoDomainVSOPulse
 Parent: $vitalsigns
-Id: NoDomainVitalSignsObservationPulse
+Id: NoDomainVSOPulse
 Title: "NO Domain VitalSigns Observation - Pulse"
 Description: "Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse."
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-pulse"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-pulse"
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
@@ -12,25 +12,25 @@ Description: "Base profile for Norwegian Vital Signs Observation Pulse informati
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationLevelOfExertionExtension named levelOfExertion 0..1 and
-    NoDomainVitalSignsObservationHeartRhythmExtension named heartRythm 0..1 and
-    NoDomainVitalSignsObservationClinicalDescriptionExtension named clinicalDescription 0..1 and
-    NoDomainVitalSignsObservationCharacterOfHeartRateExtension named characterOfHeartrate 0..1 and
-    NoDomainVitalSignsObservationHeartRateBodyPositionExtension named BodyPosition 0..1 and
-    NoDomainVitalSignsObservationHeartRhythmExtension named heartRythmIrregularity 0..1
+    NoDomainVSOLevelOfExertionExtension named levelOfExertion 0..1 and
+    NoDomainVSOHeartRhythmExtension named heartRythm 0..1 and
+    NoDomainVSOClinicalDescriptionExtension named clinicalDescription 0..1 and
+    NoDomainVSOCharacterOfHeartRateExtension named characterOfHeartrate 0..1 and
+    NoDomainVSOHeartRateBodyPositionExtension named BodyPosition 0..1 and
+    NoDomainVSOHeartRhythmExtension named heartRythmIrregularity 0..1
 * extension[levelOfExertion] ^short = "Details about physical exertion being undertaken during the examination."
 * extension[levelOfExertion] ^definition = "Details about physical exertion being undertaken during the examination."
-//* extension[heartRythm] from NoDomainVitalSignsObservationHeartRhythmValueSet (required)
+//* extension[heartRythm] from NoDomainVSOHeartRhythmValueSet (required)
 * extension[heartRythm] ^short = "Regularity of the pulse or heart beat."
 * extension[heartRythm] ^definition = "Regularity of the pulse or heart beat."
 * extension[clinicalDescription] ^short = "Narrative description about the pulse or heart beat."
 * extension[clinicalDescription] ^definition = "Narrative description about the pulse or heart beat."
 * extension[characterOfHeartrate] ^short = "Description of the character of the pulse or heart beat."
 * extension[characterOfHeartrate] ^definition = "Description of the character of the pulse or heart beat."
-//* extension[BodyPosition] from NoDomainVitalSignsObservationHeartRateBodyPositionValueSet (required)
+//* extension[BodyPosition] from NoDomainVSOHeartRateBodyPositionValueSet (required)
 * extension[BodyPosition] ^short = "The body position of the subject during the observation."
 * extension[BodyPosition] ^definition = "The body position of the subject during the observation."
-//* extension[heartRythmIrregularity] from NoDomainVitalSignsObservationHeartRhythmValueSet (required)
+//* extension[heartRythmIrregularity] from NoDomainVSOHeartRhythmValueSet (required)
 * extension[heartRythmIrregularity] ^short = "More specific pattern of an irregular pulse or heart beat."
 * extension[heartRythmIrregularity] ^definition = "More specific pattern of an irregular pulse or heart beat."
 // * category ^slicing.discriminator.type = #value
@@ -46,7 +46,6 @@ Description: "Base profile for Norwegian Vital Signs Observation Pulse informati
 * code.coding[PulseCode].code 1..
 * code.coding[PulseCode].code = #xxxxx (exactly)
 * subject only Reference(Patient or $no-basis-Patient)
-* performer 1..
 * performer ^slicing.discriminator.type = #profile
 * performer ^slicing.discriminator.path = "resolve()"
 * performer ^slicing.rules = #open
@@ -65,7 +64,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Pulse informati
 * valueQuantity.unit 1..
 * valueQuantity.system 1..
 * valueQuantity.code 1..
-* bodySite from NoDomainVitalSignsObservationHeartRateBodySiteValueSet (required)
-* bodySite.coding from NoDomainVitalSignsObservationHeartRateBodySiteValueSet (required)
-* method from NoDomainVitalSignsObservationHeartRateMeasurementMethodValueSet (required)
-* method.coding from NoDomainVitalSignsObservationHeartRateMeasurementMethodValueSet (required)
+* bodySite from NoDomainVSOHeartRateBodySiteValueSet (required)
+* bodySite.coding from NoDomainVSOHeartRateBodySiteValueSet (required)
+* method from NoDomainVSOHeartRateMeasurementMethodValueSet (required)
+* method.coding from NoDomainVSOHeartRateMeasurementMethodValueSet (required)

@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationSpontaneousBreathingValueSet
-Id: NoDomainVitalSignsObservationSpontaneousBreathingValueSet
+ValueSet: NoDomainVSOSpontaneousBreathingValueSet
+Id: NoDomainVSOSpontaneousBreathingValueSet
 Description: "Codes representing Respiration Spontaneous breathing"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,7 +9,7 @@ Description: "Codes representing Respiration Spontaneous breathing"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vitalsignsobservation-spontaneousbreathingvalueset"
+* ^url = "http://hl7.org/fhir/ValueSet/no-domain-vso-spontaneousbreathingvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

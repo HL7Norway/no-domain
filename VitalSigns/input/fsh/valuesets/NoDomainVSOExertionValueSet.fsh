@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationExertionValueSet
-Id: NoDomainVitalSignsObservationExertionValueSet
+ValueSet: NoDomainVSOExertionValueSet
+Id: NoDomainVSOExertionValueSet
 Title: "SNOMED CT Exertion Valueset"
 Description: "Codes representing exertion"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
@@ -10,7 +10,7 @@ Description: "Codes representing exertion"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-exertionvalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-exertionvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

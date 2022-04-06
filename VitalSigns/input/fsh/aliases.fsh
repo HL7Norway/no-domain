@@ -19,8 +19,8 @@ Alias: $no-bloodpressurebodysite-valueset = http://hl7.no/fhir/ValueSet/no-blood
 Alias: $no-domain-vitalsignsobservation-measurementmethodvalueSet = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-measurementmethodvalueSet
 Alias: $no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset
 Alias: $no-heartrhythm-valueset = http://hl7.org/fhir/ValueSet/no-heartrhythm-valueset
-Alias: $no-domain-vitalsignsobservation-respirationrate-patternvalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-patternvalueset
-Alias: $DipsSleepStatusValueset = http://dips.no/fhir/ValueSet/DipsSleepStatusValueset
+Alias: $no-domain-vso-respirationrate-patternvalueset = http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-patternvalueset
+//Alias: $DipsSleepStatusValueset = http://dips.no/fhir/ValueSet/DipsSleepStatusValueset
 // Instances
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.org

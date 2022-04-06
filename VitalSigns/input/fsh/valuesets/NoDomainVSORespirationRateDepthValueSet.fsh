@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationRespirationRateDepthValueSet
-Id: NoDomainVitalSignsObservationRespirationRateDepthValueSet
+ValueSet: NoDomainVSORespirationRateDepthValueSet
+Id: NoDomainVSORespirationRateDepthValueSet
 Description: "Codes representing depth for respiration rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,7 +9,7 @@ Description: "Codes representing depth for respiration rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-depthvalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-depthvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

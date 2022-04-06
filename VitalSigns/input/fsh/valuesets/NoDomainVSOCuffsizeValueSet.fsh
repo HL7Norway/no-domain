@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationCuffsizeValueSet
-Id: NoDomainVitalSignsObservationCuffsizeValueSet
+ValueSet: NoDomainVSOCuffsizeValueSet
+Id: NoDomainVSOCuffsizeValueSet
 Title: "SNOMED CT CuffSize Structures"
 Description: "Codes representing cuff size"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
@@ -10,7 +10,7 @@ Description: "Codes representing cuff size"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-cuffsizevalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-cuffsizevalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

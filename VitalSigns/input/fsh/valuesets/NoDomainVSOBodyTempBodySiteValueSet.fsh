@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationBodyTempBodySiteValueSet
-Id: NoDomainVitalSignsObservationBodyTempBodySiteValueSet
+ValueSet: NoDomainVSOBodyTempBodySiteValueSet
+Id: NoDomainVSOBodyTempBodySiteValueSet
 Description: "Codes representing body site for body temperature"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,7 +9,7 @@ Description: "Codes representing body site for body temperature"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bodytemp-bodysitevalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-bodytemp-bodysitevalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

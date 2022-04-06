@@ -1,5 +1,5 @@
-ValueSet: NoDomainVitalSignsObservationRespirationRateBodyPositionValueSet
-Id: NoDomainVitalSignsObservationRespirationRateBodyPositionValueSet
+ValueSet: NoDomainVSORespirationRateBodyPositionValueSet
+Id: NoDomainVSORespirationRateBodyPositionValueSet
 Description: "Codes representing body position for respiration rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,7 +9,7 @@ Description: "Codes representing body position for respiration rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-respirationrate-bodypositionvalueset"
+* ^url = "http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-bodypositionvalueset"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
