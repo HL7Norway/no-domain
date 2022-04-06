@@ -2,12 +2,12 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-canonical: http://dips.no
-name: DIPSVitalSigns
+canonical: http://hl7.no/fhir
+name: NoDomainVitalSigns
 fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
-id: dips.fhir.r4.observations.ig
+id: hl7.fhir.no.domain.vitalsigns
 status: draft
 version: 0.0.1-alpha
 releaseLabel: ci-build
@@ -21,4 +21,4 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts:
+  Artifacts: artifacts.html
