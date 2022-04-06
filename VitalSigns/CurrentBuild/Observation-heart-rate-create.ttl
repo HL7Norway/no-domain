@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/Observation/heart-rate-create> a fhir:Observation;
+<http://dips.no/Observation/heart-rate-create> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "heart-rate-create"];
   fhir:Resource.meta [
@@ -17,11 +17,11 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"heart-rate-create\" Version \"0\" Updated \"2014-01-30 11:35:23+0000\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b>NoDomainVitalSignsObservationHeartRhythmExtension</b>: Pulse regular (finding) (Details: SNOMED CT code 271636001 = 'Pulse regular', stated as 'Pulse regular (finding)')</p><p><b>NoDomainVitalSignsObservationHeartRhythmIrregularityExtension</b>: Heart regularly irregular (finding) (Details: SNOMED CT code 271638000 = 'Pulse regularly irregular', stated as 'Heart regularly irregular (finding)')</p><p><b>NoDomainVitalSignsObservationCharacterOfHeartRateExtension</b>: character sample</p><p><b>NoDomainVitalSignsObservationClinicalDescriptionExtension</b>: Clinical description sample</p><p><b>NoDomainVitalSignsObservationHeartRateBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>NoDomainVitalSignsObservationLevelOfExertionExtension</b>: Level of Exertion (attribute) (Details: SNOMED CT code 251894003 = 'Exertion rating', stated as 'Level of Exertion (attribute)')</p><p><b>identifier</b>: id: External Id: testpulseExternalId6</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Heart rate (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//patient/cdp1000239\">patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span></span></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>value</b>: 61 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p><p><b>note</b>: Demo heart rate</p><p><b>bodySite</b>: Finger structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Palpation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#129434008)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"heart-rate-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b>NoDomainVSOHeartRhythmExtension</b>: Pulse regular (finding) (Details: SNOMED CT code 271636001 = 'Pulse regular', stated as 'Pulse regular (finding)')</p><p><b>NoDomainVSOHeartRhythmIrregularityExtension</b>: Heart regularly irregular (finding) (Details: SNOMED CT code 271638000 = 'Pulse regularly irregular', stated as 'Heart regularly irregular (finding)')</p><p><b>NoDomainVSOCharacterOfHeartRateExtension</b>: character sample</p><p><b>NoDomainVSOClinicalDescriptionExtension</b>: Clinical description sample</p><p><b>NoDomainVSOHeartRateBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>identifier</b>: id: External Id: testpulseExternalId6</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Heart rate (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//patient/cdp1000239\">patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span></span></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>value</b>: 61 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p><p><b>note</b>: Demo heart rate</p><p><b>bodySite</b>: Finger structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Palpation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#129434008)</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrhythmextension" ];
      fhir:Extension.valueCoding [
        a sct:271636001;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
@@ -30,7 +30,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmIrregularityextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrhythmIrregularityextension" ];
      fhir:Extension.valueCoding [
        a sct:271638000;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
@@ -39,19 +39,19 @@
      ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-characterofheartrateextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vso-characterofheartrateextension" ];
      fhir:Extension.valueAnnotation [
        fhir:Annotation.text [ fhir:value "character sample" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vso-clinicaldescriptionextension" ];
      fhir:Extension.valueAnnotation [
        fhir:Annotation.text [ fhir:value "Clinical description sample" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrate-bodypositionextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vso-heartrate-bodypositionextension" ];
      fhir:Extension.valueCoding [
        a sct:33586001;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
@@ -60,7 +60,7 @@
      ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension" ];
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-domain-vso-levelofexertionextension" ];
      fhir:Extension.valueCoding [
        a sct:251894003;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
@@ -92,7 +92,7 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.no/fhir/patient/cdp1000239>;
+     fhir:link <http://dips.no/patient/cdp1000239>;
      fhir:Reference.reference [ fhir:value "patient/cdp1000239" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
@@ -100,7 +100,7 @@
      ]
   ];
   fhir:Observation.encounter [
-     fhir:link <http://hl7.no/fhir/Encounter/agy1000245>;
+     fhir:link <http://dips.no/Encounter/agy1000245>;
      fhir:Reference.reference [ fhir:value "Encounter/agy1000245" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
@@ -112,7 +112,7 @@
      ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.no/fhir/Organization/afa22>;
+     fhir:link <http://dips.no/Organization/afa22>;
      fhir:Reference.reference [ fhir:value "Organization/afa22" ];
      fhir:Reference.identifier [
        fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
@@ -150,7 +150,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/Observation/heart-rate-create.ttl> a owl:Ontology;
+<http://dips.no/Observation/heart-rate-create.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\blood-pressure-create - FHIR v4.0.1</title>
+    <title>DIPS.FHIR.R4.OBSERVATIONS.IG\blood-pressure-create - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,15 +39,25 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.74"}
-    h3,h4,h5,h6{--heading-prefix:"2.74"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.61"}
+    h3,h4,h5,h6{--heading-prefix:"2.61"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.0.1-alpha - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-alpha - ci-build
+
+
+
+  <img src="assets/images/nor.svg" alt="Norway flag" title="Norway" height="16"/>
+
+
+            </span>
+          </p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -70,14 +80,14 @@
               <ul class="nav navbar-nav">  
   <li><a href="index.html">Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
-  <li><a name="l132">​</a><a href="profiles.html">Profiles</a></li>
+  <li><a name="l138">​</a><a href="profiles.html">Profiles</a></li>
     <!-- <li><a href="terminology.html">Terminology</a></li> -->
   <li><a href="artifacts.html">Artifacts</a></li>  
   <li class="dropdown"><a data-toggle="dropdown" aria-expanded="true" href="#" class="dropdown-toggle">Documentation<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li><a name="l149">​</a><a href="api_documentation.html">API Documentation</a></li>
-      <li><a name="l153">​</a><a href="install_documentation.html">Install Documentation</a></li>
-      <li><a name="l157">​</a><a href="admin_documentation.html">Admin Documentation</a></li>
+      <li><a name="l155">​</a><a href="api_documentation.html">API Documentation</a></li>
+      <li><a name="l159">​</a><a href="install_documentation.html">Install Documentation</a></li>
+      <li><a name="l163">​</a><a href="admin_documentation.html">Admin Documentation</a></li>
         <!-- <li><a href="release_documentation.html">Release Notes</a></li> -->
     </ul>
   </li>  
@@ -109,6 +119,8 @@
     <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
 
   
+
+
 
 
 
@@ -152,6 +164,19 @@
 
   <h2 id="root">Example Observation: blood-pressure-create</h2>
 
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 
     <!-- insert intro if present -->
@@ -159,7 +184,9 @@
 
 
 
-  <div><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "blood-pressure-create" Version "0" Updated "2014-01-30 11:35:23+0000" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p></div><p><b>NoDomainVitalSignsObservationBloodPressureBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>NoDomainVitalSignsObservationCuffSizeExtension</b>: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')</p><p><b>NoDomainVitalSignsObservationDiastolicEndPointExtension</b>: Phase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Phase IV')</p><p><b>NoDomainVitalSignsObservationSleepStatusExtension</b>: awake (Details: SNOMED CT code 248218005 = 'Awake', stated as 'awake')</p><p><b>NoDomainVitalSignsObservationHeadTiltExtension</b>: 14 deg</p><p><b>NoDomainVitalSignsObservationLevelOfExertionExtension</b>: Hvile (Details: SNOMED CT code 154h = '154h', stated as 'Hvile')</p><p><b>NoDomainVSObservationBloodPressureSystolicFormulaExtension</b>: sample formula 1</p><p><b>NoDomainVSObservationBloodPressureDiastolicFormulaExtension</b>: sample formula 2</p><p><b>identifier</b>: id: External Id: testBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000807">Patient/cdp1000807</a></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1002679">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103">PractitionerRole/agb103</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22">Organization/afa22</a></li></ul><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6; clinical-codes#bp-s "Systolic Blood pressure")</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: The difference between the systolic and diastolic pressure. <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
+  <div><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "blood-pressure-create" Version "0" Updated "2014-01-30 10:35:23+1100" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p></div><p><b>NoDomainVSOBloodPressureBodyPositionExtension</b>: Sitting position (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sitting position')</p><p><b>NoDomainVSOCuffSizeExtension</b>: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')</p><p><b>NoDomainVSODiastolicEndPointExtension</b>: Phase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Phase IV')</p><p><b>NoDomainVSOSleepStatusExtension</b>: awake (Details: SNOMED CT code 248218005 = 'Awake', stated as 'awake')</p><p><b>NoDomainVSOHeadTiltExtension</b>: 14 deg</p><p><b>NoDomainVSOBloodPressureSystolicFormulaExtension</b>: sample formula 1</p><p><b>NoDomainVSOBloodPressureDiastolicFormulaExtension</b>: sample formula 2</p><p><b>identifier</b>: id: External Id: testBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000807">Patient/cdp1000807</a></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1002679">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103">PractitionerRole/agb103</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22">Organization/afa22</a></li></ul><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6; clinical-codes#bp-s "Systolic Blood pressure")</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: The difference between the systolic and diastolic pressure. <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
+
+  
 
     <!-- insert notes if present -->
   
@@ -187,8 +214,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l503">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.domain.vitalsigns#0.0.1-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 15, 2022 17:49+0000">2022-02-15</span>
+        <p><a name="l514">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package dips.fhir.r4.observations.ig#0.0.1-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 6, 2022 08:24+0000">2022-04-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -213,6 +240,8 @@
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
