@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="dips.fhir.r4.observations.ig"/>
+  <id value="hl7.fhir.no.domain.vitalsigns"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>DIPSVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://dips.no/ImplementationGuide/dips.fhir.r4.observations.ig</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
-  <url value="http://dips.no/ImplementationGuide/dips.fhir.r4.observations.ig"/>
+  <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
   <version value="0.0.1-alpha"/>
-  <name value="DIPSVitalSigns"/>
+  <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2022-04-06T08:24:12+00:00"/>
+  <date value="2022-04-06T11:19:03+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -17,7 +17,7 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <packageId value="dips.fhir.r4.observations.ig"/>
+  <packageId value="hl7.fhir.no.domain.vitalsigns"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7_fhir_no_basis">
@@ -95,7 +95,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://dips.no/history.html"/>
+        <valueString value="http://hl7.no/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -173,30 +173,6 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="active-tables"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="fmm-definition"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="propagate-status"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="excludelogbinaryformat"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>

@@ -1,15 +1,15 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "dips.fhir.r4.observations.ig",
+  "id": "hl7.fhir.no.domain.vitalsigns",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>DIPSVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://dips.no/ImplementationGuide/dips.fhir.r4.observations.ig</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
-  "url": "http://dips.no/ImplementationGuide/dips.fhir.r4.observations.ig",
+  "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
   "version": "0.0.1-alpha",
-  "name": "DIPSVitalSigns",
+  "name": "NoDomainVitalSigns",
   "status": "draft",
-  "date": "2022-04-06T08:24:12+00:00",
+  "date": "2022-04-06T11:19:03+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "packageId": "dips.fhir.r4.observations.ig",
+  "packageId": "hl7.fhir.no.domain.vitalsigns",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -148,7 +148,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://dips.no/history.html"
+            "valueString": "http://hl7.no/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -275,45 +275,6 @@
           {
             "url": "code",
             "valueString": "active-tables"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "fmm-definition"
-          },
-          {
-            "url": "value",
-            "valueString": "http://hl7.org/fhir/versions.html#maturity"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "propagate-status"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "excludelogbinaryformat"
           },
           {
             "url": "value",
