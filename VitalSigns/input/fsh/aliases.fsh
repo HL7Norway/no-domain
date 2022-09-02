@@ -1,7 +1,4 @@
 Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareablevalueset
-//Alias: $no-domain-vitalsignsobservation-performerauthorreference = http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-performerauthorreference
-//Alias: $no-domain-vitalsignsobservation-organizationreference = http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-organizationreference
-//Alias: $no-domain-vitalsignsobservation-subjectreference = http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-subjectreference
 Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
 Alias: $bodyheight = http://hl7.org/fhir/StructureDefinition/bodyheight
 Alias: $bmi = http://hl7.org/fhir/StructureDefinition/bmi
@@ -16,14 +13,12 @@ Alias: $no-basis-Practitioner = http://hl7.no/fhir/StructureDefinition/no-basis-
 Alias: $no-basis-PractitionerRole = http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole
 Alias: $no-basis-Organization = http://hl7.no/fhir/StructureDefinition/no-basis-Organization
 Alias: $no-bloodpressurebodysite-valueset = http://hl7.no/fhir/ValueSet/no-bloodpressurebodysite-valueset
-Alias: $no-domain-vitalsignsobservation-measurementmethodvalueSet = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-measurementmethodvalueSet
-Alias: $no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset
-Alias: $no-heartrhythm-valueset = http://hl7.org/fhir/ValueSet/no-heartrhythm-valueset
-Alias: $no-domain-vso-respirationrate-patternvalueset = http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-patternvalueset
-//Alias: $DipsSleepStatusValueset = http://dips.no/fhir/ValueSet/DipsSleepStatusValueset
+Alias: $no-domain-vital-signs-observations-measurementmethodvalueSet = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-measurementmethodvalueSet
+Alias: $no-domain-vital-signs-observations-oxygensaturation-bodysitevalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset
+Alias: $no-heartrhythm-valueset = http://hl7.no/fhir/ValueSet/no-heartrhythm-valueset
+Alias: $no-domain-vital-signs-observations-respirationrate-patternvalueset = http://hl7.no/fhir/ValueSet/no-domain-vital-signs-observations-respirationrate-patternvalueset
 // Instances
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $clinical-codes = http://acme.org/devices/clinical-codes
-Alias: $code = http://dips.no/fhir/code

@@ -6,9 +6,9 @@ Usage: #example
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
 * identifier.value = "External Id: testBWexternalId3"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clothingstateextension"
+* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState"
 * extension[=].valueCoding = $sct#1081791000202103 "Fullt påkledd uten sko"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vso-confoundingfactorextension"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
 * extension[=].valueString = "sample confounding factor"
 * status = #final
 * category = $observation-category#vital-signs "vital-signs"
