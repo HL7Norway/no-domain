@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoDomainVitalSigns"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-06T11:31:11+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-09-05T07:10:55+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -34,6 +34,15 @@
   ];
   fhir:ImplementationGuide.dependsOn [
      fhir:index 0;
+     fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+  ], [
+     fhir:index 1;
      fhir:Element.id [ fhir:value "hl7_fhir_no_basis" ];
      fhir:ImplementationGuide.dependsOn.uri [
        fhir:value "http://hl7.no/fhir/";
@@ -280,8 +289,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBloodpressure>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBloodpressure" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBloodpressure" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Blood pressure" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation." ];
@@ -294,8 +303,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBodyHeight>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBodyHeight" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeight>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBodyHeight" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Body Height" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time." ];
@@ -308,8 +317,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBodyTemp>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBodyTemp" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBodyTemp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Body Temperature" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual's body temperature, which is a surrogate for the core body temperature of the individual." ];
@@ -322,8 +331,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBodyWeight>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBodyWeight" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBodyWeight" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Body Weight" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal." ];
@@ -336,8 +345,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeartRate>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeartRate" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeartRate" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Heart Rate" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a pulse or heart beat." ];
@@ -350,8 +359,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOOxygenSaturation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOOxygenSaturation" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Oxygen Saturation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nUse to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry." ];
@@ -364,8 +373,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOPulse>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOPulse" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationPulse" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Pulse" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse." ];
@@ -378,8 +387,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSORespirationRate>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSORespirationRate" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationRespirationRate" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NO Domain VitalSigns Observation - Respiration Rate" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Base profile for Norwegian Vital Signs Observation Respiration Rate information.  \nUse to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm." ];
@@ -392,11 +401,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOActiveHeatingExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOActiveHeatingExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/FiO2>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/FiO2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOActiveHeatingExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "description of the conditions applied" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FiO2" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 9;
@@ -406,11 +414,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBloodPressureBodyPositionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBloodPressureBodyPositionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/Flow>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Flow" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureBodyPositionExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The position of the individual at the time of measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Flow" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
@@ -420,11 +427,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBloodPressureDiastolicFormulaExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBloodPressureDiastolicFormulaExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationActiveHeating" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureDiastolicFormulaExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Formula used to calculate the pressure." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationActiveHeating" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "description of the conditions applied" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 11;
@@ -434,11 +441,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBloodPressureMeanArterialFormulaExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBloodPressureMeanArterialFormulaExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureMeanArterialFormulaExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Formula used to calculate the pressure." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The position of the individual at the time of measurement." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 12;
@@ -448,10 +455,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBloodPressureSystolicFormulaExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBloodPressureSystolicFormulaExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureSystolicFormulaExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureDiastolicFormula" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Formula used to calculate the pressure." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -462,11 +469,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBodyExposureExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBodyExposureExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyExposureExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The degree of exposure of the individual at the time of measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureMeanArterialFormula" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Formula used to calculate the pressure." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 14;
@@ -476,11 +483,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOBodyHeightBodyPositionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOBodyHeightBodyPositionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyHeightBodyPositionExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Position of individual when body height measured." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureSystolicFormula" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Formula used to calculate the pressure." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 15;
@@ -490,11 +497,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOCharacterOfHeartRateExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOCharacterOfHeartRateExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBodyExposure" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOCharacterOfHeartRateExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the character of the pulse or heart beat." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBodyExposure" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The degree of exposure of the individual at the time of measurement." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 16;
@@ -504,11 +511,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOClinicalDescriptionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOClinicalDescriptionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOClinicalDescriptionExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Narrative description about the pulse or heart beat." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBodyHeightBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Position of individual when body height measured." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 17;
@@ -518,11 +525,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOClothingStateExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOClothingStateExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOClothingStateExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the state of dress of the person at the time of weighing." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationCharacterOfHeartRate" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the character of the pulse or heart beat." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
@@ -532,11 +539,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOConfoundingFactorExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOConfoundingFactorExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationClinicalDescription" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOConfoundingFactorExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the confounding factor." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationClinicalDescription" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Narrative description about the pulse or heart beat." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 19;
@@ -546,11 +553,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOCuffSizeExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOCuffSizeExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationClothingState" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOCuffSizeExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The size of the cuff used for blood pressure measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationClothingState" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the state of dress of the person at the time of weighing." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 20;
@@ -560,11 +567,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSODaysSinceMenstruationStartExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSODaysSinceMenstruationStartExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSODaysSinceMenstruationStartExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Current day of the menstrual cycle." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationConfoundingFactor" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the confounding factor." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 21;
@@ -574,11 +581,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSODiastolicEndPointExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSODiastolicEndPointExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationCuffSize" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSODiastolicEndPointExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationCuffSize" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The size of the cuff used for blood pressure measurement." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 22;
@@ -588,11 +595,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOEnvironmentalConditionsExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOEnvironmentalConditionsExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOEnvironmentalConditionsExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the environmental conditions." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationDaysSinceMenstruationStart" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Current day of the menstrual cycle." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 23;
@@ -602,11 +609,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeadTiltExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeadTiltExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeadTiltExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The craniocaudal tilt of the surface on which the person is lying at the time of measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationDiastolicEndPoint" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 24;
@@ -616,11 +623,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeartRateBodyPositionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeartRateBodyPositionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeadTilt" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeartRateBodyPositionExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The body position of the subject during the observation." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeadTilt" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The craniocaudal tilt of the surface on which the person is lying at the time of measurement." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 25;
@@ -630,11 +637,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeartRhythmExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeartRhythmExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeartRhythmExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regularity of the pulse or heart beat." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRateBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The body position of the subject during the observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 26;
@@ -644,11 +651,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeartRhythmIrregularityExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeartRhythmIrregularityExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeartRhythm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeartRhythmIrregularityExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "More specific pattern of an irregular pulse or heart beat." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRhythm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regularity of the pulse or heart beat." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 27;
@@ -658,11 +665,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOHeatingDeviceExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOHeatingDeviceExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeatingDeviceExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Details about the environmental conditions at the time of temperature measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRhythmIrregularity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "More specific pattern of an irregular pulse or heart beat." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 28;
@@ -672,11 +679,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOInspiredOxygenExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOInspiredOxygenExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeatingDevice>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationHeatingDevice" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOInspiredOxygenExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Details of the amount of oxygen available to the subject at the time of observation." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeatingDevice" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Details about the environmental conditions at the time of temperature measurement." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 29;
@@ -686,11 +693,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOLevelOfExertionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOLevelOfExertionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOLevelOfExertionExtension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Details about the exertion of the person at the time of measurement." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationInspiredOxygen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Details of the amount of oxygen available to the subject at the time of observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 30;
@@ -700,10 +707,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOOxygenSaturationExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOOxygenSaturationExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturationExt>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationOxygenSaturationExt" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOOxygenSaturationExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationOxygenSaturationExt" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the oxygen saturation levels" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -714,10 +721,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOPrepostduktalextension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOPrepostduktalextension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPrepostduktal>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationPrepostduktal" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOPrepostduktalextension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationPrepostduktal" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of the pre/post/intermediate level of ductal" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -728,10 +735,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSORespirationDepthExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSORespirationDepthExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationRespirationDepth" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationDepthExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationDepth" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The depth of spontaneous breathing." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -742,10 +749,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSORespirationPatternExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSORespirationPatternExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationPattern>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationRespirationPattern" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationPatternExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationPattern" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The depth of respiration patterns" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -756,10 +763,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSORespirationRateBodyPositionExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSORespirationRateBodyPositionExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationRateBodyPositionExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationRateBodyPosition" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The body position of the individual during the observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -770,10 +777,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSORespirationRegularityExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSORespirationRegularityExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationRegularityExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationRegularity" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The regularity of spontaneous breathing." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -784,10 +791,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOSleepStatusExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOSleepStatusExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationSleepStatus" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOSleepStatusExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationSleepStatus" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sleep status - supports interpretation of 24 hour ambulatory blood pressure records." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -798,10 +805,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVSOSpontaneousBreathingExtension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVSOSpontaneousBreathingExtension" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOSpontaneousBreathingExtension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationSpontaneousBreathing" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A narrative description about the spontaneous breathing of the individual." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -809,42 +816,39 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBloodPressureBodyPositionValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBloodPressureBodyPositionValueSet" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/OnAir>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/OnAir" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureBodyPositionValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for blood pressure" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OnAir" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBloodPressureBodySiteValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBloodPressureBodySiteValueSet" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/OxygenAdministrationMethod" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureBodySiteValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for blood pressure" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OxygenAdministrationMethod" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBloodPressureMeasurementMethodValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBloodPressureMeasurementMethodValueSet" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/ProsentO2>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ProsentO2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBloodPressureMeasurementMethodValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing measurement method for blood pressurerate" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ProsentO2" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 41;
@@ -854,11 +858,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBodyExposureValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBodyExposureValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyExposureValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body exposure" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for blood pressure" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 42;
@@ -868,11 +872,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBodyHeightBodyPositionValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBodyHeightBodyPositionValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyHeightBodyPositionValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for body height" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodpressureBodySite" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for blood pressure" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 43;
@@ -882,11 +886,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBodyMassIndexMeasurementMethodValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBodyMassIndexMeasurementMethodValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyExposure>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBodyExposure" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyMassIndexMeasurementMethodValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing measurement method for body mass index" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBodyExposure" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body exposure" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 44;
@@ -896,11 +900,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOBodyTempBodySiteValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOBodyTempBodySiteValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOBodyTempBodySiteValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for body temperature" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBodyHeightBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for body height" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 45;
@@ -910,11 +914,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOClothingStateValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOClothingStateValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyTempBodySite>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBodyTempBodySite" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Codes representing level of clothing" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing level of clothing" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBodyTempBodySite" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for body temperature" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 46;
@@ -924,11 +928,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOCuffsizeValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOCuffsizeValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationClothingState" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNOMED CT CuffSize Structures" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing cuff size" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Codes representing level of clothing" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing level of clothing" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 47;
@@ -938,11 +942,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSODiastolicendPointValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSODiastolicendPointValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationCuffsize" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Codes representing Diastolic end point" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Diastolic end point" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNOMED CT CuffSize Structures" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing cuff size" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 48;
@@ -952,11 +956,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOExertionValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOExertionValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationDiastolicendPoint" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNOMED CT Exertion Valueset" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing exertion" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Codes representing Diastolic end point" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Diastolic end point" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 49;
@@ -966,10 +970,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOHeartRateBodyPositionValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOHeartRateBodyPositionValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vso-heartrate-bodypositionvalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrate-bodypositionvalueset" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -980,10 +984,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOHeartRateBodySiteValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOHeartRateBodySiteValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRateBodySite" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vso-heartrate-bodysitevalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrate-bodysitevalueset" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -994,11 +998,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOHeartRateMeasurementMethodValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOHeartRateMeasurementMethodValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRhythm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeartRateMeasurementMethodValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing measurement method for heart rate" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRhythm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing heart rhythm for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 52;
@@ -1008,10 +1012,10 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOHeartRhythmIrregularityValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOHeartRhythmIrregularityValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vso-heartrhythmIrregularityvalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrhythmIrregularityvalueset" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing heart rhythm irregularity for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1022,11 +1026,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOHeartRhythmValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOHeartRhythmValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPrePostduktalVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationPrePostduktalVS" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOHeartRhythmValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing heart rhythm for heart rate" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationPrePostduktalVS" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing pre/post ductal" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 54;
@@ -1036,11 +1040,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOPrePostduktalValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOPrePostduktalValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vso-prepostduktalvalueset" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing pre/post ductal" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationRateBodyPosition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for respiration rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 55;
@@ -1050,11 +1054,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSORespirationRateBodyPositionValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSORespirationRateBodyPositionValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateDepth>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationRespirationRateDepth" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationRateBodyPositionValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for respiration rate" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationRateDepth" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing depth for respiration rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 56;
@@ -1064,11 +1068,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSORespirationRateDepthValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSORespirationRateDepthValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationRespirationRegularity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationRateDepthValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing depth for respiration rate" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationRespirationRegularity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Respiration Regularity" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 57;
@@ -1078,11 +1082,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSORespirationRegularityValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSORespirationRegularityValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSORespirationRegularityValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Respiration Regularity" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationSleepStatusValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Sleep Status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 58;
@@ -1092,28 +1096,14 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOSleepStatusValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOSleepStatusValueSet" ]
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOSleepStatusValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Sleep Status" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 59;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVSOSpontaneousBreathingValueSet>;
-         fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVSOSpontaneousBreathingValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVSOSpontaneousBreathingValueSet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationSpontaneousBreathingVS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing Respiration Spontaneous breathing" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 60;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1126,7 +1116,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "blood-pressure-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 61;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1139,7 +1129,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-height-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 62;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1152,7 +1142,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-temperature-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 63;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1165,7 +1155,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-weight-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 64;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1178,7 +1168,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "heart-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1191,7 +1181,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "oxygen-saturation-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 66;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

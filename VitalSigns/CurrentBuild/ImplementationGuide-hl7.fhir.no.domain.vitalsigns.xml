@@ -9,7 +9,7 @@
   <version value="0.0.1-alpha"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2022-04-06T11:31:11+00:00"/>
+  <date value="2022-09-05T07:10:55+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -20,6 +20,11 @@
   <packageId value="hl7.fhir.no.domain.vitalsigns"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://hl7.no/fhir/"/>
     <packageId value="hl7.fhir.no.basis"/>
@@ -183,7 +188,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBloodpressure"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressure"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Blood pressure"/>
       <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation."/>
@@ -194,7 +199,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBodyHeight"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBodyHeight"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Body Height"/>
       <description value="Base profile for Norwegian Vital Signs Observation Body Height information.  &#xA;To be used for recording the measured height or body length of an individual at any point in time."/>
@@ -205,7 +210,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBodyTemp"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBodyTemp"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Body Temperature"/>
       <description value="Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual's body temperature, which is a surrogate for the core body temperature of the individual."/>
@@ -216,7 +221,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBodyWeight"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBodyWeight"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Body Weight"/>
       <description value="Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."/>
@@ -227,7 +232,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeartRate"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRate"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Heart Rate"/>
       <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a pulse or heart beat."/>
@@ -238,7 +243,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOOxygenSaturation"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Oxygen Saturation"/>
       <description value="Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  &#xA;Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."/>
@@ -249,7 +254,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOPulse"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulse"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Pulse"/>
       <description value="Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse."/>
@@ -260,7 +265,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSORespirationRate"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationRespirationRate"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Respiration Rate"/>
       <description value="Base profile for Norwegian Vital Signs Observation Respiration Rate information.  &#xA;Use to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."/>
@@ -271,9 +276,29 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOActiveHeatingExtension"/>
+        <reference value="StructureDefinition/FiO2"/>
       </reference>
-      <name value="NoDomainVSOActiveHeatingExtension"/>
+      <name value="FiO2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Flow"/>
+      </reference>
+      <name value="Flow"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationActiveHeating"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationActiveHeating"/>
       <description value="description of the conditions applied"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -282,9 +307,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBloodPressureBodyPositionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureBodyPositionExtension"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
       <description value="The position of the individual at the time of measurement."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -293,9 +318,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBloodPressureDiastolicFormulaExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureDiastolicFormulaExtension"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureDiastolicFormula"/>
       <description value="Formula used to calculate the pressure."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -304,9 +329,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBloodPressureMeanArterialFormulaExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureMeanArterialFormulaExtension"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureMeanArterialFormula"/>
       <description value="Formula used to calculate the pressure."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -315,9 +340,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBloodPressureSystolicFormulaExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureSystolicFormulaExtension"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureSystolicFormula"/>
       <description value="Formula used to calculate the pressure."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -326,9 +351,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBodyExposureExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBodyExposure"/>
       </reference>
-      <name value="NoDomainVSOBodyExposureExtension"/>
+      <name value="NoDomainVitalSignsObservationBodyExposure"/>
       <description value="The degree of exposure of the individual at the time of measurement."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -337,9 +362,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOBodyHeightBodyPositionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
       </reference>
-      <name value="NoDomainVSOBodyHeightBodyPositionExtension"/>
+      <name value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
       <description value="Position of individual when body height measured."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -348,9 +373,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOCharacterOfHeartRateExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"/>
       </reference>
-      <name value="NoDomainVSOCharacterOfHeartRateExtension"/>
+      <name value="NoDomainVitalSignsObservationCharacterOfHeartRate"/>
       <description value="Description of the character of the pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -359,9 +384,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOClinicalDescriptionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationClinicalDescription"/>
       </reference>
-      <name value="NoDomainVSOClinicalDescriptionExtension"/>
+      <name value="NoDomainVitalSignsObservationClinicalDescription"/>
       <description value="Narrative description about the pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -370,9 +395,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOClothingStateExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationClothingState"/>
       </reference>
-      <name value="NoDomainVSOClothingStateExtension"/>
+      <name value="NoDomainVitalSignsObservationClothingState"/>
       <description value="Description of the state of dress of the person at the time of weighing."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -381,9 +406,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOConfoundingFactorExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"/>
       </reference>
-      <name value="NoDomainVSOConfoundingFactorExtension"/>
+      <name value="NoDomainVitalSignsObservationConfoundingFactor"/>
       <description value="Description of the confounding factor."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -392,9 +417,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOCuffSizeExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationCuffSize"/>
       </reference>
-      <name value="NoDomainVSOCuffSizeExtension"/>
+      <name value="NoDomainVitalSignsObservationCuffSize"/>
       <description value="The size of the cuff used for blood pressure measurement."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -403,9 +428,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSODaysSinceMenstruationStartExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"/>
       </reference>
-      <name value="NoDomainVSODaysSinceMenstruationStartExtension"/>
+      <name value="NoDomainVitalSignsObservationDaysSinceMenstruationStart"/>
       <description value="Current day of the menstrual cycle."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -414,9 +439,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSODiastolicEndPointExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint"/>
       </reference>
-      <name value="NoDomainVSODiastolicEndPointExtension"/>
+      <name value="NoDomainVitalSignsObservationDiastolicEndPoint"/>
       <description value="Record which Korotkoff sound is used for determining diastolic pressure using auscultative method."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -425,20 +450,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOEnvironmentalConditionsExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeadTilt"/>
       </reference>
-      <name value="NoDomainVSOEnvironmentalConditionsExtension"/>
-      <description value="Description of the environmental conditions."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeadTiltExtension"/>
-      </reference>
-      <name value="NoDomainVSOHeadTiltExtension"/>
+      <name value="NoDomainVitalSignsObservationHeadTilt"/>
       <description value="The craniocaudal tilt of the surface on which the person is lying at the time of measurement."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -447,9 +461,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeartRateBodyPositionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
       </reference>
-      <name value="NoDomainVSOHeartRateBodyPositionExtension"/>
+      <name value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
       <description value="The body position of the subject during the observation."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -458,9 +472,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeartRhythmExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"/>
       </reference>
-      <name value="NoDomainVSOHeartRhythmExtension"/>
+      <name value="NoDomainVitalSignsObservationHeartRhythm"/>
       <description value="Regularity of the pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -469,9 +483,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeartRhythmIrregularityExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       </reference>
-      <name value="NoDomainVSOHeartRhythmIrregularityExtension"/>
+      <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       <description value="More specific pattern of an irregular pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -480,9 +494,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOHeatingDeviceExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeatingDevice"/>
       </reference>
-      <name value="NoDomainVSOHeatingDeviceExtension"/>
+      <name value="NoDomainVitalSignsObservationHeatingDevice"/>
       <description value="Details about the environmental conditions at the time of temperature measurement."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -491,9 +505,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOInspiredOxygenExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen"/>
       </reference>
-      <name value="NoDomainVSOInspiredOxygenExtension"/>
+      <name value="NoDomainVitalSignsObservationInspiredOxygen"/>
       <description value="Details of the amount of oxygen available to the subject at the time of observation."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -502,20 +516,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOLevelOfExertionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationOxygenSaturationExt"/>
       </reference>
-      <name value="NoDomainVSOLevelOfExertionExtension"/>
-      <description value="Details about the exertion of the person at the time of measurement."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVSOOxygenSaturationExtension"/>
-      </reference>
-      <name value="NoDomainVSOOxygenSaturationExtension"/>
+      <name value="NoDomainVitalSignsObservationOxygenSaturationExt"/>
       <description value="Description of the oxygen saturation levels"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -524,9 +527,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOPrepostduktalextension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPrepostduktal"/>
       </reference>
-      <name value="NoDomainVSOPrepostduktalextension"/>
+      <name value="NoDomainVitalSignsObservationPrepostduktal"/>
       <description value="Description of the pre/post/intermediate level of ductal"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -535,9 +538,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSORespirationDepthExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationRespirationDepth"/>
       </reference>
-      <name value="NoDomainVSORespirationDepthExtension"/>
+      <name value="NoDomainVitalSignsObservationRespirationDepth"/>
       <description value="The depth of spontaneous breathing."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -546,9 +549,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSORespirationPatternExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationRespirationPattern"/>
       </reference>
-      <name value="NoDomainVSORespirationPatternExtension"/>
+      <name value="NoDomainVitalSignsObservationRespirationPattern"/>
       <description value="The depth of respiration patterns"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -557,9 +560,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSORespirationRateBodyPositionExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
       </reference>
-      <name value="NoDomainVSORespirationRateBodyPositionExtension"/>
+      <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
       <description value="The body position of the individual during the observation."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -568,9 +571,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSORespirationRegularityExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity"/>
       </reference>
-      <name value="NoDomainVSORespirationRegularityExtension"/>
+      <name value="NoDomainVitalSignsObservationRespirationRegularity"/>
       <description value="The regularity of spontaneous breathing."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -579,9 +582,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOSleepStatusExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationSleepStatus"/>
       </reference>
-      <name value="NoDomainVSOSleepStatusExtension"/>
+      <name value="NoDomainVitalSignsObservationSleepStatus"/>
       <description value="Sleep status - supports interpretation of 24 hour ambulatory blood pressure records."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -590,10 +593,40 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVSOSpontaneousBreathingExtension"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing"/>
       </reference>
-      <name value="NoDomainVSOSpontaneousBreathingExtension"/>
+      <name value="NoDomainVitalSignsObservationSpontaneousBreathing"/>
       <description value="A narrative description about the spontaneous breathing of the individual."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/OnAir"/>
+      </reference>
+      <name value="OnAir"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/OxygenAdministrationMethod"/>
+      </reference>
+      <name value="OxygenAdministrationMethod"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ProsentO2"/>
+      </reference>
+      <name value="ProsentO2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -601,9 +634,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOBloodPressureBodyPositionValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureBodyPositionValueSet"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
       <description value="Codes representing body position for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -612,9 +645,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOBloodPressureBodySiteValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureBodySiteValueSet"/>
+      <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
       <description value="Codes representing body site for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -623,20 +656,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOBloodPressureMeasurementMethodValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBodyExposure"/>
       </reference>
-      <name value="NoDomainVSOBloodPressureMeasurementMethodValueSet"/>
-      <description value="Codes representing measurement method for blood pressurerate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVSOBodyExposureValueSet"/>
-      </reference>
-      <name value="NoDomainVSOBodyExposureValueSet"/>
+      <name value="NoDomainVitalSignsObservationBodyExposure"/>
       <description value="Codes representing body exposure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -645,9 +667,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOBodyHeightBodyPositionValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
       </reference>
-      <name value="NoDomainVSOBodyHeightBodyPositionValueSet"/>
+      <name value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
       <description value="Codes representing body position for body height"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -656,20 +678,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOBodyMassIndexMeasurementMethodValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBodyTempBodySite"/>
       </reference>
-      <name value="NoDomainVSOBodyMassIndexMeasurementMethodValueSet"/>
-      <description value="Codes representing measurement method for body mass index"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVSOBodyTempBodySiteValueSet"/>
-      </reference>
-      <name value="NoDomainVSOBodyTempBodySiteValueSet"/>
+      <name value="NoDomainVitalSignsObservationBodyTempBodySite"/>
       <description value="Codes representing body site for body temperature"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -678,7 +689,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOClothingStateValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationClothingState"/>
       </reference>
       <name value="Codes representing level of clothing"/>
       <description value="Codes representing level of clothing"/>
@@ -689,7 +700,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOCuffsizeValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationCuffsize"/>
       </reference>
       <name value="SNOMED CT CuffSize Structures"/>
       <description value="Codes representing cuff size"/>
@@ -700,7 +711,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSODiastolicendPointValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
       </reference>
       <name value="Codes representing Diastolic end point"/>
       <description value="Codes representing Diastolic end point"/>
@@ -711,20 +722,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOExertionValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
       </reference>
-      <name value="SNOMED CT Exertion Valueset"/>
-      <description value="Codes representing exertion"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVSOHeartRateBodyPositionValueSet"/>
-      </reference>
-      <name value="no-domain-vso-heartrate-bodypositionvalueset"/>
+      <name value="no-domain-vital-signs-observations-heartrate-bodypositionvalueset"/>
       <description value="Codes representing body position for heart rate"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -733,9 +733,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOHeartRateBodySiteValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
       </reference>
-      <name value="no-domain-vso-heartrate-bodysitevalueset"/>
+      <name value="no-domain-vital-signs-observations-heartrate-bodysitevalueset"/>
       <description value="Codes representing body site for heart rate"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -744,31 +744,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOHeartRateMeasurementMethodValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
       </reference>
-      <name value="NoDomainVSOHeartRateMeasurementMethodValueSet"/>
-      <description value="Codes representing measurement method for heart rate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVSOHeartRhythmIrregularityValueSet"/>
-      </reference>
-      <name value="no-domain-vso-heartrhythmIrregularityvalueset"/>
-      <description value="Codes representing heart rhythm irregularity for heart rate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVSOHeartRhythmValueSet"/>
-      </reference>
-      <name value="NoDomainVSOHeartRhythmValueSet"/>
+      <name value="NoDomainVitalSignsObservationHeartRhythm"/>
       <description value="Codes representing heart rhythm for heart rate"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -777,9 +755,20 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOPrePostduktalValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       </reference>
-      <name value="no-domain-vso-prepostduktalvalueset"/>
+      <name value="no-domain-vital-signs-observations-heartrhythmIrregularityvalueset"/>
+      <description value="Codes representing heart rhythm irregularity for heart rate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPrePostduktalVS"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPrePostduktalVS"/>
       <description value="Codes representing pre/post ductal"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -788,9 +777,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSORespirationRateBodyPositionValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
       </reference>
-      <name value="NoDomainVSORespirationRateBodyPositionValueSet"/>
+      <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
       <description value="Codes representing body position for respiration rate"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -799,9 +788,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSORespirationRateDepthValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationRespirationRateDepth"/>
       </reference>
-      <name value="NoDomainVSORespirationRateDepthValueSet"/>
+      <name value="NoDomainVitalSignsObservationRespirationRateDepth"/>
       <description value="Codes representing depth for respiration rate"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -810,9 +799,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSORespirationRegularityValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationRespirationRegularity"/>
       </reference>
-      <name value="NoDomainVSORespirationRegularityValueSet"/>
+      <name value="NoDomainVitalSignsObservationRespirationRegularity"/>
       <description value="Codes representing Respiration Regularity"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -821,9 +810,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOSleepStatusValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet"/>
       </reference>
-      <name value="NoDomainVSOSleepStatusValueSet"/>
+      <name value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
       <description value="Codes representing Sleep Status"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -832,9 +821,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVSOSpontaneousBreathingValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
       </reference>
-      <name value="NoDomainVSOSpontaneousBreathingValueSet"/>
+      <name value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
       <description value="Codes representing Respiration Spontaneous breathing"/>
       <exampleBoolean value="false"/>
     </resource>

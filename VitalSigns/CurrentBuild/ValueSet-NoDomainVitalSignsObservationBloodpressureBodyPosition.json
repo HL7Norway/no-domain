@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "id": "NoDomainVitalSignsObservationBloodpressureBodyPosition",
+  "meta": {
+    "lastUpdated": "2021-03-17T00:00:00+00:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>Stående</td></tr><tr><td><a href=\"http://snomed.info/id/4801000202104\">4801000202104</a></td><td>Liggende</td></tr><tr><td><a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>Sittende</td></tr><tr><td><a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>Tilbakelent</td></tr><tr><td><a href=\"http://snomed.info/id/414585002\">414585002</a></td><td>Liggende lent mot venstre</td></tr></table></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "oo"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition",
+  "version": "0.0.1-alpha",
+  "name": "NoDomainVitalSignsObservationBloodpressureBodyPosition",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-03-17T00:00:00+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "description": "Codes representing body position for blood pressure",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "10904000",
+            "display": "Stående"
+          },
+          {
+            "code": "4801000202104",
+            "display": "Liggende"
+          },
+          {
+            "code": "33586001",
+            "display": "Sittende"
+          },
+          {
+            "code": "272580008",
+            "display": "Tilbakelent"
+          },
+          {
+            "code": "414585002",
+            "display": "Liggende lent mot venstre"
+          }
+        ]
+      }
+    ]
+  }
+}

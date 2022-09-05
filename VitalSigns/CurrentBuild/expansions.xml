@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ceec38d9-6c92-422b-923f-92faeb954d0d"/>
+  <id value="aef25b97-9815-43d6-81f6-58f62888cb39"/>
   <meta>
-    <lastUpdated value="2022-04-06T11:31:11.542+00:00"/>
+    <lastUpdated value="2022-09-05T07:10:55.514+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-bodypositionvalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOBloodPressureBodyPositionValueSet"/>
+        <id value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -19,7 +19,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -74,9 +74,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-bodypositionvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBloodPressureBodyPositionValueSet"/>
+        <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -95,8 +95,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4c6d551c-7bb2-4dfc-8fe8-4fc6095435eb"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
+          <identifier value="urn:uuid:3c025756-657d-4588-ad91-1f7de64a771b"/>
+          <timestamp value="2022-09-05T07:12:30+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -108,7 +108,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -135,10 +135,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-bodysitevalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOBloodPressureBodySiteValueSet"/>
+        <id value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -147,7 +147,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 12 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -258,9 +258,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-bodysitevalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBloodPressureBodySiteValueSet"/>
+        <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -279,8 +279,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cc14e98f-1a4a-4674-b241-fdbaeefcdf04"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
+          <identifier value="urn:uuid:9466e0a6-c6b6-4704-a736-903a1cec79ab"/>
+          <timestamp value="2022-09-05T07:12:31+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -292,7 +292,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -359,114 +359,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-measurementmethodvalueSet"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyExposure"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOBloodPressureMeasurementMethodValueSet"/>
-        <meta>
-          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
-            <p>All codes in this table are from the system 
-              <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
-                <code>http://snomed.info/sct</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-129436005"> </a>  
-                  <a href="http://snomed.info/id/129436005">129436005</a>
-                </td>
-                <td>Auskultasjon</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-129434008"> </a>  
-                  <a href="http://snomed.info/id/129434008">129434008</a>
-                </td>
-                <td>Palpasjon</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-          <valueCode value="oo"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="draft"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bloodpressure-measurementmethodvalueSet"/>
-        <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBloodPressureMeasurementMethodValueSet"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-03-17T00:00:00+00:00"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/fhir"/>
-          </telecom>
-        </contact>
-        <description value="Codes representing measurement method for blood pressurerate"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:97dce60f-8d2c-4d82-b05b-948138e5753b"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="129436005"/>
-            <display value="Auskultasjon"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="129434008"/>
-            <display value="Palpasjon"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodyexposure-valueset"/>
-    <resource>
-      <ValueSet>
-        <id value="NoDomainVSOBodyExposureValueSet"/>
+        <id value="NoDomainVitalSignsObservationBodyExposure"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -499,9 +395,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodyexposure-valueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyExposure"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBodyExposureValueSet"/>
+        <name value="NoDomainVitalSignsObservationBodyExposure"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -514,8 +410,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b46ba201-9466-445c-9e59-f6d3398e1a06"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
+          <identifier value="urn:uuid:a680d965-3795-4d39-a6af-77de92e6288d"/>
+          <timestamp value="2022-09-05T07:12:31+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -529,10 +425,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodyheight-bodypositionvalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOBodyHeightBodyPositionValueSet"/>
+        <id value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -541,7 +437,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -566,18 +462,15 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-          <valueCode value="oo"/>
-        </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="draft"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodyheight-bodypositionvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBodyHeightBodyPositionValueSet"/>
+        <name value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -596,8 +489,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d4921990-90ad-4bdb-80f6-e037fe9e5865"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
+          <identifier value="urn:uuid:69198f24-6820-4941-b92f-6d03614b741c"/>
+          <timestamp value="2022-09-05T07:12:31+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -609,7 +502,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -621,78 +514,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodymassindex-measurementmethodvalueSet"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyTempBodySite"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOBodyMassIndexMeasurementMethodValueSet"/>
-        <meta>
-          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-          <valueCode value="oo"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="draft"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodymassindex-measurementmethodvalueSet"/>
-        <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBodyMassIndexMeasurementMethodValueSet"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-05-28T00:00:00+00:00"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/fhir"/>
-          </telecom>
-        </contact>
-        <description value="Codes representing measurement method for body mass index"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:846a6081-381e-4817-9246-95dd12a0d047"/>
-          <timestamp value="2022-04-06T11:31:44+00:00"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodytemp-bodysitevalueset"/>
-    <resource>
-      <ValueSet>
-        <id value="NoDomainVSOBodyTempBodySiteValueSet"/>
+        <id value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -701,7 +526,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 13 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -819,9 +644,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-bodytemp-bodysitevalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyTempBodySite"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOBodyTempBodySiteValueSet"/>
+        <name value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -840,8 +665,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0f32081f-fadb-459f-8d38-814dfde3c56d"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:bdc0732b-d005-4a24-b34e-43997c92a31a"/>
+          <timestamp value="2022-09-05T07:12:32+00:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -853,7 +678,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -925,10 +750,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-clothingstatevalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOClothingStateValueSet"/>
+        <id value="NoDomainVitalSignsObservationClothingState"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -961,9 +786,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-clothingstatevalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOClothingStateValueSet"/>
+        <name value="NoDomainVitalSignsObservationClothingState"/>
         <title value="Codes representing level of clothing"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -977,8 +802,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0bcad58c-6da2-4942-80a0-13637fc272c4"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:3d4f9a5b-1cec-4b3b-9014-276f21f5040b"/>
+          <timestamp value="2022-09-05T07:12:32+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -992,10 +817,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-cuffsizevalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOCuffsizeValueSet"/>
+        <id value="NoDomainVitalSignsObservationCuffsize"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1004,7 +829,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1059,9 +884,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-cuffsizevalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOCuffsizeValueSet"/>
+        <name value="NoDomainVitalSignsObservationCuffsize"/>
         <title value="SNOMED CT CuffSize Structures"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -1075,8 +900,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:41fa6583-86f3-4dab-8ea4-116711bfedf5"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:393fd42c-742c-43ab-83bf-f9c67f87def4"/>
+          <timestamp value="2022-09-05T07:12:32+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1088,7 +913,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1115,10 +940,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-diastolicendpointvalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSODiastolicendPointValueSet"/>
+        <id value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1151,9 +976,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-diastolicendpointvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSODiastolicendPointValueSet"/>
+        <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <title value="Codes representing Diastolic end point"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -1167,8 +992,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1d632a30-6b39-4775-b5f6-2c22c9d064ee"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:574ff80b-d5d6-4509-90f5-76b0307b2d7e"/>
+          <timestamp value="2022-09-05T07:12:33+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -1182,86 +1007,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-exertionvalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOExertionValueSet"/>
-        <meta>
-          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set cannot be expanded because of the way it is defined - it has an infinite number of members</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-          <valueCode value="oo"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="draft"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-exertionvalueset"/>
-        <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOExertionValueSet"/>
-        <title value="SNOMED CT Exertion Valueset"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-03-17T00:00:00+00:00"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/fhir"/>
-          </telecom>
-        </contact>
-        <description value="Codes representing exertion"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
-            <valueBoolean value="true"/>
-          </extension>
-          <identifier value="urn:uuid:48a4f5fd-3aae-4cb4-930e-10b923e9da47"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-heartrate-bodypositionvalueset"/>
-    <resource>
-      <ValueSet>
-        <id value="NoDomainVSOHeartRateBodyPositionValueSet"/>
+        <id value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1270,7 +1019,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1318,10 +1067,10 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-heartrate-bodypositionvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOHeartRateBodyPositionValueSet"/>
-        <title value="no-domain-vso-heartrate-bodypositionvalueset"/>
+        <name value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
+        <title value="no-domain-vital-signs-observations-heartrate-bodypositionvalueset"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1340,8 +1089,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:46fde088-ae5e-42be-9519-bc6f4b4ee4fe"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:ab137e6c-3740-42c8-885a-5e2691f7a0e6"/>
+          <timestamp value="2022-09-05T07:12:34+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1353,7 +1102,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1375,10 +1124,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-heartrate-bodysitevalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOHeartRateBodySiteValueSet"/>
+        <id value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1386,8 +1135,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 11 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p>This value set contains 12 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1479,6 +1228,13 @@
                 </td>
                 <td>Øreflipp</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-364075005"> </a>  
+                  <a href="http://snomed.info/id/364075005">364075005</a>
+                </td>
+                <td>Hjertet</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -1491,10 +1247,10 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-heartrate-bodysitevalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOHeartRateBodySiteValueSet"/>
-        <title value="no-domain-vso-heartrate-bodysitevalueset"/>
+        <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <title value="no-domain-vital-signs-observations-heartrate-bodysitevalueset"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1513,9 +1269,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:17e9a8be-e8c2-4975-8588-cf42bbc10089"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
-          <total value="11"/>
+          <identifier value="urn:uuid:6aab2cbe-ec25-4506-b165-fc342c20d553"/>
+          <timestamp value="2022-09-05T07:12:34+00:00"/>
+          <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -1526,7 +1282,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1583,15 +1339,20 @@
             <code value="48800003"/>
             <display value="Øreflipp"/>
           </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="364075005"/>
+            <display value="Hjertet"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmIrregularityvalueset"/>
+    <fullUrl value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOHeartRhythmIrregularityValueSet"/>
+        <id value="NoDomainVitalSignsObservationHeartRhythm"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1600,113 +1361,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
-            <p>All codes in this table are from the system 
-              <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
-                <code>http://snomed.info/sct</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-271638000"> </a>  
-                  <a href="http://snomed.info/id/271638000">271638000</a>
-                </td>
-                <td>Regelmessig uregelmessig</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-271637005"> </a>  
-                  <a href="http://snomed.info/id/271637005">271637005</a>
-                </td>
-                <td>Uregelmessig uregelmessig</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-          <valueCode value="oo"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="draft"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
-        <url value="http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmIrregularityvalueset"/>
-        <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOHeartRhythmIrregularityValueSet"/>
-        <title value="no-domain-vso-heartrhythmIrregularityvalueset"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-03-17T00:00:00+00:00"/>
-        <publisher value="FHIR Project team"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/fhir"/>
-          </telecom>
-        </contact>
-        <description value="Codes representing heart rhythm irregularity for heart rate"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:d92d31de-2de1-47de-bc8b-3c1914c7c380"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="271638000"/>
-            <display value="Regelmessig uregelmessig"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="271637005"/>
-            <display value="Uregelmessig uregelmessig"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmvalueset"/>
-    <resource>
-      <ValueSet>
-        <id value="NoDomainVSOHeartRhythmValueSet"/>
-        <meta>
-          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1747,9 +1402,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.org/fhir/ValueSet/no-domain-vso-heartrhythmvalueset"/>
+        <url value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOHeartRhythmValueSet"/>
+        <name value="NoDomainVitalSignsObservationHeartRhythm"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1769,8 +1424,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e1aa68b6-16a2-4af3-a685-a6e21ae061c2"/>
-          <timestamp value="2022-04-06T11:31:45+00:00"/>
+          <identifier value="urn:uuid:66243b34-a0c0-46fa-b434-320b543d4a85"/>
+          <timestamp value="2022-09-05T07:12:35+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1782,7 +1437,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1799,10 +1454,188 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-bodypositionvalueset"/>
+    <fullUrl value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSORespirationRateBodyPositionValueSet"/>
+        <id value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <p>All codes in this table are from the system 
+              <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271638000"> </a>  
+                  <a href="http://snomed.info/id/271638000">271638000</a>
+                </td>
+                <td>Regelmessig uregelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271637005"> </a>  
+                  <a href="http://snomed.info/id/271637005">271637005</a>
+                </td>
+                <td>Uregelmessig uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <version value="0.0.1-alpha"/>
+        <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <title value="no-domain-vital-signs-observations-heartrhythmIrregularityvalueset"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="FHIR Project team"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/fhir"/>
+          </telecom>
+        </contact>
+        <description value="Codes representing heart rhythm irregularity for heart rate"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bbc94e1b-612f-4997-9bc5-c977bef0800e"/>
+          <timestamp value="2022-09-05T07:12:35+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271638000"/>
+            <display value="Regelmessig uregelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271637005"/>
+            <display value="Uregelmessig uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPrePostduktalVS"/>
+    <resource>
+      <ValueSet>
+        <id value="NoDomainVitalSignsObservationPrePostduktalVS"/>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPrePostduktalVS"/>
+        <version value="0.0.1-alpha"/>
+        <name value="NoDomainVitalSignsObservationPrePostduktalVS"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/fhir"/>
+          </telecom>
+        </contact>
+        <description value="Codes representing pre/post ductal"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:6e23decf-2ce6-42aa-a510-81dbd619e36e"/>
+          <timestamp value="2022-09-05T07:12:36+00:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
+    <resource>
+      <ValueSet>
+        <id value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1811,7 +1644,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -1873,9 +1706,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-bodypositionvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSORespirationRateBodyPositionValueSet"/>
+        <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1888,8 +1721,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:42fb0b87-eb48-4240-bae3-8f0e1b221963"/>
-          <timestamp value="2022-04-06T11:31:46+00:00"/>
+          <identifier value="urn:uuid:7b2cb1f3-a7dd-45f4-a29f-358cd19a549e"/>
+          <timestamp value="2022-09-05T07:12:36+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1901,7 +1734,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1933,10 +1766,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-depthvalueset"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateDepth"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSORespirationRateDepthValueSet"/>
+        <id value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -1945,7 +1778,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -2000,9 +1833,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vso-respirationrate-depthvalueset"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateDepth"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSORespirationRateDepthValueSet"/>
+        <name value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -2015,8 +1848,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fd13de5e-10fb-46a2-ac2a-3ba17ca0840e"/>
-          <timestamp value="2022-04-06T11:31:46+00:00"/>
+          <identifier value="urn:uuid:27d446c8-124c-432f-94da-33b7403a6eaa"/>
+          <timestamp value="2022-09-05T07:12:37+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2028,7 +1861,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -2055,10 +1888,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/ValueSet/no-domain-vso-respirationregularityvalueset"/>
+    <fullUrl value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSORespirationRegularityValueSet"/>
+        <id value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -2067,7 +1900,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -2108,9 +1941,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.org/fhir/ValueSet/no-domain-vso-respirationregularityvalueset"/>
+        <url value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSORespirationRegularityValueSet"/>
+        <name value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -2123,8 +1956,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dfbd16b3-2e7f-4c7a-a545-67b91720aaf5"/>
-          <timestamp value="2022-04-06T11:31:46+00:00"/>
+          <identifier value="urn:uuid:d3ef19ea-147f-4a18-8834-05fc1f885db3"/>
+          <timestamp value="2022-09-05T07:12:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2136,7 +1969,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -2153,10 +1986,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/ValueSet/no-domain-vso-sleepstatusvalueset"/>
+    <fullUrl value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOSleepStatusValueSet"/>
+        <id value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -2165,7 +1998,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -2206,9 +2039,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.org/fhir/ValueSet/no-domain-vso-sleepstatusvalueset"/>
+        <url value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOSleepStatusValueSet"/>
+        <name value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -2221,8 +2054,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a7068bc5-de91-44f0-8195-98e0198b90d9"/>
-          <timestamp value="2022-04-06T11:31:46+00:00"/>
+          <identifier value="urn:uuid:df57a4bb-0b27-4748-95c1-efefea9610b7"/>
+          <timestamp value="2022-09-05T07:12:37+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2234,7 +2067,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -2251,10 +2084,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/ValueSet/no-domain-vso-spontaneousbreathingvalueset"/>
+    <fullUrl value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
     <resource>
       <ValueSet>
-        <id value="NoDomainVSOSpontaneousBreathingValueSet"/>
+        <id value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
         <meta>
           <lastUpdated value="2021-03-17T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -2263,7 +2096,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <p>All codes in this table are from the system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -2297,9 +2130,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.org/fhir/ValueSet/no-domain-vso-spontaneousbreathingvalueset"/>
+        <url value="http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
         <version value="0.0.1-alpha"/>
-        <name value="NoDomainVSOSpontaneousBreathingValueSet"/>
+        <name value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -2312,8 +2145,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d169441e-446a-433c-b8ca-4b77d1c1b5d4"/>
-          <timestamp value="2022-04-06T11:31:46+00:00"/>
+          <identifier value="urn:uuid:ac12631e-fbb4-441c-8b5e-bb9ef4d7dbcd"/>
+          <timestamp value="2022-09-05T07:12:37+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2325,7 +2158,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
