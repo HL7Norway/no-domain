@@ -1,5 +1,5 @@
 Profile: NoDomainVitalSignsObservationOxygenSaturation
-Parent: Observation
+Parent: $oxygensat
 Id: NoDomainVitalSignsObservationOxygenSaturation
 Title: "NO Domain VitalSigns Observation - Oxygen Saturation"
 Description: """Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
@@ -14,8 +14,8 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
 * extension ^slicing.rules = #open
 * extension contains
     //NoDomainVitalSignsObservationLevelOfExertion  named levelOfExertion 0..1 and
-    NoDomainVitalSignsObservationPrepostduktal named PrePostduktal 0..1 and
-    NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..*
+     //DIPSVitalSignsObservationPrePostduktal named PrePostduktal 0..1 and
+     NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..*
 //* extension[levelOfExertion] ^short = "Details about physical activity undertaken at the time of measurement."
 //* extension[levelOfExertion] ^definition = "Details about physical activity undertaken at the time of measurement."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."

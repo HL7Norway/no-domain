@@ -8,8 +8,7 @@ Description: "Description of the state of dress of the person at the time of wei
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState" (exactly)
-* value[x] only CodeableConcept
+* value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationClothingState (required)
-* value[x].coding ..1
-* value[x].coding from NoDomainVitalSignsObservationClothingState (required)
-* value[x].coding.code from NoDomainVitalSignsObservationClothingState (required)
+// * value[x].coding ..1
+// * value[x].coding from NoDomainVitalSignsObservationClothingState (required)

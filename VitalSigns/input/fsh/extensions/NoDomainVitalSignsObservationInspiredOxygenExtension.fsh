@@ -29,39 +29,29 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 Extension: OxygenAdministrationMethod
 * ^url = "http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod"
 * ^status = #draft
-* ^context.type = #element
-* ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod" (exactly)
 * value[x] only string
 
 Extension: Flow
 * ^url = "http://hl7.no/fhir/StructureDefinition/Flow"
 * ^status = #draft
-* ^context.type = #element
-* ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/Flow" (exactly)
 * value[x] only Quantity
 
 Extension: FiO2
 * ^url = "http://hl7.no/fhir/StructureDefinition/FiO2"
 * ^status = #draft
-* ^context.type = #element
-* ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/FiO2" (exactly)
 * value[x] only Ratio
 
 Extension: ProsentO2
 * ^url = "http://hl7.no/fhir/StructureDefinition/ProsentO2"
 * ^status = #draft
-* ^context.type = #element
-* ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/ProsentO2" (exactly)
 * value[x] only Ratio
 
 Extension: OnAir
 * ^url = "http://hl7.no/fhir/StructureDefinition/OnAir"
 * ^status = #draft
-* ^context.type = #element
-* ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/OnAir" (exactly)
 * value[x] only boolean

@@ -1,5 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationRespirationRateBodyPosition 
 Id: NoDomainVitalSignsObservationRespirationRateBodyPosition 
+Title: "NoDomainVitalSignsObservationRespirationRateBodyPosition"
 Description: "Codes representing body position for respiration rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -14,6 +15,7 @@ Description: "Codes representing body position for respiration rate"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * SNOMED_CT#10904000 "Stående/Oppreist"
 * SNOMED_CT#33586001 "Sittende"
 * SNOMED_CT#272580008 "Tilbakelent"

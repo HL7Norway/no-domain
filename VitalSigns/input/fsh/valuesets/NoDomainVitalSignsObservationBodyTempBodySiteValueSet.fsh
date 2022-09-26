@@ -1,5 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationBodyTempBodySite 
 Id: NoDomainVitalSignsObservationBodyTempBodySite 
+Title: "NoDomainVitalSignsObservationBodyTempBodySite"
 Description: "Codes representing body site for body temperature"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -14,6 +15,7 @@ Description: "Codes representing body site for body temperature"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
 * SNOMED_CT#34402009 "Endetarm"

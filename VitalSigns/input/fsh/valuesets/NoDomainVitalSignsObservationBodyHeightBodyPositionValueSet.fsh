@@ -1,5 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationBodyHeightBodyPosition 
 Id: NoDomainVitalSignsObservationBodyHeightBodyPosition 
+Title: "NoDomainVitalSignsObservationBodyHeightBodyPosition"
 Description: "Codes representing body position for body height"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -14,6 +15,7 @@ Description: "Codes representing body position for body height"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
 * SNOMED_CT#10904000 "Stående"

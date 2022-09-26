@@ -15,5 +15,6 @@ Description: "Codes representing Diastolic end point"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
-* SNOMED_CT#1081871000202109 "Fase IV"
-* SNOMED_CT#1081881000202106 "Fase V"
+* ^publisher = "FHIR Project team"
+* SNOMED_CT#4001000202105 "Fase IV"
+* SNOMED_CT#4011000202107 "Fase V"

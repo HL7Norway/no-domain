@@ -1,6 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationHeartRateBodySite 
 Id: NoDomainVitalSignsObservationHeartRateBodySite 
-Title: "no-domain-vital-signs-observations-heartrate-bodysitevalueset"
+Title: "NoDomainVitalSignsObservationHeartRateBodySite"
 Description: "Codes representing body site for heart rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -15,6 +15,7 @@ Description: "Codes representing body site for heart rate"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
 * SNOMED_CT#368504007 "Radialisarterien, venstre"
