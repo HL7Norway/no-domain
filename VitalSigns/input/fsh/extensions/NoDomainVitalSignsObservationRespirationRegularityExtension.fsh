@@ -8,7 +8,7 @@ Description: "The regularity of spontaneous breathing."
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity" (exactly)
-* value[x] only CodeableConcept
+* value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationRespirationRegularity (required)
-* value[x].coding ..1
-* value[x].coding from NoDomainVitalSignsObservationRespirationRegularity (required)
+// * value[x].coding ..1
+// * value[x].coding from NoDomainVitalSignsObservationRespirationRegularity (required)

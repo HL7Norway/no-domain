@@ -8,6 +8,5 @@ Description: "The position of the individual at the time of measurement."
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition" (exactly)
-* value[x] only CodeableConcept
+* value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationBloodpressureBodyPosition (required)
-* value[x].coding from NoDomainVitalSignsObservationBloodpressureBodyPosition (required)

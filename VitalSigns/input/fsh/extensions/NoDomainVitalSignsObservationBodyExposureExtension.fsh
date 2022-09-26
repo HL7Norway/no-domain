@@ -8,7 +8,7 @@ Description: "The degree of exposure of the individual at the time of measuremen
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure" (exactly)
-* value[x] only CodeableConcept
+* value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationBodyExposure (required)
-* value[x].coding ..1
-* value[x].coding from NoDomainVitalSignsObservationBodyExposure (required)
+// * value[x].coding ..1
+// * value[x].coding from NoDomainVitalSignsObservationBodyExposure (required)

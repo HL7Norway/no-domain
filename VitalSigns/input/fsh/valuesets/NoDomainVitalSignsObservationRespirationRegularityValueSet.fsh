@@ -1,5 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationRespirationRegularity 
 Id: NoDomainVitalSignsObservationRespirationRegularity 
+Title: "NoDomainVitalSignsObservationRespirationRegularity"
 Description: "Codes representing Respiration Regularity"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -9,10 +10,11 @@ Description: "Codes representing Respiration Regularity"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * SNOMED_CT#276888009 "Regelmessig"
 * SNOMED_CT#248585001 "Uregelmessig"

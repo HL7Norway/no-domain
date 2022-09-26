@@ -8,7 +8,7 @@ Description: "The depth of spontaneous breathing."
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth" (exactly)
-* value[x] only CodeableConcept
+* value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationRespirationRateDepth (required)
-* value[x].coding ..1
-* value[x].coding from NoDomainVitalSignsObservationRespirationRateDepth (required)
+// * value[x].coding ..1
+// * value[x].coding from NoDomainVitalSignsObservationRespirationRateDepth (required)
