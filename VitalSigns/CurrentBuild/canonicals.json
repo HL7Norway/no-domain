@@ -126,11 +126,25 @@
     "name": "NoDomainVitalSignsObservationConfoundingFactor"
   },
   {
+    "id": "NoDomainVitalSignsObservationCuffSize",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationCuffSize"
+  },
+  {
     "id": "NoDomainVitalSignsObservationDaysSinceMenstruationStart",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationDaysSinceMenstruationStart"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationDiastolicEndPoint",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationDiastolicEndPoint"
   },
   {
     "id": "NoDomainVitalSignsObservationHeadTilt",
@@ -145,6 +159,27 @@
     "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationHeartRate"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationHeartRateBodyPosition",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationHeartRateBodyPosition"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationHeartRhythm",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationHeartRhythm"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationHeartRhythmIrregularity"
   },
   {
     "id": "NoDomainVitalSignsObservationHeatingDevice",
@@ -196,11 +231,25 @@
     "name": "NoDomainVitalSignsObservationRespirationRate"
   },
   {
+    "id": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationRespirationRateBodyPosition"
+  },
+  {
     "id": "NoDomainVitalSignsObservationRespirationRegularity",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationRespirationRegularity"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationSleepStatus",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationSleepStatus"
   },
   {
     "id": "NoDomainVitalSignsObservationSpontaneousBreathing",
@@ -301,6 +350,20 @@
     "name": "NoDomainVitalSignsObservationHeartRateBodySite"
   },
   {
+    "id": "NoDomainVitalSignsObservationHeartRhythm",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationHeartRhythm"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationHeartRhythmIrregularity"
+  },
+  {
     "id": "NoDomainVitalSignsObservationPrePostduktalVS",
     "type": "ValueSet",
     "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPrePostduktalVS",
@@ -322,39 +385,25 @@
     "name": "NoDomainVitalSignsObservationRespirationRateDepth"
   },
   {
-    "id": "NoDomainVitalSignsObservationCuffSize",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize",
+    "id": "NoDomainVitalSignsObservationRespirationRegularity",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity",
     "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationCuffSize"
+    "name": "NoDomainVitalSignsObservationRespirationRegularity"
   },
   {
-    "id": "NoDomainVitalSignsObservationDiastolicEndPoint",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint",
+    "id": "NoDomainVitalSignsObservationSleepStatusValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet",
     "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationDiastolicEndPoint"
+    "name": "NoDomainVitalSignsObservationSleepStatusValueSet"
   },
   {
-    "id": "NoDomainVitalSignsObservationHeartRateBodyPosition",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition",
+    "id": "NoDomainVitalSignsObservationSpontaneousBreathingVS",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS",
     "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationHeartRateBodyPosition"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationHeartRhythm",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationHeartRhythm"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationHeartRhythmIrregularity"
+    "name": "NoDomainVitalSignsObservationSpontaneousBreathingVS"
   },
   {
     "id": "NoDomainVitalSignsObservationPrepostduktal",
@@ -362,55 +411,6 @@
     "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrepostduktal",
     "version": "0.0.1-alpha",
     "name": "NoDomainVitalSignsObservationPrepostduktal"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationRespirationRateBodyPosition"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationSleepStatus",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationSleepStatus"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationHeartRhythm",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationHeartRhythm"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationHeartRhythmIrregularity"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationRespirationRegularity",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationRespirationRegularity"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationSleepStatusValueSet",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationSleepStatusValueSet"
-  },
-  {
-    "id": "NoDomainVitalSignsObservationSpontaneousBreathingVS",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS",
-    "version": "0.0.1-alpha",
-    "name": "NoDomainVitalSignsObservationSpontaneousBreathingVS"
   },
   {
     "id": "NoDomainVitalSignsObservationOxygenSaturationExt",

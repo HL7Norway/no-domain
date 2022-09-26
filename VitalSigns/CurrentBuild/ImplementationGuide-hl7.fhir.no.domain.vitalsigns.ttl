@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoDomainVitalSigns"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-09-14T07:39:51+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-09-26T10:10:35+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -40,7 +40,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
   ], [
      fhir:index 1;
      fhir:Element.id [ fhir:value "hl7_fhir_no_basis" ];
@@ -945,7 +945,7 @@
          fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize>;
          fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationCuffsize" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNOMED CT CuffSize Structures" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationCuffsize" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing cuff size" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -973,7 +973,7 @@
          fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition>;
          fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrate-bodypositionvalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRateBodyPosition" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body position for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -987,7 +987,7 @@
          fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite>;
          fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRateBodySite" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrate-bodysitevalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRateBodySite" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing body site for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1015,7 +1015,7 @@
          fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity>;
          fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-domain-vital-signs-observations-heartrhythmIrregularityvalueset" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationHeartRhythmIrregularity" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing heart rhythm irregularity for heart rate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1175,13 +1175,26 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/Observation/no-pulse-create>;
+         fhir:Reference.reference [ fhir:value "Observation/no-pulse-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-pulse-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 65;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.no/fhir/Observation/oxygen-saturation-create>;
          fhir:Reference.reference [ fhir:value "Observation/oxygen-saturation-create" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "oxygen-saturation-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1195,11 +1208,21 @@
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+         fhir:Extension.valueUrl [ fhir:value "toc.html" ]
+       ];
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
        fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
        fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "index.html" ]
+         ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

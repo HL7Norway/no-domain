@@ -9,7 +9,7 @@
   "version": "0.0.1-alpha",
   "name": "NoDomainVitalSigns",
   "status": "draft",
-  "date": "2022-09-14T07:39:51+00:00",
+  "date": "2022-09-26T10:10:35+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -31,7 +31,7 @@
       "id": "hl7tx",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "3.1.0"
+      "version": "4.0.0"
     },
     {
       "id": "hl7_fhir_no_basis",
@@ -954,7 +954,7 @@
         "reference": {
           "reference": "ValueSet/NoDomainVitalSignsObservationCuffsize"
         },
-        "name": "SNOMED CT CuffSize Structures",
+        "name": "NoDomainVitalSignsObservationCuffsize",
         "description": "Codes representing cuff size",
         "exampleBoolean": false
       },
@@ -982,7 +982,7 @@
         "reference": {
           "reference": "ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"
         },
-        "name": "no-domain-vital-signs-observations-heartrate-bodypositionvalueset",
+        "name": "NoDomainVitalSignsObservationHeartRateBodyPosition",
         "description": "Codes representing body position for heart rate",
         "exampleBoolean": false
       },
@@ -996,7 +996,7 @@
         "reference": {
           "reference": "ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"
         },
-        "name": "no-domain-vital-signs-observations-heartrate-bodysitevalueset",
+        "name": "NoDomainVitalSignsObservationHeartRateBodySite",
         "description": "Codes representing body site for heart rate",
         "exampleBoolean": false
       },
@@ -1024,7 +1024,7 @@
         "reference": {
           "reference": "ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"
         },
-        "name": "no-domain-vital-signs-observations-heartrhythmIrregularityvalueset",
+        "name": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
         "description": "Codes representing heart rhythm irregularity for heart rate",
         "exampleBoolean": false
       },
@@ -1185,6 +1185,19 @@
           }
         ],
         "reference": {
+          "reference": "Observation/no-pulse-create"
+        },
+        "name": "no-pulse-create",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
           "reference": "Observation/oxygen-saturation-create"
         },
         "name": "oxygen-saturation-create",
@@ -1205,11 +1218,23 @@
       }
     ],
     "page": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl": "toc.html"
+        }
+      ],
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "index.html"
+            }
+          ],
           "nameUrl": "index.html",
           "title": "Home",
           "generation": "markdown"

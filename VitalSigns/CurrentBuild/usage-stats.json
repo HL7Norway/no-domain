@@ -29,11 +29,7 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition",
       "title": "NoDomainVitalSignsObservationBloodpressureBodyPosition",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
       ]
     },
     {
@@ -61,22 +57,14 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure",
       "title": "NoDomainVitalSignsObservationBodyExposure",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
       ]
     },
     {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition",
       "title": "NoDomainVitalSignsObservationBodyHeightBodyPosition",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
       ]
     },
     {
@@ -97,18 +85,7 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState",
       "title": "NoDomainVitalSignsObservationClothingState",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
+        "Coding"
       ]
     },
     {
@@ -119,10 +96,24 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize",
+      "title": "NoDomainVitalSignsObservationCuffSize",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart",
       "title": "NoDomainVitalSignsObservationDaysSinceMenstruationStart",
       "types": [
         "positiveInt"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint",
+      "title": "NoDomainVitalSignsObservationDiastolicEndPoint",
+      "types": [
+        "Coding"
       ]
     },
     {
@@ -137,6 +128,27 @@
         "string",
         "uri",
         "code"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition",
+      "title": "NoDomainVitalSignsObservationHeartRateBodyPosition",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
+      "title": "NoDomainVitalSignsObservationHeartRhythm",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity",
+      "title": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
+      "types": [
+        "Coding"
       ]
     },
     {
@@ -206,11 +218,7 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth",
       "title": "NoDomainVitalSignsObservationRespirationDepth",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
       ]
     },
     {
@@ -225,25 +233,31 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition",
+      "title": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity",
       "title": "NoDomainVitalSignsObservationRespirationRegularity",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus",
+      "title": "NoDomainVitalSignsObservationSleepStatus",
+      "types": [
+        "Coding"
       ]
     },
     {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing",
       "title": "NoDomainVitalSignsObservationSpontaneousBreathing",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
+        "Coding"
       ]
     },
     {
@@ -268,108 +282,10 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize",
-      "title": "NoDomainVitalSignsObservationCuffSize",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint",
-      "title": "NoDomainVitalSignsObservationDiastolicEndPoint",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "title": "NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
-      "title": "NoDomainVitalSignsObservationHeartRhythm",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity",
-      "title": "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
-      ]
-    },
-    {
       "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrepostduktal",
       "title": "NoDomainVitalSignsObservationPrepostduktal",
       "types": [
         "Coding"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition",
-      "title": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus",
-      "title": "NoDomainVitalSignsObservationSleepStatus",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
       ]
     },
     {
@@ -509,10 +425,25 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor": [
       "Observation"
     ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize": [
+      "Observation"
+    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart": [
       "Observation"
     ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint": [
+      "Observation"
+    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen": [
@@ -524,7 +455,13 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth": [
       "Observation"
     ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition": [
+      "Observation"
+    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing": [
@@ -587,9 +524,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
-      "StructureDefinition"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
@@ -599,15 +533,16 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
       "ValueSet"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
-      "StructureDefinition"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
