@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1-alpha"];
   fhir:ImplementationGuide.name [ fhir:value "NoDomainVitalSigns"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-09-26T10:10:35+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-09-26T10:51:47+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -1225,6 +1225,16 @@
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 1;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "download.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "download.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Download" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];
