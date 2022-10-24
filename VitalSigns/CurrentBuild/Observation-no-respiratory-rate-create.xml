@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="no-respiratory-rate-create"/>
+  <meta>
+    <versionId value="0"/>
+    <lastUpdated value="2014-01-30T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="no-respiratory-rate-create"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation "no-respiratory-rate-create" Version "0" Updated "2014-01-30 10:35:23+1100" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html">NO Domain VitalSigns Observation - Respiration Rate</a></p></div><p><b>NoDomainVitalSignsObservationRespirationRateBodyPosition</b>: Stående/Oppreist (Details: SNOMED CT code 10904000 = 'Orthostatic body position', stated as 'Stående/Oppreist')</p><p><b>NoDomainVitalSignsObservationRespirationRegularity</b>: Regelmessig (Details: SNOMED CT code 276888009 = 'SR - Normal spontaneous respiration', stated as 'Regelmessig')</p><p><b>NoDomainVitalSignsObservationRespirationDepth</b>: Normal (Details: SNOMED CT code 301284009 = 'Normal depth of breathing', stated as 'Normal')</p><p><b>NoDomainVitalSignsObservationClinicalDescription</b>: Description of Respiration</p><p><b>NoDomainVitalSignsObservationSpontaneousBreathing</b>: Tilstede (Details: SNOMED CT code 241700002 = 'Spontaneous ventilation', stated as 'Tilstede')</p><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><p><b>value</b>: Oxygen administration method</p><p><b>value</b>: 6100 ml/min</p><p><b>value</b>: 21/100</p><p><b>value</b>: 21/100</p><p><b>value</b>: true</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Respiratory rate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#9279-1)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000239">Patient/cdp1000239</a></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1000245">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Practitioner/agb27">Practitioner/agb27</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22">Organization/afa22</a></li></ul><p><b>value</b>: 14 /min<span style="background: LightGoldenRodYellow"> (Details: UCUM code /min = '/min')</span></p><p><b>interpretation</b>: Clinical interpretation of Respiration <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p><p><b>note</b>: Demo Respiration</p></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="10904000"/>
+      <display value="Stående/Oppreist"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="276888009"/>
+      <display value="Regelmessig"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="301284009"/>
+      <display value="Normal"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription">
+    <valueAnnotation>
+      <text value="Description of Respiration"/>
+    </valueAnnotation>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="241700002"/>
+      <display value="Tilstede"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen">
+    <extension url="http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod">
+      <valueString value="Oxygen administration method"/>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/Flow">
+      <valueQuantity>
+        <value value="6100"/>
+        <unit value="ml/min"/>
+      </valueQuantity>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/FiO2">
+      <valueRatio>
+        <numerator>
+          <value value="21"/>
+        </numerator>
+        <denominator>
+          <value value="100"/>
+        </denominator>
+      </valueRatio>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/ProsentO2">
+      <valueRatio>
+        <numerator>
+          <value value="21"/>
+        </numerator>
+        <denominator>
+          <value value="100"/>
+        </denominator>
+      </valueRatio>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/OnAir">
+      <valueBoolean value="true"/>
+    </extension>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="9279-1"/>
+      <display value="Respiratory rate"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cdp1000239"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000239"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <reference value="Encounter/agy1000245"/>
+  </encounter>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <reference value="Practitioner/agb27"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.51.1"/>
+      <value value="27"/>
+    </identifier>
+  </performer>
+  <performer>
+    <reference value="Organization/afa22"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="14"/>
+    <unit value="/min"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="/min"/>
+  </valueQuantity>
+  <interpretation>
+    <text value="Clinical interpretation of Respiration"/>
+  </interpretation>
+  <note>
+    <text value="Demo Respiration"/>
+  </note>
+</Observation>

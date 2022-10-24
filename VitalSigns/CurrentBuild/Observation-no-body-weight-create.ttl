@@ -1,0 +1,105 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/Observation/no-body-weight-create> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-body-weight-create"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "0" ];
+     fhir:Meta.lastUpdated [ fhir:value "2014-01-30T22:35:23+11:00"^^xsd:dateTime ];
+     fhir:Meta.source [ fhir:value "META_VISION" ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight";
+       fhir:index 0;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-body-weight-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation \"no-body-weight-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html\">NO Domain VitalSigns Observation - Body Weight</a></p></div><p><b>NoDomainVitalSignsObservationClothingState</b>: Naken (Details: SNOMED CT code 1081761000202100 = '1081761000202100', stated as 'Naken')</p><p><b>NoDomainVitalSignsObservationConfoundingFactor</b>: sample confounding factor</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body weight <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#29463-7)</span></p><p><b>subject</b>: <span></span></p><p><b>encounter</b>: <span></span></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span></span></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>value</b>: 49000 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span></p><p><b>note</b>: Demo Body Weight</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState" ];
+     fhir:Extension.valueCoding [
+       a sct:1081761000202100;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "1081761000202100" ];
+       fhir:Coding.display [ fhir:value "Naken" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor" ];
+     fhir:Extension.valueString [ fhir:value "sample confounding factor" ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "vital-signs" ];
+       fhir:Coding.display [ fhir:value "vital-signs" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:29463-7;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "29463-7" ];
+       fhir:Coding.display [ fhir:value "Body weight" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
+       fhir:Identifier.value [ fhir:value "1000807" ]
+     ]
+  ];
+  fhir:Observation.encounter [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid" ];
+       fhir:Identifier.value [ fhir:value "1002679" ]
+     ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.2" ];
+       fhir:Identifier.value [ fhir:value "889911" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7.no/fhir/Organization/afa22>;
+     fhir:Reference.reference [ fhir:value "Organization/afa22" ];
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
+       fhir:Identifier.value [ fhir:value "22" ]
+     ]
+  ];
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "49000"^^xsd:decimal ];
+     fhir:Quantity.unit [ fhir:value "g" ];
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+     fhir:Quantity.code [ fhir:value "g" ]
+  ];
+  fhir:Observation.note [
+     fhir:index 0;
+     fhir:Annotation.text [ fhir:value "Demo Body Weight" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/Observation/no-body-weight-create.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

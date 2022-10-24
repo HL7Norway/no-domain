@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="no-blood-pressure-create"/>
+  <meta>
+    <versionId value="0"/>
+    <lastUpdated value="2014-01-30T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="no-blood-pressure-create"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation "no-blood-pressure-create" Version "0" Updated "2014-01-30 10:35:23+1100" </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html">NO Domain VitalSigns Observation - Blood pressure</a></p></div><p><b>NoDomainVitalSignsObservationBloodpressureBodyPosition</b>: Sittende (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sittende')</p><p><b>NoDomainVitalSignsObservationCuffSize</b>: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')</p><p><b>NoDomainVitalSignsObservationDiastolicEndPoint</b>: Fase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Fase IV')</p><p><b>NoDomainVitalSignsObservationSleepStatus</b>: Våken (Details: SNOMED CT code 248218005 = 'Awake', stated as 'Våken')</p><p><b>NoDomainVitalSignsObservationHeadTilt</b>: 14 deg</p><p><b>NoDomainVitalSignsObservationBloodpressureSystolicFormula</b>: sample formula 1</p><p><b>NoDomainVitalSignsObservationBloodpressureDiastolicFormula</b>: sample formula 2</p><p><b>NoDomainVitalSignsObservationBloodpressureMeanArterialFormula</b>: sample formula 3</p><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000807">Patient/cdp1000807</a></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1002679">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103">PractitionerRole/agb103</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22">Organization/afa22</a></li></ul><p><b>note</b>: Demo Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8480-6; clinical-codes#bp-s "Systolic Blood pressure")</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8462-4)</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean arterial pressure (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Arterial pulse pressure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#4461000202102)</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="33586001"/>
+      <display value="Sittende"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="720740000"/>
+      <display value="Lår voksne"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="1081871000202109"/>
+      <display value="Fase IV"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="248218005"/>
+      <display value="Våken"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt">
+    <valueQuantity>
+      <value value="14"/>
+      <unit value="deg"/>
+    </valueQuantity>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula">
+    <valueString value="sample formula 1"/>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula">
+    <valueString value="sample formula 2"/>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula">
+    <valueString value="sample formula 3"/>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85354-9"/>
+      <display value="Blood pressure (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cdp1000807"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000807"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <reference value="Encounter/agy1002679"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"/>
+      <value value="1002679"/>
+    </identifier>
+  </encounter>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <reference value="PractitionerRole/agb103"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.51.1"/>
+      <value value="103"/>
+    </identifier>
+  </performer>
+  <performer>
+    <reference value="Organization/afa22"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <note>
+    <text value="Demo Blood Pressure"/>
+  </note>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7569003"/>
+      <display value="Finger structure (body structure)"/>
+    </coding>
+  </bodySite>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8480-6"/>
+        <display value="Systolic blood pressure"/>
+      </coding>
+      <coding>
+        <system value="http://acme.org/devices/clinical-codes"/>
+        <code value="bp-s"/>
+        <display value="Systolic Blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="123"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8462-4"/>
+        <display value="Diastolic blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="78"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8478-0"/>
+        <display value="Mean arterial pressure (observable entity)"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="93"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="4461000202102"/>
+        <display value="Arterial pulse pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="45"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+</Observation>

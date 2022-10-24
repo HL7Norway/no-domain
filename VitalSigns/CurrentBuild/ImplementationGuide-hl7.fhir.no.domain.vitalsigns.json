@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "NoDomainVitalSigns",
   "status": "draft",
-  "date": "2022-09-26T11:09:39+00:00",
+  "date": "2022-10-24T08:10:42+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -731,20 +731,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/NoDomainVitalSignsObservationPrepostduktal"
-        },
-        "name": "NoDomainVitalSignsObservationPrepostduktal",
-        "description": "Description of the pre/post/intermediate level of ductal",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/NoDomainVitalSignsObservationRespirationDepth"
         },
         "name": "NoDomainVitalSignsObservationRespirationDepth",
@@ -1036,20 +1022,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/NoDomainVitalSignsObservationPrePostduktalVS"
-        },
-        "name": "NoDomainVitalSignsObservationPrePostduktalVS",
-        "description": "Codes representing pre/post ductal",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"
         },
         "name": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
@@ -1120,10 +1092,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/blood-pressure-create"
+          "reference": "Observation/no-blood-pressure-create"
         },
-        "name": "blood-pressure-create",
-        "exampleBoolean": true
+        "name": "no-blood-pressure-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
       },
       {
         "extension": [
@@ -1133,10 +1105,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/body-height-create"
+          "reference": "Observation/no-body-height-create"
         },
-        "name": "body-height-create",
-        "exampleBoolean": true
+        "name": "no-body-height-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeight"
       },
       {
         "extension": [
@@ -1146,10 +1118,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/body-temperature-create"
+          "reference": "Observation/no-body-temperature-create"
         },
-        "name": "body-temperature-create",
-        "exampleBoolean": true
+        "name": "no-body-temperature-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp"
       },
       {
         "extension": [
@@ -1159,10 +1131,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/body-weight-create"
+          "reference": "Observation/no-body-weight-create"
         },
-        "name": "body-weight-create",
-        "exampleBoolean": true
+        "name": "no-body-weight-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight"
       },
       {
         "extension": [
@@ -1172,10 +1144,23 @@
           }
         ],
         "reference": {
-          "reference": "Observation/heart-rate-create"
+          "reference": "Observation/no-heart-rate-create"
         },
-        "name": "heart-rate-create",
-        "exampleBoolean": true
+        "name": "no-heart-rate-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/no-oxygen-saturation-create"
+        },
+        "name": "no-oxygen-saturation-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"
       },
       {
         "extension": [
@@ -1198,23 +1183,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/oxygen-saturation-create"
+          "reference": "Observation/no-respiratory-rate-create"
         },
-        "name": "oxygen-saturation-create",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/respiratory-rate-create"
-        },
-        "name": "respiratory-rate-create",
-        "exampleBoolean": true
+        "name": "no-respiratory-rate-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
       }
     ],
     "page": {
