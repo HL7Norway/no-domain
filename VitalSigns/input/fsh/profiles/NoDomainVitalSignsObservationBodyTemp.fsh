@@ -33,10 +33,10 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Temperatur
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 //* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * valueQuantity ^short = "The measured temperature."
 * valueQuantity ^comment = "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value."
 * note.id ..0

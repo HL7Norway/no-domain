@@ -36,10 +36,10 @@ To be used for recording the measured height or body length of an individual at 
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole  or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 //* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * valueQuantity ^short = "The length of the body from crown of head to sole of foot."
 // changes to parent cardinality removed
 // * valueQuantity.id ..0

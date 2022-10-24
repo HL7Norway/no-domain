@@ -1,17 +1,19 @@
-Instance: body-temperature-create
-InstanceOf: Observation
+Instance: no-body-temperature-create
+InstanceOf: NoDomainVitalSignsObservationBodyTemp
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "META_VISION"
-* identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "External Id: testtempexternalId4"
+// * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
+// * identifier.value = "External Id: testtempexternalId4"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"
-* extension[=].valueCoding = $sct#5611000202100 "Passende påkledning/tildekking"
+* extension[=].valueCoding.code = #5611000202100 
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Passende p�kledning/tildekking"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"
-* extension[=].valueAnnotation.text = "active heating sample"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/no-domain-vital-signs-observations-dayssincemenstruationstart-extension"
-* extension[=].valueQuantity.value = 12
+* extension[=].valueString = "active heating sample"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"
+* extension[=].valuePositiveInt = 12
 * status = #final
 * category = $observation-category#vital-signs
 * code = $loinc#8310-5

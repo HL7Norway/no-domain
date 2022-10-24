@@ -32,10 +32,10 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Weight inf
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 //* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * value[x] ^slicing.rules = #open
 * valueQuantity ^short = "The weight of the individual."
 * valueQuantity ^definition = "The weight of the individual."
