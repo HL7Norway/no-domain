@@ -1,24 +1,28 @@
-Instance: blood-pressure-create
-InstanceOf: Observation
+Instance: no-blood-pressure-create
+InstanceOf: NoDomainVitalSignsObservationBloodpressure
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "META_VISION"
-* identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "External Id: testBPexternalId1"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition"
-* extension[=].valueCoding = $sct#33586001 "Sitting position"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize"
-* extension[=].valueCoding = $sct#720740000 "Lår voksne"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint"
-* extension[=].valueCoding = $sct#1081871000202109 "Phase IV"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus"
-* extension[=].valueCoding = $sct#248218005 "awake"
+* extension[=].valueCoding.code = #33586001 
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Sittende"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize"
+* extension[=].valueCoding.code = #720740000 
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Lår voksne"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint"
+* extension[=].valueCoding.code = #1081871000202109
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Fase IV"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus"
+* extension[=].valueCoding.code = #248218005
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Våken"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt"
 * extension[=].valueQuantity.value = 14
 * extension[=].valueQuantity.unit = "deg"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationLevelOfExertion"
-* extension[=].valueCoding = $sct#154h "Hvile"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula"
 * extension[=].valueString = "sample formula 1"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula"
@@ -43,7 +47,7 @@ Usage: #example
 * performer[=].identifier.value = "22"
 * note.text = "Demo Blood Pressure"
 * bodySite = $sct#7569003 "Finger structure (body structure)"
-* method = $sct#129436005 "Auscultation - action (qualifier value)"
+//* method = $sct#129436005 "Auscultation - action (qualifier value)"
 * component[0].code.coding[0] = $loinc#8480-6 "Systolic blood pressure"
 * component[=].code.coding[+] = $clinical-codes#bp-s "Systolic Blood pressure"
 * component[=].valueQuantity = 123 'mm[Hg]' "mm[Hg]"
@@ -51,5 +55,5 @@ Usage: #example
 * component[=].valueQuantity = 78 'mm[Hg]' "mm[Hg]"
 * component[+].code = $loinc#8478-0 "Mean arterial pressure (observable entity)"
 * component[=].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
-* component[+].code = $sct#4461000202102 "The difference between the systolic and diastolic pressure."
+* component[+].code = $sct#4461000202102 "Arterial pulse pressure"
 * component[=].valueQuantity = 45 'mm[Hg]' "mm[Hg]"

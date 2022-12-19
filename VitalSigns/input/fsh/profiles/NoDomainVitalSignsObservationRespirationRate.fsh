@@ -22,15 +22,10 @@ Use to record the observed and measured characteristics of spontaneous breathing
     NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
     NoDomainVitalSignsObservationRespirationDepth  named respirationDepth 0..1 and
     NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..1
-//* extension[levelOfExertion] ^short = "Details about physical exertion being undertaken during the examination."
-//* extension[levelOfExertion] ^definition = "Details about physical exertion being undertaken during the examination."
-//* extension[bodyPosition] from NoDomainVitalSignsObservationRespirationRateBodyPosition (required)
 * extension[bodyPosition] ^short = "The body position of the individual during the observation."
 * extension[bodyPosition] ^definition = "The body position of the individual during the observation."
-//* extension[respirationRegularity] from NoDomainVitalSignsObservationRespirationRegularity (required)
 * extension[respirationRegularity] ^short = "The regularity of spontaneous breathing."
 * extension[respirationRegularity] ^definition = "The regularity of spontaneous breathing."
-//* extension[spontaneousBreathing] from NoDomainVitalSignsObservationSpontaneousBreathing (required)
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`."
 * subject only Reference(Patient or $no-basis-Patient)
 * focus ^comment = "Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., \"Blood Glucose\") and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension focusCode."
@@ -39,10 +34,9 @@ Use to record the observed and measured characteristics of spontaneous breathing
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * valueQuantity ^short = "The frequency of spontaneous breathing."
 * valueQuantity ^definition = "The frequency of spontaneous breathing."
 * valueQuantity ^comment = "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value."

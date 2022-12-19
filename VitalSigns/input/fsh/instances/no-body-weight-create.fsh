@@ -1,15 +1,15 @@
-Instance: body-weight-create
-InstanceOf: Observation
+Instance: no-body-weight-create
+InstanceOf: NoDomainVitalSignsObservationBodyWeight
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "META_VISION"
-* identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "External Id: testBWexternalId3"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState"
-* extension[=].valueCoding = $sct#1081791000202103 "Fullt påkledd uten sko"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
-* extension[=].valueString = "sample confounding factor"
+* extension[NoDomainVitalSignsObservationClothingState].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState"
+* extension[NoDomainVitalSignsObservationClothingState].valueCoding.code = #1081761000202100 
+* extension[NoDomainVitalSignsObservationClothingState].valueCoding.system = $sct
+* extension[NoDomainVitalSignsObservationClothingState].valueCoding.display = "Naken"
+* extension[NoDomainVitalSignsObservationConfoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[NoDomainVitalSignsObservationConfoundingFactor].valueString = "sample confounding factor"
 * status = #final
 * category = $observation-category#vital-signs "vital-signs"
 * code = $loinc#29463-7 "Body weight"

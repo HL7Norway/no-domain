@@ -1,12 +1,12 @@
-Instance: body-height-create
-InstanceOf: Observation
+Instance: no-body-height-create
+InstanceOf: NoDomainVitalSignsObservationBodyHeight
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.source = "META_VISION"
-* identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "External Id: testBHexternalId2"
 * extension.url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition"
-* extension.valueCoding = $sct#4801000202104 "Lying flat without tilt (finding)"
+* extension[=].valueCoding.code = #10904000 
+* extension[=].valueCoding.system = $sct
+* extension[=].valueCoding.display = "Stående"
 * status = #final
 * category = $observation-category#vital-signs "vital-signs"
 * code = $loinc#8302-2 "Body height measure (observable entity)"
@@ -23,3 +23,4 @@ Usage: #example
 * performer[=].identifier.value = "22"
 * note.text = "Demo Body Height"
 * valueQuantity = 156 'cm' "cm"
+
