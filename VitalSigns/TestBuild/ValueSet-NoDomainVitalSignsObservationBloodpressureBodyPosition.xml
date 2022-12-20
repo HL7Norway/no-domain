@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+  <meta>
+    <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/10904000">10904000</a></td><td>Stående</td></tr><tr><td><a href="http://snomed.info/id/4801000202104">4801000202104</a></td><td>Liggende</td></tr><tr><td><a href="http://snomed.info/id/33586001">33586001</a></td><td>Sittende</td></tr><tr><td><a href="http://snomed.info/id/272580008">272580008</a></td><td>Tilbakelent</td></tr><tr><td><a href="http://snomed.info/id/414585002">414585002</a></td><td>Liggende lent mot venstre</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+  <version value="0.1.0"/>
+  <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+  <title value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-03-17T00:00:00+00:00"/>
+  <publisher value="FHIR Project team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing body position for blood pressure"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="10904000"/>
+        <display value="Stående"/>
+      </concept>
+      <concept>
+        <code value="4801000202104"/>
+        <display value="Liggende"/>
+      </concept>
+      <concept>
+        <code value="33586001"/>
+        <display value="Sittende"/>
+      </concept>
+      <concept>
+        <code value="272580008"/>
+        <display value="Tilbakelent"/>
+      </concept>
+      <concept>
+        <code value="414585002"/>
+        <display value="Liggende lent mot venstre"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

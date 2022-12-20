@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+  <li>
+    <a href="download.html">Download</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.1.0). See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBloodpressure">NO Domain VitalSigns Observation - Blood pressure</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBodyHeight">NO Domain VitalSigns Observation - Body Height</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Body Height information.<br />
+To be used for recording the measured height or body length of an individual at any point in time.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBodyTemp">NO Domain VitalSigns Observation - Body Temperature</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual’s body temperature, which is a surrogate for the core body temperature of the individual.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBodyWeight">NO Domain VitalSigns Observation - Body Weight</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRate.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRate">NO Domain VitalSigns Observation - Heart Rate</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Heart Rate information.<br />
+Use to record the presence or absence of a pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation">NO Domain VitalSigns Observation - Oxygen Saturation</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.<br />
+Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationPulse.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationPulse">NO Domain VitalSigns Observation - Pulse</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationRespirationRate">NO Domain VitalSigns Observation - Respiration Rate</a>
+               </td>
+               <td>
+<p>Base profile for Norwegian Vital Signs Observation Respiration Rate information.<br />
+Use to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-FiO2.html" title="StructureDefinition/FiO2">FiO2</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Flow.html" title="StructureDefinition/Flow">Flow</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MethodofOxygenDelivery.html"
+                     title="StructureDefinition/MethodofOxygenDelivery">MethodofOxygenDelivery</a>
+               </td>
+               <td>
+<p>Futhure details of method of oxygen delivery</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationActiveHeating.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationActiveHeating">NoDomainVitalSignsObservationActiveHeating</a>
+               </td>
+               <td>
+<p>description of the conditions applied</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressureBodyPosition.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition">NoDomainVitalSignsObservationBloodpressureBodyPosition</a>
+               </td>
+               <td>
+<p>The position of the individual at the time of measurement.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressureDiastolicFormula.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula">NoDomainVitalSignsObservationBloodpressureDiastolicFormula</a>
+               </td>
+               <td>
+<p>Formula used to calculate the pressure.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressureMeanArterialFormula.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula">NoDomainVitalSignsObservationBloodpressureMeanArterialFormula</a>
+               </td>
+               <td>
+<p>Formula used to calculate the pressure.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBloodpressureSystolicFormula.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula">NoDomainVitalSignsObservationBloodpressureSystolicFormula</a>
+               </td>
+               <td>
+<p>Formula used to calculate the pressure.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBodyExposure.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBodyExposure">NoDomainVitalSignsObservationBodyExposure</a>
+               </td>
+               <td>
+<p>The degree of exposure of the individual at the time of measurement.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationBodyHeightBodyPosition.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition">NoDomainVitalSignsObservationBodyHeightBodyPosition</a>
+               </td>
+               <td>
+<p>Position of individual when body height measured.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationCharacterOfHeartRate.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate">NoDomainVitalSignsObservationCharacterOfHeartRate</a>
+               </td>
+               <td>
+<p>Description of the character of the pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationClinicalDescription.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationClinicalDescription">NoDomainVitalSignsObservationClinicalDescription</a>
+               </td>
+               <td>
+<p>Narrative description about the pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationClothingState.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationClothingState">NoDomainVitalSignsObservationClothingState</a>
+               </td>
+               <td>
+<p>Description of the state of dress of the person at the time of weighing.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationConfoundingFactor.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor">NoDomainVitalSignsObservationConfoundingFactor</a>
+               </td>
+               <td>
+<p>Description of the confounding factor.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationCuffSize">NoDomainVitalSignsObservationCuffSize</a>
+               </td>
+               <td>
+<p>The size of the cuff used for blood pressure measurement.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationDaysSinceMenstruationStart.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart">NoDomainVitalSignsObservationDaysSinceMenstruationStart</a>
+               </td>
+               <td>
+<p>Current day of the menstrual cycle.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationDiastolicEndPoint.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint">NoDomainVitalSignsObservationDiastolicEndPoint</a>
+               </td>
+               <td>
+<p>Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeadTilt.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeadTilt">NoDomainVitalSignsObservationHeadTilt</a>
+               </td>
+               <td>
+<p>The craniocaudal tilt of the surface on which the person is lying at the time of measurement.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRateBodyPosition.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition">NoDomainVitalSignsObservationHeartRateBodyPosition</a>
+               </td>
+               <td>
+<p>The body position of the subject during the observation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRhythm.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRhythm">NoDomainVitalSignsObservationHeartRhythm</a>
+               </td>
+               <td>
+<p>Regularity of the pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRhythmIrregularity.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity">NoDomainVitalSignsObservationHeartRhythmIrregularity</a>
+               </td>
+               <td>
+<p>More specific pattern of an irregular pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationInspiredOxygen.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen">NoDomainVitalSignsObservationInspiredOxygen</a>
+               </td>
+               <td>
+<p>Details of the amount of oxygen available to the subject at the time of observation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationRespirationDepth.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationRespirationDepth">NoDomainVitalSignsObservationRespirationDepth</a>
+               </td>
+               <td>
+<p>The depth of spontaneous breathing.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationRespirationRateBodyPosition.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition">NoDomainVitalSignsObservationRespirationRateBodyPosition</a>
+               </td>
+               <td>
+<p>The body position of the individual during the observation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationRespirationRegularity.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity">NoDomainVitalSignsObservationRespirationRegularity</a>
+               </td>
+               <td>
+<p>The regularity of spontaneous breathing.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationSleepStatus.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationSleepStatus">NoDomainVitalSignsObservationSleepStatus</a>
+               </td>
+               <td>
+<p>Sleep status - supports interpretation of 24 hour ambulatory blood pressure records.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationSpontaneousBreathing.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing">NoDomainVitalSignsObservationSpontaneousBreathing</a>
+               </td>
+               <td>
+<p>A narrative description about the spontaneous breathing of the individual.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-OnAir.html" title="StructureDefinition/OnAir">OnAir</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ProsentO2.html"
+                     title="StructureDefinition/ProsentO2">ProsentO2</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationBloodpressureBodyPosition.html"
+                     title="ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition">NoDomainVitalSignsObservationBloodpressureBodyPosition</a>
+               </td>
+               <td>
+<p>Codes representing body position for blood pressure</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationBloodpressureBodySite.html"
+                     title="ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite">NoDomainVitalSignsObservationBloodpressureBodySite</a>
+               </td>
+               <td>
+<p>Codes representing body site for blood pressure</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationBodyExposure.html"
+                     title="ValueSet/NoDomainVitalSignsObservationBodyExposure">NoDomainVitalSignsObservationBodyExposure</a>
+               </td>
+               <td>
+<p>Codes representing body exposure</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationBodyHeightBodyPosition.html"
+                     title="ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition">NoDomainVitalSignsObservationBodyHeightBodyPosition</a>
+               </td>
+               <td>
+<p>Codes representing body position for body height</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationBodyTempBodySite.html"
+                     title="ValueSet/NoDomainVitalSignsObservationBodyTempBodySite">NoDomainVitalSignsObservationBodyTempBodySite</a>
+               </td>
+               <td>
+<p>Codes representing body site for body temperature</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationClothingState.html"
+                     title="ValueSet/NoDomainVitalSignsObservationClothingState">Codes representing level of clothing</a>
+               </td>
+               <td>
+<p>Codes representing level of clothing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationCuffsize.html"
+                     title="ValueSet/NoDomainVitalSignsObservationCuffsize">NoDomainVitalSignsObservationCuffsize</a>
+               </td>
+               <td>
+<p>Codes representing cuff size</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationDiastolicendPoint.html"
+                     title="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint">Codes representing Diastolic end point</a>
+               </td>
+               <td>
+<p>Codes representing Diastolic end point</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRateBodyPosition.html"
+                     title="ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition">NoDomainVitalSignsObservationHeartRateBodyPosition</a>
+               </td>
+               <td>
+<p>Codes representing body position for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRateBodySite.html"
+                     title="ValueSet/NoDomainVitalSignsObservationHeartRateBodySite">NoDomainVitalSignsObservationHeartRateBodySite</a>
+               </td>
+               <td>
+<p>Codes representing body site for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRhythm.html"
+                     title="ValueSet/NoDomainVitalSignsObservationHeartRhythm">NoDomainVitalSignsObservationHeartRhythm</a>
+               </td>
+               <td>
+<p>Codes representing heart rhythm for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRhythmIrregularity.html"
+                     title="ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity">NoDomainVitalSignsObservationHeartRhythmIrregularity</a>
+               </td>
+               <td>
+<p>Codes representing heart rhythm irregularity for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationRespirationRateBodyPosition.html"
+                     title="ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition">NoDomainVitalSignsObservationRespirationRateBodyPosition</a>
+               </td>
+               <td>
+<p>Codes representing body position for respiration rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationRespirationRateDepth.html"
+                     title="ValueSet/NoDomainVitalSignsObservationRespirationRateDepth">NoDomainVitalSignsObservationRespirationRateDepth</a>
+               </td>
+               <td>
+<p>Codes representing depth for respiration rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationRespirationRegularity.html"
+                     title="ValueSet/NoDomainVitalSignsObservationRespirationRegularity">NoDomainVitalSignsObservationRespirationRegularity</a>
+               </td>
+               <td>
+<p>Codes representing Respiration Regularity</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationSleepStatusValueSet.html"
+                     title="ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet">NoDomainVitalSignsObservationSleepStatusValueSet</a>
+               </td>
+               <td>
+<p>Codes representing Sleep Status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationSpontaneousBreathingVS.html"
+                     title="ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS">NoDomainVitalSignsObservationSpontaneousBreathingVS</a>
+               </td>
+               <td>
+<p>Codes representing Respiration Spontaneous breathing</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-afa22.html" title="Organization/afa22">Organization details of afa22</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PractitionerRole-agb103.html" title="PractitionerRole/agb103">Practioner details of agb103</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-agb27.html" title="Practitioner/agb27">Practioner details of agb27</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-agy1000245.html" title="Encounter/agy1000245">Encounter details of agy1000245</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-agy1002679.html" title="Encounter/agy1002679">Encounter details of agy1002679</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-cdp1000239.html" title="Patient/cdp1000239">Patient details of cdp1000239</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-cdp1000807.html" title="Patient/cdp1000807">Patient details of cdp1000807</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-blood-pressure-create.html"
+                     title="Observation/no-blood-pressure-create">no-blood-pressure-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-body-height-create.html"
+                     title="Observation/no-body-height-create">no-body-height-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-body-temperature-create.html"
+                     title="Observation/no-body-temperature-create">no-body-temperature-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-body-weight-create.html"
+                     title="Observation/no-body-weight-create">no-body-weight-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-heart-rate-create.html"
+                     title="Observation/no-heart-rate-create">no-heart-rate-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-oxygen-saturation-create.html"
+                     title="Observation/no-oxygen-saturation-create">no-oxygen-saturation-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-pulse-create.html"
+                     title="Observation/no-pulse-create">no-pulse-create</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-no-respiratory-rate-create.html"
+                     title="Observation/no-respiratory-rate-create">no-respiratory-rate-create</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 20, 2022 08:01+0000">2022-12-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

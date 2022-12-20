@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="no-heart-rate-create"/>
+  <meta>
+    <versionId value="0"/>
+    <lastUpdated value="2014-01-30T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="no-heart-rate-create"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;no-heart-rate-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 10:35:23+1100&quot; </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRate.html">NO Domain VitalSigns Observation - Heart Rate</a></p></div><p><b>NoDomainVitalSignsObservationHeartRhythm</b>: Regelmessig (Details: SNOMED CT code 271636001 = 'Pulse regular', stated as 'Regelmessig')</p><p><b>NoDomainVitalSignsObservationConfoundingFactor</b>: sample confounding factor</p><p><b>NoDomainVitalSignsObservationHeartRhythmIrregularity</b>: Regelmessig uregelmessig (Details: SNOMED CT code 271638000 = 'Pulse regularly irregular', stated as 'Regelmessig uregelmessig')</p><p><b>NoDomainVitalSignsObservationCharacterOfHeartRate</b>: character sample</p><p><b>NoDomainVitalSignsObservationClinicalDescription</b>: Clinical description sample</p><p><b>NoDomainVitalSignsObservationHeartRateBodyPosition</b>: Sittende (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sittende')</p><p><b>identifier</b>: id: External Id: testpulseExternalId6</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Heart rate (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href="Patient-cdp1000239.html">Patient/cdp1000239</a></p><p><b>encounter</b>: <a href="Encounter-agy1000245.html">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span/></li><li><a href="Organization-afa22.html">Organization/afa22</a> &quot;Organization/afa22&quot;</li></ul><p><b>value</b>: 61 /min<span style="background: LightGoldenRodYellow"> (Details: UCUM code /min = '/min')</span></p><p><b>note</b>: Demo heart rate</p><p><b>bodySite</b>: Finger structure (body structure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#7569003)</span></p></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="271636001"/>
+      <display value="Regelmessig"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor">
+    <valueString value="sample confounding factor"/>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="271638000"/>
+      <display value="Regelmessig uregelmessig"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate">
+    <valueAnnotation>
+      <text value="character sample"/>
+    </valueAnnotation>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription">
+    <valueAnnotation>
+      <text value="Clinical description sample"/>
+    </valueAnnotation>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="33586001"/>
+      <display value="Sittende"/>
+    </valueCoding>
+  </extension>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="External Id: testpulseExternalId6"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8867-4"/>
+      <display value="Heart rate (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cdp1000239"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000239"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <reference value="Encounter/agy1000245"/>
+  </encounter>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.2"/>
+      <value value="889911"/>
+    </identifier>
+  </performer>
+  <performer>
+    <reference value="Organization/afa22"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="61"/>
+    <unit value="/min"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="/min"/>
+  </valueQuantity>
+  <note>
+    <text value="Demo heart rate"/>
+  </note>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7569003"/>
+      <display value="Finger structure (body structure)"/>
+    </coding>
+  </bodySite>
+</Observation>
