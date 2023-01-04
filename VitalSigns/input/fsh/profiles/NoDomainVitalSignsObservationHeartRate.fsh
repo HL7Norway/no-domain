@@ -13,25 +13,20 @@ Use to record the presence or absence of a pulse or heart beat."""
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    //NoDomainVitalSignsObservationLevelOfExertion  named levelOfExertion 0..1 and
     NoDomainVitalSignsObservationHeartRhythm  named heartRhythm 0..1 and
+    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and
     NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
     NoDomainVitalSignsObservationCharacterOfHeartRate  named characterOfHeartrate 0..1 and
     NoDomainVitalSignsObservationHeartRateBodyPosition  named BodyPosition 0..1 and
     NoDomainVitalSignsObservationHeartRhythmIrregularity  named heartRythmIrregularity 0..1
-//* extension[levelOfExertion] ^short = "Details about physical exertion being undertaken during the examination."
-//* extension[levelOfExertion] ^definition = "Details about physical exertion being undertaken during the examination."
-//* extension[heartRhythm] from NoDomainVitalSignsObservationHeartRhythm (required)
 * extension[heartRhythm] ^short = "Regularity of the pulse or heart beat."
 * extension[heartRhythm] ^definition = "Regularity of the pulse or heart beat."
 * extension[clinicalDescription] ^short = "Narrative description about the pulse or heart beat."
 * extension[clinicalDescription] ^definition = "Narrative description about the pulse or heart beat."
 * extension[characterOfHeartrate] ^short = "Description of the character of the pulse or heart beat."
 * extension[characterOfHeartrate] ^definition = "Description of the character of the pulse or heart beat."
-//* extension[BodyPosition] from NoDomainVitalSignsObservationHeartRateBodyPosition (required)
 * extension[BodyPosition] ^short = "The body position of the subject during the observation."
 * extension[BodyPosition] ^definition = "The body position of the subject during the observation."
-//* extension[heartRythmIrregularity] from NoDomainVitalSignsObservationHeartRhythmIrregularity (required)
 * extension[heartRythmIrregularity] ^short = "More specific pattern of an irregular pulse or heart beat."
 * extension[heartRythmIrregularity] ^definition = "More specific pattern of an irregular pulse or heart beat."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
@@ -43,10 +38,9 @@ Use to record the presence or absence of a pulse or heart beat."""
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * value[x] ^slicing.rules = #open
 * valueQuantity ^short = "The rate of the pulse or heart beat, measured in beats per minute."
 * valueQuantity ^definition = "The rate of the pulse or heart beat, measured in beats per minute."
@@ -54,7 +48,5 @@ Use to record the presence or absence of a pulse or heart beat."""
 * bodySite from NoDomainVitalSignsObservationHeartRateBodySite (required)
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   \n\nIf the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension bodySite."
 * bodySite.coding from NoDomainVitalSignsObservationHeartRateBodySite (required)
-//* method from NoDomainVitalSignsObservationHeartRateMeasurementMethod (required)
-//* method.coding from NoDomainVitalSignsObservationHeartRateMeasurementMethod (required)
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation."

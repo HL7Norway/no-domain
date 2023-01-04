@@ -14,7 +14,6 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Weight inf
 * extension contains
     NoDomainVitalSignsObservationClothingState  named clothingState 0..1 and
     NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1
-//* extension[clothingState] from NoDomainVitalSignsObservationClothingState (required)
 * extension[clothingState] ^short = "Description of the state of dress of the person at the time of weighing."
 * extension[clothingState] ^definition = "Description of the state of dress of the person at the time of weighing."
 * partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
@@ -32,10 +31,9 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Weight inf
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
-    Organization 0..*
-* performer[Author] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-//* performer[Organization] only Reference(Practitioner or PractitionerRole or Organization or CareTeam or Patient or RelatedPerson or $no-basis-Organization)
-* performer[Organization] only Reference(Organization or $no-basis-Organization)
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+* performer[organization] only Reference(Organization or $no-basis-Organization)
 * value[x] ^slicing.rules = #open
 * valueQuantity ^short = "The weight of the individual."
 * valueQuantity ^definition = "The weight of the individual."

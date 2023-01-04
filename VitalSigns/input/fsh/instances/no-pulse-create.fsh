@@ -1,5 +1,5 @@
 Instance: no-pulse-create
-InstanceOf: Observation
+InstanceOf: NoDomainVitalSignsObservationPulse
 Usage: #example
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"
 * extension[=].valueCoding.code = #271636001 

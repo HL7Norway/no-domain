@@ -13,8 +13,8 @@ Description: "The craniocaudal tilt of the surface on which the person is lying 
 * value[x] ^definition = "value range can be between -90 and +90"
 * value[x].value ^short = "head tilt in degrees"
 * value[x].value ^definition = "value range can be between -90 and +90"
-* value[x].value ^minValueDecimal = -90
-* value[x].value ^maxValueDecimal = 90
-* value[x].unit = "degree" (exactly)
+* value[x] ^minValueQuantity = -90 'deg' "deg"
+* value[x] ^maxValueQuantity = 90 'deg' "deg"
+* value[x].unit = "deg" (exactly)
 * value[x].code = #deg
 * value[x].system = "http://unitsofmeasure.org"
