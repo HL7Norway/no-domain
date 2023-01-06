@@ -9,7 +9,7 @@
 
 <http://hl7.no/fhir/Observation/no-respiratory-rate-create> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-respiratory-rate-create"];
+  fhir:Resource.id [ fhir:value "no-respiratory-rate-create"]; # 
   fhir:Resource.meta [
      fhir:Meta.versionId [ fhir:value "0" ];
      fhir:Meta.lastUpdated [ fhir:value "2014-01-30T22:35:23+11:00"^^xsd:dateTime ];
@@ -19,11 +19,11 @@
        fhir:index 0;
        fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-respiratory-rate-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation \"no-respiratory-rate-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html\">NO Domain VitalSigns Observation - Respiration Rate</a></p></div><p><b>NoDomainVitalSignsObservationRespirationRateBodyPosition</b>: Stående/Oppreist (Details: SNOMED CT code 10904000 = 'Orthostatic body position', stated as 'Stående/Oppreist')</p><p><b>NoDomainVitalSignsObservationRespirationRegularity</b>: Regelmessig (Details: SNOMED CT code 276888009 = 'SR - Normal spontaneous respiration', stated as 'Regelmessig')</p><p><b>NoDomainVitalSignsObservationRespirationDepth</b>: Normal (Details: SNOMED CT code 301284009 = 'Normal depth of breathing', stated as 'Normal')</p><p><b>NoDomainVitalSignsObservationClinicalDescription</b>: Description of Respiration</p><p><b>NoDomainVitalSignsObservationSpontaneousBreathing</b>: Tilstede (Details: SNOMED CT code 241700002 = 'Spontaneous ventilation', stated as 'Tilstede')</p><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><p><b>value</b>: Oxygen administration method</p><p><b>value</b>: 6100 ml/min</p><p><b>value</b>: 21/100</p><p><b>value</b>: 21/100</p><p><b>value</b>: true</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Respiratory rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#9279-1)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000239\">Patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Practitioner/agb27\">Practitioner/agb27</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li></ul><p><b>value</b>: 14 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p><p><b>interpretation</b>: Clinical interpretation of Respiration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>note</b>: Demo Respiration</p></div>"
-  ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-respiratory-rate-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;no-respiratory-rate-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html\">NO Domain VitalSigns Observation - Respiration Rate</a></p></div><p><b>NoDomainVitalSignsObservationRespirationRateBodyPosition</b>: Stående/Oppreist (Details: SNOMED CT code 10904000 = 'Orthostatic body position', stated as 'Stående/Oppreist')</p><p><b>NoDomainVitalSignsObservationRespirationRegularity</b>: Regelmessig (Details: SNOMED CT code 276888009 = 'SR - Normal spontaneous respiration', stated as 'Regelmessig')</p><p><b>NoDomainVitalSignsObservationRespirationDepth</b>: Normal (Details: SNOMED CT code 301284009 = 'Normal depth of breathing', stated as 'Normal')</p><p><b>NoDomainVitalSignsObservationClinicalDescription</b>: Description of Respiration</p><p><b>NoDomainVitalSignsObservationSpontaneousBreathing</b>: Tilstede (Details: SNOMED CT code 241700002 = 'Spontaneous ventilation', stated as 'Tilstede')</p><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><p><b>value</b>: 6100 ml/min</p><p><b>value</b>: 21/100</p><p><b>value</b>: 21/100</p><p><b>value</b>: true</p><p><b>value</b>: Maske</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: vital-signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Respiratory rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#9279-1)</span></p><p><b>subject</b>: <a href=\"Patient-cdp1000239.html\">Patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"Encounter-agy1000245.html\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-agb27.html\">Practitioner/agb27</a></li><li><a href=\"Organization-afa22.html\">Organization/afa22</a> &quot;Organization/afa22&quot;</li></ul><p><b>value</b>: 14 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p><p><b>interpretation</b>: Clinical interpretation of Respiration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>note</b>: Demo Respiration</p></div>"
+  ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition" ];
@@ -70,17 +70,13 @@
      fhir:index 5;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod" ];
-       fhir:Extension.valueString [ fhir:value "Oxygen administration method" ]
-     ], [
-       fhir:index 1;
        fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/Flow" ];
        fhir:Extension.valueQuantity [
          fhir:Quantity.value [ fhir:value "6100"^^xsd:decimal ];
          fhir:Quantity.unit [ fhir:value "ml/min" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/FiO2" ];
        fhir:Extension.valueRatio [
          fhir:Ratio.numerator [
@@ -91,7 +87,7 @@
          ]
        ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/ProsentO2" ];
        fhir:Extension.valueRatio [
          fhir:Ratio.numerator [
@@ -102,13 +98,17 @@
          ]
        ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/OnAir" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery" ];
+       fhir:Extension.valueString [ fhir:value "Maske" ]
      ];
      fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" ]
-  ];
-  fhir:Observation.status [ fhir:value "final"];
+  ]; # 
+  fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.category [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -117,7 +117,7 @@
        fhir:Coding.code [ fhir:value "vital-signs" ];
        fhir:Coding.display [ fhir:value "vital-signs" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -126,7 +126,7 @@
        fhir:Coding.code [ fhir:value "9279-1" ];
        fhir:Coding.display [ fhir:value "Respiratory rate" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.subject [
      fhir:link <http://hl7.no/fhir/Patient/cdp1000239>;
      fhir:Reference.reference [ fhir:value "Patient/cdp1000239" ];
@@ -134,12 +134,12 @@
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
        fhir:Identifier.value [ fhir:value "1000239" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.encounter [
      fhir:link <http://hl7.no/fhir/Encounter/agy1000245>;
      fhir:Reference.reference [ fhir:value "Encounter/agy1000245" ]
-  ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
+  ]; # 
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date]; # 
   fhir:Observation.performer [
      fhir:index 0;
      fhir:link <http://hl7.no/fhir/Practitioner/agb27>;
@@ -156,21 +156,21 @@
        fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
        fhir:Identifier.value [ fhir:value "22" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.valueQuantity [
      fhir:Quantity.value [ fhir:value "14"^^xsd:decimal ];
      fhir:Quantity.unit [ fhir:value "/min" ];
      fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
      fhir:Quantity.code [ fhir:value "/min" ]
-  ];
+  ]; # 
   fhir:Observation.interpretation [
      fhir:index 0;
      fhir:CodeableConcept.text [ fhir:value "Clinical interpretation of Respiration" ]
-  ];
+  ]; # 
   fhir:Observation.note [
      fhir:index 0;
      fhir:Annotation.text [ fhir:value "Demo Respiration" ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

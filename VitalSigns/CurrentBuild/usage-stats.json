@@ -19,6 +19,13 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery",
+      "title": "MethodofOxygenDelivery",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating",
       "title": "NoDomainVitalSignsObservationActiveHeating",
       "types": [
@@ -152,13 +159,6 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeatingDevice",
-      "title": "NoDomainVitalSignsObservationHeatingDevice",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen",
       "title": "NoDomainVitalSignsObservationInspiredOxygen",
       "types": [
@@ -222,17 +222,6 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationPattern",
-      "title": "NoDomainVitalSignsObservationRespirationPattern",
-      "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string"
-      ]
-    },
-    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition",
       "title": "NoDomainVitalSignsObservationRespirationRateBodyPosition",
       "types": [
@@ -268,77 +257,10 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod",
-      "title": "OxygenAdministrationMethod",
-      "types": [
-        "string"
-      ]
-    },
-    {
       "url": "http://hl7.no/fhir/StructureDefinition/ProsentO2",
       "title": "ProsentO2",
       "types": [
         "Ratio"
-      ]
-    },
-    {
-      "url": "https://www.hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturationExt",
-      "title": "NoDomainVitalSignsObservationOxygenSaturationExt",
-      "types": [
-        "Quantity",
-        "Ratio",
-        "Ratio",
-        "string",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
       ]
     }
   ],
@@ -383,6 +305,9 @@
       "Extension"
     ],
     "http://hl7.no/fhir/StructureDefinition/Flow": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery": [
       "Extension"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating": [
@@ -460,9 +385,6 @@
     "http://hl7.no/fhir/StructureDefinition/OnAir": [
       "Extension"
     ],
-    "http://hl7.no/fhir/StructureDefinition/OxygenAdministrationMethod": [
-      "Extension"
-    ],
     "http://hl7.no/fhir/StructureDefinition/ProsentO2": [
       "Extension"
     ],
@@ -506,6 +428,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"

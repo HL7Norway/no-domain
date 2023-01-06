@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.58"}
-    h3,h4,h5,h6{--heading-prefix:"3.58"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.62"}
+    h3,h4,h5,h6{--heading-prefix:"3.62"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -66,7 +66,17 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -134,11 +144,14 @@
 
 
 
+
+
 <ul class="nav nav-tabs">
 
   <li>
     <a href="Observation-no-blood-pressure-create.html">Narrative Content</a>
   </li>
+
 
 
   
@@ -170,6 +183,19 @@
 
 
 <h2 id="root">: no-blood-pressure-create - TTL Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 <p><a href="Observation-no-blood-pressure-create.ttl" no-download="true">Raw ttl</a> | <a href="Observation-no-blood-pressure-create.ttl" download>Download</a></p>
 
@@ -190,7 +216,7 @@
 
  a fhir:Observation;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;no-blood-pressure-create&quot;];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;no-blood-pressure-create&quot;]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">fhir:Resource.meta</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:Meta.versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;0&quot; ];
      <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:value</a> &quot;2014-01-30T22:35:23+11:00&quot;^^xsd:dateTime ];
@@ -199,11 +225,11 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure&quot;;
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
        <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure&gt;     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;extensions&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Observation&lt;/b&gt;&lt;a name=\&quot;no-blood-pressure-create\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Observation \&quot;no-blood-pressure-create\&quot; Version \&quot;0\&quot; Updated \&quot;2014-01-30 10:35:23+1100\&quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Information Source: META_VISION!&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html\&quot;&gt;NO Domain VitalSigns Observation - Blood pressure&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureBodyPosition&lt;/b&gt;: Sittende (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sittende')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationCuffSize&lt;/b&gt;: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationDiastolicEndPoint&lt;/b&gt;: Fase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Fase IV')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationSleepStatus&lt;/b&gt;: Våken (Details: SNOMED CT code 248218005 = 'Awake', stated as 'Våken')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationHeadTilt&lt;/b&gt;: 14 deg&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureSystolicFormula&lt;/b&gt;: sample formula 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureDiastolicFormula&lt;/b&gt;: sample formula 2&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureMeanArterialFormula&lt;/b&gt;: sample formula 3&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: vital-signs &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html\&quot;&gt;Observation Category Codes&lt;/a&gt;#vital-signs)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Blood pressure (observable entity) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#85354-9)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;amp;canonical=http://hl7.no/fhir//Patient/cdp1000807\&quot;&gt;Patient/cdp1000807&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;amp;canonical=http://hl7.no/fhir//Encounter/agy1002679\&quot;&gt;Encounter/agy1002679&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-05-10&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103\&quot;&gt;PractitionerRole/agb103&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;amp;canonical=http://hl7.no/fhir//Organization/afa22\&quot;&gt;Organization/afa22&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: Demo Blood Pressure&lt;/p&gt;&lt;p&gt;&lt;b&gt;bodySite&lt;/b&gt;: Finger structure (body structure) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://browser.ihtsdotools.org/\&quot;&gt;SNOMED CT&lt;/a&gt;#7569003)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Systolic blood pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8480-6; clinical-codes#bp-s \&quot;Systolic Blood pressure\&quot;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 123 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Diastolic blood pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8462-4)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 78 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Mean arterial pressure (observable entity) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8478-0)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 93 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Arterial pulse pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://browser.ihtsdotools.org/\&quot;&gt;SNOMED CT&lt;/a&gt;#4461000202102)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 45 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
-  ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Observation&lt;/b&gt;&lt;a name=\&quot;no-blood-pressure-create\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Observation &amp;quot;no-blood-pressure-create&amp;quot; Version &amp;quot;0&amp;quot; Updated &amp;quot;2014-01-30 22:35:23+1100&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Information Source: META_VISION!&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html\&quot;&gt;NO Domain VitalSigns Observation - Blood pressure&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureBodyPosition&lt;/b&gt;: Sittende (Details: SNOMED CT code 33586001 = 'Sitting position', stated as 'Sittende')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationCuffSize&lt;/b&gt;: Lår voksne (Details: SNOMED CT code 720740000 = 'Blood pressure cuff, adult thigh type (physical object)', stated as 'Lår voksne')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationDiastolicEndPoint&lt;/b&gt;: Fase IV (Details: SNOMED CT code 1081871000202109 = '1081871000202109', stated as 'Fase IV')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationSleepStatus&lt;/b&gt;: Våken (Details: SNOMED CT code 248218005 = 'Awake', stated as 'Våken')&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationHeadTilt&lt;/b&gt;: 14 deg&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureSystolicFormula&lt;/b&gt;: sample formula 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureDiastolicFormula&lt;/b&gt;: sample formula 2&lt;/p&gt;&lt;p&gt;&lt;b&gt;NoDomainVitalSignsObservationBloodpressureMeanArterialFormula&lt;/b&gt;: sample formula 3&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: vital-signs &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\&quot;&gt;Observation Category Codes&lt;/a&gt;#vital-signs)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Blood pressure (observable entity) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#85354-9)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-cdp1000807.html\&quot;&gt;Patient/cdp1000807&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Encounter-agy1002679.html\&quot;&gt;Encounter/agy1002679&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-05-10&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;PractitionerRole-agb103.html\&quot;&gt;PractitionerRole/agb103&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Organization-afa22.html\&quot;&gt;Organization/afa22&lt;/a&gt; &amp;quot;Organization/afa22&amp;quot;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: Demo Blood Pressure&lt;/p&gt;&lt;p&gt;&lt;b&gt;bodySite&lt;/b&gt;: Finger structure (body structure) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://browser.ihtsdotools.org/\&quot;&gt;SNOMED CT&lt;/a&gt;#7569003)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Systolic blood pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8480-6; clinical-codes#bp-s &amp;quot;Systolic Blood pressure&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 123 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Diastolic blood pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8462-4)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 78 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Mean arterial pressure (observable entity) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#8478-0)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 93 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Arterial pulse pressure &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://browser.ihtsdotools.org/\&quot;&gt;SNOMED CT&lt;/a&gt;#4461000202102)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 45 mm[Hg]&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM code mm[Hg] = 'mm[Hg]')&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">fhir:DomainResource.extension</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition&quot; ];
@@ -254,8 +280,8 @@
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula&quot; ];
      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:Extension.valueString</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;sample formula 3&quot; ]
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot;];
+  ]; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot;]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
@@ -263,7 +289,7 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;vital-signs&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;vital-signs&quot; ]     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
@@ -271,20 +297,20 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;85354-9&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood pressure (observable entity)&quot; ]     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/cdp1000807&quot; ];
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:Reference.identifier</a> [
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://dips.no/fhir/namingsystem/dips-patientid&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;1000807&quot; ]     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.encounter">fhir:Observation.encounter</a> [
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Encounter/agy1002679&quot; ];
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:Reference.identifier</a> [
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;1002679&quot; ]     ]
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2021-05-10&quot;^^xsd:date];
+  ]; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2021-05-10&quot;^^xsd:date]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">fhir:Observation.performer</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PractitionerRole/agb103&quot; ];
@@ -297,11 +323,11 @@
      <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:Reference.identifier</a> [
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:oid:1.3.6.1.4.1.9038.70.3&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;22&quot; ]     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.note">fhir:Observation.note</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:Annotation.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Demo Blood Pressure&quot; ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.bodySite">fhir:Observation.bodySite</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
@@ -309,7 +335,7 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;7569003&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Finger structure (body structure)&quot; ]     ]
-  ];
+  ]; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.component">fhir:Observation.component</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">fhir:Observation.component.code</a> [
@@ -370,7 +396,7 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mm[Hg]&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mm[Hg]&quot; ]     ]
-  ].
+  ]. # 
 
 # - ontology header ------------------------------------------------------------
 
@@ -408,9 +434,9 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 24, 2022 08:10+0000">2022-10-24</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 6, 2023 14:01+0000">2023-01-06</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -434,6 +460,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

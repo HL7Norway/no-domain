@@ -1,5 +1,6 @@
 "Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"Extension","Extension","","","",0,*,"","","","","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+"Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ",""
 "Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -10,7 +11,17 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
 "Extension.value[x]","Extension.value[x]","","","",0,1,"","","","Quantity {[]} {[]}
-","head tilt in degrees","value range can be between -90 and +90","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","head tilt in degrees","value range can be between -90 and +90","","","","","","","","<valueQuantity xmlns=""http://hl7.org/fhir"">
+  <value value=""-90""/>
+  <unit value=""deg""/>
+  <system value=""http://unitsofmeasure.org""/>
+  <code value=""deg""/>
+</valueQuantity>","<valueQuantity xmlns=""http://hl7.org/fhir"">
+  <value value=""90""/>
+  <unit value=""deg""/>
+  <system value=""http://unitsofmeasure.org""/>
+  <code value=""deg""/>
+</valueQuantity>",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.value[x].id","Extension.value[x].id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -20,7 +31,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.value[x].value","Extension.value[x].value","","","",0,1,"","","Y","decimal {[]} {[]}
-","head tilt in degrees","value range can be between -90 and +90","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","<valueDecimal xmlns=""http://hl7.org/fhir"" value=""-90""/>","<valueDecimal xmlns=""http://hl7.org/fhir"" value=""90""/>",,,,,"",,,,"Quantity.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","head tilt in degrees","value range can be between -90 and +90","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"
 "Extension.value[x].comparator","Extension.value[x].comparator","","","",0,1,"","Y","Y","code {[]} {[]}
 ","< | <= | >= | > - how to understand the value","How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is ""<"" , then the real value is < stated value.","","Need a framework for handling measures where the value is <5ug/L or >400mg/L due to the limitations of measuring methodology.","","If there is no comparator, then there is no modification of the value","","","","","",,"required","How the Quantity should be understood and represented.","http://hl7.org/fhir/ValueSet/quantity-comparator|4.0.1","",,,,"Quantity.comparator",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
