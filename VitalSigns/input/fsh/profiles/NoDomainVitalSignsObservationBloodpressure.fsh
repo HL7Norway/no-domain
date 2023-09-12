@@ -56,10 +56,10 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * note.author[x] ..0
 * note.time ..0
 //* bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
-* bodySite from "http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f" (required)
+* bodySite from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 * bodySite ^short = "Simple body site where blood pressure was measured."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
-* bodySite.coding from "http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f" (required)
+* bodySite.coding from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 // * bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)
 // * bodySite.coding.system from $no-bloodpressurebodysite-valueset (required)
 * method ^short = "Method of measurement of blood pressure."
