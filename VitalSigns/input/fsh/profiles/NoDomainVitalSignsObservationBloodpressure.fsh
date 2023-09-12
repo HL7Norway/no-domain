@@ -120,11 +120,11 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].code.coding[SAPSnomedCode].code = #4461000202102 (exactly)
 * component[PulsePressure].code.coding[SAPSnomedCode].userSelected ..0
 * component[PulsePressure].value[x] only Quantity
-* component[PulsePressure].value[x] ^slicing.discriminator.type = #type
-* component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
-* component[PulsePressure].value[x] ^slicing.rules = #open
-* component[PulsePressure].valueQuantity only Quantity
-* component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
+//* component[PulsePressure].value[x] ^slicing.discriminator.type = #type
+//* component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
+//* component[PulsePressure].value[x] ^slicing.rules = #open
+//* component[PulsePressure].valueQuantity only Quantity
+//* component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
 //* component[PulsePressure].valueQuantity.value 1..
 //* component[PulsePressure].valueQuantity.unit 1..
 //* component[PulsePressure].valueQuantity.system 1..
