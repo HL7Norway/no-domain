@@ -97,12 +97,12 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.type = #type
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.path = "$this"
 * component[MeanArterialPressure].value[x] ^slicing.rules = #open
-* component[MeanArterialPressure].valueQuantity only Quantity
-* component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
-* component[MeanArterialPressure].valueQuantity.value 1..
-* component[MeanArterialPressure].valueQuantity.unit 1..
-* component[MeanArterialPressure].valueQuantity.system 1..
-* component[MeanArterialPressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
+//* component[MeanArterialPressure].valueQuantity only Quantity
+//* component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
+//* component[MeanArterialPressure].valueQuantity.value 1..
+//* component[MeanArterialPressure].valueQuantity.unit 1..
+//* component[MeanArterialPressure].valueQuantity.system 1..
+//* component[MeanArterialPressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * component[MeanArterialPressure].valueQuantity.code 1..
 * component[MeanArterialPressure].valueQuantity.code = #mm[Hg] (exactly)
 * component[PulsePressure] ^short = "The difference between the systolic and diastolic pressure."
@@ -125,10 +125,10 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].value[x] ^slicing.rules = #open
 * component[PulsePressure].valueQuantity only Quantity
 * component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
-* component[PulsePressure].valueQuantity.value 1..
-* component[PulsePressure].valueQuantity.unit 1..
-* component[PulsePressure].valueQuantity.system 1..
-* component[PulsePressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
+//* component[PulsePressure].valueQuantity.value 1..
+//* component[PulsePressure].valueQuantity.unit 1..
+//* component[PulsePressure].valueQuantity.system 1..
+//* component[PulsePressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * component[PulsePressure].valueQuantity.code 1..
 * component[PulsePressure].valueQuantity.code = #mm[Hg] (exactly)
 * referenceRange ..1
