@@ -5,72 +5,58 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "NoDomainVitalSignsObservationSpontaneousBreathingVS"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.lastUpdated [ fhir:value "2021-03-17T00:00:00+00:00"^^xsd:dateTime ];
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset";
-       fhir:index 0;
+<http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "NoDomainVitalSignsObservationSpontaneousBreathingVS"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2021-03-17T00:00:00+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>Tilstede</td></tr><tr><td><a href=\"http://snomed.info/id/1081891000202100\">1081891000202100</a></td><td>Fraværende</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:DomainResource.extension [
-     fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ];
-     fhir:Extension.valueCode [ fhir:value "oo" ]
-  ], [
-     fhir:index 1;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-     fhir:Extension.valueCode [ fhir:value "draft" ]
-  ], [
-     fhir:index 2;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
-     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "NoDomainVitalSignsObservationSpontaneousBreathingVS"]; # 
-  fhir:ValueSet.title [ fhir:value "NoDomainVitalSignsObservationSpontaneousBreathingVS"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2021-03-17T00:00:00+00:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "FHIR Project team"]; # 
-  fhir:ValueSet.description [ fhir:value "Codes representing Respiration Spontaneous breathing"]; # 
-  fhir:ValueSet.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "241700002" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tilstede" ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "1081891000202100" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fraværende" ]
-       ]
-     ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "oo" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "draft" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.5.0"] ; # 
+  fhir:name [ fhir:v "NoDomainVitalSignsObservationSpontaneousBreathingVS"] ; # 
+  fhir:title [ fhir:v "NoDomainVitalSignsObservationSpontaneousBreathingVS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-03-17T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Project team"] ; # 
+  fhir:description [ fhir:v "Codes representing Respiration Spontaneous breathing"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "241700002" ] ;
+         fhir:display [ fhir:v "Tilstede" ]
+       ] [
+         fhir:code [ fhir:v "1081891000202100" ] ;
+         fhir:display [ fhir:v "Fraværende" ]
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
