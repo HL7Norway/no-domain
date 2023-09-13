@@ -3,7 +3,7 @@
 
 err = 40, warn = 59, info = 11
 IG Publisher Version: 1.4.5
-Generated Wed Sep 13 06:40:38 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.5.0 (canonical = http://hl7.no/fhir)
+Generated Wed Sep 13 07:30:27 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.5.0 (canonical = http://hl7.no/fhir)
  Build Errors : 1 / 24 / 0
  /github/workspace/VitalSigns/fsh-generated/resources/Encounter-agy1000245 : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Encounter-agy1002679 : 0 / 0 / 1
@@ -221,8 +221,8 @@ WARNING: StructureDefinition/ProsentO2: StructureDefinition.context[0]: Review t
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodpressureBodyPosition.json ==
 WARNING: ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition: ValueSet.compose.include[0].concept[1]: The code '4801000202104' is not valid in the system http://snomed.info/sct
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodpressureBodySite.json ==
-WARNING: ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite: ValueSet.compose.include[0].valueSet[0]: The value set import http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f could not be found so cannot be checked
-ERROR: ValueSet.where(id = 'NoDomainVitalSignsObservationBloodpressureBodySite'): Error from server: Unable to find value set "http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f"
+WARNING: ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite: ValueSet.compose.include[0].valueSet[0]: The value set import http://snomed.info/sct/51000202101/version/20230415/ecl/%5E198541000202101%7B%7B%20M%20mapTarget%20%3D%22Blodtrykk::M%C3%A5lested::%22%20%7D%7D/syntaxVersion/2.0 could not be found so cannot be checked
+ERROR: ValueSet.where(id = 'NoDomainVitalSignsObservationBloodpressureBodySite'): Error from server: Unable to find value set "http://snomed.info/sct/51000202101/version/20230415/ecl/%5E198541000202101%7B%7B%20M%20mapTarget%20%3D%22Blodtrykk::M%C3%A5lested::%22%20%7D%7D/syntaxVersion/2.0"
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBodyExposure.json ==
 WARNING: ValueSet/NoDomainVitalSignsObservationBodyExposure: ValueSet.compose.include[0].concept[0]: The code '5671000202107' is not valid in the system http://snomed.info/sct
 INFORMATION: ValueSet/NoDomainVitalSignsObservationBodyExposure: ValueSet.compose.include[0].concept[0]: Unable to find code 5671000202107 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230901); Unknown Code '5671000202107' in the system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901'; The provided code 'http://snomed.info/sct#5671000202107' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)
