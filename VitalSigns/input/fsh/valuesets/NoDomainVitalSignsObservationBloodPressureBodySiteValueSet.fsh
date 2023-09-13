@@ -18,4 +18,4 @@ Description: "Include codes representing body site for blood pressure as used in
 * ^publisher = "HL7 Norway"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* include codes from valueset http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f
+* include codes from valueset http://snomed.info/sct/51000202101/version/20230415/ecl/%5E198541000202101%7B%7B%20M%20mapTarget%20%3D%22Blodtrykk::M%C3%A5lested::%22%20%7D%7D/syntaxVersion/2.0
