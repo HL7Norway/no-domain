@@ -5,23 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/Encounter/agy1000245> a fhir:Encounter;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "agy1000245"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"agy1000245\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;agy1000245&quot; </p></div><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'null')</p></div>"
-  ];
-  fhir:Encounter.status [ fhir:value "finished"];
-  fhir:Encounter.class [
-     fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
-     fhir:Coding.code [ fhir:value "AMB" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/Encounter/agy1000245.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/Encounter/agy1000245> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "agy1000245"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"agy1000245\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;agy1000245&quot; </p></div><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'null')</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "finished"] ; # 
+  fhir:class [
+     fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "AMB" ]
+  ] . # 
 
 # -------------------------------------------------------------------------------------
 

@@ -198,6 +198,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+table code {
+  white-space: normal;
+}
+table td {
+  overflow-wrap: break-word;
+}
 @media print {
   * {
     text-shadow: none !important;
@@ -1150,6 +1156,10 @@ table th[class^="col-"] {
 .table-hover > tbody > tr.warning:hover > td {
   background-color: #faf2cc;
   border-color: #f8e5be;
+}
+td > :last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 fieldset {
   padding: 0;
