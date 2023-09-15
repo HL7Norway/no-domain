@@ -71,7 +71,7 @@ Fysisk møte?
 
 ### Dokumentasjon av terminologi og IG
 
-* Fra HL7 Norge sammenheng tenker vi FHIR IG med knytning til terminologi målbildet.
+* Fra HL7 Norge sammenheng tenker vi FHIR IG med knytning til terminologi er målbildet.
 * Arketypemapping blir jo ikke dokumentert i FHIR IG.
 * SPUN - vurdere SPUN på sikt kanskje?
 * På kort sikt er det FHIR IG vi jobber med.
@@ -83,7 +83,7 @@ Fysisk møte?
 * Mapping mellom informasjonsmodeller, bruk av terminologi og informasjonsmodell
 * Noen må snakke sammen.
 * Bruk av verdisettene krever samarbeid, bør gå fortere.
-* Dokumentasjon av hva vi har gjort.
+* Viktig å dokumentere prosessen som er gjennomført i dette prosjektet med vitale parametere så vi kan lære og forbedre oss.
 
 ### Aksjoner
 
