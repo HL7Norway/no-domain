@@ -1,0 +1,35 @@
+@startuml
+!include <archimate/Archimate>
+skinparam linetype ortho
+
+'archimate #Technology "Snowstorm" as snowstorm <<technology-device>>
+rectangle "HL7 Norge" as hl7norge {
+archimate #Motivation "Samhandlings-\nbehov" as behov <<requirement>>
+archimate #Motivation "domain \nmetode" as metode <<requirement>>
+archimate #Business "FHIR IG" as fhirig <<business-process>>
+Business_Process(lagefhirig, "Lage \nFHIR IG")
+Business_Process(lagevalueset, "Lage \nValueset")
+Business_Process(forvaltevs, "Forvalte \nValueset")
+Business_Product(fhirig, "FHIR IG")
+}
+
+Business_Object(valueset, "Valueset")
+Application_Service(snowstorm, "Snowstorm")
+
+Rel_Influence(behov, lagefhirig)
+Rel_Influence_Right(metode, lagefhirig)
+Rel_Triggering_Right(lagefhirig, lagevalueset)
+Rel_Triggering_Left(lagevalueset, lagefhirig)
+Rel_Triggering_Right(lagevalueset, forvaltevs)
+Rel_Access_rw(valueset, snowstorm)
+'lagevalueset -[hidden]Right- valueset
+'Rel_Access_Right(lagevalueset, valueset) 
+Rel_Serving_Down(lagevalueset, snowstorm)
+Rel_Serving_Down(forvaltevs, snowstorm)
+Rel_Access_w_Down(lagefhirig, fhirig)
+'Rel_Access_r(lagefhirig, valueset)
+Rel_Access_w(valueset, fhirig)
+
+hide $hide
+
+@enduml
