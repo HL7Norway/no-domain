@@ -87,5 +87,5 @@ For puls målemetode og blodtrykk målemetode.
 Må modelleres omigjen i arketypene.  
 Siden SNOMED ikke har en mapping til arketype kan de heller ikke levere refset.
 
-* Vi trenger kanskje ikke for første release av vitale parameter profilene?
-* Enklere å legge til enn å endre på noe som er feil.
+* Vi trenger kanskje ikke for første release av vitale parameter FHIR profilene?
+  * Enklere å legge til noe senere enn å endre på noe som er feil.
