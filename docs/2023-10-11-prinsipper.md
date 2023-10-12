@@ -39,7 +39,11 @@ To use-case:
 
 ### Konklusjon
 
-Vi trenger en metode som støtter både "dynamiske" og "statiske verdisett. Forslaget støtter bare statiske (spesifikk versjon) av verdisett i IG'en.
+* FHIR miljøet må se på hvordan metoden for bruk av verdisett skal fungere ved "dynamiske" verdisett.
+  * Vi trenger en metode som støtter både "dynamiske" og "statiske verdisett. Forslaget støtter bare statiske (spesifikk versjon) av verdisett i IG'en.
+
+* Verdisettet blir ikke vist i IG'en.
+* Vi må vite at vi kan få verdisett med id og url som lever på Snowstorm, dette er ennå uavklart om vi får fra PKT.
 
 ## Detaljerte spørsmål (Ulrich og Karol)
 
@@ -66,9 +70,19 @@ Mansjettstørrelse.
 * Det kan gjøre ting lettere for cuff-size.
   * Hvis vi binder til bare størrelse for eksempel.
 
+#### Konklusjon
+
+Versjonen som legges ut nå er foreldre begrepene.  
+
+* Vi må få vurdert om referansesettet som er foreslått (med bruk av foreldrebegrepene) er dekkende.  
+* Det virket OK i møtet.  
+
 ### Element-referanser brukt i mappingen
 
 OK
+
+* Spørsmål: Path til "Stor voksen cuff": openEHR-EHR-OBSERVATION.blood_pressure.v2/protocol[at0011]/items[at0013]/value/defining_code[at0016] (så ikke så veldig nyttig for menneskelesing)
+* Svar: Takk for innspill, dette er et godt svar på systematisk håndtering. Jeg tenker at det er en bedre og mer standard måte å referere til elementene (iht. OpenEHR). Menneskelig lesbare termer (i flere språk) kan man heller utlede fra denne stien i systemene (Roadmap of the openEHR Java project, openEHR / java-libs). Til en forbedret versjon av mappingen (etter oktober) prøver vi å løfte referansesettet til denne formalismen.  
 
 ### Puls og hjertefrekvens
 
@@ -76,10 +90,14 @@ Puls:Målested:Hjertet - splittet terminologibining for puls og hjertefrekvens.
 
 Splittet i puls og hjertefrekvens -  
 
+#### Konklusjon
+
 * Arketyper deler også i to separate arketyper, ikke noe som finnes i gjeldende versjon.
 * Naturlig konsekvens er at dette blir separate profiler i FHIR.
   * Dette må gjenspeiles internasjonalt, hvordan tar vi dette videre.
-  * Får vi til dette i FHIR
+  * Får vi til dette i FHIR?  
+    * Må vurderes av HL7 Norge  
+    * Lage forslag til puls i IG'en for no-domain  
 
 ### SNOMED missing codes
 
@@ -87,5 +105,17 @@ For puls målemetode og blodtrykk målemetode.
 Må modelleres omigjen i arketypene.  
 Siden SNOMED ikke har en mapping til arketype kan de heller ikke levere refset.
 
+#### Konklusjon
+
 * Vi trenger kanskje ikke for første release av vitale parameter FHIR profilene?
   * Enklere å legge til noe senere enn å endre på noe som er feil.
+
+## Videre arbeid
+
+* FHIR miljøet bestiller verdisett på SNOWSTORM med id og url.
+  * Se på forvaltningsprosess for releaser på MLDS kommer på SNOWSTORM produksjonsserver for SNOMED.
+  * Får vi verdisett, diskusjon med Marte.
+* Produksjonstjenester for løsningsutviklere og IG utviklere av SNOMED.
+  * FHIR miljøet trenger oversikt over dette.
+* Driftsserver for snomed, kommer refsettene helt dit?
+* Forvaltningsprosess for dette etter nyttår, er uavklart.
