@@ -123,3 +123,17 @@ Siden SNOMED ikke har en mapping til arketype kan de heller ikke levere refset.
 ## no-domain oppsummering
 
 * HR og puls, hvordan får vi den videre?
+  * Puls er hovedsaken, men heart-rate
+  * To profiler som arver heart-rate?
+  * Avgivende system bør angi både puls og HR med SNOMED
+  * CIMI lagde to nye profiler begge arver direkte fra vital-signs toppnivået
+  * Hvilke koder fra SNOMED er det vi har bestemt oss for?
+
+* SNOMED gjengen skal ha logikk i postkoordinerte uttrykk
+  * Det kan være ulemper med veldig mye postkoordinering, spesielt i kombinasjon med FHIR og faktisk programvare  
+  * Vi trenger at SNOMED viser hvordan disse uttrykkene blir seende ut for de relevante kodene.
+
+* Hvorfor tar terminologiarbeidet langt tid, oppsummeres på Github
+  * Bestille evaluering fra programmet (Terje)
+
+* Vi må lage et forslag til modellering av pulse og heart-rate i to profiler i FHIR og sjekke om kodene fra SNOMED blir riktig.
