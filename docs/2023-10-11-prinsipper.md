@@ -119,3 +119,7 @@ Siden SNOMED ikke har en mapping til arketype kan de heller ikke levere refset.
   * FHIR miljøet trenger oversikt over dette.
 * Driftsserver for snomed, kommer refsettene helt dit?
 * Forvaltningsprosess for dette etter nyttår, er uavklart.
+
+## no-domain oppsummering
+
+* HR og puls, hvordan får vi den videre?
