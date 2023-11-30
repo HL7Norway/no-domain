@@ -120,10 +120,12 @@ Siden SNOMED ikke har en mapping til arketype kan de heller ikke levere refset.
 * Driftsserver for snomed, kommer refsettene helt dit?
 * Forvaltningsprosess for dette etter nyttår, er uavklart.
 
-## no-domain oppsummering
+## 2023-10-19 - Ettermøte - no-domain oppsummering
+
+Terje, LAN, Espen og Thomas
 
 * HR og puls, hvordan får vi den videre?
-  * Puls er hovedsaken, men heart-rate
+  * Puls er hovedsaken, men heart-rate trengs i spesielle situasjoner
   * To profiler som arver heart-rate?
   * Avgivende system bør angi både puls og HR med SNOMED
   * CIMI lagde to nye profiler begge arver direkte fra vital-signs toppnivået
