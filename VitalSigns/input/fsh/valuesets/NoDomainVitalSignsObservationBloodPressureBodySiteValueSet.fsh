@@ -14,8 +14,19 @@ Description: "Include codes representing body site for blood pressure as used in
 * ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = true
-* ^date = "2023-09-13T00:00:00+00:00"
+* ^date = "2024-01-09T00:00:00+00:00"
 * ^publisher = "HL7 Norway"
 * ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/fhir"
-* include codes from valueset http://snomed.info/sct/51000202101/version/20230415/ecl/%5E198541000202101%7B%7B%20M%20mapTarget%20%3D%22Blodtrykk::M%C3%A5lested::%22%20%7D%7D/syntaxVersion/2.0
+* ^contact.telecom.value = "http://hl7.no"
+* SNOMED_CT#368209003 "Overarm, høyre"
+* SNOMED_CT#368208006 "Overarm, venstre"
+* SNOMED_CT#11207009 "Lår, høyre"
+* SNOMED_CT#61396006 "Lår, venstre"
+* SNOMED_CT#9736006 "Håndledd, høyre"
+* SNOMED_CT#5951000 "Håndledd, venstre"
+* SNOMED_CT#6685009 "Ankel, høyre"
+* SNOMED_CT#51636004 "Ankel, venstre"
+* SNOMED_CT#7569003 "Finger"
+* SNOMED_CT#29707007 "Tå"
+* SNOMED_CT#2402003 "Fotrygg"
+* SNOMED_CT#51114001 "Intra-arterielt"
