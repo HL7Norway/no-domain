@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/4001000202105\">4001000202105</a></td><td>Fase IV</td></tr><tr><td><a href=\"http://snomed.info/id/4011000202107\">4011000202107</a></td><td>Fase V</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
@@ -30,7 +30,7 @@
      fhir:value [ fhir:v "1"^^xsd:integer ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.5.0"] ; # 
+  fhir:version [ fhir:v "0.5.1"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSignsObservationDiastolicendPoint"] ; # 
   fhir:title [ fhir:v "Codes representing Diastolic end point"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
