@@ -56,10 +56,12 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * note.author[x] ..0
 * note.time ..0
 * bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
+//* bodySite from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 * bodySite ^short = "Simple body site where blood pressure was measured."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
+//* bodySite.coding from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 * bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)
-// * bodySite.coding.system from $no-bloodpressurebodysite-valueset (required)
+* bodySite.coding.system from $no-bloodpressurebodysite-valueset (required)
 * method ^short = "Method of measurement of blood pressure."
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below."
@@ -95,12 +97,12 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.type = #type
 * component[MeanArterialPressure].value[x] ^slicing.discriminator.path = "$this"
 * component[MeanArterialPressure].value[x] ^slicing.rules = #open
-* component[MeanArterialPressure].valueQuantity only Quantity
-* component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
-* component[MeanArterialPressure].valueQuantity.value 1..
-* component[MeanArterialPressure].valueQuantity.unit 1..
-* component[MeanArterialPressure].valueQuantity.system 1..
-* component[MeanArterialPressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
+//* component[MeanArterialPressure].valueQuantity only Quantity
+//* component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
+//* component[MeanArterialPressure].valueQuantity.value 1..
+//* component[MeanArterialPressure].valueQuantity.unit 1..
+//* component[MeanArterialPressure].valueQuantity.system 1..
+//* component[MeanArterialPressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * component[MeanArterialPressure].valueQuantity.code 1..
 * component[MeanArterialPressure].valueQuantity.code = #mm[Hg] (exactly)
 * component[PulsePressure] ^short = "The difference between the systolic and diastolic pressure."
@@ -118,15 +120,15 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].code.coding[SAPSnomedCode].code = #4461000202102 (exactly)
 * component[PulsePressure].code.coding[SAPSnomedCode].userSelected ..0
 * component[PulsePressure].value[x] only Quantity
-* component[PulsePressure].value[x] ^slicing.discriminator.type = #type
-* component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
-* component[PulsePressure].value[x] ^slicing.rules = #open
-* component[PulsePressure].valueQuantity only Quantity
-* component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
-* component[PulsePressure].valueQuantity.value 1..
-* component[PulsePressure].valueQuantity.unit 1..
-* component[PulsePressure].valueQuantity.system 1..
-* component[PulsePressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
+//* component[PulsePressure].value[x] ^slicing.discriminator.type = #type
+//* component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
+//* component[PulsePressure].value[x] ^slicing.rules = #open
+//* component[PulsePressure].valueQuantity only Quantity
+//* component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
+//* component[PulsePressure].valueQuantity.value 1..
+//* component[PulsePressure].valueQuantity.unit 1..
+//* component[PulsePressure].valueQuantity.system 1..
+//* component[PulsePressure].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * component[PulsePressure].valueQuantity.code 1..
 * component[PulsePressure].valueQuantity.code = #mm[Hg] (exactly)
 * referenceRange ..1
