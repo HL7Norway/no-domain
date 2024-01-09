@@ -28,11 +28,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Observation.extension:heartRhythm","Observation.extension","heartRhythm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm]]} {[]}
 ","Regularity of the pulse or heart beat.","Regularity of the pulse or heart beat.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.extension:confoundingFactor","Observation.extension","confoundingFactor","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Optional Extensions Element","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.extension:clinicalDescription","Observation.extension","clinicalDescription","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription]]} {[]}
 ","Narrative description about the pulse or heart beat.","Narrative description about the pulse or heart beat.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -44,11 +44,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Observation.extension:BodyPosition","Observation.extension","BodyPosition","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition]]} {[]}
 ","The body position of the subject during the observation.","The body position of the subject during the observation.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.extension:heartRythmIrregularity","Observation.extension","heartRythmIrregularity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity]]} {[]}
 ","More specific pattern of an irregular pulse or heart beat.","More specific pattern of an irregular pulse or heart beat.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.modifierExtension","Observation.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -168,7 +168,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",1,1,"Y","","Y","dateTime {[]} {[]}
 Period {[]} {[]}","Often just a dateTime for Vital Signs","Often just a dateTime for Vital Signs.","At least a date should be present unless this observation is a historical report.  For recording imprecise or ""fuzzy"" times (For example, a blood glucose measurement taken ""after breakfast"") use the Timing datatype which allow the measurement to be tied to regular life events.","Knowing when an observation was deemed true is important to its relevance as well as determining trends.","","","","","","","",,,,,"",,,,"Observation.effective[x]",0,1,"vs-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-vs-1:if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day {($this as dateTime).toString().length() >= 8}","Event.occurrence[x]","OBX-14, and/or OBX-19 after v2.4  (depends on who observation made)","effectiveTime","FiveWs.done[x]"
+vs-1:if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day {$this is dateTime implies $this.toString().length() >= 10}","Event.occurrence[x]","OBX-14, and/or OBX-19 after v2.4  (depends on who observation made)","effectiveTime","FiveWs.done[x]"
 "Observation.issued","Observation.issued","","","",0,1,"","","Y","instant {[]} {[]}
 ","Date/Time this version was made available","The date and time this version of the observation was made available to providers, typically after the results have been reviewed and verified.","For Observations that don’t require review and verification, it may be the same as the [`lastUpdated` ](http://hl7.org/fhir/resource-definitions.html#Meta.lastUpdated) time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again.","","","","","","","","",,,,,"",,,,"Observation.issued",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR.22 (or MSH.7), or perhaps OBX-19 (depends on who observation made)","participation[typeCode=AUT].time","FiveWs.recorded"
