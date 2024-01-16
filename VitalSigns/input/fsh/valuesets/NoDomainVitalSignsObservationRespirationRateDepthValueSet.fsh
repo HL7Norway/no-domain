@@ -16,7 +16,7 @@ Description: "Codes representing depth for respiration rate"
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^publisher = "FHIR Project team"
+* SNOMED_CT#289123006 "Dyp"
 * SNOMED_CT#301284009 "Normal"
 * SNOMED_CT#386616007 "Overfladisk"
-* SNOMED_CT#289123006 "Dyp"
 * SNOMED_CT#248587009 "Varierende"

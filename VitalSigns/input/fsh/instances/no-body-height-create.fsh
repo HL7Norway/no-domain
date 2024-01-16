@@ -8,19 +8,17 @@ Usage: #example
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Stående"
 * status = #final
-* category = $observation-category#vital-signs "vital-signs"
-* code = $loinc#8302-2 "Body height measure (observable entity)"
-* subject.identifier.system = "http://dips.no/fhir/namingsystem/dips-patientid"
+* category = $observation-category#vital-signs "Vital Signs"
+* code = $loinc#8302-2 "Body height"
+* subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
-* encounter = Reference(Encounter/agy1002679)
-* encounter.identifier.system = "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"
-* encounter.identifier.value = "1002679"
+
 * effectiveDateTime = "2021-05-10"
 * performer[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.2"
 * performer[=].identifier.value = "889911"
-* performer[+] = Reference(Organization/afa22)
+* performer[+] = Reference(Organization/afa23)
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
-* performer[=].identifier.value = "22"
+* performer[=].identifier.value = "23"
 * note.text = "Demo Body Height"
 * valueQuantity = 156 'cm' "cm"
 

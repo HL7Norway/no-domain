@@ -12,13 +12,7 @@ Alias: $no-basis-Patient = http://hl7.no/fhir/StructureDefinition/no-basis-Patie
 Alias: $no-basis-Practitioner = http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner
 Alias: $no-basis-PractitionerRole = http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole
 Alias: $no-basis-Organization = http://hl7.no/fhir/StructureDefinition/no-basis-Organization
-Alias: $no-bloodpressurebodysite-valueset = http://hl7.no/fhir/ValueSet/no-bloodpressurebodysite-valueset
-Alias: $no-domain-vital-signs-observations-measurementmethodvalueSet = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-measurementmethodvalueSet
-Alias: $no-domain-vital-signs-observations-oxygensaturation-bodysitevalueset = http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset
-Alias: $no-heartrhythm-valueset = http://hl7.no/fhir/ValueSet/no-heartrhythm-valueset
-Alias: $no-domain-vital-signs-observations-respirationrate-patternvalueset = http://hl7.no/fhir/ValueSet/no-domain-vital-signs-observations-respirationrate-patternvalueset
 // Instances
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: $clinical-codes = http://acme.org/devices/clinical-codes

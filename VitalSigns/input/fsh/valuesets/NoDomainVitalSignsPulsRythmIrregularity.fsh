@@ -1,7 +1,7 @@
-ValueSet: NoDomainVitalSignsObservationHeartRhythmIrregularity 
-Id: NoDomainVitalSignsObservationHeartRhythmIrregularity 
-Title: "NoDomainVitalSignsObservationHeartRhythmIrregularity"
-Description: "Codes representing heart rhythm irregularity for heart rate"
+ValueSet: NoDomainVitalSignsObservationPulsRhythmIrregularity 
+Id: NoDomainVitalSignsObservationPulsRhythmIrregularity 
+Title: "NoDomainVitalSignsObservationPulsRhythmIrregularity"
+Description: "Codes representing heart rhythm irregularity for Puls"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -10,7 +10,7 @@ Description: "Codes representing heart rhythm irregularity for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
@@ -18,5 +18,5 @@ Description: "Codes representing heart rhythm irregularity for heart rate"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* SNOMED_CT#248652003 "Regelmessig uregelmessig"
-* SNOMED_CT#248651005 "Uregelmessig uregelmessig"
+* SNOMED_CT#271638000 "Regelmessig uregelmessig"
+* SNOMED_CT#271637005 "Uregelmessig uregelmessig"

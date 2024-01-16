@@ -16,5 +16,5 @@ Description: "Codes representing Respiration Spontaneous breathing"
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^publisher = "FHIR Project team"
+* SNOMED_CT#4891000202108 "Ikke observert"
 * SNOMED_CT#241700002 "Tilstede"
-* SNOMED_CT#1081891000202100 "Fraværende"

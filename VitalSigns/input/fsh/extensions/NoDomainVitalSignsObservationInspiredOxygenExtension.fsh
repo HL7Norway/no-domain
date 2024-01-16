@@ -13,16 +13,6 @@ Description: "Details of the amount of oxygen available to the subject at the ti
     ProsentO2 named ProsentO2 0..1 and
     OnAir named OnAir 0..1 and
     MethodofOxygenDelivery named MethodofOxygenDelivery 0..1
-// * extension[oxygenAdministrationMethod] ^short = "http://dips.no/fhir/StructureDefinition/oxygenAdministrationMethod"
-// * extension[oxygenAdministrationMethod].value[x] only string
-// * extension[Flow] ^short = "http://dips.no/fhir/StructureDefinition/Flow"
-// * extension[Flow].value[x] only Quantity
-// * extension[FiO2] ^short = "http://dips.no/fhir/StructureDefinition/FiO2"
-// * extension[FiO2].value[x] only Ratio
-// * extension[FiO2] ^short = "http://dips.no/fhir/StructureDefinition/FiO2"
-// * extension[ProsentO2].value[x] only Ratio
-// * extension[onAir] ^short = "http://dips.no/fhir/StructureDefinition/onAir"
-// * extension[onAir].value[x] only boolean
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
 
 

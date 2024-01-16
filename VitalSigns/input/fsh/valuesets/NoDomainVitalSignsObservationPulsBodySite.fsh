@@ -1,6 +1,6 @@
-ValueSet: NoDomainVitalSignsObservationHeartRateBodySite 
-Id: NoDomainVitalSignsObservationHeartRateBodySite 
-Title: "NoDomainVitalSignsObservationHeartRateBodySite"
+ValueSet: NoDomainVitalSignsObservationPulsBodySite 
+Id: NoDomainVitalSignsObservationPulsBodySite 
+Title: "NoDomainVitalSignsObservationPulsBodySite"
 Description: "Codes representing body site for heart rate"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -10,7 +10,7 @@ Description: "Codes representing body site for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
@@ -18,4 +18,15 @@ Description: "Codes representing body site for heart rate"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* SNOMED_CT#80891009 "Hjerte"
+* SNOMED_CT#723962009 "Brachialisarterien, høyre"
+* SNOMED_CT#723961002 "Brachialisarterien, venstre"
+* SNOMED_CT#721033002 "Carotisarterien, høyre"
+* SNOMED_CT#721028001 "Carotisarterien, venstre"
+* SNOMED_CT#69833005 "Femoralisarterien, høyre"
+* SNOMED_CT#113270003 "Femoralisarterien, venstre"
+* SNOMED_CT#7569003 "Finger"
+* SNOMED_CT#48800003 "Øreflipp"
+* SNOMED_CT#368503001 "Radialisarterien, høyre"
+* SNOMED_CT#368504007 "Radialisarterien, venstre"
+* SNOMED_CT#29707007 "Tå"
+

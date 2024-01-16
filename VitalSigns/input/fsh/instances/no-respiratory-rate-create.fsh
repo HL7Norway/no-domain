@@ -4,8 +4,6 @@ Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "META_VISION"
-// * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-// * identifier.value = "External Id: testresprateExternalId7"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition"
 * extension[=].valueCoding.code = #10904000 
 * extension[=].valueCoding.system = $sct
@@ -40,18 +38,17 @@ Usage: #example
 * extension[=].extension[=].valueString = "Maske"
 * status = #final
 * code = $loinc#9279-1 "Respiratory rate"
-* category = $observation-category#vital-signs "vital-signs"
-* subject = Reference(Patient/cdp1000239)
-* subject.identifier.system = "http://dips.no/fhir/namingsystem/dips-patientid"
-* subject.identifier.value = "1000239"
-* encounter = Reference(Encounter/agy1000245)
+* category = $observation-category#vital-signs "Vital Signs"
+* subject = Reference(Patient/cdp1000240)
+* subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
+* subject.identifier.value = "1000240"
 * effectiveDateTime = "2021-05-10"
-* performer[0] = Reference(Practitioner/agb27)
+* performer[0] = Reference(PractitionerRole/agb30)
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
-* performer[=].identifier.value = "27"
-* performer[+] = Reference(Organization/afa22)
+* performer[=].identifier.value = "30"
+* performer[+] = Reference(Organization/afa23)
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
-* performer[=].identifier.value = "22"
+* performer[=].identifier.value = "23"
 * interpretation.text = "Clinical interpretation of Respiration"
 * note.text = "Demo Respiration"
 * valueQuantity = 14 '/min' "/min"
