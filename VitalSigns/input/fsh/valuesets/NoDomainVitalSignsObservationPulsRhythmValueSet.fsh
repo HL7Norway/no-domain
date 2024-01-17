@@ -1,7 +1,7 @@
 ValueSet: NoDomainVitalSignsObservationPulsRhythm 
 Id: NoDomainVitalSignsObservationPulsRhythm 
-Title: "NoDomainVitalSignsObservationHeartRhythm"
-Description: "Codes representing heart rhythm for heart rate"
+Title: "NoDomainVitalSignsObservationPulsRhythm"
+Description: "Codes representing  rhythm of Puls"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
