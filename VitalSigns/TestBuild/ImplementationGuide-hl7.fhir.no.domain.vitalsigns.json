@@ -9,7 +9,7 @@
   "version" : "0.6.0",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-01-17T07:05:53+00:00",
+  "date" : "2024-01-17T08:45:20+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1148,18 +1148,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythm"
-      },
-      "name" : "NoDomainVitalSignsObservationHeartRhythm",
-      "description" : "Codes representing heart rhythm for heart rate",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1215,6 +1203,18 @@
       },
       "name" : "NoDomainVitalSignsObservationPulsRhythm",
       "description" : "Regularity of the pulse or heart beat.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythm"
+      },
+      "name" : "NoDomainVitalSignsObservationPulsRhythm",
+      "description" : "Codes representing  rhythm of Puls",
       "exampleBoolean" : false
     },
     {

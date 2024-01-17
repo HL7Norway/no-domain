@@ -9,7 +9,7 @@
   <version value="0.6.0"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-01-17T07:05:53+00:00"/>
+  <date value="2024-01-17T08:45:20+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -949,17 +949,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationHeartRhythm"/>
-      <description value="Codes representing heart rhythm for heart rate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1011,6 +1000,17 @@
       </reference>
       <name value="NoDomainVitalSignsObservationPulsRhythm"/>
       <description value="Regularity of the pulse or heart beat."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPulsRhythm"/>
+      <description value="Codes representing  rhythm of Puls"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-17T07:05:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-17T08:45:20+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -1090,18 +1090,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm> ;
-         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsObservationPulsRhythm" ]
-       ] ;
-       fhir:name [ fhir:v "NoDomainVitalSignsObservationHeartRhythm" ] ;
-       fhir:description [ fhir:v "Codes representing heart rhythm for heart rate" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -1158,6 +1146,18 @@
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsObservationPulsRhythm" ] ;
        fhir:description [ fhir:v "Regularity of the pulse or heart beat." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm> ;
+         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsObservationPulsRhythm" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationPulsRhythm" ] ;
+       fhir:description [ fhir:v "Codes representing  rhythm of Puls" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
