@@ -9,7 +9,7 @@
   <version value="0.5.1"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-01-09T08:18:28+00:00"/>
+  <date value="2024-01-17T06:56:41+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -235,7 +235,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#current"/>
+      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -431,48 +431,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
-      </reference>
-      <name value="Codes representing Diastolic end point"/>
-      <description value="Codes representing Diastolic end point"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationClothingState"/>
-      </reference>
-      <name value="Codes representing level of clothing"/>
-      <description value="Codes representing level of clothing"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/agy1000245"/>
-      </reference>
-      <name value="Encounter details of agy1000245"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/agy1002679"/>
-      </reference>
-      <name value="Encounter details of agy1002679"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -573,10 +531,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulse"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPuls"/>
       </reference>
-      <name value="NO Domain VitalSigns Observation - Pulse"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse."/>
+      <name value="NO Domain VitalSigns Observation - Puls"/>
+      <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -655,10 +613,10 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/no-pulse-create"/>
+        <reference value="Observation/no-pulse-rate"/>
       </reference>
-      <name value="no-pulse-create"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"/>
+      <name value="no-pulse-rate"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPuls"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -669,6 +627,17 @@
       </reference>
       <name value="no-respiratory-rate-create"/>
       <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+      </reference>
+      <name value="NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+      <description value="Codes representing measurement method for blood pressurerate"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -837,6 +806,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationClothingState"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationClothingState"/>
+      <description value="Codes representing level of clothing"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -892,6 +872,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
+      <description value="Codes representing Diastolic end point"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -903,28 +894,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
-      <description value="The body position of the subject during the observation."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
-      <description value="Codes representing body position for heart rate"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -932,6 +901,28 @@
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
       <description value="Codes representing body site for heart rate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+      <description value="Record which Korotkoff sound is used for determining diastolic pressure using auscultative method."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+      <description value="Codes representing body position for heart rate"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -951,6 +942,17 @@
       </extension>
       <reference>
         <reference value="ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationHeartRhythm"/>
+      <description value="Codes representing heart rhythm for heart rate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRhythm"/>
       <description value="Codes representing heart rhythm for heart rate"/>
@@ -987,6 +989,50 @@
       </reference>
       <name value="NoDomainVitalSignsObservationInspiredOxygen"/>
       <description value="Details of the amount of oxygen available to the subject at the time of observation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulsBodySite"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPulsBodySite"/>
+      <description value="Codes representing body site for heart rate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulsRhythm"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPulsRhythm"/>
+      <description value="Regularity of the pulse or heart beat."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+      <description value="More specific pattern of an irregular pulse or heart beat."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+      <description value="Codes representing heart rhythm irregularity for Puls"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1101,6 +1147,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"/>
+      </reference>
+      <name value="NoDomainVitalSignsPulsMeasurmentMethod"/>
+      <description value="Codes representing measurement method for puls"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+      </reference>
+      <name value="NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+      <description value="Codes representing measurement method for HeartRate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1114,9 +1182,9 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/afa22"/>
+        <reference value="Organization/afa23"/>
       </reference>
-      <name value="Organization details of afa22"/>
+      <name value="Organization details of afa23"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1124,9 +1192,9 @@
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/cdp1000239"/>
+        <reference value="Patient/cdp1000240"/>
       </reference>
-      <name value="Patient details of cdp1000239"/>
+      <name value="Patient details of cdp1000240"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1134,9 +1202,9 @@
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/cdp1000807"/>
+        <reference value="Patient/cdp1000808"/>
       </reference>
-      <name value="Patient details of cdp1000807"/>
+      <name value="Patient details of cdp1000808"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1144,19 +1212,19 @@
         <valueString value="PractitionerRole"/>
       </extension>
       <reference>
-        <reference value="PractitionerRole/agb103"/>
+        <reference value="PractitionerRole/agb104"/>
       </reference>
-      <name value="Practioner details of agb103"/>
+      <name value="Practioner details of agb104"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
+        <valueString value="PractitionerRole"/>
       </extension>
       <reference>
-        <reference value="Practitioner/agb27"/>
+        <reference value="PractitionerRole/agb30"/>
       </reference>
-      <name value="Practioner details of agb27"/>
+      <name value="PractitionerRole details of agb30"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

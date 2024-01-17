@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "NoDomianVitalSignsObservationHeartRateMeasurementMethod"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>Auskultasjon</td></tr><tr><td><a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>Palpasjon</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.5.1"] ; # 
+  fhir:name [ fhir:v "NoDomianVitalSignsObservationHeartRateMeasurementMethod"] ; # 
+  fhir:title [ fhir:v "NoDomianVitalSignsObservationHeartRateMeasurementMethod"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-01-17T06:56:41+00:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Codes representing measurement method for HeartRate"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "37931006" ] ;
+         fhir:display [ fhir:v "Auskultasjon" ]
+       ] [
+         fhir:code [ fhir:v "113011001" ] ;
+         fhir:display [ fhir:v "Palpasjon" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

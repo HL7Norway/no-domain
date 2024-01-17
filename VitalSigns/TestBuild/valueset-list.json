@@ -1,6 +1,15 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+      "title" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+      "description" : "Codes representing measurement method for blood pressurerate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
       "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition",
       "version" : "0.5.1",
       "status" : "draft",
@@ -50,7 +59,7 @@
       "version" : "0.5.1",
       "status" : "draft",
       "name" : "NoDomainVitalSignsObservationClothingState",
-      "title" : "Codes representing level of clothing",
+      "title" : "NoDomainVitalSignsObservationClothingState",
       "description" : "Codes representing level of clothing",
       "systems" : ["http://snomed.info/sct"]
     },
@@ -68,17 +77,8 @@
       "version" : "0.5.1",
       "status" : "draft",
       "name" : "NoDomainVitalSignsObservationDiastolicendPoint",
-      "title" : "Codes representing Diastolic end point",
+      "title" : "NoDomainVitalSignsObservationDiastolicendPoint",
       "description" : "Codes representing Diastolic end point",
-      "systems" : ["http://snomed.info/sct"]
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "version" : "0.5.1",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "title" : "NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "description" : "Codes representing body position for heart rate",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -88,6 +88,15 @@
       "name" : "NoDomainVitalSignsObservationHeartRateBodySite",
       "title" : "NoDomainVitalSignsObservationHeartRateBodySite",
       "description" : "Codes representing body site for heart rate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "title" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "description" : "Codes representing body position for heart rate",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -106,6 +115,33 @@
       "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
       "title" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
       "description" : "Codes representing heart rhythm irregularity for heart rate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationPulsBodySite",
+      "title" : "NoDomainVitalSignsObservationPulsBodySite",
+      "description" : "Codes representing body site for heart rate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationPulsRhythm",
+      "title" : "NoDomainVitalSignsObservationHeartRhythm",
+      "description" : "Codes representing heart rhythm for heart rate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "title" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "description" : "Codes representing heart rhythm irregularity for Puls",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -151,6 +187,24 @@
       "name" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
       "title" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
       "description" : "Codes representing Respiration Spontaneous breathing",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulsMeasurmentMethod",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsPulsMeasurmentMethod",
+      "title" : "NoDomainVitalSignsPulsMeasurmentMethod",
+      "description" : "Codes representing measurement method for puls",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod",
+      "version" : "0.5.1",
+      "status" : "draft",
+      "name" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
+      "title" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
       "systems" : ["http://snomed.info/sct"]
     }
   ]

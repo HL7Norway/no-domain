@@ -238,11 +238,12 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-NoDomainVitalSignsObservationPulse.html"
-                     title="StructureDefinition/NoDomainVitalSignsObservationPulse">NO Domain VitalSigns Observation - Pulse</a>
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationPuls.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationPuls">NO Domain VitalSigns Observation - Puls</a>
                </td>
                <td>
-<p>Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse.</p>
+<p>Base profile for Norwegian Vital Signs Observation Heart Rate information.<br />
+Use to record the presence or absence of a pulse or heart beat.</p>
 </td>
             </tr>
             <tr>
@@ -429,11 +430,11 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRateBodyPosition.html"
-                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition">NoDomainVitalSignsObservationHeartRateBodyPosition</a>
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRatePulsBodyPosition.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition">NoDomainVitalSignsObservationHeartRatePulsBodyPosition</a>
                </td>
                <td>
-<p>The body position of the subject during the observation.</p>
+<p>Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.</p>
 </td>
             </tr>
             <tr>
@@ -461,6 +462,24 @@ Use to record the observed and measured characteristics of spontaneous breathing
                </td>
                <td>
 <p>Details of the amount of oxygen available to the subject at the time of observation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationPulsRhythm.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationPulsRhythm">NoDomainVitalSignsObservationPulsRhythm</a>
+               </td>
+               <td>
+<p>Regularity of the pulse or heart beat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationPulsRhythmIrregularity.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity">NoDomainVitalSignsObservationPulsRhythmIrregularity</a>
+               </td>
+               <td>
+<p>More specific pattern of an irregular pulse or heart beat.</p>
 </td>
             </tr>
             <tr>
@@ -539,20 +558,11 @@ Use to record the observed and measured characteristics of spontaneous breathing
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-NoDomainVitalSignsObservationDiastolicendPoint.html"
-                     title="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint">Codes representing Diastolic end point</a>
+                  <a href="ValueSet-NoDomainVitalSignObservationBloodPressureMeasurementMethod.html"
+                     title="ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod">NoDomainVitalSignObservationBloodPressureMeasurementMethod</a>
                </td>
                <td>
-<p>Codes representing Diastolic end point</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-NoDomainVitalSignsObservationClothingState.html"
-                     title="ValueSet/NoDomainVitalSignsObservationClothingState">Codes representing level of clothing</a>
-               </td>
-               <td>
-<p>Codes representing level of clothing</p>
+<p>Codes representing measurement method for blood pressurerate</p>
 </td>
             </tr>
             <tr>
@@ -602,6 +612,15 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationClothingState.html"
+                     title="ValueSet/NoDomainVitalSignsObservationClothingState">NoDomainVitalSignsObservationClothingState</a>
+               </td>
+               <td>
+<p>Codes representing level of clothing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-NoDomainVitalSignsObservationCuffsize.html"
                      title="ValueSet/NoDomainVitalSignsObservationCuffsize">NoDomainVitalSignsObservationCuffsize</a>
                </td>
@@ -611,11 +630,11 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRateBodyPosition.html"
-                     title="ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition">NoDomainVitalSignsObservationHeartRateBodyPosition</a>
+                  <a href="ValueSet-NoDomainVitalSignsObservationDiastolicendPoint.html"
+                     title="ValueSet/NoDomainVitalSignsObservationDiastolicendPoint">NoDomainVitalSignsObservationDiastolicendPoint</a>
                </td>
                <td>
-<p>Codes representing body position for heart rate</p>
+<p>Codes representing Diastolic end point</p>
 </td>
             </tr>
             <tr>
@@ -629,8 +648,26 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationHeartRatePulsBodyPosition.html"
+                     title="ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition">NoDomainVitalSignsObservationHeartRatePulsBodyPosition</a>
+               </td>
+               <td>
+<p>Codes representing body position for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-NoDomainVitalSignsObservationHeartRhythm.html"
                      title="ValueSet/NoDomainVitalSignsObservationHeartRhythm">NoDomainVitalSignsObservationHeartRhythm</a>
+               </td>
+               <td>
+<p>Codes representing heart rhythm for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationPulsRhythm.html"
+                     title="ValueSet/NoDomainVitalSignsObservationPulsRhythm">NoDomainVitalSignsObservationHeartRhythm</a>
                </td>
                <td>
 <p>Codes representing heart rhythm for heart rate</p>
@@ -643,6 +680,24 @@ Use to record the observed and measured characteristics of spontaneous breathing
                </td>
                <td>
 <p>Codes representing heart rhythm irregularity for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationPulsBodySite.html"
+                     title="ValueSet/NoDomainVitalSignsObservationPulsBodySite">NoDomainVitalSignsObservationPulsBodySite</a>
+               </td>
+               <td>
+<p>Codes representing body site for heart rate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsObservationPulsRhythmIrregularity.html"
+                     title="ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity">NoDomainVitalSignsObservationPulsRhythmIrregularity</a>
+               </td>
+               <td>
+<p>Codes representing heart rhythm irregularity for Puls</p>
 </td>
             </tr>
             <tr>
@@ -690,6 +745,24 @@ Use to record the observed and measured characteristics of spontaneous breathing
 <p>Codes representing Respiration Spontaneous breathing</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomainVitalSignsPulsMeasurmentMethod.html"
+                     title="ValueSet/NoDomainVitalSignsPulsMeasurmentMethod">NoDomainVitalSignsPulsMeasurmentMethod</a>
+               </td>
+               <td>
+<p>Codes representing measurement method for puls</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-NoDomianVitalSignsObservationHeartRateMeasurementMethod.html"
+                     title="ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod">NoDomianVitalSignsObservationHeartRateMeasurementMethod</a>
+               </td>
+               <td>
+<p>Codes representing measurement method for HeartRate</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -702,16 +775,6 @@ Use to record the observed and measured characteristics of spontaneous breathing
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Encounter-agy1000245.html" title="Encounter/agy1000245">Encounter details of agy1000245</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Encounter-agy1002679.html" title="Encounter/agy1002679">Encounter details of agy1002679</a>
-               </td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Observation-no-blood-pressure-create.html"
@@ -750,8 +813,7 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-no-pulse-create.html"
-                     title="Observation/no-pulse-create">no-pulse-create</a>
+                  <a href="Observation-no-pulse-rate.html" title="Observation/no-pulse-rate">no-pulse-rate</a>
                </td>
             </tr>
             <tr>
@@ -762,27 +824,27 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Organization-afa22.html" title="Organization/afa22">Organization details of afa22</a>
+                  <a href="Organization-afa23.html" title="Organization/afa23">Organization details of afa23</a>
                </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-cdp1000239.html" title="Patient/cdp1000239">Patient details of cdp1000239</a>
+                  <a href="Patient-cdp1000240.html" title="Patient/cdp1000240">Patient details of cdp1000240</a>
                </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-cdp1000807.html" title="Patient/cdp1000807">Patient details of cdp1000807</a>
+                  <a href="Patient-cdp1000808.html" title="Patient/cdp1000808">Patient details of cdp1000808</a>
                </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="PractitionerRole-agb103.html" title="PractitionerRole/agb103">Practioner details of agb103</a>
+                  <a href="PractitionerRole-agb104.html" title="PractitionerRole/agb104">Practioner details of agb104</a>
                </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Practitioner-agb27.html" title="Practitioner/agb27">Practioner details of agb27</a>
+                  <a href="PractitionerRole-agb30.html" title="PractitionerRole/agb30">PractitionerRole details of agb30</a>
                </td>
             </tr>
          </tbody>
@@ -812,7 +874,7 @@ Use to record the observed and measured characteristics of spontaneous breathing
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.5.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 9, 2024 08:18+0000">2024-01-09</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.5.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 17, 2024 06:56+0000">2024-01-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

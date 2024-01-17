@@ -9,7 +9,7 @@
   "version" : "0.5.1",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-01-09T08:18:28+00:00",
+  "date" : "2024-01-17T06:56:41+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -313,7 +313,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#current"
+      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
     },
     {
       "extension" : [{
@@ -582,52 +582,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"
-      },
-      "name" : "Codes representing Diastolic end point",
-      "description" : "Codes representing Diastolic end point",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationClothingState"
-      },
-      "name" : "Codes representing level of clothing",
-      "description" : "Codes representing level of clothing",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/agy1000245"
-      },
-      "name" : "Encounter details of agy1000245",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/agy1002679"
-      },
-      "name" : "Encounter details of agy1002679",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -737,10 +691,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulse"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPuls"
       },
-      "name" : "NO Domain VitalSigns Observation - Pulse",
-      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information. The rate and associated attributes for a pulse.",
+      "name" : "NO Domain VitalSigns Observation - Puls",
+      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a pulse or heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -827,10 +781,10 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/no-pulse-create"
+        "reference" : "Observation/no-pulse-rate"
       },
-      "name" : "no-pulse-create",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"
+      "name" : "no-pulse-rate",
+      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPuls"
     },
     {
       "extension" : [{
@@ -842,6 +796,18 @@
       },
       "name" : "no-respiratory-rate-create",
       "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"
+      },
+      "name" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+      "description" : "Codes representing measurement method for blood pressurerate",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1026,6 +992,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationClothingState"
+      },
+      "name" : "NoDomainVitalSignsObservationClothingState",
+      "description" : "Codes representing level of clothing",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1086,6 +1064,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"
+      },
+      "name" : "NoDomainVitalSignsObservationDiastolicendPoint",
+      "description" : "Codes representing Diastolic end point",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1098,30 +1088,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition"
-      },
-      "name" : "NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "description" : "The body position of the subject during the observation.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"
-      },
-      "name" : "NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "description" : "Codes representing body position for heart rate",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1129,6 +1095,30 @@
       },
       "name" : "NoDomainVitalSignsObservationHeartRateBodySite",
       "description" : "Codes representing body site for heart rate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+      },
+      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "description" : "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+      },
+      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "description" : "Codes representing body position for heart rate",
       "exampleBoolean" : false
     },
     {
@@ -1150,6 +1140,18 @@
       }],
       "reference" : {
         "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRhythm"
+      },
+      "name" : "NoDomainVitalSignsObservationHeartRhythm",
+      "description" : "Codes representing heart rhythm for heart rate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythm"
       },
       "name" : "NoDomainVitalSignsObservationHeartRhythm",
       "description" : "Codes representing heart rhythm for heart rate",
@@ -1189,6 +1191,54 @@
       },
       "name" : "NoDomainVitalSignsObservationInspiredOxygen",
       "description" : "Details of the amount of oxygen available to the subject at the time of observation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsBodySite"
+      },
+      "name" : "NoDomainVitalSignsObservationPulsBodySite",
+      "description" : "Codes representing body site for heart rate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulsRhythm"
+      },
+      "name" : "NoDomainVitalSignsObservationPulsRhythm",
+      "description" : "Regularity of the pulse or heart beat.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity"
+      },
+      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "description" : "More specific pattern of an irregular pulse or heart beat.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"
+      },
+      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "description" : "Codes representing heart rhythm irregularity for Puls",
       "exampleBoolean" : false
     },
     {
@@ -1314,6 +1364,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"
+      },
+      "name" : "NoDomainVitalSignsPulsMeasurmentMethod",
+      "description" : "Codes representing measurement method for puls",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"
+      },
+      "name" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1328,9 +1402,9 @@
         "valueString" : "Organization"
       }],
       "reference" : {
-        "reference" : "Organization/afa22"
+        "reference" : "Organization/afa23"
       },
-      "name" : "Organization details of afa22",
+      "name" : "Organization details of afa23",
       "exampleBoolean" : true
     },
     {
@@ -1339,9 +1413,9 @@
         "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "Patient/cdp1000239"
+        "reference" : "Patient/cdp1000240"
       },
-      "name" : "Patient details of cdp1000239",
+      "name" : "Patient details of cdp1000240",
       "exampleBoolean" : true
     },
     {
@@ -1350,9 +1424,9 @@
         "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "Patient/cdp1000807"
+        "reference" : "Patient/cdp1000808"
       },
-      "name" : "Patient details of cdp1000807",
+      "name" : "Patient details of cdp1000808",
       "exampleBoolean" : true
     },
     {
@@ -1361,20 +1435,20 @@
         "valueString" : "PractitionerRole"
       }],
       "reference" : {
-        "reference" : "PractitionerRole/agb103"
+        "reference" : "PractitionerRole/agb104"
       },
-      "name" : "Practioner details of agb103",
+      "name" : "Practioner details of agb104",
       "exampleBoolean" : true
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
+        "valueString" : "PractitionerRole"
       }],
       "reference" : {
-        "reference" : "Practitioner/agb27"
+        "reference" : "PractitionerRole/agb30"
       },
-      "name" : "Practioner details of agb27",
+      "name" : "PractitionerRole details of agb30",
       "exampleBoolean" : true
     },
     {

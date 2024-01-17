@@ -7,7 +7,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/10904000">10904000</a></td><td>Stående/Oppreist</td></tr><tr><td><a href="http://snomed.info/id/33586001">33586001</a></td><td>Sittende</td></tr><tr><td><a href="http://snomed.info/id/272580008">272580008</a></td><td>Tilbakelent</td></tr><tr><td><a href="http://snomed.info/id/40199007">40199007</a></td><td>Ryggleie</td></tr><tr><td><a href="http://snomed.info/id/1240000">1240000</a></td><td>Mageleie</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/1240000">1240000</a></td><td>Mageleie</td></tr><tr><td><a href="http://snomed.info/id/40199007">40199007</a></td><td>Ryggleie</td></tr><tr><td><a href="http://snomed.info/id/33586001">33586001</a></td><td>Sittende</td></tr><tr><td><a href="http://snomed.info/id/10904000">10904000</a></td><td>Stående/Oppreist</td></tr><tr><td><a href="http://snomed.info/id/272580008">272580008</a></td><td>Tilbakelent</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
@@ -38,24 +38,24 @@
     <include>
       <system value="http://snomed.info/sct"/>
       <concept>
-        <code value="10904000"/>
-        <display value="Stående/Oppreist"/>
-      </concept>
-      <concept>
-        <code value="33586001"/>
-        <display value="Sittende"/>
-      </concept>
-      <concept>
-        <code value="272580008"/>
-        <display value="Tilbakelent"/>
+        <code value="1240000"/>
+        <display value="Mageleie"/>
       </concept>
       <concept>
         <code value="40199007"/>
         <display value="Ryggleie"/>
       </concept>
       <concept>
-        <code value="1240000"/>
-        <display value="Mageleie"/>
+        <code value="33586001"/>
+        <display value="Sittende"/>
+      </concept>
+      <concept>
+        <code value="10904000"/>
+        <display value="Stående/Oppreist"/>
+      </concept>
+      <concept>
+        <code value="272580008"/>
+        <display value="Tilbakelent"/>
       </concept>
     </include>
   </compose>

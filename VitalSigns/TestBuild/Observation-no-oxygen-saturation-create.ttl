@@ -2,6 +2,7 @@
 @prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -20,7 +21,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-oxygen-saturation-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;no-oxygen-saturation-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html\">NO Domain VitalSigns Observation - Oxygen Saturation</a></p></div><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-Flow.html\">Flow</a></blockquote><p><b>value</b>: 6100 ml/min</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-FiO2.html\">FiO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-ProsentO2.html\">ProsentO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-OnAir.html\">OnAir</a></blockquote><p><b>value</b>: true</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-MethodofOxygenDelivery.html\">MethodofOxygenDelivery</a></blockquote><p><b>value</b>: Oxygen administration method</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs &quot;vital-signs&quot;)</span></p><p><b>code</b>: Pulse oximeter (physical object) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#2708-6)</span></p><p><b>subject</b>: <a href=\"Patient-cdp1000239.html\">Patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"Encounter-agy1000245.html\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span>id: 889911</span></li><li><a href=\"Organization-afa22.html\">Organization/afa22</a> &quot;Organization/afa22&quot;</li></ul><p><b>value</b>: 24 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code % = '%')</span></p><p><b>note</b>: Demo pulse oxymetri</p><p><b>bodySite</b>: Demo pulse oxymetri bodysite <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-oxygen-saturation-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;no-oxygen-saturation-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html\">NO Domain VitalSigns Observation - Oxygen Saturation</a></p></div><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-Flow.html\">Flow</a></blockquote><p><b>value</b>: 6100 ml/min</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-FiO2.html\">FiO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-ProsentO2.html\">ProsentO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-OnAir.html\">OnAir</a></blockquote><p><b>value</b>: true</p><blockquote><p><b>url</b></p><a href=\"StructureDefinition-MethodofOxygenDelivery.html\">MethodofOxygenDelivery</a></blockquote><p><b>value</b>: Oxygen administration method</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Oxygen saturation in Arterial blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#2708-6; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#431314004)</span></p><p><b>subject</b>: <a href=\"Patient-cdp1000240.html\">Patient/cdp1000240</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span>id: 889911</span></li><li><a href=\"Organization-afa23.html\">Organization/afa23</a></li></ul><p><b>value</b>: 24 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code % = '%')</span></p><p><b>note</b>: Demo pulse oxymetri</p><p><b>bodySite</b>: Demo pulse oxymetri bodysite <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></div>"
   ] ; # 
   fhir:extension ( [
      fhir:extension ( [
@@ -66,7 +67,7 @@
      fhir:coding ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "vital-signs" ] ;
-       fhir:display [ fhir:v "vital-signs" ]
+       fhir:display [ fhir:v "Vital Signs" ]
      ] ) ;
      fhir:text [ fhir:v "Vital Signs" ]
   ] ) ; # 
@@ -75,20 +76,20 @@
        a loinc:2708-6 ;
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "2708-6" ] ;
-       fhir:display [ fhir:v "Pulse oximeter (physical object)" ]
+       fhir:display [ fhir:v "Oxygen saturation in Arterial blood" ]
+     ] [
+       a sct:431314004 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "431314004" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.no/fhir/Patient/cdp1000239> ;
-     fhir:reference [ fhir:v "Patient/cdp1000239" ] ;
+     fhir:link <http://hl7.no/fhir/Patient/cdp1000240> ;
+     fhir:reference [ fhir:v "Patient/cdp1000240" ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "1000239" ]
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1000240" ]
      ]
-  ] ; # 
-  fhir:encounter [
-     fhir:link <http://hl7.no/fhir/Encounter/agy1000245> ;
-     fhir:reference [ fhir:v "Encounter/agy1000245" ]
   ] ; # 
   fhir:effective [ fhir:v "2021-05-10"^^xsd:date] ; # 
   fhir:performer ( [
@@ -97,11 +98,11 @@
        fhir:value [ fhir:v "889911" ]
      ]
   ] [
-     fhir:link <http://hl7.no/fhir/Organization/afa22> ;
-     fhir:reference [ fhir:v "Organization/afa22" ] ;
+     fhir:link <http://hl7.no/fhir/Organization/afa23> ;
+     fhir:reference [ fhir:v "Organization/afa23" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "22" ]
+       fhir:value [ fhir:v "23" ]
      ]
   ] ) ; # 
   fhir:value [

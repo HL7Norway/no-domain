@@ -138,8 +138,8 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition",
-      "title": "NoDomainVitalSignsObservationHeartRateBodyPosition",
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "title": "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
       "types": [
         "Coding"
       ]
@@ -212,6 +212,20 @@
         "UsageContext",
         "Dosage",
         "Meta"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulsRhythm",
+      "title": "NoDomainVitalSignsObservationPulsRhythm",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "title": "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "types": [
+        "Coding"
       ]
     },
     {
@@ -291,8 +305,8 @@
         "title": "NO Domain VitalSigns Observation - Oxygen Saturation"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse",
-        "title": "NO Domain VitalSigns Observation - Pulse"
+        "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPuls",
+        "title": "NO Domain VitalSigns Observation - Puls"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate",
@@ -349,13 +363,10 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDiastolicEndPoint": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRateBodyPosition": [
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm": [
@@ -365,6 +376,12 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulsRhythm": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth": [

@@ -1,11 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="92f6c7af-53df-45fb-bdc0-679e6b4095ef"/>
+  <id value="9fdb4b60-6884-4eb6-9508-a91cfc9ea6ba"/>
   <meta>
-    <lastUpdated value="2024-01-09T08:18:28.480+00:00"/>
+    <lastUpdated value="2024-01-17T06:56:41.413+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-129436005"> </a>  
+                  <a href="http://snomed.info/id/129436005">129436005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-129434008"> </a>  
+                  <a href="http://snomed.info/id/129434008">129434008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+        <version value="0.5.1"/>
+        <name value="NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+        <title value="NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:17e67387-c006-40a7-9e30-9a584f4f01e6"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="129436005"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="129434008"/>
+            <display value="Palpasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
     <resource>
@@ -39,11 +167,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-10904000"> </a>  
-                  <a href="http://snomed.info/id/10904000">10904000</a>
+                  <a name="http---snomed.info-sct-414585002"> </a>  
+                  <a href="http://snomed.info/id/414585002">414585002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Stående</td>
+                <td>Liggende lent mot venstre</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -55,19 +183,19 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stående</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-272580008"> </a>  
                   <a href="http://snomed.info/id/272580008">272580008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Tilbakelent</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-414585002"> </a>  
-                  <a href="http://snomed.info/id/414585002">414585002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Liggende lent mot venstre</td>
               </tr>
             </table>
           </div>
@@ -87,8 +215,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ab733e17-91d5-453c-ae7f-84057dae5dfd"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:e3275cd4-ad77-47fc-a4ca-84243ffe8194"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -112,8 +240,8 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="10904000"/>
-            <display value="Stående"/>
+            <code value="414585002"/>
+            <display value="Liggende lent mot venstre"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -122,13 +250,13 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="272580008"/>
-            <display value="Tilbakelent"/>
+            <code value="10904000"/>
+            <display value="Stående"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="414585002"/>
-            <display value="Liggende lent mot venstre"/>
+            <code value="272580008"/>
+            <display value="Tilbakelent"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -167,54 +295,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-368209003"> </a>  
-                  <a href="http://snomed.info/id/368209003">368209003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Overarm, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-368208006"> </a>  
-                  <a href="http://snomed.info/id/368208006">368208006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Overarm, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-11207009"> </a>  
-                  <a href="http://snomed.info/id/11207009">11207009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Lår, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-61396006"> </a>  
-                  <a href="http://snomed.info/id/61396006">61396006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Lår, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-9736006"> </a>  
-                  <a href="http://snomed.info/id/9736006">9736006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Håndledd, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-5951000"> </a>  
-                  <a href="http://snomed.info/id/5951000">5951000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Håndledd, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-6685009"> </a>  
                   <a href="http://snomed.info/id/6685009">6685009</a>
                 </td>
@@ -239,14 +319,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-29707007"> </a>  
-                  <a href="http://snomed.info/id/29707007">29707007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Tå</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-2402003"> </a>  
                   <a href="http://snomed.info/id/2402003">2402003</a>
                 </td>
@@ -255,11 +327,67 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-9736006"> </a>  
+                  <a href="http://snomed.info/id/9736006">9736006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-5951000"> </a>  
+                  <a href="http://snomed.info/id/5951000">5951000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-51114001"> </a>  
                   <a href="http://snomed.info/id/51114001">51114001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Intra-arterielt</td>
+                <td>Intraarterielt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-11207009"> </a>  
+                  <a href="http://snomed.info/id/11207009">11207009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-61396006"> </a>  
+                  <a href="http://snomed.info/id/61396006">61396006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368209003"> </a>  
+                  <a href="http://snomed.info/id/368209003">368209003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368208006"> </a>  
+                  <a href="http://snomed.info/id/368208006">368208006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tå</td>
               </tr>
             </table>
           </div>
@@ -279,8 +407,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:556adb54-276a-41cb-8b17-8891caae60ed"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:f16db60e-8e4e-48d0-be3d-bbed4a2bc7a2"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -304,36 +432,6 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="368209003"/>
-            <display value="Overarm, høyre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="368208006"/>
-            <display value="Overarm, venstre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="11207009"/>
-            <display value="Lår, høyre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="61396006"/>
-            <display value="Lår, venstre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="9736006"/>
-            <display value="Håndledd, høyre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="5951000"/>
-            <display value="Håndledd, venstre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="6685009"/>
             <display value="Ankel, høyre"/>
           </contains>
@@ -349,18 +447,48 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="29707007"/>
-            <display value="Tå"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="2402003"/>
             <display value="Fotrygg"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
+            <code value="9736006"/>
+            <display value="Håndledd, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5951000"/>
+            <display value="Håndledd, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
             <code value="51114001"/>
-            <display value="Intra-arterielt"/>
+            <display value="Intraarterielt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11207009"/>
+            <display value="Lår, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61396006"/>
+            <display value="Lår, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368209003"/>
+            <display value="Overarm, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368208006"/>
+            <display value="Overarm, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Tå"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -408,8 +536,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fb62b3e3-d26d-42e6-878e-d0d945c5eedc"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:491f4d6a-3c23-4c77-b060-f99e37a3962e"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="0"/>
           <parameter>
             <name value="excludeNested"/>
@@ -484,8 +612,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c0475c34-3b73-41ff-b416-a959eef1817a"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:4f29235a-9018-4777-a43a-593005494901"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -534,7 +662,7 @@
                 <li>SNOMED CT International edition 01-Sep 2023</li>
               </ul>
             </div>
-            <p>This value set contains 13 concepts</p>
+            <p>This value set contains 14 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -552,15 +680,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-34402009"> </a>  
-                  <a href="http://snomed.info/id/34402009">34402009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Endetarm</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-91470000"> </a>  
                   <a href="http://snomed.info/id/91470000">91470000</a>
                 </td>
@@ -570,20 +689,38 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-42859004"> </a>  
-                  <a href="http://snomed.info/id/42859004">42859004</a>
+                  <a name="http---snomed.info-sct-34402009"> </a>  
+                  <a href="http://snomed.info/id/34402009">34402009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Øre</td>
+                <td>Endetarm</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-52795006"> </a>  
-                  <a href="http://snomed.info/id/52795006">52795006</a>
+                  <a name="http---snomed.info-sct-39937001"> </a>  
+                  <a href="http://snomed.info/id/39937001">39937001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Panne</td>
+                <td>Hud</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-59820001"> </a>  
+                  <a href="http://snomed.info/id/59820001">59820001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intravaskulært</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-26893007"> </a>  
+                  <a href="http://snomed.info/id/26893007">26893007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lyske</td>
                 <td/>
               </tr>
               <tr>
@@ -606,29 +743,20 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-89837001"> </a>  
-                  <a href="http://snomed.info/id/89837001">89837001</a>
+                  <a name="http---snomed.info-sct-42859004"> </a>  
+                  <a href="http://snomed.info/id/42859004">42859004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Urinblære</td>
+                <td>Øre</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-59820001"> </a>  
-                  <a href="http://snomed.info/id/59820001">59820001</a>
+                  <a name="http---snomed.info-sct-52795006"> </a>  
+                  <a href="http://snomed.info/id/52795006">52795006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Intravaskulært</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-39937001"> </a>  
-                  <a href="http://snomed.info/id/39937001">39937001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hud</td>
+                <td>Panne</td>
                 <td/>
               </tr>
               <tr>
@@ -651,21 +779,30 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-26893007"> </a>  
-                  <a href="http://snomed.info/id/26893007">26893007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Lyske</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-450718002"> </a>  
                   <a href="http://snomed.info/id/450718002">450718002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Tinning</td>
                 <td>inactive</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-450721000"> </a>  
+                  <a href="http://snomed.info/id/450721000">450721000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tinning</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-89837001"> </a>  
+                  <a href="http://snomed.info/id/89837001">89837001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Urinblære</td>
+                <td/>
               </tr>
             </table>
           </div>
@@ -685,9 +822,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3bd05906-7772-4ab8-8e1c-706171f60697"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
-          <total value="13"/>
+          <identifier value="urn:uuid:16545917-bff7-4bee-bb60-937025f2e56a"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
+          <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -710,23 +847,28 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="34402009"/>
-            <display value="Endetarm"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="91470000"/>
             <display value="Armhule"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="42859004"/>
-            <display value="Øre"/>
+            <code value="34402009"/>
+            <display value="Endetarm"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="52795006"/>
-            <display value="Panne"/>
+            <code value="39937001"/>
+            <display value="Hud"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="59820001"/>
+            <display value="Intravaskulært"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26893007"/>
+            <display value="Lyske"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -740,18 +882,13 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="89837001"/>
-            <display value="Urinblære"/>
+            <code value="42859004"/>
+            <display value="Øre"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="59820001"/>
-            <display value="Intravaskulært"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="39937001"/>
-            <display value="Hud"/>
+            <code value="52795006"/>
+            <display value="Panne"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -765,14 +902,19 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="26893007"/>
-            <display value="Lyske"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <inactive value="true"/>
             <code value="450718002"/>
             <display value="Tinning"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="450721000"/>
+            <display value="Tinning"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="89837001"/>
+            <display value="Urinblære"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -808,7 +950,7 @@
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"/>
         <version value="0.5.1"/>
         <name value="NoDomainVitalSignsObservationClothingState"/>
-        <title value="Codes representing level of clothing"/>
+        <title value="NoDomainVitalSignsObservationClothingState"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -820,8 +962,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bd4afedd-55d6-4a14-ab34-980e07f69ae6"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:08db5e74-5948-48e5-a016-a0af4b71451a"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="0"/>
           <parameter>
             <name value="excludeNested"/>
@@ -857,7 +999,7 @@
                 <li>SNOMED CT International edition 01-Sep 2023</li>
               </ul>
             </div>
-            <p>This value set contains 4 concepts</p>
+            <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -869,36 +1011,6 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Inactive</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-720740000"> </a>  
-                  <a href="http://snomed.info/id/720740000">720740000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Lår voksne</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-720738005"> </a>  
-                  <a href="http://snomed.info/id/720738005">720738005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Store voksne</td>
-                <td>inactive</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-720739002"> </a>  
-                  <a href="http://snomed.info/id/720739002">720739002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Små voksne</td>
-                <td>inactive</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -907,7 +1019,22 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Barn</td>
-                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720740000"> </a>  
+                  <a href="http://snomed.info/id/720740000">720740000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår voksne</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720737000"> </a>  
+                  <a href="http://snomed.info/id/720737000">720737000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Små voksne</td>
               </tr>
             </table>
           </div>
@@ -927,9 +1054,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4a6887d4-4a1f-4872-8632-ce9796569b8c"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
-          <total value="4"/>
+          <identifier value="urn:uuid:a62f495e-59a7-4e5d-8b10-051a8fad5f7e"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
+          <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -952,25 +1079,18 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
+            <code value="720736009"/>
+            <display value="Barn"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
             <code value="720740000"/>
             <display value="Lår voksne"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <inactive value="true"/>
-            <code value="720738005"/>
-            <display value="Store voksne"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <inactive value="true"/>
-            <code value="720739002"/>
+            <code value="720737000"/>
             <display value="Små voksne"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="720736009"/>
-            <display value="Barn"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1006,7 +1126,7 @@
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
         <version value="0.5.1"/>
         <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
-        <title value="Codes representing Diastolic end point"/>
+        <title value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1018,8 +1138,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:333672c9-4b1f-4d28-8569-604931f7f9a3"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:5f05f9ae-1765-45e8-bb6b-ec3c299ea385"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="0"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1038,7 +1158,96 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-80891009"> </a>  
+                  <a href="http://snomed.info/id/80891009">80891009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hjerte</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <version value="0.5.1"/>
+        <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <title value="NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c027eee6-ace0-4354-bb6d-80206210a564"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="80891009"/>
+            <display value="Hjerte"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
     <resource>
       <ValueSet>
         <meta>
@@ -1070,19 +1279,19 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-10904000"> </a>  
-                  <a href="http://snomed.info/id/10904000">10904000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Stående</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-33586001"> </a>  
                   <a href="http://snomed.info/id/33586001">33586001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Sittende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stående</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1095,10 +1304,10 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
         <version value="0.5.1"/>
-        <name value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
-        <title value="NoDomainVitalSignsObservationHeartRateBodyPosition"/>
+        <name value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+        <title value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1110,8 +1319,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b3f73a35-8170-48ce-9c00-da40c54af252"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:d275e024-370b-4b35-912b-e8dc8a2564fd"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1135,13 +1344,13 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="10904000"/>
-            <display value="Stående"/>
+            <code value="33586001"/>
+            <display value="Sittende"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="33586001"/>
-            <display value="Sittende"/>
+            <code value="10904000"/>
+            <display value="Stående"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1153,7 +1362,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
     <resource>
       <ValueSet>
         <meta>
@@ -1170,7 +1379,7 @@
                 <li>SNOMED CT International edition 01-Sep 2023</li>
               </ul>
             </div>
-            <p>This value set contains 12 concepts</p>
+            <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1185,107 +1394,19 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-368504007"> </a>  
-                  <a href="http://snomed.info/id/368504007">368504007</a>
+                  <a name="http---snomed.info-sct-361137007"> </a>  
+                  <a href="http://snomed.info/id/361137007">361137007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Radialisarterien, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-368503001"> </a>  
-                  <a href="http://snomed.info/id/368503001">368503001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Radialisarterien, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-721028001"> </a>  
-                  <a href="http://snomed.info/id/721028001">721028001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Carotisarterien, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-721033002"> </a>  
-                  <a href="http://snomed.info/id/721033002">721033002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Carotisarterien, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-113270003"> </a>  
-                  <a href="http://snomed.info/id/113270003">113270003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Femoralisarterien, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-69833005"> </a>  
-                  <a href="http://snomed.info/id/69833005">69833005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Femoralisarterien, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-723962009"> </a>  
-                  <a href="http://snomed.info/id/723962009">723962009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Brachialisarterien, høyre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-723961002"> </a>  
-                  <a href="http://snomed.info/id/723961002">723961002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Brachialisarterien, venstre</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-7569003"> </a>  
-                  <a href="http://snomed.info/id/7569003">7569003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Finger</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-29707007"> </a>  
-                  <a href="http://snomed.info/id/29707007">29707007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Tå</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-48800003"> </a>  
-                  <a href="http://snomed.info/id/48800003">48800003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Øreflipp</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-364075005"> </a>  
-                  <a href="http://snomed.info/id/364075005">364075005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hjertet</td>
+                <td>Uregelmessig</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
         <version value="0.5.1"/>
-        <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
-        <title value="NoDomainVitalSignsObservationHeartRateBodySite"/>
+        <name value="NoDomainVitalSignsObservationHeartRhythm"/>
+        <title value="NoDomainVitalSignsObservationHeartRhythm"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1297,9 +1418,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5a67c138-2c1c-4ade-ba35-116712db89a9"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
-          <total value="12"/>
+          <identifier value="urn:uuid:dbf954f2-dcf2-4eda-894e-cd917708a11e"/>
+          <timestamp value="2024-01-17T06:57:25+00:00"/>
+          <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -1322,34 +1443,275 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="368504007"/>
-            <display value="Radialisarterien, venstre"/>
+            <code value="361137007"/>
+            <display value="Uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248652003"> </a>  
+                  <a href="http://snomed.info/id/248652003">248652003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Regelmessig uregelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248651005"> </a>  
+                  <a href="http://snomed.info/id/248651005">248651005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <version value="0.5.1"/>
+        <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <title value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f30d37f8-47af-42f0-9572-8f29815b67d7"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248652003"/>
+            <display value="Regelmessig uregelmessig"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="368503001"/>
-            <display value="Radialisarterien, høyre"/>
+            <code value="248651005"/>
+            <display value="Uregelmessig uregelmessig"/>
           </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="721028001"/>
-            <display value="Carotisarterien, venstre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="721033002"/>
-            <display value="Carotisarterien, høyre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="113270003"/>
-            <display value="Femoralisarterien, venstre"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="69833005"/>
-            <display value="Femoralisarterien, høyre"/>
-          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-723962009"> </a>  
+                  <a href="http://snomed.info/id/723962009">723962009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brachialisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-723961002"> </a>  
+                  <a href="http://snomed.info/id/723961002">723961002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brachialisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-721033002"> </a>  
+                  <a href="http://snomed.info/id/721033002">721033002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Carotisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-721028001"> </a>  
+                  <a href="http://snomed.info/id/721028001">721028001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Carotisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-69833005"> </a>  
+                  <a href="http://snomed.info/id/69833005">69833005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Femoralisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113270003"> </a>  
+                  <a href="http://snomed.info/id/113270003">113270003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Femoralisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7569003"> </a>  
+                  <a href="http://snomed.info/id/7569003">7569003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finger</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-48800003"> </a>  
+                  <a href="http://snomed.info/id/48800003">48800003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Øreflipp</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368503001"> </a>  
+                  <a href="http://snomed.info/id/368503001">368503001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Radialisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368504007"> </a>  
+                  <a href="http://snomed.info/id/368504007">368504007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Radialisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tå</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite"/>
+        <version value="0.5.1"/>
+        <name value="NoDomainVitalSignsObservationPulsBodySite"/>
+        <title value="NoDomainVitalSignsObservationPulsBodySite"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ad5fb531-f518-4d90-97ca-b1f151211219"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="723962009"/>
@@ -1362,13 +1724,28 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="7569003"/>
-            <display value="Finger"/>
+            <code value="721033002"/>
+            <display value="Carotisarterien, høyre"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="29707007"/>
-            <display value="Tå"/>
+            <code value="721028001"/>
+            <display value="Carotisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="69833005"/>
+            <display value="Femoralisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113270003"/>
+            <display value="Femoralisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1377,15 +1754,25 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="364075005"/>
-            <display value="Hjertet"/>
+            <code value="368503001"/>
+            <display value="Radialisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368504007"/>
+            <display value="Radialisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Tå"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
     <resource>
       <ValueSet>
         <meta>
@@ -1434,9 +1821,9 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
         <version value="0.5.1"/>
-        <name value="NoDomainVitalSignsObservationHeartRhythm"/>
+        <name value="NoDomainVitalSignsObservationPulsRhythm"/>
         <title value="NoDomainVitalSignsObservationHeartRhythm"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -1449,8 +1836,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:20dcae0c-93ad-4ce1-95d5-b78bd9db32e3"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:b6540942-d47c-43be-aaad-887ecc165396"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1487,7 +1874,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
     <resource>
       <ValueSet>
         <meta>
@@ -1536,10 +1923,10 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
         <version value="0.5.1"/>
-        <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-        <title value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
+        <name value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+        <title value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
@@ -1551,8 +1938,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4ba4a76a-02de-430e-9c65-59449fe13dfd"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:7f183198-3611-4168-a284-aee89ec0e7b8"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1621,27 +2008,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-10904000"> </a>  
-                  <a href="http://snomed.info/id/10904000">10904000</a>
+                  <a name="http---snomed.info-sct-1240000"> </a>  
+                  <a href="http://snomed.info/id/1240000">1240000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Stående/Oppreist</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-33586001"> </a>  
-                  <a href="http://snomed.info/id/33586001">33586001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Sittende</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-272580008"> </a>  
-                  <a href="http://snomed.info/id/272580008">272580008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Tilbakelent</td>
+                <td>Mageleie</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1653,11 +2024,27 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-1240000"> </a>  
-                  <a href="http://snomed.info/id/1240000">1240000</a>
+                  <a name="http---snomed.info-sct-33586001"> </a>  
+                  <a href="http://snomed.info/id/33586001">33586001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Mageleie</td>
+                <td>Sittende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stående/Oppreist</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-272580008"> </a>  
+                  <a href="http://snomed.info/id/272580008">272580008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tilbakelent</td>
               </tr>
             </table>
           </div>
@@ -1677,8 +2064,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:71b40ad9-170c-47aa-a59a-28214629545c"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:a0dbd142-6160-4402-bb77-b81e6a6f7d89"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1702,18 +2089,8 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="10904000"/>
-            <display value="Stående/Oppreist"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="33586001"/>
-            <display value="Sittende"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="272580008"/>
-            <display value="Tilbakelent"/>
+            <code value="1240000"/>
+            <display value="Mageleie"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1722,8 +2099,18 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="1240000"/>
-            <display value="Mageleie"/>
+            <code value="33586001"/>
+            <display value="Sittende"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Stående/Oppreist"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272580008"/>
+            <display value="Tilbakelent"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1762,6 +2149,14 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-289123006"> </a>  
+                  <a href="http://snomed.info/id/289123006">289123006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Dyp</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-301284009"> </a>  
                   <a href="http://snomed.info/id/301284009">301284009</a>
                 </td>
@@ -1775,14 +2170,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Overfladisk</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-289123006"> </a>  
-                  <a href="http://snomed.info/id/289123006">289123006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Dyp</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1810,8 +2197,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:53d1a5d0-0f6f-4d94-80f0-a0cbe24f6f40"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:37ff1e7d-ce4e-491e-820b-30f4d976bddf"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1835,6 +2222,11 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
+            <code value="289123006"/>
+            <display value="Dyp"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
             <code value="301284009"/>
             <display value="Normal"/>
           </contains>
@@ -1842,11 +2234,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="386616007"/>
             <display value="Overfladisk"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="289123006"/>
-            <display value="Dyp"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1922,8 +2309,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2184ff36-70f5-4253-b9c5-11dba40dbe49"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:7ec1ac92-b61b-4143-8f3f-8ee7bb8f5d02"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1992,19 +2379,19 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-248218005"> </a>  
-                  <a href="http://snomed.info/id/248218005">248218005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Våken</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-248220008"> </a>  
                   <a href="http://snomed.info/id/248220008">248220008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Sovende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248218005"> </a>  
+                  <a href="http://snomed.info/id/248218005">248218005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Våken</td>
               </tr>
             </table>
           </div>
@@ -2024,8 +2411,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cad61f5c-5885-46f5-bd10-b9c3f0a93331"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:88c519ab-fcc2-4b42-bd99-7acb8c4fefad"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2049,13 +2436,13 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="248218005"/>
-            <display value="Våken"/>
+            <code value="248220008"/>
+            <display value="Sovende"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="248220008"/>
-            <display value="Sovende"/>
+            <code value="248218005"/>
+            <display value="Våken"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2118,8 +2505,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4300ffcc-0868-4831-bc5c-8749d22d2c4f"/>
-          <timestamp value="2024-01-09T08:19:03+00:00"/>
+          <identifier value="urn:uuid:e2058488-4e44-43ad-84fb-5264662bdc0d"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2145,6 +2532,226 @@
             <system value="http://snomed.info/sct"/>
             <code value="241700002"/>
             <display value="Tilstede"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-129436005"> </a>  
+                  <a href="http://snomed.info/id/129436005">129436005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-129434008"> </a>  
+                  <a href="http://snomed.info/id/129434008">129434008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"/>
+        <version value="0.5.1"/>
+        <name value="NoDomainVitalSignsPulsMeasurmentMethod"/>
+        <title value="NoDomainVitalSignsPulsMeasurmentMethod"/>
+        <status value="draft"/>
+        <date value="2024-01-17T06:56:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d60d9c13-5a49-4377-9a80-099513f46e5b"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="129436005"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="129434008"/>
+            <display value="Palpasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-Sep 2023</li>
+              </ul>
+            </div>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+        <version value="0.5.1"/>
+        <name value="NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+        <title value="NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
+        <status value="draft"/>
+        <date value="2024-01-17T06:56:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9cac7a21-f98f-4ed5-bab7-e2779a22b03d"/>
+          <timestamp value="2024-01-17T06:57:26+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
           </contains>
         </expansion>
       </ValueSet>
