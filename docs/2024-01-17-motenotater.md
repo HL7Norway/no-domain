@@ -31,7 +31,7 @@ Marthe, LAN, Terje, Thomas.
    1. Intern kvalitetssikring sammen med arketypegjengen.  
    2. Arbeidsmøte med arketyper, gå igjennom alle profilene og verdisettene.  
 5. Thomas kaller inn til arbeidsmøte - Marthe, Terje, Arketypegjengen og LAN og meg Eventuelt med VKP folket.  
-6. Koder fra SNOMED (fra Marthe).
+6. Koder fra SNOMED (fra Marthe).  
 
 kode|begrep
 ---|---
@@ -45,10 +45,10 @@ kode|begrep
 
 ### Aksjoner
 
-**Marthe** oppretter SNOMED koder for [NoDomainVitalSignsObservationCuffsizeValueSet](https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationCuffsizeValueSet.fsh) (og eventuelt fjerner koden for medium voksen fra norsk ekstensjon).
-**Lars Andreas** legger inn riktige kodeverdier for [NoDomainVitalSignsObservationCuffsizeValueSet](https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationCuffsizeValueSet.fsh) når vi har alle vi trenger i den norske ekstensjonen.
-**Thomas** Sjekker status på byggeverktøy og mulighet til å knytte bygg til flere terminologitjenere. Eventuelt andre metoder å få ekspandert koder fra nasjonale ekstensjoner av SNOMED.
-**Lars Andreas** fikser tekst for pulse profilen (den beskriver nå heart rate).
-**Lars andreas** legger til kode for "Dorsalis pedis" i (NoDomainVitalSignsObservationPulsBodySite)[https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationPulsBodySite.fsh].
-**Thomas** Kontakter VKP om synk av profilene for vitale parametere med no-domain.
-**Thomas** Kaller inn til arbeidsmøte for kvalitetssikring av profilene/verdisettene. Marthe, Terje, Arketypegjengen og LAN og meg + Eventuelt med VKP folket.
+**Marthe** oppretter SNOMED koder for [NoDomainVitalSignsObservationCuffsizeValueSet](https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationCuffsizeValueSet.fsh) (og eventuelt fjerner koden for medium voksen fra norsk ekstensjon).  
+**Lars Andreas** legger inn riktige kodeverdier for [NoDomainVitalSignsObservationCuffsizeValueSet](https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationCuffsizeValueSet.fsh) når vi har alle vi trenger i den norske ekstensjonen.  
+**Thomas** Sjekker status på byggeverktøy og mulighet til å knytte bygg til flere terminologitjenere. Eventuelt andre metoder å få ekspandert koder fra nasjonale ekstensjoner av SNOMED.  
+**Lars Andreas** fikser tekst for pulse profilen (den beskriver nå heart rate).  
+**Lars andreas** legger til kode for *Dorsalis pedis* i (NoDomainVitalSignsObservationPulsBodySite)[https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationPulsBodySite.fsh].  
+**Thomas** Kontakter VKP om synk av profilene for vitale parametere med no-domain.  
+**Thomas** Kaller inn til arbeidsmøte for kvalitetssikring av profilene/verdisettene. Marthe, Terje, Arketypegjengen og LAN og meg + Eventuelt med VKP folket.  
