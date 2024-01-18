@@ -31,7 +31,17 @@ Marthe, LAN, Terje, Thomas.
    1. Intern kvalitetssikring sammen med arketypegjengen.  
    2. Arbeidsmøte med arketyper, gå igjennom alle profilene og verdisettene.  
 5. Thomas kaller inn til arbeidsmøte - Marthe, Terje, Arketypegjengen og LAN og meg Eventuelt med VKP folket.  
-6. Eventuelt  
+6. Koder fra SNOMED (fra Marthe).
+
+kode|begrep
+---|---
+720737000 |Blood pressure cuff, adult size (physical object)
+720740000 |Blood pressure cuff, adult thigh type (physical object)
+720736009 |Blood pressure cuff, pediatric size (physical object)
+4241000202102 |Blodtrykksmansjett medium voksenstørrelse
+4231000202108 |Blodtrykksmansjett neonatal størrelse
+4281000202107 |Blodtrykksmansjett spedbarnstørrelse
+86547008 |Structure of dorsalis pedis artery (body structure)
 
 ### Aksjoner
 
