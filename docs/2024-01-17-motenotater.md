@@ -25,6 +25,7 @@ Marte, LAN, Terje, Thomas.
    3. Pulse og heart rate profil, beskrivelse av hva som er pulse.  
       1. Sette opp en oversikt over hvor i hierarkiet de kodene ligger i forhold til hverandre, sjekk også mot SNOMED/LOINC mappingen som er publisert internasjonalt.
       2. "Dorsalis pedis" mangler for pulseBodySite verdisettet.  
+   4. Bug på profilene for NoDomainVitalSignsPulsMeasurmentMethod og NoDomianVitalSignsObservationHeartRateMeasurementMethod i qa rapporten fra byggeprosessen.
 2. Hva gjør vi videre med QA og publisering av profilene.  
 3. Viktig med integrasjon med vitale parametere i VKP.  
 4. Bugfix - og så pull request til master.  
@@ -51,4 +52,5 @@ kode|begrep
 **Lars Andreas** fikser tekst for pulse profilen (den beskriver nå heart rate).  
 **Lars andreas** legger til kode for *Dorsalis pedis* i (NoDomainVitalSignsObservationPulsBodySite)[https://github.com/HL7Norway/no-domain/blob/feature/lan09012024/VitalSigns/input/fsh/valuesets/NoDomainVitalSignsObservationPulsBodySite.fsh].  
 **Thomas** Kontakter VKP om synk av profilene for vitale parametere med no-domain.  
-**Thomas** Kaller inn til arbeidsmøte for kvalitetssikring av profilene/verdisettene. Marte, Terje, Arketypegjengen og LAN og meg + Eventuelt med VKP folket.  
+**Thomas** Kaller inn til arbeidsmøte for kvalitetssikring av profilene/verdisettene. Marte, Terje, Arketypegjengen og LAN og meg + Eventuelt med VKP folket. 
+**Thomas** Fikse byggefeil på oDomainVitalSignsPulsMeasurmentMethod og NoDomianVitalSignsObservationHeartRateMeasurementMethod.  
