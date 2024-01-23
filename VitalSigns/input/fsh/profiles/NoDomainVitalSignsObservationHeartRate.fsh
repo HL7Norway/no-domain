@@ -55,5 +55,5 @@ Use to record the presence or absence of a pulse or heart beat."""
 * code.coding[HearRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[HearRateSNOMEDCode].code 1..
 * code.coding[HearRateSNOMEDCode].code = #364075005 (exactly)
-* method from NoDomianVitalSignsObservationHeartRateMeasurementMethod (extensible)
-* method.coding from NoDomianVitalSignsObservationHeartRateMeasurementMethod (extensible)
+* method from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)
+* method.coding from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)

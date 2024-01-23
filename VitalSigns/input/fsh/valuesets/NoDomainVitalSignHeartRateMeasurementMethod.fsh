@@ -1,6 +1,6 @@
-ValueSet : NoDomianVitalSignsObservationHeartRateMeasurementMethod
-Id: NoDomianVitalSignsObservationHeartRateMeasurementMethod 
-Title: "NoDomianVitalSignsObservationHeartRateMeasurementMethod"
+ValueSet : NoDomainVitalSignsObservationHeartRateMeasurementMethod
+Id: NoDomainVitalSignsObservationHeartRateMeasurementMethod 
+Title: "NoDomainVitalSignsObservationHeartRateMeasurementMethod"
 Description: "Codes representing measurement method for HeartRate"
 * ^meta.lastUpdated = "2024-01-18T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -10,7 +10,7 @@ Description: "Codes representing measurement method for HeartRate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"
 * ^version = "0.5.0"
 * ^status = #draft
 * ^experimental = false
