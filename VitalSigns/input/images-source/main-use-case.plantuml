@@ -8,18 +8,18 @@ note "Source of information outside\nthe clinicians organization" as source
 "Clinician" as kliniker
 
 'rectangle "test" as rect {
-"search for information" as (søke) #lightblue
+"search for information" as (soke) #lightblue
 "indexing" as (indeksere)
 "read information" as (lese) #lightblue
 "share information" as (dele) #lightblue
 
-(søke) -down[hidden]- (lese)
+(soke) -down[hidden]- (lese)
 (indeksere) -down[hidden]- (dele)
 "External source" as applikasjon
 applikasjon -left-> indeksere
 applikasjon -left-> dele
 dele -left- lese
-indeksere -left- søke
+indeksere -left- soke
 source -down- applikasjon
 '}
 'actor "Pasient" as pasient 
@@ -29,7 +29,7 @@ source -down- applikasjon
 'kliniker -[hidden]right- api
 'api -[hidden]right- pasient
 
-kliniker -up-> søke
+kliniker -up-> soke
 'søke <-down- pasient
 
 kliniker -right-> (lese)
