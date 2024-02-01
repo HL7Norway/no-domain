@@ -5,7 +5,7 @@ Usage: #example
 * meta.versionId = "0"
 * meta.source = "META_VISION"
 * extension[bodyExposure].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"
-* extension[bodyExposure].valueCoding.code = #518523001
+* extension[bodyExposure].valueCoding.code = #5671000202107
 * extension[bodyExposure].valueCoding.system = $sct
 * extension[bodyExposure].valueCoding.display = "Naken"
 * extension[activeHeating].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"
