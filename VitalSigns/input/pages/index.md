@@ -2,11 +2,11 @@
 
 The *Norwegian national vital signs profiles* have been designed for exchange of the most important [vital signs](https://en.wikipedia.org/wiki/Vital_signs) between systems, devices, and healthcare organizations in the national Norwegian healthcare system.
 
-{% include main-use-case.svg %}
+<div>{% include main-use-case.svg %}</div>
 
 The initiative for the development of the profiles came from the regional health authority for Northern Norway (Helse Nord RHF) for the use case of exchanging the most commonly needed vital signs between an electronic charting and medication system, and the core electronic healthcare record (EHR) and patient management system. Additional initial use cases included exchanging vital signs between the EHR and the radiology system (RIS/PACS), neonatal and neonatal intensive care (NICU) system, the pharmacy and medication production system, and entry and lookup through multiple specialized mobile applications for bedside use. In the subsequent development of the profiles uses cases for home monitoring of patients, patient-provided data (e.g. from smartwatches or other personal health devices), and exchange between healthcare organizations (primary care, specialists, hospitals, and care homes, etc.) have been considered. National quality and research registries have been identified as a possible future use case.
 
-{% include verdikjede-vitalsigns.svg %}
+<div>{% include verdikjede-vitalsigns.svg %}</div>
 
 The profiles have been developed limited by the principle that all profiles should derive from the [international vital signs profiles](http://hl7.org/fhir/vitalsigns.html) provided by HL7 International and then constrain or extend these as needed. Additionally, as Norway has adopted [SNOMED CT](https://www.snomed.org) as the standard healthcare related terminology system, the development has adopted the constraint that all ValueSets, "Magic Value", and model bindings should be expressed as SNOMED CT pre-coordinated codes.
 
