@@ -1,0 +1,43 @@
+@startuml
+!include <archimate/Archimate>
+skinparam linetype ortho
+
+'archimate #Motivation "Samhandlings-\nbehov" as behov <<requirement>>
+archimate #Business "Patient" as patient <<actor>>
+
+rectangle "Organization" {
+ archimate #Business "Application" as app1 <<service>>
+ archimate #Business "Practitioner" as pract1 <<actor>>
+ archimate #Business "Repository" as repo <<service>>
+ archimate #Business "Device" as device <<service>>
+ archimate #Business "Gateway" as gw <<service>>
+ archimate #Business "Observation\nVital signs" as obs <<object>>
+}
+
+archimate #Business "National\nservice" as pmd <<service>>
+
+rectangle "Receiving\nOrganization" as receiver {
+archimate #Business "Practitioner" as pract2 <<actor>>
+archimate #Business "Application" as app2 <<service>>
+}
+
+rectangle "Receiving\nOrganization2" as receiver2 {
+archimate #Business "Application" as app3 <<service>>
+archimate #Business "Practitioner" as pract3 <<actor>>
+pract3 <-right- app3
+}
+
+patient - obs
+obs <-[dotted] device
+device <- gw
+gw <- repo
+repo <- app1
+'repo <-- app2
+repo -down-> pmd
+pmd -left[hidden]- receiver
+app1 -> pract1
+app2 -> pract2
+repo -down-> app2
+app3 <-right- pmd
+
+@enduml

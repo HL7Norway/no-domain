@@ -1,0 +1,53 @@
+@startuml
+
+'note "Vitale parametere" as app
+'note "Presentert av applikasjon" as presentasjon
+'note "Assistanse for dokumentasjon\nog koding fra applikasjon" as dokumentasjon
+note "Source of information outside\nthe clinicians organization" as source
+
+"Clinician" as kliniker
+
+'rectangle "test" as rect {
+"search for information" as (søke) #lightblue
+"indexing" as (indeksere)
+"read information" as (lese) #lightblue
+"share information" as (dele) #lightblue
+
+(søke) -down[hidden]- (lese)
+(indeksere) -down[hidden]- (dele)
+"External source" as applikasjon
+applikasjon -left-> indeksere
+applikasjon -left-> dele
+dele -left- lese
+indeksere -left- søke
+source -down- applikasjon
+'}
+'actor "Pasient" as pasient 
+'[API] as api
+'"skrive informasjon" as (skrive) #lightblue
+
+'kliniker -[hidden]right- api
+'api -[hidden]right- pasient
+
+kliniker -up-> søke
+'søke <-down- pasient
+
+kliniker -right-> (lese)
+'(lese) <-right- pasient
+'kliniker -down-> (skrive)
+
+'pasient -left-> lese
+'pasient -[hidden]left-> skrive
+'pasient -down-> skrive
+
+'(søke) -down- app
+'app -down- (lese)
+'(lese) -right- app
+'app -down- pasient
+'skrive -down- dokumentasjon
+'lese -down- presentasjon
+
+'api .up. lese
+'api .down. skrive
+
+@enduml
