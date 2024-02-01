@@ -34,7 +34,7 @@ gw <- repo
 repo <- app1
 'repo <-- app2
 repo -down-> pmd
-pmd -left[hidden]- receiver
+pmd -left- receiver2
 app1 -> pract1
 app2 -> pract2
 repo -down-> app2
