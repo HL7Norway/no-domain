@@ -9,7 +9,7 @@
   "version" : "0.6.1",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-01-18T11:30:05+00:00",
+  "date" : "2024-02-01T08:55:26+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -670,7 +670,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRate"
       },
       "name" : "NO Domain VitalSigns Observation - Heart Rate",
-      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a pulse or heart beat.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -691,10 +691,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPuls"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulse"
       },
-      "name" : "NO Domain VitalSigns Observation - Puls",
-      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a pulse or heart beat.",
+      "name" : "NO Domain VitalSigns Observation - Pulse",
+      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information.",
       "exampleBoolean" : false
     },
     {
@@ -784,7 +784,7 @@
         "reference" : "Observation/no-pulse-rate"
       },
       "name" : "no-pulse-rate",
-      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPuls"
+      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"
     },
     {
       "extension" : [{
@@ -962,7 +962,19 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"
       },
       "name" : "NoDomainVitalSignsObservationCharacterOfHeartRate",
-      "description" : "Description of the character of the pulse or heart beat.",
+      "description" : "Description of the character of the  heart beat.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationCharacterOfPulse"
+      },
+      "name" : "NoDomainVitalSignsObservationCharacterOfPulse",
+      "description" : "Description of the character of the pulse.",
       "exampleBoolean" : false
     },
     {
@@ -1100,12 +1112,24 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"
+      },
+      "name" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
       },
-      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "name" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
       "description" : "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.",
       "exampleBoolean" : false
     },
@@ -1115,10 +1139,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
       },
-      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
-      "description" : "Codes representing body position for heart rate",
+      "name" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
+      "description" : "Codes representing body position for heart rate or Pulse",
       "exampleBoolean" : false
     },
     {
@@ -1130,7 +1154,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"
       },
       "name" : "NoDomainVitalSignsObservationHeartRhythm",
-      "description" : "Regularity of the pulse or heart beat.",
+      "description" : "Regularity of the  heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -1154,7 +1178,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
       },
       "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-      "description" : "More specific pattern of an irregular pulse or heart beat.",
+      "description" : "More specific pattern of an irregular heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -1187,10 +1211,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsBodySite"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulseBodySite"
       },
-      "name" : "NoDomainVitalSignsObservationPulsBodySite",
-      "description" : "Codes representing body site for heart rate",
+      "name" : "NoDomainVitalSignsObservationPulseBodySite",
+      "description" : "Codes representing body site for pulse",
       "exampleBoolean" : false
     },
     {
@@ -1199,10 +1223,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulsRhythm"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulseRhythm"
       },
-      "name" : "NoDomainVitalSignsObservationPulsRhythm",
-      "description" : "Regularity of the pulse or heart beat.",
+      "name" : "NoDomainVitalSignsObservationPulseRhythm",
+      "description" : "Regularity of the pulse",
       "exampleBoolean" : false
     },
     {
@@ -1211,10 +1235,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythm"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulseRhythm"
       },
-      "name" : "NoDomainVitalSignsObservationPulsRhythm",
-      "description" : "Codes representing  rhythm of Puls",
+      "name" : "NoDomainVitalSignsObservationPulseRhythm",
+      "description" : "Codes representing  rhythm of Pulse",
       "exampleBoolean" : false
     },
     {
@@ -1223,9 +1247,9 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulseRhythmIrregularity"
       },
-      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "name" : "NoDomainVitalSignsObservationPulseRhythmIrregularity",
       "description" : "More specific pattern of an irregular pulse or heart beat.",
       "exampleBoolean" : false
     },
@@ -1235,10 +1259,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity"
       },
-      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
-      "description" : "Codes representing heart rhythm irregularity for Puls",
+      "name" : "NoDomainVitalSignsObservationPulseRhythmIrregularity",
+      "description" : "Codes representing heart rhythm irregularity for Pulse",
       "exampleBoolean" : false
     },
     {
@@ -1367,22 +1391,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"
+        "reference" : "ValueSet/NoDomainVitalSignsPulseMeasurmentMethod"
       },
-      "name" : "NoDomainVitalSignsPulsMeasurmentMethod",
-      "description" : "Codes representing measurement method for puls",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"
-      },
-      "name" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
-      "description" : "Codes representing measurement method for HeartRate",
+      "name" : "NoDomainVitalSignsPulseMeasurmentMethod",
+      "description" : "Codes representing measurement method for pulse",
       "exampleBoolean" : false
     },
     {

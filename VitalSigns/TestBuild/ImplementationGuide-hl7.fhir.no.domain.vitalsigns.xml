@@ -9,7 +9,7 @@
   <version value="0.6.1"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-01-18T11:30:05+00:00"/>
+  <date value="2024-02-01T08:55:26+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -512,7 +512,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRate"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Heart Rate"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a pulse or heart beat."/>
+      <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -531,10 +531,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationPuls"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulse"/>
       </reference>
-      <name value="NO Domain VitalSigns Observation - Puls"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a pulse or heart beat."/>
+      <name value="NO Domain VitalSigns Observation - Pulse"/>
+      <description value="Base profile for Norwegian Vital Signs Observation Pulse information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -616,7 +616,7 @@
         <reference value="Observation/no-pulse-rate"/>
       </reference>
       <name value="no-pulse-rate"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPuls"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -779,7 +779,18 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"/>
       </reference>
       <name value="NoDomainVitalSignsObservationCharacterOfHeartRate"/>
-      <description value="Description of the character of the pulse or heart beat."/>
+      <description value="Description of the character of the  heart beat."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationCharacterOfPulse"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationCharacterOfPulse"/>
+      <description value="Description of the character of the pulse."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -905,12 +916,23 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
+      <description value="Codes representing measurement method for HeartRate"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+      <name value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
       <description value="Record which Korotkoff sound is used for determining diastolic pressure using auscultative method."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -919,10 +941,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationHeartRatePulsBodyPosition"/>
-      <description value="Codes representing body position for heart rate"/>
+      <name value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
+      <description value="Codes representing body position for heart rate or Pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -933,7 +955,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"/>
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRhythm"/>
-      <description value="Regularity of the pulse or heart beat."/>
+      <description value="Regularity of the  heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -955,7 +977,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-      <description value="More specific pattern of an irregular pulse or heart beat."/>
+      <description value="More specific pattern of an irregular heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -985,10 +1007,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationPulsBodySite"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulseBodySite"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationPulsBodySite"/>
-      <description value="Codes representing body site for heart rate"/>
+      <name value="NoDomainVitalSignsObservationPulseBodySite"/>
+      <description value="Codes representing body site for pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -996,10 +1018,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulsRhythm"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulseRhythm"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationPulsRhythm"/>
-      <description value="Regularity of the pulse or heart beat."/>
+      <name value="NoDomainVitalSignsObservationPulseRhythm"/>
+      <description value="Regularity of the pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1007,10 +1029,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythm"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulseRhythm"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationPulsRhythm"/>
-      <description value="Codes representing  rhythm of Puls"/>
+      <name value="NoDomainVitalSignsObservationPulseRhythm"/>
+      <description value="Codes representing  rhythm of Pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1018,9 +1040,9 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+      <name value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
       <description value="More specific pattern of an irregular pulse or heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1029,10 +1051,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
+        <reference value="ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationPulsRhythmIrregularity"/>
-      <description value="Codes representing heart rhythm irregularity for Puls"/>
+      <name value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
+      <description value="Codes representing heart rhythm irregularity for Pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1150,21 +1172,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsPulsMeasurmentMethod"/>
+        <reference value="ValueSet/NoDomainVitalSignsPulseMeasurmentMethod"/>
       </reference>
-      <name value="NoDomainVitalSignsPulsMeasurmentMethod"/>
-      <description value="Codes representing measurement method for puls"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
-      </reference>
-      <name value="NoDomianVitalSignsObservationHeartRateMeasurementMethod"/>
-      <description value="Codes representing measurement method for HeartRate"/>
+      <name value="NoDomainVitalSignsPulseMeasurmentMethod"/>
+      <description value="Codes representing measurement method for pulse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td></tr><tr><td><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4231000202108\">4231000202108</a></td><td>Neonatal</td></tr><tr><td><a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>Små voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4281000202107\">4281000202107</a></td><td>Spedbarn</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td></tr><tr><td><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4231000202108\">4231000202108</a></td><td>Neonatal</td></tr><tr><td><a href=\"http://snomed.info/id/397641000202108\">397641000202108</a></td><td>Små voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4281000202107\">4281000202107</a></td><td>Spedbarn</td></tr><tr><td><a href=\"http://snomed.info/id/397631000202102\">397631000202102</a></td><td>Store voksne</td></tr><tr><td><a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>Voksne</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
@@ -58,11 +58,17 @@
          fhir:code [ fhir:v "4231000202108" ] ;
          fhir:display [ fhir:v "Neonatal" ]
        ] [
-         fhir:code [ fhir:v "720737000" ] ;
+         fhir:code [ fhir:v "397641000202108" ] ;
          fhir:display [ fhir:v "Små voksne" ]
        ] [
          fhir:code [ fhir:v "4281000202107" ] ;
          fhir:display [ fhir:v "Spedbarn" ]
+       ] [
+         fhir:code [ fhir:v "397631000202102" ] ;
+         fhir:display [ fhir:v "Store voksne" ]
+       ] [
+         fhir:code [ fhir:v "720737000" ] ;
+         fhir:display [ fhir:v "Voksne" ]
        ] )
      ] )
   ] . # 

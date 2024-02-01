@@ -121,16 +121,28 @@
       "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod",
       "version" : "0.6.1",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
-      "title" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition",
-      "description" : "Codes representing body position for heart rate",
+      "name" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
+      "title" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRatePulsBodyPosition.html" : "NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
+      "version" : "0.6.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
+      "title" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
+      "description" : "Codes representing body position for heart rate or Pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRatePulseBodyPosition.html" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm",
@@ -157,40 +169,40 @@
       "StructureDefinition-NoDomainVitalSignsObservationHeartRhythmIrregularity.html" : "NoDomainVitalSignsObservationHeartRhythmIrregularity"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseBodySite",
       "version" : "0.6.1",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationPulsBodySite",
-      "title" : "NoDomainVitalSignsObservationPulsBodySite",
-      "description" : "Codes representing body site for heart rate",
+      "name" : "NoDomainVitalSignsObservationPulseBodySite",
+      "title" : "NoDomainVitalSignsObservationPulseBodySite",
+      "description" : "Codes representing body site for pulse",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NoDomainVitalSignsObservationPuls.html" : "NO Domain VitalSigns Observation - Puls"
+      "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythm",
       "version" : "0.6.1",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationPulsRhythm",
-      "title" : "NoDomainVitalSignsObservationPulsRhythm",
-      "description" : "Codes representing  rhythm of Puls",
+      "name" : "NoDomainVitalSignsObservationPulseRhythm",
+      "title" : "NoDomainVitalSignsObservationPulseRhythm",
+      "description" : "Codes representing  rhythm of Pulse",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NoDomainVitalSignsObservationPulsRhythm.html" : "NoDomainVitalSignsObservationPulsRhythm"
+      "StructureDefinition-NoDomainVitalSignsObservationPulseRhythm.html" : "NoDomainVitalSignsObservationPulseRhythm"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythmIrregularity",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity",
       "version" : "0.6.1",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
-      "title" : "NoDomainVitalSignsObservationPulsRhythmIrregularity",
-      "description" : "Codes representing heart rhythm irregularity for Puls",
+      "name" : "NoDomainVitalSignsObservationPulseRhythmIrregularity",
+      "title" : "NoDomainVitalSignsObservationPulseRhythmIrregularity",
+      "description" : "Codes representing heart rhythm irregularity for Pulse",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NoDomainVitalSignsObservationPulsRhythmIrregularity.html" : "NoDomainVitalSignsObservationPulsRhythmIrregularity"
+      "StructureDefinition-NoDomainVitalSignsObservationPulseRhythmIrregularity.html" : "NoDomainVitalSignsObservationPulseRhythmIrregularity"
     },
     {
       "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition",
@@ -253,28 +265,16 @@
       "StructureDefinition-NoDomainVitalSignsObservationSpontaneousBreathing.html" : "NoDomainVitalSignsObservationSpontaneousBreathing"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulsMeasurmentMethod",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseMeasurmentMethod",
       "version" : "0.6.1",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsPulsMeasurmentMethod",
-      "title" : "NoDomainVitalSignsPulsMeasurmentMethod",
-      "description" : "Codes representing measurement method for puls",
+      "name" : "NoDomainVitalSignsPulseMeasurmentMethod",
+      "title" : "NoDomainVitalSignsPulseMeasurmentMethod",
+      "description" : "Codes representing measurement method for pulse",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-NoDomainVitalSignsObservationPuls.html" : "NO Domain VitalSigns Observation - Puls"
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomianVitalSignsObservationHeartRateMeasurementMethod",
-      "version" : "0.6.1",
-      "status" : "draft",
-      "name" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
-      "title" : "NoDomianVitalSignsObservationHeartRateMeasurementMethod",
-      "description" : "Codes representing measurement method for HeartRate",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
+      "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse"
     }
   ]
 }

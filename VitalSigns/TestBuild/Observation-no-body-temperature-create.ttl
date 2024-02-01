@@ -21,15 +21,15 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-body-temperature-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;no-body-temperature-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html\">NO Domain VitalSigns Observation - Body Temperature</a></p></div><p><b>NoDomainVitalSignsObservationBodyExposure</b>: Passende p�kledning/tildekking (Details: SNOMED CT code 5611000202100 = '5611000202100', stated as 'Passende p�kledning/tildekking')</p><p><b>NoDomainVitalSignsObservationActiveHeating</b>: active heating sample</p><p><b>NoDomainVitalSignsObservationDaysSinceMenstruationStart</b>: 12</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body temperature <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8310-5; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#276885007)</span></p><p><b>subject</b>: <span>id: 1000239</span></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span>id: 889911</span></li><li><a href=\"Organization-afa23.html\">Organization/afa23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code Cel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: Endetarm <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#34402009)</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"no-body-temperature-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;no-body-temperature-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html\">NO Domain VitalSigns Observation - Body Temperature</a></p></div><p><b>NoDomainVitalSignsObservationBodyExposure</b>: Naken (Details: SNOMED CT code 5671000202107 = '5671000202107', stated as 'Naken')</p><p><b>NoDomainVitalSignsObservationActiveHeating</b>: active heating sample</p><p><b>NoDomainVitalSignsObservationDaysSinceMenstruationStart</b>: 12</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body temperature <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8310-5; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#276885007)</span></p><p><b>subject</b>: <span><code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</span></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span><code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</span></li><li><a href=\"Organization-afa23.html\">Organization/afa23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code Cel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: Endetarm <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#34402009)</span></p></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Coding, sct:5611000202100 ;
+       a fhir:Coding, sct:5671000202107 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "5611000202100" ] ;
-       fhir:display [ fhir:v "Passende p�kledning/tildekking" ]
+       fhir:code [ fhir:v "5671000202107" ] ;
+       fhir:display [ fhir:v "Naken" ]
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"^^xsd:anyURI ] ;
@@ -42,8 +42,7 @@
   fhir:category ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "vital-signs" ] ;
-       fhir:display [ fhir:v "Vital Signs" ]
+       fhir:code [ fhir:v "vital-signs" ]
      ] )
   ] ) ; # 
   fhir:code [
