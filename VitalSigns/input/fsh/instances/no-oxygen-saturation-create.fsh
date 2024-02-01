@@ -19,8 +19,6 @@ Usage: #example
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery"
 * extension[=].extension[=].valueString = "Oxygen administration method"
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
-* category.text = "Vital Signs"
 * code = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * subject = Reference(Patient/cdp1000240)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"

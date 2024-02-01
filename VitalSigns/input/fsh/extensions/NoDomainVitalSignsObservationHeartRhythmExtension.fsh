@@ -1,6 +1,6 @@
 Extension: NoDomainVitalSignsObservationHeartRhythm
 Id: NoDomainVitalSignsObservationHeartRhythm
-Description: "Regularity of the pulse or heart beat."
+Description: "Regularity of the  heart beat."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"
 * ^version = "0.9.0000"
 * ^status = #draft

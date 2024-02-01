@@ -29,7 +29,7 @@ Usage: #example
 * code = $loinc#85354-9 
 * code.text = "BP pnl w all optional"
 
-* category = $observation-category#vital-signs "Vital Signs"
+//* category = $observation-category#vital-signs "Vital Signs"
 * subject = Reference(Patient/cdp1000808)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000808"
@@ -42,26 +42,26 @@ Usage: #example
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
 * performer[=].identifier.value = "23"
 * note.text = "Demo Blood Pressure"
-* bodySite = $sct#7569003 "Finger structure (body structure)"
+* bodySite.coding = $sct#7569003 "Finger"
 //* method = $sct#129436005 "Auscultation - action (qualifier value)"
-* component[0].code.coding[0] = $loinc#8480-6 "Systolic blood pressure"
-* component[=].code.coding[+] = $sct#4471000202106 "Systolic blood pressure"
-* component[=].valueQuantity = 123 'mm[Hg]' "mm[Hg]"
-* component[=].referenceRange.low.value = 120  
-* component[=].referenceRange.low.unit = "mm[Hg]"  
-* component[=].referenceRange.high.value = 139  
-* component[=].referenceRange.high.unit = "mm[Hg]"  
-* component[+].code.coding[0] = $loinc#8462-4 "Diastolic blood pressure"
-* component[=].code.coding[+] = $sct#4481000202108 "Diastolic blood pressure"
-* component[=].valueQuantity = 78 'mm[Hg]' "mm[Hg]"
-* component[=].referenceRange.low.value = 60  
-* component[=].referenceRange.low.unit = "mm[Hg]"  
-* component[=].referenceRange.high.value = 89  
-* component[=].referenceRange.high.unit = "mm[Hg]"
-* component[+].code.coding[0] = $loinc#8478-0 "BP mean"
-* component[=].code.coding[+] = $sct#4491000202105 "Mean arterial pressure (observable entity)"
-* component[=].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
-* component[=].referenceRange.low.value = 60  
-* component[=].referenceRange.low.unit = "mm[Hg]"  
-* component[=].referenceRange.high.value = 100  
-* component[=].referenceRange.high.unit = "mm[Hg]"
+* component[SystolicBP].code.coding[SBPCode] = $loinc#8480-6 "Systolic blood pressure"
+* component[SystolicBP].code.coding[SystolicSnomed] = $sct#4471000202106 "Systolic blood pressure"
+* component[SystolicBP].valueQuantity = 123 'mm[Hg]' "mm[Hg]"
+* component[SystolicBP].referenceRange.low.value = 120  
+* component[SystolicBP].referenceRange.low.unit = "mm[Hg]"  
+* component[SystolicBP].referenceRange.high.value = 139  
+* component[SystolicBP].referenceRange.high.unit = "mm[Hg]"  
+* component[DiastolicBP].code.coding[DBPCode] = $loinc#8462-4 "Diastolic blood pressure"
+* component[DiastolicBP].code.coding[DiastolicBPSnomed] = $sct#4481000202108 "Diastolic blood pressure"
+* component[DiastolicBP].valueQuantity = 78 'mm[Hg]' "mm[Hg]"
+* component[DiastolicBP].referenceRange.low.value = 60  
+* component[DiastolicBP].referenceRange.low.unit = "mm[Hg]"  
+* component[DiastolicBP].referenceRange.high.value = 89  
+* component[DiastolicBP].referenceRange.high.unit = "mm[Hg]"
+* component[MeanArterialPressure].code.coding[MAPCode] = $loinc#8478-0 "BP mean"
+* component[MeanArterialPressure].code.coding[MAPSnomedCode] = $sct#4491000202105 "Mean arterial pressure (observable entity)"
+* component[MeanArterialPressure].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
+* component[MeanArterialPressure].referenceRange.low.value = 60  
+* component[MeanArterialPressure].referenceRange.low.unit = "mm[Hg]"  
+* component[MeanArterialPressure].referenceRange.high.value = 100  
+* component[MeanArterialPressure].referenceRange.high.unit = "mm[Hg]"

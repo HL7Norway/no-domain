@@ -1,7 +1,7 @@
-ValueSet: NoDomainVitalSignsObservationPulsRhythm 
-Id: NoDomainVitalSignsObservationPulsRhythm 
-Title: "NoDomainVitalSignsObservationPulsRhythm"
-Description: "Codes representing  rhythm of Puls"
+ValueSet: NoDomainVitalSignsObservationPulseRhythm 
+Id: NoDomainVitalSignsObservationPulseRhythm 
+Title: "NoDomainVitalSignsObservationPulseRhythm"
+Description: "Codes representing  rhythm of Pulse"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -10,7 +10,7 @@ Description: "Codes representing  rhythm of Puls"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsRhythm"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythm"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

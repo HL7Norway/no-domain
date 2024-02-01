@@ -8,7 +8,7 @@ Usage: #example
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Stående"
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
+
 * code = $loinc#8302-2 "Body height"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"

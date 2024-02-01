@@ -1,7 +1,7 @@
-ValueSet: NoDomainVitalSignsObservationHeartRatePulsBodyPosition 
-Id: NoDomainVitalSignsObservationHeartRatePulsBodyPosition 
-Title: "NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
-Description: "Codes representing body position for heart rate"
+ValueSet: NoDomainVitalSignsObservationHeartRatePulseBodyPosition 
+Id: NoDomainVitalSignsObservationHeartRatePulseBodyPosition 
+Title: "NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
+Description: "Codes representing body position for heart rate or Pulse"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -10,7 +10,7 @@ Description: "Codes representing body position for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulsBodyPosition"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false

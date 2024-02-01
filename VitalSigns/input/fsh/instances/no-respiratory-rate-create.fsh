@@ -38,7 +38,6 @@ Usage: #example
 * extension[=].extension[=].valueString = "Maske"
 * status = #final
 * code = $loinc#9279-1 "Respiratory rate"
-* category = $observation-category#vital-signs "Vital Signs"
 * subject = Reference(Patient/cdp1000240)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000240"

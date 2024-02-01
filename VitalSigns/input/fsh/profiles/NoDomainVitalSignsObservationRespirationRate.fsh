@@ -15,7 +15,6 @@ Use to record the observed and measured characteristics of spontaneous breathing
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    //NoDomainVitalSignsObservationLevelOfExertion  named levelOfExertion 0..1 and
     NoDomainVitalSignsObservationRespirationRateBodyPosition  named bodyPosition 0..1 and
     NoDomainVitalSignsObservationRespirationRegularity  named respirationRegularity 0..1 and
     NoDomainVitalSignsObservationSpontaneousBreathing  named spontaneousBreathing 0..1 and

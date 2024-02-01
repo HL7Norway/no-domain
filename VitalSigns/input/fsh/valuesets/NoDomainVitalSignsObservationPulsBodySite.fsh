@@ -1,7 +1,7 @@
-ValueSet: NoDomainVitalSignsObservationPulsBodySite 
-Id: NoDomainVitalSignsObservationPulsBodySite 
-Title: "NoDomainVitalSignsObservationPulsBodySite"
-Description: "Codes representing body site for heart rate"
+ValueSet: NoDomainVitalSignsObservationPulseBodySite 
+Id: NoDomainVitalSignsObservationPulseBodySite 
+Title: "NoDomainVitalSignsObservationPulseBodySite"
+Description: "Codes representing body site for pulse"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -10,7 +10,7 @@ Description: "Codes representing body site for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulsBodySite"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseBodySite"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
@@ -29,4 +29,4 @@ Description: "Codes representing body site for heart rate"
 * SNOMED_CT#368503001 "Radialisarterien, høyre"
 * SNOMED_CT#368504007 "Radialisarterien, venstre"
 * SNOMED_CT#29707007 "Tå"
-
+* SNOMED_CT#86547008 "Dorsalis pedis"
