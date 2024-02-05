@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "NoDomainVitalSignsObservationClothingState",
+  "meta" : {
+    "lastUpdated" : "2021-03-17T00:00:00+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1081761000202100\">1081761000202100</a></td><td>Naken</td></tr><tr><td><a href=\"http://snomed.info/id/1081781000202100\">1081781000202100</a></td><td>Lette klær / undertøy</td></tr><tr><td><a href=\"http://snomed.info/id/1081791000202100\">1081791000202100</a></td><td>Fullt påkledt, uten sko</td></tr><tr><td><a href=\"http://snomed.info/id/1081801000202100\">1081801000202100</a></td><td>Fullt påkledt inklusive sko</td></tr><tr><td><a href=\"http://snomed.info/id/1081771000202100\">1081771000202100</a></td><td>Bleie</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
+  "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState",
+  "version" : "0.5.1",
+  "name" : "NoDomainVitalSignsObservationClothingState",
+  "title" : "Codes representing level of clothing",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2021-03-17T00:00:00+00:00",
+  "publisher" : "FHIR Project team",
+  "description" : "Codes representing level of clothing",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1081761000202100",
+        "display" : "Naken"
+      },
+      {
+        "code" : "1081781000202100",
+        "display" : "Lette klær / undertøy"
+      },
+      {
+        "code" : "1081791000202100",
+        "display" : "Fullt påkledt, uten sko"
+      },
+      {
+        "code" : "1081801000202100",
+        "display" : "Fullt påkledt inklusive sko"
+      },
+      {
+        "code" : "1081771000202100",
+        "display" : "Bleie"
+      }]
+    }]
+  }
+}

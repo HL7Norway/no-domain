@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "NoDomainVitalSignsObservationClothingState"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2021-03-17T00:00:00+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1081761000202100\">1081761000202100</a></td><td>Naken</td></tr><tr><td><a href=\"http://snomed.info/id/1081781000202100\">1081781000202100</a></td><td>Lette klær / undertøy</td></tr><tr><td><a href=\"http://snomed.info/id/1081791000202100\">1081791000202100</a></td><td>Fullt påkledt, uten sko</td></tr><tr><td><a href=\"http://snomed.info/id/1081801000202100\">1081801000202100</a></td><td>Fullt påkledt inklusive sko</td></tr><tr><td><a href=\"http://snomed.info/id/1081771000202100\">1081771000202100</a></td><td>Bleie</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "oo" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "draft" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.5.1"] ; # 
+  fhir:name [ fhir:v "NoDomainVitalSignsObservationClothingState"] ; # 
+  fhir:title [ fhir:v "Codes representing level of clothing"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-03-17T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Project team"] ; # 
+  fhir:description [ fhir:v "Codes representing level of clothing"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1081761000202100" ] ;
+         fhir:display [ fhir:v "Naken" ]
+       ] [
+         fhir:code [ fhir:v "1081781000202100" ] ;
+         fhir:display [ fhir:v "Lette klær / undertøy" ]
+       ] [
+         fhir:code [ fhir:v "1081791000202100" ] ;
+         fhir:display [ fhir:v "Fullt påkledt, uten sko" ]
+       ] [
+         fhir:code [ fhir:v "1081801000202100" ] ;
+         fhir:display [ fhir:v "Fullt påkledt inklusive sko" ]
+       ] [
+         fhir:code [ fhir:v "1081771000202100" ] ;
+         fhir:display [ fhir:v "Bleie" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
