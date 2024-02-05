@@ -1,6 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationDiastolicendPoint 
 Id: NoDomainVitalSignsObservationDiastolicendPoint 
-Title: "Codes representing Diastolic end point"
+Title: "NoDomainVitalSignsObservationDiastolicendPoint"
 Description: "Codes representing Diastolic end point"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

@@ -16,5 +16,5 @@ Description: "Codes representing Sleep Status"
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#248218005 "Våken"
 * SNOMED_CT#248220008 "Sovende"
+* SNOMED_CT#248218005 "Våken"

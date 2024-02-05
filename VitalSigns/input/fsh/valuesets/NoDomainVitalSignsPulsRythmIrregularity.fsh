@@ -1,7 +1,7 @@
-ValueSet: NoDomainVitalSignsObservationHeartRateBodyPosition 
-Id: NoDomainVitalSignsObservationHeartRateBodyPosition 
-Title: "NoDomainVitalSignsObservationHeartRateBodyPosition"
-Description: "Codes representing body position for heart rate"
+ValueSet: NoDomainVitalSignsObservationPulseRhythmIrregularity 
+Id: NoDomainVitalSignsObservationPulseRhythmIrregularity 
+Title: "NoDomainVitalSignsObservationPulseRhythmIrregularity"
+Description: "Codes representing heart rhythm irregularity for Pulse"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -10,15 +10,13 @@ Description: "Codes representing body position for heart rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodyPosition"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* ^publisher = "FHIR Project team"
-* SNOMED_CT#10904000 "Stående"
-* SNOMED_CT#33586001 "Sittende"
-* SNOMED_CT#272580008 "Tilbakelent"
-* SNOMED_CT#4801000202104 "Liggende"
+* SNOMED_CT#271638000 "Regelmessig uregelmessig"
+* SNOMED_CT#271637005 "Uregelmessig uregelmessig"

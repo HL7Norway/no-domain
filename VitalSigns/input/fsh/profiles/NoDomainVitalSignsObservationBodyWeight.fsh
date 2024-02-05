@@ -22,12 +22,15 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Weight inf
 * code.coding[BodyWeightCode].version ..0
 * code.coding[BodyWeightCode].userSelected ..0
 * code.text ..0
+* code.coding contains BodyWeightSnomedCode 0..1
+* code.coding[BodyWeightSnomedCode].code = #27113001 (exactly)
+* code.coding[BodyWeightSnomedCode].system = $sct (exactly)
 * subject only Reference(Patient or $no-basis-Patient)
 * focus ^comment = "Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., \"Blood Glucose\") and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension focusCode"
 * effective[x] ^comment = "At least a date should be present unless this observation is a historical report.  For recording imprecise or \"fuzzy\" times (For example, a blood glucose measurement taken \"after breakfast\") use the Timing datatype which allow the measurement to be tied to regular life events."
 * issued ^comment = "For Observations that don’t require review and verification, it may be the same as the `lastUpdated` time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again."
-* performer ^slicing.discriminator.type = #profile
-* performer ^slicing.discriminator.path = "resolve()"
+* performer ^slicing.discriminator.type = #type
+* performer ^slicing.discriminator.path = "type"
 * performer ^slicing.rules = #open
 * performer contains
     Author 0..* and
