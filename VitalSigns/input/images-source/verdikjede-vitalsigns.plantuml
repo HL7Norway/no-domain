@@ -31,9 +31,9 @@ patient - obs
 obs <-[dotted] device
 device <- gw
 gw <- repo
-repo <- app1
+repo -> app1
 'app1 -down[hidden]- app2 
-repo -down-> pmd
+repo <-down- pmd
 pmd -left-> app3
 'pmd -right-> app2
 app1 -> pract1
