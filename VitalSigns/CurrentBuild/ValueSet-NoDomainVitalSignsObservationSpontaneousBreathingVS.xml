@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
+  <meta>
+    <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/4891000202108">4891000202108</a></td><td>Ikke observert</td></tr><tr><td><a href="http://snomed.info/id/241700002">241700002</a></td><td>Tilstede</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
+  <version value="0.6.3"/>
+  <name value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
+  <title value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-03-17T00:00:00+00:00"/>
+  <publisher value="FHIR Project team"/>
+  <description value="Codes representing Respiration Spontaneous breathing"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="4891000202108"/>
+        <display value="Ikke observert"/>
+      </concept>
+      <concept>
+        <code value="241700002"/>
+        <display value="Tilstede"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

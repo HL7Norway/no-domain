@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="no-oxygen-saturation-create"/>
+  <meta>
+    <versionId value="0"/>
+    <lastUpdated value="2014-01-30T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="no-oxygen-saturation-create"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;no-oxygen-saturation-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style="margin-bottom: 0px">Information Source: META_VISION!</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html">NO Domain VitalSigns Observation - Oxygen Saturation</a></p></div><blockquote><p><b>NoDomainVitalSignsObservationInspiredOxygen</b></p><blockquote><p><b>url</b></p><a href="StructureDefinition-Flow.html">Flow</a></blockquote><p><b>value</b>: 6100 ml/min</p><blockquote><p><b>url</b></p><a href="StructureDefinition-FiO2.html">FiO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href="StructureDefinition-ProsentO2.html">ProsentO2</a></blockquote><p><b>value</b>: 21/100</p><blockquote><p><b>url</b></p><a href="StructureDefinition-OnAir.html">OnAir</a></blockquote><p><b>value</b>: true</p><blockquote><p><b>url</b></p><a href="StructureDefinition-MethodofOxygenDelivery.html">MethodofOxygenDelivery</a></blockquote><p><b>value</b>: Oxygen administration method</p></blockquote><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Oxygen saturation in Arterial blood <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#2708-6)</span></p><p><b>subject</b>: <a href="Patient-cdp1000240.html">Patient/cdp1000240</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><span><code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</span></li><li><a href="Organization-afa23.html">Organization/afa23</a></li></ul><p><b>value</b>: 24 %<span style="background: LightGoldenRodYellow"> (Details: UCUM code % = '%')</span></p><p><b>note</b>: Demo pulse oxymetri</p><p><b>bodySite</b>: Demo pulse oxymetri bodysite <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen">
+    <extension url="http://hl7.no/fhir/StructureDefinition/Flow">
+      <valueQuantity>
+        <value value="6100"/>
+        <unit value="ml/min"/>
+      </valueQuantity>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/FiO2">
+      <valueRatio>
+        <numerator>
+          <value value="21"/>
+        </numerator>
+        <denominator>
+          <value value="100"/>
+        </denominator>
+      </valueRatio>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/ProsentO2">
+      <valueRatio>
+        <numerator>
+          <value value="21"/>
+        </numerator>
+        <denominator>
+          <value value="100"/>
+        </denominator>
+      </valueRatio>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/OnAir">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery">
+      <valueString value="Oxygen administration method"/>
+    </extension>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="2708-6"/>
+      <display value="Oxygen saturation in Arterial blood"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/cdp1000240"/>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="1000240"/>
+    </identifier>
+  </subject>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.2"/>
+      <value value="889911"/>
+    </identifier>
+  </performer>
+  <performer>
+    <reference value="Organization/afa23"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="23"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="24"/>
+    <unit value="%"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="%"/>
+  </valueQuantity>
+  <note>
+    <text value="Demo pulse oxymetri"/>
+  </note>
+  <bodySite>
+    <text value="Demo pulse oxymetri bodysite"/>
+  </bodySite>
+</Observation>
