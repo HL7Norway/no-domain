@@ -33,7 +33,7 @@ To be used for recording the measured height or body length of an individual at 
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below."
 * component ^comment = "For a discussion on the ways Observations can be assembled in groups together see Notes below."
-* code.coding contains BodyHeightSnomedCode 1..1
+* code.coding contains BodyHeightSnomedCode 0..1
 * code.coding[BodyHeightSnomedCode] ^definition = "body Height Snomed Code"
 * code.coding[BodyHeightSnomedCode] ^short = "body Height Snomed Code"
 * code.coding[BodyHeightSnomedCode].system 1..1

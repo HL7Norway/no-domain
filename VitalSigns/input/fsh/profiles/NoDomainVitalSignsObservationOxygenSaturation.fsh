@@ -37,11 +37,11 @@ Use to record blood oxygen and related measurements, measured by pulse oximetry 
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below."
 * component ^comment = "For a discussion on the ways Observations can be assembled in groups together see Notes below."
 * code.coding 1..
-* code.coding contains ResRateSNOMEDCode 1..1
-* code.coding[ResRateSNOMEDCode].system 1..
-* code.coding[ResRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
-* code.coding[ResRateSNOMEDCode].code 1..
-* code.coding[ResRateSNOMEDCode].code = #431314004 (exactly)
+* code.coding contains OxygenSatSNOMEDCode 0..1
+* code.coding[OxygenSatSNOMEDCode].system 1..
+* code.coding[OxygenSatSNOMEDCode].system = "http://snomed.info/sct" (exactly)
+* code.coding[OxygenSatSNOMEDCode].code 1..
+* code.coding[OxygenSatSNOMEDCode].code = #431314004 (exactly)
  
     
 

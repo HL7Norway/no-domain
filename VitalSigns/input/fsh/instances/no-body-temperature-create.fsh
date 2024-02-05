@@ -13,7 +13,6 @@ Usage: #example
 * extension[daysSinceMenstruationStart].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"
 * extension[daysSinceMenstruationStart].valuePositiveInt = 12
 * status = #final
-
 * code = $loinc#8310-5
 * code.text = "Body temperature"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"

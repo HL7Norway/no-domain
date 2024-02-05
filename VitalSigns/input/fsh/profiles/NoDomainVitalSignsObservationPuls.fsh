@@ -49,7 +49,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Pulse informa
 * bodySite.coding from NoDomainVitalSignsObservationPulseBodySite (extensible)
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation."
-* code.coding contains PulseSNOMEDCode 1..1
+* code.coding contains PulseSNOMEDCode 0..1
 * code.coding[PulseSNOMEDCode].system 1..
 * code.coding[PulseSNOMEDCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[PulseSNOMEDCode].code 1..

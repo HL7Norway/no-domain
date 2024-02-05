@@ -46,7 +46,7 @@ Use to record the observed and measured characteristics of spontaneous breathing
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation."
 * component.value[x] ^comment = "Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value."
 * code.coding 1..
-* code.coding contains ResRateSNOMEDCode 1..1
+* code.coding contains ResRateSNOMEDCode 0..1
 * code.coding[ResRateSNOMEDCode].system 1..
 * code.coding[ResRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[ResRateSNOMEDCode].code 1..

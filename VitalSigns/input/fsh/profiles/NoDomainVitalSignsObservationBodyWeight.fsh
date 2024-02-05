@@ -22,7 +22,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Weight inf
 * code.coding[BodyWeightCode].version ..0
 * code.coding[BodyWeightCode].userSelected ..0
 * code.text ..0
-* code.coding contains BodyWeightSnomedCode 1..1
+* code.coding contains BodyWeightSnomedCode 0..1
 * code.coding[BodyWeightSnomedCode].code = #27113001 (exactly)
 * code.coding[BodyWeightSnomedCode].system = $sct (exactly)
 * subject only Reference(Patient or $no-basis-Patient)

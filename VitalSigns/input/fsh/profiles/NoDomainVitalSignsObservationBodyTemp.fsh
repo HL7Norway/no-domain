@@ -46,7 +46,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Temperatur
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](observation.html#obsgrouping) below.  Note that a system may calculate results from QuestionnaireResponse  into a final score and represent the score as an Observation."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below."
 * component.value[x] ^comment = "Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value."
-* code.coding contains BodyTempSnomedCode 1..1
+* code.coding contains BodyTempSnomedCode 0..1
 * code.coding[BodyTempSnomedCode] ^definition = "body Height Snomed Code"
 * code.coding[BodyTempSnomedCode] ^short = "body Height Snomed Code"
 * code.coding[BodyTempSnomedCode].system 1..1

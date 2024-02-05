@@ -54,10 +54,8 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * note.author[x] ..0
 * note.time ..0
 * bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
-//* bodySite from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 * bodySite ^short = "Simple body site where blood pressure was measured."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
-//* bodySite.coding from http://und-sandbox.norwayeast.cloudapp.azure.com:8080/fhir/ValueSet/44ebee90-2e04-42bd-a990-584fd954744f (required)
 * bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)
 * method ^short = "Method of measurement of blood pressure."
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation."
@@ -68,14 +66,14 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 
 
 
-* component[SystolicBP].code.coding contains SystolicSnomed 1..1
+* component[SystolicBP].code.coding contains SystolicSnomed 0..1
 * component[SystolicBP].code.coding[SystolicSnomed].code 1..1
 * component[SystolicBP].code.coding[SystolicSnomed].code = #4471000202106 (exactly)
 * component[SystolicBP].code.coding[SystolicSnomed].system 1..1
 * component[SystolicBP].code.coding[SystolicSnomed].system = $sct (exactly)
 
 
-* component[DiastolicBP].code.coding contains DiastolicBPSnomed 1..1
+* component[DiastolicBP].code.coding contains DiastolicBPSnomed 0..1
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].code 1..1
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].code = #4481000202108 (exactly)
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].system 1..1
@@ -97,7 +95,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].code.coding ^slicing.rules = #open
 * component[MeanArterialPressure].code.coding ^short = "Mean Arterial Pressure"
 * component[MeanArterialPressure].code.coding ^definition = "Mean Arterial Pressure"
-* component[MeanArterialPressure].code.coding contains MAPCode 1..1 and MAPSnomedCode 1..1
+* component[MeanArterialPressure].code.coding contains MAPCode 1..1 and MAPSnomedCode 0..1
 * component[MeanArterialPressure].code.coding[MAPCode] ^short = "Mean Arterial Pressure loinc code"
 * component[MeanArterialPressure].code.coding[MAPCode] ^definition = "Mean Arterial Pressure loinc code."
 * component[MeanArterialPressure].code.coding[MAPCode].system 1..1
@@ -132,7 +130,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].code.coding ^slicing.discriminator.type = #value
 * component[PulsePressure].code.coding ^slicing.discriminator.path = "system"
 * component[PulsePressure].code.coding ^slicing.rules = #open
-* component[PulsePressure].code.coding contains SAPSnomedCode 0..1
+* component[PulsePressure].code.coding contains SAPSnomedCode 1..1
 * component[PulsePressure].code.coding[SAPSnomedCode].id ..0
 * component[PulsePressure].code.coding[SAPSnomedCode].system 1..
 * component[PulsePressure].code.coding[SAPSnomedCode].system = "http://snomed.info/sct" (exactly)

@@ -50,10 +50,10 @@ Use to record the presence or absence of a heart beat."""
 * bodySite.coding from NoDomainVitalSignsObservationHeartRateBodySite (extensible)
 * hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases."
 * derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation."
-* code.coding contains HearRateSNOMEDCode 1..1
-* code.coding[HearRateSNOMEDCode].system 1..
-* code.coding[HearRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
-* code.coding[HearRateSNOMEDCode].code 1..
-* code.coding[HearRateSNOMEDCode].code = #364075005 (exactly)
+* code.coding contains HeartRateSNOMEDCode 0..1
+* code.coding[HeartRateSNOMEDCode].system 1..
+* code.coding[HeartRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
+* code.coding[HeartRateSNOMEDCode].code 1..
+* code.coding[HeartRateSNOMEDCode].code = #364075005 (exactly)
 * method from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)
 * method.coding from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)
