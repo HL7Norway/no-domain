@@ -10,12 +10,12 @@
 
 Foreløpig agenda
 
-1.	Forslag til løsning i forhold til de 15? verdisettene som trengs i forbindelse vitale parametere (Karol)
+1. Forslag til løsning i forhold til de 15? verdisettene som trengs i forbindelse vitale parametere (Karol)
 1. konkrete spørsmål knyttet til opprettelsen av verdisettene.
 1. Hva gjør vi i forhold til NRUA miljøet?
-1.	Fortsette diskusjon av prinsippielle spørsmål
-1.	Oppsummering/konklusjoner
-1.	Eventuelt
+1. Fortsette diskusjon av prinsippielle spørsmål
+1. Oppsummering/konklusjoner
+1. Eventuelt
 
 ## Prinsipielle spørsmål til diskusjon
 
@@ -32,7 +32,7 @@ Foreløpig agenda
 
 * SNOSTORM server skal gjøre terminologi tilgjengelig.
   * Kan også inneholde verdisett og refset.
-* Referansesettene er egentlig ikke kjernevikrsomhet for direktoratet.
+* Referansesettene er egentlig ikke kjernevirksomhet for direktoratet.
 * Hvem har da ansvar for utvikling og forvaltning av verdisett?
 * KOTE komponent for å håndtere sektorbehov for endring/oppdatering (portal)
   * Mapping, nye begreper og oversettelse.

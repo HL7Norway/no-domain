@@ -30,7 +30,7 @@ Foreløpig agenda
 * Hvordan får man tak i bestandige URL'er for å henvise til refset eller deler av refset.
 
 * Mulighet, man kan få et utsnitt av et større refset ved hjelp av en ecl:
-    * Eksempel: url=http://snomed.info/sct/51000202101?fhir_vs=ecl/%5E198541000202101%7B%7BM%20mapTarget="Puls::Målested"%7D%7D
+  * Eksempel: url=http://snomed.info/sct/51000202101?fhir_vs=ecl/%5E198541000202101%7B%7BM%20mapTarget="Puls::Målested"%7D%7D
 * Refset benyttes for å gjøre det enklere for implementasjon og bruk av refsettene.
 * Behov i forhold til bruk med vitale-parametere profiler og implementasjon.
 
