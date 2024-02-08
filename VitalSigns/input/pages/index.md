@@ -29,8 +29,8 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 |temperatur||NoDomainVitalSignsObservationBodyTemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|276885007 Core body temperature (observable entity)|
 |kroppsvekt||NoDomainVitalSignsObservationBodyWeight|29563-7 Body weight|27113001 Body weight (observable entity)|27113001 Body weight (observable entity)|
 |hjertefrekvens||NoDomainVitalSignsObservationHeartRate|8867-4 heart-rate|364075005 Heart Rate|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
+|puls||NoDomainVitalSignsObservationPulse|8867-4 heart-rate|78564009 Heart rate measured at systemic artery (observable entity)|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
 |oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 (bør erstattes med 59408-5 internasjonalt)|431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|
-|puls|NoDomainVitalSignsObservationPulse|
-|respirasjonsfrekvens|NoDomainVitalSignsObservationRespirationRate|
+|respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|
 
 [ITDSO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
