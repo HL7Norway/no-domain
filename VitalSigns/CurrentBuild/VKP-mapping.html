@@ -1,13 +1,9 @@
-<!-- get modelType -->
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\ - FHIR v4.0.1</title>
+    <title>HL7.FHIR.NO.DOMAIN.VITALSIGNS\VKP Mapping - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -125,7 +121,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>VKP Mapping</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -137,9 +133,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.7.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>VKP Mapping</h2>
   
 
 
@@ -152,79 +155,180 @@
 
 
 
-<ul class="nav nav-tabs">
 
-  <li>
-    <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize.html">Content</a>
-  </li>
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h1 id="vkpobservation-vs-nodomainvitalsigns">VKPObservation vs NoDomainVitalSigns</h1>
 
+<p>VKPObservation is another profile specification implemented by Velferdsteknologisk knutepunkt and Pasientens Måledata in the NHN infrastructure. The goal of the profiles is to support sharing and searching for vital signs observations.</p>
 
+<h2 id="mapping-table">Mapping table</h2>
 
-  <li>
-    <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize-definitions.html">Detailed Descriptions</a>
-  </li>
+<p>The table shows a the Observation.code (snomed) used in the different profiles. Other summarizes the extensions defined in NoDomainVitalSigns (that don’t extist in VKP).</p>
 
-
-
-  
-    <li>
-      <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize.profile.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize.profile.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-NoDomainVitalSignsObservationCuffSize.profile.ttl.html">TTL</a>
-    </li>
-  
-
-
-</ul>
-
-
-  <a name="root"> </a>
-  <h2 id="root">Extension: NoDomainVitalSignsObservationCuffSize - Change History</h2>
-  <table class="colsd">
+<table>
+  <thead>
     <tr>
-
-      <td colspan="2">
-        
-          Draft
-          
-            as of 2021-05-01
-          
-        
-      </td>
-
+      <th>Type observasjon</th>
+      <th>Subtype</th>
+      <th>Profile</th>
+      <th>LOINC</th>
+      <th>SNOMED</th>
+      <th>IHTSDO official</th>
+      <th>VKP snomed</th>
+      <th>Other</th>
     </tr>
-  </table>
+  </thead>
+  <tbody>
+    <tr>
+      <td>blodtrykk</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBloodpressure</td>
+      <td>85354-9 Blood pressure panel with all children optional</td>
+      <td>no mapping</td>
+      <td>no mapping</td>
+      <td> </td>
+      <td>headTiltAngle,  sleepStatus, cuffSize, bodyPosition, formulaMAPCalc, formulaSystolicCalc, formulaDiastolicCalc</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>blodtrykk (systolisk)</td>
+      <td>(component)</td>
+      <td>8480-6 Systolic blood-pressure</td>
+      <td>4471000202106 Systemic systolic arterial blood pressure (observable entity)</td>
+      <td>271649006 Systolic blood pressure (observable entity)</td>
+      <td>271649006 - Systolic blood pressure</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>blodtrykk (diastolisk)</td>
+      <td>(component)</td>
+      <td>8462-4 Diastolic blood-pressure</td>
+      <td>4481000202108 Systemic diastolic arterial blood pressure (observable entity)</td>
+      <td>271650006 Diastolic blood pressure (observable entity)</td>
+      <td>271650006 - Diastolic blood pressure</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>MeanArterialPressure (added)</td>
+      <td>(component)</td>
+      <td>8478-0</td>
+      <td>4491000202105 (finnes ikke i norsk ekstensjon)</td>
+      <td> </td>
+      <td>IKKE i VKP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>PulsePressure (added)</td>
+      <td>(component)</td>
+      <td>NA</td>
+      <td>4461000202102 Systemic arterial pulse pressure (observable entity)</td>
+      <td> </td>
+      <td>IKKE i VKP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>kroppshøyde</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyHeight</td>
+      <td>8302-2 Body height</td>
+      <td>50373000 Body height measure (observable entity)</td>
+      <td>248334005 Length of body (observable entity)</td>
+      <td>IKKE i VKP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>temperatur</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyTemp</td>
+      <td>8310-5 Body temperature</td>
+      <td>276885007 Core body temperature (observable entity)</td>
+      <td>276885007 Core body temperature (observable entity)</td>
+      <td>276885007 - Core body temperature</td>
+      <td>daysSinceMenstruationStart, bodyExposure, activeHeating</td>
+    </tr>
+    <tr>
+      <td>kroppsvekt</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyWeight</td>
+      <td>29563-7 Body weight</td>
+      <td>27113001 Body weight (observable entity)</td>
+      <td>27113001 Body weight (observable entity)</td>
+      <td>27113001 - Body weight</td>
+      <td>clothingState, confoundingFactor</td>
+    </tr>
+    <tr>
+      <td>hjertefrekvens</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationHeartRate</td>
+      <td>8867-4 heart-rate</td>
+      <td>364075005 Heart Rate</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005</td>
+      <td>364075005 Heart Rate</td>
+      <td>heartRythm, confoundingFactor,  clinicalDescription, characterOfHeartrate, BodyPosition, heartRythmIrregularity</td>
+    </tr>
+    <tr>
+      <td>puls</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationPulse</td>
+      <td>8867-4 heart-rate</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity)</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005</td>
+      <td>IKKE i VKP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>oksygenmetning</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationOxygenSaturation</td>
+      <td>2708-6 (bør erstattes med 59408-5 internasjonalt)</td>
+      <td>431314004 Peripheral oxygen saturation (observable entity)</td>
+      <td>431314004 Peripheral oxygen saturation (observable entity)</td>
+      <td>431314004 - Peripheral oxygen saturation</td>
+      <td>inspiredOxygen</td>
+    </tr>
+    <tr>
+      <td>respirasjonsfrekvens</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationRespirationRate</td>
+      <td>9279-1 Respiratory Rate</td>
+      <td>271625008 Rate of spontaneous respiration (observable entity)</td>
+      <td>86290005 Respiratory rate (observable entity)</td>
+      <td>IKKE i VKP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>blodsukker (bare i VKP)</td>
+      <td> </td>
+      <td>VKPObservation</td>
+      <td>15074-8 - Glucose [Moles/volume] in Blood</td>
+      <td> </td>
+      <td> </td>
+      <td>434912009 - Blood glucose concentration</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>poengsum for skjemabesvarelse</td>
+      <td> </td>
+      <td>VKPObservation</td>
+      <td>74465-6 - Questionnaire response Document</td>
+      <td> </td>
+      <td> </td>
+      <td>BARE i VKP</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
-  <p>Changes in the NoDomainVitalSignsObservationCuffSize extension.</p>
 
-  
+
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -232,29 +336,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){

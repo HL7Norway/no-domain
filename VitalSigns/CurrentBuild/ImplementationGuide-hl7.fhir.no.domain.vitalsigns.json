@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.7.0",
+  "version" : "0.7.1",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-02-08T13:27:08+00:00",
+  "date" : "2024-02-15T11:02:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1498,6 +1498,15 @@
         }],
         "nameUrl" : "download.html",
         "title" : "Download",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "VKP-mapping.html"
+        }],
+        "nameUrl" : "VKP-mapping.html",
+        "title" : "VKP Mapping",
         "generation" : "markdown"
       }]
     },

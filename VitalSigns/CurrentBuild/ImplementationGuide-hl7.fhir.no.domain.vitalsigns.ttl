@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:version [ fhir:v "0.7.1"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-02-08T13:27:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-15T11:02:28+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -1440,6 +1440,14 @@
          ] ) ;
          fhir:name [ fhir:v "download.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Download" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "VKP-mapping.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "VKP-mapping.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "VKP Mapping" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
