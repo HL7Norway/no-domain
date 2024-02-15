@@ -25,7 +25,7 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 ||blodtrykk (diastolisk)|(component)|8462-4 Diastolic blood-pressure|4481000202108 Systemic diastolic arterial blood pressure (observable entity)|271650006 Diastolic blood pressure (observable entity)|
 ||MeanArterialPressure (added)|(component)|8478-0 |4491000202105 (finnes ikke i norsk ekstensjon)||
 ||PulsePressure (added)|(component)|NA| 4461000202102 Systemic arterial pulse pressure (observable entity)||
-|kroppshøyde|NoDomainVitalSignsObservationBodyHeight||8302-2 Body height|50373000 Body height measure (observable entity)|248334005 Length of body (observable entity)|
+|kroppshøyde||NoDomainVitalSignsObservationBodyHeight|8302-2 Body height|50373000 Body height measure (observable entity)|248334005 Length of body (observable entity)|
 |temperatur||NoDomainVitalSignsObservationBodyTemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|276885007 Core body temperature (observable entity)|
 |kroppsvekt||NoDomainVitalSignsObservationBodyWeight|29563-7 Body weight|27113001 Body weight (observable entity)|27113001 Body weight (observable entity)|
 |hjertefrekvens||NoDomainVitalSignsObservationHeartRate|8867-4 heart-rate|364075005 Heart Rate|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
