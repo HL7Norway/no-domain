@@ -17,8 +17,8 @@ The table shows a the Observation.code (snomed) used in the different profiles. 
 |temperatur||NoDomainVitalSignsObservationBodyTemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|276885007 Core body temperature (observable entity)|276885007 - Core body temperature|daysSinceMenstruationStart, bodyExposure, activeHeating|
 |kroppsvekt||NoDomainVitalSignsObservationBodyWeight|29563-7 Body weight|27113001 Body weight (observable entity)|27113001 Body weight (observable entity)|27113001 - Body weight|clothingState, confoundingFactor|
 |hjertefrekvens||NoDomainVitalSignsObservationHeartRate|8867-4 heart-rate|364075005 Heart Rate|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|364075005 Heart Rate|heartRythm, confoundingFactor,  clinicalDescription, characterOfHeartrate, BodyPosition, heartRythmIrregularity|
-|puls||NoDomainVitalSignsObservationPulse|8867-4 heart-rate|78564009 Heart rate measured at systemic artery (observable entity)|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|NA||
+|puls||NoDomainVitalSignsObservationPulse|8867-4 heart-rate|78564009 Heart rate measured at systemic artery (observable entity)|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|IKKE i VKP||
 |oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 (bør erstattes med 59408-5 internasjonalt)|431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|431314004 - Peripheral oxygen saturation|inspiredOxygen|
 |respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|IKKE i VKP||
 |blodsukker (bare i VKP)||VKPObservation|15074-8 - Glucose [Moles/volume] in Blood|||434912009 - Blood glucose concentration||
-|poengsum for skjemabesvarelse||VKPObservation|74465-6 - Questionnaire response Document|||||
+|poengsum for skjemabesvarelse||VKPObservation|74465-6 - Questionnaire response Document|||BARE i VKP||
