@@ -27,18 +27,20 @@ archimate #Business "Practitioner" as pract3 <<actor>>
 pract3 <-right- app3
 }
 
+'note "The scope of \nNoDomainVitalSigns profiles\nis the exchange of vitalsigns\nbetween applications in\ndifferent organizations." as scope
+
 patient - obs
 obs <-[dotted] device
 device <- gw
 gw <- repo
 repo <- app1
 'app1 -down[hidden]- app2 
-repo -down-> pmd
+repo -down-> pmd #red :NoDomain
 pmd -left-> app3
 'pmd -right-> app2
 app1 -> pract1
 app2 -> pract2
-repo --> app2
+repo --> app2 #red :NoDomain
 'app3 <-right- pmd
 
 @enduml
