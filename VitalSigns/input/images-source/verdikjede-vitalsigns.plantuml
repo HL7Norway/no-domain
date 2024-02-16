@@ -34,7 +34,7 @@ obs <-[dotted] device
 device <- gw
 gw <- repo
 repo <- app1
-'app1 -down[hidden]- app2 
+app1 -down[hidden]- app2 
 repo -down-> pmd #red :NoDomain
 pmd -left-> app3
 'pmd -right-> app2
