@@ -9,7 +9,7 @@
   <version value="0.7.1"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-02-15T11:02:28+00:00"/>
+  <date value="2024-02-16T06:57:59+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -189,6 +189,14 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-wg"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -384,6 +392,14 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
