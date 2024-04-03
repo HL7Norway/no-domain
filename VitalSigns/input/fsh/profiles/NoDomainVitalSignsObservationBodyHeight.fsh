@@ -24,7 +24,6 @@ To be used for recording the measured height or body length of an individual at 
     organization 0..*
 * performer[Author] only Reference(Practitioner or PractitionerRole  or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 * performer[organization] only Reference(Organization or $no-basis-Organization)
-* valueQuantity ^short = "The length of the body from crown of head to sole of foot."
 * code.coding contains BodyHeightSnomedCode 0..1
 * code.coding[BodyHeightSnomedCode] ^definition = "body Height Snomed Code"
 * code.coding[BodyHeightSnomedCode] ^short = "body Height Snomed Code"
