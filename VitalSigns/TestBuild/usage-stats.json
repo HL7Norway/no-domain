@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.domain.vitalsigns",
-  "version": "0.7.2",
+  "version": "0.7.4",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -106,7 +106,7 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor",
       "title": "NoDomainVitalSignsObservationConfoundingFactor",
       "types": [
-        "string"
+        "CodeableConcept"
       ]
     },
     {
@@ -128,20 +128,6 @@
       "title": "NoDomainVitalSignsObservationDiastolicEndPoint",
       "types": [
         "Coding"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt",
-      "title": "NoDomainVitalSignsObservationHeadTilt",
-      "types": [
-        "Quantity",
-        "string",
-        "Extension",
-        "decimal",
-        "code",
-        "string",
-        "uri",
-        "code"
       ]
     },
     {
@@ -271,6 +257,20 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt",
+      "title": "NoDomainVitalSignsObservationTilt",
+      "types": [
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/OnAir",
       "title": "OnAir",
       "types": [
@@ -352,9 +352,6 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfPulse": [
       "Observation"
     ],
@@ -373,13 +370,7 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition": [
-      "Observation"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity": [
@@ -407,6 +398,9 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/OnAir": [

@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
-  <version value="0.7.2"/>
+  <version value="0.7.4"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-04-03T17:31:25+00:00"/>
+  <date value="2024-05-22T07:09:40+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -26,7 +26,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="5.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -34,7 +34,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
@@ -696,7 +696,7 @@
         <reference value="ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
       </reference>
       <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
-      <description value="Include codes representing body site for blood pressure as used in HL7 Norway no-domain profiles, codes included from SNOMED CT valueset"/>
+      <description value="Codes representing body site for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -850,7 +850,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"/>
       </reference>
       <name value="NoDomainVitalSignsObservationConfoundingFactor"/>
-      <description value="Description of the confounding factor."/>
+      <description value="Confounding factor is Issues or factors that may impact on &lt;the measurement&gt;, not captured in other fields"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -906,17 +906,6 @@
       </reference>
       <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
       <description value="Codes representing Diastolic end point"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeadTilt"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationHeadTilt"/>
-      <description value="The craniocaudal tilt of the surface on which the person is lying at the time of measurement."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -993,7 +982,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-      <description value="More specific pattern of an irregular heart beat."/>
+      <description value="Regularity of the  heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1181,6 +1170,17 @@
       </reference>
       <name value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
       <description value="Codes representing Respiration Spontaneous breathing"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationTilt"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationTilt"/>
+      <description value="The craniocaudal tilt of the surface on which the person is lying at the time of measurement."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
