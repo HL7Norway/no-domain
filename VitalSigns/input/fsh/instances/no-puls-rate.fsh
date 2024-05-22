@@ -6,13 +6,11 @@ Usage: #example
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
-* extension[=].valueString = "sample confounding factor"
+* extension[=].valueCodeableConcept.text = "sample confounding factor"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulseRhythmIrregularity"
 * extension[=].valueCoding.code = #271638000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig uregelmessig"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"
-* extension[=].valueAnnotation.text = "character sample"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription"
 * extension[=].valueAnnotation.text = "Clinical description sample"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"

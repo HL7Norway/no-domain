@@ -1,6 +1,6 @@
 Extension: NoDomainVitalSignsObservationHeartRhythmIrregularity
 Id: NoDomainVitalSignsObservationHeartRhythmIrregularity
-Description: "More specific pattern of an irregular heart beat."
+Description: "Regularity of the  heart beat."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
 * ^version = "0.9.0000"
 * ^status = #draft
@@ -10,5 +10,3 @@ Description: "More specific pattern of an irregular heart beat."
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity" (exactly)
 * value[x] only Coding
 * value[x] from NoDomainVitalSignsObservationHeartRhythmIrregularity (required)
-// * value[x].coding ..1
-// * value[x].coding from NoDomainVitalSignsObservationHeartRhythmIrregularity (required)

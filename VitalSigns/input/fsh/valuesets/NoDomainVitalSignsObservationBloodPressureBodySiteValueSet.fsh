@@ -1,8 +1,8 @@
 ValueSet: NoDomainVitalSignsObservationBloodpressureBodySite 
 Id: NoDomainVitalSignsObservationBloodpressureBodySite 
 Title: "NoDomainVitalSignsObservationBloodpressureBodySite"
-Description: "Include codes representing body site for blood pressure as used in HL7 Norway no-domain profiles, codes included from SNOMED CT valueset"
-* ^meta.lastUpdated = "2023-09-13T00:00:00+00:00"
+Description: "Codes representing body site for blood pressure"
+* ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension[=].valueCode = #oo
@@ -11,11 +11,11 @@ Description: "Include codes representing body site for blood pressure as used in
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
 * ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"
-* ^version = "1.0.0"
+* ^version = "4.0.0"
 * ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-09T00:00:00+00:00"
-* ^publisher = "HL7 Norway"
+* ^experimental = false
+* ^date = "2021-03-17T00:00:00+00:00"
+* ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
 * SNOMED_CT#6685009 "Ankel, høyre"

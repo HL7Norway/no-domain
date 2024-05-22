@@ -9,7 +9,7 @@ Usage: #example
 * extension[clothingState].valueCoding.system = $sct
 * extension[clothingState].valueCoding.display = "Naken"
 * extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
-* extension[confoundingFactor].valueString = "sample confounding factor"
+* extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 
 * code = $loinc#29463-7 "Body weight"
