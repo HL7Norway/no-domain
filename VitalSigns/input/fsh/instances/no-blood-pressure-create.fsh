@@ -5,9 +5,9 @@ Usage: #example
 * meta.versionId = "0"
 * meta.source = "META_VISION"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition"
-* extension[=].valueCoding.code = #33586001 
+* extension[=].valueCoding.code = #4801000202104 
 * extension[=].valueCoding.system = $sct
-* extension[=].valueCoding.display = "Sittende"
+* extension[=].valueCoding.display = "Liggende"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize"
 * extension[=].valueCoding.code = #720740000 
 * extension[=].valueCoding.system = $sct
@@ -16,7 +16,7 @@ Usage: #example
 * extension[=].valueCoding.code = #248218005
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Våken"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt"
 * extension[=].valueQuantity.value = 14
 * extension[=].valueQuantity.unit = "deg"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula"

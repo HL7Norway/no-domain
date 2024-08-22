@@ -1,13 +1,13 @@
-Extension: NoDomainVitalSignsObservationHeadTilt
-Id: NoDomainVitalSignsObservationHeadTilt
+Extension: NoDomainVitalSignsObservationTilt
+Id: NoDomainVitalSignsObservationTilt
 Description: "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt"
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt"
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
 * ^context.type = #element
 * ^context.expression = "Observation"
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt" (exactly)
 * value[x] only Quantity
 * value[x] ^short = "head tilt in degrees"
 * value[x] ^definition = "value range can be between -90 and +90"

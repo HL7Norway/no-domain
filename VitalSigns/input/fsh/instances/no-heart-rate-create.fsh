@@ -1,18 +1,13 @@
 Instance: no-heart-rate-create
 InstanceOf: NoDomainVitalSignsObservationHeartRate
 Usage: #example
-* extension[heartRhythm].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"
-* extension[heartRhythm].valueCoding.code = #4251000202104 
-* extension[heartRhythm].valueCoding.system = $sct
-* extension[heartRhythm].valueCoding.display = "Regelmessig"
+
 * extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
-* extension[confoundingFactor].valueString = "sample confounding factor"
-* extension[heartRythmIrregularity].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
-* extension[heartRythmIrregularity].valueCoding.code = #248652003 
-* extension[heartRythmIrregularity].valueCoding.system = $sct
-* extension[heartRythmIrregularity].valueCoding.display = "Regelmessig uregelmessig"
-* extension[characterOfHeartrate].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"
-* extension[characterOfHeartrate].valueAnnotation.text = "character sample"
+* extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
+* extension[heartRhythmIrregularity].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
+* extension[heartRhythmIrregularity].valueCoding.code = #248652003 
+* extension[heartRhythmIrregularity].valueCoding.system = $sct
+* extension[heartRhythmIrregularity].valueCoding.display = "Regelmessig uregelmessig" 
 * extension[clinicalDescription].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription"
 * extension[clinicalDescription].valueAnnotation.text = "Clinical description sample"
 * extension[BodyPosition].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"

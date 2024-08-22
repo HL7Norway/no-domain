@@ -18,5 +18,7 @@ Description: "Codes representing heart rhythm irregularity for heart rate"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
+* SNOMED_CT#4251000202104 "Regelmessig"
+* SNOMED_CT#361137007 "Uregelmessig"
 * SNOMED_CT#248652003 "Regelmessig uregelmessig"
 * SNOMED_CT#248651005 "Uregelmessig uregelmessig"

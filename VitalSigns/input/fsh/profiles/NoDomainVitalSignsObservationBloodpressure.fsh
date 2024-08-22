@@ -13,13 +13,14 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationHeadTilt  named headTiltAngle 0..1 and
+    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and 
+    NoDomainVitalSignsObservationTilt  named headTiltAngle 0..1 and
     NoDomainVitalSignsObservationSleepStatus  named sleepStatus 0..1 and
     NoDomainVitalSignsObservationCuffSize  named cuffSize 0..1 and
     NoDomainVitalSignsObservationBloodpressureBodyPosition  named bodyPosition 0..1 and
-    NoDomainVitalSignsObservationBloodpressureMeanArterialFormula  named formulaMAPCalc 0..* and
-    NoDomainVitalSignsObservationBloodpressureSystolicFormula  named formulaSystolicCalc 0..* and
-    NoDomainVitalSignsObservationBloodpressureDiastolicFormula  named formulaDiastolicCalc 0..* 
+    NoDomainVitalSignsObservationBloodpressureMeanArterialFormula  named formulaMAPCalc 0..1 and
+    NoDomainVitalSignsObservationBloodpressureSystolicFormula  named formulaSystolicCalc 0..1 and
+    NoDomainVitalSignsObservationBloodpressureDiastolicFormula  named formulaDiastolicCalc 0..1 
 
 * extension[headTiltAngle] ^short = "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
 * extension[headTiltAngle] ^definition = "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
@@ -35,13 +36,9 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * extension[formulaSystolicCalc] ^definition = "Formula used to calculate the systolic pressure from mean arterial pressure"
 * extension[formulaDiastolicCalc] ^short = "Formula used to calculate the diastolic pressure from mean arterial pressure"
 * extension[formulaDiastolicCalc] ^definition = "Formula used to calculate the diastolic pressure from mean arterial pressure"
+* extension[confoundingFactor] ^definition = "Narrative description of any issues or factors that may impact on measurment"
 
-* partOf ^comment = "To link an Observation to an Encounter use `encounter`.  See the  Notes below for guidance on referencing another Observation."
 * subject only Reference(Patient or $no-basis-Patient)
-* subject ^short = "The human subject referred to in this Observation"
-* focus ^comment = "Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., \"Blood Glucose\") and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required."
-* effective[x] ^comment = "At least a date should be present unless this observation is a historical report.  For recording imprecise or \"fuzzy\" times (For example, a blood glucose measurement taken \"after breakfast\") use the Timing datatype which allow the measurement to be tied to regular life events."
-* issued ^comment = "For Observations that don’t require review and verification, it may be the same as the `lastUpdated` time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again."
 * performer ^slicing.discriminator.type = #type
 * performer ^slicing.discriminator.path = "type"
 * performer ^slicing.rules = #open
@@ -50,29 +47,16 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
     organization 0..*     
 * performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
 * performer[organization] only Reference(Organization or $no-basis-Organization)
-* note.id ..0
-* note.author[x] ..0
-* note.time ..0
 * bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
-* bodySite ^short = "Simple body site where blood pressure was measured."
-* bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
+
 * bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)
-* method ^short = "Method of measurement of blood pressure."
-* hasMember ^comment = "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see Notes below.  Note that a system may calculate results from QuestionnaireResponse into a final score and represent the score as an Observation."
-* derivedFrom ^comment = "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see Notes below."
-* component ^comment = "For a discussion on the ways Observations can be assembled in groups together see Notes below."
 * component[SystolicBP] ^short = "Peak  systemic arterial blood pressure - measured in systolic or contraction phase of the heart cycle."
-
-
-
 
 * component[SystolicBP].code.coding contains SystolicSnomed 0..1
 * component[SystolicBP].code.coding[SystolicSnomed].code 1..1
 * component[SystolicBP].code.coding[SystolicSnomed].code = #4471000202106 (exactly)
 * component[SystolicBP].code.coding[SystolicSnomed].system 1..1
 * component[SystolicBP].code.coding[SystolicSnomed].system = $sct (exactly)
-
-
 * component[DiastolicBP].code.coding contains DiastolicBPSnomed 0..1
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].code 1..1
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].code = #4481000202108 (exactly)
@@ -95,7 +79,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].code.coding ^slicing.rules = #open
 * component[MeanArterialPressure].code.coding ^short = "Mean Arterial Pressure"
 * component[MeanArterialPressure].code.coding ^definition = "Mean Arterial Pressure"
-* component[MeanArterialPressure].code.coding contains MAPCode 1..1 and MAPSnomedCode 0..1
+* component[MeanArterialPressure].code.coding contains MAPCode 0..1 and MAPSnomedCode 0..1
 * component[MeanArterialPressure].code.coding[MAPCode] ^short = "Mean Arterial Pressure loinc code"
 * component[MeanArterialPressure].code.coding[MAPCode] ^definition = "Mean Arterial Pressure loinc code."
 * component[MeanArterialPressure].code.coding[MAPCode].system 1..1

@@ -12,10 +12,17 @@ To be used for recording the measured height or body length of an individual at 
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains NoDomainVitalSignsObservationBodyHeightBodyPosition  named bodyPosition 0..1
+
+* extension contains
+ NoDomainVitalSignsObservationBodyHeightBodyPosition  named bodyPosition 0..1 and 
+ NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
+
 * extension[bodyPosition] ^short = "Position of individual when measured."
 * extension[bodyPosition] ^definition = "Position of individual when measured."
+* extension[confoundingFactor] ^definition = "Narrative description of any issues or factors that may impact on measurment eg: Noting of amputation"
+
 * subject only Reference(Patient or $no-basis-Patient)
+
 * performer ^slicing.discriminator.type = #type
 * performer ^slicing.discriminator.path = "type"
 * performer ^slicing.rules = #open
