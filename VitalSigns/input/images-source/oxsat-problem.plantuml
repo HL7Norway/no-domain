@@ -1,0 +1,29 @@
+@startuml
+
+note "Pulsox LOINC code problems" as problem
+
+"SaO2 invasiv" as (SaO2)
+"SpO2 pulsox" as (SpO2)
+'f"PaO2 invasiv" as (Pa02)
+
+"LOINC 2708-6" as (2708) #lightblue
+"SNOMED 431314004\nPeriperal oxsat" as (perox) #lightblue
+"LOINC XXXX" as (unknown) #lightblue
+
+rectangle "FHIR Observation\noxygensat" as fhiroxsat #lightgreen
+rectangle "no-domain-FHIR oxygensat" as nodomoxsat #pink
+
+SaO2 -down- 2708
+SpO2 -down- perox
+SpO2 -down- unknown
+2708 -down- fhiroxsat
+perox -down- nodomoxsat
+fhiroxsat .left. nodomoxsat :possible?
+
+
+'rectangle "test" as rect {
+'"search for information" as (soke) #lightblue
+'"indexing" as (indeksere)
+'"read information" as (lese) #lightblue
+'"share information" as (dele) #lightblued
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+
+note "LOINC heartrate code problem" as problem
+
+"General\nheartreate" as (general)
+"Heartrate" as (hr)
+"Pulse" as (pulse)
+
+"LOINC 8867-4\n(heart rate)" as (8867) #lightblue
+"SNOMED 78564009\nheartrate at systemic artery" as (snopulse) #lightblue
+"SNOMED 364075005\nheartrate" as (snohr) #lightblue
+'"LOINC hr code" as (loinchr) #lightblue
+
+rectangle "FHIR Observation\nheartrate" as fhirhr #lightgreen
+rectangle "no-domain-FHIR heartrate" as nodomhr #pink
+rectangle "no-domain-FHIR pulse" as nodompulse #pink
+
+general -down- hr
+general -down- pulse
+pulse -down- snopulse
+hr -down- snohr
+pulse -down- 8867
+8867 -down- fhirhr
+fhirhr -left- nodomhr
+fhirhr -right- nodompulse
+nodompulse -up- snopulse
+nodomhr -up- snohr
+'rectangle "test" as rect {
+'"search for information" as (soke) #lightblue
+'"indexing" as (indeksere)
+'"read information" as (lese) #lightblue
+'"share information" as (dele) #lightblued
+@enduml
