@@ -21,10 +21,10 @@ pulse -down- snopulse
 hr -down- snohr
 pulse -down- 8867
 8867 -down- fhirhr
-fhirhr -left- nodomhr
-fhirhr -right- nodompulse
-nodompulse -up- snopulse
-nodomhr -up- snohr
+fhirhr -down- nodomhr
+fhirhr -down- nodompulse
+nodompulse -up- snopulse :SNOMED indicates\npulse rate
+nodomhr -up- snohr :SNOMED code\nindicating hr
 'rectangle "test" as rect {
 '"search for information" as (soke) #lightblue
 '"indexing" as (indeksere)
