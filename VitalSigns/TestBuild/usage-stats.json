@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.domain.vitalsigns",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -278,6 +278,13 @@
       ]
     },
     {
+      "url": "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail",
+      "title": "OxygenDeliveryDetail",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "http://hl7.no/fhir/StructureDefinition/ProsentO2",
       "title": "ProsentO2",
       "types": [
@@ -404,6 +411,9 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/OnAir": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail": [
       "Extension"
     ],
     "http://hl7.no/fhir/StructureDefinition/ProsentO2": [
