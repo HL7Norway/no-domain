@@ -12,11 +12,9 @@ Description: "Details of the amount of oxygen available to the subject at the ti
     FiO2 named FiO2 0..1 and
     ProsentO2 named ProsentO2 0..1 and
     OnAir named OnAir 0..1 and
-    MethodofOxygenDelivery named MethodofOxygenDelivery 0..1
+    MethodofOxygenDelivery named MethodofOxygenDelivery 0..1 and
+    OxygenDeliveryDetail named OxygenDeliveryDetail 0..1
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
-
-
-
 
 Extension: Flow
 * ^url = "http://hl7.no/fhir/StructureDefinition/Flow"
@@ -47,4 +45,11 @@ Description: "Futhure details of method of oxygen delivery"
 * ^url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery"
 * ^status = #draft
 * url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery" (exactly)
+* value[x] only string
+
+Extension: OxygenDeliveryDetail
+Description: "Further details of the method of oxygen delivery."
+* ^url = "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail"
+* ^status = #draft
+* url = "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail" (exactly)
 * value[x] only string
