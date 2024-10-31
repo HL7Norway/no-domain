@@ -1,5 +1,3 @@
-# Guideance
-
 ## Use of LOINC codes
 
 In FHIR, the LOINC codes (magic value) are mandatory to indicate what category of measurement the given observation is. This is problematic in Norway as LOINC is not generally used in clinical systems in Norway. The magic value codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the magic value.
