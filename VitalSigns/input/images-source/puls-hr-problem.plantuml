@@ -1,30 +1,40 @@
 @startuml
 
-note "LOINC heartrate code problem" as problem
-
+note "Heartrate and pulse rate\nconceptual model" as consept
+rectangle "conceptual" {
 "General\nheartreate" as (general)
 "Heartrate" as (hr)
 "Pulse" as (pulse)
+}
 
 "LOINC 8867-4\n(heart rate)" as (8867) #lightblue
 "SNOMED 78564009\nheartrate at systemic artery" as (snopulse) #lightblue
 "SNOMED 364075005\nheartrate" as (snohr) #lightblue
 '"LOINC hr code" as (loinchr) #lightblue
 
-rectangle "FHIR Observation\nheartrate" as fhirhr #lightgreen
-rectangle "no-domain-FHIR heartrate" as nodomhr #pink
-rectangle "no-domain-FHIR pulse" as nodompulse #pink
+snohr -right[hidden]- 8867
+8867 -right[hidden]- snohr
+
+'note "Heartrate and pulse\n rate FHIR profiles" as FHIRmodel
+
+'rectangle "FHIR profiles" {
+  rectangle "FHIR Observation\nheartrate" as fhirhr #lightgreen
+  rectangle "no-domain-FHIR heartrate" as nodomhr #pink
+  rectangle "no-domain-FHIR pulse" as nodompulse #pink
+'}
+
+'fhirhr -right[hidden]- FHIRmodel
 
 general -down- hr
 general -down- pulse
 pulse -down- snopulse
 hr -down- snohr
 pulse -down- 8867
-8867 -down- fhirhr
-fhirhr -down- nodomhr
-fhirhr -down- nodompulse
-nodompulse -up- snopulse :SNOMED indicates\npulse rate
-nodomhr -up- snohr :SNOMED code\nindicating hr
+8867 -down-o fhirhr
+fhirhr <|-down- nodomhr
+fhirhr <|-down- nodompulse
+nodompulse o-up- snopulse :SNOMED indicates\npulse rate
+nodomhr o-up- snohr :SNOMED code\nindicating hr
 'rectangle "test" as rect {
 '"search for information" as (soke) #lightblue
 '"indexing" as (indeksere)
