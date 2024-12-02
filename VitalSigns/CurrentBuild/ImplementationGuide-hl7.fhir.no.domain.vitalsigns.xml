@@ -3,13 +3,21 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.no.domain.vitalsigns"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name="hl7.fhir.no.domain.vitalsigns"> </a><a name="hchl7.fhir.no.domain.vitalsigns"> </a><a name="hl7.fhir.no.domain.vitalsigns-no-NO"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
-  <version value="0.7.3"/>
+  <version value="0.7.8"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-04-03T17:39:40+00:00"/>
+  <date value="2024-12-02T19:04:28+00:00"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -26,7 +34,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="6.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -34,7 +42,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
@@ -47,7 +55,7 @@
         <valueString value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2024+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -55,7 +63,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="BallotSTU-1"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -243,14 +251,14 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueCode value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2024+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -258,7 +266,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="BallotSTU-1"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -447,44 +455,13 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/FiO2"/>
-      </reference>
-      <name value="FiO2"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Flow"/>
-      </reference>
-      <name value="Flow"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/MethodofOxygenDelivery"/>
-      </reference>
-      <name value="MethodofOxygenDelivery"/>
-      <description value="Futhure details of method of oxygen delivery"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressure"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Blood pressure"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation."/>
+      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -696,7 +673,7 @@
         <reference value="ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
       </reference>
       <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
-      <description value="Include codes representing body site for blood pressure as used in HL7 Norway no-domain profiles, codes included from SNOMED CT valueset"/>
+      <description value="Codes representing body site for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -850,7 +827,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"/>
       </reference>
       <name value="NoDomainVitalSignsObservationConfoundingFactor"/>
-      <description value="Description of the confounding factor."/>
+      <description value="Confounding factor is Issues or factors that may impact on &lt;the measurement&gt;, not captured in other fields"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -913,10 +890,21 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationHeadTilt"/>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationFiO2"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationHeadTilt"/>
-      <description value="The craniocaudal tilt of the surface on which the person is lying at the time of measurement."/>
+      <name value="NoDomainVitalSignsObservationFiO2"/>
+      <description value="Fraction of oxygen in inspired air."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationFlow"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationFlow"/>
+      <description value="Oxygen flow rate given to an individual."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -993,7 +981,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
       </reference>
       <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-      <description value="More specific pattern of an irregular heart beat."/>
+      <description value="Regularity of the  heart beat."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1016,6 +1004,39 @@
       </reference>
       <name value="NoDomainVitalSignsObservationInspiredOxygen"/>
       <description value="Details of the amount of oxygen available to the subject at the time of observation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationMethodofOxygenDelivery"/>
+      <description value="The method used to deliver the oxygen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationOnAir"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationOnAir"/>
+      <description value="The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationProsentO2"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationProsentO2"/>
+      <description value="Percentage of oxygen in inspired air."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1185,6 +1206,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoDomainVitalSignsObservationTilt"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationTilt"/>
+      <description value="The craniocaudal tilt of the surface on which the person is lying at the time of measurement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1192,16 +1224,6 @@
       </reference>
       <name value="NoDomainVitalSignsPulseMeasurmentMethod"/>
       <description value="Codes representing measurement method for pulse"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/OnAir"/>
-      </reference>
-      <name value="OnAir"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1254,16 +1276,6 @@
       <name value="PractitionerRole details of agb30"/>
       <exampleBoolean value="true"/>
     </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ProsentO2"/>
-      </reference>
-      <name value="ProsentO2"/>
-      <exampleBoolean value="false"/>
-    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
@@ -1285,6 +1297,14 @@
         </extension>
         <nameUrl value="download.html"/>
         <title value="Download"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="guidance.html"/>
+        </extension>
+        <nameUrl value="guidance.html"/>
+        <title value="Guidance"/>
         <generation value="markdown"/>
       </page>
       <page>

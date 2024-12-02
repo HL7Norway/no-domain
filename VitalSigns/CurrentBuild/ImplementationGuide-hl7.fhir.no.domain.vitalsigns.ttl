@@ -9,14 +9,22 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hl7.fhir.no.domain.vitalsigns"] ; # 
   fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.7.3"] ; # 
+  fhir:version [ fhir:v "0.7.8"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-03T17:39:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-02T19:04:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Norway" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.no" ]
+     ] )
+  ] ) ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -38,7 +46,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "6.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -50,7 +58,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "5.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_no_basis" ] ;
      fhir:uri [
@@ -67,7 +75,7 @@
          fhir:value [ fhir:v "copyrightyear" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2021+" ]
+         fhir:value [ fhir:v "2024+" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -76,7 +84,7 @@
          fhir:value [ fhir:v "releaselabel" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ci-build" ]
+         fhir:value [ fhir:v "BallotSTU-1" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -288,14 +296,14 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools.r4#0.3.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "copyrightyear" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2021+" ]
+         fhir:value [ fhir:v "2024+" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -304,7 +312,7 @@
          fhir:value [ fhir:v "releaselabel" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ci-build" ]
+         fhir:value [ fhir:v "BallotSTU-1" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -518,40 +526,6 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/FiO2> ;
-         fhir:reference [ fhir:v "StructureDefinition/FiO2" ]
-       ] ;
-       fhir:name [ fhir:v "FiO2" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/Flow> ;
-         fhir:reference [ fhir:v "StructureDefinition/Flow" ]
-       ] ;
-       fhir:name [ fhir:v "Flow" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery> ;
-         fhir:reference [ fhir:v "StructureDefinition/MethodofOxygenDelivery" ]
-       ] ;
-       fhir:name [ fhir:v "MethodofOxygenDelivery" ] ;
-       fhir:description [ fhir:v "Futhure details of method of oxygen delivery" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -559,7 +533,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationBloodpressure" ]
        ] ;
        fhir:name [ fhir:v "NO Domain VitalSigns Observation - Blood pressure" ] ;
-       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation." ] ;
+       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -815,7 +789,7 @@
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsObservationBloodpressureBodySite" ] ;
-       fhir:description [ fhir:v "Include codes representing body site for blood pressure as used in HL7 Norway no-domain profiles, codes included from SNOMED CT valueset" ] ;
+       fhir:description [ fhir:v "Codes representing body site for blood pressure" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -983,7 +957,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsObservationConfoundingFactor" ] ;
-       fhir:description [ fhir:v "Description of the confounding factor." ] ;
+       fhir:description [ fhir:v "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1051,11 +1025,23 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeadTilt> ;
-         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationHeadTilt" ]
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationFiO2" ]
        ] ;
-       fhir:name [ fhir:v "NoDomainVitalSignsObservationHeadTilt" ] ;
-       fhir:description [ fhir:v "The craniocaudal tilt of the surface on which the person is lying at the time of measurement." ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationFiO2" ] ;
+       fhir:description [ fhir:v "Fraction of oxygen in inspired air." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationFlow" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationFlow" ] ;
+       fhir:description [ fhir:v "Oxygen flow rate given to an individual." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1139,7 +1125,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsObservationHeartRhythmIrregularity" ] ;
-       fhir:description [ fhir:v "More specific pattern of an irregular heart beat." ] ;
+       fhir:description [ fhir:v "Regularity of the  heart beat." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1164,6 +1150,42 @@
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsObservationInspiredOxygen" ] ;
        fhir:description [ fhir:v "Details of the amount of oxygen available to the subject at the time of observation." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationMethodofOxygenDelivery" ] ;
+       fhir:description [ fhir:v "The method used to deliver the oxygen." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationOnAir" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationOnAir" ] ;
+       fhir:description [ fhir:v "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationProsentO2" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationProsentO2" ] ;
+       fhir:description [ fhir:v "Percentage of oxygen in inspired air." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1348,6 +1370,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsObservationTilt" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsObservationTilt" ] ;
+       fhir:description [ fhir:v "The craniocaudal tilt of the surface on which the person is lying at the time of measurement." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -1356,17 +1390,6 @@
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseMeasurmentMethod" ] ;
        fhir:description [ fhir:v "Codes representing measurement method for pulse" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/OnAir> ;
-         fhir:reference [ fhir:v "StructureDefinition/OnAir" ]
-       ] ;
-       fhir:name [ fhir:v "OnAir" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1423,17 +1446,6 @@
        ] ;
        fhir:name [ fhir:v "PractitionerRole details of agb30" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/ProsentO2> ;
-         fhir:reference [ fhir:v "StructureDefinition/ProsentO2" ]
-       ] ;
-       fhir:name [ fhir:v "ProsentO2" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -1458,6 +1470,14 @@
          ] ) ;
          fhir:name [ fhir:v "download.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Download" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "guidance.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "guidance.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Guidance" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

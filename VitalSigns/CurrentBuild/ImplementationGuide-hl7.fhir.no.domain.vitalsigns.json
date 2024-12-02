@@ -2,14 +2,22 @@
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.7.3",
+  "version" : "0.7.8",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-04-03T17:39:40+00:00",
+  "date" : "2024-12-02T19:04:28+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -28,7 +36,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "6.1.0"
   },
   {
     "id" : "hl7ext",
@@ -38,7 +46,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -54,7 +62,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2024+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -65,7 +73,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "BallotSTU-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -324,7 +332,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{
@@ -333,7 +341,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2024+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,7 +352,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "BallotSTU-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -604,47 +612,13 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/FiO2"
-      },
-      "name" : "FiO2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/Flow"
-      },
-      "name" : "Flow",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MethodofOxygenDelivery"
-      },
-      "name" : "MethodofOxygenDelivery",
-      "description" : "Futhure details of method of oxygen delivery",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
       },
       "name" : "NO Domain VitalSigns Observation - Blood pressure",
-      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165",
       "exampleBoolean" : false
     },
     {
@@ -876,7 +850,7 @@
         "reference" : "ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"
       },
       "name" : "NoDomainVitalSignsObservationBloodpressureBodySite",
-      "description" : "Include codes representing body site for blood pressure as used in HL7 Norway no-domain profiles, codes included from SNOMED CT valueset",
+      "description" : "Codes representing body site for blood pressure",
       "exampleBoolean" : false
     },
     {
@@ -1044,7 +1018,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
       },
       "name" : "NoDomainVitalSignsObservationConfoundingFactor",
-      "description" : "Description of the confounding factor.",
+      "description" : "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields",
       "exampleBoolean" : false
     },
     {
@@ -1113,10 +1087,22 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeadTilt"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFiO2"
       },
-      "name" : "NoDomainVitalSignsObservationHeadTilt",
-      "description" : "The craniocaudal tilt of the surface on which the person is lying at the time of measurement.",
+      "name" : "NoDomainVitalSignsObservationFiO2",
+      "description" : "Fraction of oxygen in inspired air.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFlow"
+      },
+      "name" : "NoDomainVitalSignsObservationFlow",
+      "description" : "Oxygen flow rate given to an individual.",
       "exampleBoolean" : false
     },
     {
@@ -1200,7 +1186,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
       },
       "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-      "description" : "More specific pattern of an irregular heart beat.",
+      "description" : "Regularity of the  heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -1225,6 +1211,42 @@
       },
       "name" : "NoDomainVitalSignsObservationInspiredOxygen",
       "description" : "Details of the amount of oxygen available to the subject at the time of observation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
+      },
+      "name" : "NoDomainVitalSignsObservationMethodofOxygenDelivery",
+      "description" : "The method used to deliver the oxygen.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationOnAir"
+      },
+      "name" : "NoDomainVitalSignsObservationOnAir",
+      "description" : "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationProsentO2"
+      },
+      "name" : "NoDomainVitalSignsObservationProsentO2",
+      "description" : "Percentage of oxygen in inspired air.",
       "exampleBoolean" : false
     },
     {
@@ -1410,6 +1432,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationTilt"
+      },
+      "name" : "NoDomainVitalSignsObservationTilt",
+      "description" : "The craniocaudal tilt of the surface on which the person is lying at the time of measurement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1417,17 +1451,6 @@
       },
       "name" : "NoDomainVitalSignsPulseMeasurmentMethod",
       "description" : "Codes representing measurement method for pulse",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/OnAir"
-      },
-      "name" : "OnAir",
       "exampleBoolean" : false
     },
     {
@@ -1484,17 +1507,6 @@
       },
       "name" : "PractitionerRole details of agb30",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ProsentO2"
-      },
-      "name" : "ProsentO2",
-      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
@@ -1520,6 +1532,15 @@
         }],
         "nameUrl" : "download.html",
         "title" : "Download",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "guidance.html"
+        }],
+        "nameUrl" : "guidance.html",
+        "title" : "Guidance",
         "generation" : "markdown"
       },
       {
