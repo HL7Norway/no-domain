@@ -11,7 +11,7 @@ The table shows a the Observation.code (snomed) used in the different profiles. 
 |blodtrykk||NoDomainVitalSignsObservationBloodpressure|85354-9 Blood pressure panel with all children optional|no mapping|no mapping||headTiltAngle,  sleepStatus, cuffSize, bodyPosition, formulaMAPCalc, formulaSystolicCalc, formulaDiastolicCalc|
 ||blodtrykk (systolisk)|(component)|8480-6 Systolic blood-pressure|4471000202106 Systemic systolic arterial blood pressure (observable entity) |271649006 Systolic blood pressure (observable entity)|271649006 - Systolic blood pressure||
 ||blodtrykk (diastolisk)|(component)|8462-4 Diastolic blood-pressure|4481000202108 Systemic diastolic arterial blood pressure (observable entity)|271650006 Diastolic blood pressure (observable entity)|271650006 - Diastolic blood pressure||
-||MeanArterialPressure (added)|(component)|8478-0 |4491000202105 (finnes ikke i norsk ekstensjon)||IKKE i VKP||
+||MeanArterialPressure (added)|(component)|8478-0 |4501000202102 ||IKKE i VKP||
 ||PulsePressure (added)|(component)|NA| 4461000202102 Systemic arterial pulse pressure (observable entity)||IKKE i VKP||
 |kroppshøyde||NoDomainVitalSignsObservationBodyHeight|8302-2 Body height|50373000 Body height measure (observable entity)|248334005 Length of body (observable entity)|IKKE i VKP||
 |temperatur||NoDomainVitalSignsObservationBodyTemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|276885007 Core body temperature (observable entity)|276885007 - Core body temperature|daysSinceMenstruationStart, bodyExposure, activeHeating|

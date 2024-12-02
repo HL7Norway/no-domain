@@ -59,7 +59,7 @@ Usage: #example
 * component[DiastolicBP].referenceRange.high.value = 89  
 * component[DiastolicBP].referenceRange.high.unit = "mm[Hg]"
 * component[MeanArterialPressure].code.coding[MAPCode] = $loinc#8478-0 "BP mean"
-* component[MeanArterialPressure].code.coding[MAPSnomedCode] = $sct#4491000202105 "Mean arterial pressure (observable entity)"
+* component[MeanArterialPressure].code.coding[MAPSnomedCode] = $sct#4501000202102 "Mean arterial pressure (observable entity)"
 * component[MeanArterialPressure].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
 * component[MeanArterialPressure].referenceRange.low.value = 60  
 * component[MeanArterialPressure].referenceRange.low.unit = "mm[Hg]"  

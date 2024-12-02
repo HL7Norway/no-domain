@@ -95,7 +95,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].code.coding[MAPSnomedCode].system = "http://snomed.info/sct" (exactly)
 * component[MeanArterialPressure].code.coding[MAPSnomedCode].code 1..1
 * component[MeanArterialPressure].code.coding[MAPSnomedCode].code only code
-* component[MeanArterialPressure].code.coding[MAPSnomedCode].code = #4491000202105 (exactly)
+* component[MeanArterialPressure].code.coding[MAPSnomedCode].code = #4501000202102 (exactly)
 * component[MeanArterialPressure].value[x] only Quantity
 //* component[MeanArterialPressure].value[x] ^slicing.discriminator.type = #type
 //* component[MeanArterialPressure].value[x] ^slicing.discriminator.path = "$this"
