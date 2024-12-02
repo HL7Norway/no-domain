@@ -23,19 +23,21 @@ Usage: #example
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Tilstede"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen"
-* extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/Flow"
+* extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/FiO2"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/ProsentO2"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/OnAir"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir"
 * extension[=].extension[=].valueBoolean = true
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
 * extension[=].extension[=].valueString = "Maske"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code = $loinc#9279-1 "Respiratory rate"
 * subject = Reference(Patient/cdp1000240)

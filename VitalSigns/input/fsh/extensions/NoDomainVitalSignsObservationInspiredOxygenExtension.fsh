@@ -8,48 +8,47 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 * ^context.type = #element
 * ^context.expression = "Observation"
 * extension contains
-    Flow named Flow 0..1 and
-    FiO2 named FiO2 0..1 and
-    ProsentO2 named ProsentO2 0..1 and
-    OnAir named OnAir 0..1 and
-    MethodofOxygenDelivery named MethodofOxygenDelivery 0..1 and
-    OxygenDeliveryDetail named OxygenDeliveryDetail 0..1
+    NoDomainVitalSignsObservationFlow named Flow 0..1 and
+    NoDomainVitalSignsObservationFiO2 named FiO2 0..1 and
+    NoDomainVitalSignsObservationProsentO2 named ProsentO2 0..1 and
+    NoDomainVitalSignsObservationOnAir named OnAir 0..1 and
+    NoDomainVitalSignsObservationMethodofOxygenDelivery named MethodofOxygenDelivery 0..1
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
 
-Extension: Flow
-* ^url = "http://hl7.no/fhir/StructureDefinition/Flow"
+
+
+
+Extension: NoDomainVitalSignsObservationFlow
+Description: "Oxygen flow rate given to an individual."
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/Flow" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow" (exactly)
 * value[x] only Quantity
 
-Extension: FiO2
-* ^url = "http://hl7.no/fhir/StructureDefinition/FiO2"
+Extension: NoDomainVitalSignsObservationFiO2
+Description: "Fraction of oxygen in inspired air."
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/FiO2" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2" (exactly)
 * value[x] only Ratio
 
-Extension: ProsentO2
-* ^url = "http://hl7.no/fhir/StructureDefinition/ProsentO2"
+Extension: NoDomainVitalSignsObservationProsentO2
+Description: "Percentage of oxygen in inspired air."
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/ProsentO2" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2" (exactly)
 * value[x] only Ratio
 
-Extension: OnAir
-* ^url = "http://hl7.no/fhir/StructureDefinition/OnAir"
+Extension: NoDomainVitalSignsObservationOnAir
+Description: "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/OnAir" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir" (exactly)
 * value[x] only boolean
 
-Extension: MethodofOxygenDelivery
-Description: "Futhure details of method of oxygen delivery"
-* ^url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery"
+Extension: NoDomainVitalSignsObservationMethodofOxygenDelivery
+Description: "The method used to deliver the oxygen."
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery" (exactly)
-* value[x] only string
-
-Extension: OxygenDeliveryDetail
-Description: "Further details of the method of oxygen delivery."
-* ^url = "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery" (exactly)
 * value[x] only string

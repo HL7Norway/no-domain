@@ -7,6 +7,9 @@ Usage: #example
 * extension[=].valueCoding.code = #10904000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Stående"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[=].valueCodeableConcept.text = "sample confounding factor"
+
 * status = #final
 
 * code = $loinc#8302-2 "Body height"
