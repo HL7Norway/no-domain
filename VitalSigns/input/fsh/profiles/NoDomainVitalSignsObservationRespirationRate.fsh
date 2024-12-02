@@ -21,7 +21,7 @@ Use to record the observed and measured characteristics of spontaneous breathing
     NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
     NoDomainVitalSignsObservationRespirationDepth  named respirationDepth 0..1 and
     NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..1 and
-     NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
+    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
 * extension[bodyPosition] ^short = "The body position of the individual during the observation."
 * extension[bodyPosition] ^definition = "The body position of the individual during the observation."
 * extension[respirationRegularity] ^short = "The regularity of spontaneous breathing."
