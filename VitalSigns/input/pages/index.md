@@ -1,4 +1,4 @@
-# About the Norwegian national vital signs profiles
+### About the Norwegian national vital signs profiles
 
 The *Norwegian national vital signs profiles* have been designed for exchange of the most important [vital signs](https://en.wikipedia.org/wiki/Vital_signs) between systems, devices, and healthcare organizations in the national Norwegian healthcare system.
 
@@ -14,7 +14,7 @@ Since the EHR system in question ([DIPS Arena](https://www.dips.com/)) uses [Ope
 
 Other information models for these vital signs have been consulted, and while there are several different approaches none have been identified that have the capability to express any concept or relationship that the current profiles are not capable of expressing. Of particular interest here are the CIMI revised vital signs profiles [TODO: link] and the NHS profiles [TODO: link]. CIMI have entirely independently taken an approach remarkably similar to these profiles (which we take as validating this approach), while the NHS has developed their propfiles in conjunction with, and seemingly as a primary use case, profiles for the NEWS2 score [TODO: link]. NEWS2 is a standard screening tool in Norwegian hospitals and it is likely that a future revision of these profiles will need to be adapted to work well in this context.  
 
-## Vital signs profiles and terminology
+#### Vital signs profiles and terminology
 
 Information exchange defined as the scope of delivery of NoDomainVitalSigns profiles.  
 

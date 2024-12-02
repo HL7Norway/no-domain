@@ -1,8 +1,8 @@
-# VKPObservation vs NoDomainVitalSigns
+### VKPObservation vs NoDomainVitalSigns
 
 VKPObservation is another profile specification implemented by Velferdsteknologisk knutepunkt and Pasientens Måledata in the NHN infrastructure. The goal of the profiles is to support sharing and searching for vital signs observations.
 
-## Mapping table
+#### Mapping table
 
 The table shows a the Observation.code (snomed) used in the different profiles. Other summarizes the extensions defined in NoDomainVitalSigns (that don't extist in VKP).
 
