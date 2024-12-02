@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary -  v0.7.6</title>
+    <title>Artifacts Summary -  v0.7.7</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -66,7 +66,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.7.6 - ci-build
+            <span style="display:inline-block;">0.7.7 - ci-build
 
 
 
@@ -144,7 +144,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.7.6) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.7.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -270,31 +270,6 @@ Use to record the observed and measured characteristics of spontaneous breathing
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-FiO2.html" title="StructureDefinition/FiO2">FiO2</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-Flow.html" title="StructureDefinition/Flow">Flow</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-MethodofOxygenDelivery.html"
-                     title="StructureDefinition/MethodofOxygenDelivery">MethodofOxygenDelivery</a>
-               </td>
-               <td>
-<p>Futhure details of method of oxygen delivery</p>
-</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-NoDomainVitalSignsObservationActiveHeating.html"
@@ -432,6 +407,24 @@ Use to record the observed and measured characteristics of spontaneous breathing
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationFiO2.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationFiO2">NoDomainVitalSignsObservationFiO2</a>
+               </td>
+               <td>
+<p>Fraction of oxygen in inspired air.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationFlow.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationFlow">NoDomainVitalSignsObservationFlow</a>
+               </td>
+               <td>
+<p>Oxygen flow rate given to an individual.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-NoDomainVitalSignsObservationHeartRatePulseBodyPosition.html"
                      title="StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition">NoDomainVitalSignsObservationHeartRatePulseBodyPosition</a>
                </td>
@@ -464,6 +457,33 @@ Use to record the observed and measured characteristics of spontaneous breathing
                </td>
                <td>
 <p>Details of the amount of oxygen available to the subject at the time of observation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationMethodofOxygenDelivery.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery">NoDomainVitalSignsObservationMethodofOxygenDelivery</a>
+               </td>
+               <td>
+<p>The method used to deliver the oxygen.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationOnAir.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationOnAir">NoDomainVitalSignsObservationOnAir</a>
+               </td>
+               <td>
+<p>The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-NoDomainVitalSignsObservationProsentO2.html"
+                     title="StructureDefinition/NoDomainVitalSignsObservationProsentO2">NoDomainVitalSignsObservationProsentO2</a>
+               </td>
+               <td>
+<p>Percentage of oxygen in inspired air.</p>
 </td>
             </tr>
             <tr>
@@ -536,32 +556,6 @@ Use to record the observed and measured characteristics of spontaneous breathing
                </td>
                <td>
 <p>The craniocaudal tilt of the surface on which the person is lying at the time of measurement.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-OnAir.html" title="StructureDefinition/OnAir">OnAir</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-OxygenDeliveryDetail.html"
-                     title="StructureDefinition/OxygenDeliveryDetail">OxygenDeliveryDetail</a>
-               </td>
-               <td>
-<p>Further details of the method of oxygen delivery.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-ProsentO2.html"
-                     title="StructureDefinition/ProsentO2">ProsentO2</a>
-               </td>
-               <td>
-
 </td>
             </tr>
          </tbody>
@@ -894,7 +888,7 @@ Use to record the observed and measured characteristics of spontaneous breathing
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 6, 2024 06:31+0000">2024-11-06</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 2, 2024 08:49+0000">2024-12-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

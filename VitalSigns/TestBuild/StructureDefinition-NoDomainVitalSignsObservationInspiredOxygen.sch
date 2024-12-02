@@ -12,12 +12,11 @@
   <sch:pattern>
     <sch:title>f:Extension</sch:title>
     <sch:rule context="f:Extension">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/Flow']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/Flow': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/FiO2']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/FiO2': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/ProsentO2']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/ProsentO2': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/OnAir']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/OnAir': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/MethodofOxygenDelivery': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/OxygenDeliveryDetail': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &lt;= 0">value[x]: maximum cardinality of 'value[x]' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>

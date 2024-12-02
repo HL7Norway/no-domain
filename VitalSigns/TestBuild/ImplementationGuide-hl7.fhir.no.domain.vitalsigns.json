@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.7.6",
+  "version" : "0.7.7",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-11-06T06:31:28+00:00",
+  "date" : "2024-12-02T08:49:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -28,7 +28,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.0.2"
+    "version" : "6.1.0"
   },
   {
     "id" : "hl7ext",
@@ -324,7 +324,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{
@@ -602,40 +602,6 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/FiO2"
-      },
-      "name" : "FiO2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/Flow"
-      },
-      "name" : "Flow",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MethodofOxygenDelivery"
-      },
-      "name" : "MethodofOxygenDelivery",
-      "description" : "Futhure details of method of oxygen delivery",
-      "exampleBoolean" : false
-    },
-    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
@@ -1110,6 +1076,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFiO2"
+      },
+      "name" : "NoDomainVitalSignsObservationFiO2",
+      "description" : "Fraction of oxygen in inspired air.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFlow"
+      },
+      "name" : "NoDomainVitalSignsObservationFlow",
+      "description" : "Oxygen flow rate given to an individual.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1213,6 +1203,42 @@
       },
       "name" : "NoDomainVitalSignsObservationInspiredOxygen",
       "description" : "Details of the amount of oxygen available to the subject at the time of observation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
+      },
+      "name" : "NoDomainVitalSignsObservationMethodofOxygenDelivery",
+      "description" : "The method used to deliver the oxygen.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationOnAir"
+      },
+      "name" : "NoDomainVitalSignsObservationOnAir",
+      "description" : "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationProsentO2"
+      },
+      "name" : "NoDomainVitalSignsObservationProsentO2",
+      "description" : "Percentage of oxygen in inspired air.",
       "exampleBoolean" : false
     },
     {
@@ -1422,17 +1448,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/OnAir"
-      },
-      "name" : "OnAir",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -1440,18 +1455,6 @@
       },
       "name" : "Organization details of afa23",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/OxygenDeliveryDetail"
-      },
-      "name" : "OxygenDeliveryDetail",
-      "description" : "Further details of the method of oxygen delivery.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1496,17 +1499,6 @@
       },
       "name" : "PractitionerRole details of agb30",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ProsentO2"
-      },
-      "name" : "ProsentO2",
-      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
