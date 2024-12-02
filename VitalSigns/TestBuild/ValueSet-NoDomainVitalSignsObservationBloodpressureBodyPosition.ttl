@@ -30,16 +30,18 @@
      fhir:value [ fhir:v "1"^^xsd:integer ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.7.7"] ; # 
+  fhir:version [ fhir:v "0.7.8"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSignsObservationBloodpressureBodyPosition"] ; # 
   fhir:title [ fhir:v "NoDomainVitalSignsObservationBloodpressureBodyPosition"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:date [ fhir:v "2021-03-17T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Norway" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+       fhir:value [ fhir:v "http://www.hl7.no" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Codes representing body position for blood pressure"] ; # 

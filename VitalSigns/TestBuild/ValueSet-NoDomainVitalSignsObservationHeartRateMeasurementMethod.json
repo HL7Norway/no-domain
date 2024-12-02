@@ -22,12 +22,20 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod",
-  "version" : "0.7.7",
+  "version" : "0.7.8",
   "name" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
   "title" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
   "status" : "draft",
   "experimental" : false,
   "date" : "2021-03-17T00:00:00+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Codes representing measurement method for HeartRate",
   "jurisdiction" : [{
     "coding" : [{
@@ -36,6 +44,7 @@
       "display" : "Norway"
     }]
   }],
+  "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",

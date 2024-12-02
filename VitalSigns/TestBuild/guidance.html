@@ -1,39 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Guidance -  v0.7.7</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Guidance -  v0.7.8</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
-    <link rel="stylesheet" href="assets/css/hl7.css"/>
-    <link rel="stylesheet" href="assets/css/fhir.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -43,21 +43,22 @@
 
     <style type="text/css">h2{--heading-prefix:"3"}
     h3,h4,h5,h6{--heading-prefix:"3"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
             
 <div id="family-nav">
-	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
 	</a>
 </div>
 
 
             
 <div id="hl7-nav">
-    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
-        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
     </a>            
 </div>
 
@@ -65,42 +66,42 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.7.7 - ci-build
+            <span style="display:inline-block;">0.7.8 - BallotSTU-1
 
 
 
-  <img src="assets/images/nor.svg" alt="Norway flag" title="Norway" height="16"/>
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
-  <li><a name="l158">​</a>
-    <a href="guideance.html">Guideance</a>
+  <li>
+    <a href="guidance.html">Guidance</a>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -112,26 +113,26 @@
     <a href="download.html">Download</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Guidance</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Guidance</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -143,7 +144,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.7.7) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.7.8) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Guidance</h2>
   
 
@@ -158,9 +159,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p>  <!-- white space is critical inside of capture --></p>
+    <p><!-- white space is critical inside of capture --></p>
 <div>
-  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
 <h1 id="use-of-loinc-codes">Use of LOINC codes</h1>
 
@@ -174,19 +175,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The model depicts the differences in conceptual and FHIR vital signs model, including the meaning of different use of codes for handling the complex conceptual model where pulse rate and heart rate are to be differentiated.</p>
 
-<div>  <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 736 523" zoomAndPan="magnify" preserveAspectRatio="none" width="736px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:736px;height:523px;background:#FFFFFF;" version="1.1" height="523px"><defs></defs><g>  <!-- cluster conceptual --><g id="cluster_conceptual"><rect rx="2.5" ry="2.5" width="261" x="146.5" y="7" style="stroke:#181818;stroke-width:1.0;" fill="none" height="194"></rect><text font-weight="bold" lengthAdjust="spacing" x="233.5" font-size="14" textLength="87" y="21.9951" font-family="sans-serif" fill="#000000">conceptual</text></g><g id="elem_general"><ellipse cx="273.397" cy="68.0473" rx="62.397" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><text lengthAdjust="spacing" x="246.397" font-size="14" textLength="54" y="62.7455" font-family="sans-serif" fill="#000000">General</text><text lengthAdjust="spacing" x="237.397" font-size="14" textLength="72" y="79.0424" font-family="sans-serif" fill="#000000">heartreate</text></g><g id="elem_hr"><ellipse cx="220.3265" cy="169.7566" rx="57.8265" ry="14.7566" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><text lengthAdjust="spacing" x="185.3265" font-size="14" textLength="64" y="173.5041" font-family="sans-serif" fill="#000000">Heartrate</text></g><g id="elem_pulse"><ellipse cx="352.4534" cy="170.0556" rx="38.4534" ry="14.5556" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><text lengthAdjust="spacing" x="331.5903" font-size="14" textLength="38" y="173.5095" font-family="sans-serif" fill="#000000">Pulse</text></g><g id="elem_consept"><path d="M424,48 L424,88.2656 L603,88.2656 L603,58 L593,48 L424,48 " style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD"></path><path d="M593,48 L593,58 L603,58 L593,48 " style="stroke:#181818;stroke-width:1.0;" fill="#FEFFDD"></path><text lengthAdjust="spacing" x="430" font-size="13" textLength="158" y="65.0669" font-family="sans-serif" fill="#000000">Heartrate and pulse rate</text><text lengthAdjust="spacing" x="430" font-size="13" textLength="114" y="80.1997" font-family="sans-serif" fill="#000000">conceptual model</text></g><g id="elem_8867"><ellipse cx="352.7495" cy="277.0744" rx="78.7495" ry="26.0744" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="302.6528" font-size="14" textLength="95" y="272.5636" font-family="sans-serif" fill="#000000">LOINC 8867-4</text><text lengthAdjust="spacing" x="311.6528" font-size="14" textLength="77" y="288.8605" font-family="sans-serif" fill="#000000">(heart rate)</text></g><g id="elem_snopulse"><ellipse cx="598.495" cy="276.799" rx="131.995" ry="28.799" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="529.495" font-size="14" textLength="138" y="271.4972" font-family="sans-serif" fill="#000000">SNOMED 78564009</text><text lengthAdjust="spacing" x="504.495" font-size="14" textLength="188" y="287.7941" font-family="sans-serif" fill="#000000">heartrate at systemic artery</text></g><g id="elem_snohr"><ellipse cx="122.5366" cy="276.7741" rx="116.5366" ry="26.2741" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="46.0366" font-size="14" textLength="147" y="272.3732" font-family="sans-serif" fill="#000000">SNOMED 364075005</text><text lengthAdjust="spacing" x="88.0366" font-size="14" textLength="63" y="288.6701" font-family="sans-serif" fill="#000000">heartrate</text></g>  <!-- entity fhirhr --><g id="elem_fhirhr"><rect rx="2.5" ry="2.5" width="138" x="283.5" y="367" style="stroke:#181818;stroke-width:0.5;" fill="#90EE90" height="52.5938"></rect><text lengthAdjust="spacing" x="293.5" font-size="14" textLength="118" y="389.9951" font-family="sans-serif" fill="#000000">FHIR Observation</text><text lengthAdjust="spacing" x="293.5" font-size="14" textLength="63" y="406.292" font-family="sans-serif" fill="#000000">heartrate</text></g>  <!-- entity nodomhr --><g id="elem_nodomhr"><rect rx="2.5" ry="2.5" width="197" x="90" y="481" style="stroke:#181818;stroke-width:0.5;" fill="#FFC0CB" height="36.2969"></rect><text lengthAdjust="spacing" x="100" font-size="14" textLength="177" y="503.9951" font-family="sans-serif" fill="#000000">no-domain-FHIR heartrate</text></g>  <!-- entity nodompulse --><g id="elem_nodompulse"><rect rx="2.5" ry="2.5" width="172" x="381.5" y="481" style="stroke:#181818;stroke-width:0.5;" fill="#FFC0CB" height="36.2969"></rect><text lengthAdjust="spacing" x="391.5" font-size="14" textLength="152" y="503.9951" font-family="sans-serif" fill="#000000">no-domain-FHIR pulse</text></g>  <!-- link snohr to 8867 -->  <!-- link 8867 to snohr -->  <!-- link general to hr --><g id="link_general_hr"><path d="M260.53,93.46 C250.3,112.78 236.38,139.04 227.94,154.96 " style="stroke:#181818;stroke-width:1.0;" id="general-hr" fill="none"></path></g>  <!-- link general to pulse --><g id="link_general_pulse"><path d="M292.42,92.95 C308.03,112.71 329.59,140.01 342.19,155.95 " style="stroke:#181818;stroke-width:1.0;" id="general-pulse" fill="none"></path></g>  <!-- link pulse to snopulse --><g id="link_pulse_snopulse"><path d="M376.99,181.45 C414.66,197.53 487.92,228.8 539.86,250.97 " style="stroke:#181818;stroke-width:1.0;" id="pulse-snopulse" fill="none"></path></g>  <!-- link hr to snohr --><g id="link_hr_snohr"><path d="M207.69,184.73 C192.02,201.51 165.2,230.25 145.83,251 " style="stroke:#181818;stroke-width:1.0;" id="hr-snohr" fill="none"></path></g>  <!-- link pulse to 8867 --><g id="link_pulse_8867"><path d="M352.5,184.73 C352.5,201.4 352.5,229.87 352.5,250.59 " style="stroke:#181818;stroke-width:1.0;" id="pulse-8867" fill="none"></path></g>  <!-- link 8867 to fhirhr --><g id="link_8867_fhirhr"><path d="M352.5,303.13 C352.5,317.84 352.5,336.73 352.5,353.35 " style="stroke:#181818;stroke-width:1.0;" id="8867-to-fhirhr" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="352.5,366.64,356.5,360.64,352.5,354.64,348.5,360.64,352.5,366.64"></polygon></g>  <!-- reverse link fhirhr to nodomhr --><g id="link_fhirhr_nodomhr"><path d="M294.97,430.81 C268.06,447.79 237.27,467.22 215.75,480.8 " style="stroke:#181818;stroke-width:1.0;" id="fhirhr-backto-nodomhr" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="291.31,424.84,311.96,420.08,298.78,436.68,291.31,424.84"></polygon></g>  <!-- reverse link fhirhr to nodompulse --><g id="link_fhirhr_nodompulse"><path d="M395.83,433.5 C413.96,449.81 434.09,467.93 448.39,480.8 " style="stroke:#181818;stroke-width:1.0;" id="fhirhr-backto-nodompulse" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="391.11,438.67,380.93,420.08,400.48,428.26,391.11,438.67"></polygon></g>  <!-- link snopulse to nodompulse --><g id="link_snopulse_nodompulse"><path d="M581.91,305.86 C556.91,347.85 509.81,426.94 484.55,469.37 " style="stroke:#181818;stroke-width:1.0;" id="snopulse-to-nodompulse" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="477.74,480.8,484.2464,477.6909,483.879,470.4892,477.3725,473.5983,477.74,480.8"></polygon><text lengthAdjust="spacing" x="545.5" font-size="13" textLength="119" y="390.5669" font-family="sans-serif" fill="#000000">SNOMED indicates</text><text lengthAdjust="spacing" x="573" font-size="13" textLength="64" y="405.6997" font-family="sans-serif" fill="#000000">pulse rate</text></g>  <!-- link snohr to nodomhr --><g id="link_snohr_nodomhr"><path d="M130.2,303.67 C142.5,344.68 166.54,424.78 179.57,468.24 " style="stroke:#181818;stroke-width:1.0;" id="snohr-to-nodomhr" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="183.39,480.97,185.4994,474.0743,179.9455,469.475,177.8361,476.3707,183.39,480.97"></polygon><text lengthAdjust="spacing" x="166.5" font-size="13" textLength="93" y="390.5669" font-family="sans-serif" fill="#000000">SNOMED code</text><text lengthAdjust="spacing" x="174" font-size="13" textLength="78" y="405.6997" font-family="sans-serif" fill="#000000">indicating hr</text></g></g></svg></div>
+<div><?xml version="1.0" encoding="us-ascii" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="523px" preserveAspectRatio="none" style="width:736px;height:523px;background:#FFFFFF;" version="1.1" viewBox="0 0 736 523" width="736px" zoomAndPan="magnify"><defs /><g><!--cluster conceptual--><g id="cluster_conceptual"><rect fill="none" height="194" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="261" x="146.5" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="233.5" y="21.9951">conceptual</text></g><g id="elem_general"><ellipse cx="273.397" cy="68.0473" fill="#F1F1F1" rx="62.397" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="246.397" y="62.7455">General</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="237.397" y="79.0424">heartreate</text></g><g id="elem_hr"><ellipse cx="220.3265" cy="169.7566" fill="#F1F1F1" rx="57.8265" ry="14.7566" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="185.3265" y="173.5041">Heartrate</text></g><g id="elem_pulse"><ellipse cx="352.4534" cy="170.0556" fill="#F1F1F1" rx="38.4534" ry="14.5556" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="331.5903" y="173.5095">Pulse</text></g><g id="elem_consept"><path d="M424,48 L424,88.2656 L603,88.2656 L603,58 L593,48 L424,48 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M593,48 L593,58 L603,58 L593,48 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="430" y="65.0669">Heartrate and pulse rate</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="430" y="80.1997">conceptual model</text></g><g id="elem_8867"><ellipse cx="352.7495" cy="277.0744" fill="#ADD8E6" rx="78.7495" ry="26.0744" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="302.6528" y="272.5636">LOINC 8867-4</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="311.6528" y="288.8605">(heart rate)</text></g><g id="elem_snopulse"><ellipse cx="598.495" cy="276.799" fill="#ADD8E6" rx="131.995" ry="28.799" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="529.495" y="271.4972">SNOMED 78564009</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="504.495" y="287.7941">heartrate at systemic artery</text></g><g id="elem_snohr"><ellipse cx="122.5366" cy="276.7741" fill="#ADD8E6" rx="116.5366" ry="26.2741" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="46.0366" y="272.3732">SNOMED 364075005</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="88.0366" y="288.6701">heartrate</text></g><!--entity fhirhr--><g id="elem_fhirhr"><rect fill="#90EE90" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="283.5" y="367" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="293.5" y="389.9951">FHIR Observation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="293.5" y="406.292">heartrate</text></g><!--entity nodomhr--><g id="elem_nodomhr"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="90" y="481" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="100" y="503.9951">no-domain-FHIR heartrate</text></g><!--entity nodompulse--><g id="elem_nodompulse"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="172" x="381.5" y="481" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="391.5" y="503.9951">no-domain-FHIR pulse</text></g><!--link snohr to 8867--><!--link 8867 to snohr--><!--link general to hr--><g id="link_general_hr"><path d="M260.53,93.46 C250.3,112.78 236.38,139.04 227.94,154.96 " fill="none" id="general-hr" style="stroke:#181818;stroke-width:1.0;" /></g><!--link general to pulse--><g id="link_general_pulse"><path d="M292.42,92.95 C308.03,112.71 329.59,140.01 342.19,155.95 " fill="none" id="general-pulse" style="stroke:#181818;stroke-width:1.0;" /></g><!--link pulse to snopulse--><g id="link_pulse_snopulse"><path d="M376.99,181.45 C414.66,197.53 487.92,228.8 539.86,250.97 " fill="none" id="pulse-snopulse" style="stroke:#181818;stroke-width:1.0;" /></g><!--link hr to snohr--><g id="link_hr_snohr"><path d="M207.69,184.73 C192.02,201.51 165.2,230.25 145.83,251 " fill="none" id="hr-snohr" style="stroke:#181818;stroke-width:1.0;" /></g><!--link pulse to 8867--><g id="link_pulse_8867"><path d="M352.5,184.73 C352.5,201.4 352.5,229.87 352.5,250.59 " fill="none" id="pulse-8867" style="stroke:#181818;stroke-width:1.0;" /></g><!--link 8867 to fhirhr--><g id="link_8867_fhirhr"><path d="M352.5,303.13 C352.5,317.84 352.5,336.73 352.5,353.35 " fill="none" id="8867-to-fhirhr" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="none" points="352.5,366.64,356.5,360.64,352.5,354.64,348.5,360.64,352.5,366.64" style="stroke:#181818;stroke-width:1.0;" /></g><!--reverse link fhirhr to nodomhr--><g id="link_fhirhr_nodomhr"><path d="M294.97,430.81 C268.06,447.79 237.27,467.22 215.75,480.8 " fill="none" id="fhirhr-backto-nodomhr" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="none" points="291.31,424.84,311.96,420.08,298.78,436.68,291.31,424.84" style="stroke:#181818;stroke-width:1.0;" /></g><!--reverse link fhirhr to nodompulse--><g id="link_fhirhr_nodompulse"><path d="M395.83,433.5 C413.96,449.81 434.09,467.93 448.39,480.8 " fill="none" id="fhirhr-backto-nodompulse" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="none" points="391.11,438.67,380.93,420.08,400.48,428.26,391.11,438.67" style="stroke:#181818;stroke-width:1.0;" /></g><!--link snopulse to nodompulse--><g id="link_snopulse_nodompulse"><path d="M581.91,305.86 C556.91,347.85 509.81,426.94 484.55,469.37 " fill="none" id="snopulse-to-nodompulse" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="none" points="477.74,480.8,484.2464,477.6909,483.879,470.4892,477.3725,473.5983,477.74,480.8" style="stroke:#181818;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="545.5" y="390.5669">SNOMED indicates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="573" y="405.6997">pulse rate</text></g><!--link snohr to nodomhr--><g id="link_snohr_nodomhr"><path d="M130.2,303.67 C142.5,344.68 166.54,424.78 179.57,468.24 " fill="none" id="snohr-to-nodomhr" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="none" points="183.39,480.97,185.4994,474.0743,179.9455,469.475,177.8361,476.3707,183.39,480.97" style="stroke:#181818;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="166.5" y="390.5669">SNOMED code</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="174" y="405.6997">indicating hr</text></g></g></svg></div>
 
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -196,12 +197,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     });
   </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 2, 2024 17:48+0000">2024-12-02</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.8 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 2, 2024 18:24+0000">2024-12-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -211,35 +212,36 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
 
 
-  <!-- / feedback form -->
+<!-- / feedback form  -->
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

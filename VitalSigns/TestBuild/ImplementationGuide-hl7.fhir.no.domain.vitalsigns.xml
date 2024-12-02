@@ -6,10 +6,18 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name="hl7.fhir.no.domain.vitalsigns"> </a><a name="hchl7.fhir.no.domain.vitalsigns"> </a><a name="hl7.fhir.no.domain.vitalsigns-no-NO"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
-  <version value="0.7.7"/>
+  <version value="0.7.8"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2024-12-02T17:48:30+00:00"/>
+  <date value="2024-12-02T18:24:09+00:00"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -47,7 +55,7 @@
         <valueString value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2024+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -55,7 +63,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="BallotSTU-1"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -250,7 +258,7 @@
         <valueCode value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2024+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -258,7 +266,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="BallotSTU-1"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -453,7 +461,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsObservationBloodpressure"/>
       </reference>
       <name value="NO Domain VitalSigns Observation - Blood pressure"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation."/>
+      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

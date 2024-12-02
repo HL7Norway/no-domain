@@ -6,10 +6,18 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.7.7",
+  "version" : "0.7.8",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2024-12-02T17:48:30+00:00",
+  "date" : "2024-12-02T18:24:09+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -54,7 +62,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2024+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -65,7 +73,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "BallotSTU-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -333,7 +341,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2024+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,7 +352,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "BallotSTU-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -610,7 +618,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
       },
       "name" : "NO Domain VitalSigns Observation - Blood pressure",
-      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165",
       "exampleBoolean" : false
     },
     {
