@@ -3,7 +3,7 @@ NoDomainVitalSigns : Validation Results
 
 err = 26, warn = 95, info = 28
 IG Publisher Version: 1.7.5
-Generated Mon Dec 02 18:25:24 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.7.8 (canonical = http://hl7.no/fhir)
+Generated Mon Dec 02 18:48:47 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.7.8 (canonical = http://hl7.no/fhir)
  Build Errors : 1 / 60 / 0
  /github/workspace/VitalSigns/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-blood-pressure-create : 7 / 2 / 7
@@ -157,7 +157,7 @@ WARNING: Observation/no-blood-pressure-create: Observation.extension[3].value.of
 WARNING: Observation/no-blood-pressure-create: Observation.extension[3].value.ofType(Quantity): The value has no system so the maximum value cannot be checked
 ERROR: Observation/no-blood-pressure-create: Observation.component[0].code.coding[1].code: Unknown code '4471000202106' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
 ERROR: Observation/no-blood-pressure-create: Observation.component[1].code.coding[1].code: Unknown code '4481000202108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
-ERROR: Observation/no-blood-pressure-create: Observation.component[2].code.coding[1].code: Unknown code '4491000202105' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
+ERROR: Observation/no-blood-pressure-create: Observation.component[2].code.coding[1].code: Unknown code '4501000202102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
 INFORMATION: Observation/no-blood-pressure-create: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/no-blood-pressure-create: Observation.component[0].code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/no-blood-pressure-create: Observation.component[1].code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
