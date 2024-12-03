@@ -7,7 +7,7 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
-* ^copyright ="Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"
+* ^copyright = "Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"
 * ^purpose = "To record the systemic arterial blood pressure of an individual."
 * . ^short = "FHIR Blood Pressure Profile Norway"
 * extension ^slicing.discriminator.type = #value
