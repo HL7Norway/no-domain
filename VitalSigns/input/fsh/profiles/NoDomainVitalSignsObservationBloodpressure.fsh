@@ -2,7 +2,7 @@ Profile: NoDomainVitalSignsObservationBloodpressure
 Parent: $bp
 Id: NoDomainVitalSignsObservationBloodpressure
 Title: "NO Domain VitalSigns Observation - Blood pressure"
-Description: """Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. Some content in this profile builds on the blood pressure arcetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"""
+Description: """Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation. \n Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
 * ^version = "0.9.0000"
 * ^status = #draft
