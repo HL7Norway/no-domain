@@ -2,6 +2,7 @@ ValueSet: NoDomainVitalSignsObservationBodyHeightBodyPosition
 Id: NoDomainVitalSignsObservationBodyHeightBodyPosition 
 Title: "NoDomainVitalSignsObservationBodyHeightBodyPosition"
 Description: "Codes representing body position for body height"
+* ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 // * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
