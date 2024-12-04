@@ -7,7 +7,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Body Temperatur
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
-* ^copyright = "Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"
+* ^copyright = "Some content in this profile builds on the body temperature archetype: Kroppstemperatur, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.1855"
 * ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Body Temperature information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Body Temperature."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

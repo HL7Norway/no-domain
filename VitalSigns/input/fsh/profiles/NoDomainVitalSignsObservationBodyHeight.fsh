@@ -8,7 +8,7 @@ To be used for recording the measured height or body length of an individual at 
 * ^version = "0.9.0000"
 * ^status = #draft
 * ^date = "2021-05-01"
-* ^copyright = "Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"
+* ^copyright = "Some content in this profile builds on the body height archetype: Høyde/Lengde, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2274"
 * ^purpose = "To record the length of the body from crown of head to sole of foot of an individual - either measured or approximated, and either in a standing or recumbent position."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
