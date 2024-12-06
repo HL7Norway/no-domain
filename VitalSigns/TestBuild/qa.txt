@@ -1,10 +1,10 @@
 NoDomainVitalSigns : Validation Results
 =========================================
 
-err = 26, warn = 95, info = 28
+err = 26, warn = 91, info = 28
 IG Publisher Version: 1.7.5
-Generated Tue Dec 03 09:23:17 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.7.8 (canonical = http://hl7.no/fhir)
- Build Errors : 1 / 60 / 0
+Generated Fri Dec 06 10:27:35 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.7.8 (canonical = http://hl7.no/fhir)
+ Build Errors : 1 / 56 / 0
  /github/workspace/VitalSigns/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-blood-pressure-create : 7 / 2 / 7
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-body-height-create : 1 / 0 / 4
@@ -141,10 +141,6 @@ WARNING: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVitalSi
 WARNING: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVitalSignsObservationSleepStatus.html: The html source has duplicate anchor Ids: Extension,Extension.extension,Extension.id,Extension.url,Extension.value_x_,d-Extension,d-Extension.extension,d-Extension.url,d-Extension.value_x_,s-summary
 WARNING: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVitalSignsObservationSpontaneousBreathing.html: The html source has duplicate anchor Ids: Extension,Extension.extension,Extension.id,Extension.url,Extension.value_x_,d-Extension,d-Extension.extension,d-Extension.url,d-Extension.value_x_,s-summary
 WARNING: /github/workspace/VitalSigns/output/StructureDefinition-NoDomainVitalSignsObservationTilt.html: The html source has duplicate anchor Ids: Extension,Extension.extension,Extension.id,Extension.url,Extension.value_x_,Extension.value_x_.code,Extension.value_x_.comparator,Extension.value_x_.extension,Extension.value_x_.id,Extension.value_x_.system,Extension.value_x_.unit,Extension.value_x_.value,d-Extension,d-Extension.extension,d-Extension.url,d-Extension.value_x_,d-Extension.value_x_.code,d-Extension.value_x_.system,d-Extension.value_x_.unit,d-Extension.value_x_.value,s-summary
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns.json ==
 == fsh-generated/resources/Observation-no-blood-pressure-create.json ==
 INFORMATION: Observation/no-blood-pressure-create: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure|0.7.8 (this may not be a problem, but you should check that it's not intended to match a slice)

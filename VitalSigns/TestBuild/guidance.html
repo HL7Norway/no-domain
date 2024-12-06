@@ -66,7 +66,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.7.8 - BallotSTU-1
+            <span style="display:inline-block;">0.7.8 - ballotSTU-1
 
 
 
@@ -163,13 +163,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#use-of-loinc-codes" id="markdown-toc-use-of-loinc-codes">Use of LOINC codes</a></li>
+  <li><a href="#fhir-r6-changes" id="markdown-toc-fhir-r6-changes">FHIR R6 changes</a></li>
   <li><a href="#pulse-rate-vs-heart-rate" id="markdown-toc-pulse-rate-vs-heart-rate">Pulse rate vs Heart rate</a></li>
 </ul>
 
 </div>
 <h3 id="use-of-loinc-codes">Use of LOINC codes</h3>
 
-<p>In FHIR, the LOINC codes (magic value) are mandatory to indicate what category of measurement the given observation is. This is problematic in Norway as LOINC is not generally used in clinical systems in Norway. The magic value codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the magic value.</p>
+<p>In <a href="https://hl7.org/fhir/observation-vitalsigns.html">FHIR vital-signs</a>, the <a href="https://loinc.org/">LOINC codes</a> (<em>magic value</em>) are mandatory to indicate what category of measurement the given observation is. Until release R5 the <em>magic value</em> was mandatory in the Observation.code element. This is problematic in for use in Norway as LOINC is not generally used in clinical systems in Norway. The <em>magic value</em> codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the <em>magic value</em>.</p>
+
+<h3 id="fhir-r6-changes">FHIR R6 changes</h3>
+
+<p>R6 makes several changes to the use of <em>magic values</em> in vital-signs observations. First of the <em>magic value</em> is placed in the Observation.category which better represents our interpretation of the <em>magic value</em>, as a high level category that makes it easy to find similar measurements. Secondly there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.</p>
 
 <h3 id="pulse-rate-vs-heart-rate">Pulse rate vs Heart rate</h3>
 
@@ -206,7 +211,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.8 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 3, 2024 09:21+0000">2024-12-03</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.7.8 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 6, 2024 10:26+0000">2024-12-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
