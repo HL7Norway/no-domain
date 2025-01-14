@@ -33,7 +33,7 @@ pulse -down- 8867
 8867 -down-o fhirhr
 fhirhr <|-down- nodomhr
 fhirhr <|-down- nodompulse
-nodompulse o-up- snopulse :SNOMED indicates\npulse rate
+nodompulse o-up- snopulse :SNOMED code\nindicating pulse rate
 nodomhr o-up- snohr :SNOMED code\nindicating hr
 'rectangle "test" as rect {
 '"search for information" as (soke) #lightblue
