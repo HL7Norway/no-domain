@@ -43,7 +43,6 @@ Comment: For example: level of anxiety, pain, feeding in infants, tracheostomy."
 * valueQuantity ^short = "The frequency of spontaneous breathing."
 * valueQuantity ^definition = "The frequency of spontaneous breathing."
 
-
 * code.coding 1..
 * code.coding contains ResRateSNOMEDCode 0..1
 * code.coding[ResRateSNOMEDCode].system 1..
