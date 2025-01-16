@@ -23,3 +23,5 @@ Description: "Codes representing measurement method for blood pressurerate"
 * SNOMED_CT#37931006 "Auskultasjon"
 * SNOMED_CT#129434008 "Palpasjon"
 * SNOMED_CT#113011001 "Palpasjon"
+// Mangler kode for Automatisk, non-invasivt
+// Mangler kode for Automatisk, invasivt

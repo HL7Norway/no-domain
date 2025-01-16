@@ -18,7 +18,6 @@ Description: "Codes representing body exposure"
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^publisher = "FHIR Project team"
 
-
 * SNOMED_CT#5671000202107 "Naken"
 * SNOMED_CT#5601000202102 "Økt påkledning/tildekking"
 * SNOMED_CT#5611000202100 "Passende påkledning/tildekking"
