@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c9cc9572-a6ec-41f4-bb84-99fc3a9669d7"/>
+  <id value="cf9ab8e9-6c94-40a0-83e6-5d83de31decb"/>
   <meta>
-    <lastUpdated value="2024-12-06T12:40:05.749+00:00"/>
+    <lastUpdated value="2025-01-16T09:07:12.492+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -26,7 +26,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
@@ -76,7 +76,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
         <title value="NoDomainVitalSignObservationBloodPressureMeasurementMethod"/>
         <status value="draft"/>
@@ -90,8 +90,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9e5ddf69-39ce-42f2-a435-dd63f77a1eff"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:eeb6409a-7bbc-4de2-aacc-852ed28c16ff"/>
+          <timestamp value="2025-01-16T09:07:58+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -162,8 +162,8 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
-            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -175,6 +175,22 @@
                 <td>
                   <b>Display</b>
                 </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Orthostatic body position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33586001"> </a>  
+                  <a href="http://snomed.info/id/33586001">33586001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sitting position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -196,7 +212,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <title value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <status value="draft"/>
@@ -210,9 +226,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:17504c44-e318-4cd8-a877-b0611f91e714"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
-          <total value="2"/>
+          <identifier value="urn:uuid:cb34b232-da6e-49f2-b4d1-3a66ced3530e"/>
+          <timestamp value="2025-01-16T09:07:58+00:00"/>
+          <total value="4"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -238,6 +254,16 @@
             <name value="version"/>
             <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"/>
           </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Orthostatic body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sitting position"/>
+          </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="414585002"/>
@@ -272,7 +298,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
@@ -386,7 +412,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <title value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <status value="draft"/>
@@ -400,8 +426,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:37b18dad-cf7b-4ef3-b08d-bb85a068cfe5"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:3e2a756e-c9a7-462f-9a23-8bc47a65db34"/>
+          <timestamp value="2025-01-16T09:07:58+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -512,7 +538,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
@@ -530,7 +556,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyExposure"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationBodyExposure"/>
         <title value="NoDomainVitalSignsObservationBodyExposure"/>
         <status value="draft"/>
@@ -544,8 +570,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:83095a06-8800-4176-b691-8110942f6417"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:ed632c19-5a20-4275-8865-4b9a359cdc3d"/>
+          <timestamp value="2025-01-16T09:07:58+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -596,7 +622,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
@@ -622,7 +648,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <title value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <status value="draft"/>
@@ -636,8 +662,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3f26bb40-1ffc-4c85-9603-da759a299f54"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:9c6d31b2-d519-43e6-8efe-1ce55431946d"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -693,7 +719,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 13 concepts</p>
             <table class="codes">
               <tr>
@@ -815,7 +841,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyTempBodySite"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <title value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <status value="draft"/>
@@ -829,8 +855,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0c454ad8-5949-479b-bd9c-1e2342f10bfc"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:b451495a-d28e-475e-b102-610e4badbc17"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -946,7 +972,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
@@ -964,7 +990,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationClothingState"/>
         <title value="NoDomainVitalSignsObservationClothingState"/>
         <status value="draft"/>
@@ -978,8 +1004,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fe6f09ab-7ebc-492f-af5a-98721388684d"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:528be719-e3ad-4e70-ac86-8d3f1735e237"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1030,7 +1056,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
@@ -1072,7 +1098,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationCuffsize"/>
         <title value="NoDomainVitalSignsObservationCuffsize"/>
         <status value="draft"/>
@@ -1086,8 +1112,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:41bba434-8e70-4fdc-90a7-ee3977a1043c"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:4f9e9e3b-4190-4d56-bb1e-bac08ffa275a"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1153,7 +1179,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
@@ -1171,7 +1197,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <title value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <status value="draft"/>
@@ -1185,8 +1211,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d618359b-90ab-4bee-a91f-d0bff5e1c7e6"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:e46c8dcf-7d98-4a95-a25c-94b5b162169f"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1237,7 +1263,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
@@ -1263,7 +1289,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <title value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <status value="draft"/>
@@ -1277,8 +1303,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:18870966-a5cb-4388-9118-0da75e760e8e"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:3fe810dc-1673-4600-a2ea-a97ae6e5080a"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1334,7 +1360,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -1368,7 +1394,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
         <title value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
         <status value="draft"/>
@@ -1382,8 +1408,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:90cb1b6f-aad6-403d-9898-df6f893a4704"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:43b75437-03f3-4c74-9437-e05815e55389"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1444,7 +1470,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
@@ -1486,7 +1512,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
         <title value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
         <status value="draft"/>
@@ -1500,8 +1526,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:df334eb1-ba6e-4e63-82ee-8cb10c091707"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:64cfbd05-11ef-4b2e-a667-bd1710c0f21d"/>
+          <timestamp value="2025-01-16T09:07:59+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1567,7 +1593,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
@@ -1593,7 +1619,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationHeartRhythm"/>
         <title value="NoDomainVitalSignsObservationHeartRhythm"/>
         <status value="draft"/>
@@ -1607,8 +1633,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:825b566b-9fef-47e2-aac1-67341bf258b5"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:5972ad31-b4d1-4014-b109-7e0ae06ec897"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1664,7 +1690,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
@@ -1706,7 +1732,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
         <title value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
         <status value="draft"/>
@@ -1720,8 +1746,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1f8984fb-09ee-4292-bac0-534b84778e19"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:908a344c-0abb-4d27-910c-e7f118a70dc3"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1787,7 +1813,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
@@ -1901,7 +1927,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseBodySite"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationPulseBodySite"/>
         <title value="NoDomainVitalSignsObservationPulseBodySite"/>
         <status value="draft"/>
@@ -1915,8 +1941,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7b4dbeb9-b784-4cb5-adc8-575d9683bca1"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:29f6acdf-0639-44c8-9965-4db8f364b147"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -2027,7 +2053,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -2061,7 +2087,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythm"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationPulseRhythm"/>
         <title value="NoDomainVitalSignsObservationPulseRhythm"/>
         <status value="draft"/>
@@ -2075,8 +2101,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:57c443ae-a621-4f2e-894e-0d967a977166"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:0fa549fd-7975-4b02-b44f-11562ad1b516"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2137,7 +2163,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -2171,7 +2197,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
         <title value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
         <status value="draft"/>
@@ -2185,8 +2211,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0267928e-eb69-4a3a-8274-567a34f52f3e"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:6699c612-7e35-4d7c-b20b-309e2afb51f2"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2247,7 +2273,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 5 concepts</p>
             <table class="codes">
               <tr>
@@ -2305,7 +2331,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <title value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <status value="draft"/>
@@ -2319,8 +2345,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2c552912-3629-4a7e-bd79-b0e2a019feeb"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:90945d38-6909-49bd-ac40-524f5f88f27f"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2396,7 +2422,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
@@ -2446,7 +2472,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateDepth"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <title value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <status value="draft"/>
@@ -2460,8 +2486,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a148ea2e-c11c-497a-8c06-543438860210"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:90c38c24-1f2f-4d85-822e-b41f6b7970dc"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2532,7 +2558,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -2566,7 +2592,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <title value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <status value="draft"/>
@@ -2580,8 +2606,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f65c5154-1e35-498b-94b4-b2821cd108e2"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:a8774380-13b1-4b9c-8b93-98f2d72f9343"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2642,7 +2668,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -2676,7 +2702,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
         <title value="NoDomainVitalSignsObservationSleepStatusValueSet"/>
         <status value="draft"/>
@@ -2690,8 +2716,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b7f8fb1b-b5d6-4f1e-ba4b-e64024b871ee"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:8372a357-3869-4da6-b78f-7786767ae512"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2752,7 +2778,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
@@ -2778,7 +2804,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
         <title value="NoDomainVitalSignsObservationSpontaneousBreathingVS"/>
         <status value="draft"/>
@@ -2792,8 +2818,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e4ac685f-19ea-45c8-8a2b-bacc0d169973"/>
-          <timestamp value="2024-12-06T12:40:54+00:00"/>
+          <identifier value="urn:uuid:d03790c8-84ac-4231-b432-fdc179990ea9"/>
+          <timestamp value="2025-01-16T09:08:00+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2849,7 +2875,7 @@
                 <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a>
               </p>
             </div>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Aug 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT 900000000000207008 edition 01-Aug 2024</p>
             <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
@@ -2899,7 +2925,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseMeasurmentMethod"/>
-        <version value="0.7.8"/>
+        <version value="0.8.0"/>
         <name value="NoDomainVitalSignsPulseMeasurmentMethod"/>
         <title value="NoDomainVitalSignsPulseMeasurmentMethod"/>
         <status value="draft"/>
@@ -2913,8 +2939,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5ee5cce5-2957-404a-905a-2c0c695e5352"/>
-          <timestamp value="2024-12-06T12:40:55+00:00"/>
+          <identifier value="urn:uuid:9e3275e0-bffb-4aa9-9e3a-9a3aed022bfc"/>
+          <timestamp value="2025-01-16T09:08:01+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
