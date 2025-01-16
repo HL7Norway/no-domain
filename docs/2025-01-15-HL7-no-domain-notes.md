@@ -15,22 +15,26 @@ Versjon til diskusjon:
 * Viktig at vi får tatt uoversensstemmelser med internasjonal IHTSDO mapping med det internasjonale miljøet.
 * Viktig at vi får spilt dette arbeidet inn i EU arbeidet.
 
-### Diskusjoner
+### Notater og diskusjoner
 
-* Dataansvar eller opprinnelse, hvordan angir vi det.
-  * skrive noe guideance om ansvarlig virksomhet
-
-* Base profile for Norwegian Vital Signs Observation B...
-  * Domain profile...
-
-* Beskrive at det vanligvis er puls profilen man benytter!
-  * Oppdatere guideance
-
-* forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
-  * Mer informasjon her i overskriften.
-
-* NoDomainVitalSignsObservationSpontaneousBreathingVS 
-  * Ta bort VS
-
-* NoDomainVitalSignsObservationProsentO2
-  * Bruk engelsk
+* Dobbeltsjekke verdisett i alle ekstensjoner mot arketypene. Identfisert mangler koder for sittende og stående BodyPosition. Også feil i blood pressure measuring method.  
+  * OK: BlodtrykkBodyPositionValueSet mangler to koder
+  * TODO: BloodPressureMeasurementMethod mangler to koder
+* Endre SCT-kode (observation.code) for BodyWeight til underliggende barn - [begrep 1153637007](https://browser.ihtsdotools.org/?perspective=full&conceptId1=1153637007&edition=MAIN/SNOMEDCT-NO&release=&languages=no,en).  
+  * TODO: Endre SNOMED begrep som benyttes i profilen.
+  * TODO: Endre tabellen på forsiden.
+* Mer utfyllende beskrivelse på bruk av slice på performer. Dataansvar eller opprinnelse, hvordan angir vi det.  
+  * bruk av author og Organization for å dokumentere dataansvar. Viktig for eksempel for DHO hvor det er pasient ikke er del av ansvarlig organisasjon (dataansvarlig).  
+  * TODO: skrive noe guideance om ansvarlig virksomhet
+* Endre Base-profil til Domain-profile på overordnet beskrivelse av profilene.
+  * TODO: endre fra "base" til "domain"  
+* I beskrivelse – dokumentere at man skal benytte puls som hovedregel.  
+  * heart-rate er kun aktuelt i spesielle tilfeller. (vi holder nyanser mtp pulsklokker med EKG etc utenfor inntil videre 😊).  
+  * TODO: oppdatere guideance (og kanskje noe i heartrate profil)
+* Skrive eksplisitt at ytterligere informasjon om hva som er inkludert og ekskludert i konseptene / ekstensjonene er dokumntert i sin helhet i arketypene (med link til CKM).  
+  * Forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
+  * TODO: Mer informasjon her i overskriften.
+* Spontanous breathing – fjerne VS som suffiks i navn på verdisett.  
+  * TODO: Ta bort VS
+* Bruk engelsk i NoDomainVitalSignsObservationProsentO2.  
+  * TODO: Bruk engelsk i navnet.  
