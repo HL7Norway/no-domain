@@ -38,3 +38,5 @@ Versjon til diskusjon:
   * TODO: Ta bort VS
 * Bruk engelsk i NoDomainVitalSignsObservationProsentO2.  
   * TODO: Bruk engelsk i navnet.  
+* Eksemplene inneholder mange feil, hovedsaklig språk (validator krever engelsk)
+  * TODO: Validerbare eksempler
