@@ -24,7 +24,7 @@ Versjon til diskusjon:
   * TODO: BloodPressureMeasurementMethod mangler to koder
 * Endre SCT-kode (observation.code) for BodyWeight til underliggende barn - [begrep 1153637007](https://browser.ihtsdotools.org/?perspective=full&conceptId1=1153637007&edition=MAIN/SNOMEDCT-NO&release=&languages=no,en).  
   * OK: Endre SNOMED begrep som benyttes i profilen. @lnystad
-  * TODO: Endre tabellen på forsiden. @thomiz
+  * OK: Endre tabellen på forsiden. @thomiz
 * Mer utfyllende beskrivelse på bruk av slice på performer. Dataansvar eller opprinnelse, hvordan angir vi det.  
   * bruk av author og Organization for å dokumentere dataansvar. Viktig for eksempel for DHO hvor det er pasient ikke er del av ansvarlig organisasjon (dataansvarlig).  
   * TODO: skrive noe guideance om ansvarlig virksomhet
