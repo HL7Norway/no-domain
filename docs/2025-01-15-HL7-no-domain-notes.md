@@ -47,5 +47,6 @@ Versjon til diskusjon:
 ### 2025-02-10 DIPS endringer
 
 * Bloodpressure profil value sett for metode. Sende mail til Silje og Marte om hva som er kodene for automatisk invasiv og ikke invasiv.
-* Endre tilbake itl å ha "valueset" postfix i filnavnet
-* 
+* Endre tilbake til å ha "valueset" postfix i filnavnet
+* Diverse andre endringer som avtalt blir sjekket inn på GitHub av Lars Andreas etter møtet.
+* Thomas spør om manglende koder.
