@@ -17,12 +17,14 @@ Versjon til diskusjon:
 
 ### Notater og diskusjoner
 
-* Dobbeltsjekke verdisett i alle ekstensjoner mot arketypene. Identfisert mangler koder for sittende og stående BodyPosition. Også feil i blood pressure measuring method.  
+* Dobbeltsjekke verdisett i alle ekstensjoner mot arketypene.  
+* Identfisert mangler koder for sittende og stående BodyPosition.  
+* Også feil i blood pressure measuring method.  
   * OK: BlodtrykkBodyPositionValueSet mangler to koder
   * TODO: BloodPressureMeasurementMethod mangler to koder
 * Endre SCT-kode (observation.code) for BodyWeight til underliggende barn - [begrep 1153637007](https://browser.ihtsdotools.org/?perspective=full&conceptId1=1153637007&edition=MAIN/SNOMEDCT-NO&release=&languages=no,en).  
-  * TODO: Endre SNOMED begrep som benyttes i profilen.
-  * TODO: Endre tabellen på forsiden.
+  * OK: Endre SNOMED begrep som benyttes i profilen. @lnystad
+  * TODO: Endre tabellen på forsiden. @thomiz
 * Mer utfyllende beskrivelse på bruk av slice på performer. Dataansvar eller opprinnelse, hvordan angir vi det.  
   * bruk av author og Organization for å dokumentere dataansvar. Viktig for eksempel for DHO hvor det er pasient ikke er del av ansvarlig organisasjon (dataansvarlig).  
   * TODO: skrive noe guideance om ansvarlig virksomhet
@@ -35,8 +37,15 @@ Versjon til diskusjon:
   * Forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
   * TODO: Mer informasjon her i overskriften.
 * Spontanous breathing – fjerne VS som suffiks i navn på verdisett.  
-  * TODO: Ta bort VS
-* Bruk engelsk i NoDomainVitalSignsObservationProsentO2.  
-  * TODO: Bruk engelsk i navnet.  
+  * OK: Ta bort VS @lnystad 
+* Bruk engelsk i NoDomainVitalSignsObservationProsentO2. 
+  * (Inne i InspiredOxygen utvidelsen) 
+  * OK: Bruk engelsk i navnet. @lnystad 
 * Eksemplene inneholder mange feil, hovedsaklig språk (validator krever engelsk)
-  * TODO: Validerbare eksempler
+  * TODO: Validerbare eksempler @lnystad sjekker
+
+### 2025-02-10 DIPS endringer
+
+* Bloodpressure profil value sett for metode. Sende mail til Silje og Marte om hva som er kodene for automatisk invasiv og ikke invasiv.
+* Endre tilbake itl å ha "valueset" postfix i filnavnet
+* 
