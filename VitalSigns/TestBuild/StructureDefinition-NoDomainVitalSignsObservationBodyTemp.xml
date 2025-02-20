@@ -32,7 +32,7 @@
   <name value="NoDomainVitalSignsObservationBodyTemp"/>
   <title value="NO Domain VitalSigns Observation - Body Temperature"/>
   <status value="draft"/>
-  <date value="2021-05-01"/>
+  <date value="2025-01-28"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -41,7 +41,7 @@
       <value value="http://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual's body temperature, which is a surrogate for the core body temperature of the individual."/>
+  <description value="Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -88,6 +88,9 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bodytemp"/>
   <derivation value="constraint"/>
   <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
     <element id="Observation">
       <path value="Observation"/>
       <short value="FHIR Body Temperature Profile"/>

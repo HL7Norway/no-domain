@@ -10,7 +10,7 @@
   "name" : "NoDomainVitalSignsObservationBodyTemp",
   "title" : "NO Domain VitalSigns Observation - Body Temperature",
   "status" : "draft",
-  "date" : "2021-05-01",
+  "date" : "2025-01-28",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -19,7 +19,7 @@
       "value" : "http://www.hl7.no"
     }]
   }],
-  "description" : "Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual's body temperature, which is a surrogate for the core body temperature of the individual.",
+  "description" : "Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -66,6 +66,10 @@
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/bodytemp",
   "derivation" : "constraint",
   "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
     "element" : [{
       "id" : "Observation",
       "path" : "Observation",

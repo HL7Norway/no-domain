@@ -13,7 +13,7 @@
   <version value="0.8.0"/>
   <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
   <status value="draft"/>
-  <date value="2021-05-01"/>
+  <date value="2025-01-28"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -46,6 +46,9 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
     <element id="Extension">
       <path value="Extension"/>
       <short value="Optional Extensions Element"/>

@@ -32,7 +32,7 @@
   <name value="NoDomainVitalSignsObservationHeartRate"/>
   <title value="NO Domain VitalSigns Observation - Heart Rate"/>
   <status value="draft"/>
-  <date value="2021-05-01"/>
+  <date value="2025-01-28"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -41,7 +41,7 @@
       <value value="http://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;Use to record the presence or absence of a heart beat."/>
+  <description value="Base profile for Norwegian Vital Signs Observation Heart Rate information.  &#xA;To be used for recording the rate and associated attributes for a heart beat."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -88,6 +88,9 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/heartrate"/>
   <derivation value="constraint"/>
   <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
     <element id="Observation">
       <path value="Observation"/>
       <short value="FHIR Heart Rate Profile"/>

@@ -10,7 +10,7 @@
   "name" : "NoDomainVitalSignsObservationBodyWeight",
   "title" : "NO Domain VitalSigns Observation - Body Weight",
   "status" : "draft",
-  "date" : "2021-05-01",
+  "date" : "2025-01-28",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -66,6 +66,10 @@
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/bodyweight",
   "derivation" : "constraint",
   "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
     "element" : [{
       "id" : "Observation",
       "path" : "Observation",

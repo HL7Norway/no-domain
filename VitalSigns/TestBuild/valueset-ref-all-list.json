@@ -1,12 +1,12 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
       "version" : "0.8.0",
       "status" : "draft",
-      "name" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
-      "title" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
-      "description" : "Codes representing measurement method for blood pressurerate",
+      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
+      "title" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
@@ -145,18 +145,6 @@
       "StructureDefinition-NoDomainVitalSignsObservationHeartRatePulseBodyPosition.html" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm",
-      "version" : "0.8.0",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationHeartRhythm",
-      "title" : "NoDomainVitalSignsObservationHeartRhythm",
-      "description" : "Codes representing heart rhythm for heart rate",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRhythm.html" : "NoDomainVitalSignsObservationHeartRhythm"
-    },
-    {
       "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity",
       "version" : "0.8.0",
       "status" : "draft",
@@ -175,6 +163,18 @@
       "name" : "NoDomainVitalSignsObservationPulseBodySite",
       "title" : "NoDomainVitalSignsObservationPulseBodySite",
       "description" : "Codes representing body site for pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse"
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseMeasurementMethod",
+      "version" : "0.8.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationPulseMeasurementMethod",
+      "title" : "NoDomainVitalSignsObservationPulseMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
@@ -241,11 +241,11 @@
       "StructureDefinition-NoDomainVitalSignsObservationRespirationRegularity.html" : "NoDomainVitalSignsObservationRespirationRegularity"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatus",
       "version" : "0.8.0",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationSleepStatusValueSet",
-      "title" : "NoDomainVitalSignsObservationSleepStatusValueSet",
+      "name" : "NoDomainVitalSignsObservationSleepStatus",
+      "title" : "NoDomainVitalSignsObservationSleepStatus",
       "description" : "Codes representing Sleep Status",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
@@ -253,28 +253,16 @@
       "StructureDefinition-NoDomainVitalSignsObservationSleepStatus.html" : "NoDomainVitalSignsObservationSleepStatus"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS",
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathing",
       "version" : "0.8.0",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
-      "title" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
+      "name" : "NoDomainVitalSignsObservationSpontaneousBreathing",
+      "title" : "NoDomainVitalSignsObservationSpontaneousBreathing",
       "description" : "Codes representing Respiration Spontaneous breathing",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
       "StructureDefinition-NoDomainVitalSignsObservationSpontaneousBreathing.html" : "NoDomainVitalSignsObservationSpontaneousBreathing"
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseMeasurmentMethod",
-      "version" : "0.8.0",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsPulseMeasurmentMethod",
-      "title" : "NoDomainVitalSignsPulseMeasurmentMethod",
-      "description" : "Codes representing measurement method for pulse",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -289,22 +277,8 @@
       "uses" : {
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/common-tags",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommonTags",
-      "title" : "Common Tags",
-      "description" : "Common Tag Codes defined by FHIR project",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/common-tags"],
-      "oids" : ["2.16.840.1.113883.4.642.3.79"],
-      "sources" : ["2.16.840.1.113883.4.642.3.79"],
-      "uses" : {
-      },
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
       "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate"
     },
     {
@@ -321,12 +295,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -342,12 +316,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -363,12 +337,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -386,12 +360,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -407,9 +381,9 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -425,12 +399,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
@@ -446,12 +420,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -466,14 +440,14 @@
       "uses" : {
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoDomainVitalSignsObservationTilt.html" : "NoDomainVitalSignsObservationTilt",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
+      "StructureDefinition-NoDomainVitalSignsObservationTilt.html" : "NoDomainVitalSignsObservationTilt",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -492,12 +466,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -515,32 +489,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/security-labels",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "All Security Labels",
-      "title" : "SecurityLabels",
-      "description" : "A single value set for all security labels defined by FHIR.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-        "http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw",
-        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.47"],
-      "sources" : ["2.16.840.1.113883.4.642.3.47"],
-      "uses" : {
-      },
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-bodylength",
@@ -598,12 +552,12 @@
       },
       "StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html" : "NO Domain VitalSigns Observation - Body Temperature",
       "StructureDefinition-NoDomainVitalSignsObservationBodyWeight.html" : "NO Domain VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
-      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
       "StructureDefinition-NoDomainVitalSignsObservationBodyHeight.html" : "NO Domain VitalSigns Observation - Body Height",
       "StructureDefinition-NoDomainVitalSignsObservationPulse.html" : "NO Domain VitalSigns Observation - Pulse",
-      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation"
+      "StructureDefinition-NoDomainVitalSignsObservationBloodpressure.html" : "NO Domain VitalSigns Observation - Blood pressure",
+      "StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.html" : "NO Domain VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoDomainVitalSignsObservationRespirationRate.html" : "NO Domain VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-NoDomainVitalSignsObservationHeartRate.html" : "NO Domain VitalSigns Observation - Heart Rate"
     }
   ]
 }

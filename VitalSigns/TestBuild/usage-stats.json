@@ -54,13 +54,6 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate",
-      "title": "NoDomainVitalSignsObservationCharacterOfHeartRate",
-      "types": [
-        "Annotation"
-      ]
-    },
-    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfPulse",
       "title": "NoDomainVitalSignsObservationCharacterOfPulse",
       "types": [
@@ -126,13 +119,6 @@
     {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
       "title": "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
-      "types": [
-        "Coding"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
-      "title": "NoDomainVitalSignsObservationHeartRhythm",
       "types": [
         "Coding"
       ]
@@ -215,8 +201,8 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2",
-      "title": "NoDomainVitalSignsObservationProsentO2",
+      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2",
+      "title": "NoDomainVitalSignsObservationPercentO2",
       "types": [
         "Ratio"
       ]
@@ -382,7 +368,7 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir": [
       "Extension"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2": [
+    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2": [
       "Extension"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulseRhythm": [
@@ -454,6 +440,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ]
   }
 }

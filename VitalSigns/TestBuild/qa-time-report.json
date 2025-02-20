@@ -1,261 +1,266 @@
 {
-  "date" : "Thu, 16 Jan, 2025 09:07:12 +0000",
+  "date" : "Thu, 20 Feb, 2025 13:42:38 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns.json",
-      "size" : 25816,
+      "size" : 25286,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 15
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 13
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 46,
-          "length" : 7
+          "start" : 43,
+          "length" : 6
         },
         {
           "activity" : "generateNarratives",
-          "start" : 46,
-          "length" : 142
+          "start" : 43,
+          "length" : 180
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 669
+          "start" : 56,
+          "length" : 590
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 59,
+          "start" : 56,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 117
+          "start" : 64,
+          "length" : 126
         },
         {
           "activity" : "generate2",
-          "start" : 72,
-          "length" : 159
+          "start" : 71,
+          "length" : 213
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 8
+          "start" : 102,
+          "length" : 10
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-blood-pressure-create.json",
-      "size" : 5161,
+      "size" : 5324,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 43,
+          "start" : 41,
           "length" : 6
         },
         {
-          "activity" : "loadInfo",
-          "start" : 45,
-          "length" : 1
-        },
-        {
           "activity" : "generateNarratives",
-          "start" : 46,
-          "length" : 428
+          "start" : 44,
+          "length" : 382
         },
         {
           "activity" : "validate",
-          "start" : 59,
-          "length" : 1856
+          "start" : 56,
+          "length" : 2069
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 25
+          "start" : 64,
+          "length" : 22
         },
         {
           "activity" : "generate2",
-          "start" : 72,
-          "length" : 32
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 121,
-          "length" : 1
+          "start" : 71,
+          "length" : 24
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-body-height-create.json",
-      "size" : 1749,
+      "size" : 1873,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 4
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 46,
-          "length" : 96
+          "start" : 44,
+          "length" : 99
         },
         {
           "activity" : "validate",
-          "start" : 61,
-          "length" : 475
+          "start" : 58,
+          "length" : 591
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 15
+          "start" : 64,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 72,
-          "length" : 10
+          "start" : 71,
+          "length" : 12
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-body-temperature-create.json",
-      "size" : 2041,
+      "size" : 2201,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 46,
+          "start" : 43,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 46,
-          "length" : 81
+          "start" : 44,
+          "length" : 79
+        },
+        {
+          "activity" : "loadLists",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 61,
-          "length" : 714
+          "start" : 59,
+          "length" : 836
         },
         {
           "activity" : "generate1",
-          "start" : 66,
+          "start" : 64,
           "length" : 16
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 11
+          "start" : 71,
+          "length" : 12
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-body-weight-create.json",
-      "size" : 1765,
+      "size" : 1907,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 97
+          "start" : 44,
+          "length" : 89
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 62,
-          "length" : 529
+          "start" : 60,
+          "length" : 581
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 11
+          "start" : 64,
+          "length" : 16
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 9
+          "start" : 71,
+          "length" : 11
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-heart-rate-create.json",
-      "size" : 2441,
+      "size" : 2746,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 99
+          "start" : 44,
+          "length" : 79
         },
         {
           "activity" : "validate",
-          "start" : 62,
-          "length" : 911
+          "start" : 60,
+          "length" : 1283
         },
         {
           "activity" : "generate1",
-          "start" : 66,
+          "start" : 64,
           "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 12
+          "start" : 71,
+          "length" : 13
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-oxygen-saturation-create.json",
-      "size" : 2927,
+      "size" : 3087,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 99
+          "start" : 44,
+          "length" : 88
         },
         {
           "activity" : "validate",
-          "start" : 63,
-          "length" : 481
+          "start" : 62,
+          "length" : 376
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 18
+          "start" : 64,
+          "length" : 13
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 19
+          "start" : 71,
+          "length" : 13
         }
       ]
     },
@@ -265,64 +270,64 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 46,
+          "start" : 43,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 44,
+          "length" : 4
         },
         {
           "activity" : "validate",
-          "start" : 64,
-          "length" : 580
+          "start" : 62,
+          "length" : 612
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 18
+          "start" : 64,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 19
+          "start" : 71,
+          "length" : 13
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Observation-no-respiratory-rate-create.json",
-      "size" : 4177,
+      "size" : 4340,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 44,
+          "length" : 4
         },
         {
           "activity" : "validate",
-          "start" : 64,
-          "length" : 907
+          "start" : 63,
+          "length" : 962
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 17
+          "start" : 64,
+          "length" : 15
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 20
+          "start" : 71,
+          "length" : 15
         }
       ]
     },
@@ -332,22 +337,27 @@
       "processes" : [
         {
           "activity" : "loadResources",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
           "start" : 44,
           "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 65,
+          "start" : 64,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 7
+          "start" : 64,
+          "length" : 9
         },
         {
           "activity" : "generate2",
-          "start" : 73,
+          "start" : 71,
           "length" : 8
         }
       ]
@@ -358,28 +368,28 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 2
+          "start" : 44,
+          "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 65,
+          "start" : 64,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 66,
+          "start" : 64,
           "length" : 6
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 8
+          "start" : 71,
+          "length" : 9
         }
       ]
     },
@@ -389,18 +399,23 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 64,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 66,
+          "start" : 64,
           "length" : 6
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 5
+          "start" : 71,
+          "length" : 6
         }
       ]
     },
@@ -410,28 +425,18 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 65,
-          "length" : 1
-        },
-        {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 6
+          "start" : 64,
+          "length" : 5
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 7
+          "start" : 71,
+          "length" : 8
         }
       ]
     },
@@ -441,930 +446,989 @@
       "processes" : [
         {
           "activity" : "loadResources",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
           "start" : 44,
           "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 65,
+          "start" : 64,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 7
+          "start" : 64,
+          "length" : 6
         },
         {
           "activity" : "generate2",
-          "start" : 73,
-          "length" : 5
+          "start" : 71,
+          "length" : 7
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationActiveHeating.json",
-      "size" : 1182,
+      "size" : 1179,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 6
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 11
+          "start" : 41,
+          "length" : 10
         },
         {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 30
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 126
-        },
-        {
-          "activity" : "generate1",
-          "start" : 66,
-          "length" : 33
-        },
-        {
-          "activity" : "generate2",
-          "start" : 73,
-          "length" : 1220
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 104,
+          "activity" : "loadDepInfo",
+          "start" : 43,
           "length" : 1
         },
         {
-          "activity" : "scanProfilesForR5",
-          "start" : 121,
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 35
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 131
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 56,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 64,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 161
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 425
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBloodpressure.json",
-      "size" : 18732,
+      "size" : 18814,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 5
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 8
+          "start" : 41,
+          "length" : 13
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 219
+          "start" : 41,
+          "length" : 228
         },
         {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 118
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 1120
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 59,
+          "activity" : "checkR4R4B",
+          "start" : 43,
           "length" : 1
         },
         {
+          "activity" : "generateNarratives",
+          "start" : 44,
+          "length" : 141
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 1085
+        },
+        {
           "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 4
+          "start" : 56,
+          "length" : 5
         },
         {
           "activity" : "generate1",
-          "start" : 66,
-          "length" : 659
+          "start" : 64,
+          "length" : 693
         },
         {
           "activity" : "generate2",
-          "start" : 74,
-          "length" : 3705
+          "start" : 71,
+          "length" : 2337
+        },
+        {
+          "activity" : "generate2",
+          "start" : 87,
+          "length" : 1280
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 27
+          "start" : 102,
+          "length" : 45
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 127,
+          "length" : 1
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 3
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBloodpressureBodyPosition.json",
-      "size" : 1424,
+      "size" : 1421,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 23
+          "start" : 42,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 55,
+          "start" : 52,
           "length" : 34
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 31
+          "start" : 65,
+          "length" : 37
         },
         {
           "activity" : "generate2",
-          "start" : 78,
-          "length" : 154
+          "start" : 74,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 41
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBloodpressureDiastolicFormula.json",
-      "size" : 1248,
+      "size" : 1245,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 5
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 45,
+          "start" : 42,
           "length" : 21
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
+          "start" : 45,
+          "length" : 37
         },
         {
           "activity" : "validate",
-          "start" : 55,
+          "start" : 53,
           "length" : 29
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 30
+          "start" : 65,
+          "length" : 41
         },
         {
           "activity" : "generate2",
-          "start" : 78,
-          "length" : 116
+          "start" : 74,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 37
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBloodpressureMeanArterialFormula.json",
-      "size" : 1260,
+      "size" : 1257,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 21
+          "start" : 42,
+          "length" : 12
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
+          "start" : 45,
+          "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 55,
-          "length" : 31
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 1
+          "start" : 53,
+          "length" : 29
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 38
+          "start" : 65,
+          "length" : 45
         },
         {
           "activity" : "generate2",
-          "start" : 78,
+          "start" : 74,
           "length" : 106
         },
         {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 32
+        },
+        {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBloodpressureSystolicFormula.json",
-      "size" : 1244,
+      "size" : 1241,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 16
+          "start" : 42,
+          "length" : 11
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 8
         },
         {
           "activity" : "validate",
-          "start" : 55,
-          "length" : 30
+          "start" : 53,
+          "length" : 31
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 37
+          "start" : 65,
+          "length" : 56
         },
         {
           "activity" : "generate2",
-          "start" : 78,
-          "length" : 104
+          "start" : 74,
+          "length" : 65
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 32
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBodyExposure.json",
-      "size" : 1369,
+      "size" : 1366,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
+          "start" : 42,
           "length" : 23
         },
         {
+          "activity" : "loadInfo",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 8
         },
         {
           "activity" : "validate",
-          "start" : 55,
+          "start" : 53,
           "length" : 34
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 37
+          "start" : 65,
+          "length" : 41
         },
         {
           "activity" : "generate2",
-          "start" : 78,
-          "length" : 106
+          "start" : 74,
+          "length" : 68
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 31
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBodyHeight.json",
-      "size" : 5346,
+      "size" : 5455,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 74
+          "start" : 42,
+          "length" : 83
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 36
         },
         {
           "activity" : "validate",
-          "start" : 55,
-          "length" : 415
+          "start" : 53,
+          "length" : 430
         },
         {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
+          "activity" : "checkConformanceResources",
+          "start" : 56,
           "length" : 1
         },
         {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 2
+        },
+        {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 253
+          "start" : 65,
+          "length" : 273
         },
         {
           "activity" : "generate2",
-          "start" : 78,
-          "length" : 1001
+          "start" : 74,
+          "length" : 613
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 302
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 16
+          "start" : 102,
+          "length" : 17
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBodyHeightBodyPosition.json",
-      "size" : 1376,
+      "size" : 1397,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 11
+          "start" : 42,
+          "length" : 15
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 56,
-          "length" : 29
+          "start" : 53,
+          "length" : 55
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 41
+          "start" : 65,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 79,
-          "length" : 99
+          "start" : 75,
+          "length" : 70
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 31
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBodyTemp.json",
-      "size" : 7946,
+      "size" : 7949,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 7
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 62
+          "start" : 42,
+          "length" : 50
         },
         {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 52
-        },
-        {
-          "activity" : "validate",
-          "start" : 56,
-          "length" : 410
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 59,
+          "activity" : "load-configure",
+          "start" : 43,
           "length" : 1
         },
         {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 53,
+          "length" : 464
+        },
+        {
           "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 2
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 67,
-          "length" : 307
+          "start" : 65,
+          "length" : 270
         },
         {
           "activity" : "generate2",
-          "start" : 79,
-          "length" : 941
+          "start" : 75,
+          "length" : 873
+        },
+        {
+          "activity" : "generate2",
+          "start" : 88,
+          "length" : 312
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 93,
+          "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 12
+          "start" : 102,
+          "length" : 18
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationBodyWeight.json",
-      "size" : 6075,
+      "size" : 6072,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 4
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 45,
-          "length" : 50
+          "start" : 42,
+          "length" : 71
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 25
+          "start" : 45,
+          "length" : 34
         },
         {
           "activity" : "validate",
-          "start" : 56,
-          "length" : 335
+          "start" : 54,
+          "length" : 255
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 1
+          "start" : 56,
+          "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 67,
+          "start" : 66,
           "length" : 236
         },
         {
           "activity" : "generate2",
-          "start" : 80,
-          "length" : 776
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 10
-        },
-        {
-          "activity" : "scanProfilesForR5",
-          "start" : 121,
-          "length" : 1
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 121,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationCharacterOfHeartRate.json",
-      "size" : 1225,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 17
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 11
-        },
-        {
-          "activity" : "validate",
-          "start" : 56,
-          "length" : 26
-        },
-        {
-          "activity" : "generate1",
-          "start" : 68,
-          "length" : 28
+          "start" : 76,
+          "length" : 534
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 92
+          "start" : 89,
+          "length" : 287
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 2
+          "start" : 102,
+          "length" : 15
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 127,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationCharacterOfPulse.json",
-      "size" : 1203,
+      "size" : 1200,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
-          "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 3
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 46,
-          "length" : 1
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 9
+          "start" : 45,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 56,
-          "length" : 22
+          "start" : 54,
+          "length" : 26
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 66,
+          "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 87
+          "start" : 76,
+          "length" : 68
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 32
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationClinicalDescription.json",
-      "size" : 1225,
+      "size" : 1222,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 4
+          "start" : 42,
+          "length" : 6
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 7
+          "start" : 45,
+          "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 56,
-          "length" : 23
+          "start" : 54,
+          "length" : 29
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 30
+          "start" : 66,
+          "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 85
+          "start" : 76,
+          "length" : 65
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 27
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationClothingState.json",
-      "size" : 1378,
+      "size" : 1375,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
+          "start" : 45,
+          "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 56,
-          "length" : 27
+          "start" : 54,
+          "length" : 19
         },
         {
           "activity" : "generate1",
-          "start" : 68,
+          "start" : 66,
           "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 86
+          "start" : 76,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 31
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationConfoundingFactor.json",
-      "size" : 1227,
+      "size" : 1273,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 2
+          "start" : 42,
+          "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 19
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 1
+          "start" : 54,
+          "length" : 16
         },
         {
           "activity" : "generate1",
-          "start" : 68,
+          "start" : 66,
           "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 88
+          "start" : 76,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 32
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationCuffSize.json",
-      "size" : 1338,
+      "size" : 1335,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 4
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 18
+          "start" : 54,
+          "length" : 16
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 66,
+          "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 82
+          "start" : 76,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 29
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationDaysSinceMenstruationStart.json",
-      "size" : 1237,
+      "size" : 1234,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 17
+          "start" : 54,
+          "length" : 19
         },
         {
           "activity" : "generate1",
-          "start" : 68,
+          "start" : 66,
           "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 81,
-          "length" : 83
+          "start" : 76,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 27
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
@@ -1375,47 +1439,47 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 1
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 5
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 41,
           "length" : 4
         },
         {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 6
+        },
+        {
           "activity" : "validate",
-          "start" : 57,
+          "start" : 54,
           "length" : 17
         },
         {
-          "activity" : "validate",
-          "start" : 59,
-          "length" : 1
-        },
-        {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 66,
+          "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 82,
-          "length" : 85
+          "start" : 77,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 28
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
@@ -1426,42 +1490,52 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 16
+          "start" : 54,
+          "length" : 14
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 28
+          "start" : 66,
+          "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 82,
-          "length" : 94
+          "start" : 77,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 27
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
+          "length" : 1
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 127,
           "length" : 1
         }
       ]
@@ -1472,282 +1546,286 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
-          "activity" : "generateSnapshots",
-          "start" : 46,
+          "activity" : "load",
+          "start" : 41,
           "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 4
+          "start" : 45,
+          "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 17
+          "start" : 54,
+          "length" : 15
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 68,
+          "start" : 66,
           "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 82,
-          "length" : 90
+          "start" : 77,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 28
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationHeartRate.json",
-      "size" : 8337,
+      "size" : 8357,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 4
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 39
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 28
-        },
-        {
-          "activity" : "validate",
-          "start" : 57,
-          "length" : 329
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
+          "start" : 41,
           "length" : 2
         },
         {
-          "activity" : "generate1",
-          "start" : 68,
-          "length" : 267
+          "activity" : "load",
+          "start" : 41,
+          "length" : 7
         },
         {
-          "activity" : "generate2",
-          "start" : 82,
-          "length" : 1138
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 47
         },
         {
-          "activity" : "makeDependencies",
-          "start" : 95,
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 54,
+          "length" : 211
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 56,
           "length" : 1
         },
         {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 280
+        },
+        {
+          "activity" : "generate2",
+          "start" : 77,
+          "length" : 800
+        },
+        {
+          "activity" : "generate2",
+          "start" : 89,
+          "length" : 235
+        },
+        {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 10
+          "start" : 102,
+          "length" : 17
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationHeartRatePulseBodyPosition.json",
-      "size" : 1470,
+      "size" : 1467,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
-        },
-        {
-          "activity" : "validate",
-          "start" : 57,
-          "length" : 25
-        },
-        {
-          "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
-        },
-        {
-          "activity" : "generate2",
-          "start" : 83,
-          "length" : 120
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 2
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationHeartRhythm.json",
-      "size" : 1326,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 41,
           "length" : 4
         },
         {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 3
+        },
+        {
+          "activity" : "scan",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
+          "start" : 45,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 24
-        },
-        {
-          "activity" : "generate1",
-          "start" : 68,
+          "start" : 54,
           "length" : 29
         },
         {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 32
+        },
+        {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 92
+          "start" : 77,
+          "length" : 59
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 25
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationHeartRhythmIrregularity.json",
-      "size" : 1386,
+      "size" : 1382,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 7
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 22
+          "start" : 54,
+          "length" : 25
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 66,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 79
+          "start" : 78,
+          "length" : 41
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 32
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationInspiredOxygen.json",
-      "size" : 3021,
+      "size" : 3018,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
-        },
-        {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 12
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 11
+          "start" : 45,
+          "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 74
+          "start" : 54,
+          "length" : 71
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 49
+          "start" : 66,
+          "length" : 55
         },
         {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 73
+          "start" : 78,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 29
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 2
         }
       ]
@@ -1758,42 +1836,47 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 2
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 3
+        },
+        {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 7
+          "start" : 45,
+          "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 24
+          "start" : 54,
+          "length" : 23
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 67,
+          "length" : 28
         },
         {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 64
+          "start" : 78,
+          "length" : 44
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 24
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
@@ -1804,963 +1887,1043 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 4
+          "start" : 45,
+          "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 21
+          "start" : 54,
+          "length" : 24
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 28
+          "start" : 67,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 63
+          "start" : 78,
+          "length" : 45
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 22
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationOxygenSaturation.json",
-      "size" : 5682,
+      "size" : 5690,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 6
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 32
+          "start" : 42,
+          "length" : 35
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 22
+          "start" : 45,
+          "length" : 20
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 258
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 59,
-          "length" : 1
+          "start" : 54,
+          "length" : 313
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 59,
+          "start" : 56,
           "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 226
+          "start" : 67,
+          "length" : 239
         },
         {
           "activity" : "generate2",
-          "start" : 83,
-          "length" : 469
+          "start" : 78,
+          "length" : 348
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 161
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 9
-        },
-        {
-          "activity" : "scanProfilesForR5",
-          "start" : 121,
-          "length" : 1
+          "start" : 102,
+          "length" : 14
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationProsentO2.json",
+      "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationPercentO2.json",
       "size" : 1112,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
+          "start" : 41,
           "length" : 2
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 41,
           "length" : 4
         },
         {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 3
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 21
+          "start" : 55,
+          "length" : 23
         },
         {
           "activity" : "generate1",
-          "start" : 68,
-          "length" : 29
+          "start" : 67,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 84,
-          "length" : 59
+          "start" : 78,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 18
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationPulse.json",
-      "size" : 9342,
+      "size" : 9488,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 6
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 83
+          "start" : 42,
+          "length" : 46
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 45
+          "start" : 45,
+          "length" : 60
         },
         {
           "activity" : "validate",
-          "start" : 57,
-          "length" : 296
+          "start" : 55,
+          "length" : 297
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 59,
+          "start" : 56,
           "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 275
+          "start" : 67,
+          "length" : 280
         },
         {
           "activity" : "generate2",
-          "start" : 84,
-          "length" : 590
+          "start" : 78,
+          "length" : 677
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 173
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 11
+          "start" : 102,
+          "length" : 23
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationPulseRhythm.json",
-      "size" : 1319,
+      "size" : 1316,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 50
+          "start" : 55,
+          "length" : 17
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 28
+          "start" : 67,
+          "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 85,
-          "length" : 78
+          "start" : 79,
+          "length" : 49
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 18
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationPulseRhythmIrregularity.json",
-      "size" : 1414,
+      "size" : 1411,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 2
+          "start" : 42,
+          "length" : 3
         },
         {
-          "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 6
-        },
-        {
-          "activity" : "validate",
-          "start" : 58,
-          "length" : 14
-        },
-        {
-          "activity" : "generate1",
-          "start" : 69,
-          "length" : 28
-        },
-        {
-          "activity" : "generate2",
-          "start" : 85,
-          "length" : 74
-        },
-        {
-          "activity" : "generateExampleZip",
-          "start" : 103,
+          "activity" : "load-configure",
+          "start" : 43,
           "length" : 1
         },
         {
-          "activity" : "generateExampleZip",
-          "start" : 104,
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 52
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 13
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationRespirationDepth.json",
-      "size" : 1360,
+      "size" : 1357,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
+          "start" : 45,
           "length" : 5
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 12
+          "start" : 55,
+          "length" : 16
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 28
+          "start" : 67,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 85,
-          "length" : 82
+          "start" : 79,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 13
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationRespirationRate.json",
-      "size" : 9077,
+      "size" : 8285,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 6
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 44
+          "start" : 42,
+          "length" : 41
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 28
+          "start" : 45,
+          "length" : 35
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 182
+          "start" : 55,
+          "length" : 280
         },
         {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
+          "activity" : "checkConformanceResources",
+          "start" : 56,
           "length" : 1
         },
         {
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 2
+        },
+        {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 270
+          "start" : 67,
+          "length" : 256
         },
         {
           "activity" : "generate2",
-          "start" : 85,
-          "length" : 623
+          "start" : 79,
+          "length" : 381
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 150
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 12
+          "start" : 102,
+          "length" : 14
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 127,
+          "length" : 1
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 121,
+          "start" : 127,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationRespirationRateBodyPosition.json",
-      "size" : 1435,
+      "size" : 1432,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 42,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 6
+          "start" : 45,
+          "length" : 9
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 13
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 1
+          "start" : 55,
+          "length" : 26
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 29
+          "start" : 67,
+          "length" : 30
         },
         {
           "activity" : "generate2",
-          "start" : 85,
-          "length" : 57
+          "start" : 79,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 18
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationRespirationRegularity.json",
-      "size" : 1386,
+      "size" : 1383,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 4
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 2
+          "start" : 42,
+          "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 8
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 12
+          "start" : 55,
+          "length" : 21
         },
         {
           "activity" : "generate1",
-          "start" : 69,
+          "start" : 68,
           "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 85,
-          "length" : 58
+          "start" : 79,
+          "length" : 60
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 23
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationSleepStatus.json",
-      "size" : 1388,
+      "size" : 1377,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
-          "activity" : "generateSnapshots",
-          "start" : 46,
+          "activity" : "load",
+          "start" : 41,
           "length" : 4
         },
         {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 3
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 6
+          "start" : 45,
+          "length" : 8
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 12
+          "start" : 55,
+          "length" : 19
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 31
+          "start" : 68,
+          "length" : 36
         },
         {
           "activity" : "generate2",
-          "start" : 86,
-          "length" : 61
+          "start" : 79,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 23
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationSpontaneousBreathing.json",
-      "size" : 1417,
+      "size" : 1412,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 46,
+          "start" : 41,
           "length" : 4
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 3
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 5
+          "start" : 45,
+          "length" : 7
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 12
+          "start" : 55,
+          "length" : 15
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 28
+          "start" : 68,
+          "length" : 29
         },
         {
           "activity" : "generate2",
-          "start" : 86,
-          "length" : 60
+          "start" : 79,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 22
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-NoDomainVitalSignsObservationTilt.json",
-      "size" : 2256,
+      "size" : 2253,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 5
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 46,
-          "length" : 3
+          "start" : 42,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 8
+          "start" : 45,
+          "length" : 11
         },
         {
           "activity" : "validate",
-          "start" : 58,
-          "length" : 127
+          "start" : 55,
+          "length" : 135
         },
         {
           "activity" : "generate1",
-          "start" : 69,
+          "start" : 68,
           "length" : 49
         },
         {
           "activity" : "generate2",
-          "start" : 86,
-          "length" : 93
+          "start" : 80,
+          "length" : 75
+        },
+        {
+          "activity" : "generate2",
+          "start" : 90,
+          "length" : 36
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 2
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignObservationBloodPressureMeasurementMethod.json",
-      "size" : 2152,
+      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureMeasurementMethod.json",
+      "size" : 1774,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 7
+          "start" : 41,
+          "length" : 9
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 46,
+          "activity" : "load-configure",
+          "start" : 43,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 47,
-          "length" : 135
+          "start" : 45,
+          "length" : 134
         },
         {
           "activity" : "validate",
-          "start" : 50,
-          "length" : 376
+          "start" : 48,
+          "length" : 448
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 12
+          "start" : 68,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 86,
-          "length" : 4083
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 80,
+          "length" : 4053
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodpressureBodyPosition.json",
-      "size" : 2241,
+      "size" : 2202,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 161
+          "start" : 45,
+          "length" : 185
         },
         {
           "activity" : "validate",
-          "start" : 50,
-          "length" : 201
+          "start" : 48,
+          "length" : 202
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 11
+          "start" : 68,
+          "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 90,
-          "length" : 124
+          "start" : 84,
+          "length" : 148
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodpressureBodySite.json",
-      "size" : 2871,
+      "size" : 2832,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 4
+          "start" : 41,
+          "length" : 5
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 87
+          "start" : 45,
+          "length" : 82
         },
         {
           "activity" : "validate",
-          "start" : 51,
-          "length" : 245
+          "start" : 48,
+          "length" : 256
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 14
+          "start" : 68,
+          "length" : 13
         },
         {
           "activity" : "generate2",
-          "start" : 90,
-          "length" : 135
+          "start" : 84,
+          "length" : 166
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBodyExposure.json",
-      "size" : 1985,
+      "size" : 1941,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 175
+          "start" : 45,
+          "length" : 171
         },
         {
           "activity" : "validate",
-          "start" : 51,
-          "length" : 203
+          "start" : 48,
+          "length" : 198
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 11
+          "start" : 68,
+          "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 90,
-          "length" : 110
+          "start" : 84,
+          "length" : 130
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBodyHeightBodyPosition.json",
-      "size" : 1806,
+      "size" : 1767,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 77
+          "start" : 46,
+          "length" : 79
         },
         {
           "activity" : "validate",
-          "start" : 51,
-          "length" : 14
-        },
-        {
-          "activity" : "generate1",
-          "start" : 69,
+          "start" : 49,
           "length" : 12
         },
         {
-          "activity" : "generate2",
-          "start" : 90,
-          "length" : 126
+          "activity" : "scanForUsageStats",
+          "start" : 56,
+          "length" : 1
         },
         {
-          "activity" : "generateValidationPack",
-          "start" : 104,
+          "activity" : "generate1",
+          "start" : 68,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 84,
+          "length" : 123
+        },
+        {
+          "activity" : "generateLogicals",
+          "start" : 91,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBodyTempBodySite.json",
-      "size" : 2885,
+      "size" : 2846,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 46,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 89
+          "start" : 46,
+          "length" : 79
         },
         {
           "activity" : "validate",
-          "start" : 51,
-          "length" : 272
+          "start" : 49,
+          "length" : 264
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 13
+          "start" : 68,
+          "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 90,
-          "length" : 133
+          "start" : 84,
+          "length" : 140
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationClothingState.json",
-      "size" : 2065,
+      "size" : 2026,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 177
+          "start" : 46,
+          "length" : 207
         },
         {
           "activity" : "validate",
-          "start" : 51,
-          "length" : 201
+          "start" : 49,
+          "length" : 219
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 11
+          "start" : 68,
+          "length" : 14
         },
         {
           "activity" : "generate2",
-          "start" : 90,
-          "length" : 108
+          "start" : 84,
+          "length" : 130
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationCuffsize.json",
-      "size" : 2180,
+      "size" : 2141,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 48,
-          "length" : 191
+          "start" : 46,
+          "length" : 178
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 200
+          "start" : 49,
+          "length" : 245
         },
         {
           "activity" : "generate1",
-          "start" : 69,
+          "start" : 68,
           "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 108
+          "start" : 84,
+          "length" : 131
         }
       ]
     },
@@ -2770,592 +2933,571 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 177
+          "start" : 46,
+          "length" : 180
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 191
+          "start" : 49,
+          "length" : 176
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 12
+          "start" : 68,
+          "length" : 10
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 109
+          "start" : 85,
+          "length" : 117
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationHeartRateBodySite.json",
-      "size" : 1799,
+      "size" : 1760,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 76
+          "start" : 46,
+          "length" : 90
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 86
+          "start" : 50,
+          "length" : 92
         },
         {
           "activity" : "generate1",
-          "start" : 69,
+          "start" : 68,
           "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 126
+          "start" : 85,
+          "length" : 116
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationHeartRateMeasurementMethod.json",
-      "size" : 1797,
+      "size" : 1758,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 88
+          "start" : 46,
+          "length" : 3
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 9
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "checkURLsUnique",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 12
+          "start" : 68,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 113
+          "start" : 85,
+          "length" : 46
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationHeartRatePulseBodyPosition.json",
-      "size" : 2132,
+      "size" : 2093,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 91
+          "start" : 46,
+          "length" : 96
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 8
+          "start" : 50,
+          "length" : 6
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 12
+          "start" : 68,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 106
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationHeartRhythm.json",
-      "size" : 1884,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 170
-        },
-        {
-          "activity" : "validate",
-          "start" : 52,
-          "length" : 185
-        },
-        {
-          "activity" : "generate1",
-          "start" : 69,
-          "length" : 12
-        },
-        {
-          "activity" : "generate2",
-          "start" : 91,
-          "length" : 102
+          "start" : 85,
+          "length" : 123
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationHeartRhythmIrregularity.json",
-      "size" : 2162,
+      "size" : 2123,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 85
+          "start" : 47,
+          "length" : 178
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 100
+          "start" : 50,
+          "length" : 178
         },
         {
           "activity" : "generate1",
-          "start" : 69,
+          "start" : 68,
           "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 112
+          "start" : 85,
+          "length" : 127
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationPulseBodySite.json",
-      "size" : 2923,
+      "size" : 2884,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 3
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 79
+          "start" : 47,
+          "length" : 90
         },
         {
           "activity" : "validate",
-          "start" : 52,
-          "length" : 224
+          "start" : 50,
+          "length" : 246
         },
         {
           "activity" : "generate1",
-          "start" : 69,
-          "length" : 14
+          "start" : 68,
+          "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 115
+          "start" : 85,
+          "length" : 147
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationPulseMeasurementMethod.json",
+      "size" : 1742,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 68,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 38
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationPulseRhythm.json",
-      "size" : 1868,
+      "size" : 1829,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "scan",
-          "start" : 45,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
+          "start" : 41,
           "length" : 3
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 46,
-          "length" : 1
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 91
+          "start" : 47,
+          "length" : 93
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 181
+          "start" : 50,
+          "length" : 164
         },
         {
           "activity" : "generate1",
-          "start" : 70,
-          "length" : 12
+          "start" : 68,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 91,
-          "length" : 99
+          "start" : 85,
+          "length" : 146
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 127,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationPulseRhythmIrregularity.json",
-      "size" : 1962,
+      "size" : 1923,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 43,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 49,
-          "length" : 85
+          "start" : 47,
+          "length" : 88
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 154
+          "start" : 50,
+          "length" : 177
         },
         {
           "activity" : "generate1",
-          "start" : 70,
-          "length" : 21
+          "start" : 68,
+          "length" : 13
         },
         {
           "activity" : "generate2",
-          "start" : 92,
-          "length" : 113
+          "start" : 85,
+          "length" : 124
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 101,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationRespirationRateBodyPosition.json",
-      "size" : 2082,
+      "size" : 2043,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 43,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 50,
+          "start" : 47,
           "length" : 88
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 164
+          "start" : 50,
+          "length" : 167
         },
         {
           "activity" : "generate1",
-          "start" : 70,
-          "length" : 13
+          "start" : 68,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 92,
-          "length" : 108
-        },
-        {
-          "activity" : "generateExampleZip",
-          "start" : 103,
-          "length" : 1
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 104,
-          "length" : 1
+          "start" : 86,
+          "length" : 125
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationRespirationRateDepth.json",
-      "size" : 1945,
+      "size" : 1906,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 45,
-          "length" : 1
+          "start" : 41,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 50,
-          "length" : 99
+          "start" : 47,
+          "length" : 89
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 212
+          "start" : 51,
+          "length" : 193
         },
         {
           "activity" : "generate1",
-          "start" : 70,
+          "start" : 68,
           "length" : 12
         },
         {
           "activity" : "generate2",
-          "start" : 92,
-          "length" : 105
+          "start" : 86,
+          "length" : 125
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 102,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationRespirationRegularity.json",
-      "size" : 1768,
+      "size" : 1729,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 45,
-          "length" : 2
+          "start" : 41,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 50,
-          "length" : 88
+          "start" : 47,
+          "length" : 82
         },
         {
           "activity" : "validate",
-          "start" : 53,
-          "length" : 169
+          "start" : 51,
+          "length" : 162
         },
         {
           "activity" : "generate1",
-          "start" : 70,
-          "length" : 13
-        },
-        {
-          "activity" : "generate2",
-          "start" : 92,
-          "length" : 109
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationSleepStatusValueSet.json",
-      "size" : 1740,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 50,
-          "length" : 86
-        },
-        {
-          "activity" : "validate",
-          "start" : 53,
-          "length" : 179
-        },
-        {
-          "activity" : "generate1",
-          "start" : 70,
+          "start" : 68,
           "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 92,
-          "length" : 120
+          "start" : 86,
+          "length" : 125
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 93,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationSleepStatus.json",
+      "size" : 1669,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 81
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 178
+        },
+        {
+          "activity" : "generate1",
+          "start" : 68,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 126
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationSpontaneousBreathing.json",
+      "size" : 1739,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "scan",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 178
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 165
+        },
+        {
+          "activity" : "generate1",
+          "start" : 68,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 86,
+          "length" : 110
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 104,
+          "start" : 102,
           "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationSpontaneousBreathingVS.json",
-      "size" : 1786,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 50,
-          "length" : 175
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 181
-        },
-        {
-          "activity" : "generate1",
-          "start" : 70,
-          "length" : 12
-        },
-        {
-          "activity" : "generate2",
-          "start" : 92,
-          "length" : 99
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ValueSet-NoDomainVitalSignsPulseMeasurmentMethod.json",
-      "size" : 1918,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 44,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 45,
-          "length" : 2
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 50,
-          "length" : 2
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 9
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 59,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 70,
-          "length" : 12
-        },
-        {
-          "activity" : "generate2",
-          "start" : 92,
-          "length" : 35
         }
       ]
     }

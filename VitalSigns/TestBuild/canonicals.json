@@ -84,13 +84,6 @@
     "name" : "NoDomainVitalSignsObservationBodyWeight"
   },
   {
-    "id" : "NoDomainVitalSignsObservationCharacterOfHeartRate",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate",
-    "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationCharacterOfHeartRate"
-  },
-  {
     "id" : "NoDomainVitalSignsObservationCharacterOfPulse",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCharacterOfPulse",
@@ -168,13 +161,6 @@
     "name" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
   },
   {
-    "id" : "NoDomainVitalSignsObservationHeartRhythm",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythm",
-    "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationHeartRhythm"
-  },
-  {
     "id" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity",
@@ -210,11 +196,11 @@
     "name" : "NoDomainVitalSignsObservationOxygenSaturation"
   },
   {
-    "id" : "NoDomainVitalSignsObservationProsentO2",
+    "id" : "NoDomainVitalSignsObservationPercentO2",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2",
     "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationProsentO2"
+    "name" : "NoDomainVitalSignsObservationPercentO2"
   },
   {
     "id" : "NoDomainVitalSignsObservationPulse",
@@ -287,11 +273,11 @@
     "name" : "NoDomainVitalSignsObservationTilt"
   },
   {
-    "id" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+    "id" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
     "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod",
+    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
     "version" : "0.8.0",
-    "name" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod"
+    "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod"
   },
   {
     "id" : "NoDomainVitalSignsObservationBloodpressureBodyPosition",
@@ -371,13 +357,6 @@
     "name" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
   },
   {
-    "id" : "NoDomainVitalSignsObservationHeartRhythm",
-    "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythm",
-    "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationHeartRhythm"
-  },
-  {
     "id" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
     "type" : "ValueSet",
     "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity",
@@ -390,6 +369,13 @@
     "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseBodySite",
     "version" : "0.8.0",
     "name" : "NoDomainVitalSignsObservationPulseBodySite"
+  },
+  {
+    "id" : "NoDomainVitalSignsObservationPulseMeasurementMethod",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseMeasurementMethod",
+    "version" : "0.8.0",
+    "name" : "NoDomainVitalSignsObservationPulseMeasurementMethod"
   },
   {
     "id" : "NoDomainVitalSignsObservationPulseRhythm",
@@ -427,24 +413,17 @@
     "name" : "NoDomainVitalSignsObservationRespirationRegularity"
   },
   {
-    "id" : "NoDomainVitalSignsObservationSleepStatusValueSet",
+    "id" : "NoDomainVitalSignsObservationSleepStatus",
     "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet",
+    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatus",
     "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationSleepStatusValueSet"
+    "name" : "NoDomainVitalSignsObservationSleepStatus"
   },
   {
-    "id" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
+    "id" : "NoDomainVitalSignsObservationSpontaneousBreathing",
     "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS",
+    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathing",
     "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsObservationSpontaneousBreathingVS"
-  },
-  {
-    "id" : "NoDomainVitalSignsPulseMeasurmentMethod",
-    "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseMeasurmentMethod",
-    "version" : "0.8.0",
-    "name" : "NoDomainVitalSignsPulseMeasurmentMethod"
+    "name" : "NoDomainVitalSignsObservationSpontaneousBreathing"
   }
 ]

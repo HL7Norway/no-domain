@@ -9,7 +9,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation no-body-temperature-create</b></p><a name=\"no-body-temperature-create\"> </a><a name=\"hcno-body-temperature-create\"> </a><a name=\"no-body-temperature-create-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html\">NO Domain VitalSigns Observation - Body Temperature</a></p></div><p><b>NoDomainVitalSignsObservationBodyExposure</b>: <a href=\"http://snomed.info/id/5671000202107\">SNOMED CT 5671000202107</a>: Naken</p><p><b>NoDomainVitalSignsObservationActiveHeating</b>: active heating sample</p><p><b>NoDomainVitalSignsObservationDaysSinceMenstruationStart</b>: 12</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}\">Body temperature</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</li><li><a href=\"Organization-afa23.html\">Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Endetarm</span></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation no-body-temperature-create</b></p><a name=\"no-body-temperature-create\"> </a><a name=\"hcno-body-temperature-create\"> </a><a name=\"no-body-temperature-create-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html\">NO Domain VitalSigns Observation - Body Temperature</a></p></div><p><b>NoDomainVitalSignsObservationBodyExposure</b>: <a href=\"http://snomed.info/id/5671000202107\">SNOMED CT 5671000202107</a>: Naken</p><p><b>NoDomainVitalSignsObservationActiveHeating</b>: active heating sample</p><p><b>NoDomainVitalSignsObservationDaysSinceMenstruationStart</b>: 12</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}, {http://snomed.info/sct 276885007}\">Body temperature</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</li><li><a href=\"Organization-afa23.html\">Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Endetarm</span></p></div>"
   },
   "extension" : [{
     "url" : "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure",
@@ -37,9 +37,14 @@
   "code" : {
     "coding" : [{
       "system" : "http://loinc.org",
-      "code" : "8310-5"
-    }],
-    "text" : "Body temperature"
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276885007",
+      "display" : "Core body temperature (observable entity)"
+    }]
   },
   "subject" : {
     "identifier" : {

@@ -9,7 +9,7 @@
   "version" : "0.8.0",
   "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
   "status" : "draft",
-  "date" : "2021-05-01",
+  "date" : "2025-01-28",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -18,7 +18,7 @@
       "value" : "http://www.hl7.no"
     }]
   }],
-  "description" : "Regularity of the  heart beat.",
+  "description" : "Patterns  of the  heart beat.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -42,6 +42,10 @@
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
     "element" : [{
       "id" : "Extension",
       "path" : "Extension",

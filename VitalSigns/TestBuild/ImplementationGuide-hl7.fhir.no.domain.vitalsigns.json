@@ -9,7 +9,7 @@
   "version" : "0.8.0",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-01-16T09:07:12+00:00",
+  "date" : "2025-02-20T13:41:55+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -36,7 +36,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -46,7 +46,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.1.0"
+    "version" : "5.2.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -618,7 +618,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
       },
       "name" : "NO Domain VitalSigns Observation - Blood pressure",
-      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation.",
+      "description" : "Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.\nIt represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation.",
       "exampleBoolean" : false
     },
     {
@@ -630,7 +630,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBodyHeight"
       },
       "name" : "NO Domain VitalSigns Observation - Body Height",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot.",
       "exampleBoolean" : false
     },
     {
@@ -642,7 +642,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBodyTemp"
       },
       "name" : "NO Domain VitalSigns Observation - Body Temperature",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Temperature information. Used for recording the measurement of an individual's body temperature, which is a surrogate for the core body temperature of the individual.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.",
       "exampleBoolean" : false
     },
     {
@@ -666,7 +666,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRate"
       },
       "name" : "NO Domain VitalSigns Observation - Heart Rate",
-      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a heart beat.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nTo be used for recording the rate and associated attributes for a heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -678,7 +678,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"
       },
       "name" : "NO Domain VitalSigns Observation - Oxygen Saturation",
-      "description" : "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nUse to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nTo be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.",
       "exampleBoolean" : false
     },
     {
@@ -690,7 +690,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulse"
       },
       "name" : "NO Domain VitalSigns Observation - Pulse",
-      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable �pulse� due to increase in blood pressure",
       "exampleBoolean" : false
     },
     {
@@ -702,7 +702,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
       },
       "name" : "NO Domain VitalSigns Observation - Respiration Rate",
-      "description" : "Base profile for Norwegian Vital Signs Observation Respiration Rate information.  \nUse to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.",
+      "description" : "Base profile for Norwegian Vital Signs Observation Respiration Rate information.  \nTo be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.",
       "exampleBoolean" : false
     },
     {
@@ -796,18 +796,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignObservationBloodPressureMeasurementMethod"
-      },
-      "name" : "NoDomainVitalSignObservationBloodPressureMeasurementMethod",
-      "description" : "Codes representing measurement method for blood pressurerate",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -880,6 +868,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethod"
+      },
+      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -947,18 +947,6 @@
       },
       "name" : "NoDomainVitalSignsObservationBodyTempBodySite",
       "description" : "Codes representing body site for body temperature",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationCharacterOfHeartRate"
-      },
-      "name" : "NoDomainVitalSignsObservationCharacterOfHeartRate",
-      "description" : "Description of the character of the  heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -1159,34 +1147,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRhythm"
-      },
-      "name" : "NoDomainVitalSignsObservationHeartRhythm",
-      "description" : "Regularity of the  heart beat.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationHeartRhythm"
-      },
-      "name" : "NoDomainVitalSignsObservationHeartRhythm",
-      "description" : "Codes representing heart rhythm for heart rate",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
       },
       "name" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
-      "description" : "Regularity of the  heart beat.",
+      "description" : "Patterns  of the  heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -1243,9 +1207,9 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NoDomainVitalSignsObservationProsentO2"
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPercentO2"
       },
-      "name" : "NoDomainVitalSignsObservationProsentO2",
+      "name" : "NoDomainVitalSignsObservationPercentO2",
       "description" : "Percentage of oxygen in inspired air.",
       "exampleBoolean" : false
     },
@@ -1259,6 +1223,18 @@
       },
       "name" : "NoDomainVitalSignsObservationPulseBodySite",
       "description" : "Codes representing body site for pulse",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsObservationPulseMeasurementMethod"
+      },
+      "name" : "NoDomainVitalSignsObservationPulseMeasurementMethod",
+      "description" : "Codes representing measurement method for HeartRate",
       "exampleBoolean" : false
     },
     {
@@ -1399,9 +1375,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationSleepStatusValueSet"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationSleepStatus"
       },
-      "name" : "NoDomainVitalSignsObservationSleepStatusValueSet",
+      "name" : "NoDomainVitalSignsObservationSleepStatus",
       "description" : "Codes representing Sleep Status",
       "exampleBoolean" : false
     },
@@ -1423,9 +1399,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationSpontaneousBreathingVS"
+        "reference" : "ValueSet/NoDomainVitalSignsObservationSpontaneousBreathing"
       },
-      "name" : "NoDomainVitalSignsObservationSpontaneousBreathingVS",
+      "name" : "NoDomainVitalSignsObservationSpontaneousBreathing",
       "description" : "Codes representing Respiration Spontaneous breathing",
       "exampleBoolean" : false
     },
@@ -1439,18 +1415,6 @@
       },
       "name" : "NoDomainVitalSignsObservationTilt",
       "description" : "The craniocaudal tilt of the surface on which the person is lying at the time of measurement.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsPulseMeasurmentMethod"
-      },
-      "name" : "NoDomainVitalSignsPulseMeasurmentMethod",
-      "description" : "Codes representing measurement method for pulse",
       "exampleBoolean" : false
     },
     {

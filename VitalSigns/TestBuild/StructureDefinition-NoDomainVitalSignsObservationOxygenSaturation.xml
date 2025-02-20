@@ -24,7 +24,7 @@
   <name value="NoDomainVitalSignsObservationOxygenSaturation"/>
   <title value="NO Domain VitalSigns Observation - Oxygen Saturation"/>
   <status value="draft"/>
-  <date value="2021-05-01"/>
+  <date value="2025-01-28"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -33,7 +33,7 @@
       <value value="http://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  &#xA;Use to record blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."/>
+  <description value="Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  &#xA;To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -80,6 +80,9 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/oxygensat"/>
   <derivation value="constraint"/>
   <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
     <element id="Observation">
       <path value="Observation"/>
       <short value="FHIR Oxygen Saturation Profile"/>

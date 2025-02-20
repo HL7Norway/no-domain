@@ -9,7 +9,7 @@
   "version" : "0.8.0",
   "name" : "NoDomainVitalSignsObservationConfoundingFactor",
   "status" : "draft",
-  "date" : "2025-01-16T09:07:12+00:00",
+  "date" : "2025-01-28",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -42,6 +42,10 @@
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
     "element" : [{
       "id" : "Extension",
       "path" : "Extension",
