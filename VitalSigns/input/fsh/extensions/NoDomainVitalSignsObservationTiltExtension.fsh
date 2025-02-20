@@ -2,9 +2,9 @@ Extension: NoDomainVitalSignsObservationTilt
 Id: NoDomainVitalSignsObservationTilt
 Description: "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt"
-* ^version = "0.9.0000"
+* ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^context.type = #element
 * ^context.expression = "Observation"
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt" (exactly)

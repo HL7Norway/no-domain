@@ -18,8 +18,9 @@ Usage: #example
 * meta.versionId = "0"
 * meta.source = "META_VISION"
 * status = #final
-* code = $loinc#8867-4 "Heart rate"
-
+* code.coding[0] = $loinc#8867-4 "Heart rate"
+* code.coding[+] = $sct#364075005 "Heart rate (observable entity)"
+* method = $sct#37931006 "Auskultasjon"
 * subject = Reference(Patient/cdp1000240)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000240"

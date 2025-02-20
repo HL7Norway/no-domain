@@ -2,11 +2,12 @@ Profile: NoDomainVitalSignsObservationBloodpressure
 Parent: $bp
 Id: NoDomainVitalSignsObservationBloodpressure
 Title: "NO Domain VitalSigns Observation - Blood pressure"
-Description: """Base profile for Norwegian Vital Signs Observation Blood pressure information. The local measurement of arterial blood pressure, which is a surrogate for arterial pressure in the systemic circulation."""
+Description: """Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
+It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
-* ^version = "0.9.0000"
+* ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"
 * ^purpose = "To record the systemic arterial blood pressure of an individual."
 * . ^short = "FHIR Blood Pressure Profile Norway"
@@ -98,11 +99,6 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[MeanArterialPressure].code.coding[MAPSnomedCode].code only code
 * component[MeanArterialPressure].code.coding[MAPSnomedCode].code = #4501000202102 (exactly)
 * component[MeanArterialPressure].value[x] only Quantity
-//* component[MeanArterialPressure].value[x] ^slicing.discriminator.type = #type
-//* component[MeanArterialPressure].value[x] ^slicing.discriminator.path = "$this"
-//* component[MeanArterialPressure].value[x] ^slicing.rules = #open
-//* component[MeanArterialPressure].valueQuantity only Quantity
-//* component[MeanArterialPressure].valueQuantity ^sliceName = "valueQuantity"
 * component[MeanArterialPressure].valueQuantity.value 1..
 * component[MeanArterialPressure].valueQuantity.unit 1..
 * component[MeanArterialPressure].valueQuantity.system 1..
@@ -124,11 +120,6 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].code.coding[SAPSnomedCode].code = #4461000202102 (exactly)
 * component[PulsePressure].code.coding[SAPSnomedCode].userSelected ..0
 * component[PulsePressure].value[x] only Quantity
-//* component[PulsePressure].value[x] ^slicing.discriminator.type = #type
-//* component[PulsePressure].value[x] ^slicing.discriminator.path = "$this"
-//* component[PulsePressure].value[x] ^slicing.rules = #open
-//* component[PulsePressure].valueQuantity only Quantity
-//* component[PulsePressure].valueQuantity ^sliceName = "valueQuantity"
 * component[PulsePressure].valueQuantity.value 1..
 * component[PulsePressure].valueQuantity.unit 1..
 * component[PulsePressure].valueQuantity.system 1..
@@ -137,6 +128,6 @@ Description: """Base profile for Norwegian Vital Signs Observation Blood pressur
 * component[PulsePressure].valueQuantity.code = #mm[Hg] (exactly)
 * referenceRange ..1
 * code.coding 1..
-* method from NoDomainVitalSignObservationBloodPressureMeasurementMethod (extensible)
+* method from NoDomainVitalSignsObservationBloodPressureMeasurementMethod (extensible)
 * method ^short = "Method of measurement of blood pressure."
-* method.coding from NoDomainVitalSignObservationBloodPressureMeasurementMethod (extensible)
+* method.coding from NoDomainVitalSignsObservationBloodPressureMeasurementMethod (extensible)

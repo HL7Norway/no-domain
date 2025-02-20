@@ -2,15 +2,15 @@ Extension: NoDomainVitalSignsObservationInspiredOxygen
 Id: NoDomainVitalSignsObservationInspiredOxygen
 Description: "Details of the amount of oxygen available to the subject at the time of observation."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen"
-* ^version = "0.9.0000"
+* ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^context.type = #element
 * ^context.expression = "Observation"
 * extension contains
     NoDomainVitalSignsObservationFlow named Flow 0..1 and
     NoDomainVitalSignsObservationFiO2 named FiO2 0..1 and
-    NoDomainVitalSignsObservationProsentO2 named ProsentO2 0..1 and
+    NoDomainVitalSignsObservationPercentO2 named PrecentO2 0..1 and
     NoDomainVitalSignsObservationOnAir named OnAir 0..1 and
     NoDomainVitalSignsObservationMethodofOxygenDelivery named MethodofOxygenDelivery 0..1
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
@@ -32,11 +32,11 @@ Description: "Fraction of oxygen in inspired air."
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2" (exactly)
 * value[x] only Ratio
 
-Extension: NoDomainVitalSignsObservationProsentO2
+Extension: NoDomainVitalSignsObservationPercentO2
 Description: "Percentage of oxygen in inspired air."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2"
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2"
 * ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2" (exactly)
+* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2" (exactly)
 * value[x] only Ratio
 
 Extension: NoDomainVitalSignsObservationOnAir

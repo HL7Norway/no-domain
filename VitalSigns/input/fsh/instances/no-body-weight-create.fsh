@@ -11,8 +11,8 @@ Usage: #example
 * extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
 * extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
-
-* code = $loinc#29463-7 "Body weight"
+* code.coding[0] = $loinc#29463-7 "Body weight"
+* code.coding[+] = $sct#27113001 "Body weight (observable entity)"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
 * effectiveDateTime = "2021-05-10"

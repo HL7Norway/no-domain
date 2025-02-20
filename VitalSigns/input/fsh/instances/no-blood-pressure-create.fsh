@@ -28,8 +28,6 @@ Usage: #example
 * status = #final
 * code = $loinc#85354-9 
 * code.text = "BP pnl w all optional"
-
-//* category = $observation-category#vital-signs "Vital Signs"
 * subject = Reference(Patient/cdp1000808)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000808"
@@ -43,7 +41,7 @@ Usage: #example
 * performer[=].identifier.value = "23"
 * note.text = "Demo Blood Pressure"
 * bodySite.coding = $sct#7569003 "Finger"
-//* method = $sct#129436005 "Auscultation - action (qualifier value)"
+* method = $sct#37931006 "Auskultasjon"
 * component[SystolicBP].code.coding[SBPCode] = $loinc#8480-6 "Systolic blood pressure"
 * component[SystolicBP].code.coding[SystolicSnomed] = $sct#4471000202106 "Systolic blood pressure"
 * component[SystolicBP].valueQuantity = 123 'mm[Hg]' "mm[Hg]"

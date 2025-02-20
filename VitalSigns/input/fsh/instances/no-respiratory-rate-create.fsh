@@ -29,7 +29,7 @@ Usage: #example
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationProsentO2"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir"
@@ -39,7 +39,8 @@ Usage: #example
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
-* code = $loinc#9279-1 "Respiratory rate"
+* code.coding[0] = $loinc#9279-1 "Respiratory rate"
+* code.coding[+] = $sct#271625008 "Rate of spontaneous respiration (observable entity)"
 * subject = Reference(Patient/cdp1000240)
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000240"

@@ -4,9 +4,9 @@ Id: NoDomainVitalSignsObservationBodyWeight
 Title: "NO Domain VitalSigns Observation - Body Weight"
 Description: "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight"
-* ^version = "0.9.0000"
+* ^version = "1.0.0"
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body weight archetype: Kroppsvekt, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2273"
 * ^purpose = "To record the body weight of an individual - both actual and approximate."
 * extension ^slicing.discriminator.type = #value

@@ -2,7 +2,7 @@ Extension: NoDomainVitalSignsObservationPulseRhythm
 Id: NoDomainVitalSignsObservationPulseRhythm
 Description: "Regularity of the pulse"
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulseRhythm"
-* ^version = "0.9.0000"
+* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2021-05-01"
 * ^context.type = #element

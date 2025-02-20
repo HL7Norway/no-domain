@@ -12,7 +12,8 @@ Usage: #example
 
 * status = #final
 
-* code = $loinc#8302-2 "Body height"
+* code.coding[0] = $loinc#8302-2 "Body height"
+* code.coding[+] = $sct#1153637007 "Body height"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
 
