@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.domain.vitalsigns",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -103,20 +103,6 @@
       ]
     },
     {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2",
-      "title": "NoDomainVitalSignsObservationFiO2",
-      "types": [
-        "Ratio"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow",
-      "title": "NoDomainVitalSignsObservationFlow",
-      "types": [
-        "Quantity"
-      ]
-    },
-    {
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
       "title": "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
       "types": [
@@ -134,6 +120,11 @@
       "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen",
       "title": "NoDomainVitalSignsObservationInspiredOxygen",
       "types": [
+        "Quantity",
+        "Ratio",
+        "Ratio",
+        "boolean",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -184,27 +175,6 @@
         "UsageContext",
         "Dosage",
         "Meta"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery",
-      "title": "NoDomainVitalSignsObservationMethodofOxygenDelivery",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir",
-      "title": "NoDomainVitalSignsObservationOnAir",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
-      "url": "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2",
-      "title": "NoDomainVitalSignsObservationPercentO2",
-      "types": [
-        "Ratio"
       ]
     },
     {
@@ -347,12 +317,6 @@
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2": [
-      "Extension"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow": [
-      "Extension"
-    ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition": [
       "Observation"
     ],
@@ -361,15 +325,6 @@
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen": [
       "Observation"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery": [
-      "Extension"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir": [
-      "Extension"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2": [
-      "Extension"
     ],
     "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulseRhythm": [
       "Observation"

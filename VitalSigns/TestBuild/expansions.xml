@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5a277fce-1f66-4446-835f-18546d679156"/>
+  <id value="42b995d3-eb5b-49fd-8caa-cbe029fe35b0"/>
   <meta>
-    <lastUpdated value="2025-02-20T13:42:38.787+00:00"/>
+    <lastUpdated value="2025-02-26T13:22:06.167+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -46,7 +46,7 @@
                   <a href="http://snomed.info/id/37931006">37931006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Auscultation</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -54,18 +54,18 @@
                   <a href="http://snomed.info/id/113011001">113011001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Palpation</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethod"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethod"/>
         <title value="NoDomainVitalSignsObservationBloodPressureMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -74,8 +74,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:857039c7-82ce-4814-bbab-cf4d60e3e03e"/>
-          <timestamp value="2025-02-20T13:43:19+00:00"/>
+          <identifier value="urn:uuid:a8534318-3d4f-486b-98df-5a73c7f1969e"/>
+          <timestamp value="2025-02-26T13:22:55+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -109,10 +109,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="37931006"/>
+            <display value="Auscultation"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="113011001"/>
+            <display value="Palpation"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -158,7 +160,7 @@
                   <a href="http://snomed.info/id/414585002">414585002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left lateral tilt (finding)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -166,7 +168,7 @@
                   <a href="http://snomed.info/id/272580008">272580008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Semi-recumbent position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -174,7 +176,7 @@
                   <a href="http://snomed.info/id/10904000">10904000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Orthostatic body position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -182,18 +184,18 @@
                   <a href="http://snomed.info/id/33586001">33586001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Sitting position</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <title value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -202,8 +204,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:74ef9b69-f7ba-4869-86c4-8c951838e966"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:d4d8f021-54dd-423b-a14c-9d8dd2ee9371"/>
+          <timestamp value="2025-02-26T13:22:55+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -237,18 +239,22 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="414585002"/>
+            <display value="Left lateral tilt (finding)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="272580008"/>
+            <display value="Semi-recumbent position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="10904000"/>
+            <display value="Orthostatic body position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="33586001"/>
+            <display value="Sitting position"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -294,7 +300,7 @@
                   <a href="http://snomed.info/id/6685009">6685009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right ankle</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -302,7 +308,7 @@
                   <a href="http://snomed.info/id/51636004">51636004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left ankle</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -310,7 +316,7 @@
                   <a href="http://snomed.info/id/7569003">7569003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Finger</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -318,7 +324,7 @@
                   <a href="http://snomed.info/id/2402003">2402003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Dorsum of foot</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -326,7 +332,7 @@
                   <a href="http://snomed.info/id/9736006">9736006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right wrist</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -334,7 +340,7 @@
                   <a href="http://snomed.info/id/5951000">5951000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left wrist</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -342,7 +348,7 @@
                   <a href="http://snomed.info/id/51114001">51114001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Artery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -350,7 +356,7 @@
                   <a href="http://snomed.info/id/11207009">11207009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right thigh</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -358,7 +364,7 @@
                   <a href="http://snomed.info/id/61396006">61396006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left thigh</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -366,7 +372,7 @@
                   <a href="http://snomed.info/id/368209003">368209003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right upper arm</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -374,7 +380,7 @@
                   <a href="http://snomed.info/id/368208006">368208006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left upper arm structure</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -382,18 +388,18 @@
                   <a href="http://snomed.info/id/29707007">29707007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Toe</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <title value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -402,8 +408,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae8d8163-c7b0-4541-b707-889969dfec06"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:a6841704-cbe0-47d4-a5b4-18e37122f230"/>
+          <timestamp value="2025-02-26T13:22:55+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -437,50 +443,62 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="6685009"/>
+            <display value="Right ankle"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="51636004"/>
+            <display value="Left ankle"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="7569003"/>
+            <display value="Finger"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="2402003"/>
+            <display value="Dorsum of foot"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="9736006"/>
+            <display value="Right wrist"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="5951000"/>
+            <display value="Left wrist"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="51114001"/>
+            <display value="Artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="11207009"/>
+            <display value="Right thigh"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="61396006"/>
+            <display value="Left thigh"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368209003"/>
+            <display value="Right upper arm"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368208006"/>
+            <display value="Left upper arm structure"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="29707007"/>
+            <display value="Toe"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -524,12 +542,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyExposure"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBodyExposure"/>
         <title value="NoDomainVitalSignsObservationBodyExposure"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -538,8 +556,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:75d102fe-feed-40da-af5c-b7d98ce4175b"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:98fc3d43-cdd3-4cc7-aa00-515d5920dbd2"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -614,18 +632,18 @@
                   <a href="http://snomed.info/id/10904000">10904000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Orthostatic body position</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <title value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -634,8 +652,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:39113aa6-ae24-4f2e-959d-8be17bdbd5b7"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:8271a12c-f483-40a3-8e74-872991e4ecb8"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -669,6 +687,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="10904000"/>
+            <display value="Orthostatic body position"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -714,7 +733,7 @@
                   <a href="http://snomed.info/id/91470000">91470000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Axillary region</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -722,7 +741,7 @@
                   <a href="http://snomed.info/id/34402009">34402009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Rectum</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -730,7 +749,7 @@
                   <a href="http://snomed.info/id/39937001">39937001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Skin</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -738,7 +757,7 @@
                   <a href="http://snomed.info/id/59820001">59820001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Blood vessel</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -746,7 +765,7 @@
                   <a href="http://snomed.info/id/26893007">26893007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Inguinal region</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -754,7 +773,7 @@
                   <a href="http://snomed.info/id/122861001">122861001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Supramylohyoid space</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -762,7 +781,7 @@
                   <a href="http://snomed.info/id/71836000">71836000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Nasopharynx</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -770,7 +789,7 @@
                   <a href="http://snomed.info/id/42859004">42859004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Tympanic membrane</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -778,7 +797,7 @@
                   <a href="http://snomed.info/id/52795006">52795006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Forehead</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -786,7 +805,7 @@
                   <a href="http://snomed.info/id/76784001">76784001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Vagina</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -794,7 +813,7 @@
                   <a href="http://snomed.info/id/32849002">32849002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Esophagus</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -802,7 +821,7 @@
                   <a href="http://snomed.info/id/450721000">450721000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of temporal region</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -810,18 +829,18 @@
                   <a href="http://snomed.info/id/89837001">89837001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Urinary bladder</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBodyTempBodySite"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <title value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -830,8 +849,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5bd8c8b2-4cbb-456e-8fa4-0a9375ab7c70"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:7bada7b8-5993-4387-92a7-40e0fa205700"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -865,54 +884,67 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="91470000"/>
+            <display value="Axillary region"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="34402009"/>
+            <display value="Rectum"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="39937001"/>
+            <display value="Skin"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="59820001"/>
+            <display value="Blood vessel"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="26893007"/>
+            <display value="Inguinal region"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="122861001"/>
+            <display value="Supramylohyoid space"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="71836000"/>
+            <display value="Nasopharynx"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="42859004"/>
+            <display value="Tympanic membrane"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="52795006"/>
+            <display value="Forehead"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="76784001"/>
+            <display value="Vagina"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="32849002"/>
+            <display value="Esophagus"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="450721000"/>
+            <display value="Structure of temporal region"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="89837001"/>
+            <display value="Urinary bladder"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -956,12 +988,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationClothingState"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationClothingState"/>
         <title value="NoDomainVitalSignsObservationClothingState"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -970,8 +1002,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eb9ca234-7753-4474-82ce-8f0f6a679433"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:101654dc-c729-4d90-9744-42cef51d8c72"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1046,7 +1078,7 @@
                   <a href="http://snomed.info/id/720736009">720736009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Blood pressure cuff, pediatric size (physical object)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1054,7 +1086,7 @@
                   <a href="http://snomed.info/id/720740000">720740000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Blood pressure cuff, adult thigh type (physical object)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1062,18 +1094,18 @@
                   <a href="http://snomed.info/id/720737000">720737000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Blood pressure cuff, adult size (physical object)</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationCuffsize"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationCuffsize"/>
         <title value="NoDomainVitalSignsObservationCuffsize"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1082,8 +1114,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f399f14d-eb8b-4ffa-9281-9c658b67a994"/>
-          <timestamp value="2025-02-20T13:43:20+00:00"/>
+          <identifier value="urn:uuid:b21b020f-534e-4962-8918-e012188ca8ae"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1117,14 +1149,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="720736009"/>
+            <display value="Blood pressure cuff, pediatric size (physical object)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="720740000"/>
+            <display value="Blood pressure cuff, adult thigh type (physical object)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="720737000"/>
+            <display value="Blood pressure cuff, adult size (physical object)"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1168,7 +1203,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <title value="NoDomainVitalSignsObservationDiastolicendPoint"/>
         <status value="draft"/>
@@ -1182,8 +1217,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0f4fa91d-bb4c-451b-abd0-e35e24ac0102"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:c9da4882-20a1-46b2-b94e-3f4b6616ebde"/>
+          <timestamp value="2025-02-26T13:22:56+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1258,18 +1293,18 @@
                   <a href="http://snomed.info/id/80891009">80891009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Heart</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateBodySite"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <title value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1278,8 +1313,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:12a97f17-5a45-4abc-b675-89728030e327"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:5f20df40-d2bc-446b-aac7-714e60b5a2fa"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1313,6 +1348,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="80891009"/>
+            <display value="Heart"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1358,7 +1394,7 @@
                   <a href="http://snomed.info/id/37931006">37931006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Auscultation</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1366,18 +1402,18 @@
                   <a href="http://snomed.info/id/113011001">113011001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Palpation</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
         <title value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1386,8 +1422,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e955ae00-7049-47e3-9b6a-ad8c22570860"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:9996fd8a-0ef4-4eb6-888a-da347541a973"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1421,10 +1457,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="37931006"/>
+            <display value="Auscultation"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="113011001"/>
+            <display value="Palpation"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1470,7 +1508,7 @@
                   <a href="http://snomed.info/id/33586001">33586001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Sitting position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1478,7 +1516,7 @@
                   <a href="http://snomed.info/id/10904000">10904000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Orthostatic body position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1486,18 +1524,18 @@
                   <a href="http://snomed.info/id/272580008">272580008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Semi-recumbent position</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
         <title value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1506,8 +1544,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ef6ffd63-14b6-4ca3-acf7-6db147dd9893"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:6ab879e6-0575-4711-9627-fadeeb79fa80"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1541,14 +1579,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="33586001"/>
+            <display value="Sitting position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="10904000"/>
+            <display value="Orthostatic body position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="272580008"/>
+            <display value="Semi-recumbent position"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1594,7 +1635,7 @@
                   <a href="http://snomed.info/id/361137007">361137007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Irregular heart beat</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1602,7 +1643,7 @@
                   <a href="http://snomed.info/id/248652003">248652003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Heart regularly irregular</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1610,18 +1651,18 @@
                   <a href="http://snomed.info/id/248651005">248651005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Heart irregularly irregular</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
         <title value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1630,8 +1671,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:904361b8-7769-48bf-a15f-031071e3558b"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:4491db99-d0ba-4478-9fcb-9efe449e7230"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1665,14 +1706,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="361137007"/>
+            <display value="Irregular heart beat"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248652003"/>
+            <display value="Heart regularly irregular"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248651005"/>
+            <display value="Heart irregularly irregular"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1718,7 +1762,7 @@
                   <a href="http://snomed.info/id/723962009">723962009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of right brachial artery (body structure)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1726,7 +1770,7 @@
                   <a href="http://snomed.info/id/723961002">723961002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of left brachial artery (body structure)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1734,7 +1778,7 @@
                   <a href="http://snomed.info/id/721033002">721033002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of right carotid artery (body structure)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1742,7 +1786,7 @@
                   <a href="http://snomed.info/id/721028001">721028001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of left carotid artery (body structure)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1750,7 +1794,7 @@
                   <a href="http://snomed.info/id/69833005">69833005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right femoral artery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1758,7 +1802,7 @@
                   <a href="http://snomed.info/id/113270003">113270003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Left femoral artery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1766,7 +1810,7 @@
                   <a href="http://snomed.info/id/7569003">7569003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Finger</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1774,7 +1818,7 @@
                   <a href="http://snomed.info/id/48800003">48800003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Ear lobule</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1782,7 +1826,7 @@
                   <a href="http://snomed.info/id/368503001">368503001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Right radial artery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1790,7 +1834,7 @@
                   <a href="http://snomed.info/id/368504007">368504007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Structure of left radial artery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1798,7 +1842,7 @@
                   <a href="http://snomed.info/id/29707007">29707007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Toe</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1806,18 +1850,18 @@
                   <a href="http://snomed.info/id/86547008">86547008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Dorsalis pedis artery</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseBodySite"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationPulseBodySite"/>
         <title value="NoDomainVitalSignsObservationPulseBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1826,8 +1870,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:98998e25-4a49-4c33-82cc-e81f130d7eaa"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:0e25ac11-ec14-40d1-a23f-657fbcdd5da2"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1861,50 +1905,62 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="723962009"/>
+            <display value="Structure of right brachial artery (body structure)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="723961002"/>
+            <display value="Structure of left brachial artery (body structure)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="721033002"/>
+            <display value="Structure of right carotid artery (body structure)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="721028001"/>
+            <display value="Structure of left carotid artery (body structure)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="69833005"/>
+            <display value="Right femoral artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="113270003"/>
+            <display value="Left femoral artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="7569003"/>
+            <display value="Finger"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="48800003"/>
+            <display value="Ear lobule"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368503001"/>
+            <display value="Right radial artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368504007"/>
+            <display value="Structure of left radial artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="29707007"/>
+            <display value="Toe"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="86547008"/>
+            <display value="Dorsalis pedis artery"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1950,7 +2006,7 @@
                   <a href="http://snomed.info/id/37931006">37931006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Auscultation</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1958,18 +2014,18 @@
                   <a href="http://snomed.info/id/113011001">113011001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Palpation</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseMeasurementMethod"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationPulseMeasurementMethod"/>
         <title value="NoDomainVitalSignsObservationPulseMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1978,8 +2034,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:107d54a2-ace8-448b-bb94-008429f10265"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:96eb4bde-e879-4ea4-bf41-d00ab6dd6b59"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2013,10 +2069,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="37931006"/>
+            <display value="Auscultation"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="113011001"/>
+            <display value="Palpation"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2062,7 +2120,7 @@
                   <a href="http://snomed.info/id/271636001">271636001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Pulse regular</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2070,18 +2128,18 @@
                   <a href="http://snomed.info/id/61086009">61086009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Uregelmessig</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythm"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationPulseRhythm"/>
         <title value="NoDomainVitalSignsObservationPulseRhythm"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2090,8 +2148,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad0ca16b-6510-4c00-9ca7-e9aa46f943c0"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:4d31ea3d-4de0-40a7-bc8b-31a3c1ee0300"/>
+          <timestamp value="2025-02-26T13:22:57+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2125,10 +2183,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="271636001"/>
+            <display value="Pulse regular"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="61086009"/>
+            <display value="Uregelmessig"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2174,7 +2234,7 @@
                   <a href="http://snomed.info/id/271638000">271638000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Pulse regularly irregular</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2182,18 +2242,18 @@
                   <a href="http://snomed.info/id/271637005">271637005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Pulse irregularly irregular</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
         <title value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2202,8 +2262,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:44e8469e-128f-4858-8718-b520316c9797"/>
-          <timestamp value="2025-02-20T13:43:21+00:00"/>
+          <identifier value="urn:uuid:f6364c6f-287c-4d4a-a57c-806ea007ea7b"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2237,10 +2297,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="271638000"/>
+            <display value="Pulse regularly irregular"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="271637005"/>
+            <display value="Pulse irregularly irregular"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2286,7 +2348,7 @@
                   <a href="http://snomed.info/id/1240000">1240000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Prone body position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2294,7 +2356,7 @@
                   <a href="http://snomed.info/id/40199007">40199007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Supine body position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2302,7 +2364,7 @@
                   <a href="http://snomed.info/id/33586001">33586001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Sitting position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2310,7 +2372,7 @@
                   <a href="http://snomed.info/id/10904000">10904000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Orthostatic body position</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2318,18 +2380,18 @@
                   <a href="http://snomed.info/id/272580008">272580008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Semi-recumbent position</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <title value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2338,8 +2400,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cf6efd98-d92f-4176-8f27-c7c0d13d50e9"/>
-          <timestamp value="2025-02-20T13:43:22+00:00"/>
+          <identifier value="urn:uuid:09580fb2-ee5c-4555-9bb4-3b4e78495154"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2373,22 +2435,27 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="1240000"/>
+            <display value="Prone body position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="40199007"/>
+            <display value="Supine body position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="33586001"/>
+            <display value="Sitting position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="10904000"/>
+            <display value="Orthostatic body position"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="272580008"/>
+            <display value="Semi-recumbent position"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2434,7 +2501,7 @@
                   <a href="http://snomed.info/id/289123006">289123006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Deep breathing</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2442,7 +2509,7 @@
                   <a href="http://snomed.info/id/301284009">301284009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Normal depth of breathing</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2450,7 +2517,7 @@
                   <a href="http://snomed.info/id/386616007">386616007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Shallow breathing (finding)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2458,18 +2525,18 @@
                   <a href="http://snomed.info/id/248587009">248587009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Depth of respiration varies</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRateDepth"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <title value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2478,8 +2545,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2cc1d3bd-d97d-4697-a2c4-d93150624727"/>
-          <timestamp value="2025-02-20T13:43:22+00:00"/>
+          <identifier value="urn:uuid:f2aaada7-4123-4661-be7d-08522b6bd07c"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2513,18 +2580,22 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="289123006"/>
+            <display value="Deep breathing"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="301284009"/>
+            <display value="Normal depth of breathing"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="386616007"/>
+            <display value="Shallow breathing (finding)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248587009"/>
+            <display value="Depth of respiration varies"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2570,7 +2641,7 @@
                   <a href="http://snomed.info/id/276888009">276888009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>SR - Normal spontaneous respiration</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2578,18 +2649,18 @@
                   <a href="http://snomed.info/id/248585001">248585001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Irregular breathing</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationRespirationRegularity"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <title value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2598,8 +2669,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:61ea7179-fe7c-41bc-9bec-d3692c609640"/>
-          <timestamp value="2025-02-20T13:43:22+00:00"/>
+          <identifier value="urn:uuid:d6336d90-e273-4da1-b5cd-f72f2ab55c43"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2633,10 +2704,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="276888009"/>
+            <display value="SR - Normal spontaneous respiration"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248585001"/>
+            <display value="Irregular breathing"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2682,7 +2755,7 @@
                   <a href="http://snomed.info/id/248220008">248220008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Asleep</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2690,18 +2763,18 @@
                   <a href="http://snomed.info/id/248218005">248218005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Awake</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSleepStatus"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationSleepStatus"/>
         <title value="NoDomainVitalSignsObservationSleepStatus"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2710,8 +2783,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:38937350-16bb-44ce-b815-0c1ae841c4b5"/>
-          <timestamp value="2025-02-20T13:43:22+00:00"/>
+          <identifier value="urn:uuid:78f75fd0-2aca-4a0a-8f68-ca40de69729c"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2745,10 +2818,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248220008"/>
+            <display value="Asleep"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="248218005"/>
+            <display value="Awake"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2794,18 +2869,18 @@
                   <a href="http://snomed.info/id/241700002">241700002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td/>
+                <td>Spontaneous ventilation</td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationSpontaneousBreathing"/>
-        <version value="0.8.0"/>
+        <version value="0.8.1"/>
         <name value="NoDomainVitalSignsObservationSpontaneousBreathing"/>
         <title value="NoDomainVitalSignsObservationSpontaneousBreathing"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-02-20T13:41:55+00:00"/>
+        <date value="2025-02-26T13:21:21+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2814,8 +2889,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:61c2a8ff-d946-4f5b-8ed0-9b5a6fa78cbb"/>
-          <timestamp value="2025-02-20T13:43:22+00:00"/>
+          <identifier value="urn:uuid:2b87e1f1-51d4-4de2-bcc5-549505362a89"/>
+          <timestamp value="2025-02-26T13:22:58+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2849,6 +2924,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="241700002"/>
+            <display value="Spontaneous ventilation"/>
           </contains>
         </expansion>
       </ValueSet>
