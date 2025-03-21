@@ -10,7 +10,7 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 * extension contains
     Flow 0..1 and
     FiO2 0..1 and
-    PrecentO2 0..1 and
+    PercentO2 0..1 and
     OnAir 0..1 and
     MethodofOxygenDelivery 0..1
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
