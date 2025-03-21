@@ -22,7 +22,7 @@ Versjon til diskusjon:
 * Også feil i blood pressure measuring method.  
   * OK: BlodtrykkBodyPositionValueSet mangler to koder
   * TODO: BloodPressureMeasurementMethod mangler to koder
-* Endre SCT-kode (observation.code) for BodyWeight til underliggende barn - [begrep 1153637007](https://browser.ihtsdotools.org/?perspective=full&conceptId1=1153637007&edition=MAIN/SNOMEDCT-NO&release=&languages=no,en).  
+* Endre SCT-kode (observation.code) for BodyHeight til underliggende barn - [begrep 1153637007](https://browser.ihtsdotools.org/?perspective=full&conceptId1=1153637007&edition=MAIN/SNOMEDCT-NO&release=&languages=no,en).  
   * OK: Endre SNOMED begrep som benyttes i profilen. @lnystad
   * OK: Endre tabellen på forsiden. @thomiz
 * Mer utfyllende beskrivelse på bruk av slice på performer. Dataansvar eller opprinnelse, hvordan angir vi det.  
@@ -77,3 +77,12 @@ Versjon til diskusjon:
 > 2.	Få opprettet dekkende SNOMED CT begreper eller benytte ECL uttrykk for å uttrykke disse verdiene.
 >
 > Foreløpig stemmer jeg på 1. Blir det problemer kommer kanskje også motivasjonen til å finne/opprette riktige verdier til verdisettet.
+
+### 2025-03-21 - TSK
+
+Vi lager profiler for no-domain, men ikke basis på nåværende tidspunkt.
+
+* **TODO**: Beskriv hva SNOMED CT kodene betyr og når de skal benyttes.  
+* **BLOKKERT**: Kjør uten de siste to manglende kodene for BloodPressureMeasurementMethod  
+* Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
+* Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR.  
