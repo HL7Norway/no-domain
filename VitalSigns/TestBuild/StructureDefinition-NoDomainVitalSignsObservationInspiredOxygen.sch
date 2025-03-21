@@ -14,7 +14,7 @@
     <sch:rule context="f:Extension">
       <sch:assert test="count(f:extension[@url = 'Flow']) &lt;= 1">extension with URL = 'Flow': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'FiO2']) &lt;= 1">extension with URL = 'FiO2': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'PrecentO2']) &lt;= 1">extension with URL = 'PrecentO2': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'PercentO2']) &lt;= 1">extension with URL = 'PercentO2': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'OnAir']) &lt;= 1">extension with URL = 'OnAir': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'MethodofOxygenDelivery']) &lt;= 1">extension with URL = 'MethodofOxygenDelivery': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &lt;= 0">value[x]: maximum cardinality of 'value[x]' is 0</sch:assert>

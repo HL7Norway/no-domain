@@ -1,9 +1,9 @@
 NoDomainVitalSigns : Validation Results
 =========================================
 
-err = 36, warn = 77, info = 44
+err = 29, warn = 77, info = 37
 IG Publisher Version: 1.8.22
-Generated Fri Mar 21 10:38:06 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.8.1 (canonical = http://hl7.no/fhir)
+Generated Fri Mar 21 11:00:39 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.domain.vitalsigns#0.8.1 (canonical = http://hl7.no/fhir)
  Build Errors : 2 / 50 / 0
  /github/workspace/VitalSigns/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.domain.vitalsigns : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-blood-pressure-create : 9 / 2 / 9
@@ -11,9 +11,9 @@ Generated Fri Mar 21 10:38:06 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.domai
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-body-temperature-create : 3 / 0 / 5
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-body-weight-create : 2 / 0 / 5
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-heart-rate-create : 4 / 0 / 5
- /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-oxygen-saturation-create : 2 / 0 / 7
+ /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-oxygen-saturation-create : 0 / 0 / 5
  /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-pulse-rate : 4 / 0 / 5
- /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-respiratory-rate-create : 11 / 0 / 10
+ /github/workspace/VitalSigns/fsh-generated/resources/Observation-no-respiratory-rate-create : 6 / 0 / 5
  /github/workspace/VitalSigns/fsh-generated/resources/Organization-afa23 : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Patient-cdp1000240 : 0 / 0 / 1
  /github/workspace/VitalSigns/fsh-generated/resources/Patient-cdp1000808 : 0 / 0 / 1
@@ -177,10 +177,6 @@ ERROR: Observation/no-heart-rate-create: Observation.method.coding[0].display: W
 == fsh-generated/resources/Observation-no-oxygen-saturation-create.json ==
 INFORMATION: Observation/no-oxygen-saturation-create: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/no-oxygen-saturation-create: Observation.performer[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-oxygen-saturation-create: Observation.extension[0].extension[2]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-oxygen-saturation-create: Observation.extension[0].extension[3]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Observation/no-oxygen-saturation-create: Observation.extension[0].extension[2][url='PercentO2']: Sub-extension url 'PercentO2' is not defined by the Extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1
-ERROR: Observation/no-oxygen-saturation-create: Observation.extension[0].extension[3][url='ObservationOnAir']: Sub-extension url 'ObservationOnAir' is not defined by the Extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1
 INFORMATION: Observation/no-oxygen-saturation-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#2708-6 for language(s) 'no-NO'. The display is 'Oxygen saturation in Arterial blood' the default language display
 == fsh-generated/resources/Observation-no-pulse-rate.json ==
 INFORMATION: Observation/no-pulse-rate: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -199,16 +195,6 @@ ERROR: Observation/no-respiratory-rate-create: Observation.extension[0].value.of
 ERROR: Observation/no-respiratory-rate-create: Observation.extension[1].value.ofType(Coding).display: Wrong Display Name 'Regelmessig' for http://snomed.info/sct#276888009. Valid display is one of 3 choices: 'SR - Normal spontaneous respiration', 'Normal spontaneous respiration' or 'Normal spontaneous respiration (finding)' (for the language(s) 'no-NO')
 ERROR: Observation/no-respiratory-rate-create: Observation.extension[2].value.ofType(Coding).display: Wrong Display Name 'Normal' for http://snomed.info/sct#301284009. Valid display is one of 2 choices: 'Normal depth of breathing' or 'Normal depth of breathing (finding)' (for the language(s) 'no-NO')
 ERROR: Observation/no-respiratory-rate-create: Observation.extension[4].value.ofType(Coding).display: Wrong Display Name 'Tilstede' for http://snomed.info/sct#241700002. Valid display is one of 5 choices: 'Spontaneous ventilation', 'SR - Spontaneous respiration', 'SV - Spontaneous ventilation', 'Spontaneous respiration' or 'Spontaneous respiration (finding)' (for the language(s) 'no-NO')
-INFORMATION: Observation/no-respiratory-rate-create: Observation.extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-respiratory-rate-create: Observation.extension[5].extension[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-respiratory-rate-create: Observation.extension[5].extension[2]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-respiratory-rate-create: Observation.extension[5].extension[3]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/no-respiratory-rate-create: Observation.extension[5].extension[4]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen|0.8.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Observation/no-respiratory-rate-create: Observation.extension[5].extension[0]: The extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow could not be found so is not allowed here
-ERROR: Observation/no-respiratory-rate-create: Observation.extension[5].extension[1]: The extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2 could not be found so is not allowed here
-ERROR: Observation/no-respiratory-rate-create: Observation.extension[5].extension[2]: The extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2 could not be found so is not allowed here
-ERROR: Observation/no-respiratory-rate-create: Observation.extension[5].extension[3]: The extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir could not be found so is not allowed here
-ERROR: Observation/no-respiratory-rate-create: Observation.extension[5].extension[4]: The extension http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery could not be found so is not allowed here
 INFORMATION: Observation/no-respiratory-rate-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#9279-1 for language(s) 'no-NO'. The display is 'Respiratory rate' the default language display
 == fsh-generated/resources/Organization-afa23.json ==
 == fsh-generated/resources/Patient-cdp1000240.json ==
