@@ -14,7 +14,7 @@ Usage: #example
 * extension[=].extension[+].url = "PercentO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "ObservationOnAir"
+* extension[=].extension[+].url = "OnAir"
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "MethodofOxygenDelivery"
 * extension[=].extension[=].valueString = "Oxygen administration method"
