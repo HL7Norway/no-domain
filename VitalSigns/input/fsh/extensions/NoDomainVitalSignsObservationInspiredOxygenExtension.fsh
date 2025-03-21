@@ -19,8 +19,8 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 * extension[Flow].value[x] only Quantity
 * extension[FiO2] ^definition = "Fraction of oxygen in inspired air."
 * extension[FiO2].value[x] only Ratio
-* extension[PrecentO2] ^definition = "Percentage of oxygen in inspired air."
-* extension[PrecentO2].value[x] only Ratio
+* extension[PercentO2] ^definition = "Percentage of oxygen in inspired air."
+* extension[PercentO2].value[x] only Ratio
 * extension[OnAir] ^definition = "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."
 * extension[OnAir].value[x] only boolean
 * extension[MethodofOxygenDelivery] ^definition = "The method used to deliver the oxygen."
