@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.8.1"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-02-26T13:21:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-21T10:35:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -455,7 +455,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.3.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.4.1"
        ]
      ] [
        fhir:extension ( [
@@ -849,7 +849,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.\nIt represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -867,7 +867,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -885,7 +885,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -903,7 +903,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -921,7 +921,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nTo be used for recording the rate and associated attributes for a heart beat." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -939,7 +939,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nTo be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -957,7 +957,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable �pulse� due to increase in blood pressure" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -975,7 +975,7 @@
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Respiration Rate information.  \nTo be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1137,7 +1137,7 @@
        fhir:description [ fhir:v "description of the conditions applied" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1155,7 +1155,7 @@
        fhir:description [ fhir:v "The position of the individual at the time of measurement." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1173,7 +1173,7 @@
        fhir:description [ fhir:v "Codes representing body position for blood pressure" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1191,7 +1191,7 @@
        fhir:description [ fhir:v "Codes representing body site for blood pressure" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1209,7 +1209,7 @@
        fhir:description [ fhir:v "Formula used to calculate the pressure." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1227,7 +1227,7 @@
        fhir:description [ fhir:v "Formula used to calculate the pressure." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1245,7 +1245,7 @@
        fhir:description [ fhir:v "Codes representing measurement method for HeartRate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1263,7 +1263,7 @@
        fhir:description [ fhir:v "Formula used to calculate the pressure." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1281,7 +1281,7 @@
        fhir:description [ fhir:v "The degree of exposure of the individual at the time of measurement." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1299,7 +1299,7 @@
        fhir:description [ fhir:v "Codes representing body exposure" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1317,7 +1317,7 @@
        fhir:description [ fhir:v "Position of individual when body height measured." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1335,7 +1335,7 @@
        fhir:description [ fhir:v "Codes representing body position for body height" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1353,7 +1353,7 @@
        fhir:description [ fhir:v "Codes representing body site for body temperature" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1371,7 +1371,7 @@
        fhir:description [ fhir:v "Description of the character of the pulse." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1389,7 +1389,7 @@
        fhir:description [ fhir:v "Narrative description about the pulse or heart beat." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1407,7 +1407,7 @@
        fhir:description [ fhir:v "Description of the state of dress of the person at the time of weighing." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1425,7 +1425,7 @@
        fhir:description [ fhir:v "Codes representing level of clothing" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1443,7 +1443,7 @@
        fhir:description [ fhir:v "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1461,7 +1461,7 @@
        fhir:description [ fhir:v "The size of the cuff used for blood pressure measurement." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1479,7 +1479,7 @@
        fhir:description [ fhir:v "Codes representing cuff size" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1497,7 +1497,7 @@
        fhir:description [ fhir:v "Current day of the menstrual cycle." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1515,7 +1515,7 @@
        fhir:description [ fhir:v "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1533,7 +1533,7 @@
        fhir:description [ fhir:v "Codes representing Diastolic end point" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1551,7 +1551,7 @@
        fhir:description [ fhir:v "Codes representing body site for heart rate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1569,7 +1569,7 @@
        fhir:description [ fhir:v "Codes representing measurement method for HeartRate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1587,7 +1587,7 @@
        fhir:description [ fhir:v "Record which Korotkoff sound is used for determining diastolic pressure using auscultative method." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1605,7 +1605,7 @@
        fhir:description [ fhir:v "Codes representing body position for heart rate or Pulse" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1623,7 +1623,7 @@
        fhir:description [ fhir:v "Patterns  of the  heart beat." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1641,7 +1641,7 @@
        fhir:description [ fhir:v "Codes representing heart rhythm irregularity for heart rate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1659,7 +1659,7 @@
        fhir:description [ fhir:v "Details of the amount of oxygen available to the subject at the time of observation." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1677,7 +1677,7 @@
        fhir:description [ fhir:v "Codes representing body site for pulse" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1695,7 +1695,7 @@
        fhir:description [ fhir:v "Codes representing measurement method for HeartRate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1713,7 +1713,7 @@
        fhir:description [ fhir:v "Regularity of the pulse" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1731,7 +1731,7 @@
        fhir:description [ fhir:v "Codes representing  rhythm of Pulse" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1749,7 +1749,7 @@
        fhir:description [ fhir:v "More specific pattern of an irregular pulse or heart beat." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1767,7 +1767,7 @@
        fhir:description [ fhir:v "Codes representing heart rhythm irregularity for Pulse" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1785,7 +1785,7 @@
        fhir:description [ fhir:v "The depth of spontaneous breathing." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1803,7 +1803,7 @@
        fhir:description [ fhir:v "The body position of the individual during the observation." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1821,7 +1821,7 @@
        fhir:description [ fhir:v "Codes representing body position for respiration rate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1839,7 +1839,7 @@
        fhir:description [ fhir:v "Codes representing depth for respiration rate" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1857,7 +1857,7 @@
        fhir:description [ fhir:v "The regularity of spontaneous breathing." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1875,7 +1875,7 @@
        fhir:description [ fhir:v "Codes representing Respiration Regularity" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1893,7 +1893,7 @@
        fhir:description [ fhir:v "Sleep status - supports interpretation of 24 hour ambulatory blood pressure records." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1911,7 +1911,7 @@
        fhir:description [ fhir:v "Codes representing Sleep Status" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1929,7 +1929,7 @@
        fhir:description [ fhir:v "A narrative description about the spontaneous breathing of the individual." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1947,7 +1947,7 @@
        fhir:description [ fhir:v "Codes representing Respiration Spontaneous breathing" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1965,7 +1965,7 @@
        fhir:description [ fhir:v "The craniocaudal tilt of the surface on which the person is lying at the time of measurement." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1982,7 +1982,7 @@
        fhir:name [ fhir:v "Organization details of afa23" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1999,7 +1999,7 @@
        fhir:name [ fhir:v "Patient details of cdp1000240" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2016,7 +2016,7 @@
        fhir:name [ fhir:v "Patient details of cdp1000808" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2033,7 +2033,7 @@
        fhir:name [ fhir:v "Practioner details of agb104" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2050,7 +2050,7 @@
        fhir:name [ fhir:v "PractitionerRole details of agb30" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] ) ;
      fhir:page [
