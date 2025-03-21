@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.8.1",
+  "version" : "0.8.0",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-03-21T10:58:46+00:00",
+  "date" : "2025-03-21T11:15:59+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -1072,6 +1072,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFiO2"
+      },
+      "name" : "NoDomainVitalSignsObservationFiO2",
+      "description" : "Fraction of oxygen in inspired air.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationFlow"
+      },
+      "name" : "NoDomainVitalSignsObservationFlow",
+      "description" : "Oxygen flow rate given to an individual.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1151,6 +1175,42 @@
       },
       "name" : "NoDomainVitalSignsObservationInspiredOxygen",
       "description" : "Details of the amount of oxygen available to the subject at the time of observation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
+      },
+      "name" : "NoDomainVitalSignsObservationMethodofOxygenDelivery",
+      "description" : "The method used to deliver the oxygen.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationOnAir"
+      },
+      "name" : "NoDomainVitalSignsObservationOnAir",
+      "description" : "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoDomainVitalSignsObservationPercentO2"
+      },
+      "name" : "NoDomainVitalSignsObservationPercentO2",
+      "description" : "Percentage of oxygen in inspired air.",
       "exampleBoolean" : false
     },
     {
