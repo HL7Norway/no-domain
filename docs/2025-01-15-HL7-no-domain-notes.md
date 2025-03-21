@@ -37,10 +37,10 @@ Versjon til diskusjon:
   * Forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
   * TODO: Mer informasjon her i overskriften.
 * Spontanous breathing – fjerne VS som suffiks i navn på verdisett.  
-  * OK: Ta bort VS @lnystad 
-* Bruk engelsk i NoDomainVitalSignsObservationProsentO2. 
-  * (Inne i InspiredOxygen utvidelsen) 
-  * OK: Bruk engelsk i navnet. @lnystad 
+  * OK: Ta bort VS @lnystad  
+* Bruk engelsk i NoDomainVitalSignsObservationProsentO2.  
+  * (Inne i InspiredOxygen utvidelsen)  
+  * OK: Bruk engelsk i navnet. @lnystad  
 * Eksemplene inneholder mange feil, hovedsaklig språk (validator krever engelsk)
   * TODO: Validerbare eksempler @lnystad sjekker
 
@@ -49,4 +49,31 @@ Versjon til diskusjon:
 * Bloodpressure profil value sett for metode. Sende mail til Silje og Marte om hva som er kodene for automatisk invasiv og ikke invasiv.
 * Endre tilbake til å ha "valueset" postfix i filnavnet
 * Diverse andre endringer som avtalt blir sjekket inn på GitHub av Lars Andreas etter møtet.
-* Thomas spør om manglende koder.
+* Thomas spør om manglende koder, spurt men ikke avklart.
+
+#### Diskusjon om manglende koder
+
+> 2025-02-24
+> Da vi jobbet med disse settene for lenge siden tror jeg vi snakket om at verdisettene burde være enten (finding), (procedure) eller (qualifier value)?
+> Jeg lurer på om det vi ser etter er barn av en av disse:
+>
+> 122869004 |Measurement procedure (procedure)|
+> 129266000 |Measurement - action (qualifier value)|
+>
+> Sannsynligvis finnes ikke kodene vi trenger.
+>
+>> Godt poeng, kanskje noe sånn, men automatisk er ikke med her?
+>> SNOMED CT - Non-invasive study of peripheral vessel (procedure)
+>>
+>> Tror ikke det eksisterer for alle de ulike målingene. Alternativet er vel et sett med qualifyer value's?
+>> SNOMED CT - Non-invasive (qualifier value)
+>>
+>> Men jeg tror ikke slike kvalifikatorverdier bør ligge som selvstendige begreper i et verdisett for målemetode, semantisk sett…
+
+> 2024-03-21
+>
+> Vi har nå to valg slik jeg ser det.
+> 1.	Publisere profilene uten verdiene som mangler, anmerke dette i profil/verdisett, uansett må vi jobbe med alternativ 2.
+> 2.	Få opprettet dekkende SNOMED CT begreper eller benytte ECL uttrykk for å uttrykke disse verdiene.
+>
+> Foreløpig stemmer jeg på 1. Blir det problemer kommer kanskje også motivasjonen til å finne/opprette riktige verdier til verdisettet.
