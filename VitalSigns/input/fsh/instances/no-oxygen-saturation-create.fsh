@@ -5,18 +5,18 @@ Usage: #example
 * meta.versionId = "0"
 * meta.source = "META_VISION"
 * extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen"
-* extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow"
+* extension[=].extension[0].url = "Flow"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2"
+* extension[=].extension[+].url = "FiO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2"
+* extension[=].extension[+].url = "PercentO2"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir"
+* extension[=].extension[+].url = "OnAir"
 * extension[=].extension[=].valueBoolean = true
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
+* extension[=].extension[+].url = "MethodofOxygenDelivery"
 * extension[=].extension[=].valueString = "Oxygen administration method"
 * extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"

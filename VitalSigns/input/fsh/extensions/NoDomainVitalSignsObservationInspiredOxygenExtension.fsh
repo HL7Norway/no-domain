@@ -8,47 +8,20 @@ Description: "Details of the amount of oxygen available to the subject at the ti
 * ^context.type = #element
 * ^context.expression = "Observation"
 * extension contains
-    NoDomainVitalSignsObservationFlow named Flow 0..1 and
-    NoDomainVitalSignsObservationFiO2 named FiO2 0..1 and
-    NoDomainVitalSignsObservationPercentO2 named PrecentO2 0..1 and
-    NoDomainVitalSignsObservationOnAir named OnAir 0..1 and
-    NoDomainVitalSignsObservationMethodofOxygenDelivery named MethodofOxygenDelivery 0..1
+    Flow 0..1 and
+    FiO2 0..1 and
+    PercentO2 0..1 and
+    OnAir 0..1 and
+    MethodofOxygenDelivery 0..1
 * url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen" (exactly)
 
-
-
-
-Extension: NoDomainVitalSignsObservationFlow
-Description: "Oxygen flow rate given to an individual."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFlow" (exactly)
-* value[x] only Quantity
-
-Extension: NoDomainVitalSignsObservationFiO2
-Description: "Fraction of oxygen in inspired air."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationFiO2" (exactly)
-* value[x] only Ratio
-
-Extension: NoDomainVitalSignsObservationPercentO2
-Description: "Percentage of oxygen in inspired air."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPercentO2" (exactly)
-* value[x] only Ratio
-
-Extension: NoDomainVitalSignsObservationOnAir
-Description: "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOnAir" (exactly)
-* value[x] only boolean
-
-Extension: NoDomainVitalSignsObservationMethodofOxygenDelivery
-Description: "The method used to deliver the oxygen."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"
-* ^status = #draft
-* url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery" (exactly)
-* value[x] only string
+* extension[Flow] ^definition = "Oxygen flow rate given to an individual."
+* extension[Flow].value[x] only Quantity
+* extension[FiO2] ^definition = "Fraction of oxygen in inspired air."
+* extension[FiO2].value[x] only Ratio
+* extension[PercentO2] ^definition = "Percentage of oxygen in inspired air."
+* extension[PercentO2].value[x] only Ratio
+* extension[OnAir] ^definition = "The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."
+* extension[OnAir].value[x] only boolean
+* extension[MethodofOxygenDelivery] ^definition = "The method used to deliver the oxygen."
+* extension[MethodofOxygenDelivery].value[x] only string
