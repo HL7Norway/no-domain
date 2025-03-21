@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name="hl7.fhir.no.domain.vitalsigns"> </a><a name="hchl7.fhir.no.domain.vitalsigns"> </a><a name="hl7.fhir.no.domain.vitalsigns-no-NO"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
-  <version value="0.8.0"/>
+  <version value="0.8.2"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2025-03-21T11:15:59+00:00"/>
+  <date value="2025-03-21T11:26:13+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -876,28 +876,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationFiO2"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationFiO2"/>
-      <description value="Fraction of oxygen in inspired air."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationFlow"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationFlow"/>
-      <description value="Oxygen flow rate given to an individual."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -971,39 +949,6 @@
       </reference>
       <name value="NoDomainVitalSignsObservationInspiredOxygen"/>
       <description value="Details of the amount of oxygen available to the subject at the time of observation."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationMethodofOxygenDelivery"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationMethodofOxygenDelivery"/>
-      <description value="The method used to deliver the oxygen."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationOnAir"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationOnAir"/>
-      <description value="The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoDomainVitalSignsObservationPercentO2"/>
-      </reference>
-      <name value="NoDomainVitalSignsObservationPercentO2"/>
-      <description value="Percentage of oxygen in inspired air."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
