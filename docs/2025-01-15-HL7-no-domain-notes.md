@@ -32,7 +32,7 @@ Versjon til diskusjon:
   * OK: endre fra "base" til "domain"  
 * I beskrivelse – dokumentere at man skal benytte puls som hovedregel.  
   * heart-rate er kun aktuelt i spesielle tilfeller. (vi holder nyanser mtp pulsklokker med EKG etc utenfor inntil videre 😊).  
-  * TODO: oppdatere guideance (og kanskje noe i heartrate profil)
+  * OK: oppdatere guideance (og kanskje noe i heartrate profil)
 * Skrive eksplisitt at ytterligere informasjon om hva som er inkludert og ekskludert i konseptene / ekstensjonene er dokumentert i sin helhet i arketypene (med link til CKM).  
   * Forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
   * TODO: Mer informasjon her i overskriften.
@@ -69,12 +69,13 @@ Versjon til diskusjon:
 >> SNOMED CT - Non-invasive (qualifier value)
 >>
 >> Men jeg tror ikke slike kvalifikatorverdier bør ligge som selvstendige begreper i et verdisett for målemetode, semantisk sett…
-
+>>
 > 2024-03-21
 >
 > Vi har nå to valg slik jeg ser det.
-> 1.	Publisere profilene uten verdiene som mangler, anmerke dette i profil/verdisett, uansett må vi jobbe med alternativ 2.
-> 2.	Få opprettet dekkende SNOMED CT begreper eller benytte ECL uttrykk for å uttrykke disse verdiene.
+>
+> 1. Publisere profilene uten verdiene som mangler, anmerke dette i profil/verdisett, uansett må vi jobbe med alternativ 2.
+> 2. Få opprettet dekkende SNOMED CT begreper eller benytte ECL uttrykk for å uttrykke disse verdiene.
 >
 > Foreløpig stemmer jeg på 1. Blir det problemer kommer kanskje også motivasjonen til å finne/opprette riktige verdier til verdisettet.
 
@@ -86,3 +87,4 @@ Vi lager profiler for no-domain, men ikke basis på nåværende tidspunkt.
 * **BLOKKERT**: Kjør uten de siste to manglende kodene for BloodPressureMeasurementMethod  
 * Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
 * Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR.  
+* **TODO**: Ta bort DIPS pdf dokumentasjonen.
