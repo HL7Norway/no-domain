@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.8.2",
+  "version" : "0.8.3",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-03-24T06:22:27+00:00",
+  "date" : "2025-03-24T09:01:33+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -73,7 +73,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ballotNormative-1"
+        "valueString" : "ballotNormative-2"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -352,7 +352,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ballotNormative-1"
+        "valueString" : "ballotNormative-2"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -618,7 +618,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
       },
       "name" : "NO Domain VitalSigns Observation - Blood pressure",
-      "description" : "Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.\nIt represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.\nIt represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation.",
       "exampleBoolean" : false
     },
     {
@@ -630,7 +630,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBodyHeight"
       },
       "name" : "NO Domain VitalSigns Observation - Body Height",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot.",
       "exampleBoolean" : false
     },
     {
@@ -642,7 +642,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBodyTemp"
       },
       "name" : "NO Domain VitalSigns Observation - Body Temperature",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.",
       "exampleBoolean" : false
     },
     {
@@ -654,7 +654,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationBodyWeight"
       },
       "name" : "NO Domain VitalSigns Observation - Body Weight",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.",
       "exampleBoolean" : false
     },
     {
@@ -666,7 +666,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationHeartRate"
       },
       "name" : "NO Domain VitalSigns Observation - Heart Rate",
-      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nTo be used for recording the rate and associated attributes for a heart beat.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Heart Rate information.  \nTo be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading.",
       "exampleBoolean" : false
     },
     {
@@ -678,7 +678,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"
       },
       "name" : "NO Domain VitalSigns Observation - Oxygen Saturation",
-      "description" : "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nTo be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.  \nTo be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.",
       "exampleBoolean" : false
     },
     {
@@ -690,7 +690,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationPulse"
       },
       "name" : "NO Domain VitalSigns Observation - Pulse",
-      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable �pulse� due to increase in blood pressure",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable pulse due to increase in blood pressure. This profile describes how to use a SNOMED code to indicate that the measurement is actually a pulse measurement at systemic artery, and not a general heart rate measurement that can be measured both as pulse and the actual heart beat.",
       "exampleBoolean" : false
     },
     {
@@ -702,7 +702,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
       },
       "name" : "NO Domain VitalSigns Observation - Respiration Rate",
-      "description" : "Base profile for Norwegian Vital Signs Observation Respiration Rate information.  \nTo be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.",
+      "description" : "Domain profile for Norwegian Vital Signs Observation Respiration Rate information.  \nTo be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.",
       "exampleBoolean" : false
     },
     {

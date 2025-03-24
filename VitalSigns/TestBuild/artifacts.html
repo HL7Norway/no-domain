@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary -  v0.8.2</title>
+    <title>Artifacts Summary -  v0.8.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.8.2 - ballotNormative-1
+            <span style="display:inline-block;">0.8.3 - ballotNormative-2
 
 
 
@@ -147,7 +147,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.8.2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.8.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -188,7 +188,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/NoDomainVitalSignsObservationBloodpressure">NO Domain VitalSigns Observation - Blood pressure</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
+<p>Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
 It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation.</p>
 </td>
          </tr>
@@ -198,7 +198,7 @@ It represents the local measurement of arterial blood pressure, serving as a sur
                   title="StructureDefinition/NoDomainVitalSignsObservationBodyHeight">NO Domain VitalSigns Observation - Body Height</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Body Height information.<br />
+<p>Domain profile for Norwegian Vital Signs Observation Body Height information.<br />
 To be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot.</p>
 </td>
          </tr>
@@ -208,7 +208,7 @@ To be used for recording the measured height or body length of an individual at 
                   title="StructureDefinition/NoDomainVitalSignsObservationBodyTemp">NO Domain VitalSigns Observation - Body Temperature</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.</p>
+<p>Domain profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual.</p>
 </td>
          </tr>
          <tr>
@@ -217,7 +217,7 @@ To be used for recording the measured height or body length of an individual at 
                   title="StructureDefinition/NoDomainVitalSignsObservationBodyWeight">NO Domain VitalSigns Observation - Body Weight</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.</p>
+<p>Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal.</p>
 </td>
          </tr>
          <tr>
@@ -226,8 +226,8 @@ To be used for recording the measured height or body length of an individual at 
                   title="StructureDefinition/NoDomainVitalSignsObservationHeartRate">NO Domain VitalSigns Observation - Heart Rate</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Heart Rate information.<br />
-To be used for recording the rate and associated attributes for a heart beat.</p>
+<p>Domain profile for Norwegian Vital Signs Observation Heart Rate information.<br />
+To be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading.</p>
 </td>
          </tr>
          <tr>
@@ -236,7 +236,7 @@ To be used for recording the rate and associated attributes for a heart beat.</p
                   title="StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation">NO Domain VitalSigns Observation - Oxygen Saturation</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.<br />
+<p>Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.<br />
 To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.</p>
 </td>
          </tr>
@@ -246,7 +246,7 @@ To be used for recording blood oxygen and related measurements, measured by puls
                   title="StructureDefinition/NoDomainVitalSignsObservationPulse">NO Domain VitalSigns Observation - Pulse</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable �pulse� due to increase in blood pressure</p>
+<p>Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable pulse due to increase in blood pressure. This profile describes how to use a SNOMED code to indicate that the measurement is actually a pulse measurement at systemic artery, and not a general heart rate measurement that can be measured both as pulse and the actual heart beat.</p>
 </td>
          </tr>
          <tr>
@@ -255,7 +255,7 @@ To be used for recording blood oxygen and related measurements, measured by puls
                   title="StructureDefinition/NoDomainVitalSignsObservationRespirationRate">NO Domain VitalSigns Observation - Respiration Rate</a>
             </td>
             <td>
-<p>Base profile for Norwegian Vital Signs Observation Respiration Rate information.<br />
+<p>Domain profile for Norwegian Vital Signs Observation Respiration Rate information.<br />
 To be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm.</p>
 </td>
          </tr>
@@ -798,7 +798,7 @@ To be used for recording the observed and measured characteristics of spontaneou
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.8.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 24, 2025 06:23+0000">2025-03-24</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.8.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 24, 2025 09:02+0000">2025-03-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
