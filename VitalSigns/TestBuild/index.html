@@ -1,66 +1,67 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>Home -  v0.8.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-  	<link rel="stylesheet" href="assets/css/cqf.css"/>
-      <!-- Placeholder for child template CSS declarations -->
-    <link rel="stylesheet" href="assets/css/hl7.css"/>
-    <link rel="stylesheet" href="assets/css/fhir.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script src="assets/js/mermaid.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"1"}
     h3,h4,h5,h6{--heading-prefix:"1"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
 
-          <!-- Placeholder for child template header declarations -->
+        <!-- Placeholder for child template header declarations -->
 
             
 <div id="family-nav">
-	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
 	</a>
 </div>
 
 
             
 <div id="hl7-nav">
-    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
-        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
     </a>            
 </div>
 
@@ -72,33 +73,33 @@
 
 
 
-  <img src="assets/images/nor.svg" alt="Norway flag" title="Norway" height="16"/>
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -115,26 +116,26 @@
     <a href="download.html">Download</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Home</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -146,7 +147,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.8.3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.8.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -158,10 +159,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns<button data-clipboard-text="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns" title="Click to copy URL" class="btn-copy"></button></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.8.3<button data-clipboard-text="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns|0.8.3" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      <span class="copy-text">0.8.3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns|0.8.3"/></span>
       </td>
     </tr>
 
@@ -200,7 +201,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p>  <!-- white space is critical inside of capture --></p>
+    <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#about-the-norwegian-national-vital-signs-profiles" id="markdown-toc-about-the-norwegian-national-vital-signs-profiles">About the Norwegian national vital signs profiles</a></li>
@@ -212,11 +213,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The <em>Norwegian national vital signs profiles</em> have been designed for exchange of the most important <a href="https://en.wikipedia.org/wiki/Vital_signs">vital signs</a> between systems, devices, and healthcare organizations in the national Norwegian healthcare system.</p>
 
-<div>  <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 678 189" zoomAndPan="magnify" preserveAspectRatio="none" width="678px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:678px;height:189px;background:#FFFFFF;" version="1.1" height="189px"><defs></defs><g><g id="elem_source"><path d="M461,7 L461,47.2656 A0,0 0 0 0 461,47.2656 L560.86,47.2656 L561.21,107.98 L568.86,47.2656 L671,47.2656 A0,0 0 0 0 671,47.2656 L671,17 L661,7 L461,7 A0,0 0 0 0 461,7 " style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD"></path><path d="M661,7 L661,17 L671,17 L661,7 " style="stroke:#181818;stroke-width:0.5;" fill="#FEFFDD"></path><text lengthAdjust="spacing" x="467" font-size="13" textLength="189" y="24.0669" font-family="sans-serif" fill="#000000">Source of information outside</text><text lengthAdjust="spacing" x="467" font-size="13" textLength="188" y="39.1997" font-family="sans-serif" fill="#000000">the practitioners organization</text></g>  <!-- entity kliniker --><g id="elem_kliniker"><ellipse cx="45" cy="116.5" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><path d="M45,124.5 L45,151.5 M32,132.5 L58,132.5 M45,151.5 L32,166.5 M45,151.5 L58,166.5 " style="stroke:#181818;stroke-width:0.5;" fill="none"></path><text lengthAdjust="spacing" x="6" font-size="14" textLength="78" y="180.9951" font-family="sans-serif" fill="#000000">Practitioner</text></g><g id="elem_soke"><ellipse cx="190.1693" cy="27.1339" rx="93.6693" ry="21.1339" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="115.1693" font-size="14" textLength="150" y="29.9805" font-family="sans-serif" fill="#000000">search for information</text></g><g id="elem_indeksere"><ellipse cx="371.8472" cy="27.2215" rx="53.3472" ry="14.7215" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><text lengthAdjust="spacing" x="339.8472" font-size="14" textLength="58" y="30.969" font-family="sans-serif" fill="#000000">indexing</text></g><g id="elem_lese"><ellipse cx="196.8536" cy="145.8707" rx="77.3536" ry="17.8707" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="138.1333" font-size="14" textLength="112" y="149.5454" font-family="sans-serif" fill="#000000">read information</text></g><g id="elem_dele"><ellipse cx="390.1107" cy="146.0221" rx="80.6107" ry="18.5221" style="stroke:#181818;stroke-width:0.5;" fill="#ADD8E6"></ellipse><text lengthAdjust="spacing" x="328.6726" font-size="14" textLength="120" y="149.3348" font-family="sans-serif" fill="#000000">share information</text></g>  <!-- entity applikasjon --><g id="elem_applikasjon"><ellipse cx="559" cy="116.5" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"></ellipse><path d="M559,124.5 L559,151.5 M546,132.5 L572,132.5 M559,151.5 L546,166.5 M559,151.5 L572,166.5 " style="stroke:#181818;stroke-width:0.5;" fill="none"></path><text lengthAdjust="spacing" x="505.5" font-size="14" textLength="107" y="180.9951" font-family="sans-serif" fill="#000000">External source</text></g>  <!-- reverse link indeksere to applikasjon --><g id="link_indeksere_applikasjon"><path d="M396.27,43.18 C423.78,60.4 469.49,89 505.47,111.51 " style="stroke:#181818;stroke-width:1.0;" id="indeksere-backto-applikasjon" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="392.01,40.52,397.5146,48.687,396.2476,43.1738,401.7607,41.9068,392.01,40.52"></polygon></g>  <!-- reverse link dele to applikasjon --><g id="link_dele_applikasjon"><path d="M475.72,146 C485.63,146 495.53,146 505.44,146 " style="stroke:#181818;stroke-width:1.0;" id="dele-backto-applikasjon" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="470.54,146,479.54,150,475.54,146,479.54,142,470.54,146"></polygon></g>  <!-- link lese to dele --><g id="link_lese_dele"><path d="M274.65,146 C286.22,146 297.78,146 309.35,146 " style="stroke:#181818;stroke-width:1.0;" id="lese-dele" fill="none"></path></g>  <!-- link soke to indeksere --><g id="link_soke_indeksere"><path d="M283.84,27 C295.32,27 306.8,27 318.28,27 " style="stroke:#181818;stroke-width:1.0;" id="soke-indeksere" fill="none"></path></g>  <!-- link soke to lese -->  <!-- reverse link soke to kliniker --><g id="link_soke_kliniker"><path d="M162.03,50.57 C139.86,68.46 108.64,93.65 84.02,113.52 " style="stroke:#181818;stroke-width:1.0;" id="soke-backto-kliniker" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="166.06,47.32,156.5413,49.8486,162.1655,50.4557,161.5584,56.0799,166.06,47.32"></polygon></g>  <!-- link kliniker to lese --><g id="link_kliniker_lese"><path d="M84.19,146 C94.19,146 104.2,146 114.21,146 " style="stroke:#181818;stroke-width:1.0;" id="kliniker-to-lese" fill="none"></path><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="119.44,146,110.44,142,114.44,146,110.44,150,119.44,146"></polygon></g></g></svg></div>
+<div><?xml version="1.0" encoding="us-ascii" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="189px" preserveAspectRatio="none" style="width:678px;height:189px;background:#FFFFFF;" version="1.1" viewBox="0 0 678 189" width="678px" zoomAndPan="magnify"><defs /><g><g id="elem_source"><path d="M461,7 L461,47.2656 A0,0 0 0 0 461,47.2656 L560.86,47.2656 L561.21,107.98 L568.86,47.2656 L671,47.2656 A0,0 0 0 0 671,47.2656 L671,17 L661,7 L461,7 A0,0 0 0 0 461,7 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M661,7 L661,17 L671,17 L661,7 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="467" y="24.0669">Source of information outside</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="467" y="39.1997">the practitioners organization</text></g><!--entity kliniker--><g id="elem_kliniker"><ellipse cx="45" cy="116.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M45,124.5 L45,151.5 M32,132.5 L58,132.5 M45,151.5 L32,166.5 M45,151.5 L58,166.5 " fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="6" y="180.9951">Practitioner</text></g><g id="elem_soke"><ellipse cx="190.1693" cy="27.1339" fill="#ADD8E6" rx="93.6693" ry="21.1339" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="115.1693" y="29.9805">search for information</text></g><g id="elem_indeksere"><ellipse cx="371.8472" cy="27.2215" fill="#F1F1F1" rx="53.3472" ry="14.7215" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="339.8472" y="30.969">indexing</text></g><g id="elem_lese"><ellipse cx="196.8536" cy="145.8707" fill="#ADD8E6" rx="77.3536" ry="17.8707" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="138.1333" y="149.5454">read information</text></g><g id="elem_dele"><ellipse cx="390.1107" cy="146.0221" fill="#ADD8E6" rx="80.6107" ry="18.5221" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="328.6726" y="149.3348">share information</text></g><!--entity applikasjon--><g id="elem_applikasjon"><ellipse cx="559" cy="116.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M559,124.5 L559,151.5 M546,132.5 L572,132.5 M559,151.5 L546,166.5 M559,151.5 L572,166.5 " fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="505.5" y="180.9951">External source</text></g><!--reverse link indeksere to applikasjon--><g id="link_indeksere_applikasjon"><path d="M396.27,43.18 C423.78,60.4 469.49,89 505.47,111.51 " fill="none" id="indeksere-backto-applikasjon" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="#181818" points="392.01,40.52,397.5146,48.687,396.2476,43.1738,401.7607,41.9068,392.01,40.52" style="stroke:#181818;stroke-width:1.0;" /></g><!--reverse link dele to applikasjon--><g id="link_dele_applikasjon"><path d="M475.72,146 C485.63,146 495.53,146 505.44,146 " fill="none" id="dele-backto-applikasjon" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="#181818" points="470.54,146,479.54,150,475.54,146,479.54,142,470.54,146" style="stroke:#181818;stroke-width:1.0;" /></g><!--link lese to dele--><g id="link_lese_dele"><path d="M274.65,146 C286.22,146 297.78,146 309.35,146 " fill="none" id="lese-dele" style="stroke:#181818;stroke-width:1.0;" /></g><!--link soke to indeksere--><g id="link_soke_indeksere"><path d="M283.84,27 C295.32,27 306.8,27 318.28,27 " fill="none" id="soke-indeksere" style="stroke:#181818;stroke-width:1.0;" /></g><!--link soke to lese--><!--reverse link soke to kliniker--><g id="link_soke_kliniker"><path d="M162.03,50.57 C139.86,68.46 108.64,93.65 84.02,113.52 " fill="none" id="soke-backto-kliniker" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="#181818" points="166.06,47.32,156.5413,49.8486,162.1655,50.4557,161.5584,56.0799,166.06,47.32" style="stroke:#181818;stroke-width:1.0;" /></g><!--link kliniker to lese--><g id="link_kliniker_lese"><path d="M84.19,146 C94.19,146 104.2,146 114.21,146 " fill="none" id="kliniker-to-lese" style="stroke:#181818;stroke-width:1.0;" /><polygon fill="#181818" points="119.44,146,110.44,142,114.44,146,110.44,150,119.44,146" style="stroke:#181818;stroke-width:1.0;" /></g></g></svg></div>
 
 <p>The initiative for the development of the profiles came from the regional health authority for Northern Norway (Helse Nord RHF) for the use case of exchanging the most commonly needed vital signs between an electronic charting and medication system, and the core electronic healthcare record (EHR) and patient management system. Additional initial use cases included exchanging vital signs between the EHR and the radiology system (RIS/PACS), neonatal and neonatal intensive care (NICU) system, the pharmacy and medication production system, and entry and lookup through multiple specialized mobile applications for bedside use. In the subsequent development of the profiles uses cases for home monitoring of patients, patient-provided data (e.g. from smartwatches or other personal health devices), and exchange between healthcare organizations (primary care, specialists, hospitals, and care homes, etc.) have been considered. National quality and research registries have been identified as a possible future use case.</p>
 
-<div>  <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 845 274" zoomAndPan="magnify" preserveAspectRatio="none" width="845px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:845px;height:274px;background:#FFFFFF;" version="1.1" height="274px"><defs></defs><g>  <!-- cluster Organization --><g id="cluster_Organization"><rect rx="2.5" ry="2.5" width="745" x="94" y="7" style="stroke:#181818;stroke-width:1.0;" fill="none" height="119"></rect><text font-weight="bold" lengthAdjust="spacing" x="416.5" font-size="14" textLength="100" y="21.9951" font-family="sans-serif" fill="#000000">Organization</text></g>  <!-- cluster receiver --><g id="cluster_receiver"><rect rx="2.5" ry="2.5" width="261" x="573" y="150" style="stroke:#181818;stroke-width:1.0;" fill="none" height="118"></rect><text font-weight="bold" lengthAdjust="spacing" x="665.5" font-size="14" textLength="76" y="164.9951" font-family="sans-serif" fill="#000000">Receiving</text><text font-weight="bold" lengthAdjust="spacing" x="653.5" font-size="14" textLength="100" y="181.292" font-family="sans-serif" fill="#000000">Organization</text></g>  <!-- cluster receiver2 --><g id="cluster_receiver2"><rect rx="2.5" ry="2.5" width="261" x="195" y="150" style="stroke:#181818;stroke-width:1.0;" fill="none" height="118"></rect><text font-weight="bold" lengthAdjust="spacing" x="287.5" font-size="14" textLength="76" y="164.9951" font-family="sans-serif" fill="#000000">Receiving</text><text font-weight="bold" lengthAdjust="spacing" x="270.5" font-size="14" textLength="110" y="181.292" font-family="sans-serif" fill="#000000">Organization2</text></g>  <!-- entity app1 --><g id="elem_app1"><rect rx="2.5" ry="2.5" width="95" x="594.5" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="664.5" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="604.5" font-size="14" textLength="75" y="88.4951" font-family="sans-serif" fill="#000000">Application</text></g>  <!-- entity pract1 --><g id="elem_pract1"><rect rx="2.5" ry="2.5" width="98" x="725" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="798" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" height="16"></image><text lengthAdjust="spacing" x="735" font-size="14" textLength="78" y="88.4951" font-family="sans-serif" fill="#000000">Practitioner</text></g>  <!-- entity repo --><g id="elem_repo"><rect rx="2.5" ry="2.5" width="94" x="465" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="534" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="475" font-size="14" textLength="74" y="88.4951" font-family="sans-serif" fill="#000000">Repository</text></g>  <!-- entity device --><g id="elem_device"><rect rx="2.5" ry="2.5" width="67" x="248.5" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="290.5" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="258.5" font-size="14" textLength="47" y="88.4951" font-family="sans-serif" fill="#000000">Device</text></g>  <!-- entity gw --><g id="elem_gw"><rect rx="2.5" ry="2.5" width="79" x="350.5" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="404.5" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="360.5" font-size="14" textLength="59" y="88.4951" font-family="sans-serif" fill="#000000">Gateway</text></g>  <!-- entity obs --><g id="elem_obs"><rect rx="2.5" ry="2.5" width="103" x="110.5" y="42" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="67.5938"></rect><image width="16" x="188.5" y="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAR0lEQVR4Xs3RIQ7AMBDEwPz/0VVQQTLAaVEsLbEMTroxbuL5sQVEQI8I6PfzTraACOgRAT0ioEcE9IiAHhHQIwL697dfdgETEy84j585Gz4AAAAASUVORK5CYII=" height="16"></image><text lengthAdjust="spacing" x="120.5" font-size="14" textLength="83" y="79.9951" font-family="sans-serif" fill="#000000">Observation</text><text lengthAdjust="spacing" x="127.5" font-size="14" textLength="28" y="96.292" font-family="sans-serif" fill="#000000">Vital</text><text lengthAdjust="spacing" x="155.5" font-size="14" textLength="4" y="96.292" font-family="sans-serif" fill="#000000">&nbsp;</text><text lengthAdjust="spacing" x="159.5" font-size="14" textLength="37" y="96.292" font-family="sans-serif" fill="#000000">signs</text></g>  <!-- entity pract2 --><g id="elem_pract2"><rect rx="2.5" ry="2.5" width="98" x="720" y="201" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="793" y="211" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" height="16"></image><text lengthAdjust="spacing" x="730" font-size="14" textLength="78" y="238.9951" font-family="sans-serif" fill="#000000">Practitioner</text></g>  <!-- entity app2 --><g id="elem_app2"><rect rx="2.5" ry="2.5" width="95" x="589.5" y="201" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="659.5" y="211" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="599.5" font-size="14" textLength="75" y="238.9951" font-family="sans-serif" fill="#000000">Application</text></g>  <!-- entity app3 --><g id="elem_app3"><rect rx="2.5" ry="2.5" width="95" x="344.5" y="201" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="414.5" y="211" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="354.5" font-size="14" textLength="75" y="238.9951" font-family="sans-serif" fill="#000000">Application</text></g>  <!-- entity pract3 --><g id="elem_pract3"><rect rx="2.5" ry="2.5" width="98" x="211" y="201" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="284" y="211" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" height="16"></image><text lengthAdjust="spacing" x="221" font-size="14" textLength="78" y="238.9951" font-family="sans-serif" fill="#000000">Practitioner</text></g>  <!-- entity patient --><g id="elem_patient"><rect rx="2.5" ry="2.5" width="68" x="7" y="50.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="51.2969"></rect><image width="16" x="50" y="60.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" height="16"></image><text lengthAdjust="spacing" x="17" font-size="14" textLength="48" y="88.4951" font-family="sans-serif" fill="#000000">Patient</text></g>  <!-- entity pmd --><g id="elem_pmd"><rect rx="2.5" ry="2.5" width="75" x="474.5" y="192.5" style="stroke:#181818;stroke-width:0.5;" fill="#FFFFCC" height="67.5938"></rect><image width="16" x="524.5" y="202.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" height="16"></image><text lengthAdjust="spacing" x="484.5" font-size="14" textLength="55" y="230.4951" font-family="sans-serif" fill="#000000">National</text><text lengthAdjust="spacing" x="487.5" font-size="14" textLength="49" y="246.792" font-family="sans-serif" fill="#000000">service</text></g>  <!-- reverse link pract3 to app3 --><g id="link_pract3_app3"><path d="M314.15,227 C314.15,227 344.12,227 344.12,227 " style="stroke:#000000;stroke-width:1.0;" id="pract3-backto-app3" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="309.15,227,318.15,231,314.15,227,318.15,223,309.15,227"></polygon></g>  <!-- link patient to obs --><g id="link_patient_obs"><path d="M75.03,76 C85.93,76 98.27,76 110.14,76 " style="stroke:#000000;stroke-width:1.0;" id="patient-obs" fill="none"></path></g>  <!-- reverse link obs to device --><g id="link_obs_device"><path d="M218.59,76 C218.59,76 248.48,76 248.48,76 " style="stroke:#000000;stroke-width:1.0;stroke-dasharray:1.0,3.0;" id="obs-backto-device" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="213.59,76,222.59,80,218.59,76,222.59,72,213.59,76"></polygon></g>  <!-- reverse link device to gw --><g id="link_device_gw"><path d="M320.58,76 C320.58,76 350.38,76 350.38,76 " style="stroke:#000000;stroke-width:1.0;" id="device-backto-gw" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="315.58,76,324.58,80,320.58,76,324.58,72,315.58,76"></polygon></g>  <!-- reverse link gw to repo --><g id="link_gw_repo"><path d="M434.61,76 C434.61,76 464.94,76 464.94,76 " style="stroke:#000000;stroke-width:1.0;" id="gw-backto-repo" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="429.61,76,438.61,80,434.61,76,438.61,72,429.61,76"></polygon></g>  <!-- reverse link repo to app1 --><g id="link_repo_app1"><path d="M564.3,76 C564.3,76 594.08,76 594.08,76 " style="stroke:#000000;stroke-width:1.0;" id="repo-backto-app1" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="559.3,76,568.3,80,564.3,76,568.3,72,559.3,76"></polygon></g>  <!-- link app1 to app2 -->  <!-- link repo to pmd --><g id="link_repo_pmd"><path d="M512,101.53 C512,101.53 512,187.35 512,187.35 " style="stroke:#FF0000;stroke-width:1.0;" id="repo-to-pmd" fill="none"></path><polygon style="stroke:#FF0000;stroke-width:1.0;" fill="#FF0000" points="512,192.35,516,183.35,512,187.35,508,183.35,512,192.35"></polygon><text lengthAdjust="spacing" x="447" font-size="12" textLength="64" y="141.5787" font-family="sans-serif" fill="#000000">NoDomain</text></g>  <!-- reverse link app3 to pmd --><g id="link_app3_pmd"><path d="M444.77,227 C444.77,227 474.37,227 474.37,227 " style="stroke:#000000;stroke-width:1.0;" id="app3-backto-pmd" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="439.77,227,448.77,231,444.77,227,448.77,223,439.77,227"></polygon></g>  <!-- link app1 to pract1 --><g id="link_app1_pract1"><path d="M689.66,76 C689.66,76 719.64,76 719.64,76 " style="stroke:#000000;stroke-width:1.0;" id="app1-to-pract1" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="724.64,76,715.64,72,719.64,76,715.64,80,724.64,76"></polygon></g>  <!-- link app2 to pract2 --><g id="link_app2_pract2"><path d="M684.66,227 C684.66,227 714.64,227 714.64,227 " style="stroke:#000000;stroke-width:1.0;" id="app2-to-pract2" fill="none"></path><polygon style="stroke:#000000;stroke-width:1.0;" fill="#000000" points="719.64,227,710.64,223,714.64,227,710.64,231,719.64,227"></polygon></g>  <!-- link repo to app2 --><g id="link_repo_app2"><path d="M554.25,101.62 C554.25,144.7 554.25,227 554.25,227 C554.25,227 584.34,227 584.34,227 " style="stroke:#FF0000;stroke-width:1.0;" id="repo-to-app2" fill="none"></path><polygon style="stroke:#FF0000;stroke-width:1.0;" fill="#FF0000" points="589.34,227,580.34,223,584.34,227,580.34,231,589.34,227"></polygon><text lengthAdjust="spacing" x="489.25" font-size="12" textLength="64" y="176.4887" font-family="sans-serif" fill="#000000">NoDomain</text></g></g></svg></div>
+<div><?xml version="1.0" encoding="us-ascii" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="274px" preserveAspectRatio="none" style="width:845px;height:274px;background:#FFFFFF;" version="1.1" viewBox="0 0 845 274" width="845px" zoomAndPan="magnify"><defs /><g><!--cluster Organization--><g id="cluster_Organization"><rect fill="none" height="119" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="745" x="94" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="416.5" y="21.9951">Organization</text></g><!--cluster receiver--><g id="cluster_receiver"><rect fill="none" height="118" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="261" x="573" y="150" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="665.5" y="164.9951">Receiving</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="653.5" y="181.292">Organization</text></g><!--cluster receiver2--><g id="cluster_receiver2"><rect fill="none" height="118" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="261" x="195" y="150" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="287.5" y="164.9951">Receiving</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="270.5" y="181.292">Organization2</text></g><!--entity app1--><g id="elem_app1"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="594.5" y="50.5" /><image height="16" width="16" x="664.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="604.5" y="88.4951">Application</text></g><!--entity pract1--><g id="elem_pract1"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="725" y="50.5" /><image height="16" width="16" x="798" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="735" y="88.4951">Practitioner</text></g><!--entity repo--><g id="elem_repo"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="465" y="50.5" /><image height="16" width="16" x="534" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="475" y="88.4951">Repository</text></g><!--entity device--><g id="elem_device"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="248.5" y="50.5" /><image height="16" width="16" x="290.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="258.5" y="88.4951">Device</text></g><!--entity gw--><g id="elem_gw"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="350.5" y="50.5" /><image height="16" width="16" x="404.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="360.5" y="88.4951">Gateway</text></g><!--entity obs--><g id="elem_obs"><rect fill="#FFFFCC" height="67.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="110.5" y="42" /><image height="16" width="16" x="188.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAR0lEQVR4Xs3RIQ7AMBDEwPz/0VVQQTLAaVEsLbEMTroxbuL5sQVEQI8I6PfzTraACOgRAT0ioEcE9IiAHhHQIwL697dfdgETEy84j585Gz4AAAAASUVORK5CYII=" y="52" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="120.5" y="79.9951">Observation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="127.5" y="96.292">Vital</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="155.5" y="96.292">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="159.5" y="96.292">signs</text></g><!--entity pract2--><g id="elem_pract2"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="720" y="201" /><image height="16" width="16" x="793" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="730" y="238.9951">Practitioner</text></g><!--entity app2--><g id="elem_app2"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="589.5" y="201" /><image height="16" width="16" x="659.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="599.5" y="238.9951">Application</text></g><!--entity app3--><g id="elem_app3"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="344.5" y="201" /><image height="16" width="16" x="414.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="354.5" y="238.9951">Application</text></g><!--entity pract3--><g id="elem_pract3"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="211" y="201" /><image height="16" width="16" x="284" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="221" y="238.9951">Practitioner</text></g><!--entity patient--><g id="elem_patient"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="68" x="7" y="50.5" /><image height="16" width="16" x="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="17" y="88.4951">Patient</text></g><!--entity pmd--><g id="elem_pmd"><rect fill="#FFFFCC" height="67.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="474.5" y="192.5" /><image height="16" width="16" x="524.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="202.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="484.5" y="230.4951">National</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="487.5" y="246.792">service</text></g><!--reverse link pract3 to app3--><g id="link_pract3_app3"><path d="M314.15,227 C314.15,227 344.12,227 344.12,227 " fill="none" id="pract3-backto-app3" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="309.15,227,318.15,231,314.15,227,318.15,223,309.15,227" style="stroke:#000000;stroke-width:1.0;" /></g><!--link patient to obs--><g id="link_patient_obs"><path d="M75.03,76 C85.93,76 98.27,76 110.14,76 " fill="none" id="patient-obs" style="stroke:#000000;stroke-width:1.0;" /></g><!--reverse link obs to device--><g id="link_obs_device"><path d="M218.59,76 C218.59,76 248.48,76 248.48,76 " fill="none" id="obs-backto-device" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:1.0,3.0;" /><polygon fill="#000000" points="213.59,76,222.59,80,218.59,76,222.59,72,213.59,76" style="stroke:#000000;stroke-width:1.0;" /></g><!--reverse link device to gw--><g id="link_device_gw"><path d="M320.58,76 C320.58,76 350.38,76 350.38,76 " fill="none" id="device-backto-gw" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="315.58,76,324.58,80,320.58,76,324.58,72,315.58,76" style="stroke:#000000;stroke-width:1.0;" /></g><!--reverse link gw to repo--><g id="link_gw_repo"><path d="M434.61,76 C434.61,76 464.94,76 464.94,76 " fill="none" id="gw-backto-repo" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="429.61,76,438.61,80,434.61,76,438.61,72,429.61,76" style="stroke:#000000;stroke-width:1.0;" /></g><!--reverse link repo to app1--><g id="link_repo_app1"><path d="M564.3,76 C564.3,76 594.08,76 594.08,76 " fill="none" id="repo-backto-app1" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="559.3,76,568.3,80,564.3,76,568.3,72,559.3,76" style="stroke:#000000;stroke-width:1.0;" /></g><!--link app1 to app2--><!--link repo to pmd--><g id="link_repo_pmd"><path d="M512,101.53 C512,101.53 512,187.35 512,187.35 " fill="none" id="repo-to-pmd" style="stroke:#FF0000;stroke-width:1.0;" /><polygon fill="#FF0000" points="512,192.35,516,183.35,512,187.35,508,183.35,512,192.35" style="stroke:#FF0000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="447" y="141.5787">NoDomain</text></g><!--reverse link app3 to pmd--><g id="link_app3_pmd"><path d="M444.77,227 C444.77,227 474.37,227 474.37,227 " fill="none" id="app3-backto-pmd" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="439.77,227,448.77,231,444.77,227,448.77,223,439.77,227" style="stroke:#000000;stroke-width:1.0;" /></g><!--link app1 to pract1--><g id="link_app1_pract1"><path d="M689.66,76 C689.66,76 719.64,76 719.64,76 " fill="none" id="app1-to-pract1" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="724.64,76,715.64,72,719.64,76,715.64,80,724.64,76" style="stroke:#000000;stroke-width:1.0;" /></g><!--link app2 to pract2--><g id="link_app2_pract2"><path d="M684.66,227 C684.66,227 714.64,227 714.64,227 " fill="none" id="app2-to-pract2" style="stroke:#000000;stroke-width:1.0;" /><polygon fill="#000000" points="719.64,227,710.64,223,714.64,227,710.64,231,719.64,227" style="stroke:#000000;stroke-width:1.0;" /></g><!--link repo to app2--><g id="link_repo_app2"><path d="M554.25,101.62 C554.25,144.7 554.25,227 554.25,227 C554.25,227 584.34,227 584.34,227 " fill="none" id="repo-to-app2" style="stroke:#FF0000;stroke-width:1.0;" /><polygon fill="#FF0000" points="589.34,227,580.34,223,584.34,227,580.34,231,589.34,227" style="stroke:#FF0000;stroke-width:1.0;" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="489.25" y="176.4887">NoDomain</text></g></g></svg></div>
 
 <p>The profiles have been developed limited by the principle that all profiles should derive from the <a href="https://hl7.org/fhir/observation-vitalsigns.html">international vital signs profiles</a> provided by HL7 International and then constrain or extend these as needed. Additionally, as Norway has adopted <a href="https://www.snomed.org">SNOMED CT</a> as the standard healthcare related terminology system, the development has adopted the constraint that all ValueSets, "<em>Magic Value</em>", and model bindings should be expressed as SNOMED CT pre-coordinated codes.</p>
 
@@ -242,14 +243,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <tbody>
     <tr>
       <td>blodtrykk</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationBloodpressure</td>
       <td>85354-9 Blood pressure panel with all children optional</td>
       <td>no mapping</td>
       <td>no mapping</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>blodtrykk (systolisk)</td>
       <td>(component)</td>
       <td>8480-6 Systolic blood-pressure</td>
@@ -257,7 +258,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>271649006 Systolic blood pressure (observable entity)</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>blodtrykk (diastolisk)</td>
       <td>(component)</td>
       <td>8462-4 Diastolic blood-pressure</td>
@@ -265,24 +266,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>271650006 Diastolic blood pressure (observable entity)</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>MeanArterialPressure (added)</td>
       <td>(component)</td>
       <td>8478-0</td>
       <td>4501000202102 Mean systemic arterial pressure (observable entity)</td>
-      <td>&nbsp;</td>
+      <td> </td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>PulsePressure (added)</td>
       <td>(component)</td>
       <td>NA</td>
       <td>4461000202102 Systemic arterial pulse pressure (observable entity)</td>
-      <td>&nbsp;</td>
+      <td> </td>
     </tr>
     <tr>
       <td>kroppshøyde</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationBodyHeight</td>
       <td>8302-2 Body height</td>
       <td>1153637007 Body height (observable entity)</td>
@@ -290,7 +291,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>temperatur</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationBodyTemp</td>
       <td>8310-5 Body temperature</td>
       <td>276885007 Core body temperature (observable entity)</td>
@@ -298,7 +299,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>kroppsvekt</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationBodyWeight</td>
       <td>29463-7 Body weight</td>
       <td>27113001 Body weight (observable entity)</td>
@@ -306,7 +307,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>hjertefrekvens</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationHeartRate</td>
       <td>8867-4 heart-rate</td>
       <td>364075005 Heart Rate</td>
@@ -314,7 +315,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>puls</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationPulse</td>
       <td>8867-4 heart-rate</td>
       <td>78564009 Heart rate measured at systemic artery (observable entity)</td>
@@ -322,7 +323,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>oksygenmetning</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationOxygenSaturation</td>
       <td>2708-6</td>
       <td>431314004 Peripheral oxygen saturation (observable entity)</td>
@@ -330,7 +331,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>respirasjonsfrekvens</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>NoDomainVitalSignsObservationRespirationRate</td>
       <td>9279-1 Respiratory Rate</td>
       <td>271625008 Rate of spontaneous respiration (observable entity)</td>
@@ -339,7 +340,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<p><a name="l879">​</a>There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit <a href="guidance.md">Guideance</a> for further information about the SNOMED CT terms and their use in these profiles.</p>
+<p>There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit <a href="guidance.html">Guideance</a> for further information about the SNOMED CT terms and their use in these profiles.</p>
 
 <p><a href="https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding">IHTSDO official mapping</a></p>
 
@@ -347,7 +348,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>This document is licensed under Creative Commons "No Rights Reserved" (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>).</p>
 
-<p>HL7&reg;, HEALTH LEVEL SEVEN&reg;, FHIR&reg; and the FHIR <img src="icon-fhir-16.png" style="float: none; margin: 0px; padding: 0px; vertical-align: bottom"/>&reg; are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.</p>
+<p>HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" style="float: none; margin: 0px; padding: 0px; vertical-align: bottom" />® are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.</p>
 
 <p>This implementation guide contains and references intellectual property owned by third parties ("Third Party IP"). Acceptance of these License Terms does not grant any rights with respect to Third Party IP. The licensee alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize Third Party IP in connection with the specification or otherwise.</p>
 
@@ -355,31 +356,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Following is a non-exhaustive list of third-party artifacts and terminologies that may require a separate license:</p>
 
-<p><strong>SNOMED Clinical Terms&reg; (SNOMED CT&reg;)</strong>
-This material includes SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is used by permission of SNOMED International (former known as International Health Terminology Standards Development Organisation IHTSDO). All rights reserved. SNOMED CT&reg;, was originally created by The College of American Pathologists. “SNOMED” and “SNOMED CT” are registered trademarks of SNOMED International.</p>
+<p><strong>SNOMED Clinical Terms® (SNOMED CT®)</strong>
+This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International (former known as International Health Terminology Standards Development Organisation IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. “SNOMED” and “SNOMED CT” are registered trademarks of SNOMED International.</p>
 
 <p><strong>Logical Observation Identifiers Names and Codes LOINC</strong>
-This material contains content from LOINC&reg; (http://loinc.org). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright &copy; 1995-2013, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at http://loinc.org/terms-of-use.</p>
+This material contains content from LOINC® (http://loinc.org). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright © 1995-2013, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at http://loinc.org/terms-of-use.</p>
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.8.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 24, 2025 09:02+0000">2025-03-24</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.8.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 24, 2025 11:47+0000">2025-03-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -389,26 +390,27 @@ This material contains content from LOINC&reg; (http://loinc.org). The LOINC tab
 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+
