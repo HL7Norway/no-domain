@@ -1,7 +1,6 @@
 Instance: no-heart-rate-create
 InstanceOf: NoDomainVitalSignsObservationHeartRate
 Usage: #example
-
 * extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
 * extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
 * extension[heartRhythmIrregularity].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"

@@ -1,8 +1,8 @@
 @startuml
 
-note "Heartrate and pulse rate\nconceptual model" as consept
 rectangle "conceptual" {
-"General\nheartreate" as (general)
+note "Heartrate and pulse rate\nconceptual model" as consept
+"General\nheartrate" as (general)
 "Heartrate" as (hr)
 "Pulse" as (pulse)
 }
@@ -12,7 +12,7 @@ rectangle "conceptual" {
 "SNOMED 364075005\nheartrate" as (snohr) #lightblue
 '"LOINC hr code" as (loinchr) #lightblue
 
-snohr -right[hidden]- 8867
+snopulse -right[hidden]- 8867
 8867 -right[hidden]- snohr
 
 'note "Heartrate and pulse\n rate FHIR profiles" as FHIRmodel
@@ -25,11 +25,14 @@ snohr -right[hidden]- 8867
 
 'fhirhr -right[hidden]- FHIRmodel
 
-general -down- hr
-general -down- pulse
+'general -right[hidden]- consept
+general -right- hr
+'pulse -right[hidden]- hr
+general -left- pulse
+general -down- 8867
 pulse -down- snopulse
 hr -down- snohr
-pulse -down- 8867
+'pulse -down- 8867
 8867 -down-o fhirhr
 fhirhr <|-down- nodomhr
 fhirhr <|-down- nodompulse
