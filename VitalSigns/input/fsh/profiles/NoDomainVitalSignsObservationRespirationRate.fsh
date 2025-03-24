@@ -9,7 +9,7 @@ To be used for recording the observed and measured characteristics of spontaneou
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the respiration rate archetype: Åndedrett, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2280"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Respiration Rate information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Respiration Rate ."
+* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Respiration Rate information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Respiration Rate. Please visit https://arketyper.no/ckm/ for further information about the concepts defined in extensions."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open

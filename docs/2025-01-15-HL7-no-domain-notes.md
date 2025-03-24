@@ -88,3 +88,4 @@ Vi lager profiler for no-domain, men ikke basis på nåværende tidspunkt.
 * Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
 * Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR.  
 * **TODO**: Ta bort DIPS pdf dokumentasjonen.
+  * Fjernet pdf og html for DIPS admin.
