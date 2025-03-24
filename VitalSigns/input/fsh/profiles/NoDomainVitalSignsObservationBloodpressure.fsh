@@ -2,7 +2,7 @@ Profile: NoDomainVitalSignsObservationBloodpressure
 Parent: $bp
 Id: NoDomainVitalSignsObservationBloodpressure
 Title: "NO Domain VitalSigns Observation - Blood pressure"
-Description: """Base profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
+Description: """Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
 It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
 * ^version = "1.0.0"
@@ -48,7 +48,9 @@ It represents the local measurement of arterial blood pressure, serving as a sur
     Author 0..*  and
     organization 0..*     
 * performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
+* performer[Author] ^definition = "Identifies the person or careteam that is responsible for the vital sign measurement."
 * performer[organization] only Reference(Organization or $no-basis-Organization)
+* performer[organization] ^definition = "Identifies the Organization that is responsible for the vital sign measurement. In Norway this can be translated into the 'dataansvarlig virksomhet'."
 * bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
 
 * bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)

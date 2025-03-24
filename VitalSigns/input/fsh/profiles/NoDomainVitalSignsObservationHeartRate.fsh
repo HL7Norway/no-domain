@@ -2,7 +2,7 @@ Profile: NoDomainVitalSignsObservationHeartRate
 Parent: $heartrate
 Id: NoDomainVitalSignsObservationHeartRate
 Title: "NO Domain VitalSigns Observation - Heart Rate"
-Description: """Base profile for Norwegian Vital Signs Observation Heart Rate information.  
+Description: """Domain profile for Norwegian Vital Signs Observation Heart Rate information.  
 To be used for recording the rate and associated attributes for a heart beat."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate"
 * ^version = "1.0.0"

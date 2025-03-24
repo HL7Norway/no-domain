@@ -2,7 +2,7 @@ Profile: NoDomainVitalSignsObservationBodyTemp
 Parent: $bodytemp
 Id: NoDomainVitalSignsObservationBodyTemp
 Title: "NO Domain VitalSigns Observation - Body Temperature"
-Description: "Base profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual."
+Description: "Domain profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp"
 * ^version = "1.0.0"
 * ^status = #draft

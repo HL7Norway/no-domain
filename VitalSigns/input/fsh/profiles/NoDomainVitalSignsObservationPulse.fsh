@@ -2,7 +2,7 @@ Profile: NoDomainVitalSignsObservationPulse
 Parent: $heartrate
 Id: NoDomainVitalSignsObservationPulse
 Title: "NO Domain VitalSigns Observation - Pulse"
-Description: """Base profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable “pulse” due to increase in blood pressure"""
+Description: """Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable ï¿½pulseï¿½ due to increase in blood pressure"""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"
 * ^version = "1.0.0"
 * ^status = #draft
