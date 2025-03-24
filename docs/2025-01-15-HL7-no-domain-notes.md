@@ -42,7 +42,8 @@ Versjon til diskusjon:
   * (Inne i InspiredOxygen utvidelsen)  
   * OK: Bruk engelsk i navnet. @lnystad  
 * Eksemplene inneholder mange feil, hovedsaklig språk (validator krever engelsk)
-  * TODO: Validerbare eksempler @lnystad sjekker
+  * **TODO**: Validerbare eksempler @lnystad sjekker
+  * Validator forventer internasjonale termer fra SNOMED CT, eksemplene bruker norske termer fra Norsk versjon.
 
 ### 2025-02-10 DIPS endringer
 
@@ -83,9 +84,10 @@ Versjon til diskusjon:
 
 Vi lager profiler for no-domain, men ikke basis på nåværende tidspunkt.
 
-* **TODO**: Beskriv hva SNOMED CT kodene betyr og når de skal benyttes.  
-* **BLOKKERT**: Kjør uten de siste to manglende kodene for BloodPressureMeasurementMethod  
-* Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
-* Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR.  
+* **OK**: Beskriv hva SNOMED CT kodene betyr og når de skal benyttes.  
+  * Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
+  * Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR og norsk klinisk kontekst.  
 * **TODO**: Ta bort DIPS pdf dokumentasjonen.
   * **Fjernet** pdf og html for DIPS admin.
+* * **BLOKKERT**: Kjør uten de siste to manglende kodene for BloodPressureMeasurementMethod  
+  * Issue [#53](https://github.com/HL7Norway/no-domain/issues/53) beskriver problemstillingen
