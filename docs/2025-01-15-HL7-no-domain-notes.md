@@ -35,7 +35,7 @@ Versjon til diskusjon:
   * OK: oppdatere guideance (og kanskje noe i heartrate profil)
 * Skrive eksplisitt at ytterligere informasjon om hva som er inkludert og ekskludert i konseptene / ekstensjonene er dokumentert i sin helhet i arketypene (med link til CKM).  
   * Forklarende tekster fra arketypen er ikke med i resp rate, kan være et problem.
-  * TODO: Mer informasjon her i overskriften.
+  * OK: Mer informasjon her i overskriften.
 * Spontanous breathing – fjerne VS som suffiks i navn på verdisett.  
   * OK: Ta bort VS @lnystad  
 * Bruk engelsk i NoDomainVitalSignsObservationProsentO2.  
@@ -88,4 +88,4 @@ Vi lager profiler for no-domain, men ikke basis på nåværende tidspunkt.
 * Argumentet for ikke å lage SNOMED mapping er at det ikke er enighet om hvilke SNOMED koder som bør benyttes for disse målingene på tvers av anvendelser i Norge.  
 * Kodene som er angitt i no-domain er kvalitetssikret i forhold til Arketypene i EpenEHR.  
 * **TODO**: Ta bort DIPS pdf dokumentasjonen.
-  * Fjernet pdf og html for DIPS admin.
+  * **Fjernet** pdf og html for DIPS admin.
