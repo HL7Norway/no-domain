@@ -4,7 +4,7 @@ In [FHIR vital-signs](https://hl7.org/fhir/observation-vitalsigns.html), the [LO
 
 ### Use of SNOMED CT terms
 
-The profiles includes several 
+The profiles includes SNOMED CT terms for each vital sign measurement. The SNOMED terms are chosen to best reflect the concept expressed in the corresponding LOINC *magic value* for each profile. When choosing a SNOMED term both Norwegian clinical practice have been taken into account (example: what does the clinicians usually understand when reading a heart rate observation) in most cases this maps directly to the concept described in the corresponding [OpenEHR Archetype](https://arketyper.no/ckm/). In one case this has led to a separate profile (pulse and heart rate) to better reflect the clinical concept of an actual pulse measurement.
 
 ### FHIR R6 changes
 

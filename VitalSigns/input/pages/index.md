@@ -33,7 +33,7 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 |oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 |431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|
 |respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|
 
-There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit [Guideance](guidance.md) for further information about the SNOMED CT terms and their use in these profiles.  
+There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit [Guideance](guidance.html) for further information about the SNOMED CT terms and their use in these profiles.  
 
 [IHTSDO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
 
