@@ -14,5 +14,6 @@ Alias: $no-basis-PractitionerRole = http://hl7.no/fhir/StructureDefinition/no-ba
 Alias: $no-basis-Organization = http://hl7.no/fhir/StructureDefinition/no-basis-Organization
 // Instances
 Alias: $sct = http://snomed.info/sct
+Alias: $sctno = http://snomed.info/sct/51000202101
 Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
