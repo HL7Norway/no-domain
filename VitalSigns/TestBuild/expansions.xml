@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="22e24b80-5a7e-4351-b4ad-d1b4d744fc1a"/>
+  <id value="fe35cd16-838a-4a31-9d2e-a9306c8e06ce"/>
   <meta>
-    <lastUpdated value="2025-03-26T06:26:14.541+00:00"/>
+    <lastUpdated value="2025-03-26T07:24:27.609+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,7 +59,7 @@
         <title value="NoDomainVitalSignsObservationBloodPressureMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -68,8 +68,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d1abddde-c437-4eca-9340-d79a44395b7a"/>
-          <timestamp value="2025-03-26T06:26:52+00:00"/>
+          <identifier value="urn:uuid:4a187032-dfe5-4195-89d2-73a1e9add8a1"/>
+          <timestamp value="2025-03-26T07:25:18+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -110,6 +110,82 @@
             <code value="113011001"/>
             <display value="Palpation"/>
           </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2025-01-28T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set cannot be expanded because the terminology server(s) deemed it too costly to do so</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (no-NO)</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+        <version value="0.8.3"/>
+        <name value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+        <title value="NoDomainVitalSignsObservationBloodpressureBodyPosition"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:d916f6cb-f5bb-4714-b142-60cac1ea0571"/>
+          <timestamp value="2025-03-26T07:25:19.939Z"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
         </expansion>
       </ValueSet>
     </resource>
@@ -247,7 +323,7 @@
         <title value="NoDomainVitalSignsObservationBloodpressureBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -256,8 +332,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ecc07c86-658f-418d-961d-a5d654cd052f"/>
-          <timestamp value="2025-03-26T06:26:53+00:00"/>
+          <identifier value="urn:uuid:33850546-19ba-4d4d-877d-1da9e250b704"/>
+          <timestamp value="2025-03-26T07:25:19+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -389,7 +465,7 @@
         <title value="NoDomainVitalSignsObservationBodyExposure"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -398,8 +474,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e687f0f2-90af-419b-98a6-a905a803645a"/>
-          <timestamp value="2025-03-26T06:26:53+00:00"/>
+          <identifier value="urn:uuid:33048af8-f693-4908-ae37-3048832fdacc"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -479,7 +555,7 @@
         <title value="NoDomainVitalSignsObservationBodyHeightBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -488,8 +564,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d644d671-4173-4fef-ad8c-9340f533534b"/>
-          <timestamp value="2025-03-26T06:26:53+00:00"/>
+          <identifier value="urn:uuid:896235cc-1333-4966-ba46-dcd6e04e1a6b"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -670,7 +746,7 @@
         <title value="NoDomainVitalSignsObservationBodyTempBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -679,8 +755,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4f908e8c-cae2-4305-84b5-04b7e6a6ac43"/>
-          <timestamp value="2025-03-26T06:26:53+00:00"/>
+          <identifier value="urn:uuid:026ed824-84d2-4afc-8f97-7ecd82cba473"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -817,7 +893,7 @@
         <title value="NoDomainVitalSignsObservationClothingState"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -826,8 +902,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0553dd45-849e-4914-b5da-0a0222a5988a"/>
-          <timestamp value="2025-03-26T06:26:53+00:00"/>
+          <identifier value="urn:uuid:ab233976-a35c-49fc-9f94-4c5df9e4bfa3"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -923,7 +999,7 @@
         <title value="NoDomainVitalSignsObservationCuffsize"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -932,8 +1008,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6507edcb-100e-4f2d-a6bf-d7dc55924413"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:cba4f044-5f61-4510-a4b6-83f409368360"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1029,8 +1105,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1d231616-0c27-47c2-ad27-8840acdb4f56"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:49f29d52-4442-4dc5-a35a-cd185e793f34"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1110,7 +1186,7 @@
         <title value="NoDomainVitalSignsObservationHeartRateBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1119,8 +1195,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cc7375d5-6791-4e66-8dea-477f03040751"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:6d3e8d99-c12b-41bf-a811-664f4e723e7f"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1213,7 +1289,7 @@
         <title value="NoDomainVitalSignsObservationHeartRateMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1222,8 +1298,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ff6484e3-95a1-4da5-be63-b0d737b0bfbf"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:59704cd4-3d06-4303-bbe5-546b372585b3"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1329,7 +1405,7 @@
         <title value="NoDomainVitalSignsObservationHeartRatePulseBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1338,8 +1414,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8036cb42-cbe4-4b2b-8e34-a9515da288af"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:4ee277a8-c161-4b13-bbee-d7aa74392976"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1450,7 +1526,7 @@
         <title value="NoDomainVitalSignsObservationHeartRhythmIrregularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1459,8 +1535,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:16c44c80-936a-4c99-b21d-065807658b0b"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:36eef960-19ed-46b9-97fc-d952f9040090"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1643,7 +1719,7 @@
         <title value="NoDomainVitalSignsObservationPulseBodySite"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1652,8 +1728,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:35405783-1982-4f6d-939a-39a9a5d13b27"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:f3899559-b5e5-4b4e-9630-ef9cac20a7d9"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1801,7 +1877,7 @@
         <title value="NoDomainVitalSignsObservationPulseMeasurementMethod"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1810,8 +1886,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3ef03822-6e6d-4bae-907e-5c0b3c5bedd3"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:56d86058-8ec7-469b-9de3-31f51db950cf"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1909,7 +1985,7 @@
         <title value="NoDomainVitalSignsObservationPulseRhythm"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1918,8 +1994,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6ff976a0-1344-42d1-b66a-52997aaa0696"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:37696676-0d7f-4964-9726-d2ad98411703"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2017,7 +2093,7 @@
         <title value="NoDomainVitalSignsObservationPulseRhythmIrregularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2026,8 +2102,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b6944e08-207a-441f-9fab-b147eb60b405"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:fd1ba261-fe0e-4b1c-a1a1-22359ef28c74"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2149,7 +2225,7 @@
         <title value="NoDomainVitalSignsObservationRespirationRateBodyPosition"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2158,8 +2234,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:edfa4bf6-ade2-4131-8e04-d13bb825a7e1"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:a7e9ad40-ae02-494c-8c2d-fcae766931db"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2288,7 +2364,7 @@
         <title value="NoDomainVitalSignsObservationRespirationRateDepth"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2297,8 +2373,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bad98c75-bb2c-43ab-9230-fae5ef5fff70"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:37a900d8-788d-40e8-850d-4711e920a6cb"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2406,7 +2482,7 @@
         <title value="NoDomainVitalSignsObservationRespirationRegularity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2415,8 +2491,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ec3e2c6b-9dad-4c83-8203-7d4aa1466bde"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:0e6f5388-d9ba-447e-840b-125730f1e5b5"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2514,7 +2590,7 @@
         <title value="NoDomainVitalSignsObservationSleepStatus"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2523,8 +2599,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d07ffe17-41fc-4a18-b6a7-16af5941074f"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:8a334c18-e448-4408-92e1-b1acca7c7e0b"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2614,7 +2690,7 @@
         <title value="NoDomainVitalSignsObservationSpontaneousBreathing"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-03-26T06:25:27+00:00"/>
+        <date value="2025-03-26T07:23:44+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2623,8 +2699,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1b6f70d5-c3de-4c1f-8fb6-1252cc9c4f5e"/>
-          <timestamp value="2025-03-26T06:26:54+00:00"/>
+          <identifier value="urn:uuid:b2dc4376-1006-4d31-9051-b37560c163df"/>
+          <timestamp value="2025-03-26T07:25:20+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>

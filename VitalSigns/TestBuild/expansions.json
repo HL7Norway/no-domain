@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "22e24b80-5a7e-4351-b4ad-d1b4d744fc1a",
+  "id" : "fe35cd16-838a-4a31-9d2e-a9306c8e06ce",
   "meta" : {
-    "lastUpdated" : "2025-03-26T06:26:14.541+00:00"
+    "lastUpdated" : "2025-03-26T07:24:27.609+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,7 +23,7 @@
       "title" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethod",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d1abddde-c437-4eca-9340-d79a44395b7a",
-        "timestamp" : "2025-03-26T06:26:52+00:00",
+        "identifier" : "urn:uuid:4a187032-dfe5-4195-89d2-73a1e9add8a1",
+        "timestamp" : "2025-03-26T07:25:18+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -78,6 +78,64 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "lastUpdated" : "2025-01-28T00:00:00+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px\">This value set cannot be expanded because the terminology server(s) deemed it too costly to do so</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td></tr></table></div>"
+      },
+      "url" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodyPosition",
+      "version" : "0.8.3",
+      "name" : "NoDomainVitalSignsObservationBloodpressureBodyPosition",
+      "title" : "NoDomainVitalSignsObservationBloodpressureBodyPosition",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2025-03-26T07:23:44+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+          "valueBoolean" : true
+        }],
+        "identifier" : "urn:uuid:d916f6cb-f5bb-4714-b142-60cac1ea0571",
+        "timestamp" : "2025-03-26T07:25:19.939Z",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodpressureBodySite",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -95,7 +153,7 @@
       "title" : "NoDomainVitalSignsObservationBloodpressureBodySite",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +162,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ecc07c86-658f-418d-961d-a5d654cd052f",
-        "timestamp" : "2025-03-26T06:26:53+00:00",
+        "identifier" : "urn:uuid:33850546-19ba-4d4d-877d-1da9e250b704",
+        "timestamp" : "2025-03-26T07:25:19+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -217,7 +275,7 @@
       "title" : "NoDomainVitalSignsObservationBodyExposure",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -226,8 +284,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e687f0f2-90af-419b-98a6-a905a803645a",
-        "timestamp" : "2025-03-26T06:26:53+00:00",
+        "identifier" : "urn:uuid:33048af8-f693-4908-ae37-3048832fdacc",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -279,7 +337,7 @@
       "title" : "NoDomainVitalSignsObservationBodyHeightBodyPosition",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -288,8 +346,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d644d671-4173-4fef-ad8c-9340f533534b",
-        "timestamp" : "2025-03-26T06:26:53+00:00",
+        "identifier" : "urn:uuid:896235cc-1333-4966-ba46-dcd6e04e1a6b",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -346,7 +404,7 @@
       "title" : "NoDomainVitalSignsObservationBodyTempBodySite",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -355,8 +413,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4f908e8c-cae2-4305-84b5-04b7e6a6ac43",
-        "timestamp" : "2025-03-26T06:26:53+00:00",
+        "identifier" : "urn:uuid:026ed824-84d2-4afc-8f97-7ecd82cba473",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -473,7 +531,7 @@
       "title" : "NoDomainVitalSignsObservationClothingState",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -482,8 +540,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0553dd45-849e-4914-b5da-0a0222a5988a",
-        "timestamp" : "2025-03-26T06:26:53+00:00",
+        "identifier" : "urn:uuid:ab233976-a35c-49fc-9f94-4c5df9e4bfa3",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -535,7 +593,7 @@
       "title" : "NoDomainVitalSignsObservationCuffsize",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -544,8 +602,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6507edcb-100e-4f2d-a6bf-d7dc55924413",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:cba4f044-5f61-4510-a4b6-83f409368360",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -621,8 +679,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1d231616-0c27-47c2-ad27-8840acdb4f56",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:49f29d52-4442-4dc5-a35a-cd185e793f34",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -674,7 +732,7 @@
       "title" : "NoDomainVitalSignsObservationHeartRateBodySite",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -683,8 +741,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cc7375d5-6791-4e66-8dea-477f03040751",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:6d3e8d99-c12b-41bf-a811-664f4e723e7f",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -741,7 +799,7 @@
       "title" : "NoDomainVitalSignsObservationHeartRateMeasurementMethod",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -750,8 +808,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ff6484e3-95a1-4da5-be63-b0d737b0bfbf",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:59704cd4-3d06-4303-bbe5-546b372585b3",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -813,7 +871,7 @@
       "title" : "NoDomainVitalSignsObservationHeartRatePulseBodyPosition",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -822,8 +880,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8036cb42-cbe4-4b2b-8e34-a9515da288af",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:4ee277a8-c161-4b13-bbee-d7aa74392976",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -890,7 +948,7 @@
       "title" : "NoDomainVitalSignsObservationHeartRhythmIrregularity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -899,8 +957,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:16c44c80-936a-4c99-b21d-065807658b0b",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:36eef960-19ed-46b9-97fc-d952f9040090",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -967,7 +1025,7 @@
       "title" : "NoDomainVitalSignsObservationPulseBodySite",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -976,8 +1034,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:35405783-1982-4f6d-939a-39a9a5d13b27",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:f3899559-b5e5-4b4e-9630-ef9cac20a7d9",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -1089,7 +1147,7 @@
       "title" : "NoDomainVitalSignsObservationPulseMeasurementMethod",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1098,8 +1156,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3ef03822-6e6d-4bae-907e-5c0b3c5bedd3",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:56d86058-8ec7-469b-9de3-31f51db950cf",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1161,7 +1219,7 @@
       "title" : "NoDomainVitalSignsObservationPulseRhythm",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1170,8 +1228,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ff976a0-1344-42d1-b66a-52997aaa0696",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:37696676-0d7f-4964-9726-d2ad98411703",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1233,7 +1291,7 @@
       "title" : "NoDomainVitalSignsObservationPulseRhythmIrregularity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1242,8 +1300,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b6944e08-207a-441f-9fab-b147eb60b405",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:fd1ba261-fe0e-4b1c-a1a1-22359ef28c74",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1305,7 +1363,7 @@
       "title" : "NoDomainVitalSignsObservationRespirationRateBodyPosition",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1314,8 +1372,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:edfa4bf6-ade2-4131-8e04-d13bb825a7e1",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:a7e9ad40-ae02-494c-8c2d-fcae766931db",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1392,7 +1450,7 @@
       "title" : "NoDomainVitalSignsObservationRespirationRateDepth",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1401,8 +1459,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bad98c75-bb2c-43ab-9230-fae5ef5fff70",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:37a900d8-788d-40e8-850d-4711e920a6cb",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1474,7 +1532,7 @@
       "title" : "NoDomainVitalSignsObservationRespirationRegularity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1483,8 +1541,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ec3e2c6b-9dad-4c83-8203-7d4aa1466bde",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:0e6f5388-d9ba-447e-840b-125730f1e5b5",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1546,7 +1604,7 @@
       "title" : "NoDomainVitalSignsObservationSleepStatus",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1555,8 +1613,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d07ffe17-41fc-4a18-b6a7-16af5941074f",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:8a334c18-e448-4408-92e1-b1acca7c7e0b",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1618,7 +1676,7 @@
       "title" : "NoDomainVitalSignsObservationSpontaneousBreathing",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-03-26T06:25:27+00:00",
+      "date" : "2025-03-26T07:23:44+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1627,8 +1685,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1b6f70d5-c3de-4c1f-8fb6-1252cc9c4f5e",
-        "timestamp" : "2025-03-26T06:26:54+00:00",
+        "identifier" : "urn:uuid:b2dc4376-1006-4d31-9051-b37560c163df",
+        "timestamp" : "2025-03-26T07:25:20+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
