@@ -1,10 +1,10 @@
 Profile: NoDomainVitalSignsObservationBodyHeight
 Parent: $bodyheight
-Id: NoDomainVitalSignsObservationBodyHeight
+Id: no-domain-VitalSigns-Observation-bodyheight
 Title: "NO Domain VitalSigns Observation - Body Height"
 Description: """Domain profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot. """
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeight"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
@@ -15,8 +15,8 @@ To be used for recording the measured height or body length of an individual at 
 * extension ^slicing.rules = #open
 
 * extension contains
- NoDomainVitalSignsObservationBodyHeightBodyPosition  named bodyPosition 0..1 and 
- NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
+ NoDomainVitalSignsBodyHeightBodyPositionExtension  named bodyPosition 0..1 and 
+ NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 
 
 * extension[bodyPosition] ^short = "Position of individual when measured."
 * extension[bodyPosition] ^definition = "Position of individual when measured."

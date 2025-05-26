@@ -3,40 +3,40 @@ InstanceOf: NoDomainVitalSignsObservationRespirationRate
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRateBodyPosition"
+* meta.source = "HL7_Norway"
+* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension"
 * extension[=].valueCoding.code = #10904000 
 * extension[=].valueCoding.system = $sct
-* extension[=].valueCoding.display = "Stående/Oppreist"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRegularity"
+* extension[=].valueCoding.display = "oppreist stilling"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension"
 * extension[=].valueCoding.code = #276888009 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationDepth"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension"
 * extension[=].valueCoding.code = #301284009
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Normal"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
 * extension[=].valueAnnotation.text = "Description of Respiration"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSpontaneousBreathing"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension"
 * extension[=].valueCoding.code = #241700002
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Tilstede"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationInspiredOxygen"
-* extension[=].extension[0].url = "Flow"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
+* extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFlowExtension"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
-* extension[=].extension[+].url = "FiO2"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFiO2Extension"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "PercentO2"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPercentO2Extension"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "OnAir"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsOnAirExtension"
 * extension[=].extension[=].valueBoolean = true
-* extension[=].extension[+].url = "MethodofOxygenDelivery"
+* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
 * extension[=].extension[=].valueString = "Maske"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code.coding[0] = $loinc#9279-1 "Respiratory rate"

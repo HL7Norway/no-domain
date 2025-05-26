@@ -1,23 +1,23 @@
 Profile: NoDomainVitalSignsObservationHeartRate
 Parent: $heartrate
-Id: NoDomainVitalSignsObservationHeartRate
+Id: no-domain-VitalSigns-Observation-heartrate
 Title: "NO Domain VitalSigns Observation - Heart Rate"
 Description: """Domain profile for Norwegian Vital Signs Observation Heart Rate information.  
 To be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRate"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-heartrate"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the heart rate archetype: Puls/Hjertefrekvens, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2293"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Heart Rate information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Heart Rate."
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Heart Rate information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Heart Rate."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-   NoDomainVitalSignsObservationHeartRhythmIrregularity  named heartRhythmIrregularity 0..1 and
-   NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and
-   NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
-   NoDomainVitalSignsObservationHeartRatePulseBodyPosition  named BodyPosition 0..1 
+   NoDomainVitalSignsHeartRhythmIrregularityExtension  named heartRhythmIrregularity 0..1 and
+   NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 and
+   NoDomainVitalSignsClinicalDescriptionExtension  named clinicalDescription 0..1 and
+   NoDomainVitalSignsHeartRatePulseBodyPositionExtension  named BodyPosition 0..1 
 
 
 * extension[clinicalDescription] ^short = "Narrative description about the heart beat."
@@ -40,14 +40,14 @@ Comment: For example, presence of a pacemaker, level of anxiety; pain or fever e
 * valueQuantity ^short = "The rate of the  heart beat, measured in beats per minute."
 * valueQuantity ^definition = "The rate of the heart beat, measured in beats per minute."
 
-* bodySite from NoDomainVitalSignsObservationHeartRateBodySite (extensible)
+* bodySite from NoDomainVitalSignsHeartRateBodySiteValueSet (extensible)
 
-* bodySite.coding from NoDomainVitalSignsObservationHeartRateBodySite (extensible)
+* bodySite.coding from NoDomainVitalSignsHeartRateBodySiteValueSet (extensible)
 
 * code.coding contains HeartRateSNOMEDCode 0..1
 * code.coding[HeartRateSNOMEDCode].system 1..
 * code.coding[HeartRateSNOMEDCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[HeartRateSNOMEDCode].code 1..
 * code.coding[HeartRateSNOMEDCode].code = #364075005 (exactly)
-* method from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)
-* method.coding from NoDomainVitalSignsObservationHeartRateMeasurementMethod (extensible)
+* method from NoDomainVitalSignsHeartRateMeasurementMethodValueSet (extensible)
+* method.coding from NoDomainVitalSignsHeartRateMeasurementMethodValueSet (extensible)
