@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationPulse
 Parent: $heartrate
 Id: no-domain-VitalSigns-Observation-pulse
-Title: "NO Domain VitalSigns Observation - Pulse"
+Title: "no-domain-VitalSigns-Observation-pulse Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable pulse due to increase in blood pressure. This profile describes how to use a SNOMED code to indicate that the measurement is actually a pulse measurement at systemic artery, and not a general heart rate measurement that can be measured both as pulse and the actual heart beat."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse"
 * ^version = "1.0.0"

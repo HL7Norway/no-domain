@@ -1,6 +1,6 @@
-ValueSet : NoDomainVitalSignsObservationHeartRateMeasurementMethod
-Id: NoDomainVitalSignsObservationHeartRateMeasurementMethod 
-Title: "NoDomainVitalSignsObservationHeartRateMeasurementMethod"
+ValueSet : NoDomainVitalSignsHeartRateMeasurementMethodValueSet
+Id: NoDomainVitalSignsHeartRateMeasurementMethodValueSet 
+Title: "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet"
 Description: "Codes representing measurement method for HeartRate"
 * ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * ^meta.lastUpdated = "2025-01-28T00:00:00+00:00"
@@ -11,7 +11,7 @@ Description: "Codes representing measurement method for HeartRate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationHeartRateMeasurementMethod"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false

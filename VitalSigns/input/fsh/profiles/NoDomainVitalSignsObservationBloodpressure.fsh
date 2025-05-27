@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationBloodpressure
 Parent: $bp
 Id: no-domain-VitalSigns-Observation-bloodpressure
-Title: "NO Domain VitalSigns Observation - Blood pressure"
+Title: "no-domain-VitalSigns-Observation-bloodpressure Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
 It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation."""
 

@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationBodyWeight
 Parent: $bodyweight
 Id: no-domain-VitalSigns-Observation-bodyweight
-Title: "NO Domain VitalSigns Observation - Body Weight"
+Title: "no-domain-VitalSigns-Observation-bodyweight Profile"
 Description: "Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight"
 * ^version = "1.0.0"

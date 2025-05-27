@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationBodyHeight
 Parent: $bodyheight
 Id: no-domain-VitalSigns-Observation-bodyheight
-Title: "NO Domain VitalSigns Observation - Body Height"
+Title: "no-domain-VitalSigns-Observation-bodyheight Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot. """
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"

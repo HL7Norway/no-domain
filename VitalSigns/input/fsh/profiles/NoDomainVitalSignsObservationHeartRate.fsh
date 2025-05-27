@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationHeartRate
 Parent: $heartrate
 Id: no-domain-VitalSigns-Observation-heartrate
-Title: "NO Domain VitalSigns Observation - Heart Rate"
+Title: "no-domain-VitalSigns-Observation-heartrate Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Heart Rate information.  
 To be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-heartrate"

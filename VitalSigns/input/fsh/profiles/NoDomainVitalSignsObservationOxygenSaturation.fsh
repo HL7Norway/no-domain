@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationOxygenSaturation
 Parent: $oxygensat
 Id: no-domain-VitalSigns-Observation-oxygensaturation
-Title: "NO Domain VitalSigns Observation - Oxygen Saturation"
+Title: "no-domain-VitalSigns-Observation-oxygensaturation Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
 To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"

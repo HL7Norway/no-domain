@@ -1,7 +1,7 @@
 Profile: NoDomainVitalSignsObservationRespirationRate
 Parent: $resprate
 Id: no-domain-VitalSigns-Observation-respirationrate
-Title: "NO Domain VitalSigns Observation - Respiration Rate"
+Title: "no-domain-VitalSigns-Observation-respirationrate Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Respiration Rate information.  
 To be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"

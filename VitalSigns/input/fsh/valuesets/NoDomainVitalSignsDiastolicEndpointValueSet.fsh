@@ -1,6 +1,6 @@
-ValueSet: NoDomainVitalSignsObservationDiastolicendPoint 
-Id: NoDomainVitalSignsObservationDiastolicendPoint 
-Title: "NoDomainVitalSignsObservationDiastolicendPoint"
+ValueSet: NoDomainVitalSignsDiastolicendPointValueSet 
+Id: NoDomainVitalSignsDiastolicEndPointValueSet 
+Title: "NoDomainVitalSignsDiastolicendPoint-ValueSet"
 Description: "Codes representing Diastolic end point"
 * ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * ^meta.lastUpdated = "2021-03-17T00:00:00+00:00"
@@ -11,7 +11,7 @@ Description: "Codes representing Diastolic end point"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsObservationDiastolicendPoint"
+* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
