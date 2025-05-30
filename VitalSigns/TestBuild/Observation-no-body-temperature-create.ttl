@@ -14,18 +14,18 @@
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
      fhir:lastUpdated [ fhir:v "2014-01-30T22:35:23+11:00"^^xsd:dateTime ] ;
-     fhir:source [ fhir:v "META_VISION"^^xsd:anyURI ] ;
+     fhir:source [ fhir:v "HL7_Norway"^^xsd:anyURI ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp"^^xsd:anyURI ;
-       fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp>
+       fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp"^^xsd:anyURI ;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation no-body-temperature-create</b></p><a name=\"no-body-temperature-create\"> </a><a name=\"hcno-body-temperature-create\"> </a><a name=\"no-body-temperature-create-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NoDomainVitalSignsObservationBodyTemp.html\">NO Domain VitalSigns Observation - Body Temperature</a></p></div><p><b>NoDomainVitalSignsObservationBodyExposure</b>: <a href=\"http://snomed.info/id/5671000202107\">SNOMED CT 5671000202107</a>: Naken</p><p><b>NoDomainVitalSignsObservationActiveHeating</b>: active heating sample</p><p><b>NoDomainVitalSignsObservationDaysSinceMenstruationStart</b>: 12</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}, {http://snomed.info/sct 276885007}\">Body temperature</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</li><li><a href=\"Organization-afa23.html\">Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Endetarm</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation no-body-temperature-create</b></p><a name=\"no-body-temperature-create\"> </a><a name=\"hcno-body-temperature-create\"> </a><a name=\"no-body-temperature-create-no-NO\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway\">HL7_Norway</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html\">no-domain-VitalSigns-Observation-bodytemp Profile</a></p></div><p><b>NoDomainVitalSignsBodyExposure-Extension</b>: <a href=\"http://snomed.info/id/5671000202107\">SNOMED CT 5671000202107</a>: Naken</p><p><b>NoDomainVitalSignsActiveHeating-Extension</b>: active heating sample</p><p><b>NoDomainVitalSignsDaysSinceMenstruationStart-Extension</b>: 12</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}, {http://snomed.info/sct 276885007}\">Body temperature</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</li><li><a href=\"Organization-afa23.html\">Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23</a></li></ul><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: Demo Body Temperature</p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Endetarm</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBodyExposureExtension"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Coding, sct:5671000202107 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
@@ -33,13 +33,13 @@
        fhir:display [ fhir:v "Naken" ]
      ]
   ] [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:string ;
        fhir:v "active heating sample"
      ]
   ] [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:positiveInt ;
        fhir:v "12"^^xsd:positiveInteger
