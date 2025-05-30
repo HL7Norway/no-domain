@@ -1,10 +1,11 @@
 Profile: NoDomainVitalSignsObservationBloodpressure
 Parent: $bp
-Id: NoDomainVitalSignsObservationBloodpressure
-Title: "NO Domain VitalSigns Observation - Blood pressure"
+Id: no-domain-VitalSigns-Observation-bloodpressure
+Title: "no-domain-VitalSigns-Observation-bloodpressure Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
 It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressure"
+
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
@@ -15,14 +16,14 @@ It represents the local measurement of arterial blood pressure, serving as a sur
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and 
-    NoDomainVitalSignsObservationTilt  named headTiltAngle 0..1 and
-    NoDomainVitalSignsObservationSleepStatus  named sleepStatus 0..1 and
-    NoDomainVitalSignsObservationCuffSize  named cuffSize 0..1 and
-    NoDomainVitalSignsObservationBloodpressureBodyPosition  named bodyPosition 0..1 and
-    NoDomainVitalSignsObservationBloodpressureMeanArterialFormula  named formulaMAPCalc 0..1 and
-    NoDomainVitalSignsObservationBloodpressureSystolicFormula  named formulaSystolicCalc 0..1 and
-    NoDomainVitalSignsObservationBloodpressureDiastolicFormula  named formulaDiastolicCalc 0..1 
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 and 
+    NoDomainVitalSignsTiltExtension  named headTiltAngle 0..1 and
+    NoDomainVitalSignsSleepStatusExtension  named sleepStatus 0..1 and
+    NoDomainVitalSignsCuffSizeExtension  named cuffSize 0..1 and
+    NoDomainVitalSignsBloodpressureBodyPositionExtension  named bodyPosition 0..1 and
+    NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension  named formulaMAPCalc 0..1 and
+    NoDomainVitalSignsBloodpressureSystolicFormulaExtension  named formulaSystolicCalc 0..1 and
+    NoDomainVitalSignsBloodpressureDiastolicFormulaExtension  named formulaDiastolicCalc 0..1 
 
 * extension[headTiltAngle] ^short = "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
 * extension[headTiltAngle] ^definition = "The craniocaudal tilt of the surface on which the person is lying at the time of measurement."
@@ -48,12 +49,10 @@ It represents the local measurement of arterial blood pressure, serving as a sur
     Author 0..*  and
     organization 0..*     
 * performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson or $no-basis-Practitioner or $no-basis-PractitionerRole)
-* performer[Author] ^definition = "Identifies the person or careteam that is responsible for the vital sign measurement."
 * performer[organization] only Reference(Organization or $no-basis-Organization)
-* performer[organization] ^definition = "Identifies the Organization that is responsible for the vital sign measurement. In Norway this can be translated into the 'dataansvarlig virksomhet'."
-* bodySite from NoDomainVitalSignsObservationBloodpressureBodySite (required)
+* bodySite from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 
-* bodySite.coding from NoDomainVitalSignsObservationBloodpressureBodySite (required)
+* bodySite.coding from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 * component[SystolicBP] ^short = "Peak  systemic arterial blood pressure - measured in systolic or contraction phase of the heart cycle."
 
 * component[SystolicBP].code.coding contains SystolicSnomed 0..1
@@ -130,6 +129,6 @@ It represents the local measurement of arterial blood pressure, serving as a sur
 * component[PulsePressure].valueQuantity.code = #mm[Hg] (exactly)
 * referenceRange ..1
 * code.coding 1..
-* method from NoDomainVitalSignsObservationBloodPressureMeasurementMethod (extensible)
+* method from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (extensible)
 * method ^short = "Method of measurement of blood pressure."
-* method.coding from NoDomainVitalSignsObservationBloodPressureMeasurementMethod (extensible)
+* method.coding from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (extensible)

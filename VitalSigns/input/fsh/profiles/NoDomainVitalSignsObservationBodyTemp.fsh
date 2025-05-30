@@ -1,22 +1,22 @@
 Profile: NoDomainVitalSignsObservationBodyTemp
 Parent: $bodytemp
-Id: NoDomainVitalSignsObservationBodyTemp
-Title: "NO Domain VitalSigns Observation - Body Temperature"
+Id: no-domain-VitalSigns-Observation-bodytemp
+Title: "no-domain-VitalSigns-Observation-bodytemp Profile"
 Description: "Domain profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyTemp"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body temperature archetype: Kroppstemperatur, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.1855"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Body Temperature information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Body Temperature."
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Body Temperature information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Body Temperature."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains   
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and
-    NoDomainVitalSignsObservationDaysSinceMenstruationStart  named daysSinceMenstruationStart 0..1 and
-    NoDomainVitalSignsObservationBodyExposure  named bodyExposure 0..1 and
-    NoDomainVitalSignsObservationActiveHeating  named activeHeating 0..1
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 and
+    NoDomainVitalSignsDaysSinceMenstruationStartExtension  named daysSinceMenstruationStart 0..1 and
+    NoDomainVitalSignsBodyExposureExtension  named bodyExposure 0..1 and
+    NoDomainVitalSignsActiveHeatingExtension  named activeHeating 0..1
 * extension[bodyExposure] ^short = "The degree of exposure of the individual at the time of measurement."
 * extension[bodyExposure] ^definition = "The degree of exposure of the individual at the time of measurement."
 * extension[daysSinceMenstruationStart] ^short = "Current day of the menstrual cycle."
@@ -38,9 +38,9 @@ Description: "Domain profile for Norwegian Vital Signs Observation Body Temperat
 * valueQuantity ^short = "The measured temperature."
 
 * code.coding 1..
-* bodySite from NoDomainVitalSignsObservationBodyTempBodySite (extensible)
+* bodySite from NoDomainVitalSignsBodyTempBodySiteValueSet (extensible)
 
-* bodySite.coding from NoDomainVitalSignsObservationBodyTempBodySite (extensible)
+* bodySite.coding from NoDomainVitalSignsBodyTempBodySiteValueSet (extensible)
 * bodySite.coding.system 1..
 * bodySite.coding.code 1..
 

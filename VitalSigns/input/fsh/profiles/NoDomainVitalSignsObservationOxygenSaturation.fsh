@@ -1,21 +1,21 @@
 Profile: NoDomainVitalSignsObservationOxygenSaturation
 Parent: $oxygensat
-Id: NoDomainVitalSignsObservationOxygenSaturation
-Title: "NO Domain VitalSigns Observation - Oxygen Saturation"
+Id: no-domain-VitalSigns-Observation-oxygensaturation
+Title: "no-domain-VitalSigns-Observation-oxygensaturation Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
 To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationOxygenSaturation"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the pulse oximetry archetype: Pulsoksymetri, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.53"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Oxygen Saturation information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Oxygen Saturation."
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Oxygen Saturation information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Oxygen Saturation."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-     NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..* and
-     NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1
+     NoDomainVitalSignsInspiredOxygenExtension  named inspiredOxygen 0..* and
+     NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1
 * extension[confoundingFactor] ^definition = "Comment on and record other incidental factors that may be affect interpretation of the observation.
 Comment: For example, motion, pain, poor perfusion, infant feeding, peripheral hypothermia, sedation.."
 * extension[confoundingFactor] ^short = "Additional issues or factors that may impact for the measurement"

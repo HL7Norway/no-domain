@@ -1,9 +1,9 @@
 Profile: NoDomainVitalSignsObservationBodyWeight
 Parent: $bodyweight
-Id: NoDomainVitalSignsObservationBodyWeight
-Title: "NO Domain VitalSigns Observation - Body Weight"
+Id: no-domain-VitalSigns-Observation-bodyweight
+Title: "no-domain-VitalSigns-Observation-bodyweight Profile"
 Description: "Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
@@ -13,8 +13,8 @@ Description: "Domain profile for Norwegian Vital Signs Observation Body Weight i
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationClothingState  named clothingState 0..1 and
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1
+    NoDomainVitalSignsClothingStateExtension  named clothingState 0..1 and
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1
 * extension[clothingState] ^short = "Description of the state of dress of the person at the time of weighing."
 * extension[clothingState] ^definition = "Description of the state of dress of the person at the time of weighing."
 * extension[confoundingFactor] ^definition = "Record any issues or factors that may impact on the measurement of body weight eg timing in menstrual cycle, timing of recent bowel motion or noting of amputation."

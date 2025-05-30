@@ -1,24 +1,24 @@
 Profile: NoDomainVitalSignsObservationPulse
 Parent: $heartrate
-Id: NoDomainVitalSignsObservationPulse
-Title: "NO Domain VitalSigns Observation - Pulse"
+Id: no-domain-VitalSigns-Observation-pulse
+Title: "no-domain-VitalSigns-Observation-pulse Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable pulse due to increase in blood pressure. This profile describes how to use a SNOMED code to indicate that the measurement is actually a pulse measurement at systemic artery, and not a general heart rate measurement that can be measured both as pulse and the actual heart beat."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationPulse"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the heart rate archetype: Puls/Hjertefrekvens, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2293"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation pulse information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Pulse."
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation pulse information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Pulse."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationPulseRhythm  named pulseRhythm 0..1 and
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 and
-    NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
-    NoDomainVitalSignsObservationCharacterOfPulse  named characterOfPulse 0..1 and
-    NoDomainVitalSignsObservationHeartRatePulseBodyPosition  named BodyPosition 0..1 and
-    NoDomainVitalSignsObservationPulseRhythmIrregularity  named pulseRythmIrregularity 0..1
+    NoDomainVitalSignsPulseRhythmExtension  named pulseRhythm 0..1 and
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 and
+    NoDomainVitalSignsClinicalDescriptionExtension  named clinicalDescription 0..1 and
+    NoDomainVitalSignsCharacterOfPulseExtension  named characterOfPulse 0..1 and
+    NoDomainVitalSignsHeartRatePulseBodyPositionExtension  named BodyPosition 0..1 and
+    NoDomainVitalSignsPulseRhythmIrregularityExtension  named pulseRythmIrregularity 0..1
 * extension[pulseRhythm] ^short = "Regularity of the pulse"
 * extension[pulseRhythm] ^definition = "Regularity of the pulse"
 * extension[clinicalDescription] ^short = "Narrative description about the pulse"
@@ -47,14 +47,14 @@ Comment: For example, presence of a pacemaker, level of anxiety; pain or fever e
 * valueQuantity ^short = "The rate of the pulse, measured in beats per minute."
 * valueQuantity ^definition = "The rate of the pulse , measured in beats per minute."
 
-* bodySite from NoDomainVitalSignsObservationPulseBodySite (extensible)
+* bodySite from NoDomainVitalSignsPulseBodySiteValueSet (extensible)
 
-* bodySite.coding from NoDomainVitalSignsObservationPulseBodySite (extensible)
+* bodySite.coding from NoDomainVitalSignsPulseBodySiteValueSet (extensible)
 
 * code.coding contains PulseSNOMEDCode 0..1
 * code.coding[PulseSNOMEDCode].system 1..
 * code.coding[PulseSNOMEDCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[PulseSNOMEDCode].code 1..
 * code.coding[PulseSNOMEDCode].code = #78564009 (exactly)
-* method from NoDomainVitalSignsObservationPulseMeasurementMethod (extensible)
-* method.coding from NoDomainVitalSignsObservationPulseMeasurementMethod (extensible)
+* method from NoDomainVitalSignsPulseMeasurementMethodValueSet (extensible)
+* method.coding from NoDomainVitalSignsPulseMeasurementMethodValueSet (extensible)

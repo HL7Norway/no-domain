@@ -3,12 +3,12 @@ InstanceOf: NoDomainVitalSignsObservationBodyWeight
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
-* extension[clothingState].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClothingState"
+* meta.source = "HL7_Norway"
+* extension[clothingState].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClothingStateExtension"
 * extension[clothingState].valueCoding.code = #8101000202100 
 * extension[clothingState].valueCoding.system = $sct
 * extension[clothingState].valueCoding.display = "Naken"
-* extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code.coding[0] = $loinc#29463-7 "Body weight"

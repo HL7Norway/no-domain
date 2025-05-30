@@ -3,27 +3,27 @@ InstanceOf: NoDomainVitalSignsObservationBloodpressure
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureBodyPosition"
+* meta.source = "HL7_Norway"
+* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension"
 * extension[=].valueCoding.code = #4801000202104 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Liggende"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationCuffSize"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsCuffSizeExtension"
 * extension[=].valueCoding.code = #720740000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Lår voksne"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationSleepStatus"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsSleepStatusExtension"
 * extension[=].valueCoding.code = #248218005
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Våken"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationTilt"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsTiltExtension"
 * extension[=].valueQuantity.value = 14
 * extension[=].valueQuantity.unit = "deg"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureSystolicFormula"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension"
 * extension[=].valueString = "sample formula 1"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureDiastolicFormula"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension"
 * extension[=].valueString = "sample formula 2"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBloodpressureMeanArterialFormula"
+* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension"
 * extension[=].valueString = "sample formula 3"
 * status = #final
 * code = $loinc#85354-9 
@@ -56,7 +56,7 @@ Usage: #example
 * component[DiastolicBP].referenceRange.low.unit = "mm[Hg]"  
 * component[DiastolicBP].referenceRange.high.value = 89  
 * component[DiastolicBP].referenceRange.high.unit = "mm[Hg]"
-* component[MeanArterialPressure].code.coding[MAPCode] = $loinc#8478-0 "BP mean"
+* component[MeanArterialPressure].code.coding[MAPCode] = $loinc#8478-0 "Mean blood pressure"
 * component[MeanArterialPressure].code.coding[MAPSnomedCode] = $sct#4501000202102 "Mean arterial pressure (observable entity)"
 * component[MeanArterialPressure].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
 * component[MeanArterialPressure].referenceRange.low.value = 60  

@@ -1,26 +1,26 @@
 Profile: NoDomainVitalSignsObservationRespirationRate
 Parent: $resprate
-Id: NoDomainVitalSignsObservationRespirationRate
-Title: "NO Domain VitalSigns Observation - Respiration Rate"
+Id: no-domain-VitalSigns-Observation-respirationrate
+Title: "no-domain-VitalSigns-Observation-respirationrate Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Respiration Rate information.  
 To be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
+* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the respiration rate archetype: Åndedrett, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2280"
-* ^purpose = "Domain profile for Norwegian  VitalSigns Observation Respiration Rate information. Defined by The Norwegian Directorate of health and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Respiration Rate. Please visit https://arketyper.no/ckm/ for further information about the concepts defined in extensions."
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Respiration Rate information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Respiration Rate ."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationRespirationRateBodyPosition  named bodyPosition 0..1 and
-    NoDomainVitalSignsObservationRespirationRegularity  named respirationRegularity 0..1 and
-    NoDomainVitalSignsObservationSpontaneousBreathing  named spontaneousBreathing 0..1 and
-    NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
-    NoDomainVitalSignsObservationRespirationDepth  named respirationDepth 0..1 and
-    NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..1 and
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
+    NoDomainVitalSignsRespirationRateBodyPositionExtension  named bodyPosition 0..1 and
+    NoDomainVitalSignsRespirationRegularityExtension  named respirationRegularity 0..1 and
+    NoDomainVitalSignsSpontaneousBreathingExtension  named spontaneousBreathing 0..1 and
+    NoDomainVitalSignsClinicalDescriptionExtension  named clinicalDescription 0..1 and
+    NoDomainVitalSignsRespirationDepthExtension  named respirationDepth 0..1 and
+    NoDomainVitalSignsInspiredOxygenExtension  named inspiredOxygen 0..1 and
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 
 * extension[bodyPosition] ^short = "The body position of the individual during the observation."
 * extension[bodyPosition] ^definition = "The body position of the individual during the observation."
 * extension[respirationRegularity] ^short = "The regularity of spontaneous breathing."

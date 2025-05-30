@@ -1,21 +1,22 @@
 Instance: no-heart-rate-create
 InstanceOf: NoDomainVitalSignsObservationHeartRate
 Usage: #example
-* extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+
+* extension[confoundingFactor].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[confoundingFactor].valueCodeableConcept.text = "sample confounding factor"
-* extension[heartRhythmIrregularity].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRhythmIrregularity"
+* extension[heartRhythmIrregularity].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension"
 * extension[heartRhythmIrregularity].valueCoding.code = #248652003 
 * extension[heartRhythmIrregularity].valueCoding.system = $sct
 * extension[heartRhythmIrregularity].valueCoding.display = "Regelmessig uregelmessig" 
-* extension[clinicalDescription].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationClinicalDescription"
+* extension[clinicalDescription].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
 * extension[clinicalDescription].valueAnnotation.text = "Clinical description sample"
-* extension[BodyPosition].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationHeartRatePulseBodyPosition"
+* extension[BodyPosition].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension"
 * extension[BodyPosition].valueCoding.code = #33586001 
 * extension[BodyPosition].valueCoding.system = $sct
 * extension[BodyPosition].valueCoding.display = "Sittende"
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
+* meta.source = "HL7_Norway"
 * status = #final
 * code.coding[0] = $loinc#8867-4 "Heart rate"
 * code.coding[+] = $sct#364075005 "Heart rate (observable entity)"

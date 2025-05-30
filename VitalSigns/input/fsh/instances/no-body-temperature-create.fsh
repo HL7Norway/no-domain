@@ -3,14 +3,14 @@ InstanceOf: NoDomainVitalSignsObservationBodyTemp
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
-* extension[bodyExposure].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"
+* meta.source = "HL7_Norway"
+* extension[bodyExposure].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBodyExposureExtension"
 * extension[bodyExposure].valueCoding.code = #5671000202107
 * extension[bodyExposure].valueCoding.system = $sct
 * extension[bodyExposure].valueCoding.display = "Naken"
-* extension[activeHeating].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"
+* extension[activeHeating].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension"
 * extension[activeHeating].valueString = "active heating sample"
-* extension[daysSinceMenstruationStart].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"
+* extension[daysSinceMenstruationStart].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension"
 * extension[daysSinceMenstruationStart].valuePositiveInt = 12
 * status = #final
 * code.coding[0] = $loinc#8310-5 "Body temperature"
