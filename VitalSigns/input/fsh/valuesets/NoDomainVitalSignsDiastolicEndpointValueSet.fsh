@@ -11,8 +11,6 @@ Description: "Codes representing Diastolic end point"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet"
-* ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2021-03-17T00:00:00+00:00"

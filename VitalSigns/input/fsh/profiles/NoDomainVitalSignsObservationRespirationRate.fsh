@@ -4,8 +4,6 @@ Id: no-domain-VitalSigns-Observation-respirationrate
 Title: "no-domain-VitalSigns-Observation-respirationrate Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Respiration Rate information.  
 To be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the respiration rate archetype: Åndedrett, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2280"

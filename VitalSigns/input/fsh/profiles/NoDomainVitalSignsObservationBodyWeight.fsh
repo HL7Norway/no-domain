@@ -3,8 +3,6 @@ Parent: $bodyweight
 Id: no-domain-VitalSigns-Observation-bodyweight
 Title: "no-domain-VitalSigns-Observation-bodyweight Profile"
 Description: "Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body weight archetype: Kroppsvekt, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2273"

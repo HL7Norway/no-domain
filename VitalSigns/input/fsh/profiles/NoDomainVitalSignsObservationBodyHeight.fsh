@@ -4,8 +4,6 @@ Id: no-domain-VitalSigns-Observation-bodyheight
 Title: "no-domain-VitalSigns-Observation-bodyheight Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time. It represents the individual's height or length measured from the crown of the head to the sole of the foot. """
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body height archetype: Høyde/Lengde, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2274"

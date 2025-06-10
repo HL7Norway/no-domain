@@ -5,8 +5,6 @@ Title: "no-domain-VitalSigns-Observation-bloodpressure Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation of Blood Pressure. To be used for recording an individual's systemic arterial blood pressure.
 It represents the local measurement of arterial blood pressure, serving as a surrogate for arterial pressure in the systemic circulation."""
 
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165"

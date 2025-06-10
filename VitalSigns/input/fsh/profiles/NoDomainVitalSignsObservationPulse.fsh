@@ -3,8 +3,6 @@ Parent: $heartrate
 Id: no-domain-VitalSigns-Observation-pulse
 Title: "no-domain-VitalSigns-Observation-pulse Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Pulse information. To be used for recording the number of times your arteries create a noticeable pulse due to increase in blood pressure. This profile describes how to use a SNOMED code to indicate that the measurement is actually a pulse measurement at systemic artery, and not a general heart rate measurement that can be measured both as pulse and the actual heart beat."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the heart rate archetype: Puls/Hjertefrekvens, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2293"

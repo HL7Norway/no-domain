@@ -4,8 +4,6 @@ Id: no-domain-VitalSigns-Observation-oxygensaturation
 Title: "no-domain-VitalSigns-Observation-oxygensaturation Profile"
 Description: """Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.  
 To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the pulse oximetry archetype: Pulsoksymetri, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.53"

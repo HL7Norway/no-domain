@@ -11,8 +11,6 @@ Description: "Codes representing body site for body temperature"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"

@@ -11,8 +11,6 @@ Description: "Codes representing body position for respiration rate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"

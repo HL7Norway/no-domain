@@ -3,8 +3,6 @@ Parent: $bodytemp
 Id: no-domain-VitalSigns-Observation-bodytemp
 Title: "no-domain-VitalSigns-Observation-bodytemp Profile"
 Description: "Domain profile for Norwegian Vital Signs Observation Body Temperature information. To be used for recording the measurement of an individual's body temperature. which is a surrogate for the core body temperature of the individual."
-* ^url = "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body temperature archetype: Kroppstemperatur, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.1855"

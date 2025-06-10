@@ -11,8 +11,6 @@ Description: "Codes representing Respiration Spontaneous breathing"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet"
-* ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"
