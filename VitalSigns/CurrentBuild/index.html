@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home -  v0.9.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.9.0 - ballotNormative-2
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+  <li>
+    <a href="download.html">Download</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.9.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/no-domain/vitalsigns/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.9.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns|0.9.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-06-10
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">NoDomainVitalSigns</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#about-the-norwegian-national-vital-signs-profiles" id="markdown-toc-about-the-norwegian-national-vital-signs-profiles">About the Norwegian national vital signs profiles</a></li>
+  <li><a href="#license-and-legal-terms" id="markdown-toc-license-and-legal-terms">License and Legal Terms</a></li>
+</ul>
+
+</div>
+<h3 id="about-the-norwegian-national-vital-signs-profiles">About the Norwegian national vital signs profiles</h3>
+
+<p>The <em>Norwegian national vital signs profiles</em> have been designed for exchange of the most important <a href="https://en.wikipedia.org/wiki/Vital_signs">vital signs</a> between systems, devices, and healthcare organizations in the national Norwegian healthcare system.</p>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="190px" preserveAspectRatio="none" style="width:692px;height:190px;background:#FFFFFF;" version="1.1" viewBox="0 0 692 190" width="692px" zoomAndPan="magnify"><defs /><g><g class="entity" data-entity="source" data-source-line="5" data-uid="ent0002" id="entity_source"><path d="M471.5,7.5 L471.5,47.7656 A0,0 0 0 0 471.5,47.7656 L573.36,47.7656 L573.71,108.83 L581.36,47.7656 L685.5957,47.7656 A0,0 0 0 0 685.5957,47.7656 L685.5957,17.5 L675.5957,7.5 L471.5,7.5 A0,0 0 0 0 471.5,7.5" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M675.5957,7.5 L675.5957,17.5 L685.5957,17.5 L675.5957,7.5" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193.0449" x="477.5" y="24.5669">Source of information outside</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193.0957" x="477.5" y="39.6997">the practitioners organization</text></g><!--entity kliniker--><g class="entity" data-entity="kliniker" data-source-line="7" data-uid="ent0003" id="entity_kliniker"><ellipse cx="46.52" cy="117.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M46.52,125.5 L46.52,152.5 M33.52,133.5 L59.52,133.5 M46.52,152.5 L33.52,167.5 M46.52,152.5 L59.52,167.5" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.04" x="6" y="181.9951">Practitioner</text></g><g class="entity" data-entity="soke" data-source-line="10" data-uid="ent0004" id="entity_soke"><ellipse cx="194.3635" cy="27.6727" fill="#ADD8E6" rx="96.3635" ry="21.6727" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156.0098" x="116.3586" y="30.5194">search for information</text></g><g class="entity" data-entity="indeksere" data-source-line="11" data-uid="ent0005" id="entity_indeksere"><ellipse cx="381.4875" cy="27.735" fill="#F1F1F1" rx="54.9875" ry="14.735" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60.1973" x="348.3889" y="31.4825">indexing</text></g><g class="entity" data-entity="lese" data-source-line="12" data-uid="ent0006" id="entity_lese"><ellipse cx="201.5095" cy="146.8019" fill="#ADD8E6" rx="79.5095" ry="18.3019" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117.332" x="140.9902" y="150.2369">read information</text></g><g class="entity" data-entity="dele" data-source-line="13" data-uid="ent0007" id="entity_dele"><ellipse cx="398.5474" cy="146.9095" fill="#ADD8E6" rx="82.5474" ry="18.9095" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124.6123" x="335.4935" y="150.0069">share information</text></g><!--entity applikasjon--><g class="entity" data-entity="applikasjon" data-source-line="17" data-uid="ent0008" id="entity_applikasjon"><ellipse cx="571.29" cy="117.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M571.29,125.5 L571.29,152.5 M558.29,133.5 L584.29,133.5 M571.29,152.5 L558.29,167.5 M571.29,152.5 L584.29,167.5" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109.5801" x="516.5" y="181.9951">External source</text></g><!--reverse link indeksere to applikasjon--><g class="link" data-entity-1="indeksere" data-entity-2="applikasjon" data-source-line="18" data-uid="lnk10" id="link_indeksere_applikasjon"><path d="M406.933,44.2259 C434.033,60.9859 477.9,88.12 516.3,111.86" fill="none" id="indeksere-backto-applikasjon" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="401.83,41.07,407.3805,49.2059,406.0825,43.6999,411.5884,42.4019,401.83,41.07" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link dele to applikasjon--><g class="link" data-entity-1="dele" data-entity-2="applikasjon" data-source-line="19" data-uid="lnk12" id="link_dele_applikasjon"><path d="M487.28,147 C498.91,147 504.54,147 516.17,147" fill="none" id="dele-backto-applikasjon" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="481.28,147,490.28,151,486.28,147,490.28,143,481.28,147" style="stroke:#181818;stroke-width:1;" /></g><!--link lese to dele--><g class="link" data-entity-1="lese" data-entity-2="dele" data-source-line="20" data-uid="lnk14" id="link_lese_dele"><path d="M281.15,147 C292.76,147 304.37,147 315.99,147" fill="none" id="lese-dele" style="stroke:#181818;stroke-width:1;" /></g><!--link soke to indeksere--><g class="link" data-entity-1="soke" data-entity-2="indeksere" data-source-line="21" data-uid="lnk16" id="link_soke_indeksere"><path d="M291.29,27.5 C302.92,27.5 314.55,27.5 326.17,27.5" fill="none" id="soke-indeksere" style="stroke:#181818;stroke-width:1;" /></g><!--link soke to lese--><!--reverse link soke to kliniker--><g class="link" data-entity-1="soke" data-entity-2="kliniker" data-source-line="31" data-uid="lnk20" id="link_soke_kliniker"><path d="M164.6918,52.1619 C142.1818,70.0419 113.43,92.86 87.12,113.75" fill="none" id="soke-backto-kliniker" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="169.39,48.43,159.8548,50.8956,165.4748,51.5399,164.8306,57.1599,169.39,48.43" style="stroke:#181818;stroke-width:1;" /></g><!--link kliniker to lese--><g class="link" data-entity-1="kliniker" data-entity-2="lese" data-source-line="34" data-uid="lnk21" id="link_kliniker_lese"><path d="M87.07,147 C98.69,147 104.31,147 115.93,147" fill="none" id="kliniker-to-lese" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="121.93,147,112.93,143,116.93,147,112.93,151,121.93,147" style="stroke:#181818;stroke-width:1;" /></g></g></svg></div>
+
+<p>The initiative for the development of the profiles came from the regional health authority for Northern Norway (Helse Nord RHF) for the use case of exchanging the most commonly needed vital signs between an electronic charting and medication system, and the core electronic healthcare record (EHR) and patient management system. Additional initial use cases included exchanging vital signs between the EHR and the radiology system (RIS/PACS), neonatal and neonatal intensive care (NICU) system, the pharmacy and medication production system, and entry and lookup through multiple specialized mobile applications for bedside use. In the subsequent development of the profiles uses cases for home monitoring of patients, patient-provided data (e.g. from smartwatches or other personal health devices), and exchange between healthcare organizations (primary care, specialists, hospitals, and care homes, etc.) have been considered. National quality and research registries have been identified as a possible future use case.</p>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="274px" preserveAspectRatio="none" style="width:859px;height:274px;background:#FFFFFF;" version="1.1" viewBox="0 0 859 274" width="859px" zoomAndPan="magnify"><defs /><g><!--cluster Organization--><g class="cluster" data-entity="Organization" data-source-line="7" data-uid="ent0003" id="cluster_Organization"><rect fill="none" height="119" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="759" x="94.5" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101.7119" x="423.144" y="21.9951">Organization</text></g><!--cluster receiver--><g class="cluster" data-entity="receiver" data-source-line="18" data-uid="ent0011" id="cluster_receiver"><rect fill="none" height="118" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="267" x="581.5" y="150" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76.7813" x="676.6094" y="164.9951">Receiving</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101.7119" x="664.144" y="181.292">Organization</text></g><!--cluster receiver2--><g class="cluster" data-entity="receiver2" data-source-line="23" data-uid="ent0014" id="cluster_receiver2"><rect fill="none" height="118" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="267" x="194.5" y="150" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76.7813" x="289.6094" y="164.9951">Receiving</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111.4531" x="272.2734" y="181.292">Organization2</text></g><!--entity app1--><g class="entity" data-entity="app1" data-source-line="8" data-uid="ent0004" id="entity_app1"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.2236" x="602.5" y="50.5" /><image height="16" width="16" x="675.7236" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.2236" x="612.5" y="88.4951">Application</text></g><!--entity pract1--><g class="entity" data-entity="pract1" data-source-line="9" data-uid="ent0005" id="entity_pract1"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101.04" x="736" y="50.5" /><image height="16" width="16" x="812.04" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.04" x="746" y="88.4951">Practitioner</text></g><!--entity repo--><g class="entity" data-entity="repo" data-source-line="10" data-uid="ent0006" id="entity_repo"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95.0723" x="472" y="50.5" /><image height="16" width="16" x="542.0723" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.0723" x="482" y="88.4951">Repository</text></g><!--entity device--><g class="entity" data-entity="device" data-source-line="11" data-uid="ent0007" id="entity_device"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67.8789" x="251.5" y="50.5" /><image height="16" width="16" x="294.3789" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.8789" x="261.5" y="88.4951">Device</text></g><!--entity gw--><g class="entity" data-entity="gw" data-source-line="12" data-uid="ent0008" id="entity_gw"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="81.8447" x="354.5" y="50.5" /><image height="16" width="16" x="411.3447" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.8447" x="364.5" y="88.4951">Gateway</text></g><!--entity obs--><g class="entity" data-entity="obs" data-source-line="13" data-uid="ent0009" id="entity_obs"><rect fill="#FFFFCC" height="67.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105.251" x="111" y="42" /><image height="16" width="16" x="191.251" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAR0lEQVR4Xs3RIQ7AMBDEwPz/0VVQQTLAaVEsLbEMTroxbuL5sQVEQI8I6PfzTraACOgRAT0ioEcE9IiAHhHQIwL697dfdgETEy84j585Gz4AAAAASUVORK5CYII=" y="52" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85.251" x="121" y="79.9951">Observation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.4248" x="127.5693" y="96.292">Vital</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4.4502" x="158.9941" y="96.292">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36.2373" x="163.4443" y="96.292">signs</text></g><!--entity pract2--><g class="entity" data-entity="pract2" data-source-line="19" data-uid="ent0012" id="entity_pract2"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101.04" x="731" y="201" /><image height="16" width="16" x="807.04" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.04" x="741" y="238.9951">Practitioner</text></g><!--entity app2--><g class="entity" data-entity="app2" data-source-line="20" data-uid="ent0013" id="entity_app2"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.2236" x="597.5" y="201" /><image height="16" width="16" x="670.7236" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.2236" x="607.5" y="238.9951">Application</text></g><!--entity app3--><g class="entity" data-entity="app3" data-source-line="24" data-uid="ent0015" id="entity_app3"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.2236" x="347.5" y="201" /><image height="16" width="16" x="420.7236" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.2236" x="357.5" y="238.9951">Application</text></g><!--entity pract3--><g class="entity" data-entity="pract3" data-source-line="25" data-uid="ent0016" id="entity_pract3"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101.04" x="211" y="201" /><image height="16" width="16" x="287.04" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="211" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.04" x="221" y="238.9951">Practitioner</text></g><!--entity patient--><g class="entity" data-entity="patient" data-source-line="5" data-uid="ent0002" id="entity_patient"><rect fill="#FFFFCC" height="51.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69.376" x="7" y="50.5" /><image height="16" width="16" x="51.376" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR4XsWRMQoAMAgD/f+jSydBYiJVhx44GBNL0UxzQrXBEPYlyqz0hDIqPaGMSqegGfsnVldwRuH4MlabUSjyd8H67x5sL2EBplEqI51dNAUprTVuiUMAAAAASUVORK5CYII=" y="60.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49.376" x="17" y="88.4951">Patient</text></g><!--entity pmd--><g class="entity" data-entity="pmd" data-source-line="16" data-uid="ent0010" id="entity_pmd"><rect fill="#FFFFCC" height="67.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="78.3379" x="480.5" y="192.5" /><image height="16" width="16" x="533.8379" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALUlEQVR4XmNgGAXI4B+JGAVgCBAB4HrI0QwDYL3DwAAUBgkAQw96NBHCowAKAGB0I7kDLWMMAAAAAElFTkSuQmCC" y="202.5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58.3379" x="490.5" y="230.4951">National</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.1484" x="494.5947" y="246.792">service</text></g><!--reverse link pract3 to app3--><g class="link" data-entity-1="pract3" data-entity-2="app3" data-source-line="26" data-uid="lnk17" id="link_pract3_app3"><path d="M318.15,227 C329.68,227 335.9,227 347.35,227" fill="none" id="pract3-backto-app3" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="312.15,227,321.15,231,317.15,227,321.15,223,312.15,227" style="stroke:#000000;stroke-width:1;" /></g><!--link patient to obs--><g class="link" data-entity-1="patient" data-entity-2="obs" data-source-line="31" data-uid="lnk18" id="link_patient_obs"><path d="M76.13,76 C86.84,76 98.89,76 110.54,76" fill="none" id="patient-obs" style="stroke:#000000;stroke-width:1;" /></g><!--reverse link obs to device--><g class="link" data-entity-1="obs" data-entity-2="device" data-source-line="32" data-uid="lnk19" id="link_obs_device"><path d="M222.3,76 C234.15,76 240.42,76 251.28,76" fill="none" id="obs-backto-device" style="stroke:#000000;stroke-width:1;stroke-dasharray:1.0,3.0;" /><polygon fill="#000000" points="216.3,76,225.3,80,221.3,76,225.3,72,216.3,76" style="stroke:#000000;stroke-width:1;" /></g><!--reverse link device to gw--><g class="link" data-entity-1="device" data-entity-2="gw" data-source-line="33" data-uid="lnk20" id="link_device_gw"><path d="M325.7,76 C336.68,76 342.94,76 354.36,76" fill="none" id="device-backto-gw" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="319.7,76,328.7,80,324.7,76,328.7,72,319.7,76" style="stroke:#000000;stroke-width:1;" /></g><!--reverse link gw to repo--><g class="link" data-entity-1="gw" data-entity-2="repo" data-source-line="34" data-uid="lnk21" id="link_gw_repo"><path d="M442.79,76 C454.06,76 460.37,76 471.96,76" fill="none" id="gw-backto-repo" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="436.79,76,445.79,80,441.79,76,445.79,72,436.79,76" style="stroke:#000000;stroke-width:1;" /></g><!--reverse link repo to app1--><g class="link" data-entity-1="repo" data-entity-2="app1" data-source-line="35" data-uid="lnk22" id="link_repo_app1"><path d="M573.16,76 C584.53,76 590.69,76 602.14,76" fill="none" id="repo-backto-app1" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="567.16,76,576.16,80,572.16,76,576.16,72,567.16,76" style="stroke:#000000;stroke-width:1;" /></g><!--link app1 to app2--><!--link repo to pmd--><g class="link" data-entity-1="repo" data-entity-2="pmd" data-source-line="37" data-uid="lnk24" id="link_repo_pmd"><path d="M519.5,101.53 C519.5,126.52 519.5,158.76 519.5,186.35" fill="none" id="repo-to-pmd" style="stroke:#FF0000;stroke-width:1;" /><polygon fill="#FF0000" points="519.5,192.35,523.5,183.35,519.5,187.35,515.5,183.35,519.5,192.35" style="stroke:#FF0000;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62.8828" x="456.5" y="144.0787">NoDomain</text></g><!--reverse link app3 to pmd--><g class="link" data-entity-1="app3" data-entity-2="pmd" data-source-line="38" data-uid="lnk26" id="link_app3_pmd"><path d="M451.82,227 C463.32,227 469.4,227 480.39,227" fill="none" id="app3-backto-pmd" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="445.82,227,454.82,231,450.82,227,454.82,223,445.82,227" style="stroke:#000000;stroke-width:1;" /></g><!--link app1 to pract1--><g class="link" data-entity-1="app1" data-entity-2="pract1" data-source-line="40" data-uid="lnk27" id="link_app1_pract1"><path d="M700.62,76 C712.08,76 718.3,76 729.83,76" fill="none" id="app1-to-pract1" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="735.83,76,726.83,72,730.83,76,726.83,80,735.83,76" style="stroke:#000000;stroke-width:1;" /></g><!--link app2 to pract2--><g class="link" data-entity-1="app2" data-entity-2="pract2" data-source-line="41" data-uid="lnk28" id="link_app2_pract2"><path d="M695.62,227 C707.08,227 713.3,227 724.83,227" fill="none" id="app2-to-pract2" style="stroke:#000000;stroke-width:1;" /><polygon fill="#000000" points="730.83,227,721.83,223,725.83,227,721.83,231,730.83,227" style="stroke:#000000;stroke-width:1;" /></g><!--link repo to app2--><g class="link" data-entity-1="repo" data-entity-2="app2" data-source-line="42" data-uid="lnk29" id="link_repo_app2"><path d="M562.75,101.62 C562.75,144.7 562.75,227 562.75,227 C562.75,227 573.07,227 591.3,227" fill="none" id="repo-to-app2" style="stroke:#FF0000;stroke-width:1;" /><polygon fill="#FF0000" points="597.3,227,588.3,223,592.3,227,588.3,231,597.3,227" style="stroke:#FF0000;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62.8828" x="499.75" y="178.7187">NoDomain</text></g></g></svg></div>
+
+<p>The profiles have been developed limited by the principle that all profiles should derive from the <a href="https://hl7.org/fhir/observation-vitalsigns.html">international vital signs profiles</a> provided by HL7 International and then constrain or extend these as needed. Additionally, as Norway has adopted <a href="https://www.snomed.org">SNOMED CT</a> as the standard healthcare related terminology system, the development has adopted the constraint that all ValueSets, "<em>Magic Value</em>", and model bindings should be expressed as SNOMED CT pre-coordinated codes.</p>
+
+<p>Since the EHR system in question (<a href="https://www.dips.com/">DIPS Arena</a>) uses <a href="https://www.openehr.org">OpenEHR</a> archetypes as its internal information model, and there are both international and Norwegian national archetypes for vital signs that are clinically validated, the <a href="https://arketyper.no/ckm/">Norwegian national archetypes</a> for the relevant vital signs were chosen as the <a href="https://fhirblog.com/2016/10/17/logical-models-in-fhir/">logical model</a> for the profiles. The electronic charting and medication system (<a href="https://www.imd-soft.com/">IMDsoft Metavision</a>) uses a proprietary information model which will need to be mapped to the logical model expressed in the FHIR profiles, but was consulted in order to identify any impedances in the models.</p>
+
+<p>Other information models for these vital signs have been consulted, and while there are several different approaches none have been identified that have the capability to express any concept or relationship that the current profiles are not capable of expressing. Of particular interest here are the <a href="https://build.fhir.org/ig/HL7/cimi-vital-signs/">CIMI revised vital signs profiles</a> and the <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/ProfilesIndex.page.md?version=current">NHS profiles</a>. CIMI have entirely independently taken an approach remarkably similar to these profiles (which we take as validating this approach), while the NHS has developed their propfiles in conjunction with, and seemingly as a primary use case, profiles for the <a href="https://simplifier.net/HL7FHIRUKCoreR4/UKCore-Observation-EarlyWarningTotalScore/~overview">NEWS2 score</a>. NEWS2 is a standard screening tool in Norwegian hospitals and it is likely that a future revision of these profiles will need to be adapted to work well in this context.</p>
+
+<h4 id="vital-signs-profiles-and-terminology">Vital signs profiles and terminology</h4>
+
+<p>Information exchange defined as the scope of delivery of NoDomainVitalSigns profiles.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type observasjon</th>
+      <th>Subtype</th>
+      <th>Profile</th>
+      <th>LOINC</th>
+      <th>SNOMED mapping (Norway)</th>
+      <th>IHTSDO official mapping</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>blodtrykk</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBloodpressure</td>
+      <td>85354-9 Blood pressure panel with all children optional</td>
+      <td>no mapping</td>
+      <td>no mapping</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>blodtrykk (systolisk)</td>
+      <td>(component)</td>
+      <td>8480-6 Systolic blood-pressure</td>
+      <td>4471000202106 Systemic systolic arterial blood pressure (observable entity)</td>
+      <td>271649006 Systolic blood pressure (observable entity)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>blodtrykk (diastolisk)</td>
+      <td>(component)</td>
+      <td>8462-4 Diastolic blood-pressure</td>
+      <td>4481000202108 Systemic diastolic arterial blood pressure (observable entity)</td>
+      <td>271650006 Diastolic blood pressure (observable entity)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>MeanArterialPressure (added)</td>
+      <td>(component)</td>
+      <td>8478-0 Mean blood pressure</td>
+      <td>4501000202102 Mean systemic arterial pressure (observable entity)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>PulsePressure (added)</td>
+      <td>(component)</td>
+      <td>NA</td>
+      <td>4461000202102 Systemic arterial pulse pressure (observable entity)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>kroppshøyde</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyHeight</td>
+      <td>8302-2 Body height</td>
+      <td>1153637007 Body height (observable entity)</td>
+      <td>248334005 Length of body (observable entity)</td>
+    </tr>
+    <tr>
+      <td>temperatur</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyTemp</td>
+      <td>8310-5 Body temperature</td>
+      <td>276885007 Core body temperature (observable entity)</td>
+      <td>276885007 Core body temperature (observable entity)</td>
+    </tr>
+    <tr>
+      <td>kroppsvekt</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationBodyWeight</td>
+      <td>29463-7 Body weight</td>
+      <td>27113001 Body weight (observable entity)</td>
+      <td>27113001 Body weight (observable entity)</td>
+    </tr>
+    <tr>
+      <td>hjertefrekvens</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationHeartRate</td>
+      <td>8867-4 heart-rate</td>
+      <td>364075005 Heart Rate</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005</td>
+    </tr>
+    <tr>
+      <td>puls</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationPulse</td>
+      <td>8867-4 heart-rate</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity)</td>
+      <td>78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005</td>
+    </tr>
+    <tr>
+      <td>oksygenmetning</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationOxygenSaturation</td>
+      <td>2708-6 Oxygen saturation in Arterial blood</td>
+      <td>431314004 Peripheral oxygen saturation (observable entity)</td>
+      <td>431314004 Peripheral oxygen saturation (observable entity)</td>
+    </tr>
+    <tr>
+      <td>respirasjonsfrekvens</td>
+      <td> </td>
+      <td>NoDomainVitalSignsObservationRespirationRate</td>
+      <td>9279-1 Respiratory Rate</td>
+      <td>271625008 Rate of spontaneous respiration (observable entity)</td>
+      <td>86290005 Respiratory rate (observable entity)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit <a href="guidance.html">Guideance</a> for further information about the SNOMED CT terms and their use in these profiles.</p>
+
+<p><a href="https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding">IHTSDO official mapping</a></p>
+
+<h3 id="license-and-legal-terms">License and Legal Terms</h3>
+
+<p>This document is licensed under Creative Commons "No Rights Reserved" (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>).</p>
+
+<p>HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" style="float: none; margin: 0px; padding: 0px; vertical-align: bottom" />® are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.</p>
+
+<p>This implementation guide contains and references intellectual property owned by third parties ("Third Party IP"). Acceptance of these License Terms does not grant any rights with respect to Third Party IP. The licensee alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize Third Party IP in connection with the specification or otherwise.</p>
+
+<p>See also <a href="http://hl7.org/fhir/license.html">http://hl7.org/fhir/license.html</a></p>
+
+<p>Following is a non-exhaustive list of third-party artifacts and terminologies that may require a separate license:</p>
+
+<p><strong>SNOMED Clinical Terms® (SNOMED CT®)</strong>
+This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International (former known as International Health Terminology Standards Development Organisation IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. “SNOMED” and “SNOMED CT” are registered trademarks of SNOMED International.</p>
+
+<p><strong>Logical Observation Identifiers Names and Codes LOINC</strong>
+This material contains content from LOINC® (http://loinc.org). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright © 1995-2013, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at http://loinc.org/terms-of-use.</p>
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 10, 2025 16:24+0000">2025-06-10</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
