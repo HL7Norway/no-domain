@@ -2,17 +2,18 @@ Instance: no-body-height-create
 InstanceOf: NoDomainVitalSignsObservationBodyHeight
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
-* meta.source = "META_VISION"
-* extension.url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyHeightBodyPosition"
+* meta.source = "HL7_Norway"
+* extension.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension"
 * extension[=].valueCoding.code = #10904000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Stående"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationConfoundingFactor"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 
 * status = #final
 
-* code = $loinc#8302-2 "Body height"
+* code.coding[0] = $loinc#8302-2 "Body height"
+* code.coding[+] = $sct#1153637007 "Body height"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
 

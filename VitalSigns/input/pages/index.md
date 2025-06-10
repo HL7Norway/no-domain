@@ -23,17 +23,17 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 |blodtrykk||NoDomainVitalSignsObservationBloodpressure|85354-9 Blood pressure panel with all children optional|no mapping|no mapping|
 ||blodtrykk (systolisk)|(component)|8480-6 Systolic blood-pressure|4471000202106 Systemic systolic arterial blood pressure (observable entity) |271649006 Systolic blood pressure (observable entity)|
 ||blodtrykk (diastolisk)|(component)|8462-4 Diastolic blood-pressure|4481000202108 Systemic diastolic arterial blood pressure (observable entity)|271650006 Diastolic blood pressure (observable entity)|
-||MeanArterialPressure (added)|(component)|8478-0 |4501000202102 Mean systemic arterial pressure (observable entity) ||
+||MeanArterialPressure (added)|(component)|8478-0 Mean blood pressure|4501000202102 Mean systemic arterial pressure (observable entity) ||
 ||PulsePressure (added)|(component)|NA| 4461000202102 Systemic arterial pulse pressure (observable entity)||
-|kroppshøyde||NoDomainVitalSignsObservationBodyHeight|8302-2 Body height|50373000 Body height measure (observable entity)|248334005 Length of body (observable entity)|
+|kroppshøyde||NoDomainVitalSignsObservationBodyHeight|8302-2 Body height|1153637007 Body height (observable entity)|248334005 Length of body (observable entity)|
 |temperatur||NoDomainVitalSignsObservationBodyTemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|276885007 Core body temperature (observable entity)|
 |kroppsvekt||NoDomainVitalSignsObservationBodyWeight|29463-7 Body weight|27113001 Body weight (observable entity)|27113001 Body weight (observable entity)|
 |hjertefrekvens||NoDomainVitalSignsObservationHeartRate|8867-4 heart-rate|364075005 Heart Rate|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
 |puls||NoDomainVitalSignsObservationPulse|8867-4 heart-rate|78564009 Heart rate measured at systemic artery (observable entity)|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
-|oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 |431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|
+|oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 Oxygen saturation in Arterial blood|431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|
 |respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|
 
-There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway.  
+There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit [Guideance](guidance.html) for further information about the SNOMED CT terms and their use in these profiles.  
 
 [IHTSDO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
 

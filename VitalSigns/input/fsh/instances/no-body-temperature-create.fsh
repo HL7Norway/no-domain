@@ -3,19 +3,18 @@ InstanceOf: NoDomainVitalSignsObservationBodyTemp
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
-* meta.source = "META_VISION"
-* extension[bodyExposure].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyExposure"
+* meta.source = "HL7_Norway"
+* extension[bodyExposure].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension"
 * extension[bodyExposure].valueCoding.code = #5671000202107
 * extension[bodyExposure].valueCoding.system = $sct
 * extension[bodyExposure].valueCoding.display = "Naken"
-* extension[activeHeating].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationActiveHeating"
+* extension[activeHeating].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension"
 * extension[activeHeating].valueString = "active heating sample"
-* extension[daysSinceMenstruationStart].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationDaysSinceMenstruationStart"
+* extension[daysSinceMenstruationStart].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension"
 * extension[daysSinceMenstruationStart].valuePositiveInt = 12
 * status = #final
-
-* code = $loinc#8310-5
-* code.text = "Body temperature"
+* code.coding[0] = $loinc#8310-5 "Body temperature"
+* code.coding[+] = $sct#276885007 "Core body temperature (observable entity)"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2021-05-10"

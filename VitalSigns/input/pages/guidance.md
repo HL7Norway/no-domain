@@ -2,6 +2,10 @@
 
 In [FHIR vital-signs](https://hl7.org/fhir/observation-vitalsigns.html), the [LOINC codes](https://loinc.org/) (*magic value*) are mandatory to indicate what category of measurement the given observation is. Until release R5 the *magic value* was mandatory in the Observation.code element. This is problematic in for use in Norway as LOINC is not generally used in clinical systems in Norway. The *magic value* codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the *magic value*.
 
+### Use of SNOMED CT terms
+
+The profiles includes SNOMED CT terms for each vital sign measurement. The SNOMED terms are chosen to best reflect the concept expressed in the corresponding LOINC *magic value* for each profile. When choosing a SNOMED term both Norwegian clinical practice have been taken into account (example: what does the clinicians usually understand when reading a heart rate observation) in most cases this maps directly to the concept described in the corresponding [OpenEHR Archetype](https://arketyper.no/ckm/). In one case this has led to a separate profile (pulse and heart rate) to better reflect the clinical concept of an actual pulse measurement.
+
 ### FHIR R6 changes
 
 R6 makes several changes to the use of *magic values* in vital-signs observations. First of the *magic value* is placed in the Observation.category which better represents our interpretation of the *magic value*, as a high level category that makes it easy to find similar measurements. Secondly there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.

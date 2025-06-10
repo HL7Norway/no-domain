@@ -1,20 +1,18 @@
 Profile: NoDomainVitalSignsObservationBodyWeight
 Parent: $bodyweight
-Id: NoDomainVitalSignsObservationBodyWeight
-Title: "NO Domain VitalSigns Observation - Body Weight"
-Description: "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationBodyWeight"
-* ^version = "0.9.0000"
+Id: no-domain-VitalSigns-Observation-bodyweight
+Title: "no-domain-VitalSigns-Observation-bodyweight Profile"
+Description: "Domain profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the actual measurement of body weight, including when the individual is missing a body part due to a congenital cause or after surgical removal."
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the body weight archetype: Kroppsvekt, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2273"
 * ^purpose = "To record the body weight of an individual - both actual and approximate."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationClothingState  named clothingState 0..1 and
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1
+    NoDomainVitalSignsClothingStateExtension  named clothingState 0..1 and
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1
 * extension[clothingState] ^short = "Description of the state of dress of the person at the time of weighing."
 * extension[clothingState] ^definition = "Description of the state of dress of the person at the time of weighing."
 * extension[confoundingFactor] ^definition = "Record any issues or factors that may impact on the measurement of body weight eg timing in menstrual cycle, timing of recent bowel motion or noting of amputation."

@@ -1,28 +1,24 @@
 Profile: NoDomainVitalSignsObservationRespirationRate
 Parent: $resprate
-Id: NoDomainVitalSignsObservationRespirationRate
-Title: "NO Domain VitalSigns Observation - Respiration Rate"
-Description: """Base profile for Norwegian Vital Signs Observation Respiration Rate information.  
-Use to record the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."""
-* ^url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsObservationRespirationRate"
-* ^version = "0.9.0000"
+Id: no-domain-VitalSigns-Observation-respirationrate
+Title: "no-domain-VitalSigns-Observation-respirationrate Profile"
+Description: """Domain profile for Norwegian Vital Signs Observation Respiration Rate information.  
+To be used for recording the observed and measured characteristics of spontaneous breathing by an individual, including respiratory rate, depth and rhythm."""
 * ^status = #draft
-* ^date = "2021-05-01"
+* ^date = "2025-01-28"
 * ^copyright = "Some content in this profile builds on the respiration rate archetype: Åndedrett, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2280"
 * ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Respiration Rate information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Respiration Rate ."
-* meta.lastUpdated ^comment = "This value is always populated except when the resource is first being created. The server / resource manager sets this value; what a client provides is irrelevant. This is equivalent to the HTTP Last-Modified and SHOULD have the same value on a read interaction."
-* meta.source ^definition = "A uri that identifies the source system of the resource. This provides a minimal amount of Provenance information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    NoDomainVitalSignsObservationRespirationRateBodyPosition  named bodyPosition 0..1 and
-    NoDomainVitalSignsObservationRespirationRegularity  named respirationRegularity 0..1 and
-    NoDomainVitalSignsObservationSpontaneousBreathing  named spontaneousBreathing 0..1 and
-    NoDomainVitalSignsObservationClinicalDescription  named clinicalDescription 0..1 and
-    NoDomainVitalSignsObservationRespirationDepth  named respirationDepth 0..1 and
-    NoDomainVitalSignsObservationInspiredOxygen  named inspiredOxygen 0..1 and
-    NoDomainVitalSignsObservationConfoundingFactor  named confoundingFactor 0..1 
+    NoDomainVitalSignsRespirationRateBodyPositionExtension  named bodyPosition 0..1 and
+    NoDomainVitalSignsRespirationRegularityExtension  named respirationRegularity 0..1 and
+    NoDomainVitalSignsSpontaneousBreathingExtension  named spontaneousBreathing 0..1 and
+    NoDomainVitalSignsClinicalDescriptionExtension  named clinicalDescription 0..1 and
+    NoDomainVitalSignsRespirationDepthExtension  named respirationDepth 0..1 and
+    NoDomainVitalSignsInspiredOxygenExtension  named inspiredOxygen 0..1 and
+    NoDomainVitalSignsConfoundingFactorExtension  named confoundingFactor 0..1 
 * extension[bodyPosition] ^short = "The body position of the individual during the observation."
 * extension[bodyPosition] ^definition = "The body position of the individual during the observation."
 * extension[respirationRegularity] ^short = "The regularity of spontaneous breathing."
