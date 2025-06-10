@@ -5,15 +5,15 @@ Usage: #example
 * extension[=].valueCoding.code = #271636001 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension"
 * extension[=].valueCoding.code = #271638000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig uregelmessig"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
 * extension[=].valueAnnotation.text = "Clinical description sample"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension"
 * extension[=].valueCoding.code = #33586001 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Sittende"

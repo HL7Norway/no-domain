@@ -8,21 +8,21 @@ Usage: #example
 * extension[=].valueCoding.code = #10904000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "oppreist stilling"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension"
 * extension[=].valueCoding.code = #276888009 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Regelmessig"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension"
 * extension[=].valueCoding.code = #301284009
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Normal"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"
 * extension[=].valueAnnotation.text = "Description of Respiration"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension"
 * extension[=].valueCoding.code = #241700002
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Tilstede"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
 * extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFlowExtension"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
@@ -36,7 +36,7 @@ Usage: #example
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
 * extension[=].extension[=].valueString = "Maske"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code.coding[0] = $loinc#9279-1 "Respiratory rate"

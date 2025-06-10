@@ -18,7 +18,7 @@ Usage: #example
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
 * extension[=].extension[=].valueString = "Oxygen administration method"
-* extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
+\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
