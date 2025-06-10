@@ -4,7 +4,7 @@ Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"
 * meta.versionId = "0"
 * meta.source = "HL7_Norway"
-* extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
+* extension[0].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
 * extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFlowExtension"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
@@ -18,7 +18,7 @@ Usage: #example
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
 * extension[=].extension[=].valueString = "Oxygen administration method"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
 * status = #final
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"

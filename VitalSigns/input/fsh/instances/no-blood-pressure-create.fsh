@@ -8,22 +8,22 @@ Usage: #example
 * extension[=].valueCoding.code = #4801000202104 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Liggende"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension"
 * extension[=].valueCoding.code = #720740000 
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Lår voksne"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension"
 * extension[=].valueCoding.code = #248218005
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Våken"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension"
 * extension[=].valueQuantity.value = 14
 * extension[=].valueQuantity.unit = "deg"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension"
 * extension[=].valueString = "sample formula 1"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension"
 * extension[=].valueString = "sample formula 2"
-\* extension\[\+\]\.url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension"
+* extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension"
 * extension[=].valueString = "sample formula 3"
 * status = #final
 * code = $loinc#85354-9 
