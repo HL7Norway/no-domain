@@ -23,18 +23,18 @@ Usage: #example
 * extension[=].valueCoding.system = $sct
 * extension[=].valueCoding.display = "Tilstede"
 * extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
-* extension[=].extension[0].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFlowExtension"
+* extension[=].extension[0].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension"
 * extension[=].extension[=].valueQuantity.value = 6100
 * extension[=].extension[=].valueQuantity.unit = "ml/min"
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFiO2Extension"
+* extension[=].extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPercentO2Extension"
+* extension[=].extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension"
 * extension[=].extension[=].valueRatio.numerator.value = 21
 * extension[=].extension[=].valueRatio.denominator.value = 100
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsOnAirExtension"
+* extension[=].extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension"
 * extension[=].extension[=].valueBoolean = true
-* extension[=].extension[+].url = "http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
+* extension[=].extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"
 * extension[=].extension[=].valueString = "Maske"
 * extension[+].url = "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
 * extension[=].valueCodeableConcept.text = "sample confounding factor"
