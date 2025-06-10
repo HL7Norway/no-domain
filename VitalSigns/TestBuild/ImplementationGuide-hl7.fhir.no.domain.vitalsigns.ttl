@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns> a fhir:ImplementationGuide ;
+<http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hl7.fhir.no.domain.vitalsigns"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hl7.fhir.no.domain.vitalsigns-no-NO\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.8.5"] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-30T07:17:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-10T12:24:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -222,7 +222,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "http://hl7.no/fhir/history.html"
+           fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -603,7 +603,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "http://hl7.no/fhir/history.html"
+           fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -842,14 +842,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-blood-pressure-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-blood-pressure-create> ;
          fhir:reference [ fhir:v "Observation/no-blood-pressure-create" ]
        ] ;
        fhir:name [ fhir:v "no-blood-pressure-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure>
        ]
      ] [
        fhir:extension ( [
@@ -860,14 +860,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-body-height-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-body-height-create> ;
          fhir:reference [ fhir:v "Observation/no-body-height-create" ]
        ] ;
        fhir:name [ fhir:v "no-body-height-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight>
        ]
      ] [
        fhir:extension ( [
@@ -878,14 +878,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-body-temperature-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-body-temperature-create> ;
          fhir:reference [ fhir:v "Observation/no-body-temperature-create" ]
        ] ;
        fhir:name [ fhir:v "no-body-temperature-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp>
        ]
      ] [
        fhir:extension ( [
@@ -896,14 +896,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-body-weight-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-body-weight-create> ;
          fhir:reference [ fhir:v "Observation/no-body-weight-create" ]
        ] ;
        fhir:name [ fhir:v "no-body-weight-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -914,7 +914,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-bloodpressure Profile" ] ;
@@ -932,7 +932,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-bodyheight" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-bodyheight Profile" ] ;
@@ -950,7 +950,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-bodytemp" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-bodytemp Profile" ] ;
@@ -968,7 +968,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-bodyweight" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-bodyweight Profile" ] ;
@@ -986,7 +986,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-heartrate> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-heartrate" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-heartrate Profile" ] ;
@@ -1004,7 +1004,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-oxygensaturation Profile" ] ;
@@ -1022,7 +1022,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-pulse" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-pulse Profile" ] ;
@@ -1040,7 +1040,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate> ;
          fhir:reference [ fhir:v "StructureDefinition/no-domain-VitalSigns-Observation-respirationrate" ]
        ] ;
        fhir:name [ fhir:v "no-domain-VitalSigns-Observation-respirationrate Profile" ] ;
@@ -1058,14 +1058,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-heart-rate-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-heart-rate-create> ;
          fhir:reference [ fhir:v "Observation/no-heart-rate-create" ]
        ] ;
        fhir:name [ fhir:v "no-heart-rate-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-heartrate"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-heartrate>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate>
        ]
      ] [
        fhir:extension ( [
@@ -1076,14 +1076,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-oxygen-saturation-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-oxygen-saturation-create> ;
          fhir:reference [ fhir:v "Observation/no-oxygen-saturation-create" ]
        ] ;
        fhir:name [ fhir:v "no-oxygen-saturation-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation>
        ]
      ] [
        fhir:extension ( [
@@ -1094,14 +1094,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-pulse-rate> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-pulse-rate> ;
          fhir:reference [ fhir:v "Observation/no-pulse-rate" ]
        ] ;
        fhir:name [ fhir:v "no-pulse-rate" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-pulse>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse>
        ]
      ] [
        fhir:extension ( [
@@ -1112,14 +1112,14 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Observation/no-respiratory-rate-create> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-respiratory-rate-create> ;
          fhir:reference [ fhir:v "Observation/no-respiratory-rate-create" ]
        ] ;
        fhir:name [ fhir:v "no-respiratory-rate-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"^^xsd:anyURI ;
-         fhir:link <http://hl7.no/fhir/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate>
+         fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate>
        ]
      ] [
        fhir:extension ( [
@@ -1130,7 +1130,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsActiveHeatingExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsActiveHeating-Extension" ] ;
@@ -1148,7 +1148,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodyPosition-Extension" ] ;
@@ -1166,7 +1166,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet" ] ;
@@ -1184,7 +1184,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodySite-ValueSet" ] ;
@@ -1202,7 +1202,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureDiastolicFormula-Extension" ] ;
@@ -1220,7 +1220,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureMeanArterialFormula-Extension" ] ;
@@ -1238,7 +1238,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet" ] ;
@@ -1256,7 +1256,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureSystolicFormula-Extension" ] ;
@@ -1274,7 +1274,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBodyExposureExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBodyExposureExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBodyExposure-Extension" ] ;
@@ -1292,7 +1292,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyExposureValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBodyExposureValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBodyExposure-ValueSet" ] ;
@@ -1310,7 +1310,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBodyHeightBodyPosition-Extension" ] ;
@@ -1328,7 +1328,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet" ] ;
@@ -1346,7 +1346,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBodyTempBodySite-ValueSet" ] ;
@@ -1364,7 +1364,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsCharacterOfPulse-Extension" ] ;
@@ -1382,7 +1382,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsClinicalDescription-Extension" ] ;
@@ -1400,7 +1400,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsClothingStateExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsClothingStateExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsClothingState-Extension" ] ;
@@ -1418,7 +1418,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsClothingStateValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsClothingStateValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsClothingState-ValueSet" ] ;
@@ -1436,7 +1436,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsConfoundingFactor-Extension" ] ;
@@ -1454,7 +1454,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsCuffSizeExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsCuffSizeExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsCuffSize-Extension" ] ;
@@ -1472,7 +1472,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsCuffsizeValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsCuffsizeValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsCuffsize-ValueSet" ] ;
@@ -1490,7 +1490,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsDaysSinceMenstruationStart-Extension" ] ;
@@ -1508,7 +1508,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsDiastolicEndPoint-Extension" ] ;
@@ -1526,7 +1526,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsDiastolicendPoint-ValueSet" ] ;
@@ -1544,7 +1544,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFiO2Extension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsFiO2Extension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsFiO2-Extension" ] ;
@@ -1562,7 +1562,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsFlowExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsFlowExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsFlow-Extension" ] ;
@@ -1580,7 +1580,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRateBodySite-ValueSet" ] ;
@@ -1598,7 +1598,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet" ] ;
@@ -1616,7 +1616,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRatePulseBodyPosition-Extension" ] ;
@@ -1634,7 +1634,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet" ] ;
@@ -1652,7 +1652,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRhythmIrregularity-Extension" ] ;
@@ -1670,7 +1670,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsHeartRhythmIrregularity-ValueSet" ] ;
@@ -1688,7 +1688,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsInspiredOxygen-Extension" ] ;
@@ -1706,7 +1706,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsMethodofOxygenDelivery-Extension" ] ;
@@ -1724,7 +1724,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsOnAirExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsOnAirExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsOnAir-Extension" ] ;
@@ -1742,7 +1742,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPercentO2Extension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsPercentO2Extension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPercentO2-Extension" ] ;
@@ -1760,7 +1760,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsPulseBodySiteValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseBodySite-ValueSet" ] ;
@@ -1778,7 +1778,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseMeasurementMethod-ValueSet" ] ;
@@ -1796,7 +1796,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsPulseRhythmExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseRhythm-Extension" ] ;
@@ -1814,7 +1814,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseRhythmValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsPulseRhythmValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseRhythm-ValueSet" ] ;
@@ -1832,7 +1832,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseRhythmIrregularity-Extension" ] ;
@@ -1850,7 +1850,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsPulseRhythmIrregularity-ValueSet" ] ;
@@ -1868,7 +1868,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsRespirationDepthExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationDepth-Extension" ] ;
@@ -1886,7 +1886,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationRateBodyPosition-Extension" ] ;
@@ -1904,7 +1904,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationRateBodyPosition-ValueSet" ] ;
@@ -1922,7 +1922,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationRateDepth-ValueSet" ] ;
@@ -1940,7 +1940,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationRegularity-Extension" ] ;
@@ -1958,7 +1958,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsRespirationRegularityValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsRespirationRegularity-ValueSet" ] ;
@@ -1976,7 +1976,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsSleepStatusExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsSleepStatusExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsSleepStatus-Extension" ] ;
@@ -1994,7 +1994,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsSleepStatusValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsSleepStatusValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsSleepStatus-ValueSet" ] ;
@@ -2012,7 +2012,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsSpontaneousBreathing-Extension" ] ;
@@ -2030,7 +2030,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet> ;
          fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsSpontaneousBreathing-ValueSet" ] ;
@@ -2048,7 +2048,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsTiltExtension> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension> ;
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsTiltExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsTilt-Extension" ] ;
@@ -2066,7 +2066,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Organization/afa23> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Organization/afa23> ;
          fhir:reference [ fhir:v "Organization/afa23" ]
        ] ;
        fhir:name [ fhir:v "Organization details of afa23" ] ;
@@ -2083,7 +2083,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Patient/cdp1000240> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Patient/cdp1000240> ;
          fhir:reference [ fhir:v "Patient/cdp1000240" ]
        ] ;
        fhir:name [ fhir:v "Patient details of cdp1000240" ] ;
@@ -2100,7 +2100,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/Patient/cdp1000808> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Patient/cdp1000808> ;
          fhir:reference [ fhir:v "Patient/cdp1000808" ]
        ] ;
        fhir:name [ fhir:v "Patient details of cdp1000808" ] ;
@@ -2117,7 +2117,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/PractitionerRole/agb104> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/PractitionerRole/agb104> ;
          fhir:reference [ fhir:v "PractitionerRole/agb104" ]
        ] ;
        fhir:name [ fhir:v "Practioner details of agb104" ] ;
@@ -2134,7 +2134,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/PractitionerRole/agb30> ;
+         fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/PractitionerRole/agb30> ;
          fhir:reference [ fhir:v "PractitionerRole/agb30" ]
        ] ;
        fhir:name [ fhir:v "PractitionerRole details of agb30" ] ;

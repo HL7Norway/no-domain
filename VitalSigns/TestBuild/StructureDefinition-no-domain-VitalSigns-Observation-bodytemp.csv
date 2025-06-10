@@ -25,19 +25,19 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension:confoundingFactor","Observation.extension","confoundingFactor","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension]]} {[]}
+"Observation.extension:confoundingFactor","Observation.extension","confoundingFactor","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension]]} {[]}
 ","Additional issues or factors that may impact for the measurement","Additional issues or factors that may impact on the measurement of body temperature, not captured in other fields.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension:daysSinceMenstruationStart","Observation.extension","daysSinceMenstruationStart","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension]]} {[]}
+"Observation.extension:daysSinceMenstruationStart","Observation.extension","daysSinceMenstruationStart","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension]]} {[]}
 ","Current day of the menstrual cycle.","Current day of the menstrual cycle.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension:bodyExposure","Observation.extension","bodyExposure","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsBodyExposureExtension]]} {[]}
+"Observation.extension:bodyExposure","Observation.extension","bodyExposure","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension]]} {[]}
 ","The degree of exposure of the individual at the time of measurement.","The degree of exposure of the individual at the time of measurement.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension:activeHeating","Observation.extension","activeHeating","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension]]} {[]}
+"Observation.extension:activeHeating","Observation.extension","activeHeating","","",0,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension]]} {[]}
 ","description of the conditions applied","Narrative description of the conditions applied to the subject that might influence their measured body temperature.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -247,7 +247,7 @@ vs-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (ch
 "Observation.bodySite","Observation.bodySite","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Observed body part","Indicates the site on the subject's body where the observation was made (i.e. the target site).","Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   
 
-If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/extension-bodysite.html).","","","","","","","","",,"extensible","","http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet","",,,,"Observation.bodySite",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/extension-bodysite.html).","","","","","","","","",,"extensible","","http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet","",,,,"Observation.bodySite",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 123037004 |Body structure|","OBX-20","targetSiteCode","718497002 |Inherent location|"
 "Observation.bodySite.id","Observation.bodySite.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -257,7 +257,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Observation.bodySite.coding","Observation.bodySite.coding","","","",0,*,"","","Y","Coding {[]} {[]}
-","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"extensible","","http://hl7.no/fhir/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"extensible","","http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.1-8, C*E.10-22","union(., ./translation)"
 "Observation.bodySite.coding.id","Observation.bodySite.coding.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
