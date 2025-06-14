@@ -31,7 +31,8 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 |hjertefrekvens||NoDomainVitalSignsObservationHeartRate|8867-4 heart-rate|364075005 Heart Rate|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
 |puls||NoDomainVitalSignsObservationPulse|8867-4 heart-rate|78564009 Heart rate measured at systemic artery (observable entity)|78564009 Heart rate measured at systemic artery (observable entity) ECL bruker 364075005|
 |oksygenmetning||NoDomainVitalSignsObservationOxygenSaturation|2708-6 Oxygen saturation in Arterial blood|431314004 Peripheral oxygen saturation (observable entity)|431314004 Peripheral oxygen saturation (observable entity)|
-|respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|
+|respirasjonsfrekvens||NoDomainVitalSignsObservationRespirationRate|9279-1 Respiratory Rate|271625008 Rate of spontaneous respiration (observable entity)|86290005 Respiratory rate (observable entity)|  
+{: .grid .table-striped}
 
 There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit [Guideance](guidance.html) for further information about the SNOMED CT terms and their use in these profiles.  
 
