@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Guidance -  v0.9.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.9.0 - ballotNormative-2
+
+
+
+  Norway
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+  <li>
+    <a href="download.html">Download</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Guidance</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.9.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/no-domain/vitalsigns/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Guidance</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#use-of-loinc-codes" id="markdown-toc-use-of-loinc-codes">Use of LOINC codes</a></li>
+  <li><a href="#use-of-snomed-ct-terms" id="markdown-toc-use-of-snomed-ct-terms">Use of SNOMED CT terms</a></li>
+  <li><a href="#fhir-r6-changes" id="markdown-toc-fhir-r6-changes">FHIR R6 changes</a></li>
+  <li><a href="#pulse-rate-vs-heart-rate" id="markdown-toc-pulse-rate-vs-heart-rate">Pulse rate vs Heart rate</a></li>
+</ul>
+
+</div>
+<h3 id="use-of-loinc-codes">Use of LOINC codes</h3>
+
+<p>In <a href="https://hl7.org/fhir/observation-vitalsigns.html">FHIR vital-signs</a>, the <a href="https://loinc.org/">LOINC codes</a> (<em>magic value</em>) are mandatory to indicate what category of measurement the given observation is. Until release R5 the <em>magic value</em> was mandatory in the Observation.code element. This is problematic in for use in Norway as LOINC is not generally used in clinical systems in Norway. The <em>magic value</em> codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the <em>magic value</em>.</p>
+
+<h3 id="use-of-snomed-ct-terms">Use of SNOMED CT terms</h3>
+
+<p>The profiles includes SNOMED CT terms for each vital sign measurement. The SNOMED terms are chosen to best reflect the concept expressed in the corresponding LOINC <em>magic value</em> for each profile. When choosing a SNOMED term both Norwegian clinical practice have been taken into account (example: what does the clinicians usually understand when reading a heart rate observation) in most cases this maps directly to the concept described in the corresponding <a href="https://arketyper.no/ckm/">OpenEHR Archetype</a>. In one case this has led to a separate profile (pulse and heart rate) to better reflect the clinical concept of an actual pulse measurement.</p>
+
+<h3 id="fhir-r6-changes">FHIR R6 changes</h3>
+
+<p>R6 makes several changes to the use of <em>magic values</em> in vital-signs observations. First of the <em>magic value</em> is placed in the Observation.category which better represents our interpretation of the <em>magic value</em>, as a high level category that makes it easy to find similar measurements. Secondly there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.</p>
+
+<h3 id="pulse-rate-vs-heart-rate">Pulse rate vs Heart rate</h3>
+
+<p>In most cases pulse rate and heart rate values are considered to be clinically the same; pulse rate is treated as a "proxy" of the actual heart rate. However there are several cases where pulse rate and heart rate are treated as different measurements and differences have clinical importance. In most cases a general LOINC heart rate code to indicate both pulse rate and heart rate is good enough. For systems and clinical processes that need to differentiate the different concepts, the use of more specific SNOMED codes indicated in Observation.code slices in the no-domain-pulse and no-domain-heartrate profiles are recommended. Additional information about method and bodySite of the heart rate observation can also indicate pulse or heart rate observation.</p>
+
+<h4 id="conceptual-model-vs-fhir-vital-signs-profiles">Conceptual model vs FHIR vital-signs profiles</h4>
+
+<p>The model depicts the differences in conceptual and FHIR vital signs model, including the meaning of different use of codes for handling the complex conceptual model where pulse rate and heart rate are to be differentiated.</p>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="433px" preserveAspectRatio="none" style="width:763px;height:433px;background:#FFFFFF;" version="1.1" viewBox="0 0 763 433" width="763px" zoomAndPan="magnify"><defs /><g><!--cluster conceptual--><g class="cluster" data-entity="conceptual" data-source-line="2" data-uid="ent0002" id="cluster_conceptual"><rect fill="none" height="103" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="633" x="7" y="7" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="86.6045" x="280.1978" y="21.9951">conceptual</text></g><g class="entity" data-entity="consept" data-source-line="3" data-uid="ent0003" id="entity_consept"><path d="M23,48 L23,88.2656 L204.7227,88.2656 L204.7227,58 L194.7227,48 L23,48" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" /><path d="M194.7227,48 L194.7227,58 L204.7227,58 L194.7227,48" fill="#FEFFDD" style="stroke:#181818;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160.7227" x="29" y="65.0669">Heartrate and pulse rate</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116.2637" x="29" y="80.1997">conceptual model</text></g><g class="entity" data-entity="general" data-source-line="4" data-uid="ent0004" id="entity_general"><ellipse cx="408.9762" cy="68.0473" fill="#F1F1F1" rx="57.9762" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55.1729" x="381.3897" y="62.7455">General</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65.748" x="376.1021" y="79.0424">heartrate</text></g><g class="entity" data-entity="pulse" data-source-line="5" data-uid="ent0005" id="entity_pulse"><ellipse cx="277.805" cy="68.0493" fill="#F1F1F1" rx="37.805" ry="14.5493" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.1123" x="257.6093" y="71.44">Pulse</text></g><g class="entity" data-entity="hr" data-source-line="6" data-uid="ent0006" id="entity_hr"><ellipse cx="562.8668" cy="67.7742" fill="#F1F1F1" rx="60.3668" ry="14.7742" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67.4023" x="526.1656" y="71.5218">Heartrate</text></g><g class="entity" data-entity="8867" data-source-line="9" data-uid="ent0007" id="entity_8867"><ellipse cx="408.8711" cy="186.5863" fill="#ADD8E6" rx="80.3711" ry="26.0863" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97.2344" x="357.2539" y="182.1854">LOINC 8867-4</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.6719" x="367.5352" y="198.4823">(heartrate)</text></g><g class="entity" data-entity="snopulse" data-source-line="10" data-uid="ent0008" id="entity_snopulse"><ellipse cx="156.8477" cy="186.5695" fill="#ADD8E6" rx="135.8477" ry="29.5695" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.792" x="87.9517" y="181.2678">SNOMED 78564009</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197.8457" x="57.9248" y="197.5647">heartrate at systemic artery</text></g><g class="entity" data-entity="snohr" data-source-line="11" data-uid="ent0009" id="entity_snohr"><ellipse cx="640.818" cy="186.2733" fill="#ADD8E6" rx="116.318" ry="26.2733" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146.6992" x="564.4684" y="181.8725">SNOMED 364075005</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65.748" x="604.944" y="198.1693">heartrate</text></g><!--entity fhirhr--><g class="entity" data-entity="fhirhr" data-source-line="20" data-uid="ent0012" id="entity_fhirhr"><rect fill="#90EE90" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142.1377" x="338" y="277" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122.1377" x="348" y="299.9951">FHIR Observation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65.748" x="348" y="316.292">heartrate</text></g><!--entity nodomhr--><g class="entity" data-entity="nodomhr" data-source-line="21" data-uid="ent0013" id="entity_nodomhr"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="202.6084" x="421.5" y="391" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182.6084" x="431.5" y="413.9951">no-domain-FHIR heartrate</text></g><!--entity nodompulse--><g class="entity" data-entity="nodompulse" data-source-line="22" data-uid="ent0014" id="entity_nodompulse"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174.417" x="133" y="391" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.417" x="143" y="413.9951">no-domain-FHIR pulse</text></g><!--link snopulse to 8867--><!--link 8867 to snohr--><!--link general to hr--><g class="link" data-entity-1="general" data-entity-2="hr" data-source-line="28" data-uid="lnk15" id="link_general_hr"><path d="M467.05,68 C478.79,68 490.54,68 502.28,68" fill="none" id="general-hr" style="stroke:#181818;stroke-width:1;" /></g><!--link pulse to general--><g class="link" data-entity-1="pulse" data-entity-2="general" data-source-line="30" data-uid="lnk17" id="link_pulse_general"><path d="M316.12,68 C327.73,68 339.34,68 350.95,68" fill="none" id="pulse-general" style="stroke:#181818;stroke-width:1;" /></g><!--link general to 8867--><g class="link" data-entity-1="general" data-entity-2="8867" data-source-line="31" data-uid="lnk18" id="link_general_8867"><path d="M409,94.28 C409,113.82 409,140.74 409,160.27" fill="none" id="general-8867" style="stroke:#181818;stroke-width:1;" /></g><!--link pulse to snopulse--><g class="link" data-entity-1="pulse" data-entity-2="snopulse" data-source-line="32" data-uid="lnk19" id="link_pulse_snopulse"><path d="M264.59,81.91 C245.76,100.04 211.01,133.5 186.09,157.49" fill="none" id="pulse-snopulse" style="stroke:#181818;stroke-width:1;" /></g><!--link hr to snohr--><g class="link" data-entity-1="hr" data-entity-2="snohr" data-source-line="33" data-uid="lnk20" id="link_hr_snohr"><path d="M572.56,83.29 C585.34,102.36 608.18,136.49 623.94,160.02" fill="none" id="hr-snohr" style="stroke:#181818;stroke-width:1;" /></g><!--link 8867 to fhirhr--><g class="link" data-entity-1="8867" data-entity-2="fhirhr" data-source-line="35" data-uid="lnk21" id="link_8867_fhirhr"><path d="M409,212.74 C409,231.78 409,245.8 409,264.92" fill="none" id="8867-to-fhirhr" style="stroke:#181818;stroke-width:1;" /><polygon fill="none" points="409,276.92,413,270.92,409,264.92,405,270.92,409,276.92" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link fhirhr to nodomhr--><g class="link" data-entity-1="fhirhr" data-entity-2="nodomhr" data-source-line="36" data-uid="lnk22" id="link_fhirhr_nodomhr"><path d="M450.507,342.1792 C471.347,361.0992 485.82,374.25 504.06,390.8" fill="none" id="fhirhr-backto-nodomhr" style="stroke:#181818;stroke-width:1;" /><polygon fill="none" points="437.18,330.08,446.474,346.6215,454.5401,337.7369,437.18,330.08" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link fhirhr to nodompulse--><g class="link" data-entity-1="fhirhr" data-entity-2="nodompulse" data-source-line="37" data-uid="lnk23" id="link_fhirhr_nodompulse"><path d="M346.4932,338.7274 C311.8432,357.7074 281.34,374.41 251.12,390.96" fill="none" id="fhirhr-backto-nodompulse" style="stroke:#181818;stroke-width:1;" /><polygon fill="none" points="362.28,330.08,343.6108,333.4652,349.3757,343.9897,362.28,330.08" style="stroke:#181818;stroke-width:1;" /></g><!--link snopulse to nodompulse--><g class="link" data-entity-1="snopulse" data-entity-2="nodompulse" data-source-line="38" data-uid="lnk25" id="link_snopulse_nodompulse"><path d="M160.66,216.1 C164.84,245.22 172.74,291.44 185,330 C191.88,351.64 197.6155,364.576 205.4755,380.086" fill="none" id="snopulse-to-nodompulse" style="stroke:#181818;stroke-width:1;" /><polygon fill="none" points="210.9,390.79,211.7558,383.6299,205.4755,380.086,204.6198,387.2462,210.9,390.79" style="stroke:#181818;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93.1328" x="206.2205" y="300.5669">SNOMED code</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133.5737" x="186" y="315.6997">indicating pulse rate</text></g><!--link snohr to nodomhr--><g class="link" data-entity-1="snohr" data-entity-2="nodomhr" data-source-line="39" data-uid="lnk27" id="link_snohr_nodomhr"><path d="M627.23,213.23 C602.85,258.78 558.3915,341.8695 537.8015,380.3495" fill="none" id="snohr-to-nodomhr" style="stroke:#181818;stroke-width:1;" /><polygon fill="none" points="532.14,390.93,538.4976,387.5269,537.8015,380.3495,531.4439,383.7526,532.14,390.93" style="stroke:#181818;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93.1328" x="593" y="300.5669">SNOMED code</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81.7451" x="598.6938" y="315.6997">indicating hr</text></g></g></svg></div>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 3, 2025 11:13+0000">2025-09-03</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,563 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+      "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBloodpressureBodyPositionValueSet",
+      "title" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
+      "description" : "Codes representing body position for blood pressure",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsBloodpressureBodyPositionExtension.html" : "NoDomainVitalSignsBloodpressureBodyPosition-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
+      "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+      "description" : "Codes representing body site for blood pressure",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBodyExposureValueSet",
+      "title" : "NoDomainVitalSignsBodyExposure-ValueSet",
+      "description" : "Codes representing body exposure",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsBodyExposureExtension.html" : "NoDomainVitalSignsBodyExposure-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBodyHeightBodyPositionValueSet",
+      "title" : "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet",
+      "description" : "Codes representing body position for body height",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsBodyHeightBodyPositionExtension.html" : "NoDomainVitalSignsBodyHeightBodyPosition-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBodyTempBodySiteValueSet",
+      "title" : "NoDomainVitalSignsBodyTempBodySite-ValueSet",
+      "description" : "Codes representing body site for body temperature",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsClothingStateValueSet",
+      "title" : "NoDomainVitalSignsClothingState-ValueSet",
+      "description" : "Codes representing level of clothing",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsClothingStateExtension.html" : "NoDomainVitalSignsClothingState-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsCuffsizeValueSet",
+      "title" : "NoDomainVitalSignsCuffsize-ValueSet",
+      "description" : "Codes representing cuff size",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsCuffSizeExtension.html" : "NoDomainVitalSignsCuffSize-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsDiastolicendPointValueSet",
+      "title" : "NoDomainVitalSignsDiastolicendPoint-ValueSet",
+      "description" : "Codes representing Diastolic end point",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsDiastolicEndPointExtension.html" : "NoDomainVitalSignsDiastolicEndPoint-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsHeartRateBodySiteValueSet",
+      "title" : "NoDomainVitalSignsHeartRateBodySite-ValueSet",
+      "description" : "Codes representing body site for heart rate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsHeartRateMeasurementMethodValueSet",
+      "title" : "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
+      "title" : "NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet",
+      "description" : "Codes representing body position for heart rate or Pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsHeartRatePulseBodyPositionExtension.html" : "NoDomainVitalSignsHeartRatePulseBodyPosition-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsHeartRhythmIrregularityValueSet",
+      "title" : "NoDomainVitalSignsHeartRhythmIrregularity-ValueSet",
+      "description" : "Codes representing heart rhythm irregularity for heart rate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsHeartRhythmIrregularityExtension.html" : "NoDomainVitalSignsHeartRhythmIrregularity-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsPulseBodySiteValueSet",
+      "title" : "NoDomainVitalSignsPulseBodySite-ValueSet",
+      "description" : "Codes representing body site for pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsPulseMeasurementMethodValueSet",
+      "title" : "NoDomainVitalSignsPulseMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsPulseRhythmIrregularityValueSet",
+      "title" : "NoDomainVitalSignsPulseRhythmIrregularity-ValueSet",
+      "description" : "Codes representing heart rhythm irregularity for Pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsPulseRhythmIrregularityExtension.html" : "NoDomainVitalSignsPulseRhythmIrregularity-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsPulseRhythmValueSet",
+      "title" : "NoDomainVitalSignsPulseRhythm-ValueSet",
+      "description" : "Codes representing  rhythm of Pulse",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsPulseRhythmExtension.html" : "NoDomainVitalSignsPulseRhythm-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsRespirationRateBodyPositionValueSet",
+      "title" : "NoDomainVitalSignsRespirationRateBodyPosition-ValueSet",
+      "description" : "Codes representing body position for respiration rate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsRespirationRateBodyPositionExtension.html" : "NoDomainVitalSignsRespirationRateBodyPosition-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsRespirationRateDepthValueSet",
+      "title" : "NoDomainVitalSignsRespirationRateDepth-ValueSet",
+      "description" : "Codes representing depth for respiration rate",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsRespirationDepthExtension.html" : "NoDomainVitalSignsRespirationDepth-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsRespirationRegularityValueSet",
+      "title" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
+      "description" : "Codes representing Respiration Regularity",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsRespirationRegularityExtension.html" : "NoDomainVitalSignsRespirationRegularity-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsSleepStatusValueSet",
+      "title" : "NoDomainVitalSignsSleepStatus-ValueSet",
+      "description" : "Codes representing Sleep Status",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsSleepStatusExtension.html" : "NoDomainVitalSignsSleepStatus-Extension"
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet",
+      "version" : "0.9.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsSpontaneousBreathingValueSet",
+      "title" : "NoDomainVitalSignsSpontaneousBreathing-ValueSet",
+      "description" : "Codes representing Respiration Spontaneous breathing",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-NoDomainVitalSignsSpontaneousBreathingExtension.html" : "NoDomainVitalSignsSpontaneousBreathing-Extension"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "VitalSigns",
+      "title" : "Vital Signs",
+      "description" : "This value set indicates the allowed vital sign result types.   The LOINC code for Vitals Signs panel (85353-1) is a grouping structure for a set of vital signs and includes related links (with type=has-member) to the Observations in this set (e.g. respiratory rate, heart rate, BP).  The Blood pressure panel (85354-9) is used to group the component observations Systolic blood pressure (8480-6) and Diastolic blood pressure (8462-4).",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.62"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-NoDomainVitalSignsTiltExtension.html" : "NoDomainVitalSignsTilt-Extension",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodylength",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BodyLengthUnits",
+      "title" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.958"],
+      "sources" : ["2.16.840.1.113883.4.642.3.958"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodytemp",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BodyTemperatureUnits",
+      "title" : "Body Temperature Units",
+      "description" : "UCUM units for recording Body Temperature",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.957"],
+      "sources" : ["2.16.840.1.113883.4.642.3.957"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodyweight",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BodyWeightUnits",
+      "title" : "Body Weight Units",
+      "description" : "UCUM units for recording Body Weight",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.956"],
+      "sources" : ["2.16.840.1.113883.4.642.3.956"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "VitalSignsUnits",
+      "title" : "Vital Signs Units",
+      "description" : "Common UCUM units for recording Vital Signs",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.955"],
+      "sources" : ["2.16.840.1.113883.4.642.3.955"],
+      "uses" : {
+      },
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.html" : "no-domain-VitalSigns-Observation-bodyweight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.html" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-heartrate.html" : "no-domain-VitalSigns-Observation-heartrate Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-pulse.html" : "no-domain-VitalSigns-Observation-pulse Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.html" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.html" : "no-domain-VitalSigns-Observation-bodyheight Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.html" : "no-domain-VitalSigns-Observation-bodytemp Profile",
+      "StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html" : "no-domain-VitalSigns-Observation-respirationrate Profile"
+    }
+  ]
+}

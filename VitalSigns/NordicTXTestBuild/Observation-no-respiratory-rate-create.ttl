@@ -1,0 +1,178 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/no-domain/vitalsigns/Observation/no-respiratory-rate-create> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-respiratory-rate-create"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "0" ] ;
+     fhir:lastUpdated [ fhir:v "2014-01-30T22:35:23+11:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "HL7_Norway"^^xsd:anyURI ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate"^^xsd:anyURI ;
+       fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation no-respiratory-rate-create</b></p><a name=\"no-respiratory-rate-create\"> </a><a name=\"hcno-respiratory-rate-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway\">HL7_Norway</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.html\">no-domain-VitalSigns-Observation-respirationrate Profile</a></p></div><p><b>NoDomainVitalSignsRespirationRateBodyPosition-Extension</b>: <a href=\"http://snomed.info/id/10904000\">SNOMED CT 10904000</a>: oppreist stilling</p><p><b>NoDomainVitalSignsRespirationRegularity-Extension</b>: <a href=\"http://snomed.info/id/276888009\">SNOMED CT 276888009</a>: Regelmessig</p><p><b>NoDomainVitalSignsRespirationDepth-Extension</b>: <a href=\"http://snomed.info/id/301284009\">SNOMED CT 301284009</a>: Normal</p><p><b>NoDomainVitalSignsClinicalDescription-Extension</b>: </p><blockquote><div><p>Description of Respiration</p>\n</div></blockquote><p><b>NoDomainVitalSignsSpontaneousBreathing-Extension</b>: <a href=\"http://snomed.info/id/241700002\">SNOMED CT 241700002</a>: Tilstede</p><blockquote><p><b>NoDomainVitalSignsInspiredOxygen-Extension</b></p><ul><li>http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension: 6100 ml/min</li><li>http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension: 21/100</li><li>http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension: 21/100</li><li>http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension: true</li><li>http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension: Maske</li></ul></blockquote><p><b>NoDomainVitalSignsConfoundingFactor-Extension</b>: <span title=\"Codes:\">sample confounding factor</span></p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 9279-1}, {http://snomed.info/sct 271625008}\">Respiratory rate</span></p><p><b>subject</b>: <a href=\"Patient-cdp1000240.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#1000240)</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href=\"PractitionerRole-agb30.html\">PractitionerRole: identifier = urn:oid:1.3.6.1.4.1.9038.51.1#30</a></li><li><a href=\"Organization-afa23.html\">Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23</a></li></ul><p><b>value</b>: 14 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/min = '/min')</span></p><p><b>interpretation</b>: <span title=\"Codes:\">Clinical interpretation of Respiration</span></p><p><b>note</b>: </p><blockquote><div><p>Demo Respiration</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:10904000 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10904000" ] ;
+       fhir:display [ fhir:v "oppreist stilling" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:276888009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "276888009" ] ;
+       fhir:display [ fhir:v "Regelmessig" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:301284009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "301284009" ] ;
+       fhir:display [ fhir:v "Normal" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Annotation ;
+       fhir:text [ fhir:v "Description of Respiration" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:241700002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "241700002" ] ;
+       fhir:display [ fhir:v "Tilstede" ]
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "6100"^^xsd:decimal ] ;
+         fhir:unit [ fhir:v "ml/min" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Ratio ;
+         fhir:numerator [
+           fhir:value [ fhir:v "21"^^xsd:decimal ]
+         ] ;
+         fhir:denominator [
+           fhir:value [ fhir:v "100"^^xsd:decimal ]
+         ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Ratio ;
+         fhir:numerator [
+           fhir:value [ fhir:v "21"^^xsd:decimal ]
+         ] ;
+         fhir:denominator [
+           fhir:value [ fhir:v "100"^^xsd:decimal ]
+         ]
+       ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Maske"
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:text [ fhir:v "sample confounding factor" ]
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "vital-signs" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:9279-1 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "9279-1" ] ;
+       fhir:display [ fhir:v "Respiratory rate" ]
+     ] [
+       a sct:271625008 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "271625008" ] ;
+       fhir:display [ fhir:v "Rate of spontaneous respiration (observable entity)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Patient/cdp1000240> ;
+     fhir:reference [ fhir:v "Patient/cdp1000240" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1000240" ]
+     ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2021-05-10"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/PractitionerRole/agb30> ;
+     fhir:reference [ fhir:v "PractitionerRole/agb30" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "30" ]
+     ]
+  ] [
+     fhir:link <http://hl7.no/fhir/no-domain/vitalsigns/Organization/afa23> ;
+     fhir:reference [ fhir:v "Organization/afa23" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "23" ]
+     ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "14"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "/min" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "/min" ]
+  ] ; # 
+  fhir:interpretation ( [
+     fhir:text [ fhir:v "Clinical interpretation of Respiration" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Demo Respiration" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
