@@ -11,8 +11,8 @@ Description: "Codes representing measurement method for HeartRate"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#37931006 "Auskultasjon"
-* SNOMED_CT#113011001 "Palpasjon"
+* $sctno#37931006 "Auskultasjon"
+* $sctno#113011001 "Palpasjon"
