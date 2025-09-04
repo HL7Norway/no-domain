@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name="hl7.fhir.no.domain.vitalsigns"> </a><a name="hchl7.fhir.no.domain.vitalsigns"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>
   </text>
   <url value="http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"/>
-  <version value="0.9.0"/>
+  <version value="0.9.1"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2025-09-04T11:54:03+00:00"/>
+  <date value="2025-09-04T12:07:27+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -64,22 +64,6 @@
       </extension>
       <extension url="value">
         <valueString value="ballotNormative-2"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="show-inherited-invariants"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-expansion-params"/>
-      </extension>
-      <extension url="value">
-        <valueString value="Parameters-expansion.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -287,22 +271,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="show-inherited-invariants"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="path-expansion-params"/>
-      </extension>
-      <extension url="value">
-        <valueString value="Parameters-expansion.json"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -485,17 +453,6 @@
         <valueString value="true"/>
       </extension>
     </extension>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Parameters"/>
-      </extension>
-      <reference>
-        <reference value="Parameters/expansion"/>
-      </reference>
-      <name value="expansion"/>
-      <description value="SNOMED CT Norwegian expansion parameter"/>
-      <exampleBoolean value="false"/>
-    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
@@ -859,7 +816,7 @@
         <reference value="StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"/>
       </reference>
       <name value="NoDomainVitalSignsConfoundingFactor-Extension"/>
-      <description value="Confounding factor is Issues or factors that may impact on &lt;the measurement&gt;, not captured in other fields"/>
+      <description value="Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

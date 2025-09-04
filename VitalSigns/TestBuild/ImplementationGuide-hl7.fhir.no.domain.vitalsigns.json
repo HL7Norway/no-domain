@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.domain.vitalsigns</b></p><a name=\"hl7.fhir.no.domain.vitalsigns\"> </a><a name=\"hchl7.fhir.no.domain.vitalsigns\"> </a><h2>NoDomainVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns</pre></div>"
   },
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.0",
+  "version" : "0.9.1",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-09-04T11:54:03+00:00",
+  "date" : "2025-09-04T12:07:27+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -74,28 +74,6 @@
       {
         "url" : "value",
         "valueString" : "ballotNormative-2"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "show-inherited-invariants"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-expansion-params"
-      },
-      {
-        "url" : "value",
-        "valueString" : "Parameters-expansion.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -381,28 +359,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "show-inherited-invariants"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-expansion-params"
-      },
-      {
-        "url" : "value",
-        "valueString" : "Parameters-expansion.json"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
@@ -654,18 +610,6 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Parameters"
-      }],
-      "reference" : {
-        "reference" : "Parameters/expansion"
-      },
-      "name" : "expansion",
-      "description" : "SNOMED CT Norwegian expansion parameter",
-      "exampleBoolean" : false
-    },
-    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
@@ -1062,7 +1006,7 @@
         "reference" : "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
       },
       "name" : "NoDomainVitalSignsConfoundingFactor-Extension",
-      "description" : "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields",
+      "description" : "Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields",
       "exampleBoolean" : false
     },
     {
