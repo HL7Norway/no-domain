@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Guidance -  v0.9.1</title>
+    <title>Guidance -  v0.9.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -32,10 +32,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.9.1 - ballotNormative-2
+            <span style="display:inline-block;">0.9.0 - ballotNormative-2
 
 
 
@@ -147,7 +147,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/no-domain/vitalsigns/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">NoDomainVitalSigns - Local Development build (v0.9.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/no-domain/vitalsigns/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Guidance</h2>
   
 
@@ -182,11 +182,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="fhir-r6-changes">FHIR R6 changes</h3>
 
-<p>R6 makes several changes to the use of <em>magic values</em> in vital-signs observations. First, the <em>magic value</em> is placed in the Observation.category, which better represents our interpretation of the <em>magic value</em> as a high-level category that makes it easy to find similar measurements. Second, there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.</p>
+<p>R6 makes several changes to the use of <em>magic values</em> in vital-signs observations. First of the <em>magic value</em> is placed in the Observation.category which better represents our interpretation of the <em>magic value</em>, as a high level category that makes it easy to find similar measurements. Secondly there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.</p>
 
 <h3 id="pulse-rate-vs-heart-rate">Pulse rate vs Heart rate</h3>
 
-<p>In most cases, pulse rate and heart rate values are considered to be clinically the same; pulse rate is treated as a "proxy" of the actual heart rate. However, there are several cases where pulse rate and heart rate are treated as different measurements and the differences have clinical importance. In most cases a general LOINC heart rate code to indicate both pulse rate and heart rate is good enough. For systems and clinical processes that need to differentiate the different concepts, the use of more specific SNOMED codes indicated in Observation.code slices in the no-domain-pulse and no-domain-heartrate profiles are recommended. Additional information about method and bodySite of the heart rate observation can also indicate pulse or heart rate observation.</p>
+<p>In most cases pulse rate and heart rate values are considered to be clinically the same; pulse rate is treated as a "proxy" of the actual heart rate. However there are several cases where pulse rate and heart rate are treated as different measurements and differences have clinical importance. In most cases a general LOINC heart rate code to indicate both pulse rate and heart rate is good enough. For systems and clinical processes that need to differentiate the different concepts, the use of more specific SNOMED codes indicated in Observation.code slices in the no-domain-pulse and no-domain-heartrate profiles are recommended. Additional information about method and bodySite of the heart rate observation can also indicate pulse or heart rate observation.</p>
 
 <h4 id="conceptual-model-vs-fhir-vital-signs-profiles">Conceptual model vs FHIR vital-signs profiles</h4>
 
@@ -213,7 +213,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jun 14, 2025 07:55+0000">2025-06-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 4, 2025 11:54+0000">2025-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
