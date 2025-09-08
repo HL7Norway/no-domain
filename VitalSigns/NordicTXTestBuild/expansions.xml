@@ -1,9 +1,2669 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9a0eedd2-37de-4c74-a1ae-021b019f76b5"/>
+  <id value="f0fc75bc-fa2e-40b2-bb2a-50e51d6eb8f1"/>
   <meta>
-    <lastUpdated value="2025-09-04T11:48:07.526+00:00"/>
+    <lastUpdated value="2025-09-08T07:46:07.641+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2025-01-28T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT 51000202101 edition 15-Apr 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
+        <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-08T07:45:23+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5f7c61a3-9802-4c50-8382-9aaf3c8d1d1f"/>
+          <timestamp value="2025-09-08T07:49:33+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/51000202101/version/20250415"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/51000202101/version/20250415"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2025-01-28T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx-nordics.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT 51000202101 edition 15-Apr 2025</li>
+                <li>SNOMED CT Swedish edition 31-May 2025</li>
+              </ul>
+            </div>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-4801000202104"> </a>  
+                  <a href="http://snomed.info/id/4801000202104">4801000202104</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Liggende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-414585002"> </a>  
+                  <a href="http://snomed.info/id/414585002">414585002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Liggende lent mot venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272580008"> </a>  
+                  <a href="http://snomed.info/id/272580008">272580008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tilbakelent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>oppreist stilling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33586001"> </a>  
+                  <a href="http://snomed.info/id/33586001">33586001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sittende</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBloodpressureBodyPositionValueSet"/>
+        <title value="NoDomainVitalSignsBloodpressureBodyPosition-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-09-08T07:45:23+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3935fce4-0c7f-4abd-b3ca-f1f1e08bf8e5"/>
+          <timestamp value="2025-09-08T07:49:34+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/51000202101/version/20250415"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/51000202101/version/20250415"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="4801000202104"/>
+            <display value="Liggende"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414585002"/>
+            <display value="Liggende lent mot venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272580008"/>
+            <display value="Tilbakelent"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="oppreist stilling"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sittende"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 12 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-6685009"> </a>  
+                  <a href="http://snomed.info/id/6685009">6685009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ankel, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-51636004"> </a>  
+                  <a href="http://snomed.info/id/51636004">51636004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ankel, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-7569003"> </a>  
+                  <a href="http://snomed.info/id/7569003">7569003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finger</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-2402003"> </a>  
+                  <a href="http://snomed.info/id/2402003">2402003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fotrygg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-9736006"> </a>  
+                  <a href="http://snomed.info/id/9736006">9736006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-5951000"> </a>  
+                  <a href="http://snomed.info/id/5951000">5951000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-51114001"> </a>  
+                  <a href="http://snomed.info/id/51114001">51114001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intraarterielt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-11207009"> </a>  
+                  <a href="http://snomed.info/id/11207009">11207009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-61396006"> </a>  
+                  <a href="http://snomed.info/id/61396006">61396006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368209003"> </a>  
+                  <a href="http://snomed.info/id/368209003">368209003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368208006"> </a>  
+                  <a href="http://snomed.info/id/368208006">368208006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tå</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+        <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:e45bb623-98ba-41df-b587-5b99bf4e0d15"/>
+          <timestamp value="2025-09-08T09:49:36+02:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6685009"/>
+            <display value="Ankel, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51636004"/>
+            <display value="Ankel, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2402003"/>
+            <display value="Fotrygg"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="9736006"/>
+            <display value="Håndledd, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5951000"/>
+            <display value="Håndledd, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51114001"/>
+            <display value="Intraarterielt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11207009"/>
+            <display value="Lår, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61396006"/>
+            <display value="Lår, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368209003"/>
+            <display value="Overarm, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368208006"/>
+            <display value="Overarm, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Tå"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBodyExposureValueSet"/>
+        <title value="NoDomainVitalSignsBodyExposure-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:df29e093-9f0b-42ec-a674-53c681578ae2"/>
+          <timestamp value="2025-09-08T09:49:36+02:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stående</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBodyHeightBodyPositionValueSet"/>
+        <title value="NoDomainVitalSignsBodyHeightBodyPosition-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:9f98c2a0-4287-407f-91f7-7d9fe23868c6"/>
+          <timestamp value="2025-09-08T09:49:37+02:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Stående"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 13 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-91470000"> </a>  
+                  <a href="http://snomed.info/id/91470000">91470000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Armhule</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-34402009"> </a>  
+                  <a href="http://snomed.info/id/34402009">34402009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Endetarm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-39937001"> </a>  
+                  <a href="http://snomed.info/id/39937001">39937001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hud</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-59820001"> </a>  
+                  <a href="http://snomed.info/id/59820001">59820001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intravaskulært</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-26893007"> </a>  
+                  <a href="http://snomed.info/id/26893007">26893007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lyske</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-122861001"> </a>  
+                  <a href="http://snomed.info/id/122861001">122861001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Munn</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-71836000"> </a>  
+                  <a href="http://snomed.info/id/71836000">71836000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nesesvelg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-42859004"> </a>  
+                  <a href="http://snomed.info/id/42859004">42859004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Øre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-52795006"> </a>  
+                  <a href="http://snomed.info/id/52795006">52795006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Panne</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-76784001"> </a>  
+                  <a href="http://snomed.info/id/76784001">76784001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Skjede</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-32849002"> </a>  
+                  <a href="http://snomed.info/id/32849002">32849002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Spiserør</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-450721000"> </a>  
+                  <a href="http://snomed.info/id/450721000">450721000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tinning</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-89837001"> </a>  
+                  <a href="http://snomed.info/id/89837001">89837001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Urinblære</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsBodyTempBodySiteValueSet"/>
+        <title value="NoDomainVitalSignsBodyTempBodySite-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:4a211343-6cfb-437c-9970-61c2b7028f31"/>
+          <timestamp value="2025-09-08T09:49:37+02:00"/>
+          <total value="13"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="91470000"/>
+            <display value="Armhule"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34402009"/>
+            <display value="Endetarm"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="39937001"/>
+            <display value="Hud"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="59820001"/>
+            <display value="Intravaskulært"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26893007"/>
+            <display value="Lyske"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="122861001"/>
+            <display value="Munn"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="71836000"/>
+            <display value="Nesesvelg"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="42859004"/>
+            <display value="Øre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="52795006"/>
+            <display value="Panne"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="76784001"/>
+            <display value="Skjede"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="32849002"/>
+            <display value="Spiserør"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="450721000"/>
+            <display value="Tinning"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="89837001"/>
+            <display value="Urinblære"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsClothingStateValueSet"/>
+        <title value="NoDomainVitalSignsClothingState-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:56695de7-5890-4a7c-8ded-8fcd1fc46d36"/>
+          <timestamp value="2025-09-08T09:49:38+02:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-720736009"> </a>  
+                  <a href="http://snomed.info/id/720736009">720736009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Barn</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-720740000"> </a>  
+                  <a href="http://snomed.info/id/720740000">720740000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår voksne</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-720737000"> </a>  
+                  <a href="http://snomed.info/id/720737000">720737000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Voksne</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsCuffsizeValueSet"/>
+        <title value="NoDomainVitalSignsCuffsize-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:7c7b0eb1-d41f-4595-a054-d657a95ae0e6"/>
+          <timestamp value="2025-09-08T09:49:39+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720736009"/>
+            <display value="Barn"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720740000"/>
+            <display value="Lår voksne"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720737000"/>
+            <display value="Voksne"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsDiastolicendPointValueSet"/>
+        <title value="NoDomainVitalSignsDiastolicendPoint-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:4f30f268-b0a2-47d6-8897-00c2d870fb79"/>
+          <timestamp value="2025-09-08T09:49:39+02:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-80891009"> </a>  
+                  <a href="http://snomed.info/id/80891009">80891009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hjerte</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsHeartRateBodySiteValueSet"/>
+        <title value="NoDomainVitalSignsHeartRateBodySite-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:0b696966-b239-4f95-bad0-29be89930942"/>
+          <timestamp value="2025-09-08T09:49:40+02:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="80891009"/>
+            <display value="Hjerte"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsHeartRateMeasurementMethodValueSet"/>
+        <title value="NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:b806717e-27f5-474e-bab5-1de67bc8e4e8"/>
+          <timestamp value="2025-09-08T09:49:40+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33586001"> </a>  
+                  <a href="http://snomed.info/id/33586001">33586001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sittende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stående</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272580008"> </a>  
+                  <a href="http://snomed.info/id/272580008">272580008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tilbakelent</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsHeartRatePulseBodyPositionValueSet"/>
+        <title value="NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:4afdfbb3-415f-437d-9547-aa29b7afe16e"/>
+          <timestamp value="2025-09-08T09:49:41+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sittende"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Stående"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272580008"/>
+            <display value="Tilbakelent"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-361137007"> </a>  
+                  <a href="http://snomed.info/id/361137007">361137007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248652003"> </a>  
+                  <a href="http://snomed.info/id/248652003">248652003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Regelmessig uregelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248651005"> </a>  
+                  <a href="http://snomed.info/id/248651005">248651005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsHeartRhythmIrregularityValueSet"/>
+        <title value="NoDomainVitalSignsHeartRhythmIrregularity-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:1b43da97-31d9-49db-a88c-bed4e87d5e28"/>
+          <timestamp value="2025-09-08T09:49:42+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="361137007"/>
+            <display value="Uregelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248652003"/>
+            <display value="Regelmessig uregelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248651005"/>
+            <display value="Uregelmessig uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 12 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-723962009"> </a>  
+                  <a href="http://snomed.info/id/723962009">723962009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brachialisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-723961002"> </a>  
+                  <a href="http://snomed.info/id/723961002">723961002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brachialisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-721033002"> </a>  
+                  <a href="http://snomed.info/id/721033002">721033002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Carotisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-721028001"> </a>  
+                  <a href="http://snomed.info/id/721028001">721028001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Carotisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-69833005"> </a>  
+                  <a href="http://snomed.info/id/69833005">69833005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Femoralisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-113270003"> </a>  
+                  <a href="http://snomed.info/id/113270003">113270003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Femoralisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-7569003"> </a>  
+                  <a href="http://snomed.info/id/7569003">7569003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finger</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-48800003"> </a>  
+                  <a href="http://snomed.info/id/48800003">48800003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Øreflipp</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368503001"> </a>  
+                  <a href="http://snomed.info/id/368503001">368503001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Radialisarterien, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368504007"> </a>  
+                  <a href="http://snomed.info/id/368504007">368504007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Radialisarterien, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tå</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-86547008"> </a>  
+                  <a href="http://snomed.info/id/86547008">86547008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Dorsalis pedis</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsPulseBodySiteValueSet"/>
+        <title value="NoDomainVitalSignsPulseBodySite-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:5398297f-90df-4ddd-9a3d-0309eac13644"/>
+          <timestamp value="2025-09-08T09:49:42+02:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="723962009"/>
+            <display value="Brachialisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="723961002"/>
+            <display value="Brachialisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="721033002"/>
+            <display value="Carotisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="721028001"/>
+            <display value="Carotisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="69833005"/>
+            <display value="Femoralisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113270003"/>
+            <display value="Femoralisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="48800003"/>
+            <display value="Øreflipp"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368503001"/>
+            <display value="Radialisarterien, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368504007"/>
+            <display value="Radialisarterien, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Tå"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="86547008"/>
+            <display value="Dorsalis pedis"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx-nordics.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT Swedish edition 31-May 2025</li>
+                <li>
+                  <a href="ValueSet-NoDomainVitalSignsHeartRateMeasurementMethodValueSet.html">valueset NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet v0.9.2 (ValueSet)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Auskultasjon</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Palpasjon</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsPulseMeasurementMethodValueSet"/>
+        <title value="NoDomainVitalSignsPulseMeasurementMethod-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:62f144b8-655b-4933-8ae7-59d2ee4c8cff"/>
+          <timestamp value="2025-09-08T09:49:43+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auskultasjon"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpasjon"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-271638000"> </a>  
+                  <a href="http://snomed.info/id/271638000">271638000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Regelmessig uregelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-271637005"> </a>  
+                  <a href="http://snomed.info/id/271637005">271637005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsPulseRhythmIrregularityValueSet"/>
+        <title value="NoDomainVitalSignsPulseRhythmIrregularity-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:519a91f6-15d1-4d28-885b-6324a80f471d"/>
+          <timestamp value="2025-09-08T09:49:43+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271638000"/>
+            <display value="Regelmessig uregelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271637005"/>
+            <display value="Uregelmessig uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-271636001"> </a>  
+                  <a href="http://snomed.info/id/271636001">271636001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Regelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-61086009"> </a>  
+                  <a href="http://snomed.info/id/61086009">61086009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsPulseRhythmValueSet"/>
+        <title value="NoDomainVitalSignsPulseRhythm-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:fb44a6b3-e77a-475e-8522-d02010af0c40"/>
+          <timestamp value="2025-09-08T09:49:44+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271636001"/>
+            <display value="Regelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61086009"/>
+            <display value="Uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1240000"> </a>  
+                  <a href="http://snomed.info/id/1240000">1240000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mageleie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-40199007"> </a>  
+                  <a href="http://snomed.info/id/40199007">40199007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ryggleie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33586001"> </a>  
+                  <a href="http://snomed.info/id/33586001">33586001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sittende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>oppreist stilling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272580008"> </a>  
+                  <a href="http://snomed.info/id/272580008">272580008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tilbakelent</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsRespirationRateBodyPositionValueSet"/>
+        <title value="NoDomainVitalSignsRespirationRateBodyPosition-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:caa05982-2985-4e66-8849-693bf39204a9"/>
+          <timestamp value="2025-09-08T09:49:45+02:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1240000"/>
+            <display value="Mageleie"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40199007"/>
+            <display value="Ryggleie"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sittende"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="oppreist stilling"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272580008"/>
+            <display value="Tilbakelent"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-289123006"> </a>  
+                  <a href="http://snomed.info/id/289123006">289123006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Dyp</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-301284009"> </a>  
+                  <a href="http://snomed.info/id/301284009">301284009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Normal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-386616007"> </a>  
+                  <a href="http://snomed.info/id/386616007">386616007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overfladisk</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248587009"> </a>  
+                  <a href="http://snomed.info/id/248587009">248587009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Varierende</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsRespirationRateDepthValueSet"/>
+        <title value="NoDomainVitalSignsRespirationRateDepth-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:c9db7c88-9d85-4385-b383-1f14a7cba4d3"/>
+          <timestamp value="2025-09-08T09:49:45+02:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="289123006"/>
+            <display value="Dyp"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="301284009"/>
+            <display value="Normal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="386616007"/>
+            <display value="Overfladisk"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248587009"/>
+            <display value="Varierende"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-276888009"> </a>  
+                  <a href="http://snomed.info/id/276888009">276888009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Regelmessig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248585001"> </a>  
+                  <a href="http://snomed.info/id/248585001">248585001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Uregelmessig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsRespirationRegularityValueSet"/>
+        <title value="NoDomainVitalSignsRespirationRegularity-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:143baf64-3b4b-4a82-b3f7-8df6e3a7c03b"/>
+          <timestamp value="2025-09-08T09:49:46+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="276888009"/>
+            <display value="Regelmessig"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248585001"/>
+            <display value="Uregelmessig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248220008"> </a>  
+                  <a href="http://snomed.info/id/248220008">248220008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sovende</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-248218005"> </a>  
+                  <a href="http://snomed.info/id/248218005">248218005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Våken</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsSleepStatusValueSet"/>
+        <title value="NoDomainVitalSignsSleepStatus-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:b1af7183-3809-47d7-8577-610981a9cd23"/>
+          <timestamp value="2025-09-08T09:49:46+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248220008"/>
+            <display value="Sovende"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248218005"/>
+            <display value="Våken"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx-nordics.fhir.org based on SNOMED CT Swedish edition 31-May 2025</p>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-241700002"> </a>  
+                  <a href="http://snomed.info/id/241700002">241700002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tilstede</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet"/>
+        <version value="0.9.2"/>
+        <name value="NoDomainVitalSignsSpontaneousBreathingValueSet"/>
+        <title value="NoDomainVitalSignsSpontaneousBreathing-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <copyright value="This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"/>
+        <expansion>
+          <identifier value="urn:uuid:5f3f4935-5673-472e-8f09-b854ac4afb7e"/>
+          <timestamp value="2025-09-08T09:49:47+02:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/45991000052106/version/20250531"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet|0.9.2"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="241700002"/>
+            <display value="Tilstede"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>
