@@ -17,7 +17,7 @@ Description: "Codes representing body position for blood pressure"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* http://snomed.info/sct|http://snomed.info/sct/51000202101#4801000202104 "Liggende"
+* http://snomed.info/sct|http://snomed.info/sct/51000202101#4801000202104 "Liggende flatt"
 * SNOMED_CT#414585002 "Liggende lent mot venstre"
 * SNOMED_CT#272580008 "Tilbakelent"
 * SNOMED_CT#10904000 "oppreist stilling"
