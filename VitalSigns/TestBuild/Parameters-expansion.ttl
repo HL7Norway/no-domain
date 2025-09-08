@@ -10,17 +10,10 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "expansion"] ; # 
   fhir:parameter ( [
-     fhir:name [ fhir:v "displayLanguage" ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "no"
-     ]
-  ] [
      fhir:name [ fhir:v "system-version" ] ;
      fhir:value [
-       a fhir:canonical ;
-       fhir:v "http://snomed.info/sct|http://snomed.info/sct/51000202101"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/sct|http://snomed.info/sct/51000202101>
+       a fhir:uri ;
+       fhir:v "http://snomed.info/sct|http://snomed.info/sct/51000202101"^^xsd:anyURI
      ]
   ] ) . # 
 
