@@ -17,3 +17,4 @@ Alias: $sct = http://snomed.info/sct
 Alias: $sctno = http://snomed.info/sct/51000202101
 Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $sctnovs = http://snomed.info/sct|http://snomed.info/sct/51000202101

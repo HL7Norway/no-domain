@@ -15,7 +15,7 @@ Description: "Codes representing body exposure"
 * ^experimental = false
 * ^publisher = "FHIR Project team"
 
-* SNOMED_CT#5671000202107 "Naken"
-* SNOMED_CT#5601000202102 "Økt påkledning/tildekking"
-* SNOMED_CT#5611000202100 "Passende påkledning/tildekking"
-* SNOMED_CT#5591000202105 "Redusert påkledning/tildekking"
+* $sctnovs#5671000202107 "Naken"
+* $sctnovs#5601000202102 "Økt påkledning/tildekking"
+* $sctnovs#5611000202100 "Passende påkledning/tildekking"
+* $sctnovs#5591000202105 "Redusert påkledning/tildekking"
