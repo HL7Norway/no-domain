@@ -14,5 +14,5 @@ Description: "Codes representing body position for body height"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* SNOMED_CT#4801000202104 "Liggende"
+* $sctnovs#4801000202104 "Liggende"
 * SNOMED_CT#10904000 "Stående"
