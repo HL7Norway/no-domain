@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "92bb17e8-e14e-4a31-ab80-2b5caa8d4fe5",
+  "id" : "62e32a8f-b5d6-48d7-acd0-5d0206c3d0e4",
   "meta" : {
-    "lastUpdated" : "2025-09-08T08:52:54.081+00:00"
+    "lastUpdated" : "2025-10-05T20:07:23.319+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -15,15 +15,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
       "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,25 +32,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:74c99270-9586-4dbb-ab80-8d296bf27ade",
-        "timestamp" : "2025-09-08T08:54:02.100Z",
+        "identifier" : "urn:uuid:e4b790fa-4242-40ae-9acd-e86ce6c31e9c",
+        "timestamp" : "2025-10-05T20:08:59+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -74,6 +74,84 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "lastUpdated" : "2025-01-28T00:00:00+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-414585002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/414585002\">414585002</a></td><td>http://snomed.info/sct</td><td>Left lateral tilt (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-272580008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>http://snomed.info/sct</td><td>Semi-recumbent position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr></table></div>"
+      },
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet",
+      "version" : "0.9.0",
+      "name" : "NoDomainVitalSignsBloodpressureBodyPositionValueSet",
+      "title" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2025-10-05T20:06:33+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:3536996e-b96a-4535-a1b2-1ce283a58f63",
+        "timestamp" : "2025-10-05T20:09:00+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "414585002",
+          "display" : "Left lateral tilt (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "272580008",
+          "display" : "Semi-recumbent position"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "10904000",
+          "display" : "Orthostatic body position"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "33586001",
+          "display" : "Sitting position"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -83,15 +161,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 12 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-6685009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>http://snomed.info/sct</td><td>Right ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51636004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>http://snomed.info/sct</td><td>Left ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-7569003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>http://snomed.info/sct</td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-2402003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>http://snomed.info/sct</td><td>Dorsum of foot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-9736006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>http://snomed.info/sct</td><td>Right wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-5951000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>http://snomed.info/sct</td><td>Left wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51114001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>http://snomed.info/sct</td><td>Artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-11207009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>http://snomed.info/sct</td><td>Right thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-61396006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>http://snomed.info/sct</td><td>Left thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368209003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>http://snomed.info/sct</td><td>Right upper arm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368208006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>http://snomed.info/sct</td><td>Left upper arm structure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-29707007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>http://snomed.info/sct</td><td>Toe</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 12 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-6685009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>http://snomed.info/sct</td><td>Right ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51636004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>http://snomed.info/sct</td><td>Left ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-7569003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>http://snomed.info/sct</td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-2402003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>http://snomed.info/sct</td><td>Dorsum of foot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-9736006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>http://snomed.info/sct</td><td>Right wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-5951000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>http://snomed.info/sct</td><td>Left wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51114001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>http://snomed.info/sct</td><td>Artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-11207009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>http://snomed.info/sct</td><td>Right thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-61396006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>http://snomed.info/sct</td><td>Left thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368209003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>http://snomed.info/sct</td><td>Right upper arm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368208006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>http://snomed.info/sct</td><td>Left upper arm structure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-29707007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>http://snomed.info/sct</td><td>Toe</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
       "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -100,25 +178,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f30710c0-eaf4-4ffa-9c55-8ee9505ddbe8",
-        "timestamp" : "2025-09-08T08:54:03.658Z",
+        "identifier" : "urn:uuid:2a479877-4b7e-4326-82f7-3a526dd79975",
+        "timestamp" : "2025-10-05T20:09:01+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -201,15 +279,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsBodyExposureValueSet",
       "title" : "NoDomainVitalSignsBodyExposure-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -218,25 +296,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e9286797-8b4b-48af-870a-bc25a72bd4fa",
-        "timestamp" : "2025-09-08T08:54:04.022Z",
+        "identifier" : "urn:uuid:0c0efd89-829f-42d2-aeaf-e39619f7c9e0",
+        "timestamp" : "2025-10-05T20:09:01+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -259,15 +337,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyHeightBodyPositionValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsBodyHeightBodyPositionValueSet",
       "title" : "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -276,25 +354,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:371afde0-cda1-4bcb-9fe9-90ca7cd48910",
-        "timestamp" : "2025-09-08T08:54:04.351Z",
+        "identifier" : "urn:uuid:df4c6abf-5437-425a-b07d-c0ce8050cde3",
+        "timestamp" : "2025-10-05T20:09:01+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -322,15 +400,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 13 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-91470000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/91470000\">91470000</a></td><td>http://snomed.info/sct</td><td>Axillary region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-34402009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/34402009\">34402009</a></td><td>http://snomed.info/sct</td><td>Rectum</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-39937001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/39937001\">39937001</a></td><td>http://snomed.info/sct</td><td>Skin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-59820001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/59820001\">59820001</a></td><td>http://snomed.info/sct</td><td>Blood vessel</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-26893007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/26893007\">26893007</a></td><td>http://snomed.info/sct</td><td>Inguinal region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-122861001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122861001\">122861001</a></td><td>http://snomed.info/sct</td><td>Supramylohyoid space</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-71836000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/71836000\">71836000</a></td><td>http://snomed.info/sct</td><td>Nasopharynx</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-42859004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/42859004\">42859004</a></td><td>http://snomed.info/sct</td><td>Tympanic membrane</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-52795006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/52795006\">52795006</a></td><td>http://snomed.info/sct</td><td>Forehead</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-76784001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/76784001\">76784001</a></td><td>http://snomed.info/sct</td><td>Vagina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-32849002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/32849002\">32849002</a></td><td>http://snomed.info/sct</td><td>Esophagus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-450721000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/450721000\">450721000</a></td><td>http://snomed.info/sct</td><td>Structure of temporal region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-89837001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/89837001\">89837001</a></td><td>http://snomed.info/sct</td><td>Urinary bladder</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 13 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-91470000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/91470000\">91470000</a></td><td>http://snomed.info/sct</td><td>Axillary region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-34402009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/34402009\">34402009</a></td><td>http://snomed.info/sct</td><td>Rectum</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-39937001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/39937001\">39937001</a></td><td>http://snomed.info/sct</td><td>Skin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-59820001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/59820001\">59820001</a></td><td>http://snomed.info/sct</td><td>Blood vessel</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-26893007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/26893007\">26893007</a></td><td>http://snomed.info/sct</td><td>Inguinal region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-122861001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122861001\">122861001</a></td><td>http://snomed.info/sct</td><td>Supramylohyoid space</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-71836000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/71836000\">71836000</a></td><td>http://snomed.info/sct</td><td>Nasopharynx</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-42859004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/42859004\">42859004</a></td><td>http://snomed.info/sct</td><td>Tympanic membrane</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-52795006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/52795006\">52795006</a></td><td>http://snomed.info/sct</td><td>Forehead</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-76784001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/76784001\">76784001</a></td><td>http://snomed.info/sct</td><td>Vagina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-32849002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/32849002\">32849002</a></td><td>http://snomed.info/sct</td><td>Esophagus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-450721000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/450721000\">450721000</a></td><td>http://snomed.info/sct</td><td>Structure of temporal region</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-89837001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/89837001\">89837001</a></td><td>http://snomed.info/sct</td><td>Urinary bladder</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyTempBodySiteValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsBodyTempBodySiteValueSet",
       "title" : "NoDomainVitalSignsBodyTempBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -339,25 +417,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2b63c7c9-db28-4db8-b863-05cbe2abe42b",
-        "timestamp" : "2025-09-08T08:54:04.685Z",
+        "identifier" : "urn:uuid:f322a313-0697-46c2-a6d2-60f946912507",
+        "timestamp" : "2025-10-05T20:09:02+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -445,15 +523,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsClothingStateValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsClothingStateValueSet",
       "title" : "NoDomainVitalSignsClothingState-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -462,25 +540,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:05a966b7-821c-4ba9-8765-0430460b18b7",
-        "timestamp" : "2025-09-08T08:54:05.022Z",
+        "identifier" : "urn:uuid:571d6524-3887-4ea0-b666-355e66397e33",
+        "timestamp" : "2025-10-05T20:09:02+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -503,15 +581,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720736009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, pediatric size (physical object)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720740000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, adult thigh type (physical object)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720737000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, adult size (physical object)</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720736009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, pediatric size (physical object)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720740000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, adult thigh type (physical object)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-720737000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>http://snomed.info/sct</td><td>Blood pressure cuff, adult size (physical object)</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsCuffsizeValueSet",
       "title" : "NoDomainVitalSignsCuffsize-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -520,25 +598,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:75a49494-2957-4034-8110-0600b8f13d18",
-        "timestamp" : "2025-09-08T08:54:05.340Z",
+        "identifier" : "urn:uuid:d765add6-4315-4016-af13-9f08cc0749e5",
+        "timestamp" : "2025-10-05T20:09:03+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -576,10 +654,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsDiastolicendPointValueSet",
       "title" : "NoDomainVitalSignsDiastolicendPoint-ValueSet",
       "status" : "draft",
@@ -593,25 +671,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d761b60b-5420-46f0-90a4-d514c3375209",
-        "timestamp" : "2025-09-08T08:54:05.696Z",
+        "identifier" : "urn:uuid:75ff324d-4a0f-45cd-bd14-f916a21ab4fb",
+        "timestamp" : "2025-10-05T20:09:03+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -634,15 +712,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-80891009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/80891009\">80891009</a></td><td>http://snomed.info/sct</td><td>Heart</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-80891009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/80891009\">80891009</a></td><td>http://snomed.info/sct</td><td>Heart</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsHeartRateBodySiteValueSet",
       "title" : "NoDomainVitalSignsHeartRateBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -651,25 +729,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7059b8e4-4165-448f-a27e-bbc77f013049",
-        "timestamp" : "2025-09-08T08:54:06.024Z",
+        "identifier" : "urn:uuid:367dac8f-6509-4d13-a2e1-2a4efa2bb1d3",
+        "timestamp" : "2025-10-05T20:09:04+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -697,15 +775,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateMeasurementMethodValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsHeartRateMeasurementMethodValueSet",
       "title" : "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -714,25 +792,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7ed3aeb8-4c73-4350-9900-22731734ce73",
-        "timestamp" : "2025-09-08T08:54:06.347Z",
+        "identifier" : "urn:uuid:caf9e068-87bb-463a-8aba-6f7f3e9f9747",
+        "timestamp" : "2025-10-05T20:09:04+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -765,15 +843,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-272580008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>http://snomed.info/sct</td><td>Semi-recumbent position</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-272580008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>http://snomed.info/sct</td><td>Semi-recumbent position</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
       "title" : "NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -782,25 +860,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:191cddc4-71b2-4920-b6bd-3d8b87c4bdad",
-        "timestamp" : "2025-09-08T08:54:06.674Z",
+        "identifier" : "urn:uuid:cb05e4b9-ef01-4add-94bb-e796a2098443",
+        "timestamp" : "2025-10-05T20:09:04+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -838,15 +916,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-361137007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/361137007\">361137007</a></td><td>http://snomed.info/sct</td><td>Irregular heart beat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248652003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248652003\">248652003</a></td><td>http://snomed.info/sct</td><td>Heart regularly irregular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248651005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248651005\">248651005</a></td><td>http://snomed.info/sct</td><td>Heart irregularly irregular</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-361137007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/361137007\">361137007</a></td><td>http://snomed.info/sct</td><td>Irregular heart beat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248652003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248652003\">248652003</a></td><td>http://snomed.info/sct</td><td>Heart regularly irregular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248651005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248651005\">248651005</a></td><td>http://snomed.info/sct</td><td>Heart irregularly irregular</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRhythmIrregularityValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsHeartRhythmIrregularityValueSet",
       "title" : "NoDomainVitalSignsHeartRhythmIrregularity-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -855,25 +933,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:526f128e-8dc2-43c3-a5f0-ec79b84fc5ef",
-        "timestamp" : "2025-09-08T08:54:07.004Z",
+        "identifier" : "urn:uuid:d1cb0b9e-38c1-4bbb-9554-bb6404b36293",
+        "timestamp" : "2025-10-05T20:09:05+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -911,15 +989,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 12 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-723962009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/723962009\">723962009</a></td><td>http://snomed.info/sct</td><td>Structure of right brachial artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-723961002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/723961002\">723961002</a></td><td>http://snomed.info/sct</td><td>Structure of left brachial artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-721033002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/721033002\">721033002</a></td><td>http://snomed.info/sct</td><td>Structure of right carotid artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-721028001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/721028001\">721028001</a></td><td>http://snomed.info/sct</td><td>Structure of left carotid artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-69833005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/69833005\">69833005</a></td><td>http://snomed.info/sct</td><td>Right femoral artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113270003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113270003\">113270003</a></td><td>http://snomed.info/sct</td><td>Left femoral artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-7569003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>http://snomed.info/sct</td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-48800003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/48800003\">48800003</a></td><td>http://snomed.info/sct</td><td>Ear lobule</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368503001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368503001\">368503001</a></td><td>http://snomed.info/sct</td><td>Right radial artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368504007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368504007\">368504007</a></td><td>http://snomed.info/sct</td><td>Structure of left radial artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-29707007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>http://snomed.info/sct</td><td>Toe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-86547008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/86547008\">86547008</a></td><td>http://snomed.info/sct</td><td>Dorsalis pedis artery</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 12 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-723962009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/723962009\">723962009</a></td><td>http://snomed.info/sct</td><td>Structure of right brachial artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-723961002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/723961002\">723961002</a></td><td>http://snomed.info/sct</td><td>Structure of left brachial artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-721033002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/721033002\">721033002</a></td><td>http://snomed.info/sct</td><td>Structure of right carotid artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-721028001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/721028001\">721028001</a></td><td>http://snomed.info/sct</td><td>Structure of left carotid artery (body structure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-69833005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/69833005\">69833005</a></td><td>http://snomed.info/sct</td><td>Right femoral artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113270003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113270003\">113270003</a></td><td>http://snomed.info/sct</td><td>Left femoral artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-7569003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>http://snomed.info/sct</td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-48800003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/48800003\">48800003</a></td><td>http://snomed.info/sct</td><td>Ear lobule</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368503001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368503001\">368503001</a></td><td>http://snomed.info/sct</td><td>Right radial artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368504007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368504007\">368504007</a></td><td>http://snomed.info/sct</td><td>Structure of left radial artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-29707007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>http://snomed.info/sct</td><td>Toe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-86547008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/86547008\">86547008</a></td><td>http://snomed.info/sct</td><td>Dorsalis pedis artery</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseBodySiteValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsPulseBodySiteValueSet",
       "title" : "NoDomainVitalSignsPulseBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -928,25 +1006,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b8b46b11-236a-452d-93f2-421643eeda21",
-        "timestamp" : "2025-09-08T08:54:07.342Z",
+        "identifier" : "urn:uuid:a5eb9e99-8ee3-4aef-8469-121b00c1bb07",
+        "timestamp" : "2025-10-05T20:09:05+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1029,15 +1107,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseMeasurementMethodValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsPulseMeasurementMethodValueSet",
       "title" : "NoDomainVitalSignsPulseMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1046,25 +1124,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:960ab04b-dd88-45be-9a65-fedc80f9f94d",
-        "timestamp" : "2025-09-08T08:54:07.702Z",
+        "identifier" : "urn:uuid:48622182-c1e2-4d61-b383-7e095e43b765",
+        "timestamp" : "2025-10-05T20:09:05+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1097,15 +1175,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271638000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271638000\">271638000</a></td><td>http://snomed.info/sct</td><td>Pulse regularly irregular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271637005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271637005\">271637005</a></td><td>http://snomed.info/sct</td><td>Pulse irregularly irregular</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271638000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271638000\">271638000</a></td><td>http://snomed.info/sct</td><td>Pulse regularly irregular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271637005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271637005\">271637005</a></td><td>http://snomed.info/sct</td><td>Pulse irregularly irregular</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmIrregularityValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsPulseRhythmIrregularityValueSet",
       "title" : "NoDomainVitalSignsPulseRhythmIrregularity-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1114,25 +1192,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a5d772e2-8dbf-499c-b880-b90a8036ca3d",
-        "timestamp" : "2025-09-08T08:54:08.020Z",
+        "identifier" : "urn:uuid:78813550-0e83-43d7-84e0-2e50690c6089",
+        "timestamp" : "2025-10-05T20:09:05+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1165,15 +1243,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271636001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271636001\">271636001</a></td><td>http://snomed.info/sct</td><td>Pulse regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-61086009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/61086009\">61086009</a></td><td>http://snomed.info/sct</td><td>Uregelmessig</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-271636001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271636001\">271636001</a></td><td>http://snomed.info/sct</td><td>Pulse regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-61086009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/61086009\">61086009</a></td><td>http://snomed.info/sct</td><td>Uregelmessig</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsPulseRhythmValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsPulseRhythmValueSet",
       "title" : "NoDomainVitalSignsPulseRhythm-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1182,25 +1260,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3a0f221-6e06-4d12-810e-e111e6963249",
-        "timestamp" : "2025-09-08T08:54:08.338Z",
+        "identifier" : "urn:uuid:9a9f77d1-4fa1-4653-b0a2-c9b587a10d8f",
+        "timestamp" : "2025-10-05T20:09:06+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1233,15 +1311,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1240000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1240000\">1240000</a></td><td>http://snomed.info/sct</td><td>Prone body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-40199007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/40199007\">40199007</a></td><td>http://snomed.info/sct</td><td>Supine body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-272580008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>http://snomed.info/sct</td><td>Semi-recumbent position</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1240000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1240000\">1240000</a></td><td>http://snomed.info/sct</td><td>Prone body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-40199007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/40199007\">40199007</a></td><td>http://snomed.info/sct</td><td>Supine body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-272580008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/272580008\">272580008</a></td><td>http://snomed.info/sct</td><td>Semi-recumbent position</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateBodyPositionValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsRespirationRateBodyPositionValueSet",
       "title" : "NoDomainVitalSignsRespirationRateBodyPosition-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1250,25 +1328,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fcc35053-e7a3-4b89-87f2-4e17f28b2c32",
-        "timestamp" : "2025-09-08T08:54:08.658Z",
+        "identifier" : "urn:uuid:8bb92e4a-4f36-4ffa-80fd-ed06b6575ac4",
+        "timestamp" : "2025-10-05T20:09:06+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1316,15 +1394,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-289123006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/289123006\">289123006</a></td><td>http://snomed.info/sct</td><td>Deep breathing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-301284009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/301284009\">301284009</a></td><td>http://snomed.info/sct</td><td>Normal depth of breathing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-386616007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386616007\">386616007</a></td><td>http://snomed.info/sct</td><td>Shallow breathing (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248587009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248587009\">248587009</a></td><td>http://snomed.info/sct</td><td>Depth of respiration varies</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-289123006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/289123006\">289123006</a></td><td>http://snomed.info/sct</td><td>Deep breathing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-301284009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/301284009\">301284009</a></td><td>http://snomed.info/sct</td><td>Normal depth of breathing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-386616007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/386616007\">386616007</a></td><td>http://snomed.info/sct</td><td>Shallow breathing (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248587009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248587009\">248587009</a></td><td>http://snomed.info/sct</td><td>Depth of respiration varies</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRateDepthValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsRespirationRateDepthValueSet",
       "title" : "NoDomainVitalSignsRespirationRateDepth-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1333,25 +1411,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bae13eb3-3806-4221-abf0-8e2ffc2cceff",
-        "timestamp" : "2025-09-08T08:54:08.993Z",
+        "identifier" : "urn:uuid:87df9b84-4f74-4683-b3a4-1aeb186eb7d2",
+        "timestamp" : "2025-10-05T20:09:07+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1394,15 +1472,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-276888009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>http://snomed.info/sct</td><td>SR - Normal spontaneous respiration</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248585001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248585001\">248585001</a></td><td>http://snomed.info/sct</td><td>Irregular breathing</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-276888009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>http://snomed.info/sct</td><td>SR - Normal spontaneous respiration</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248585001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248585001\">248585001</a></td><td>http://snomed.info/sct</td><td>Irregular breathing</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsRespirationRegularityValueSet",
       "title" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1411,25 +1489,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ffefcd03-65b6-4ba1-ab31-7b1e320ecd2d",
-        "timestamp" : "2025-09-08T08:54:09.326Z",
+        "identifier" : "urn:uuid:dffd8262-07cd-43d9-aed9-d724f84ddde3",
+        "timestamp" : "2025-10-05T20:09:07+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1462,15 +1540,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248220008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248220008\">248220008</a></td><td>http://snomed.info/sct</td><td>Asleep</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248218005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248218005\">248218005</a></td><td>http://snomed.info/sct</td><td>Awake</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248220008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248220008\">248220008</a></td><td>http://snomed.info/sct</td><td>Asleep</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-248218005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248218005\">248218005</a></td><td>http://snomed.info/sct</td><td>Awake</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsSleepStatusValueSet",
       "title" : "NoDomainVitalSignsSleepStatus-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1479,25 +1557,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ca6bfaa7-5fdd-4978-866e-c471bf9790c9",
-        "timestamp" : "2025-09-08T08:54:09.647Z",
+        "identifier" : "urn:uuid:9efeec8e-2f6c-423f-a243-e3f4bf9bbe4a",
+        "timestamp" : "2025-10-05T20:09:08+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
@@ -1530,15 +1608,15 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-241700002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>http://snomed.info/sct</td><td>Spontaneous ventilation</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-241700002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/241700002\">241700002</a></td><td>http://snomed.info/sct</td><td>Spontaneous ventilation</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSpontaneousBreathingValueSet",
-      "version" : "0.9.1",
+      "version" : "0.9.0",
       "name" : "NoDomainVitalSignsSpontaneousBreathingValueSet",
       "title" : "NoDomainVitalSignsSpontaneousBreathing-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-09-08T08:52:11+00:00",
+      "date" : "2025-10-05T20:06:33+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1547,25 +1625,25 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fe9e3bb4-ec0e-48cc-860e-7876cfd216cd",
-        "timestamp" : "2025-09-08T08:54:09.973Z",
+        "identifier" : "urn:uuid:dd2eddeb-5766-44f2-8432-9b2caa3a807c",
+        "timestamp" : "2025-10-05T20:09:08+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "name" : "count",
+          "valueInteger" : 1000
         },
         {
           "name" : "offset",
           "valueInteger" : 0
         },
         {
-          "name" : "count",
-          "valueInteger" : 1000
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
         },
         {
           "name" : "used-codesystem",
