@@ -18,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NoDomainVitalSignsCuffsizeValueSet</b></p><a name=\"NoDomainVitalSignsCuffsizeValueSet\"> </a><a name=\"hcNoDomainVitalSignsCuffsizeValueSet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-01-28 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td></tr><tr><td><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4231000202108\">4231000202108</a></td><td>Neonatal</td></tr><tr><td><a href=\"http://snomed.info/id/397641000202108\">397641000202108</a></td><td>Små voksne</td></tr><tr><td><a href=\"http://snomed.info/id/4281000202107\">4281000202107</a></td><td>Spedbarn</td></tr><tr><td><a href=\"http://snomed.info/id/397631000202102\">397631000202102</a></td><td>Store voksne</td></tr><tr><td><a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>Voksne</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NoDomainVitalSignsCuffsizeValueSet</b></p><a name=\"NoDomainVitalSignsCuffsizeValueSet\"> </a><a name=\"hcNoDomainVitalSignsCuffsizeValueSet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-01-28 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is not explicity stated. No matching Code System found\">Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/720736009\">720736009</a></td><td>Barn</td></tr><tr><td><a href=\"http://snomed.info/id/720740000\">720740000</a></td><td>Lår voksne</td></tr><tr><td><a href=\"http://snomed.info/id/720737000\">720737000</a></td><td>Voksne</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <span title=\"Version is explicitly stated to be http://snomed.info/sct/51000202101\">?</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/sct/51000202101/id/4231000202108\">4231000202108</a></td><td>Neonatal</td></tr><tr><td><a href=\"http://snomed.info/sct/51000202101/id/397641000202108\">397641000202108</a></td><td>Små voksne</td></tr><tr><td><a href=\"http://snomed.info/sct/51000202101/id/4281000202107\">4281000202107</a></td><td>Spedbarn</td></tr><tr><td><a href=\"http://snomed.info/sct/51000202101/id/397631000202102\">397631000202102</a></td><td>Store voksne</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
@@ -40,12 +40,12 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsCuffsizeValueSet"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "0.9.5"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSignsCuffsizeValueSet"] ; # 
   fhir:title [ fhir:v "NoDomainVitalSignsCuffsize-ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-10-05T20:13:42+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-06T08:31:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -73,6 +73,13 @@
          fhir:code [ fhir:v "720740000" ] ;
          fhir:display [ fhir:v "Lår voksne" ]
        ] [
+         fhir:code [ fhir:v "720737000" ] ;
+         fhir:display [ fhir:v "Voksne" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "http://snomed.info/sct/51000202101" ] ;
+       fhir:concept ( [
          fhir:code [ fhir:v "4231000202108" ] ;
          fhir:display [ fhir:v "Neonatal" ]
        ] [
@@ -84,9 +91,6 @@
        ] [
          fhir:code [ fhir:v "397631000202102" ] ;
          fhir:display [ fhir:v "Store voksne" ]
-       ] [
-         fhir:code [ fhir:v "720737000" ] ;
-         fhir:display [ fhir:v "Voksne" ]
        ] )
      ] )
   ] . # 
