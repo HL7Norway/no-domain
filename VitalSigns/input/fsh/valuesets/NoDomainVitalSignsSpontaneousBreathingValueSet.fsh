@@ -14,5 +14,5 @@ Description: "Codes representing Respiration Spontaneous breathing"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#4891000202108 "Ikke observert"
+* $sctnovs#4891000202108 "Ikke observert"
 * SNOMED_CT#241700002 "Tilstede"

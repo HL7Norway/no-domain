@@ -16,7 +16,7 @@ Description: "Codes representing body position for heart rate or Pulse"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#4801000202104 "Liggende"
+* $sctnovs#4801000202104 "Liggende"
 * SNOMED_CT#33586001 "Sittende"
 * SNOMED_CT#10904000 "Stående"
 * SNOMED_CT#272580008 "Tilbakelent"

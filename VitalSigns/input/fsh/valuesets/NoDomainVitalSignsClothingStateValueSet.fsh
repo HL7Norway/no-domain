@@ -14,8 +14,8 @@ Description: "Codes representing level of clothing"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#8121000202106 "Bleie"
-* SNOMED_CT#8081000202108 "Fullt påkledd inklusive sko"
-* SNOMED_CT#8091000202105 "Fullt påkledd, uten sko"
-* SNOMED_CT#8111000202103 "Lette klær / undertøy"
-* SNOMED_CT#8101000202100 "Naken"
+* $sctnovs#8121000202106 "Bleie"
+* $sctnovs#8081000202108 "Fullt påkledd inklusive sko"
+* $sctnovs#8091000202105 "Fullt påkledd, uten sko"
+* $sctnovs#8111000202103 "Lette klær / undertøy"
+* $sctnovs#8101000202100 "Naken"
