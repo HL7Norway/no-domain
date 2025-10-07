@@ -1,0 +1,34 @@
+class  Observation <<no-domain-VitalSigns-Observation-bloodpressure>> {
+  id: String [1..1]
+  'observation_bp: String [0..*] <<FHIR Blood Pressure Profile Norway>>
+  code: CodeableConcept [1..1] <<LOINC BPCode 85354-9>>
+  subject: Reference [1..1]
+  performer: Performer [0..*]
+  bodySite: CodeableConcept [0..1] <<NoDomainVitalSignsBloodpressureBodySite-ValueSet (required)>>
+  method: CodeableConcept [0..1] <<NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet (extensible)>>
+  referenceRange: BackboneElement [0..1]
+  component: SystolicBP [1..1]
+  component: DiastolicBP [1..1]
+  component: MeanArterialPressure [0..1]
+  component: PulsePressure [0..1]
+} 
+
+class SystolicBP {
+  code: CodeableConcept [1..1]
+}
+
+package "Systolic Coding" {
+
+class CodeableConcept {
+  coding: Coding [1..*]
+}
+
+class Coding {
+  system: URI [1..1] 
+  code: String [1..1] <<Fixed SNOMED 4471000202106>>
+}
+}
+
+Observation "1..1" *-right- "1..1" SystolicBP :component 
+SystolicBP "1" *-- "1" CodeableConcept :code 
+CodeableConcept "1" *-- "1" Coding 
