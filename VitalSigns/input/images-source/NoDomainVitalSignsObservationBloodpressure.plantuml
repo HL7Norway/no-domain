@@ -34,7 +34,7 @@ class Extension {
 '}
 
 class Performer::Author {
-  Reference [0..*] Practitioner | PractitionerRole | CareTeam | Patient | RelatedPerson | no-basis-Practitioner | no-basis-PractitionerRole
+  Reference [0..*] Practitioner | PractitionerRole | CareTeam | Patient | RelatedPerson | \n  no-basis-Practitioner | no-basis-PractitionerRole
 }
 
 class Performer::organization {
@@ -51,23 +51,23 @@ class Performer::organization {
 
 class component::SystolicBP {
   code: CodeableConcept [1..1] 
-  |-coding: Coding [1..*] <<[LOINC 8480-6], [SNOMED 4471000202106]]>>
+  |-coding: Coding [1..*] Slices for coding \n  [1..1] LOINC 8480-6 \n  [0..1] SNOMED 4471000202106
 }
 
 class component::DiastolicBP {
   code: CodeableConcept [1..1]
-  |-coding: Coding [1..*] <<Fixed SNOMED 4481000202108>>
+  |-coding: Coding [1..*] Slices for coding \n  [1..1] LOINC 8462-4\n  [0..1] SNOMED 4481000202108
 }
 
 class component::MeanArterialPressure {
   code: CodeableConcept [1..1]
-  |-coding: Coding [0..*] <<Fixed LOINC 8478-0 | SNOMED 4501000202102>>
+  |-coding: Coding [0..*] Slices for coding \n  [0..1] LOINC 8478-0 \n  [0..1] SNOMED 4501000202102
   value: Quantity [0..1] <<UCUM mm[Hg]>>
 }
 
 class component::PulsePressure {
   code: CodeableConcept [1..1]
-  |-coding: Coding [1..*] <<Fixed SNOMED 4461000202102>>
+  |-coding: Coding [1..*] Slices for coding \n  [0..1] SNOMED 4461000202102
   value: Quantity [0..1] <<UCUM mm[Hg]>>
 }
 
