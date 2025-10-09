@@ -1,4 +1,4 @@
-# NoDomainVitalSignsPulseRhythm-Extension - v0.9.6
+# NoDomainVitalSignsPulseRhythm-Extension - v0.9.61
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension | *Version*:0.9.6 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension | *Version*:0.9.61 |
 | Draft as of 2021-05-01 | *Computable Name*:NoDomainVitalSignsPulseRhythmExtension |
 
 Regularity of the pulse
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsPu
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsPulseRhythmExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension",
-  "version" : "0.9.6",
+  "version" : "0.9.61",
   "name" : "NoDomainVitalSignsPulseRhythmExtension",
   "title" : "NoDomainVitalSignsPulseRhythm-Extension",
   "status" : "draft",

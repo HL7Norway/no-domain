@@ -1,4 +1,4 @@
-# NoDomainVitalSignsSpontaneousBreathing-Extension - v0.9.6
+# NoDomainVitalSignsSpontaneousBreathing-Extension - v0.9.61
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension | *Version*:0.9.6 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension | *Version*:0.9.61 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsSpontaneousBreathingExtension |
 
 A narrative description about the spontaneous breathing of the individual.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsSp
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsSpontaneousBreathingExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension",
-  "version" : "0.9.6",
+  "version" : "0.9.61",
   "name" : "NoDomainVitalSignsSpontaneousBreathingExtension",
   "title" : "NoDomainVitalSignsSpontaneousBreathing-Extension",
   "status" : "draft",

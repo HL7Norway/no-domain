@@ -1,4 +1,4 @@
-# no-domain-VitalSigns-Observation-bloodpressure Profile - v0.9.6
+# no-domain-VitalSigns-Observation-bloodpressure Profile - v0.9.61
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure | *Version*:0.9.6 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure | *Version*:0.9.61 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsObservationBloodpressure |
 | **Copyright/Legal**: Some content in this profile builds on the blood pressure archetype: Blodtrykk, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-02]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2165 | |
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-domain-VitalSigns
   "resourceType" : "StructureDefinition",
   "id" : "no-domain-VitalSigns-Observation-bloodpressure",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure",
-  "version" : "0.9.6",
+  "version" : "0.9.61",
   "name" : "NoDomainVitalSignsObservationBloodpressure",
   "title" : "no-domain-VitalSigns-Observation-bloodpressure Profile",
   "status" : "draft",

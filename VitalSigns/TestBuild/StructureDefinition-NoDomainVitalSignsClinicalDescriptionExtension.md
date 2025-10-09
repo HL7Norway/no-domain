@@ -1,4 +1,4 @@
-# NoDomainVitalSignsClinicalDescription-Extension - v0.9.6
+# NoDomainVitalSignsClinicalDescription-Extension - v0.9.61
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension | *Version*:0.9.6 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension | *Version*:0.9.61 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsClinicalDescriptionExtension |
 
 Narrative description about the pulse or heart beat.
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCl
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsClinicalDescriptionExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension",
-  "version" : "0.9.6",
+  "version" : "0.9.61",
   "name" : "NoDomainVitalSignsClinicalDescriptionExtension",
   "title" : "NoDomainVitalSignsClinicalDescription-Extension",
   "status" : "draft",
