@@ -74,7 +74,7 @@ This value set contains 12 concepts
   "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-09T19:37:50+00:00",
+  "date" : "2025-10-09T19:58:38+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {
