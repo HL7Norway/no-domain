@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBloodpressureBodyPosition-ValueSet - v0.9.5
+# NoDomainVitalSignsBloodpressureBodyPosition-ValueSet - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet | *Version*:0.9.5 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet | *Version*:0.9.6 | |
 | *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBloodpressureBodyPositionValueSet |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
@@ -67,12 +67,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   ],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodyPositionValueSet",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsBloodpressureBodyPositionValueSet",
   "title" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-09T18:55:57+00:00",
+  "date" : "2025-10-09T19:07:52+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

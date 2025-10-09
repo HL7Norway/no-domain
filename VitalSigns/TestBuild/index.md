@@ -1,4 +1,4 @@
-# Home - v0.9.5
+# Home - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.6 |
 | Draft as of 2025-10-09 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
@@ -70,10 +70,10 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-10-09T18:55:57+00:00",
+  "date" : "2025-10-09T19:07:52+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {
@@ -129,7 +129,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
       "id" : "hl7_fhir_no_basis",
       "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
       "packageId" : "hl7.fhir.no.basis",
-      "version" : "2.2.0"
+      "version" : "2.2.2"
     }
   ],
   "definition" : {
@@ -1856,6 +1856,17 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
           ],
           "nameUrl" : "guidance.html",
           "title" : "Guidance",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "licence_legal.html"
+            }
+          ],
+          "nameUrl" : "licence_legal.html",
+          "title" : "Licence Legal",
           "generation" : "markdown"
         },
         {

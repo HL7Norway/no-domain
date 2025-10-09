@@ -1,4 +1,4 @@
-# NoDomainVitalSignsSleepStatus-ValueSet - v0.9.5
+# NoDomainVitalSignsSleepStatus-ValueSet - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,9 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet | *Version*:0.9.5 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet | *Version*:0.9.6 | |
 | *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsSleepStatusValueSet |
-| **Copyright/Legal**: This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org | | |
+| **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
  
 Codes representing Sleep Status 
@@ -69,12 +69,12 @@ This value set contains 2 concepts
     }
   ],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsSleepStatusValueSet",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsSleepStatusValueSet",
   "title" : "NoDomainVitalSignsSleepStatus-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-09T18:55:57+00:00",
+  "date" : "2025-10-09T19:07:52+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {
@@ -99,7 +99,7 @@ This value set contains 2 concepts
       ]
     }
   ],
-  "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
     "include" : [
       {

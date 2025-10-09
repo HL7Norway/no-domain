@@ -1,4 +1,4 @@
-# VKP Mapping - v0.9.5
+# VKP Mapping - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * **VKP Mapping**

@@ -1,4 +1,4 @@
-# Artifacts Summary - v0.9.5
+# Artifacts Summary - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

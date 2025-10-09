@@ -1,4 +1,4 @@
-# NoDomainVitalSignsDaysSinceMenstruationStart-Extension - v0.9.5
+# NoDomainVitalSignsDaysSinceMenstruationStart-Extension - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension | *Version*:0.9.6 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsDaysSinceMenstruationStartExtension |
 
 Current day of the menstrual cycle.
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsDa
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsDaysSinceMenstruationStartExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsDaysSinceMenstruationStartExtension",
   "title" : "NoDomainVitalSignsDaysSinceMenstruationStart-Extension",
   "status" : "draft",

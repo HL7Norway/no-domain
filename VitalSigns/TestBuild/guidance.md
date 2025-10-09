@@ -1,4 +1,4 @@
-# Guidance - v0.9.5
+# Guidance - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * **Guidance**

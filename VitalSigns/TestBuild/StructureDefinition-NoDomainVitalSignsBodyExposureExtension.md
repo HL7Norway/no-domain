@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBodyExposure-Extension - v0.9.5
+# NoDomainVitalSignsBodyExposure-Extension - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension | *Version*:0.9.6 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsBodyExposureExtension |
 
 The degree of exposure of the individual at the time of measurement.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsBo
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsBodyExposureExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsBodyExposureExtension",
   "title" : "NoDomainVitalSignsBodyExposure-Extension",
   "status" : "draft",

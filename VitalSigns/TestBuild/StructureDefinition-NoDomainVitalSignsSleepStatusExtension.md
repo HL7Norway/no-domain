@@ -1,4 +1,4 @@
-# NoDomainVitalSignsSleepStatus-Extension - v0.9.5
+# NoDomainVitalSignsSleepStatus-Extension - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension | *Version*:0.9.6 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsSleepStatusExtension |
 
 Sleep status - supports interpretation of 24 hour ambulatory blood pressure records.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsSl
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsSleepStatusExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsSleepStatusExtension",
   "title" : "NoDomainVitalSignsSleepStatus-Extension",
   "status" : "draft",

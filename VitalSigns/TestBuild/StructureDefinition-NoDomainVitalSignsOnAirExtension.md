@@ -1,4 +1,4 @@
-# NoDomainVitalSignsOnAir-Extension - v0.9.5
+# NoDomainVitalSignsOnAir-Extension - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension | *Version*:0.9.6 |
 | Draft as of 2025-10-09 | *Computable Name*:NoDomainVitalSignsOnAirExtension |
 
 The patient is receiving air, equivalent to 21% O₂ or 0.21 FiO₂ and an oxygen flow rate of 0 litres per minute.
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsOn
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsOnAirExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsOnAirExtension",
   "title" : "NoDomainVitalSignsOnAir-Extension",
   "status" : "draft",
-  "date" : "2025-10-09T18:55:57+00:00",
+  "date" : "2025-10-09T19:07:52+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

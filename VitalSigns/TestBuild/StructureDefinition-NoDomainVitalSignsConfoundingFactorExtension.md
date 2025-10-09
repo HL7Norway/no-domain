@@ -1,4 +1,4 @@
-# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.5
+# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.5 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.6 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsConfoundingFactorExtension |
 
 Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCo
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsConfoundingFactorExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
-  "version" : "0.9.5",
+  "version" : "0.9.6",
   "name" : "NoDomainVitalSignsConfoundingFactorExtension",
   "title" : "NoDomainVitalSignsConfoundingFactor-Extension",
   "status" : "draft",

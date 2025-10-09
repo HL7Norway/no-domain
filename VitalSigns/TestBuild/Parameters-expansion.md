@@ -1,4 +1,4 @@
-# expansion - v0.9.5
+# expansion - v0.9.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
