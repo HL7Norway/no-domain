@@ -8,7 +8,7 @@ The profiles includes SNOMED CT terms for each vital sign measurement. The SNOME
 
 ### FHIR R6 changes
 
-R6 makes several changes to the use of *magic values* in vital-signs observations. First, the *magic value* is placed in the Observation.category, which better represents our interpretation of the *magic value* as a high-level category that makes it easy to find similar measurements. Second, there are valuesets for the Observation.code values that the vital-signs category should be used for. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.
+R6 makes one change to the way vital signs are interpreted. R6 adds valuesets for each vital sign containing more specific LOINC codes that are appropriate for representing the given vital sign. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.
 
 ### Pulse rate vs Heart rate
 
