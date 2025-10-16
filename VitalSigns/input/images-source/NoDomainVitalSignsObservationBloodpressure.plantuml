@@ -83,10 +83,20 @@ class component::PulsePressure {
 'Observation "0..1" *-- "0..1" MeanArterialPressure : component
 'Observation "0..1" *-- "0..1" PulsePressure : component
 
-Observation "1" *-down- "0..*" Extension :slices for extension
 Observation "0..*" *-left- "0..*" Performer::Author
 Observation "0..*" *-left- "0..*" Performer::organization
+Observation "1" *-left- "0..*" Extension :slices for extension
+
 Performer::Author -down[hidden]- Performer::organization 
+Performer::organization -down[hidden]- Extension
+
+Observation "1..1" *-right- "1..1" component::SystolicBP  
+Observation "1..1" *-right- "1..1" component::DiastolicBP 
+Observation "0..1" *-right- "0..1" component::MeanArterialPressure 
+Observation "0..1" *-right- "0..1" component::PulsePressure 
+component::SystolicBP -[hidden]down- component::DiastolicBP 
+component::DiastolicBP -[hidden]down- component::MeanArterialPressure 
+component::MeanArterialPressure -[hidden]down- component::PulsePressure 
 'Performer -[hidden]down- BodySite 
 'BodySite -[hidden]down- Method 
 'Method -[hidden]down- Extension 
@@ -95,13 +105,6 @@ Performer::Author -down[hidden]- Performer::organization
 'Observation "0..*" *-right- "0..*" Component 
 'Component "1" *-- "1" CodeableConcept 
 'Component "1" *-- "1" Quantity 
-Observation "1..1" *-right- "1..1" component::SystolicBP  
-Observation "1..1" *-right- "1..1" component::DiastolicBP 
-Observation "0..1" *-right- "0..1" component::MeanArterialPressure 
-Observation "0..1" *-right- "0..1" component::PulsePressure 
-component::SystolicBP -[hidden]down- component::DiastolicBP 
-component::DiastolicBP -[hidden]down- component::MeanArterialPressure 
-component::MeanArterialPressure -[hidden]down- component::PulsePressure 
 'SystolicBP "1" *-right- "1" CodeableConcept 
 'SystolicBP "1" *-right- "0..*" Coding 
 'DiastolicBP "1" *-right- "1" CodeableConcept 
