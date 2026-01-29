@@ -1,4 +1,4 @@
-# NoDomainVitalSignsFiO2-Extension - v0.9.61
+# NoDomainVitalSignsFiO2-Extension - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension | *Version*:0.9.61 |
-| Draft as of 2025-10-09 | *Computable Name*:NoDomainVitalSignsFiO2Extension |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension | *Version*:0.9.71 |
+| Draft as of 2026-01-29 | *Computable Name*:NoDomainVitalSignsFiO2Extension |
 
 Fraction of oxygen in inspired air.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsFi
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsFiO2Extension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsFiO2Extension",
   "title" : "NoDomainVitalSignsFiO2-Extension",
   "status" : "draft",
-  "date" : "2025-10-09T19:58:38+00:00",
+  "date" : "2026-01-29T20:13:56+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

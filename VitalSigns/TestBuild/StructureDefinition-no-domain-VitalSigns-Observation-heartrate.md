@@ -1,4 +1,4 @@
-# no-domain-VitalSigns-Observation-heartrate Profile - v0.9.61
+# no-domain-VitalSigns-Observation-heartrate Profile - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,13 +8,13 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate | *Version*:0.9.61 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate | *Version*:0.9.71 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsObservationHeartRate |
 | **Copyright/Legal**: Some content in this profile builds on the heart rate archetype: Puls/Hjertefrekvens, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2293 | |
 
  
 Domain profile for Norwegian Vital Signs Observation Heart Rate information.
-To be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading. 
+ To be used for recording the rate and associated attributes for a heart beat. This profile describes how to use a SNOMED code to indicate that the measurement is a general heart rate measurement, and not a more specific measurement of the actual heart beat or pulse reading. 
 
  
 Basisprofile for Norwegian VitalSigns Observation Heart Rate information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Heart Rate. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-domain-VitalSigns
   "resourceType" : "StructureDefinition",
   "id" : "no-domain-VitalSigns-Observation-heartrate",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsObservationHeartRate",
   "title" : "no-domain-VitalSigns-Observation-heartrate Profile",
   "status" : "draft",

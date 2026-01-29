@@ -1,4 +1,4 @@
-# no-oxygen-saturation-create - v0.9.61
+# no-oxygen-saturation-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -36,7 +36,7 @@ Profile: [no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDe
 * Identifier: `urn:oid:2.16.578.1.12.4.1.2`/889911
 * [Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23](Organization-afa23.md)
 
-**value**: 24 %(Details: UCUM code% = '%')
+**value**: 24 % (Details: UCUM code% = '%')
 
 **note**: 
 

@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBodyExposure-ValueSet - v0.9.61
+# NoDomainVitalSignsBodyExposure-ValueSet - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet | *Version*:0.9.61 | |
-| *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBodyExposureValueSet |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet | *Version*:0.9.71 | |
+| * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBodyExposureValueSet |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
  
@@ -25,7 +25,7 @@ Codes representing body exposure
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -67,12 +67,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   ],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBodyExposureValueSet",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsBodyExposureValueSet",
   "title" : "NoDomainVitalSignsBodyExposure-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-09T19:58:38+00:00",
+  "date" : "2026-01-29T20:13:56+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

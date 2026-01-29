@@ -25,18 +25,6 @@
       "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
     },
     {
-      "url" : "http://loinc.org",
-      "version" : "3.1.0",
-      "status" : "active",
-      "name" : "LOINC",
-      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
-      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
-      "oids" : ["2.16.840.1.113883.6.1"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs"
-    },
-    {
       "url" : "http://snomed.info/sct",
       "version" : null,
       "status" : "active",
@@ -46,31 +34,31 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "ValueSet-NoDomainVitalSignsSleepStatusValueSet.html" : "NoDomainVitalSignsSleepStatus-ValueSet",
       "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "ValueSet-NoDomainVitalSignsHeartRatePulseBodyPositionValueSet.html" : "NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet",
-      "ValueSet-NoDomainVitalSignsBodyHeightBodyPositionValueSet.html" : "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-      "ValueSet-NoDomainVitalSignsSpontaneousBreathingValueSet.html" : "NoDomainVitalSignsSpontaneousBreathing-ValueSet",
-      "ValueSet-NoDomainVitalSignsRespirationRegularityValueSet.html" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodpressureBodyPositionValueSet.html" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
-      "ValueSet-NoDomainVitalSignsPulseBodySiteValueSet.html" : "NoDomainVitalSignsPulseBodySite-ValueSet",
-      "ValueSet-NoDomainVitalSignsPulseRhythmIrregularityValueSet.html" : "NoDomainVitalSignsPulseRhythmIrregularity-ValueSet",
       "ValueSet-NoDomainVitalSignsClothingStateValueSet.html" : "NoDomainVitalSignsClothingState-ValueSet",
-      "ValueSet-NoDomainVitalSignsDiastolicEndPointValueSet.html" : "NoDomainVitalSignsDiastolicendPoint-ValueSet",
-      "ValueSet-NoDomainVitalSignsCuffsizeValueSet.html" : "NoDomainVitalSignsCuffsize-ValueSet",
-      "ValueSet-NoDomainVitalSignsPulseRhythmValueSet.html" : "NoDomainVitalSignsPulseRhythm-ValueSet",
       "ValueSet-NoDomainVitalSignsBodyExposureValueSet.html" : "NoDomainVitalSignsBodyExposure-ValueSet",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "ValueSet-NoDomainVitalSignsHeartRhythmIrregularityValueSet.html" : "NoDomainVitalSignsHeartRhythmIrregularity-ValueSet",
-      "ValueSet-NoDomainVitalSignsRespirationRateBodyPositionValueSet.html" : "NoDomainVitalSignsRespirationRateBodyPosition-ValueSet",
+      "ValueSet-NoDomainVitalSignsBloodpressureBodyPositionValueSet.html" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "ValueSet-NoDomainVitalSignsPulseMeasurementMethodValueSet.html" : "NoDomainVitalSignsPulseMeasurementMethod-ValueSet",
-      "ValueSet-NoDomainVitalSignsBodyTempBodySiteValueSet.html" : "NoDomainVitalSignsBodyTempBodySite-ValueSet",
-      "ValueSet-NoDomainVitalSignsHeartRateMeasurementMethodValueSet.html" : "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet",
+      "ValueSet-NoDomainVitalSignsPulseRhythmIrregularityValueSet.html" : "NoDomainVitalSignsPulseRhythmIrregularity-ValueSet",
+      "ValueSet-NoDomainVitalSignsRespirationRateBodyPositionValueSet.html" : "NoDomainVitalSignsRespirationRateBodyPosition-ValueSet",
+      "ValueSet-NoDomainVitalSignsPulseBodySiteValueSet.html" : "NoDomainVitalSignsPulseBodySite-ValueSet",
+      "ValueSet-NoDomainVitalSignsPulseRhythmValueSet.html" : "NoDomainVitalSignsPulseRhythm-ValueSet",
+      "ValueSet-NoDomainVitalSignsHeartRhythmIrregularityValueSet.html" : "NoDomainVitalSignsHeartRhythmIrregularity-ValueSet",
+      "ValueSet-NoDomainVitalSignsSpontaneousBreathingValueSet.html" : "NoDomainVitalSignsSpontaneousBreathing-ValueSet",
+      "ValueSet-NoDomainVitalSignsDiastolicEndPointValueSet.html" : "NoDomainVitalSignsDiastolicendPoint-ValueSet",
+      "ValueSet-NoDomainVitalSignsRespirationRegularityValueSet.html" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "ValueSet-NoDomainVitalSignsRespirationRateDepthValueSet.html" : "NoDomainVitalSignsRespirationRateDepth-ValueSet",
-      "ValueSet-NoDomainVitalSignsHeartRateBodySiteValueSet.html" : "NoDomainVitalSignsHeartRateBodySite-ValueSet"
+      "ValueSet-NoDomainVitalSignsSleepStatusValueSet.html" : "NoDomainVitalSignsSleepStatus-ValueSet",
+      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+      "ValueSet-NoDomainVitalSignsBodyHeightBodyPositionValueSet.html" : "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet",
+      "ValueSet-NoDomainVitalSignsHeartRateMeasurementMethodValueSet.html" : "NoDomainVitalSignsHeartRateMeasurementMethod-ValueSet",
+      "ValueSet-NoDomainVitalSignsHeartRateBodySiteValueSet.html" : "NoDomainVitalSignsHeartRateBodySite-ValueSet",
+      "ValueSet-NoDomainVitalSignsBodyTempBodySiteValueSet.html" : "NoDomainVitalSignsBodyTempBodySite-ValueSet",
+      "ValueSet-NoDomainVitalSignsCuffsizeValueSet.html" : "NoDomainVitalSignsCuffsize-ValueSet"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
@@ -86,7 +74,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-      "version" : "1.0.1",
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "ObservationCategoryCodes",
       "title" : "Observation Category Codes",
@@ -119,33 +107,6 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
-    },
-    {
-      "url" : "http://unitsofmeasure.org",
-      "version" : "3.0.1",
-      "status" : "active",
-      "name" : "UCUM",
-      "title" : "Unified Code for Units of Measure (UCUM)",
-      "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
-      "oids" : ["2.16.840.1.113883.6.8"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-ucum-bodytemp.html" : "Body Temperature Units",
-      "http://hl7.org/fhir/R4/valueset-ucum-vitals-common.html" : "Vital Signs Units",
-      "http://hl7.org/fhir/R4/valueset-ucum-bodyweight.html" : "Body Weight Units",
-      "http://hl7.org/fhir/R4/valueset-ucum-bodylength.html" : "Body Length Units"
-    },
-    {
-      "url" : "urn:ietf:bcp:47",
-      "version" : "2.0.1",
-      "status" : "active",
-      "name" : "Ietf3066",
-      "title" : "Tags for the Identification of Languages",
-      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
-      "oids" : ["2.16.840.1.113883.6.121"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
     }
   ]
 }

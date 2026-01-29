@@ -1,12 +1,10 @@
-# expansion - v0.9.61
+# expansion - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
 * **expansion**
 
 ## Parameters: expansion
-
-## Parameters
 
 
 

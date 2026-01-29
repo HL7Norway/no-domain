@@ -1,4 +1,4 @@
-# no-body-weight-create - v0.9.61
+# no-body-weight-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -12,7 +12,7 @@ Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.n
 
 Profile: [no-domain-VitalSigns-Observation-bodyweight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.md)
 
-**NoDomainVitalSignsClothingState-Extension**: [SNOMED CT 8101000202100](http://snomed.info/id/8101000202100): Naken
+**NoDomainVitalSignsClothingState-Extension**: [SNOMED CT: 8101000202100](http://snomed.info/id/8101000202100) (Naken)
 
 **NoDomainVitalSignsConfoundingFactor-Extension**: sample confounding factor
 
@@ -31,7 +31,7 @@ Profile: [no-domain-VitalSigns-Observation-bodyweight Profile](StructureDefiniti
 * Identifier: `urn:oid:2.16.578.1.12.4.1.2`/889911
 * [Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23](Organization-afa23.md)
 
-**value**: 49000 g(Details: UCUM codeg = 'g')
+**value**: 49000 g (Details: UCUM codeg = 'g')
 
 **note**: 
 

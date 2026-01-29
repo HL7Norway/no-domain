@@ -1,4 +1,4 @@
-# Home - v0.9.61
+# Home - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.61 |
-| Draft as of 2025-10-09 | *Computable Name*:NoDomainVitalSigns |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.71 |
+| Draft as of 2026-01-29 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
 
@@ -54,10 +54,10 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2025-10-09T19:58:38+00:00",
+  "date" : "2026-01-29T20:13:56+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {
@@ -95,7 +95,7 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "6.5.0"
+      "version" : "7.0.1"
     },
     {
       "id" : "hl7ext",
@@ -445,7 +445,7 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
       },
       {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-        "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+        "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
       },
       {
         "extension" : [

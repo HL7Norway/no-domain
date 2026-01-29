@@ -1,4 +1,4 @@
-# no-blood-pressure-create - v0.9.61
+# no-blood-pressure-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -12,11 +12,11 @@ Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.n
 
 Profile: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.md)
 
-**NoDomainVitalSignsBloodpressureBodyPosition-Extension**: [SNOMED CT 4801000202104](http://snomed.info/id/4801000202104): Liggende
+**NoDomainVitalSignsBloodpressureBodyPosition-Extension**: [SNOMED CT: 4801000202104](http://snomed.info/id/4801000202104) (Liggende)
 
-**NoDomainVitalSignsCuffSize-Extension**: [SNOMED CT 720740000](http://snomed.info/id/720740000): Lår voksne
+**NoDomainVitalSignsCuffSize-Extension**: [SNOMED CT: 720740000](http://snomed.info/id/720740000) (Lår voksne)
 
-**NoDomainVitalSignsSleepStatus-Extension**: [SNOMED CT 248218005](http://snomed.info/id/248218005): Våken
+**NoDomainVitalSignsSleepStatus-Extension**: [SNOMED CT: 248218005](http://snomed.info/id/248218005) (Våken)
 
 **NoDomainVitalSignsTilt-Extension**: 14 deg
 
@@ -52,7 +52,7 @@ Demo Blood Pressure
 
 **method**: Auskultasjon
 
-> **component****code**:Systolic blood pressure**value**: 123 mm[Hg](Details: UCUM codemm[Hg] = 'mm[Hg]')
+> **component****code**: Systolic blood pressure**value**: 123 mm[Hg] (Details: UCUM codemm[Hg] = 'mm[Hg]')
 
 ### ReferenceRanges
 
@@ -62,7 +62,7 @@ Demo Blood Pressure
 | * | 120 mm[Hg] | 139 mm[Hg] |
 
 
-> **component****code**:Diastolic blood pressure**value**: 78 mm[Hg](Details: UCUM codemm[Hg] = 'mm[Hg]')
+> **component****code**: Diastolic blood pressure**value**: 78 mm[Hg] (Details: UCUM codemm[Hg] = 'mm[Hg]')
 
 ### ReferenceRanges
 
@@ -72,7 +72,7 @@ Demo Blood Pressure
 | * | 60 mm[Hg] | 89 mm[Hg] |
 
 
-> **component****code**:Mean blood pressure**value**: 93 mm[Hg](Details: UCUM codemm[Hg] = 'mm[Hg]')
+> **component****code**: Mean blood pressure**value**: 93 mm[Hg] (Details: UCUM codemm[Hg] = 'mm[Hg]')
 
 ### ReferenceRanges
 

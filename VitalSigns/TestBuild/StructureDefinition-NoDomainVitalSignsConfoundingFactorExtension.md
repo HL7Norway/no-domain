@@ -1,4 +1,4 @@
-# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.61
+# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.61 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.71 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsConfoundingFactorExtension |
 
 Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields
@@ -19,8 +19,8 @@ Confounding factor is Issues or factors that may impact on the measurement, not 
 
 **Usages:**
 
-* Use this Extension: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.md), [no-domain-VitalSigns-Observation-bodyheight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.md), [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.md), [no-domain-VitalSigns-Observation-bodyweight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.md)...Show 4 more,[no-domain-VitalSigns-Observation-heartrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-heartrate.md),[no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.md),[no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md)and[no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
-* Examples for this Extension: [Observation/no-body-height-create](Observation-no-body-height-create.md), [Observation/no-body-weight-create](Observation-no-body-weight-create.md), [Observation/no-heart-rate-create](Observation-no-heart-rate-create.md), [Observation/no-oxygen-saturation-create](Observation-no-oxygen-saturation-create.md)...Show 2 more,[Observation/no-pulse-rate](Observation-no-pulse-rate.md)and[Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
+* Use this Extension: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.md), [no-domain-VitalSigns-Observation-bodyheight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.md), [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.md), [no-domain-VitalSigns-Observation-bodyweight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.md)... Show 4 more, [no-domain-VitalSigns-Observation-heartrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-heartrate.md), [no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.md), [no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md) and [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
+* Examples for this Extension: [Observation/no-body-height-create](Observation-no-body-height-create.md), [Observation/no-body-weight-create](Observation-no-body-weight-create.md), [Observation/no-heart-rate-create](Observation-no-heart-rate-create.md), [Observation/no-oxygen-saturation-create](Observation-no-oxygen-saturation-create.md)... Show 2 more, [Observation/no-pulse-rate](Observation-no-pulse-rate.md) and [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension)
 
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCo
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsConfoundingFactorExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsConfoundingFactorExtension",
   "title" : "NoDomainVitalSignsConfoundingFactor-Extension",
   "status" : "draft",

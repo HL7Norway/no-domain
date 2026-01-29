@@ -1,4 +1,4 @@
-# no-body-temperature-create - v0.9.61
+# no-body-temperature-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -12,7 +12,7 @@ Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.n
 
 Profile: [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.md)
 
-**NoDomainVitalSignsBodyExposure-Extension**: [SNOMED CT 5671000202107](http://snomed.info/id/5671000202107): Naken
+**NoDomainVitalSignsBodyExposure-Extension**: [SNOMED CT: 5671000202107](http://snomed.info/id/5671000202107) (Naken)
 
 **NoDomainVitalSignsActiveHeating-Extension**: active heating sample
 
@@ -33,7 +33,7 @@ Profile: [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition
 * Identifier: `urn:oid:2.16.578.1.12.4.1.2`/889911
 * [Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23](Organization-afa23.md)
 
-**value**: 37 Cel(Details: UCUM codeCel = 'Cel')
+**value**: 37 Cel (Details: UCUM codeCel = 'Cel')
 
 **note**: 
 

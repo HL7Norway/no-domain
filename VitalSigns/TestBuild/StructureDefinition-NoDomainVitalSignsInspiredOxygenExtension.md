@@ -1,4 +1,4 @@
-# NoDomainVitalSignsInspiredOxygen-Extension - v0.9.61
+# NoDomainVitalSignsInspiredOxygen-Extension - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension | *Version*:0.9.61 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension | *Version*:0.9.71 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsInspiredOxygenExtension |
 
 Details of the amount of oxygen available to the subject at the time of observation.
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsIn
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsInspiredOxygenExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsInspiredOxygenExtension",
   "title" : "NoDomainVitalSignsInspiredOxygen-Extension",
   "status" : "draft",

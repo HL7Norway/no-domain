@@ -1,4 +1,4 @@
-# NoDomainVitalSignsMethodofOxygenDelivery-Extension - v0.9.61
+# NoDomainVitalSignsMethodofOxygenDelivery-Extension - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension | *Version*:0.9.61 |
-| Draft as of 2025-10-09 | *Computable Name*:NoDomainVitalSignsMethodofOxygenDeliveryExtension |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension | *Version*:0.9.71 |
+| Draft as of 2026-01-29 | *Computable Name*:NoDomainVitalSignsMethodofOxygenDeliveryExtension |
 
 The method used to deliver the oxygen.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsMe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsMethodofOxygenDeliveryExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsMethodofOxygenDeliveryExtension",
   "title" : "NoDomainVitalSignsMethodofOxygenDelivery-Extension",
   "status" : "draft",
-  "date" : "2025-10-09T19:58:38+00:00",
+  "date" : "2026-01-29T20:13:56+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

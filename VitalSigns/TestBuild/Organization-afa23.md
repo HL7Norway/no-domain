@@ -1,4 +1,4 @@
-# Organization details of afa23 - v0.9.61
+# Organization details of afa23 - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

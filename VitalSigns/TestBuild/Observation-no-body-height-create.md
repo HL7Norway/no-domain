@@ -1,4 +1,4 @@
-# no-body-height-create - v0.9.61
+# no-body-height-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -12,7 +12,7 @@ Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.n
 
 Profile: [no-domain-VitalSigns-Observation-bodyheight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.md)
 
-**NoDomainVitalSignsBodyHeightBodyPosition-Extension**: [SNOMED CT 10904000](http://snomed.info/id/10904000): Stående
+**NoDomainVitalSignsBodyHeightBodyPosition-Extension**: [SNOMED CT: 10904000](http://snomed.info/id/10904000) (Stående)
 
 **NoDomainVitalSignsConfoundingFactor-Extension**: sample confounding factor
 
@@ -31,7 +31,7 @@ Profile: [no-domain-VitalSigns-Observation-bodyheight Profile](StructureDefiniti
 * Identifier: `urn:oid:2.16.578.1.12.4.1.2`/889911
 * [Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23](Organization-afa23.md)
 
-**value**: 156 cm(Details: UCUM codecm = 'cm')
+**value**: 156 cm (Details: UCUM codecm = 'cm')
 
 **note**: 
 

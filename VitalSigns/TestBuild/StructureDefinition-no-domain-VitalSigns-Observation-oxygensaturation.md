@@ -1,4 +1,4 @@
-# no-domain-VitalSigns-Observation-oxygensaturation Profile - v0.9.61
+# no-domain-VitalSigns-Observation-oxygensaturation Profile - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,13 +8,13 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation | *Version*:0.9.61 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation | *Version*:0.9.71 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsObservationOxygenSaturation |
 | **Copyright/Legal**: Some content in this profile builds on the pulse oximetry archetype: Pulsoksymetri, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.53 | |
 
  
 Domain profile for Norwegian Vital Signs Observation Oxygen Saturation information.
-To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry. 
+ To be used for recording blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry. 
 
  
 Basisprofile for Norwegian VitalSigns Observation Oxygen Saturation information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information and further explanation of the use for the data-elements in a Norwegian VitalSigns Observation Oxygen Saturation. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-domain-VitalSigns
   "resourceType" : "StructureDefinition",
   "id" : "no-domain-VitalSigns-Observation-oxygensaturation",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation",
-  "version" : "0.9.61",
+  "version" : "0.9.71",
   "name" : "NoDomainVitalSignsObservationOxygenSaturation",
   "title" : "no-domain-VitalSigns-Observation-oxygensaturation Profile",
   "status" : "draft",

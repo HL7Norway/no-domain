@@ -1,4 +1,4 @@
-# no-respiratory-rate-create - v0.9.61
+# no-respiratory-rate-create - v0.9.71
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -12,11 +12,11 @@ Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.n
 
 Profile: [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
 
-**NoDomainVitalSignsRespirationRateBodyPosition-Extension**: [SNOMED CT 10904000](http://snomed.info/id/10904000): oppreist stilling
+**NoDomainVitalSignsRespirationRateBodyPosition-Extension**: [SNOMED CT: 10904000](http://snomed.info/id/10904000) (oppreist stilling)
 
-**NoDomainVitalSignsRespirationRegularity-Extension**: [SNOMED CT 276888009](http://snomed.info/id/276888009): Regelmessig
+**NoDomainVitalSignsRespirationRegularity-Extension**: [SNOMED CT: 276888009](http://snomed.info/id/276888009) (Regelmessig)
 
-**NoDomainVitalSignsRespirationDepth-Extension**: [SNOMED CT 301284009](http://snomed.info/id/301284009): Normal
+**NoDomainVitalSignsRespirationDepth-Extension**: [SNOMED CT: 301284009](http://snomed.info/id/301284009) (Normal)
 
 **NoDomainVitalSignsClinicalDescription-Extension**: 
 
@@ -25,7 +25,7 @@ Profile: [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDef
 Description of Respiration
 
 
-**NoDomainVitalSignsSpontaneousBreathing-Extension**: [SNOMED CT 241700002](http://snomed.info/id/241700002): Tilstede
+**NoDomainVitalSignsSpontaneousBreathing-Extension**: [SNOMED CT: 241700002](http://snomed.info/id/241700002) (Tilstede)
 
 > **NoDomainVitalSignsInspiredOxygen-Extension**
 * http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension: 6100 ml/min
@@ -51,7 +51,7 @@ Description of Respiration
 * [PractitionerRole: identifier = urn:oid:1.3.6.1.4.1.9038.51.1#30](PractitionerRole-agb30.md)
 * [Organization: identifier = urn:oid:1.3.6.1.4.1.9038.70.3#23](Organization-afa23.md)
 
-**value**: 14 /min(Details: UCUM code/min = '/min')
+**value**: 14 /min (Details: UCUM code/min = '/min')
 
 **interpretation**: Clinical interpretation of Respiration
 
