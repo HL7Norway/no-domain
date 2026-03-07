@@ -16,12 +16,10 @@
 {
   "resourceType" : "PractitionerRole",
   "id" : "agb104",
-  "identifier" : [
-    {
-      "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
-      "value" : "104"
-    }
-  ]
+  "identifier" : [{
+    "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
+    "value" : "104"
+  }]
 }
 
 ```

@@ -51,50 +51,40 @@ Demo Body Height
   "meta" : {
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "HL7_Norway",
-    "profile" : [
-      "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"
-    ]
+    "profile" : ["http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "10904000",
-        "display" : "Stående"
-      }
+  "extension" : [{
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "10904000",
+      "display" : "Stående"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
+    "valueCodeableConcept" : {
+      "text" : "sample confounding factor"
+    }
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "8302-2",
+      "display" : "Body height"
     },
     {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
-      "valueCodeableConcept" : {
-        "text" : "sample confounding factor"
-      }
-    }
-  ],
-  "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs"
-        }
-      ]
-    }
-  ],
-  "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "8302-2",
-        "display" : "Body height"
-      },
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "1153637007",
-        "display" : "Body height"
-      }
-    ]
+      "system" : "http://snomed.info/sct",
+      "code" : "1153637007",
+      "display" : "Body height"
+    }]
   },
   "subject" : {
     "identifier" : {
@@ -103,32 +93,28 @@ Demo Body Height
     }
   },
   "effectiveDateTime" : "2021-05-10",
-  "performer" : [
-    {
-      "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.2",
-        "value" : "889911"
-      }
-    },
-    {
-      "reference" : "Organization/afa23",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "23"
-      }
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.2",
+      "value" : "889911"
     }
-  ],
+  },
+  {
+    "reference" : "Organization/afa23",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "23"
+    }
+  }],
   "valueQuantity" : {
     "value" : 156,
     "unit" : "cm",
     "system" : "http://unitsofmeasure.org",
     "code" : "cm"
   },
-  "note" : [
-    {
-      "text" : "Demo Body Height"
-    }
-  ]
+  "note" : [{
+    "text" : "Demo Body Height"
+  }]
 }
 
 ```

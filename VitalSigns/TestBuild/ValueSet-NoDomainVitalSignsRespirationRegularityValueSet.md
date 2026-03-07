@@ -50,68 +50,54 @@ Codes representing Respiration Regularity
     "lastUpdated" : "2025-01-28T00:00:00+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "oo"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "valueCode" : "draft"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-      "valueInteger" : 1
-    }
-  ],
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsRespirationRegularityValueSet",
   "version" : "0.9.71",
   "name" : "NoDomainVitalSignsRespirationRegularityValueSet",
   "title" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-01-29T20:13:56+00:00",
+  "date" : "2026-03-07T08:52:42+00:00",
   "publisher" : "HL7 Norway",
-  "contact" : [
-    {
-      "name" : "HL7 Norway",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Codes representing Respiration Regularity",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "276888009",
+        "display" : "Regelmessig"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "276888009",
-            "display" : "Regelmessig"
-          },
-          {
-            "code" : "248585001",
-            "display" : "Uregelmessig"
-          }
-        ]
-      }
-    ]
+        "code" : "248585001",
+        "display" : "Uregelmessig"
+      }]
+    }]
   }
 }
 

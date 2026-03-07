@@ -25,7 +25,7 @@ Codes representing Diastolic end point
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unsupported Code System Version)
 
 -------
 
@@ -52,20 +52,18 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "lastUpdated" : "2021-03-17T00:00:00+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "oo"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "valueCode" : "draft"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-      "valueInteger" : 1
-    }
-  ],
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet",
   "version" : "0.9.71",
   "name" : "NoDomainVitalSignsDiastolicendPointValueSet",
@@ -74,47 +72,35 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "experimental" : false,
   "date" : "2021-03-17T00:00:00+00:00",
   "publisher" : "HL7 Norway",
-  "contact" : [
-    {
-      "name" : "HL7 Norway",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Codes representing Diastolic end point",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/51000202101",
+      "concept" : [{
+        "code" : "4001000202105",
+        "display" : "Fase IV"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/51000202101",
-        "concept" : [
-          {
-            "code" : "4001000202105",
-            "display" : "Fase IV"
-          },
-          {
-            "code" : "4011000202107",
-            "display" : "Fase V"
-          }
-        ]
-      }
-    ]
+        "code" : "4011000202107",
+        "display" : "Fase V"
+      }]
+    }]
   }
 }
 

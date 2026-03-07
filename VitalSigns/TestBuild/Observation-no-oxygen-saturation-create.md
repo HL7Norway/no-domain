@@ -59,84 +59,72 @@ Demo pulse oxymetri
     "versionId" : "0",
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "HL7_Norway",
-    "profile" : [
-      "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"
-    ]
+    "profile" : ["http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation"]
   },
-  "extension" : [
-    {
-      "extension" : [
-        {
-          "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension",
-          "valueQuantity" : {
-            "value" : 6100,
-            "unit" : "ml/min"
-          }
-        },
-        {
-          "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension",
-          "valueRatio" : {
-            "numerator" : {
-              "value" : 21
-            },
-            "denominator" : {
-              "value" : 100
-            }
-          }
-        },
-        {
-          "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension",
-          "valueRatio" : {
-            "numerator" : {
-              "value" : 21
-            },
-            "denominator" : {
-              "value" : 100
-            }
-          }
-        },
-        {
-          "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension",
-          "valueBoolean" : true
-        },
-        {
-          "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension",
-          "valueString" : "Oxygen administration method"
-        }
-      ],
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
+  "extension" : [{
+    "extension" : [{
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension",
+      "valueQuantity" : {
+        "value" : 6100,
+        "unit" : "ml/min"
+      }
     },
     {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
-      "valueCodeableConcept" : {
-        "text" : "sample confounding factor"
-      }
-    }
-  ],
-  "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs"
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension",
+      "valueRatio" : {
+        "numerator" : {
+          "value" : 21
+        },
+        "denominator" : {
+          "value" : 100
         }
-      ]
-    }
-  ],
-  "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "2708-6",
-        "display" : "Oxygen saturation in Arterial blood"
-      },
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "431314004",
-        "display" : "Peripheral oxygen saturation (observable entity)"
       }
-    ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension",
+      "valueRatio" : {
+        "numerator" : {
+          "value" : 21
+        },
+        "denominator" : {
+          "value" : 100
+        }
+      }
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension",
+      "valueString" : "Oxygen administration method"
+    }],
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension"
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
+    "valueCodeableConcept" : {
+      "text" : "sample confounding factor"
+    }
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431314004",
+      "display" : "Peripheral oxygen saturation (observable entity)"
+    }]
   },
   "subject" : {
     "reference" : "Patient/cdp1000240",
@@ -146,32 +134,28 @@ Demo pulse oxymetri
     }
   },
   "effectiveDateTime" : "2021-05-10",
-  "performer" : [
-    {
-      "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.2",
-        "value" : "889911"
-      }
-    },
-    {
-      "reference" : "Organization/afa23",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "23"
-      }
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.2",
+      "value" : "889911"
     }
-  ],
+  },
+  {
+    "reference" : "Organization/afa23",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "23"
+    }
+  }],
   "valueQuantity" : {
     "value" : 24,
     "unit" : "%",
     "system" : "http://unitsofmeasure.org",
     "code" : "%"
   },
-  "note" : [
-    {
-      "text" : "Demo pulse oxymetri"
-    }
-  ],
+  "note" : [{
+    "text" : "Demo pulse oxymetri"
+  }],
   "bodySite" : {
     "text" : "Demo pulse oxymetri bodysite"
   }

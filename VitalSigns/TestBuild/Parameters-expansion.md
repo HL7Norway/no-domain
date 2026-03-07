@@ -14,12 +14,10 @@
 {
   "resourceType" : "Parameters",
   "id" : "expansion",
-  "parameter" : [
-    {
-      "name" : "system-version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/51000202101"
-    }
-  ]
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/51000202101"
+  }]
 }
 
 ```

@@ -18,12 +18,10 @@ Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.
 {
   "resourceType" : "Patient",
   "id" : "cdp1000240",
-  "identifier" : [
-    {
-      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "value" : "1000240"
-    }
-  ]
+  "identifier" : [{
+    "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "value" : "1000240"
+  }]
 }
 
 ```

@@ -94,73 +94,63 @@ Demo Blood Pressure
     "versionId" : "0",
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "HL7_Norway",
-    "profile" : [
-      "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"
-    ]
+    "profile" : ["http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "4801000202104",
-        "display" : "Liggende"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "720740000",
-        "display" : "Lår voksne"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "248218005",
-        "display" : "Våken"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension",
-      "valueQuantity" : {
-        "value" : 14,
-        "unit" : "deg"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
-      "valueString" : "sample formula 1"
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension",
-      "valueString" : "sample formula 2"
-    },
-    {
-      "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension",
-      "valueString" : "sample formula 3"
+  "extension" : [{
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "4801000202104",
+      "display" : "Liggende"
     }
-  ],
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "720740000",
+      "display" : "Lår voksne"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "248218005",
+      "display" : "Våken"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension",
+    "valueQuantity" : {
+      "value" : 14,
+      "unit" : "deg"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
+    "valueString" : "sample formula 1"
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension",
+    "valueString" : "sample formula 2"
+  },
+  {
+    "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension",
+    "valueString" : "sample formula 3"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "85354-9"
-      }
-    ],
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "85354-9"
+    }],
     "text" : "BP pnl w all optional"
   },
   "subject" : {
@@ -171,149 +161,127 @@ Demo Blood Pressure
     }
   },
   "effectiveDateTime" : "2021-05-10",
-  "performer" : [
-    {
-      "reference" : "PractitionerRole/agb104",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
-        "value" : "104"
-      }
-    },
-    {
-      "reference" : "Organization/afa23",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "23"
-      }
+  "performer" : [{
+    "reference" : "PractitionerRole/agb104",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
+      "value" : "104"
     }
-  ],
-  "note" : [
-    {
-      "text" : "Demo Blood Pressure"
+  },
+  {
+    "reference" : "Organization/afa23",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "23"
     }
-  ],
+  }],
+  "note" : [{
+    "text" : "Demo Blood Pressure"
+  }],
   "bodySite" : {
-    "coding" : [
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "7569003",
-        "display" : "Finger"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "7569003",
+      "display" : "Finger"
+    }]
   },
   "method" : {
-    "coding" : [
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "37931006",
+      "display" : "Auskultasjon"
+    }]
+  },
+  "component" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8480-6",
+        "display" : "Systolic blood pressure"
+      },
       {
         "system" : "http://snomed.info/sct",
-        "code" : "37931006",
-        "display" : "Auskultasjon"
+        "code" : "4471000202106",
+        "display" : "Systolic blood pressure"
+      }]
+    },
+    "valueQuantity" : {
+      "value" : 123,
+      "unit" : "mm[Hg]",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mm[Hg]"
+    },
+    "referenceRange" : [{
+      "low" : {
+        "value" : 120,
+        "unit" : "mm[Hg]"
+      },
+      "high" : {
+        "value" : 139,
+        "unit" : "mm[Hg]"
       }
-    ]
+    }]
   },
-  "component" : [
-    {
-      "code" : {
-        "coding" : [
-          {
-            "system" : "http://loinc.org",
-            "code" : "8480-6",
-            "display" : "Systolic blood pressure"
-          },
-          {
-            "system" : "http://snomed.info/sct",
-            "code" : "4471000202106",
-            "display" : "Systolic blood pressure"
-          }
-        ]
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8462-4",
+        "display" : "Diastolic blood pressure"
       },
-      "valueQuantity" : {
-        "value" : 123,
-        "unit" : "mm[Hg]",
-        "system" : "http://unitsofmeasure.org",
-        "code" : "mm[Hg]"
-      },
-      "referenceRange" : [
-        {
-          "low" : {
-            "value" : 120,
-            "unit" : "mm[Hg]"
-          },
-          "high" : {
-            "value" : 139,
-            "unit" : "mm[Hg]"
-          }
-        }
-      ]
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "4481000202108",
+        "display" : "Diastolic blood pressure"
+      }]
     },
-    {
-      "code" : {
-        "coding" : [
-          {
-            "system" : "http://loinc.org",
-            "code" : "8462-4",
-            "display" : "Diastolic blood pressure"
-          },
-          {
-            "system" : "http://snomed.info/sct",
-            "code" : "4481000202108",
-            "display" : "Diastolic blood pressure"
-          }
-        ]
-      },
-      "valueQuantity" : {
-        "value" : 78,
-        "unit" : "mm[Hg]",
-        "system" : "http://unitsofmeasure.org",
-        "code" : "mm[Hg]"
-      },
-      "referenceRange" : [
-        {
-          "low" : {
-            "value" : 60,
-            "unit" : "mm[Hg]"
-          },
-          "high" : {
-            "value" : 89,
-            "unit" : "mm[Hg]"
-          }
-        }
-      ]
+    "valueQuantity" : {
+      "value" : 78,
+      "unit" : "mm[Hg]",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mm[Hg]"
     },
-    {
-      "code" : {
-        "coding" : [
-          {
-            "system" : "http://loinc.org",
-            "code" : "8478-0",
-            "display" : "Mean blood pressure"
-          },
-          {
-            "system" : "http://snomed.info/sct",
-            "code" : "4501000202102",
-            "display" : "Mean arterial pressure (observable entity)"
-          }
-        ]
+    "referenceRange" : [{
+      "low" : {
+        "value" : 60,
+        "unit" : "mm[Hg]"
       },
-      "valueQuantity" : {
-        "value" : 93,
-        "unit" : "mm[Hg]",
-        "system" : "http://unitsofmeasure.org",
-        "code" : "mm[Hg]"
+      "high" : {
+        "value" : 89,
+        "unit" : "mm[Hg]"
+      }
+    }]
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8478-0",
+        "display" : "Mean blood pressure"
       },
-      "referenceRange" : [
-        {
-          "low" : {
-            "value" : 60,
-            "unit" : "mm[Hg]"
-          },
-          "high" : {
-            "value" : 100,
-            "unit" : "mm[Hg]"
-          }
-        }
-      ]
-    }
-  ]
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "4501000202102",
+        "display" : "Mean arterial pressure (observable entity)"
+      }]
+    },
+    "valueQuantity" : {
+      "value" : 93,
+      "unit" : "mm[Hg]",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mm[Hg]"
+    },
+    "referenceRange" : [{
+      "low" : {
+        "value" : 60,
+        "unit" : "mm[Hg]"
+      },
+      "high" : {
+        "value" : 100,
+        "unit" : "mm[Hg]"
+      }
+    }]
+  }]
 }
 
 ```

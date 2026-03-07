@@ -16,12 +16,10 @@
 {
   "resourceType" : "Organization",
   "id" : "afa23",
-  "identifier" : [
-    {
-      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-      "value" : "23"
-    }
-  ]
+  "identifier" : [{
+    "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+    "value" : "23"
+  }]
 }
 
 ```
