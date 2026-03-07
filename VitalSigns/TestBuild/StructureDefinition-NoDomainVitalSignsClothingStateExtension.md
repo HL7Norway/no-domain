@@ -1,4 +1,4 @@
-# NoDomainVitalSignsClothingState-Extension - v0.9.73
+# NoDomainVitalSignsClothingState-Extension - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension | *Version*:0.9.73 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension | *Version*:0.9.74 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsClothingStateExtension |
 
 Description of the state of dress of the person at the time of weighing.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCl
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsClothingStateExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension",
-  "version" : "0.9.73",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsClothingStateExtension",
   "title" : "NoDomainVitalSignsClothingState-Extension",
   "status" : "draft",

@@ -1,4 +1,4 @@
-# NoDomainVitalSignsDiastolicEndPoint-Extension - v0.9.73
+# NoDomainVitalSignsDiastolicEndPoint-Extension - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension | *Version*:0.9.73 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension | *Version*:0.9.74 |
 | Draft as of 2021-05-01 | *Computable Name*:NoDomainVitalSignsDiastolicEndPointExtension |
 
 Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.
@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsDi
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsDiastolicEndPointExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension",
-  "version" : "0.9.73",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsDiastolicEndPointExtension",
   "title" : "NoDomainVitalSignsDiastolicEndPoint-Extension",
   "status" : "draft",

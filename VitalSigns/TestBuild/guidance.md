@@ -1,4 +1,4 @@
-# Guidance - v0.9.73
+# Guidance - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * **Guidance**
@@ -7,7 +7,7 @@
 
 ### Use of LOINC codes
 
-In [FHIR vital-signs](https://hl7.org/fhir/observation-vitalsigns.html), the [LOINC codes](https://loinc.org/) (**magic value**) are mandatory to indicate what category of measurement the given observation is. Until release R5 the **magic value** was mandatory in the Observation.code element. This is problematic in for use in Norway as LOINC is not generally used in clinical systems in Norway. The **magic value** codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the **magic value**.
+In [FHIR vital-signs](https://hl7.org/fhir/observation-vitalsigns.html), the [LOINC codes](https://loinc.org/) (**magic value**) are mandatory to indicate what category of measurement the given observation is. Until release R5 the **magic value** was mandatory in the Observation.code element. This is challenging for use in Norway as LOINC is not generally used in Norwegian clinical systems and mappings must be provided. The **magic value** codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the **magic value**.
 
 ### Use of SNOMED CT terms
 
@@ -15,7 +15,7 @@ The profiles includes SNOMED CT terms for each vital sign measurement. The SNOME
 
 ### FHIR R6 changes
 
-R6 makes one change to the way vital signs are interpreted. R6 adds valuesets for each vital sign containing more specific LOINC codes that are appropriate for representing the given vital sign. At the moment these valuesets only contains LOINC codes, which is problematic for use in Norway.
+R6 makes one change to the way vital signs are interpreted. R6 adds valuesets for each vital sign containing more specific LOINC codes that are appropriate for representing the given vital sign. At the moment these valuesets only contains LOINC codes, this can be challenging with regards to mapping of LOINC to terminology in common use in Norway.
 
 ### Pulse rate vs Heart rate
 

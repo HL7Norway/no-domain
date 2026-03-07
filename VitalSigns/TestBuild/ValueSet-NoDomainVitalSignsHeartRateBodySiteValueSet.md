@@ -1,4 +1,4 @@
-# NoDomainVitalSignsHeartRateBodySite-ValueSet - v0.9.73
+# NoDomainVitalSignsHeartRateBodySite-ValueSet - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet | *Version*:0.9.73 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet | *Version*:0.9.74 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsHeartRateBodySiteValueSet |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
@@ -63,12 +63,12 @@ Codes representing body site for heart rate
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRateBodySiteValueSet",
-  "version" : "0.9.73",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsHeartRateBodySiteValueSet",
   "title" : "NoDomainVitalSignsHeartRateBodySite-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-07T09:32:39+00:00",
+  "date" : "2026-03-07T09:45:24+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

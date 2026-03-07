@@ -1,4 +1,4 @@
-# Home - v0.9.73
+# Home - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.73 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.74 |
 | Draft as of 2026-03-07 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
@@ -62,10 +62,10 @@ There are several known bugs and issues that are planned to be resovled in upcom
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.73",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-03-07T09:32:39+00:00",
+  "date" : "2026-03-07T09:45:24+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

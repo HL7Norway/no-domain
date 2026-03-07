@@ -1,4 +1,4 @@
-# NoDomainVitalSignsTilt-Extension - v0.9.73
+# NoDomainVitalSignsTilt-Extension - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension | *Version*:0.9.73 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension | *Version*:0.9.74 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsTiltExtension |
 
 The craniocaudal tilt of the surface on which the person is lying at the time of measurement.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsTi
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsTiltExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension",
-  "version" : "0.9.73",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsTiltExtension",
   "title" : "NoDomainVitalSignsTilt-Extension",
   "status" : "draft",
