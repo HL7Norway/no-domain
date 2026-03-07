@@ -1,4 +1,4 @@
-# Practioner details of agb104 - v0.9.72
+# Practioner details of agb104 - v0.9.73
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

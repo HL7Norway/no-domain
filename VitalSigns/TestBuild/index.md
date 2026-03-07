@@ -1,4 +1,4 @@
-# Home - v0.9.72
+# Home - v0.9.73
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.72 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.73 |
 | Draft as of 2026-03-07 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
@@ -62,10 +62,10 @@ There are several known bugs and issues that are planned to be resovled in upcom
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.72",
+  "version" : "0.9.73",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-03-07T09:02:29+00:00",
+  "date" : "2026-03-07T09:32:39+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -1074,7 +1074,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
         "reference" : "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
       },
       "name" : "NoDomainVitalSignsConfoundingFactor-Extension",
-      "description" : "Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields",
+      "description" : "Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields",
       "exampleBoolean" : false
     },
     {

@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns>
   ] ; # 
-  fhir:version [ fhir:v "0.9.72"] ; # 
+  fhir:version [ fhir:v "0.9.73"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-07T09:02:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-07T09:32:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -2028,7 +2028,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsConfoundingFactor-Extension" ] ;
-       fhir:description [ fhir:v "Confounding factor is Issues or factors that may impact on the measurement, not captured in other fields" ] ;
+       fhir:description [ fhir:v "Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

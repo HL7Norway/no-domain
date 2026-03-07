@@ -1,4 +1,4 @@
-# NoDomainVitalSignsHeartRatePulseBodyPosition-Extension - v0.9.72
+# NoDomainVitalSignsHeartRatePulseBodyPosition-Extension - v0.9.73
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension | *Version*:0.9.72 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension | *Version*:0.9.73 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsHeartRatePulseBodyPositionExtension |
 
 Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsHe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsHeartRatePulseBodyPositionExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension",
-  "version" : "0.9.72",
+  "version" : "0.9.73",
   "name" : "NoDomainVitalSignsHeartRatePulseBodyPositionExtension",
   "title" : "NoDomainVitalSignsHeartRatePulseBodyPosition-Extension",
   "status" : "draft",

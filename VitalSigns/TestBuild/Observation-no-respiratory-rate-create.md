@@ -1,4 +1,4 @@
-# no-respiratory-rate-create - v0.9.72
+# no-respiratory-rate-create - v0.9.73
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

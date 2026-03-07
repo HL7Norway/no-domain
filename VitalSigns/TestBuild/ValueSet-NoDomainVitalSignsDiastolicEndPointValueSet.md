@@ -1,4 +1,4 @@
-# NoDomainVitalSignsDiastolicendPoint-ValueSet - v0.9.72
+# NoDomainVitalSignsDiastolicendPoint-ValueSet - v0.9.73
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet | *Version*:0.9.72 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet | *Version*:0.9.73 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsDiastolicendPointValueSet |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
@@ -65,7 +65,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsDiastolicEndPointValueSet",
-  "version" : "0.9.72",
+  "version" : "0.9.73",
   "name" : "NoDomainVitalSignsDiastolicendPointValueSet",
   "title" : "NoDomainVitalSignsDiastolicendPoint-ValueSet",
   "status" : "draft",
