@@ -37,3 +37,11 @@ Information exchange defined as the scope of delivery of NoDomainVitalSigns prof
 There are some gaps in the mapping used in the Norwegian vital signs profiles (SNOMED mapping (Norway)) and the official mapping developed by IHTSDO. The choice of SNOMED terms chosen for use in Norway have been chosen to reflect the SNOMED term that is considered meaningful for the majority of use cases regarding vital signs in Norway. Please visit [Guideance](guidance.html) for further information about the SNOMED CT terms and their use in these profiles.  
 
 [IHTSDO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
+
+### Governance and change process
+
+The source code of this implementation guide is maintained in a publicly awaliable repository on (HL7 Norway Github)[https://github.com/HL7Norway]. Anyone can propose changes to the profiles by opening issues in the GitHub repo. HL7 Norway encourages any input to be handled using the issue system on Github as they  help the affiliate to track proposed changes and facilitate an open discussion of the proposed changes.
+
+#### Known bugs and errors
+
+There are several known bugs and issues that are planned to be resovled in upcoming releases. A list of known issues and bugs are maintained in the [Github repo](https://github.com/HL7Norway/no-domain/issues).  
