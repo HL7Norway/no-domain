@@ -1,4 +1,4 @@
-# Home - v0.9.71
+# Home - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.72 |
 | Draft as of 2026-03-07 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
@@ -45,6 +45,14 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
 
 [IHTSDO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
 
+### Governance and change process
+
+The source code of this implementation guide is maintained in a publicly awaliable repository on (HL7 Norway Github)[https://github.com/HL7Norway]. Anyone can propose changes to the profiles by opening issues in the GitHub repo. HL7 Norway encourages any input to be handled using the issue system on Github as they help the affiliate to track proposed changes and facilitate an open discussion of the proposed changes.
+
+#### Known bugs and errors
+
+There are several known bugs and issues that are planned to be resovled in upcoming releases. A list of known issues and bugs are maintained in the [Github repo](https://github.com/HL7Norway/no-domain/issues).
+
 
 
 ## Resource Content
@@ -54,10 +62,10 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-03-07T08:52:42+00:00",
+  "date" : "2026-03-07T09:02:29+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

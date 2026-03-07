@@ -1,4 +1,4 @@
-# no-domain-VitalSigns-Observation-pulse Profile - v0.9.71
+# no-domain-VitalSigns-Observation-pulse Profile - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse | *Version*:0.9.72 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsObservationPulse |
 | **Copyright/Legal**: Some content in this profile builds on the heart rate archetype: Puls/Hjertefrekvens, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2293 | |
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-domain-VitalSigns
   "resourceType" : "StructureDefinition",
   "id" : "no-domain-VitalSigns-Observation-pulse",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSignsObservationPulse",
   "title" : "no-domain-VitalSigns-Observation-pulse Profile",
   "status" : "draft",

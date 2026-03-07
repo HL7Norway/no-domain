@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBloodpressureSystolicFormula-Extension - v0.9.71
+# NoDomainVitalSignsBloodpressureSystolicFormula-Extension - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension | *Version*:0.9.72 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsBloodpressureSystolicFormulaExtension |
 
 Formula used to calculate the pressure.
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsBl
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
   "title" : "NoDomainVitalSignsBloodpressureSystolicFormula-Extension",
   "status" : "draft",

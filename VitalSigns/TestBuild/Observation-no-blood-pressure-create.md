@@ -1,4 +1,4 @@
-# no-blood-pressure-create - v0.9.71
+# no-blood-pressure-create - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

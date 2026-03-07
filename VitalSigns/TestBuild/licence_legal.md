@@ -1,4 +1,4 @@
-# Licence Legal - v0.9.71
+# Licence Legal - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * **Licence Legal**

@@ -1,4 +1,4 @@
-# NoDomainVitalSignsRespirationRateBodyPosition-Extension - v0.9.71
+# NoDomainVitalSignsRespirationRateBodyPosition-Extension - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension | *Version*:0.9.72 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsRespirationRateBodyPositionExtension |
 
 The body position of the individual during the observation.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsRe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsRespirationRateBodyPositionExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSignsRespirationRateBodyPositionExtension",
   "title" : "NoDomainVitalSignsRespirationRateBodyPosition-Extension",
   "status" : "draft",

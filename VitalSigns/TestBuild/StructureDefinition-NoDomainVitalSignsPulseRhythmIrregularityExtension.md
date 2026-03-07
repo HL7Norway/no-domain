@@ -1,4 +1,4 @@
-# NoDomainVitalSignsPulseRhythmIrregularity-Extension - v0.9.71
+# NoDomainVitalSignsPulseRhythmIrregularity-Extension - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension | *Version*:0.9.72 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsPulseRhythmIrregularityExtension |
 
 More specific pattern of an irregular pulse or heart beat.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsPu
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsPulseRhythmIrregularityExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSignsPulseRhythmIrregularityExtension",
   "title" : "NoDomainVitalSignsPulseRhythmIrregularity-Extension",
   "status" : "draft",

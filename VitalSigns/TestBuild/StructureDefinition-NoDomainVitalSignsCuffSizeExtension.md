@@ -1,4 +1,4 @@
-# NoDomainVitalSignsCuffSize-Extension - v0.9.71
+# NoDomainVitalSignsCuffSize-Extension - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension | *Version*:0.9.71 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension | *Version*:0.9.72 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsCuffSizeExtension |
 
 The size of the cuff used for blood pressure measurement.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCu
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsCuffSizeExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension",
-  "version" : "0.9.71",
+  "version" : "0.9.72",
   "name" : "NoDomainVitalSignsCuffSizeExtension",
   "title" : "NoDomainVitalSignsCuffSize-Extension",
   "status" : "draft",

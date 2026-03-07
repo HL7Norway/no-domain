@@ -1,4 +1,4 @@
-# PractitionerRole details of agb30 - v0.9.71
+# PractitionerRole details of agb30 - v0.9.72
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
