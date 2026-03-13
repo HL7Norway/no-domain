@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension | *Version*:0.9.74 |
-| Draft as of 2026-03-07 | *Computable Name*:NoDomainVitalSignsMethodofOxygenDeliveryExtension |
+| Draft as of 2026-03-13 | *Computable Name*:NoDomainVitalSignsMethodofOxygenDeliveryExtension |
 
 The method used to deliver the oxygen.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsMe
   "name" : "NoDomainVitalSignsMethodofOxygenDeliveryExtension",
   "title" : "NoDomainVitalSignsMethodofOxygenDelivery-Extension",
   "status" : "draft",
-  "date" : "2026-03-07T09:45:24+00:00",
+  "date" : "2026-03-13T10:43:11+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

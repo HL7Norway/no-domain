@@ -68,7 +68,7 @@ Codes representing Respiration Regularity
   "title" : "NoDomainVitalSignsRespirationRegularity-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-07T09:45:24+00:00",
+  "date" : "2026-03-13T10:43:11+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

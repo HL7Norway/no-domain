@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.74 |
-| Draft as of 2026-03-07 | *Computable Name*:NoDomainVitalSigns |
+| Draft as of 2026-03-13 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
 
@@ -65,7 +65,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
   "version" : "0.9.74",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-03-07T09:45:24+00:00",
+  "date" : "2026-03-13T10:43:11+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -92,7 +92,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",
