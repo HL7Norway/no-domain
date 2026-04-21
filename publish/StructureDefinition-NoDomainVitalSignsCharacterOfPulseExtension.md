@@ -1,4 +1,4 @@
-# NoDomainVitalSignsCharacterOfPulse-Extension - v0.9.74
+# NoDomainVitalSignsCharacterOfPulse-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsCharacterOfPulseExtension |
 
 Description of the character of the pulse.
@@ -42,64 +42,80 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCh
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsCharacterOfPulseExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsCharacterOfPulseExtension",
   "title" : "NoDomainVitalSignsCharacterOfPulse-Extension",
   "status" : "draft",
   "date" : "2025-01-28",
   "publisher" : "HL7 Norway",
-  "contact" : [{
-    "name" : "HL7 Norway",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "http://www.hl7.no"
-    }]
-  }],
+  "contact" : [
+    {
+      "name" : "HL7 Norway",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.no"
+        }
+      ]
+    }
+  ],
   "description" : "Description of the character of the pulse.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "NO",
-      "display" : "Norway"
-    }]
-  }],
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion" : "4.0.1",
-  "mapping" : [{
-    "identity" : "rim",
-    "uri" : "http://hl7.org/v3",
-    "name" : "RIM Mapping"
-  }],
+  "mapping" : [
+    {
+      "identity" : "rim",
+      "uri" : "http://hl7.org/v3",
+      "name" : "RIM Mapping"
+    }
+  ],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [{
-    "type" : "element",
-    "expression" : "Observation"
-  }],
+  "context" : [
+    {
+      "type" : "element",
+      "expression" : "Observation"
+    }
+  ],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [{
-      "id" : "Extension",
-      "path" : "Extension"
-    },
-    {
-      "id" : "Extension.extension",
-      "path" : "Extension.extension",
-      "max" : "0"
-    },
-    {
-      "id" : "Extension.url",
-      "path" : "Extension.url",
-      "fixedUri" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension"
-    },
-    {
-      "id" : "Extension.value[x]",
-      "path" : "Extension.value[x]",
-      "type" : [{
-        "code" : "Annotation"
-      }]
-    }]
+    "element" : [
+      {
+        "id" : "Extension",
+        "path" : "Extension"
+      },
+      {
+        "id" : "Extension.extension",
+        "path" : "Extension.extension",
+        "max" : "0"
+      },
+      {
+        "id" : "Extension.url",
+        "path" : "Extension.url",
+        "fixedUri" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension"
+      },
+      {
+        "id" : "Extension.value[x]",
+        "path" : "Extension.value[x]",
+        "type" : [
+          {
+            "code" : "Annotation"
+          }
+        ]
+      }
+    ]
   }
 }
 

@@ -1,4 +1,4 @@
-# Patient details of cdp1000240 - v0.9.74
+# Patient details of cdp1000240 - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,10 +18,12 @@ Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.
 {
   "resourceType" : "Patient",
   "id" : "cdp1000240",
-  "identifier" : [{
-    "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-    "value" : "1000240"
-  }]
+  "identifier" : [
+    {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "1000240"
+    }
+  ]
 }
 
 ```

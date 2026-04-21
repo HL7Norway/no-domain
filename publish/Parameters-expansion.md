@@ -1,10 +1,12 @@
-# expansion - v0.9.74
+# expansion - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
 * **expansion**
 
 ## Parameters: expansion
+
+## Parameters
 
 
 
@@ -14,10 +16,12 @@
 {
   "resourceType" : "Parameters",
   "id" : "expansion",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/51000202101"
-  }]
+  "parameter" : [
+    {
+      "name" : "system-version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/45991000052106"
+    }
+  ]
 }
 
 ```

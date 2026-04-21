@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | `VitalSigns/TestBuild` (branch: `gh-pages`) |
+| Source | `VitalSigns/NordicTXTestBuild` (branch: `gh-pages`) |
 | Target | `publish/` (branch: `publish-master`) |
-| Time | 2026-04-21T06:33:48Z |
+| Time | 2026-04-21T08:41:03Z |
 | Triggered by | rockphotog |

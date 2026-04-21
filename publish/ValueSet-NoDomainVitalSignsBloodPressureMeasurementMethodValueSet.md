@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet - v0.9.74
+# NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,9 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet | *Version*:0.9.74 | |
-| * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBloodPressureMeasurementMethodValueSet |
-| **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet | *Version*:0.9.2 | |
+| *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBloodPressureMeasurementMethodValueSet |
+| **Copyright/Legal**: This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org | | |
 
  
 Codes representing measurement method for HeartRate 
@@ -24,6 +24,10 @@ Codes representing measurement method for HeartRate
  
 
 ### Expansion
+
+Expansion from tx-nordics.fhir.org based on SNOMED CT 51000202101 edition 15-Oct 2025
+
+This value set contains 2 concepts
 
 -------
 
@@ -50,54 +54,69 @@ Codes representing measurement method for HeartRate
     "lastUpdated" : "2025-01-28T00:00:00+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "draft"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1
-  }],
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "draft"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 1
+    }
+  ],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
   "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-13T10:43:11+00:00",
+  "date" : "2025-11-20T10:22:37+00:00",
   "publisher" : "HL7 Norway",
-  "contact" : [{
-    "name" : "HL7 Norway",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "http://www.hl7.no"
-    }]
-  }],
+  "contact" : [
+    {
+      "name" : "HL7 Norway",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.no"
+        }
+      ]
+    }
+  ],
   "description" : "Codes representing measurement method for HeartRate",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "NO",
-      "display" : "Norway"
-    }]
-  }],
-  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }
+      ]
+    }
+  ],
+  "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "37931006",
-        "display" : "Auskultasjon"
-      },
+    "include" : [
       {
-        "code" : "113011001",
-        "display" : "Palpasjon"
-      }]
-    }]
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/51000202101",
+        "concept" : [
+          {
+            "code" : "37931006",
+            "display" : "Auskultasjon"
+          },
+          {
+            "code" : "113011001",
+            "display" : "Palpasjon"
+          }
+        ]
+      }
+    ]
   }
 }
 
