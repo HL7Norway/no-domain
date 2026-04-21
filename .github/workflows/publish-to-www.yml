@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - publish-master
+    paths:
+      - "publish/**"
   workflow_dispatch:
     inputs:
       mode:
@@ -74,7 +76,67 @@ jobs:
       - name: 🚀 Rsync publish/ to server
         if: ${{ github.event.inputs.mode != 'bootstrap test' }}
         run: |
-          rsync -avz --delete \
+          set -o pipefail
+          rsync -avz --delete --itemize-changes \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
             ./publish/ \
-            ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/
+            ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/ \
+            | tee /tmp/rsync-raw.txt
+
+      - name: 📝 Write upload-log.md
+        if: ${{ github.event.inputs.mode != 'bootstrap test' }}
+        run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          {
+            echo "# Upload log"
+            echo ""
+            echo "| Field | Value |"
+            echo "|-------|-------|"
+            echo "| Time | $TIMESTAMP |"
+            echo "| Triggered by | ${{ github.actor }} |"
+            echo "| Commit | ${{ github.sha }} |"
+            echo "| Target | \`ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/\` |"
+            echo ""
+            echo "## Changed files"
+            echo ""
+            echo "\`\`\`"
+            # rsync --itemize-changes prefix meanings:
+            #   >f = file sent, *deleting = deleted, cd = dir created
+            if [ ! -f /tmp/rsync-raw.txt ]; then
+              echo "Error: /tmp/rsync-raw.txt was not created." >&2
+              exit 1
+            fi
+            if grep -E '^(>f|\*deleting|cd)' /tmp/rsync-raw.txt > /tmp/rsync-changes.txt; then
+              sed 's/^>f[^ ]* /[updated]  /;s/^\*deleting   /[deleted]  /;s/^cd[^ ]* /[new dir]  /' /tmp/rsync-changes.txt
+            else
+              status=$?
+              if [ "$status" -eq 1 ]; then
+                echo "(no changes)"
+              else
+                echo "Error: failed to read or process /tmp/rsync-raw.txt." >&2
+                exit "$status"
+              fi
+            fi
+            echo "\`\`\`"
+          } > upload-log.md
+
+      - name: 📦 Upload log as artifact
+        if: ${{ github.event.inputs.mode != 'bootstrap test' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: upload-log-${{ github.run_number }}
+          path: upload-log.md
+          retention-days: 90
+
+      - name: 💾 Commit upload-log.md to publish-master
+        if: ${{ github.event.inputs.mode != 'bootstrap test' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add upload-log.md
+          if git diff --cached --quiet; then
+            echo "No changes to log — skipping commit."
+          else
+            git commit -m "[log] Upload log ${{ github.run_number }} — ${{ github.sha }}"
+            git push origin publish-master
+          fi
