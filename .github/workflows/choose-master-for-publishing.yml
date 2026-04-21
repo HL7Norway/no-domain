@@ -37,11 +37,22 @@ jobs:
             exit 1
           fi
 
-      - name: � Stage selected version for publishing
+      - name: 📦 Stage selected version for publishing
         run: |
           VERSION="${{ github.event.inputs.version }}"
-          mkdir -p publish-staging
-          cp -r gh-pages/VitalSigns/$VERSION/. publish-staging/
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          mkdir -p publish-staging/publish
+          cp -r gh-pages/VitalSigns/$VERSION/. publish-staging/publish/
+          cat > publish-staging/log.md <<EOF
+          # Publish log
+
+          | Field  | Value |
+          |--------|-------|
+          | Source | \`VitalSigns/$VERSION\` (branch: \`gh-pages\`) |
+          | Target | \`publish/\` (branch: \`publish-master\`) |
+          | Time   | $TIMESTAMP |
+          | Triggered by | ${{ github.actor }} |
+          EOF
 
       - name: 🚀 Deploy to publish-master
         uses: peaceiris/actions-gh-pages@v4
@@ -49,4 +60,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: publish-staging
           publish_branch: publish-master
+          force_orphan: false
           commit_message: "Publish VitalSigns/${{ github.event.inputs.version }} to publish-master"
