@@ -1,0 +1,55 @@
+name: Publish to www
+
+on:
+  push:
+    branches:
+      - publish-master
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: 🔒 Check actor has admin (owner) role
+        run: |
+          ROLE=$(curl -s \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/collaborators/${{ github.actor }}/permission" \
+            | jq -r '.permission')
+          if [ "$ROLE" != "admin" ]; then
+            echo "Only repository admins/owners may publish. Actor '${{ github.actor }}' has role: $ROLE"
+            exit 1
+          fi
+
+      - name: 📋 Checkout publish-master
+        uses: actions/checkout@v4
+        with:
+          ref: publish-master
+          fetch-depth: 1
+
+      - name: 📂 Check /publish has content
+        run: |
+          if [ ! -d "publish" ] || [ -z "$(ls -A publish)" ]; then
+            echo "publish/ directory is empty or missing — nothing to deploy."
+            exit 1
+          fi
+          echo "Found content in publish/:"
+          ls -la publish/
+
+      - name: 🔑 Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: 🚀 Rsync publish/ to server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
+            ./publish/ \
+            ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/
