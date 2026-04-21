@@ -23,7 +23,7 @@ jobs:
         id: list
         run: |
           echo "Available versions under VitalSigns:"
-          ls -1d gh-pages/VitalSigns/*/
+          ls -1 gh-pages/VitalSigns/
 
       - name: ✅ Validate input
         run: |
@@ -43,16 +43,8 @@ jobs:
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           mkdir -p publish-staging/publish
           cp -r gh-pages/VitalSigns/$VERSION/. publish-staging/publish/
-          cat > publish-staging/log.md <<EOF
-          # Publish log
-
-          | Field  | Value |
-          |--------|-------|
-          | Source | \`VitalSigns/$VERSION\` (branch: \`gh-pages\`) |
-          | Target | \`publish/\` (branch: \`publish-master\`) |
-          | Time   | $TIMESTAMP |
-          | Triggered by | ${{ github.actor }} |
-          EOF
+          printf '# Publish log\n\n| Field | Value |\n|-------|-------|\n| Source | `VitalSigns/%s` (branch: `gh-pages`) |\n| Target | `publish/` (branch: `publish-master`) |\n| Time | %s |\n| Triggered by | %s |\n' \
+            "$VERSION" "$TIMESTAMP" "${{ github.actor }}" > publish-staging/log.md
 
       - name: 🚀 Deploy to publish-master
         uses: peaceiris/actions-gh-pages@v4
@@ -60,5 +52,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: publish-staging
           publish_branch: publish-master
-          force_orphan: false
           commit_message: "Publish VitalSigns/${{ github.event.inputs.version }} to publish-master"
