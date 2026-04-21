@@ -76,6 +76,7 @@ jobs:
       - name: 🚀 Rsync publish/ to server
         if: ${{ github.event.inputs.mode != 'bootstrap test' }}
         run: |
+          set -o pipefail
           rsync -avz --delete --itemize-changes \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
             ./publish/ \
@@ -101,9 +102,21 @@ jobs:
             echo "\`\`\`"
             # rsync --itemize-changes prefix meanings:
             #   >f = file sent, *deleting = deleted, cd = dir created
-            grep -E '^(>f|\*deleting|cd)' /tmp/rsync-raw.txt \
-              | sed 's/^>f[^ ]* /[updated]  /;s/^\*deleting   /[deleted]  /;s/^cd[^ ]* /[new dir]  /' \
-              || echo "(no changes)"
+            if [ ! -f /tmp/rsync-raw.txt ]; then
+              echo "Error: /tmp/rsync-raw.txt was not created." >&2
+              exit 1
+            fi
+            if grep -E '^(>f|\*deleting|cd)' /tmp/rsync-raw.txt > /tmp/rsync-changes.txt; then
+              sed 's/^>f[^ ]* /[updated]  /;s/^\*deleting   /[deleted]  /;s/^cd[^ ]* /[new dir]  /' /tmp/rsync-changes.txt
+            else
+              status=$?
+              if [ "$status" -eq 1 ]; then
+                echo "(no changes)"
+              else
+                echo "Error: failed to read or process /tmp/rsync-raw.txt." >&2
+                exit "$status"
+              fi
+            fi
             echo "\`\`\`"
           } > upload-log.md
 
