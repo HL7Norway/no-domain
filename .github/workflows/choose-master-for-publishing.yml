@@ -23,7 +23,7 @@ jobs:
         id: list
         run: |
           echo "Available versions under VitalSigns:"
-          ls -1d gh-pages/VitalSigns/*/
+          ls -1 gh-pages/VitalSigns/
 
       - name: ✅ Validate input
         run: |
@@ -37,38 +37,19 @@ jobs:
             exit 1
           fi
 
-      - name: 📋 Checkout publish-master (or create it)
-        uses: actions/checkout@v4
+      - name: 📦 Stage selected version for publishing
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          mkdir -p publish-staging/publish
+          cp -r gh-pages/VitalSigns/$VERSION/. publish-staging/publish/
+          printf '# Publish log\n\n| Field | Value |\n|-------|-------|\n| Source | `VitalSigns/%s` (branch: `gh-pages`) |\n| Target | `publish/` (branch: `publish-master`) |\n| Time | %s |\n| Triggered by | %s |\n' \
+            "$VERSION" "$TIMESTAMP" "${{ github.actor }}" > publish-staging/log.md
+
+      - name: 🚀 Deploy to publish-master
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          ref: publish-master
-          path: publish-master
-        continue-on-error: true
-
-      - name: 🌿 Initialize publish-master if it does not exist
-        run: |
-          if [ ! -d "publish-master/.git" ]; then
-            git clone --no-local gh-pages publish-master
-            cd publish-master
-            git checkout --orphan publish-master
-            git rm -rf .
-          fi
-
-      - name: 🧹 Clear publish-master working tree
-        run: |
-          cd publish-master
-          git rm -rf . --quiet || true
-
-      - name: 📦 Copy selected version to publish-master root
-        run: |
-          VERSION="${{ github.event.inputs.version }}"
-          cp -r gh-pages/VitalSigns/$VERSION/. publish-master/
-
-      - name: 🚀 Commit and push to publish-master
-        run: |
-          VERSION="${{ github.event.inputs.version }}"
-          cd publish-master
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Publish VitalSigns/$VERSION to publish-master"
-          git push origin HEAD:publish-master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: publish-staging
+          publish_branch: publish-master
+          commit_message: "Publish VitalSigns/${{ github.event.inputs.version }} to publish-master"
