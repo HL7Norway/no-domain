@@ -5,6 +5,15 @@ on:
     branches:
       - publish-master
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: "deploy"
+        type: choice
+        options:
+          - deploy
+          - bootstrap test
 
 jobs:
   publish:
@@ -47,7 +56,23 @@ jobs:
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
+      - name: � Bootstrap test — verify SSH connection
+        if: ${{ github.event.inputs.mode == 'bootstrap test' }}
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes \
+            ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one \
+            "echo 'SSH connection OK — hostname: $(hostname)'"
+
+      - name: 🧪 Bootstrap test — dry-run rsync
+        if: ${{ github.event.inputs.mode == 'bootstrap test' }}
+        run: |
+          rsync -avz --dry-run \
+            -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
+            ./publish/ \
+            ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/
+
       - name: 🚀 Rsync publish/ to server
+        if: ${{ github.event.inputs.mode != 'bootstrap test' }}
         run: |
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
