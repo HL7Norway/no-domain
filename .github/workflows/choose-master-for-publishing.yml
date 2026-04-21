@@ -22,8 +22,8 @@ jobs:
       - name: 📂 List available versions
         id: list
         run: |
-          echo "Available versions under CurrentBuild:"
-          ls -1 gh-pages/VitalSigns/CurrentBuild/
+          echo "Available versions under VitalSigns:"
+          ls -1d gh-pages/VitalSigns/*/
 
       - name: ✅ Validate input
         run: |
@@ -32,8 +32,8 @@ jobs:
             echo "No version selected. See available versions above."
             exit 1
           fi
-          if [ ! -d "gh-pages/VitalSigns/CurrentBuild/$VERSION" ]; then
-            echo "Version '$VERSION' not found under VitalSigns/CurrentBuild/."
+          if [ ! -d "gh-pages/VitalSigns/$VERSION" ]; then
+            echo "Version '$VERSION' not found under VitalSigns/."
             exit 1
           fi
 
@@ -61,7 +61,7 @@ jobs:
       - name: 📦 Copy selected version to publish-master root
         run: |
           VERSION="${{ github.event.inputs.version }}"
-          cp -r gh-pages/VitalSigns/CurrentBuild/$VERSION/. publish-master/
+          cp -r gh-pages/VitalSigns/$VERSION/. publish-master/
 
       - name: 🚀 Commit and push to publish-master
         run: |
