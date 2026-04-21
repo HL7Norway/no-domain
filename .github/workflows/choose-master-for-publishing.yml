@@ -1,0 +1,74 @@
+name: Choose master for publishing
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: >
+          Directory name to publish. Leave blank to list available versions and abort.
+        required: false
+        default: ""
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📋 Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: 📂 List available versions
+        id: list
+        run: |
+          echo "Available versions under CurrentBuild:"
+          ls -1 gh-pages/VitalSigns/CurrentBuild/
+
+      - name: ✅ Validate input
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          if [ -z "$VERSION" ]; then
+            echo "No version selected. See available versions above."
+            exit 1
+          fi
+          if [ ! -d "gh-pages/VitalSigns/CurrentBuild/$VERSION" ]; then
+            echo "Version '$VERSION' not found under VitalSigns/CurrentBuild/."
+            exit 1
+          fi
+
+      - name: 📋 Checkout publish-master (or create it)
+        uses: actions/checkout@v4
+        with:
+          ref: publish-master
+          path: publish-master
+        continue-on-error: true
+
+      - name: 🌿 Initialize publish-master if it does not exist
+        run: |
+          if [ ! -d "publish-master/.git" ]; then
+            git clone --no-local gh-pages publish-master
+            cd publish-master
+            git checkout --orphan publish-master
+            git rm -rf .
+          fi
+
+      - name: 🧹 Clear publish-master working tree
+        run: |
+          cd publish-master
+          git rm -rf . --quiet || true
+
+      - name: 📦 Copy selected version to publish-master root
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          cp -r gh-pages/VitalSigns/CurrentBuild/$VERSION/. publish-master/
+
+      - name: 🚀 Commit and push to publish-master
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          cd publish-master
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish VitalSigns/$VERSION to publish-master"
+          git push origin HEAD:publish-master
