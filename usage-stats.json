@@ -1,0 +1,448 @@
+{
+  "package": "hl7.fhir.no.domain.vitalsigns",
+  "version": "0.9.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "NO",
+  "extensions": [
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension",
+      "title": "NoDomainVitalSignsActiveHeating-Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension",
+      "title": "NoDomainVitalSignsBloodpressureBodyPosition-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension",
+      "title": "NoDomainVitalSignsBloodpressureDiastolicFormula-Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension",
+      "title": "NoDomainVitalSignsBloodpressureMeanArterialFormula-Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension",
+      "title": "NoDomainVitalSignsBloodpressureSystolicFormula-Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension",
+      "title": "NoDomainVitalSignsBodyExposure-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension",
+      "title": "NoDomainVitalSignsBodyHeightBodyPosition-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension",
+      "title": "NoDomainVitalSignsCharacterOfPulse-Extension",
+      "types": [
+        "Annotation"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension",
+      "title": "NoDomainVitalSignsClinicalDescription-Extension",
+      "types": [
+        "Annotation"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension",
+      "title": "NoDomainVitalSignsClothingState-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
+      "title": "NoDomainVitalSignsConfoundingFactor-Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension",
+      "title": "NoDomainVitalSignsCuffSize-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension",
+      "title": "NoDomainVitalSignsDaysSinceMenstruationStart-Extension",
+      "types": [
+        "positiveInt"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension",
+      "title": "NoDomainVitalSignsDiastolicEndPoint-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension",
+      "title": "NoDomainVitalSignsFiO2-Extension",
+      "types": [
+        "Ratio"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension",
+      "title": "NoDomainVitalSignsFlow-Extension",
+      "types": [
+        "Quantity"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension",
+      "title": "NoDomainVitalSignsHeartRatePulseBodyPosition-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension",
+      "title": "NoDomainVitalSignsHeartRhythmIrregularity-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension",
+      "title": "NoDomainVitalSignsInspiredOxygen-Extension",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension",
+      "title": "NoDomainVitalSignsMethodofOxygenDelivery-Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension",
+      "title": "NoDomainVitalSignsOnAir-Extension",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension",
+      "title": "NoDomainVitalSignsPercentO2-Extension",
+      "types": [
+        "Ratio"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension",
+      "title": "NoDomainVitalSignsPulseRhythm-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension",
+      "title": "NoDomainVitalSignsPulseRhythmIrregularity-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension",
+      "title": "NoDomainVitalSignsRespirationDepth-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension",
+      "title": "NoDomainVitalSignsRespirationRateBodyPosition-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension",
+      "title": "NoDomainVitalSignsRespirationRegularity-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension",
+      "title": "NoDomainVitalSignsSleepStatus-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension",
+      "title": "NoDomainVitalSignsSpontaneousBreathing-Extension",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension",
+      "title": "NoDomainVitalSignsTilt-Extension",
+      "types": [
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure",
+        "title": "no-domain-VitalSigns-Observation-bloodpressure Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight",
+        "title": "no-domain-VitalSigns-Observation-bodyheight Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp",
+        "title": "no-domain-VitalSigns-Observation-bodytemp Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight",
+        "title": "no-domain-VitalSigns-Observation-bodyweight Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-heartrate",
+        "title": "no-domain-VitalSigns-Observation-heartrate Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation",
+        "title": "no-domain-VitalSigns-Observation-oxygensaturation Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-pulse",
+        "title": "no-domain-VitalSigns-Observation-pulse Profile"
+      },
+      {
+        "url": "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate",
+        "title": "no-domain-VitalSigns-Observation-respirationrate Profile"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsActiveHeatingExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureDiastolicFormulaExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureMeanArterialFormulaExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureSystolicFormulaExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyExposureExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsClothingStateExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCuffSizeExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFiO2Extension": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsHeartRhythmIrregularityExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsMethodofOxygenDeliveryExtension": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsOnAirExtension": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension": [
+      "Extension"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPulseRhythmIrregularityExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRateBodyPositionExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSleepStatusExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsSpontaneousBreathingExtension": [
+      "Observation"
+    ],
+    "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsTiltExtension": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ]
+  }
+}
