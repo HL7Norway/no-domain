@@ -1,0 +1,27 @@
+# Guidance - v0.9.74
+
+* [**Table of Contents**](toc.md)
+* **Guidance**
+
+## Guidance
+
+### Use of LOINC codes
+
+In [FHIR vital-signs](https://hl7.org/fhir/observation-vitalsigns.html), the [LOINC codes](https://loinc.org/) (**magic value**) are mandatory to indicate what category of measurement the given observation is. Until release R5 the **magic value** was mandatory in the Observation.code element. This is challenging for use in Norway as LOINC is not generally used in Norwegian clinical systems and mappings must be provided. The **magic value** codes are to be considered as category codes and if more precise coding is needed SNOMED or other terminology are recommended to use in addition to the **magic value**.
+
+### Use of SNOMED CT terms
+
+The profiles includes SNOMED CT terms for each vital sign measurement. The SNOMED terms are chosen to best reflect the concept expressed in the corresponding LOINC **magic value** for each profile. When choosing a SNOMED term both Norwegian clinical practice have been taken into account (example: what does the clinicians usually understand when reading a heart rate observation) in most cases this maps directly to the concept described in the corresponding [OpenEHR Archetype](https://arketyper.no/ckm/). In one case this has led to a separate profile (pulse and heart rate) to better reflect the clinical concept of an actual pulse measurement.
+
+### FHIR R6 changes
+
+R6 makes one change to the way vital signs are interpreted. R6 adds valuesets for each vital sign containing more specific LOINC codes that are appropriate for representing the given vital sign. At the moment these valuesets only contains LOINC codes, this can be challenging with regards to mapping of LOINC to terminology in common use in Norway.
+
+### Pulse rate vs Heart rate
+
+In most cases, pulse rate and heart rate values are considered to be clinically the same; pulse rate is treated as a "proxy" of the actual heart rate. However, there are several cases where pulse rate and heart rate are treated as different measurements and the differences have clinical importance. In most cases a general LOINC heart rate code to indicate both pulse rate and heart rate is good enough. For systems and clinical processes that need to differentiate the different concepts, the use of more specific SNOMED codes indicated in Observation.code slices in the no-domain-pulse and no-domain-heartrate profiles are recommended. Additional information about method and bodySite of the heart rate observation can also indicate pulse or heart rate observation.
+
+#### Conceptual model vs FHIR vital-signs profiles
+
+The model depicts the differences in conceptual and FHIR vital signs model, including the meaning of different use of codes for handling the complex conceptual model where pulse rate and heart rate are to be differentiated.
+
