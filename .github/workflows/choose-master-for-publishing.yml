@@ -11,16 +11,16 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: 📋 Checkout gh-pages
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
+          fetch-depth: 1
 
       - name: 📂 List available versions
-        id: list
         run: |
           echo "Available versions under VitalSigns:"
           ls -1 gh-pages/VitalSigns/
@@ -42,7 +42,7 @@ jobs:
           VERSION="${{ github.event.inputs.version }}"
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           mkdir -p publish-staging/publish
-          cp -r gh-pages/VitalSigns/$VERSION/. publish-staging/publish/
+          cp -r "gh-pages/VitalSigns/$VERSION/." publish-staging/publish/
           printf '# Publish log\n\n| Field | Value |\n|-------|-------|\n| Source | `VitalSigns/%s` (branch: `gh-pages`) |\n| Target | `publish/` (branch: `publish-master`) |\n| Time | %s |\n| Triggered by | %s |\n' \
             "$VERSION" "$TIMESTAMP" "${{ github.actor }}" > publish-staging/README.md
 
