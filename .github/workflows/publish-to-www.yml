@@ -68,7 +68,7 @@ jobs:
       - name: 🧪 Bootstrap test — dry-run rsync
         if: ${{ github.event.inputs.mode == 'bootstrap test' }}
         run: |
-          rsync -avz --dry-run \
+          rsync -avz --dry-run --exclude='*.md' \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
             ./publish/ \
             ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/
@@ -77,7 +77,7 @@ jobs:
         if: ${{ github.event.inputs.mode != 'bootstrap test' }}
         run: |
           set -o pipefail
-          rsync -avz --delete --itemize-changes \
+          rsync -avz --delete --exclude='*.md' --itemize-changes \
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes" \
             ./publish/ \
             ${{ secrets.SSH_USER }}@ssh.cg2nbgjqd.service.one:/home/cg2nbgjqd_w1439425/webroots/r1439426/fhir/no-domain/vitalsigns/ \
