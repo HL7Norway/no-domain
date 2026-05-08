@@ -17,8 +17,8 @@ Description: "Codes representing body position for blood pressure"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* $sct#4801000202104 "Liggende flatt"
-* $sct#414585002 "Liggende lent mot venstre"
-* $sct#272580008 "Tilbakelent"
-* $sct#10904000 "oppreist stilling"
-* $sct#33586001 "Sittende"
+* $sct#4801000202104
+* $sct#414585002
+* $sct#272580008
+* $sct#10904000
+* $sct#33586001
