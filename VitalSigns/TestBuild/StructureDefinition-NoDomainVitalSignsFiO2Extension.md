@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsFi
   "name" : "NoDomainVitalSignsFiO2Extension",
   "title" : "NoDomainVitalSignsFiO2-Extension",
   "status" : "draft",
-  "date" : "2026-05-08T08:40:16+00:00",
+  "date" : "2026-05-08T09:06:57+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

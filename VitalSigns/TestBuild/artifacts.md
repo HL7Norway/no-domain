@@ -87,6 +87,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [NoDomainVitalSignsRespirationRegularity-ValueSet](ValueSet-NoDomainVitalSignsRespirationRegularityValueSet.md) | Codes representing Respiration Regularity |
 | [NoDomainVitalSignsSleepStatus-ValueSet](ValueSet-NoDomainVitalSignsSleepStatusValueSet.md) | Codes representing Sleep Status |
 | [NoDomainVitalSignsSpontaneousBreathing-ValueSet](ValueSet-NoDomainVitalSignsSpontaneousBreathingValueSet.md) | Codes representing Respiration Spontaneous breathing |
+| [NoDomainVitalSignsTestValueSet](ValueSet-NoDomainVitalSignsTestValueSet.md) | SNOMED CT Norwegian-only code set containing one SCT code for Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett |
 
 ### Example: Example Instances 
 

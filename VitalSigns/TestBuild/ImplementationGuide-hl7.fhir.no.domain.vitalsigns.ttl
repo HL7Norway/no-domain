@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.9.2"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-08T08:40:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:06:57+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -2840,6 +2840,27 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsTestValueSet> ;
+         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsTestValueSet" ]
+       ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsTestValueSet" ] ;
+       fhir:description [ fhir:v "SNOMED CT Norwegian-only code set containing one SCT code for Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "StructureDefinition:extension"
          ]
        ] ) ;
@@ -3029,6 +3050,25 @@
            fhir:l fhir:guidance.html
          ] ;
          fhir:title [ fhir:v "Guidance" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
+             fhir:v "Results-hackathon.html"^^xsd:anyURI ;
+             fhir:l fhir:Results-hackathon.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "Results-hackathon.html"^^xsd:anyURI ;
+           fhir:l fhir:Results-hackathon.html
+         ] ;
+         fhir:title [ fhir:v "Results Hackathon" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

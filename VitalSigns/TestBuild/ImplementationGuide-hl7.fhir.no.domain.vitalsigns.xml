@@ -9,7 +9,7 @@
   <version value="0.9.2"/>
   <name value="NoDomainVitalSigns"/>
   <status value="draft"/>
-  <date value="2026-05-08T08:40:16+00:00"/>
+  <date value="2026-05-08T09:06:57+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -1232,6 +1232,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsTestValueSet"/>
+      </reference>
+      <name value="NoDomainVitalSignsTestValueSet"/>
+      <description value="SNOMED CT Norwegian-only code set containing one SCT code for Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1320,6 +1331,14 @@
         </extension>
         <nameUrl value="guidance.html"/>
         <title value="Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="Results-hackathon.html"/>
+        </extension>
+        <nameUrl value="Results-hackathon.html"/>
+        <title value="Results Hackathon"/>
         <generation value="markdown"/>
       </page>
       <page>

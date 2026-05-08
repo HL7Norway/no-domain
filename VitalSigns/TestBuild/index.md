@@ -73,7 +73,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
   "version" : "0.9.2",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-05-08T08:40:16+00:00",
+  "date" : "2026-05-08T09:06:57+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -1534,6 +1534,18 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoDomainVitalSignsTestValueSet"
+      },
+      "name" : "NoDomainVitalSignsTestValueSet",
+      "description" : "SNOMED CT Norwegian-only code set containing one SCT code for Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1631,6 +1643,15 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
         }],
         "nameUrl" : "guidance.html",
         "title" : "Guidance",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "Results-hackathon.html"
+        }],
+        "nameUrl" : "Results-hackathon.html",
+        "title" : "Results Hackathon",
         "generation" : "markdown"
       },
       {
