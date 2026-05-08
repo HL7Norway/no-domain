@@ -68,7 +68,7 @@ Codes representing body site for heart rate
   "title" : "NoDomainVitalSignsHeartRateBodySite-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-08T07:11:48+00:00",
+  "date" : "2026-05-08T08:25:34+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -91,7 +91,7 @@ Codes representing body site for heart rate
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "80891009",
-        "display" : "Hjerte"
+        "display" : "hjerte"
       }]
     }]
   }
