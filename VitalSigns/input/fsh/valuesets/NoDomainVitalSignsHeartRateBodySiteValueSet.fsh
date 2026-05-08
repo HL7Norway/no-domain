@@ -16,4 +16,4 @@ Description: "Codes representing body site for heart rate"
 * ^publisher = "FHIR Project team"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
-* SNOMED_CT#80891009 "Hjerte"
+* SNOMED_CT#80891009 "hjerte"
