@@ -12,6 +12,6 @@ Description: "SNOMED CT Norwegian-only code set containing one SCT code for Hels
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
 * ^status = #draft
-* ^experimental = #true
+* ^experimental = true
 * ^publisher = "HL7 Norway FHIR Project team"
 * $sctno#107261000202100 "Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett"
