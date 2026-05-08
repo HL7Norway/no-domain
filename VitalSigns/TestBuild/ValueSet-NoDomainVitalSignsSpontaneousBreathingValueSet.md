@@ -68,7 +68,7 @@ Codes representing Respiration Spontaneous breathing
   "title" : "NoDomainVitalSignsSpontaneousBreathing-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-08T09:06:57+00:00",
+  "date" : "2026-05-08T09:33:11+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
