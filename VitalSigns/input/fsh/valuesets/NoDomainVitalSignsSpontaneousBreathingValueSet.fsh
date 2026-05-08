@@ -2,7 +2,7 @@ ValueSet: NoDomainVitalSignsSpontaneousBreathingValueSet
 Id: NoDomainVitalSignsSpontaneousBreathingValueSet 
 Title: "NoDomainVitalSignsSpontaneousBreathing-ValueSet"
 Description: "Codes representing Respiration Spontaneous breathing"
-* ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * ^meta.lastUpdated = "2025-01-28T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -14,5 +14,5 @@ Description: "Codes representing Respiration Spontaneous breathing"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "FHIR Project team"
-* SNOMED_CT#4891000202108 "Ikke observert"
+* $sctnovs#4891000202108 "Ikke observert"
 * SNOMED_CT#241700002 "Tilstede"

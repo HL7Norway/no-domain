@@ -4,7 +4,7 @@ VKPObservation is another profile specification implemented by Velferdsteknologi
 
 #### Mapping table
 
-The table shows a the Observation.code (snomed) used in the different profiles. Other summarizes the extensions defined in NoDomainVitalSigns (that don't extist in VKP).
+The table shows the Observation.code (SNOMED) used in the different profiles. The Other column summarizes the extensions defined in NoDomainVitalSigns (that don't extist in VKP).
 
 |Type observasjon|Subtype|Profile|LOINC|SNOMED|IHTSDO official|VKP snomed|Other|
 |----------------|---------|------|-----|------|------|--|--|

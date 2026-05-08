@@ -2,7 +2,7 @@ ValueSet: NoDomainVitalSignsBodyExposureValueSet
 Id: NoDomainVitalSignsBodyExposureValueSet
 Title: "NoDomainVitalSignsBodyExposure-ValueSet"
 Description: "Codes representing body exposure"
-* ^copyright = "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * ^meta.lastUpdated = "2025-01-28T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -15,7 +15,7 @@ Description: "Codes representing body exposure"
 * ^experimental = false
 * ^publisher = "FHIR Project team"
 
-* SNOMED_CT#5671000202107 "Naken"
-* SNOMED_CT#5601000202102 "Økt påkledning/tildekking"
-* SNOMED_CT#5611000202100 "Passende påkledning/tildekking"
-* SNOMED_CT#5591000202105 "Redusert påkledning/tildekking"
+* $sctnovs#5671000202107 "Naken"
+* $sctnovs#5601000202102 "Økt påkledning/tildekking"
+* $sctnovs#5611000202100 "Passende påkledning/tildekking"
+* $sctnovs#5591000202105 "Redusert påkledning/tildekking"

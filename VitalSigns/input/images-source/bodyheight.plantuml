@@ -1,0 +1,109 @@
+@startuml
+'==========================================================
+'  Observation – Body Height (FHIR Vital Signs Profile)
+'==========================================================
+
+class Observation <<no-domain-VitalSigns-Observation-bodyheight>> {
+  id: String [1..1]
+  implicitRules: uri [0..1]
+  status: code [1..1] <<ObservationStatus (required)>>
+  category: CodeableConcept [1..*] <<ObservationCategoryCodes (preferred)>>
+  code: CodeableConcept [1..1] <<VitalSigns (extensible)>>
+  subject: Reference [1..1] <<Patient | no-basis-Patient>>
+  effective[x]: dateTime | Period [1..1] <<vs-1>>
+  performer: Performer [0..*]
+  value[x]: Quantity [0..1] <<UCUM cm>>
+  dataAbsentReason: CodeableConcept [0..1] <<DataAbsentReason (extensible)>>
+  extension: Extension [0..*]
+  modifierExtension: Extension [0..*]
+}
+
+'==========================================================
+' Extension (Slices)
+'==========================================================
+class Extension {
+  bodyPosition: Coding [0..1] <<NoDomainVitalSignsBodyHeightBodyPosition-ValueSet (required)>>
+  confoundingFactor: CodeableConcept [0..1] <<NoDomainVitalSignsConfoundingFactorExtension>>
+}
+
+
+'==========================================================
+' Performer (Slices)
+'==========================================================
+class Performer {
+  author: Reference [0..*] <<Practitioner | PractitionerRole | CareTeam | Patient | RelatedPerson | no-basis-Practitioner | no-basis-PractitionerRole>>
+  organization: Reference [0..*] <<Organization | no-basis-Organization>>
+}
+
+'==========================================================
+' Code (LOINC + SNOMED slices)
+'==========================================================
+class CodeBodyHeight {
+  coding: Coding [1..*]
+}
+
+class Coding_BodyHeightCode {
+  system: uri [1..1] <<Fixed http://loinc.org>>
+  code: code [1..1] <<Fixed 8302-2>>
+}
+
+class Coding_BodyHeightSnomedCode {
+  system: uri [1..1] <<Pattern http://snomed.info/sct>>
+  code: code [1..1] <<Pattern 1153637007>>
+}
+
+'==========================================================
+' Quantity (Value[x] Slice)
+'==========================================================
+class ValueQuantity {
+  value: decimal [1..1]
+  comparator: code [0..1] <<QuantityComparator (required)>>
+  unit: string [1..1]
+  system: uri [1..1] <<Fixed http://unitsofmeasure.org>>
+  code: code [1..1] <<BodyLengthUnits (required)>>
+}
+
+class BodySite {
+  coding: Coding [0..*] <<NoDomainVitalSignsBodyHeightBodySite-ValueSet (required)>>
+}
+
+class Method {
+  coding: Coding [0..*] <<NoDomainVitalSignsBodyHeightMeasurementMethod-ValueSet (extensible)>>
+}
+
+'==========================================================
+' Relationships
+'==========================================================
+Observation "0..*" *-- "0..*" Extension :extension
+Observation "0..*" *-- "0..*" Extension :modifierExtension
+Observation "1..1" *-right- "1..1" Reference :subject
+Observation "0..*" *-- "0..*" Performer :performer
+Observation "0..*" *-- "0..*" Performer :Author
+Observation "1..*" *-right- "1..*" CodeableConcept :category
+Observation "1..1" *-- "1..1" CodeBodyHeight :code
+Observation "0..1" *-left- "0..1" ValueQuantity :value[x]
+Observation "0..1" *-right- "0..1" CodeableConcept :dataAbsentReason
+Observation "0..1" *-left- "0..1" BodySite
+Observation "0..1" *-left- "0..1" Method
+
+CodeBodyHeight "1..*" *-- "1..1" Coding_BodyHeightCode :coding
+CodeBodyHeight "0..1" *-- "0..1" Coding_BodyHeightSnomedCode :coding
+
+'CategoryVSCat "1..*" *-- "1..*" Coding :coding
+
+'Extension "0..1" *-- "0..1" Coding :bodyPosition
+Extension "0..1" *-up- "0..1" CodeableConcept :confoundingFactor
+
+'==========================================================
+' Layout hints
+'==========================================================
+
+ValueQuantity -[hidden]down- BodySite
+BodySite -[hidden]down- Method
+
+Observation -[hidden]down- Extension
+Extension -[hidden]down- Performer
+'Performer -[hidden]down- CodeBodyHeight
+'CodeBodyHeight -[hidden]down- ValueQuantity
+
+@enduml

@@ -10,8 +10,8 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.domain.vitalsigns
 status: draft
 license: CC0-1.0
-version: 0.9.2
-releaseLabel: snomedtest
+version: 0.9.74
+releaseLabel: QANormative-1
 publisher:
   name: HL7 Norway
   url: http://www.hl7.no
@@ -21,14 +21,16 @@ parameters:
 copyrightYear: 2024+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 dependencies:
-    hl7.fhir.no.basis: 2.2.0
+    hl7.fhir.no.basis: 2.2.2
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Guidance: guidance.html
+  Guidance: 
+    General guidance: guidance.html
+    Licence and legal: licence_legal.html
   Artifacts: artifacts.html
   TOC: toc.html
   Download: download.html
