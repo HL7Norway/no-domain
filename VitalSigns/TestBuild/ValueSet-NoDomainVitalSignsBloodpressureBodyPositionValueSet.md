@@ -68,7 +68,7 @@ Codes representing body position for blood pressure
   "title" : "NoDomainVitalSignsBloodpressureBodyPosition-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-08T09:33:11+00:00",
+  "date" : "2026-05-08T10:00:47+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -90,19 +90,24 @@ Codes representing body position for blood pressure
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "4801000202104"
+        "code" : "4801000202104",
+        "display" : "Liggende flatt"
       },
       {
-        "code" : "414585002"
+        "code" : "414585002",
+        "display" : "Liggende lent mot venstre"
       },
       {
-        "code" : "272580008"
+        "code" : "272580008",
+        "display" : "Tilbakelent"
       },
       {
-        "code" : "10904000"
+        "code" : "10904000",
+        "display" : "oppreist stilling"
       },
       {
-        "code" : "33586001"
+        "code" : "33586001",
+        "display" : "Sittende"
       }]
     }]
   }
