@@ -64,7 +64,7 @@ Codes representing body position for body height
   "title" : "NoDomainVitalSignsBodyHeightBodyPosition-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-08T10:00:47+00:00",
+  "date" : "2026-05-08T10:09:24+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
