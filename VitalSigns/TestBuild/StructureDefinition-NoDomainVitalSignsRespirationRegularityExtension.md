@@ -1,4 +1,4 @@
-# NoDomainVitalSignsRespirationRegularity-Extension - v0.9.2
+# NoDomainVitalSignsRespirationRegularity-Extension - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension | *Version*:0.9.2 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension | *Version*:0.9.74 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsRespirationRegularityExtension |
 
 The regularity of spontaneous breathing.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsRe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsRespirationRegularityExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension",
-  "version" : "0.9.2",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsRespirationRegularityExtension",
   "title" : "NoDomainVitalSignsRespirationRegularity-Extension",
   "status" : "draft",

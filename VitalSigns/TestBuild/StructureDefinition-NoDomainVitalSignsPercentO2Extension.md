@@ -1,4 +1,4 @@
-# NoDomainVitalSignsPercentO2-Extension - v0.9.2
+# NoDomainVitalSignsPercentO2-Extension - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension | *Version*:0.9.2 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension | *Version*:0.9.74 |
 | Draft as of 2026-05-08 | *Computable Name*:NoDomainVitalSignsPercentO2Extension |
 
 Percentage of oxygen in inspired air.
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsPe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsPercentO2Extension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension",
-  "version" : "0.9.2",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsPercentO2Extension",
   "title" : "NoDomainVitalSignsPercentO2-Extension",
   "status" : "draft",
-  "date" : "2026-05-08T11:19:22+00:00",
+  "date" : "2026-05-08T15:55:34+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

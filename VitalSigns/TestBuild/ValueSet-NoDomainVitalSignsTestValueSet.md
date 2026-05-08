@@ -1,4 +1,4 @@
-# NoDomainVitalSignsTestValueSet - v0.9.2
+# NoDomainVitalSignsTestValueSet - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsTestValueSet | *Version*:0.9.2 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsTestValueSet | *Version*:0.9.74 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsTestValueSet |
 | **Copyright/Legal**: This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org | | |
 
@@ -63,12 +63,12 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsTestValueSet",
-  "version" : "0.9.2",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSignsTestValueSet",
   "title" : "NoDomainVitalSignsTestValueSet",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-05-08T11:19:22+00:00",
+  "date" : "2026-05-08T15:55:34+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

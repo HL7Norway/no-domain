@@ -1,4 +1,4 @@
-# Home - v0.9.2
+# Home - v0.9.74
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.2 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.74 |
 | Draft as of 2026-05-08 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
@@ -45,21 +45,13 @@ There are some gaps in the mapping used in the Norwegian vital signs profiles (S
 
 [IHTSDO official mapping](https://confluence.ihtsdotools.org/display/FHIR/Vital+Signs+panel+binding)
 
-### License and Legal Terms
+### Governance and change process
 
-This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
+The source code of this implementation guide is maintained in a publicly awaliable repository on (HL7 Norway Github)[https://github.com/HL7Norway]. Anyone can propose changes to the profiles by opening issues in the GitHub repo. HL7 Norway encourages any input to be handled using the issue system on Github as they help the affiliate to track proposed changes and facilitate an open discussion of the proposed changes.
 
-HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR ![](icon-fhir-16.png)® are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.
+#### Known bugs and errors
 
-This implementation guide contains and references intellectual property owned by third parties ("Third Party IP"). Acceptance of these License Terms does not grant any rights with respect to Third Party IP. The licensee alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize Third Party IP in connection with the specification or otherwise.
-
-See also [http://hl7.org/fhir/license.html](http://hl7.org/fhir/license.html)
-
-Following is a non-exhaustive list of third-party artifacts and terminologies that may require a separate license:
-
-**SNOMED Clinical Terms® (SNOMED CT®)** This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International (former known as International Health Terminology Standards Development Organisation IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. “SNOMED” and “SNOMED CT” are registered trademarks of SNOMED International.
-
-**Logical Observation Identifiers Names and Codes LOINC** This material contains content from LOINC® (http://loinc.org). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright © 1995-2013, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at http://loinc.org/terms-of-use.
+There are several known bugs and issues that are planned to be resovled in upcoming releases. A list of known issues and bugs are maintained in the [Github repo](https://github.com/HL7Norway/no-domain/issues).
 
 
 
@@ -70,10 +62,10 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.domain.vitalsigns",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns",
-  "version" : "0.9.2",
+  "version" : "0.9.74",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-05-08T11:19:22+00:00",
+  "date" : "2026-05-08T15:55:34+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -116,7 +108,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
     "id" : "hl7_fhir_no_basis",
     "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
     "packageId" : "hl7.fhir.no.basis",
-    "version" : "2.2.0"
+    "version" : "2.2.2"
   }],
   "definition" : {
     "extension" : [{
@@ -137,7 +129,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
       },
       {
         "url" : "value",
-        "valueString" : "snomedtest"
+        "valueString" : "QANormative-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -444,7 +436,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
       },
       {
         "url" : "value",
-        "valueString" : "snomedtest"
+        "valueString" : "QANormative-1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1132,7 +1124,7 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
         "reference" : "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension"
       },
       "name" : "NoDomainVitalSignsConfoundingFactor-Extension",
-      "description" : "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields",
+      "description" : "Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields",
       "exampleBoolean" : false
     },
     {
@@ -1643,6 +1635,15 @@ Following is a non-exhaustive list of third-party artifacts and terminologies th
         }],
         "nameUrl" : "guidance.html",
         "title" : "Guidance",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "licence_legal.html"
+        }],
+        "nameUrl" : "licence_legal.html",
+        "title" : "Licence Legal",
         "generation" : "markdown"
       },
       {
