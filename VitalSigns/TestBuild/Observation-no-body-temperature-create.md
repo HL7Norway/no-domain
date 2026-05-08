@@ -1,4 +1,4 @@
-# no-body-temperature-create - v0.9.74
+# no-body-temperature-create - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 version: 0; Last updated: 2014-01-30 22:35:23+1100; 
 
-Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
+Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
 
 Profile: [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.md)
 
@@ -24,7 +24,7 @@ Profile: [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition
 
 **code**: Body temperature
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000239
+**subject**: Identifier: Foedselsnummer/1000239
 
 **effective**: 2021-05-10
 

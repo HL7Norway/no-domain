@@ -1,4 +1,4 @@
-# no-oxygen-saturation-create - v0.9.74
+# no-oxygen-saturation-create - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 version: 0; Last updated: 2014-01-30 22:35:23+1100; 
 
-Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
+Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
 
 Profile: [no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.md)
 
@@ -27,7 +27,7 @@ Profile: [no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDe
 
 **code**: Oxygen saturation in Arterial blood
 
-**subject**: [Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#1000240)](Patient-cdp1000240.md)
+**subject**: [Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#1000240)](Patient-cdp1000240.md)
 
 **effective**: 2021-05-10
 

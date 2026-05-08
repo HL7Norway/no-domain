@@ -1,4 +1,4 @@
-# no-domain-VitalSigns-Observation-bodytemp Profile - v0.9.74
+# no-domain-VitalSigns-Observation-bodytemp Profile - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsObservationBodyTemp |
 | **Copyright/Legal**: Some content in this profile builds on the body temperature archetype: Kroppstemperatur, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.1855 | |
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-no-domain-VitalSigns
   "resourceType" : "StructureDefinition",
   "id" : "no-domain-VitalSigns-Observation-bodytemp",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/no-domain-VitalSigns-Observation-bodytemp",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsObservationBodyTemp",
   "title" : "no-domain-VitalSigns-Observation-bodytemp Profile",
   "status" : "draft",

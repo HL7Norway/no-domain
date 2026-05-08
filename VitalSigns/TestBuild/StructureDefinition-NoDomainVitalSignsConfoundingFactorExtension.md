@@ -1,4 +1,4 @@
-# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.74
+# NoDomainVitalSignsConfoundingFactor-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,10 +8,10 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsConfoundingFactorExtension |
 
-Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields
+Confounding factor is Issues or factors that may impact on , not captured in other fields
 
 **Context of Use**
 
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCo
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsConfoundingFactorExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsConfoundingFactorExtension",
   "title" : "NoDomainVitalSignsConfoundingFactor-Extension",
   "status" : "draft",
@@ -56,7 +56,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCo
       "value" : "http://www.hl7.no"
     }]
   }],
-  "description" : "Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields",
+  "description" : "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

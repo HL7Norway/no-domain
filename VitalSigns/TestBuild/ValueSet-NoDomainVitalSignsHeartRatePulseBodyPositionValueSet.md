@@ -1,4 +1,4 @@
-# NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet - v0.9.74
+# NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,9 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet | *Version*:0.9.74 | |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet | *Version*:0.9.2 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsHeartRatePulseBodyPositionValueSet |
-| **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
+| **Copyright/Legal**: This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org | | |
 
  
 Codes representing body position for heart rate or Pulse 
@@ -24,8 +24,6 @@ Codes representing body position for heart rate or Pulse
  
 
 ### Expansion
-
-No Expansion for this valueset (Unsupported Code System Version)
 
 -------
 
@@ -65,12 +63,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsHeartRatePulseBodyPositionValueSet",
   "title" : "NoDomainVitalSignsHeartRatePulseBodyPosition-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-13T10:43:11+00:00",
+  "date" : "2026-05-08T07:00:45+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -87,19 +85,15 @@ No Expansion for this valueset (Unsupported Code System Version)
       "display" : "Norway"
     }]
   }],
-  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/51000202101",
       "concept" : [{
         "code" : "4801000202104",
         "display" : "Liggende"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
+      },
+      {
         "code" : "33586001",
         "display" : "Sittende"
       },

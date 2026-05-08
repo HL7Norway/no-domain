@@ -1,4 +1,4 @@
-# NoDomainVitalSignsFlow-Extension - v0.9.74
+# NoDomainVitalSignsFlow-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension | *Version*:0.9.74 |
-| Draft as of 2026-03-13 | *Computable Name*:NoDomainVitalSignsFlowExtension |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension | *Version*:0.9.2 |
+| Draft as of 2026-05-08 | *Computable Name*:NoDomainVitalSignsFlowExtension |
 
 Oxygen flow rate given to an individual.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsFl
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsFlowExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsFlowExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsFlowExtension",
   "title" : "NoDomainVitalSignsFlow-Extension",
   "status" : "draft",
-  "date" : "2026-03-13T10:43:11+00:00",
+  "date" : "2026-05-08T07:00:45+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

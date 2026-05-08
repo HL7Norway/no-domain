@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns>
   ] ; # 
-  fhir:version [ fhir:v "0.9.74"] ; # 
+  fhir:version [ fhir:v "0.9.2"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSigns"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-13T10:43:11+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-08T07:00:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -85,7 +85,7 @@
        fhir:l <http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.no.basis" ] ;
-     fhir:version [ fhir:v "2.2.2" ]
+     fhir:version [ fhir:v "2.2.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -129,7 +129,55 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "QANormative-1"
+           fhir:v "snomedtest"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "show-inherited-invariants"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "false"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "path-expansion-params"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Parameters-expansion.json"
          ]
        ] ) ;
        fhir:url [
@@ -690,12 +738,22 @@
        ]
      ] [
        fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters>
+       ] ;
+       fhir:value [
+         a fhir:Reference ;
+         fhir:l <http://hl7.no/fhir/no-domain/vitalsigns/Parameters/expansion-parameters> ;
+         fhir:reference [ fhir:v "Parameters/expansion-parameters" ]
+       ]
+     ] [
+       fhir:url [
          fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ;
          fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency>
        ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.9.0"
+         fhir:v "hl7.fhir.uv.tools.r4#1.1.2"
        ]
      ] [
        fhir:extension ( [
@@ -738,7 +796,55 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "QANormative-1"
+           fhir:v "snomedtest"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "show-inherited-invariants"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "false"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "path-expansion-params"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Parameters-expansion.json"
          ]
        ] ) ;
        fhir:url [
@@ -2028,7 +2134,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NoDomainVitalSignsConfoundingFactorExtension" ]
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsConfoundingFactor-Extension" ] ;
-       fhir:description [ fhir:v "Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields" ] ;
+       fhir:description [ fhir:v "Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -2923,25 +3029,6 @@
            fhir:l fhir:guidance.html
          ] ;
          fhir:title [ fhir:v "Guidance" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [
-             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
-             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
-           ] ;
-           fhir:value [
-             a fhir:Url ;
-             fhir:v "licence_legal.html"^^xsd:anyURI ;
-             fhir:l fhir:licence_legal.html
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:Url ;
-           fhir:v "licence_legal.html"^^xsd:anyURI ;
-           fhir:l fhir:licence_legal.html
-         ] ;
-         fhir:title [ fhir:v "Licence Legal" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

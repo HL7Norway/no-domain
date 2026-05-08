@@ -1,4 +1,4 @@
-# Patient details of cdp1000240 - v0.9.74
+# Patient details of cdp1000240 - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,7 +6,7 @@
 
 ## Example Patient: Patient details of cdp1000240
 
-Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#1000240)
+Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#1000240)
 
 -------
 

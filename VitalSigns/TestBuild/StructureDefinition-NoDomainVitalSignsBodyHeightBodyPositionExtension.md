@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBodyHeightBodyPosition-Extension - v0.9.74
+# NoDomainVitalSignsBodyHeightBodyPosition-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsBodyHeightBodyPositionExtension |
 
 Position of individual when body height measured.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsBo
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsBodyHeightBodyPositionExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsBodyHeightBodyPositionExtension",
   "title" : "NoDomainVitalSignsBodyHeightBodyPosition-Extension",
   "status" : "draft",

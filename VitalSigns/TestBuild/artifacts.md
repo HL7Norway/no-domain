@@ -1,4 +1,4 @@
-# Artifacts Summary - v0.9.74
+# Artifacts Summary - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -38,7 +38,7 @@ These define constraints on FHIR data types for systems conforming to this imple
 | [NoDomainVitalSignsCharacterOfPulse-Extension](StructureDefinition-NoDomainVitalSignsCharacterOfPulseExtension.md) | Description of the character of the pulse. |
 | [NoDomainVitalSignsClinicalDescription-Extension](StructureDefinition-NoDomainVitalSignsClinicalDescriptionExtension.md) | Narrative description about the pulse or heart beat. |
 | [NoDomainVitalSignsClothingState-Extension](StructureDefinition-NoDomainVitalSignsClothingStateExtension.md) | Description of the state of dress of the person at the time of weighing. |
-| [NoDomainVitalSignsConfoundingFactor-Extension](StructureDefinition-NoDomainVitalSignsConfoundingFactorExtension.md) | Confounding factor is for comments on and records of other incidental factors that may be affect interpretation of the observation, not captured in other fields |
+| [NoDomainVitalSignsConfoundingFactor-Extension](StructureDefinition-NoDomainVitalSignsConfoundingFactorExtension.md) | Confounding factor is Issues or factors that may impact on <the measurement>, not captured in other fields |
 | [NoDomainVitalSignsCuffSize-Extension](StructureDefinition-NoDomainVitalSignsCuffSizeExtension.md) | The size of the cuff used for blood pressure measurement. |
 | [NoDomainVitalSignsDaysSinceMenstruationStart-Extension](StructureDefinition-NoDomainVitalSignsDaysSinceMenstruationStartExtension.md) | Current day of the menstrual cycle. |
 | [NoDomainVitalSignsDiastolicEndPoint-Extension](StructureDefinition-NoDomainVitalSignsDiastolicEndPointExtension.md) | Record which Korotkoff sound is used for determining diastolic pressure using auscultative method. |

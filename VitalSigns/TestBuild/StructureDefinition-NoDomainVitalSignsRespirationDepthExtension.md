@@ -1,4 +1,4 @@
-# NoDomainVitalSignsRespirationDepth-Extension - v0.9.74
+# NoDomainVitalSignsRespirationDepth-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsRespirationDepthExtension |
 
 The depth of spontaneous breathing.
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsRe
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsRespirationDepthExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsRespirationDepthExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsRespirationDepthExtension",
   "title" : "NoDomainVitalSignsRespirationDepth-Extension",
   "status" : "draft",

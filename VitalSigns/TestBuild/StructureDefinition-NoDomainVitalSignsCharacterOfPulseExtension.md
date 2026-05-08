@@ -1,4 +1,4 @@
-# NoDomainVitalSignsCharacterOfPulse-Extension - v0.9.74
+# NoDomainVitalSignsCharacterOfPulse-Extension - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension | *Version*:0.9.74 |
+| *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension | *Version*:0.9.2 |
 | Draft as of 2025-01-28 | *Computable Name*:NoDomainVitalSignsCharacterOfPulseExtension |
 
 Description of the character of the pulse.
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsCh
   "resourceType" : "StructureDefinition",
   "id" : "NoDomainVitalSignsCharacterOfPulseExtension",
   "url" : "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension",
-  "version" : "0.9.74",
+  "version" : "0.9.2",
   "name" : "NoDomainVitalSignsCharacterOfPulseExtension",
   "title" : "NoDomainVitalSignsCharacterOfPulse-Extension",
   "status" : "draft",

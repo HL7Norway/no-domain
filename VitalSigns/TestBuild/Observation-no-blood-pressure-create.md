@@ -1,4 +1,4 @@
-# no-blood-pressure-create - v0.9.74
+# no-blood-pressure-create - v0.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 version: 0; Last updated: 2014-01-30 22:35:23+1100; 
 
-Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
+Information Source: [HL7_Norway](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&canonical=http://fhir.org/packages/hl7.fhir.no.basis/HL7_Norway)
 
 Profile: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.md)
 
@@ -32,7 +32,7 @@ Profile: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefin
 
 **code**: BP pnl w all optional
 
-**subject**: [Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#1000808)](Patient-cdp1000808.md)
+**subject**: [Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#1000808)](Patient-cdp1000808.md)
 
 **effective**: 2021-05-10
 
