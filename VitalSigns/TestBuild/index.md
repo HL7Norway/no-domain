@@ -65,7 +65,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
   "version" : "0.9.74",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-06-26T06:37:03+00:00",
+  "date" : "2026-06-26T06:47:15+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -162,7 +162,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
       },
       {
         "url" : "value",
-        "valueString" : "no-NO"
+        "valueString" : "nb-NO"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -491,7 +491,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
       },
       {
         "url" : "value",
-        "valueString" : "no-NO"
+        "valueString" : "nb-NO"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
