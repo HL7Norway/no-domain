@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsPercentO2Extension | *Version*:0.9.74 |
-| Draft as of 2026-05-08 | *Computable Name*:NoDomainVitalSignsPercentO2Extension |
+| Draft as of 2026-06-26 | *Computable Name*:NoDomainVitalSignsPercentO2Extension |
 
 Percentage of oxygen in inspired air.
 
@@ -22,7 +22,7 @@ Percentage of oxygen in inspired air.
 * Use this Extension: [NoDomainVitalSignsInspiredOxygen-Extension](StructureDefinition-NoDomainVitalSignsInspiredOxygenExtension.md)
 * Examples for this Extension: [Observation/no-oxygen-saturation-create](Observation-no-oxygen-saturation-create.md) and [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsPercentO2Extension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsPercentO2Extension.json)
 
 ### Formal Views of Extension Content
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-NoDomainVitalSignsPe
   "name" : "NoDomainVitalSignsPercentO2Extension",
   "title" : "NoDomainVitalSignsPercentO2-Extension",
   "status" : "draft",
-  "date" : "2026-05-08T15:55:34+00:00",
+  "date" : "2026-06-26T06:37:03+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

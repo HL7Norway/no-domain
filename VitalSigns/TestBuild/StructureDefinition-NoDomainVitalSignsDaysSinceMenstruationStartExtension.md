@@ -22,7 +22,7 @@ Current day of the menstrual cycle.
 * Use this Extension: [no-domain-VitalSigns-Observation-bodytemp Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodytemp.md)
 * Examples for this Extension: [Observation/no-body-temperature-create](Observation-no-body-temperature-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsDaysSinceMenstruationStartExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsDaysSinceMenstruationStartExtension.json)
 
 ### Formal Views of Extension Content
 

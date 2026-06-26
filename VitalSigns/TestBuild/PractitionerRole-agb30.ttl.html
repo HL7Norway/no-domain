@@ -211,25 +211,29 @@
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
- a fhir:PractitionerRole ;
+&lt;http://hl7.org/fhir/PractitionerRole/agb30&gt; a fhir:PractitionerRole ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#PractitionerRole.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;agb30&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/domainresource.html#PractitionerRole.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole agb30&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;agb30\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcagb30\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:1.3.6.1.4.1.9038.51.1&lt;/code&gt;/30&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:1.3.6.1.4.1.9038.51.1&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:oid:1.3.6.1.4.1.9038.51.1&gt;     ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;30&quot; ]
-  ] ) . # 
+  <a href="http://hl7.org/fhir/R4/resource.html#PractitionerRole.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;agb30&quot;] ;
+  <a href="http://hl7.org/fhir/R4/domainresource.html#PractitionerRole.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole agb30&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;agb30\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcagb30\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:1.3.6.1.4.1.9038.51.1&lt;/code&gt;/30&lt;/p&gt;&lt;/div&gt;&quot;
+  ] ;
+  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.identifier">fhir:PractitionerRole.identifier</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:oid:1.3.6.1.4.1.9038.51.1&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;30&quot; ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/PractitionerRole/agb30.ttl&gt; a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI &lt;http://build.fhir.org/PractitionerRole/agb30.ttl&gt; .
 
 </code></pre>
 
@@ -256,7 +260,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.74 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 8, 2026 15:55+0000">2026-05-08</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.74 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 26, 2026 06:37+0000">2026-06-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

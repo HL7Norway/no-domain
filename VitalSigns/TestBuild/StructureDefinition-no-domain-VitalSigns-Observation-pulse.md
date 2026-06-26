@@ -22,7 +22,7 @@ Basisprofile for Norwegian VitalSigns Observation pulse information. Defined by 
 
 * Examples for this Profile: [Observation/no-pulse-rate](Observation-no-pulse-rate.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-pulse)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-pulse.json)
 
 ### Formal Views of Profile Content
 

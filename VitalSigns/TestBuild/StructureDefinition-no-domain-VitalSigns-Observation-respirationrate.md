@@ -23,7 +23,7 @@ Basisprofile for Norwegian VitalSigns Observation Respiration Rate information. 
 
 * Examples for this Profile: [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-respirationrate)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.json)
 
 ### Formal Views of Profile Content
 

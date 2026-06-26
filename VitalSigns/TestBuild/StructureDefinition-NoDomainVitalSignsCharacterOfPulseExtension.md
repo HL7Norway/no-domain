@@ -21,7 +21,7 @@ Description of the character of the pulse.
 
 * Use this Extension: [no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsCharacterOfPulseExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsCharacterOfPulseExtension.json)
 
 ### Formal Views of Extension Content
 

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,121 +7,120 @@
 
 <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "NoDomainVitalSignsBloodpressureBodySiteValueSet"] ; # 
-  fhir:meta [
-     fhir:lastUpdated [ fhir:v "2025-01-28T00:00:00+00:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NoDomainVitalSignsBloodpressureBodySiteValueSet</b></p><a name=\"NoDomainVitalSignsBloodpressureBodySiteValueSet\"> </a><a name=\"hcNoDomainVitalSignsBloodpressureBodySiteValueSet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-01-28 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>Ankel, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>Ankel, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/125685002\">125685002</a></td><td>Finger</td></tr><tr><td><a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>Fotrygg</td></tr><tr><td><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Håndledd, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Håndledd, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>Intraarterielt</td></tr><tr><td><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>Lår, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>Lår, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Overarm, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Overarm, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
-     fhir:value [
-       a fhir:Code ;
-       fhir:v "oo"
+  fhir:Resource.id [ fhir:value "NoDomainVitalSignsBloodpressureBodySiteValueSet"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-01-28T00:00:00+00:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ]
-  ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
-     ] ;
-     fhir:value [
-       a fhir:Code ;
-       fhir:v "draft"
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NoDomainVitalSignsBloodpressureBodySiteValueSet</b></p><a name=\"NoDomainVitalSignsBloodpressureBodySiteValueSet\"> </a><a name=\"hcNoDomainVitalSignsBloodpressureBodySiteValueSet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-01-28 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>Ankel, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>Ankel, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/125685002\">125685002</a></td><td>Finger</td></tr><tr><td><a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>Fotrygg</td></tr><tr><td><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Håndledd, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Håndledd, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>Intraarterielt</td></tr><tr><td><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>Lår, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>Lår, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Overarm, høyre</td></tr><tr><td><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Overarm, venstre</td></tr><tr><td><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "oo" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "draft" ]
+  ], [
+     fhir:index 2 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"] ;
+  fhir:ValueSet.version [ fhir:value "0.9.74"] ;
+  fhir:ValueSet.name [ fhir:value "NoDomainVitalSignsBloodpressureBodySiteValueSet"] ;
+  fhir:ValueSet.title [ fhir:value "NoDomainVitalSignsBloodpressureBodySite-ValueSet"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-26T06:37:03+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Norway"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Norway" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.no" ]
      ]
-  ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
-     ] ;
-     fhir:value [
-       a fhir:Integer ;
-       fhir:v 1
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Codes representing body site for blood pressure"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "NO" ] ;
+       fhir:Coding.display [ fhir:value "Norway" ]
      ]
-  ] ) ; # 
-  fhir:url [
-     fhir:v "http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"^^xsd:anyURI ;
-     fhir:l <http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet>
-  ] ; # 
-  fhir:version [ fhir:v "0.9.74"] ; # 
-  fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodySiteValueSet"] ; # 
-  fhir:title [ fhir:v "NoDomainVitalSignsBloodpressureBodySite-ValueSet"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-08T15:55:34+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "HL7 Norway" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.no" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Codes representing body site for blood pressure"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "NO" ] ;
-       fhir:display [ fhir:v "Norway" ]
-     ] )
-  ] ) ; # 
-  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "6685009" ] ;
-         fhir:display [ fhir:v "Ankel, høyre" ]
-       ] [
-         fhir:code [ fhir:v "51636004" ] ;
-         fhir:display [ fhir:v "Ankel, venstre" ]
-       ] [
-         fhir:code [ fhir:v "125685002" ] ;
-         fhir:display [ fhir:v "Finger" ]
-       ] [
-         fhir:code [ fhir:v "2402003" ] ;
-         fhir:display [ fhir:v "Fotrygg" ]
-       ] [
-         fhir:code [ fhir:v "9736006" ] ;
-         fhir:display [ fhir:v "Håndledd, høyre" ]
-       ] [
-         fhir:code [ fhir:v "5951000" ] ;
-         fhir:display [ fhir:v "Håndledd, venstre" ]
-       ] [
-         fhir:code [ fhir:v "51114001" ] ;
-         fhir:display [ fhir:v "Intraarterielt" ]
-       ] [
-         fhir:code [ fhir:v "11207009" ] ;
-         fhir:display [ fhir:v "Lår, høyre" ]
-       ] [
-         fhir:code [ fhir:v "61396006" ] ;
-         fhir:display [ fhir:v "Lår, venstre" ]
-       ] [
-         fhir:code [ fhir:v "368209003" ] ;
-         fhir:display [ fhir:v "Overarm, høyre" ]
-       ] [
-         fhir:code [ fhir:v "368208006" ] ;
-         fhir:display [ fhir:v "Overarm, venstre" ]
-       ] [
-         fhir:code [ fhir:v "29707007" ] ;
-         fhir:display [ fhir:v "Tå" ]
-       ] )
-     ] )
-  ] . # 
+  ] ;
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6685009" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ankel, høyre" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51636004" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ankel, venstre" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "125685002" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Finger" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2402003" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fotrygg" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9736006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Håndledd, høyre" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5951000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Håndledd, venstre" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51114001" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intraarterielt" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11207009" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lår, høyre" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61396006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lår, venstre" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368209003" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Overarm, høyre" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368208006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Overarm, venstre" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29707007" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tå" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/no-domain/vitalsigns/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

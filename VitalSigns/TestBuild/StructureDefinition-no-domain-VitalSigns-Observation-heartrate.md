@@ -23,7 +23,7 @@ Basisprofile for Norwegian VitalSigns Observation Heart Rate information. Define
 
 * Examples for this Profile: [Observation/no-heart-rate-create](Observation-no-heart-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-heartrate)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-heartrate.json)
 
 ### Formal Views of Profile Content
 

@@ -23,7 +23,7 @@ Basisprofile for Norwegian VitalSigns Observation Oxygen Saturation information.
 
 * Examples for this Profile: [Observation/no-oxygen-saturation-create](Observation-no-oxygen-saturation-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-oxygensaturation)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.json)
 
 ### Formal Views of Profile Content
 

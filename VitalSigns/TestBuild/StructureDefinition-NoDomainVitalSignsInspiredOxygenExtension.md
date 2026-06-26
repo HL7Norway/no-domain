@@ -22,7 +22,7 @@ Details of the amount of oxygen available to the subject at the time of observat
 * Use this Extension: [no-domain-VitalSigns-Observation-oxygensaturation Profile](StructureDefinition-no-domain-VitalSigns-Observation-oxygensaturation.md) and [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
 * Examples for this Extension: [Observation/no-oxygen-saturation-create](Observation-no-oxygen-saturation-create.md) and [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsInspiredOxygenExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsInspiredOxygenExtension.json)
 
 ### Formal Views of Extension Content
 

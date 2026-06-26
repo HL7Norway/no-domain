@@ -23,7 +23,7 @@ To record the length of the body from crown of head to sole of foot of an indivi
 
 * Examples for this Profile: [Observation/no-body-height-create](Observation-no-body-height-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-bodyheight)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.json)
 
 ### Formal Views of Profile Content
 

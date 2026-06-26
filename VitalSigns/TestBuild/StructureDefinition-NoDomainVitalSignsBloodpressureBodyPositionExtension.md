@@ -22,7 +22,7 @@ The position of the individual at the time of measurement.
 * Use this Extension: [no-domain-VitalSigns-Observation-bloodpressure Profile](StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.md)
 * Examples for this Extension: [Observation/no-blood-pressure-create](Observation-no-blood-pressure-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsBloodpressureBodyPositionExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsBloodpressureBodyPositionExtension.json)
 
 ### Formal Views of Extension Content
 

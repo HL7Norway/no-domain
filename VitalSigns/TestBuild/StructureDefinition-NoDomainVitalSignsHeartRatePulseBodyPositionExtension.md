@@ -22,7 +22,7 @@ Record which Korotkoff sound is used for determining diastolic pressure using au
 * Use this Extension: [no-domain-VitalSigns-Observation-heartrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-heartrate.md) and [no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md)
 * Examples for this Extension: [Observation/no-heart-rate-create](Observation-no-heart-rate-create.md) and [Observation/no-pulse-rate](Observation-no-pulse-rate.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsHeartRatePulseBodyPositionExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsHeartRatePulseBodyPositionExtension.json)
 
 ### Formal Views of Extension Content
 

@@ -22,7 +22,7 @@ Narrative description about the pulse or heart beat.
 * Use this Extension: [no-domain-VitalSigns-Observation-heartrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-heartrate.md), [no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md) and [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
 * Examples for this Extension: [Observation/no-heart-rate-create](Observation-no-heart-rate-create.md), [Observation/no-pulse-rate](Observation-no-pulse-rate.md) and [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsClinicalDescriptionExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsClinicalDescriptionExtension.json)
 
 ### Formal Views of Extension Content
 

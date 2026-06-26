@@ -22,7 +22,7 @@ To record the body weight of an individual - both actual and approximate.
 
 * Examples for this Profile: [Observation/no-body-weight-create](Observation-no-body-weight-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-bodyweight)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.json)
 
 ### Formal Views of Profile Content
 

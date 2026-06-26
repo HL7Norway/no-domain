@@ -173,13 +173,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
-</div>
-<p>113011001 palpasjon</p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#results-from-swedish-fhir-hackathon-vitalis-2026" id="markdown-toc-results-from-swedish-fhir-hackathon-vitalis-2026">Results from Swedish FHIR HAckathon Vitalis 2026</a>    <ul>
+      <li><a href="#problems-solved" id="markdown-toc-problems-solved">Problems solved</a></li>
+      <li><a href="#problems-remainign" id="markdown-toc-problems-remainign">Problems remainign</a>        <ul>
+          <li><a href="#testing" id="markdown-toc-testing">Testing</a></li>
+          <li><a href="#error-code-from-qa-report" id="markdown-toc-error-code-from-qa-report">Error code from QA report</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
-<p>107261000202100 Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett
-Only norwegian</p>
+</div>
+<h1 id="results-from-swedish-fhir-hackathon-vitalis-2026">Results from Swedish FHIR HAckathon Vitalis 2026</h1>
+
+<h2 id="problems-solved">Problems solved</h2>
+
+<p>Terms are moving from Norwegian edition of SNOMED Norwegian edition to the international edition. This helps us to use these terms without error in expansion of valuesets containing those terms.</p>
+
+<h2 id="problems-remainign">Problems remainign</h2>
+
+<h3 id="testing">Testing</h3>
+
+<p>Made a <a href="https://hl7norway.github.io/no-domain/VitalSigns/TestBuild/ValueSet-NoDomainVitalSignsTestValueSet.html">test valueset containing a norwegian only code</a> (the SNOMED CT term is only present in the Norwegian edition of SNOMED CT. The term is available on the Nordic server AFAIK), this one leads to an error in the IG build process, reporting that this cannot be found.</p>
+
+<blockquote>
+  <p>The code '107261000202100' is not valid in the system http://snomed.info/sct version http://snomed.info/sct/51000202101 (107261000202100)</p>
+</blockquote>
+
+<ul>
+  <li>107261000202100 Helsedirektoratets liste over begrep for styrkeenhet enkelt referansesett</li>
+</ul>
+
+<h3 id="error-code-from-qa-report">Error code from QA report</h3>
+
+<p><a href="https://hl7norway.github.io/no-domain/VitalSigns/TestBuild/qa.html#_github_workspace_VitalSigns_fsh-generated_resources_ValueSet-NoDomainVitalSignsTestValueSet">Error message</a> from the QA report on building the FHIR IG with Norwegian only SNOMED CT term.</p>
+
 
 
 
@@ -199,7 +230,7 @@ Only norwegian</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.74 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 8, 2026 15:55+0000">2026-05-08</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.domain.vitalsigns#0.9.74 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 26, 2026 06:37+0000">2026-06-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

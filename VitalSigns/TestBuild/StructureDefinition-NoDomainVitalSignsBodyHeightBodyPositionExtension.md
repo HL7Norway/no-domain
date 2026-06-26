@@ -22,7 +22,7 @@ Position of individual when body height measured.
 * Use this Extension: [no-domain-VitalSigns-Observation-bodyheight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyheight.md)
 * Examples for this Extension: [Observation/no-body-height-create](Observation-no-body-height-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsBodyHeightBodyPositionExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsBodyHeightBodyPositionExtension.json)
 
 ### Formal Views of Extension Content
 

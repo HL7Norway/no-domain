@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/no-domain/vitalsigns/ImplementationGuide/hl7.fhir.no.domain.vitalsigns | *Version*:0.9.74 |
-| Draft as of 2026-05-08 | *Computable Name*:NoDomainVitalSigns |
+| Draft as of 2026-06-26 | *Computable Name*:NoDomainVitalSigns |
 
 ### About the Norwegian national vital signs profiles
 
@@ -65,7 +65,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
   "version" : "0.9.74",
   "name" : "NoDomainVitalSigns",
   "status" : "draft",
-  "date" : "2026-05-08T15:55:34+00:00",
+  "date" : "2026-06-26T06:37:03+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -92,7 +92,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.1.0"
+    "version" : "7.2.0"
   },
   {
     "id" : "hl7ext",
@@ -102,7 +102,7 @@ There are several known bugs and issues that are planned to be resovled in upcom
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -152,6 +152,28 @@ There are several known bugs and issues that are planned to be resovled in upcom
       {
         "url" : "value",
         "valueString" : "Parameters-expansion.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "language"
+      },
+      {
+        "url" : "value",
+        "valueString" : "no-NO"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "displayLanguage"
+      },
+      {
+        "url" : "value",
+        "valueString" : "nb-NO"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -459,6 +481,28 @@ There are several known bugs and issues that are planned to be resovled in upcom
       {
         "url" : "value",
         "valueString" : "Parameters-expansion.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "language"
+      },
+      {
+        "url" : "value",
+        "valueString" : "no-NO"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "displayLanguage"
+      },
+      {
+        "url" : "value",
+        "valueString" : "nb-NO"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

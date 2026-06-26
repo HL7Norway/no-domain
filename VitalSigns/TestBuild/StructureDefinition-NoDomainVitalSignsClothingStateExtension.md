@@ -22,7 +22,7 @@ Description of the state of dress of the person at the time of weighing.
 * Use this Extension: [no-domain-VitalSigns-Observation-bodyweight Profile](StructureDefinition-no-domain-VitalSigns-Observation-bodyweight.md)
 * Examples for this Extension: [Observation/no-body-weight-create](Observation-no-body-weight-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsClothingStateExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsClothingStateExtension.json)
 
 ### Formal Views of Extension Content
 

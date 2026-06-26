@@ -19,9 +19,9 @@ Record which Korotkoff sound is used for determining diastolic pressure using au
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* This Extension is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsDiastolicEndPointExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsDiastolicEndPointExtension.json)
 
 ### Formal Views of Extension Content
 

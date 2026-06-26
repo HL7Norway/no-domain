@@ -22,7 +22,7 @@ The regularity of spontaneous breathing.
 * Use this Extension: [no-domain-VitalSigns-Observation-respirationrate Profile](StructureDefinition-no-domain-VitalSigns-Observation-respirationrate.md)
 * Examples for this Extension: [Observation/no-respiratory-rate-create](Observation-no-respiratory-rate-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsRespirationRegularityExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsRespirationRegularityExtension.json)
 
 ### Formal Views of Extension Content
 

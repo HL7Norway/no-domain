@@ -22,7 +22,7 @@ To record the systemic arterial blood pressure of an individual.
 
 * Examples for this Profile: [Observation/no-blood-pressure-create](Observation-no-blood-pressure-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/no-domain-VitalSigns-Observation-bloodpressure)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-no-domain-VitalSigns-Observation-bloodpressure.json)
 
 ### Formal Views of Profile Content
 

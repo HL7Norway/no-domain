@@ -22,7 +22,7 @@ Regularity of the pulse
 * Use this Extension: [no-domain-VitalSigns-Observation-pulse Profile](StructureDefinition-no-domain-VitalSigns-Observation-pulse.md)
 * Examples for this Extension: [Observation/no-pulse-rate](Observation-no-pulse-rate.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/NoDomainVitalSignsPulseRhythmExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.domain.vitalsigns|current/StructureDefinition/StructureDefinition-NoDomainVitalSignsPulseRhythmExtension.json)
 
 ### Formal Views of Extension Content
 
